@@ -1,0 +1,3645 @@
+[
+  {
+    "name": "Animation",
+    "fullName": "Tizen.UI.Animation",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single CurrentProgress { get; }",
+      "public Int32 Duration { get; set; }",
+      "public AnimationEndAction EndAction { get; set; }",
+      "public Boolean IsLoop { get; set; }",
+      "public Single ProgressReachedTarget { get; set; }",
+      "public AnimationState State { get; }"
+    ],
+    "events": [
+      "public event EventHandler Finished",
+      "public event EventHandler ProgressReached"
+    ]
+  },
+  {
+    "name": "FocusManager",
+    "fullName": "Tizen.UI.FocusManager",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public FocusManager Instance { get; }"
+    ],
+    "events": [
+      "public event EventHandler<FocusChangedEventArgs> FocusChanged"
+    ]
+  },
+  {
+    "name": "FontClient",
+    "fullName": "Tizen.UI.FontClient",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public FontClient Instance { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Gesture",
+    "fullName": "Tizen.UI.Gesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public GestureSource Source { get; }",
+      "public GestureSourceData SourceData { get; }",
+      "public GestureState State { get; }",
+      "public UInt32 Time { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "HoverEvent",
+    "fullName": "Tizen.UI.HoverEvent",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Int32 Count { get; }",
+      "public Hover Item { get; }",
+      "public UInt32 Time { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ImageView",
+    "fullName": "Tizen.UI.ImageView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.IImage"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public String AlphaMaskUrl { get; set; }",
+      "public Thickness Border { get; set; }",
+      "public Boolean CropToMask { get; set; }",
+      "public FittingMode FittingMode { get; set; }",
+      "public Boolean ImageLoadWithViewSize { get; set; }",
+      "public Color ImageMultipliedColor { get; set; }",
+      "public Boolean IsNinePatchImage { get; set; }",
+      "public Boolean IsResourceReady { get; }",
+      "public String LoadingPlaceholderUrl { get; set; }",
+      "public ImageLoadingStatus LoadingStatus { get; }",
+      "public Boolean PreMultipliedAlpha { get; set; }",
+      "public String ResourceUrl { get; set; }",
+      "public Boolean SynchronousLoading { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler ResourcesLoaded"
+    ]
+  },
+  {
+    "name": "InputMethodContext",
+    "fullName": "Tizen.UI.InputMethodContext",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Rect InputMethodArea { get; }",
+      "public InputPanelState InputPanelState { get; }",
+      "public Boolean TextPrediction { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler InputPanelStateChanged",
+      "public event EventHandler Resized"
+    ]
+  },
+  {
+    "name": "InputView",
+    "fullName": "Tizen.UI.InputView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.IFontSizeScale",
+      "Tizen.UI.IText",
+      "Tizen.UI.ITextAlignment",
+      "Tizen.UI.ITextEditable",
+      "Tizen.UI.ITextPadding"
+    ],
+    "constructors": [],
+    "properties": [
+      "public Int32 CursorWidth { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public InputMethodContext InputMethodContext { get; }",
+      "public Boolean IsMarkupEnabled { get; set; }",
+      "public Boolean IsReadOnly { get; set; }",
+      "public Int32 MaxLength { get; set; }",
+      "public String PlaceholderText { get; set; }",
+      "public Color PlaceholderTextColor { get; set; }",
+      "public Color PrimaryCursorColor { get; set; }",
+      "public Int32 PrimaryCursorPosition { get; set; }",
+      "public Single ScaledFontSize { get; }",
+      "public Boolean SystemFontScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AnchorClickedEventArgs> AnchorClicked",
+      "public event EventHandler MaxLengthReached",
+      "public event EventHandler TextChanged"
+    ]
+  },
+  {
+    "name": "KeyEvent",
+    "fullName": "Tizen.UI.KeyEvent",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public KeyDeviceClass DeviceClass { get; }",
+      "public String DeviceName { get; }",
+      "public KeyDeviceSubClass DeviceSubClass { get; }",
+      "public Boolean IsAltModifier { get; }",
+      "public Boolean IsCtrlModifier { get; }",
+      "public Boolean IsShiftModifier { get; }",
+      "public Int32 KeyCode { get; set; }",
+      "public Int32 KeyModifier { get; set; }",
+      "public String KeyPressedName { get; set; }",
+      "public String LogicalKey { get; }",
+      "public KeyState State { get; set; }",
+      "public UInt32 Time { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Layer",
+    "fullName": "Tizen.UI.Layer",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [
+      "Tizen.UI.IParentObject"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public ResizePolicy HeightResizePolicy { get; set; }",
+      "public Boolean InheritLayoutDirection { get; set; }",
+      "public Boolean IsVisible { get; set; }",
+      "public View Item { get; set; }",
+      "public LayoutDirection LayoutDirection { get; set; }",
+      "public String Name { get; set; }",
+      "public ResizePolicy WidthResizePolicy { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "LongPressGesture",
+    "fullName": "Tizen.UI.LongPressGesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.Gesture",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Int32 NumberOfTouches { get; }",
+      "public Point Position { get; }",
+      "public Point ScreenPosition { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "LongPressGestureDetector",
+    "fullName": "Tizen.UI.LongPressGestureDetector",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.GestureDetector",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [],
+    "events": [
+      "public event EventHandler<LongPressGestureDetectedEventArgs> Detected"
+    ]
+  },
+  {
+    "name": "LottieAnimationView",
+    "fullName": "Tizen.UI.LottieAnimationView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.ImageView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Int32 CurrentFrame { get; set; }",
+      "public Boolean Loop { get; set; }",
+      "public AnimationState PlayState { get; }",
+      "public Int32 RepeatCount { get; set; }",
+      "public AnimationRepeatMode RepeatMode { get; set; }",
+      "public AnimationStopBehavior StopBehavior { get; set; }",
+      "public Int32 TotalFrame { get; }"
+    ],
+    "events": [
+      "public event EventHandler Finished"
+    ]
+  },
+  {
+    "name": "NObject",
+    "fullName": "Tizen.UI.NObject",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "System.Object",
+    "interfaces": [
+      "System.IDisposable"
+    ],
+    "constructors": [],
+    "properties": [
+      "public IntPtr Handle { get; }",
+      "public Boolean HasOwnership { get; set; }",
+      "public Boolean IsDisposed { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PanGesture",
+    "fullName": "Tizen.UI.PanGesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.Gesture",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Point Displacement { get; }",
+      "public Int32 NumberOfTouches { get; }",
+      "public Point Position { get; }",
+      "public Point ScreenDisplacement { get; }",
+      "public Point ScreenPosition { get; }",
+      "public Point ScreenVelocity { get; }",
+      "public Point Velocity { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PanGestureDetector",
+    "fullName": "Tizen.UI.PanGestureDetector",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.GestureDetector",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public PanGestureDirection Direction { get; set; }",
+      "public Int32 MaximumTouchesRequired { get; set; }",
+      "public Int32 MinimumTouchesRequired { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<PanGestureDetectedEventArgs> Detected"
+    ]
+  },
+  {
+    "name": "PinchGesture",
+    "fullName": "Tizen.UI.PinchGesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.Gesture",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Point Center { get; }",
+      "public Single Scale { get; }",
+      "public Point ScreenCenter { get; }",
+      "public Single Speed { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PinchGestureDetector",
+    "fullName": "Tizen.UI.PinchGestureDetector",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.GestureDetector",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [],
+    "events": [
+      "public event EventHandler<PinchGestureDetectedEventArgs> Detected"
+    ]
+  },
+  {
+    "name": "PixelBuffer",
+    "fullName": "Tizen.UI.PixelBuffer",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Int32 width, Int32 height, PixelFormat pixelFormat)"
+    ],
+    "properties": [
+      "public Int32 Height { get; }",
+      "public PixelFormat PixelFormat { get; }",
+      "public Int32 Width { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PixelData",
+    "fullName": "Tizen.UI.PixelData",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Byte[] buffer, Int32 width, Int32 height, PixelFormat pixelFormat)"
+    ],
+    "properties": [
+      "public UInt32 Height { get; }",
+      "public PixelFormat PixelFormat { get; }",
+      "public UInt32 Width { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RotationGesture",
+    "fullName": "Tizen.UI.RotationGesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.Gesture",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Point Center { get; }",
+      "public Single Rotation { get; }",
+      "public Point ScreenCenter { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RotationGestureDetector",
+    "fullName": "Tizen.UI.RotationGestureDetector",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.GestureDetector",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [],
+    "events": [
+      "public event EventHandler<RotationGestureDetectedEventArgs> Detected"
+    ]
+  },
+  {
+    "name": "TapGesture",
+    "fullName": "Tizen.UI.TapGesture",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.Gesture",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Int32 NumberOfTaps { get; }",
+      "public Point Position { get; }",
+      "public Point ScreenPosition { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TapGestureDetector",
+    "fullName": "Tizen.UI.TapGestureDetector",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.GestureDetector",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(Int32 tapsRequired)"
+    ],
+    "properties": [
+      "public Int32 MaximumTapsRequired { get; set; }",
+      "public Int32 MinimumTapsRequired { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<TapGestureDetectedEventArgs> Detected"
+    ]
+  },
+  {
+    "name": "TextEditor",
+    "fullName": "Tizen.UI.TextEditor",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.InputView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsAbsoluteLineHeight { get; set; }",
+      "public Single LineHeight { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TextField",
+    "fullName": "Tizen.UI.TextField",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.InputView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsPassword { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TextView",
+    "fullName": "Tizen.UI.TextView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.IFontSizeScale",
+      "Tizen.UI.IText",
+      "Tizen.UI.ITextAlignment",
+      "Tizen.UI.ITextFormatting",
+      "Tizen.UI.ITextPadding"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single AutoAdjustedFontSize { get; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Boolean IsAbsoluteLineHeight { get; set; }",
+      "public Boolean IsMarkupEnabled { get; set; }",
+      "public Boolean IsMultiline { get; set; }",
+      "public Boolean IsTextCutout { get; set; }",
+      "public Boolean IsTextScrolling { get; }",
+      "public LineBreakMode LineBreakMode { get; set; }",
+      "public Int32 LineCount { get; }",
+      "public Single LineHeight { get; set; }",
+      "public Single ScaledFontSize { get; }",
+      "public Boolean SystemFontScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AnchorClickedEventArgs> AnchorClicked",
+      "public event EventHandler FontSizeAdjusted"
+    ]
+  },
+  {
+    "name": "Timer",
+    "fullName": "Tizen.UI.Timer",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(UInt32 millisec)"
+    ],
+    "properties": [
+      "public UInt32 Interval { get; set; }",
+      "public Boolean IsRunning { get; }",
+      "public Func<Boolean> TickHandler { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TouchEvent",
+    "fullName": "Tizen.UI.TouchEvent",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Int32 Count { get; }",
+      "public Touch Item { get; }",
+      "public UInt32 Time { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TouchPoint",
+    "fullName": "Tizen.UI.TouchPoint",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Int32 deviceId, TouchState state, Single screenX, Single screenY)"
+    ],
+    "properties": [
+      "public Int32 DeviceId { get; set; }",
+      "public View HitView { get; set; }",
+      "public Point Position { get; set; }",
+      "public Point ScreenPosition { get; set; }",
+      "public TouchState State { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "VideoOverlayView",
+    "fullName": "Tizen.UI.VideoOverlayView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Rect DisplayArea { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "View",
+    "fullName": "Tizen.UI.View",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public String AccessibilityDescription { get; set; }",
+      "public Boolean AccessibilityHidden { get; set; }",
+      "public Boolean AccessibilityHighlightable { get; set; }",
+      "public String AccessibilityName { get; set; }",
+      "public AccessibilityRole AccessibilityRole { get; set; }",
+      "public String AccessibilityValue { get; set; }",
+      "public String AutomationId { get; set; }",
+      "public Color BackgroundColor { get; set; }",
+      "public Color BorderlineColor { get; set; }",
+      "public Single BorderlineOffset { get; set; }",
+      "public Single BorderlineWidth { get; set; }",
+      "public Rect Bounds { get; }",
+      "public ClippingMode ClippingMode { get; set; }",
+      "public CornerRadius CornerRadius { get; set; }",
+      "public Single CurrentOpacity { get; }",
+      "public Point CurrentPosition { get; }",
+      "public Size CurrentScale { get; }",
+      "public Point CurrentScreenPosition { get; }",
+      "public Size CurrentSize { get; }",
+      "public Single DesiredHeight { get; set; }",
+      "public Single DesiredWidth { get; set; }",
+      "public Boolean DisallowInterceptTouchEvent { get; set; }",
+      "public View DownFocusableView { get; set; }",
+      "public Boolean Focusable { get; set; }",
+      "public Boolean FocusableChildren { get; set; }",
+      "public Boolean FocusableInTouch { get; set; }",
+      "public Single Height { get; set; }",
+      "public ResizePolicy HeightResizePolicy { get; set; }",
+      "public UInt32 ID { get; }",
+      "public Boolean InheritLayoutDirection { get; set; }",
+      "public Boolean IsEnabled { get; set; }",
+      "public Boolean IsOnWindow { get; }",
+      "public Boolean IsVisible { get; set; }",
+      "public View Item { get; }",
+      "public LayoutDirection LayoutDirection { get; set; }",
+      "public View LeftFocusableView { get; set; }",
+      "public Color MultipliedColor { get; set; }",
+      "public String Name { get; set; }",
+      "public Size NaturalSize { get; }",
+      "public OffScreenRendering OffScreenRendering { get; set; }",
+      "public Single Opacity { get; set; }",
+      "public View Parent { get; }",
+      "public NObject ParentObject { get; }",
+      "public Point ParentOrigin { get; set; }",
+      "public Single ParentOriginX { get; set; }",
+      "public Single ParentOriginY { get; set; }",
+      "public Point PivotPoint { get; set; }",
+      "public Single PivotPointX { get; set; }",
+      "public Single PivotPointY { get; set; }",
+      "public Boolean PositionUsesPivotPoint { get; set; }",
+      "public View RightFocusableView { get; set; }",
+      "public Single Rotation { get; set; }",
+      "public Single RotationX { get; set; }",
+      "public Single RotationY { get; set; }",
+      "public Single ScaleX { get; set; }",
+      "public Single ScaleY { get; set; }",
+      "public Point ScreenPosition { get; }",
+      "public Boolean Sensitive { get; set; }",
+      "public Thickness TouchEdgeInsets { get; set; }",
+      "public View UpFocusableView { get; set; }",
+      "public Single Width { get; set; }",
+      "public ResizePolicy WidthResizePolicy { get; set; }",
+      "public Size WorldScale { get; }",
+      "public Single X { get; set; }",
+      "public Single Y { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AccessibilityActionReceivedEventArgs> AccessibilityActionReceived",
+      "public event EventHandler<AccessibilityDescriptionRequestedEventArgs> AccessibilityDescriptionRequested",
+      "public event EventHandler<AccessibilityHighlightChangedEventArgs> AccessibilityHighlightChanged",
+      "public event EventHandler<AccessibilityNameRequestedEventArgs> AccessibilityNameRequested",
+      "public event EventHandler AttachedToWindow",
+      "public event EventHandler DetachedFromWindow",
+      "public event EventHandler Disposing",
+      "public event EventHandler EnabledChanged",
+      "public event EventHandler Focused",
+      "public event EventHandler<HoverEventArgs> HoverEvent",
+      "public event EventHandler<TouchEventArgs> InterceptTouchEvent",
+      "public event EventHandler<WheelEventArgs> InterceptWheelEvent",
+      "public event EventHandler<KeyEventArgs> KeyEvent",
+      "public event EventHandler LayoutDirectionChanged",
+      "public event EventHandler MeasureInvalidated",
+      "public event EventHandler Relayout",
+      "public event EventHandler<TokenPropertyChangedEventArgs> TokenPropertyChanged",
+      "public event EventHandler<TouchEventArgs> TouchEvent",
+      "public event EventHandler Unfocused",
+      "public event EventHandler<VisibilityChangedEventArgs> VisibilityChanged",
+      "public event EventHandler<WheelEventArgs> WheelEvent"
+    ]
+  },
+  {
+    "name": "ViewGroup",
+    "fullName": "Tizen.UI.ViewGroup",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.IParentObject"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public View Item { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "WebView",
+    "fullName": "Tizen.UI.WebView",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.View",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean CanGoBack { get; }",
+      "public Boolean CanGoForward { get; }",
+      "public WebViewSource Source { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<WebNavigationEventArgs> NavigationCompleted",
+      "public event EventHandler<WebNavigationEventArgs> NavigationStarted"
+    ]
+  },
+  {
+    "name": "WheelEvent",
+    "fullName": "Tizen.UI.WheelEvent",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Int32 Delta { get; }",
+      "public WheelDirection Direction { get; }",
+      "public Boolean IsAltModifier { get; }",
+      "public Boolean IsCtrlModifier { get; }",
+      "public Boolean IsShiftModifier { get; }",
+      "public UInt32 Modifier { get; }",
+      "public Point Position { get; }",
+      "public UInt32 Time { get; }",
+      "public WheelType WheelType { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Window",
+    "fullName": "Tizen.UI.Window",
+    "namespace": "Tizen.UI",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [
+      "Tizen.Common.IWindowProvider"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(String name)",
+      ".ctor(String name, Boolean isTranslucent)"
+    ],
+    "properties": [
+      "public Thickness BorderArea { get; set; }",
+      "public Window Default { get; set; }",
+      "public Layer DefaultLayer { get; }",
+      "public Int32 DPI { get; }",
+      "public Boolean IsAlwaysOnTop { get; set; }",
+      "public Boolean IsMaximized { get; }",
+      "public Boolean IsMinimized { get; }",
+      "public Boolean IsModal { get; set; }",
+      "public Boolean IsVisible { get; }",
+      "public IReadOnlyList<Layer> Layers { get; }",
+      "public String Title { get; set; }",
+      "public WindowType WindowType { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<WindowFocusChangedEventArgs> FocusChanged",
+      "public event EventHandler<HoverEventArgs> HoverEvent",
+      "public event EventHandler<TouchEventArgs> InterceptTouchEvent",
+      "public event EventHandler<WheelEventArgs> InterceptWheelEvent",
+      "public event EventHandler<KeyEventArgs> KeyEvent",
+      "public event EventHandler Moved",
+      "public event EventHandler Resized",
+      "public event EventHandler<TouchEventArgs> TouchEvent",
+      "public event EventHandler VisibilityChanged",
+      "public event EventHandler<WheelEventArgs> WheelEvent"
+    ]
+  },
+  {
+    "name": "DaliNativeApp",
+    "fullName": "Tizen.UI.Internal.DaliNativeApp",
+    "namespace": "Tizen.UI.Internal",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String[] args, WindowMode windowMode, Rect windowBounds, Boolean useTask)"
+    ],
+    "properties": [
+      "public Action<IntPtr> AppControlHandler { get; set; }",
+      "public Action<Int32> BatteryLowHandler { get; set; }",
+      "public Action CreatedHandler { get; set; }",
+      "public DaliNativeApp Current { get; set; }",
+      "public Action<Int32> DeviceOrientationChangedHandler { get; set; }",
+      "public Action<String> LanguageChangedHandler { get; set; }",
+      "public Action<Int32> MemoryLowHandler { get; set; }",
+      "public Action PausedHandler { get; set; }",
+      "public Action<String> RegionChangedHandler { get; set; }",
+      "public Action ResumedHandler { get; set; }",
+      "public Action TerminatedHandler { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Geometry",
+    "fullName": "Tizen.UI.Internal.Geometry",
+    "namespace": "Tizen.UI.Internal",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public GeometryType GeometryType { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ProcessorController",
+    "fullName": "Tizen.UI.Internal.ProcessorController",
+    "namespace": "Tizen.UI.Internal",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public ProcessorController Instance { get; }",
+      "public Boolean IsOnProcess { get; set; }",
+      "public Boolean IsOnRelayout { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler LayoutIteration",
+      "public event EventHandler LayoutIterationOnce"
+    ]
+  },
+  {
+    "name": "Renderer",
+    "fullName": "Tizen.UI.Internal.Renderer",
+    "namespace": "Tizen.UI.Internal",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Geometry geometry, Shader shader)"
+    ],
+    "properties": [
+      "public Color BlendColor { get; set; }",
+      "public BlendEquationType BlendEquationAlpha { get; set; }",
+      "public BlendEquationType BlendEquationRgb { get; set; }",
+      "public BlendFactorType BlendFactorDestAlpha { get; set; }",
+      "public BlendFactorType BlendFactorDestRgb { get; set; }",
+      "public BlendFactorType BlendFactorSrcAlpha { get; set; }",
+      "public BlendFactorType BlendFactorSrcRgb { get; set; }",
+      "public BlendModeType BlendMode { get; set; }",
+      "public Boolean BlendPreMultipliedAlpha { get; set; }",
+      "public DepthFunctionType DepthFunction { get; set; }",
+      "public Int32 DepthIndex { get; set; }",
+      "public DepthTestModeType DepthTestMode { get; set; }",
+      "public DepthWriteModeType DepthWriteMode { get; set; }",
+      "public FaceCullingModeType FaceCullingMode { get; set; }",
+      "public Int32 IndexRangeCount { get; set; }",
+      "public Int32 IndexRangeFirst { get; set; }",
+      "public StencilOperationType InternalStencilOperationOnZFail { get; set; }",
+      "public RenderModeType RenderMode { get; set; }",
+      "public StencilFunctionType StencilFunction { get; set; }",
+      "public Int32 StencilFunctionReference { get; set; }",
+      "public Int32 StencilMask { get; set; }",
+      "public StencilOperationType StencilOperationOnFail { get; set; }",
+      "public StencilOperationType StencilOperationOnZPass { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RenderPropertyNotification",
+    "fullName": "Tizen.UI.Internal.RenderPropertyNotification",
+    "namespace": "Tizen.UI.Internal",
+    "package": "Tizen.UI",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Action UpdateAction { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Clickable",
+    "fullName": "Tizen.UI.Components.Clickable",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Pressable",
+    "interfaces": [
+      "Tizen.UI.Components.IClickable"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IClickableVariables variables)"
+    ],
+    "properties": [
+      "public Action<Object, InputEventArgs> ClickedCommand { get; set; }",
+      "public ClickKeyType ClickKeyType { get; set; }",
+      "public Boolean IsClickable { get; set; }",
+      "public Action<Object, InputEventArgs> LongPressedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<InputEventArgs> Clicked",
+      "public event EventHandler<InputEventArgs> LongPressed"
+    ]
+  },
+  {
+    "name": "ClickableBox",
+    "fullName": "Tizen.UI.Components.ClickableBox",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ILayoutBox"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public View Item { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ClickableGrid",
+    "fullName": "Tizen.UI.Components.ClickableGrid",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.ClickableBox",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<GridColumnDefinition> ColumnDefinitions { get; set; }",
+      "public Single ColumnSpacing { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public IList<GridRowDefinition> RowDefinitions { get; set; }",
+      "public Single RowSpacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ClickableHStack",
+    "fullName": "Tizen.UI.Components.ClickableHStack",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.ClickableBox",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public LayoutAlignment ItemAlignment { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ClickableVStack",
+    "fullName": "Tizen.UI.Components.ClickableVStack",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.ClickableBox",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public LayoutAlignment ItemAlignment { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "GroupSelectable",
+    "fullName": "Tizen.UI.Components.GroupSelectable",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Selectable",
+    "interfaces": [
+      "Tizen.UI.Components.IGroupSelectable",
+      "Tizen.UI.Components.ISelectable"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IClickableVariables variables)"
+    ],
+    "properties": [
+      "public SelectionGroup Group { get; }",
+      "public String GroupName { get; set; }",
+      "public Boolean IsGrouped { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "GroupSelectableBox",
+    "fullName": "Tizen.UI.Components.GroupSelectableBox",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.GroupSelectable",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ILayoutBox"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public View Item { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "InteractiveProgress",
+    "fullName": "Tizen.UI.Components.InteractiveProgress",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Pressable",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single minimumValue, Single maximumValue)"
+    ],
+    "properties": [
+      "public Boolean IgnoreTap { get; set; }",
+      "public Boolean IgnoreTouchDown { get; set; }",
+      "public ClosedRange<Single> Range { get; set; }",
+      "public Boolean UseRelativeTouchPoint { get; set; }",
+      "public Single Value { get; set; }",
+      "public Boolean ValueChanging { get; }",
+      "public Int32 ValueStepCount { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<InputEventArgs> ValueChanged",
+      "public event EventHandler<InputEventArgs> ValueChangeFinished",
+      "public event EventHandler<InputEventArgs> ValueChangeStarted"
+    ]
+  },
+  {
+    "name": "Navigator",
+    "fullName": "Tizen.UI.Components.Navigator",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.INavigateBackHandler",
+      "Tizen.UI.Components.INavigation",
+      "Tizen.UI.Components.INavigationAnimation",
+      "Tizen.UI.Components.INavigationTransition"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public View CurrentView { get; }",
+      "public IReadOnlyList<View> ModalStack { get; }",
+      "public IReadOnlyList<View> NavigationStack { get; }",
+      "public Func<View, View, INavigationAnimationController> PopAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PopModalAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PushAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PushModalAnimation { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Pressable",
+    "fullName": "Tizen.UI.Components.Pressable",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.IPressable",
+      "Tizen.UI.Components.ITouchEffectTarget"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsPressed { get; set; }",
+      "public Action<Object, InputEventArgs> PressedChangedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<InputEventArgs> PressedChanged"
+    ]
+  },
+  {
+    "name": "PressableBox",
+    "fullName": "Tizen.UI.Components.PressableBox",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Pressable",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ILayoutBox"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public View Item { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Progress",
+    "fullName": "Tizen.UI.Components.Progress",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single minimumValue, Single maximumValue)"
+    ],
+    "properties": [
+      "public Boolean IsDeterminate { get; set; }",
+      "public ClosedRange<Single> Range { get; set; }",
+      "public Single Value { get; set; }",
+      "public Int32 ValueStepCount { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler ValueChanged"
+    ]
+  },
+  {
+    "name": "ScaffoldBase",
+    "fullName": "Tizen.UI.Components.ScaffoldBase",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public View FloatingActionButton { get; set; }",
+      "public Point FloatingOffset { get; set; }",
+      "public FloatingOrigin FloatingOrigin { get; set; }",
+      "public Boolean HasIndicatorArea { get; set; }",
+      "public Boolean HasNavigationBarArea { get; set; }",
+      "public Color IndicatorAreaColor { get; set; }",
+      "public IColorProvider IndicatorAreaColorProvider { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Scrollable",
+    "fullName": "Tizen.UI.Components.Scrollable",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Layouts.Layout",
+    "interfaces": [
+      "Tizen.UI.IDescendantFocusObserver",
+      "Tizen.UI.IScrollable"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean CanScrollHorizontally { get; }",
+      "public Boolean CanScrollVertically { get; }",
+      "public View Content { get; set; }",
+      "public IEdgeEffect HorizontalEdgeEffect { get; set; }",
+      "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }",
+      "public Boolean IsScrolledToEnd { get; }",
+      "public Boolean IsScrolledToStart { get; }",
+      "public Boolean IsScrolling { get; set; }",
+      "public OverScrollMode OverScrollMode { get; set; }",
+      "public Single ScrollableHeight { get; }",
+      "public Single ScrollableWidth { get; }",
+      "public IScrollBar ScrollBar { get; set; }",
+      "public ScrollDirection ScrollDirection { get; set; }",
+      "public Func<Point, Point> ScrollingDestinationHandler { get; set; }",
+      "public Point ScrollPosition { get; }",
+      "public Size ScrollSize { get; set; }",
+      "public IEdgeEffect VerticalEdgeEffect { get; set; }",
+      "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }",
+      "public Rect ViewPort { get; }"
+    ],
+    "events": [
+      "public event EventHandler<DragEventArgs> DragFinished",
+      "public event EventHandler<DragEventArgs> Dragging",
+      "public event EventHandler<DragEventArgs> DragStarted",
+      "public event EventHandler<ScrollEventArgs> ScrollFinished",
+      "public event EventHandler<ScrollEventArgs> Scrolling",
+      "public event EventHandler<ScrollEventArgs> ScrollStarted"
+    ]
+  },
+  {
+    "name": "ScrollBarBase",
+    "fullName": "Tizen.UI.Components.ScrollBarBase",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "System.IDisposable",
+      "Tizen.UI.IScrollBar"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Color BarColor { get; set; }",
+      "public CornerRadius BarCornerRadius { get; set; }",
+      "public Thickness BarMargin { get; set; }",
+      "public Single BarMinSize { get; set; }",
+      "public Shadow BarShadow { get; set; }",
+      "public Single BarThickness { get; set; }",
+      "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }",
+      "public Point ScrollPosition { get; set; }",
+      "public View Target { get; }",
+      "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Selectable",
+    "fullName": "Tizen.UI.Components.Selectable",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [
+      "Tizen.UI.Components.ISelectable"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IClickableVariables variables)"
+    ],
+    "properties": [
+      "public Boolean IsSelectable { get; set; }",
+      "public Boolean IsSelected { get; set; }",
+      "public Action<Object, InputEventArgs> SelectedChangedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<InputEventArgs> SelectedChanged"
+    ]
+  },
+  {
+    "name": "SelectableBox",
+    "fullName": "Tizen.UI.Components.SelectableBox",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.Selectable",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ILayoutBox"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public View Item { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SelectableHStack",
+    "fullName": "Tizen.UI.Components.SelectableHStack",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.SelectableBox",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public LayoutAlignment ItemAlignment { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SelectableVStack",
+    "fullName": "Tizen.UI.Components.SelectableVStack",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.Components.SelectableBox",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public LayoutAlignment ItemAlignment { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SelectionGroupBox`1",
+    "fullName": "Tizen.UI.Components.SelectionGroupBox`1",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<T>",
+      "System.Collections.Generic.IEnumerable`1<T>",
+      "System.Collections.Generic.IList`1<T>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ILayoutBox",
+      "Tizen.UI.Components.ISelectionGroup"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean EmptySelectionAllowed { get; set; }",
+      "public Boolean IsReadOnly { get; }",
+      "public T Item { get; set; }",
+      "public Action<Object, SelectionGroupItemClickedEventArgs> ItemClickedCommand { get; set; }",
+      "public ICollection<T> Items { get; }",
+      "public Thickness Padding { get; set; }",
+      "public Int32 SelectedIndex { get; }",
+      "public T SelectedItem { get; }",
+      "public Action<Object, GroupSelectionChangedEventArgs> SelectionChangedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<SelectionGroupItemClickedEventArgs> ItemClicked",
+      "public event EventHandler<GroupSelectionChangedEventArgs> SelectionChanged"
+    ]
+  },
+  {
+    "name": "TimeCounter",
+    "fullName": "Tizen.UI.Components.TimeCounter",
+    "namespace": "Tizen.UI.Components",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(Int32 totalTimeInMilliseconds)"
+    ],
+    "properties": [
+      "public Boolean IsWarning { get; set; }",
+      "public Int32 RemainingTime { get; set; }",
+      "public Int32 TotalTime { get; set; }",
+      "public Int32 WarningTime { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler RemainingTimeChanged",
+      "public event EventHandler WarningChanged"
+    ]
+  },
+  {
+    "name": "RecyclerView",
+    "fullName": "Tizen.UI.Components.Recycler.RecyclerView",
+    "namespace": "Tizen.UI.Components.Recycler",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "Tizen.UI.IDescendantFocusObserver",
+      "Tizen.UI.IScrollable"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Adapter Adapter { get; set; }",
+      "public Boolean HasSticky { get; set; }",
+      "public IEdgeEffect HorizontalEdgeEffect { get; set; }",
+      "public RecycleScroller InnerScroller { get; }",
+      "public StickyArea InnerStickArea { get; }",
+      "public Boolean IsScrolledToEnd { get; }",
+      "public Boolean IsScrolledToStart { get; }",
+      "public Boolean IsScrolling { get; set; }",
+      "public IList<IItemDecoration> ItemDecorations { get; }",
+      "public Rect LastViewPort { get; set; }",
+      "public LayoutManager LayoutManager { get; set; }",
+      "public OverScrollMode OverScrollMode { get; set; }",
+      "public Single PrefetchBaseSize { get; set; }",
+      "public Int32 RecycledPoolSize { get; set; }",
+      "public ScrollDirection ScrollDirection { get; }",
+      "public Point ScrollPosition { get; }",
+      "public Boolean StickyCandidateVisible { get; set; }",
+      "public IEdgeEffect VerticalEdgeEffect { get; set; }",
+      "public Rect ViewPort { get; }"
+    ],
+    "events": [
+      "public event EventHandler<DragEventArgs> DragFinished",
+      "public event EventHandler<DragEventArgs> Dragging",
+      "public event EventHandler<DragEventArgs> DragStarted",
+      "public event EventHandler<ScrollEventArgs> ScrollCanceled",
+      "public event EventHandler<ScrollEventArgs> ScrollFinished",
+      "public event EventHandler<ScrollEventArgs> Scrolling",
+      "public event EventHandler<ScrollEventArgs> ScrollStarted"
+    ]
+  },
+  {
+    "name": "RecycleScroller",
+    "fullName": "Tizen.UI.Components.Recycler.RecycleScroller",
+    "namespace": "Tizen.UI.Components.Recycler",
+    "package": "Tizen.UI.Components",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(RecyclerView recyclerView)"
+    ],
+    "properties": [
+      "public Rect CurrentViewPort { get; }",
+      "public Boolean IsScrollAnimationStarted { get; set; }",
+      "public IList<View> RecycleBody { get; }",
+      "public Single ScrollX { get; }",
+      "public Single ScrollY { get; }",
+      "public Rect ViewPort { get; }"
+    ],
+    "events": [
+      "public event EventHandler ScrollAnimationCanceled",
+      "public event EventHandler ScrollAnimationFinished",
+      "public event EventHandler ScrollAnimationStarted",
+      "public event EventHandler<ScrollEventArgs> Scrolling"
+    ]
+  },
+  {
+    "name": "AdapterView",
+    "fullName": "Tizen.UI.Components.Material.AdapterView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Thickness InnerMargin { get; set; }",
+      "public IList<IItemDecoration> ItemDecorations { get; }",
+      "public IEnumerable ItemsSource { get; set; }",
+      "public ViewTemplate ItemTemplate { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Single PrefetchBaseSize { get; set; }",
+      "public ScrollBarVisibility ScrollBarVisibility { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<DragEventArgs> DragFinished",
+      "public event EventHandler<DragEventArgs> Dragging",
+      "public event EventHandler<DragEventArgs> DragStarted",
+      "public event EventHandler<ScrollEventArgs> ScrollFinished",
+      "public event EventHandler<ScrollEventArgs> Scrolling",
+      "public event EventHandler<ScrollEventArgs> ScrollStarted"
+    ]
+  },
+  {
+    "name": "AlertDialog",
+    "fullName": "Tizen.UI.Components.Material.AlertDialog",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.Dialog",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(AlertDialogVariables variables)"
+    ],
+    "properties": [
+      "public String Message { get; set; }",
+      "public String Title { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "AnimatedImage",
+    "fullName": "Tizen.UI.Components.Material.AnimatedImage",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.Image",
+    "interfaces": [
+      "Tizen.UI.Components.IAnimatedImage"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(String resourceUrl)",
+      ".ctor(IEnumerable<String> sequentialResourceUrls, Int32 preloadingBatchSize, Int32 cacheSize)"
+    ],
+    "properties": [
+      "public Int32 CurrentFrame { get; set; }",
+      "public Single FrameSpeedFactor { get; set; }",
+      "public Boolean IsLooping { get; set; }",
+      "public Int32 RepeatCount { get; set; }",
+      "public AnimationRepeatMode RepeatMode { get; set; }",
+      "public AnimationStopBehavior StopBehavior { get; set; }",
+      "public Int32 TotalFrame { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "AppBar",
+    "fullName": "Tizen.UI.Components.Material.AppBar",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.IColorProvider",
+      "Tizen.UI.Components.ITitle"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(AppBarVariables variables)",
+      ".ctor(Boolean useUniformedContentColor, AppBarVariables variables)"
+    ],
+    "properties": [
+      "public IList<View> ActionButtons { get; }",
+      "public Color DominantColor { get; set; }",
+      "public View Leading { get; set; }",
+      "public String Title { get; set; }",
+      "public View TitleContent { get; set; }",
+      "public View Trailing { get; set; }",
+      "public Color UnifiedContentColor { get; }"
+    ],
+    "events": [
+      "public event EventHandler DominantColorChanged"
+    ]
+  },
+  {
+    "name": "BackButton",
+    "fullName": "Tizen.UI.Components.Material.BackButton",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.IconButton",
+    "interfaces": [
+      "Tizen.UI.Components.Material.IAppBarContent"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IconButtonVariables variables)"
+    ],
+    "properties": [
+      "public Boolean ExitOnRoot { get; set; }",
+      "public INavigation Navigation { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "BottomSheet",
+    "fullName": "Tizen.UI.Components.Material.BottomSheet",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(BottomSheetVariables variables)"
+    ],
+    "properties": [
+      "public IReadOnlyList<Single> Anchors { get; }",
+      "public View Content { get; set; }",
+      "public Int32 DefaultAnchorIndex { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "BottomSheetContainer",
+    "fullName": "Tizen.UI.Components.Material.BottomSheetContainer",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.IModalContainer",
+      "Tizen.UI.Components.INavigationAnimation"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(BottomSheetContainerVariables variables)"
+    ],
+    "properties": [
+      "public View ModalContent { get; set; }",
+      "public Func<View, View, INavigationAnimationController> PopAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PopModalAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PushAnimation { get; }",
+      "public Func<View, View, INavigationAnimationController> PushModalAnimation { get; }",
+      "public View Scrim { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Button",
+    "fullName": "Tizen.UI.Components.Material.Button",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ButtonVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, ButtonVariables variables)"
+    ],
+    "properties": [
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Boolean IsProgressing { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Card",
+    "fullName": "Tizen.UI.Components.Material.Card",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(CardVariables variables)"
+    ],
+    "properties": [
+      "public View Content { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "CircleButton",
+    "fullName": "Tizen.UI.Components.Material.CircleButton",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(CircleButtonVariables variables)",
+      ".ctor(String iconResourceUrl)",
+      ".ctor(String iconResourceUrl, CircleButtonVariables variables)"
+    ],
+    "properties": [
+      "public Single IconHeight { get; set; }",
+      "public Color IconMultipliedColor { get; set; }",
+      "public String IconResourceUrl { get; set; }",
+      "public Single IconWidth { get; set; }",
+      "public Boolean IsProgressing { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Dialog",
+    "fullName": "Tizen.UI.Components.Material.Dialog",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DialogVariables variables)"
+    ],
+    "properties": [
+      "public View BodyView { get; set; }",
+      "public View FooterView { get; set; }",
+      "public View HeaderView { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DialogContainer",
+    "fullName": "Tizen.UI.Components.Material.DialogContainer",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.IModalContainer"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DialogContainerVariables variables)"
+    ],
+    "properties": [
+      "public View ModalContent { get; set; }",
+      "public View Scrim { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Divider",
+    "fullName": "Tizen.UI.Components.Material.Divider",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DividerVariables variables)",
+      ".ctor(DividerDirection direction)",
+      ".ctor(DividerDirection direction, DividerVariables variables)"
+    ],
+    "properties": [
+      "public Color DividerColor { get; set; }",
+      "public DividerStyle Style { get; set; }",
+      "public Single Thickness { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DoubleTitle",
+    "fullName": "Tizen.UI.Components.Material.DoubleTitle",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Layouts.VStack",
+    "interfaces": [
+      "Tizen.UI.Components.IDoubleTitle",
+      "Tizen.UI.Components.ITitle",
+      "Tizen.UI.Components.Material.IAppBarContent"
+    ],
+    "constructors": [
+      ".ctor(String title, String subtitle)",
+      ".ctor(String title, String subtitle, DoubleTitleVariables variables)"
+    ],
+    "properties": [
+      "public Single ItemSpacing { get; set; }",
+      "public String Subtitle { get; set; }",
+      "public Label SubtitleLabel { get; }",
+      "public String Title { get; set; }",
+      "public Label TitleLabel { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Drawer`1",
+    "fullName": "Tizen.UI.Components.Material.Drawer`1",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<T>",
+      "System.Collections.Generic.IEnumerable`1<T>",
+      "System.Collections.Generic.IList`1<T>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.ISelectionGroup"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ModalDrawerVariables variables)"
+    ],
+    "properties": [
+      "public View Content { get; set; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public T Item { get; set; }",
+      "public IList<T> Items { get; }",
+      "public Single ItemSpacing { get; set; }",
+      "public Int32 SelectedIndex { get; }",
+      "public T SelectedItem { get; }",
+      "public Action<Object, GroupSelectionChangedEventArgs> SelectionChangedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<GroupSelectionChangedEventArgs> SelectionChanged"
+    ]
+  },
+  {
+    "name": "DrawerItem",
+    "fullName": "Tizen.UI.Components.Material.DrawerItem",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.GroupSelectable",
+    "interfaces": [
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DrawerItemVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, DrawerItemVariables variables)"
+    ],
+    "properties": [
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DropdownContainer",
+    "fullName": "Tizen.UI.Components.Material.DropdownContainer",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "Tizen.UI.Components.INavigateBackHandler",
+      "Tizen.UI.Components.INavigationAnimation"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Thickness BoundaryPadding { get; set; }",
+      "public Single ScrimBlur { get; set; }",
+      "public Color ScrimColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler Dismissed",
+      "public event EventHandler Hidden"
+    ]
+  },
+  {
+    "name": "DropdownItem",
+    "fullName": "Tizen.UI.Components.Material.DropdownItem",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.GroupSelectable",
+    "interfaces": [
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DropdownItemVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, DropdownItemVariables variables)"
+    ],
+    "properties": [
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single IconHeight { get; set; }",
+      "public Color IconMultipliedColor { get; set; }",
+      "public IconPlacement IconPlacement { get; set; }",
+      "public String IconResourceUrl { get; set; }",
+      "public Single IconWidth { get; set; }",
+      "public Single ItemSpacing { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DropdownList`1",
+    "fullName": "Tizen.UI.Components.Material.DropdownList`1",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<T>",
+      "System.Collections.Generic.IEnumerable`1<T>",
+      "System.Collections.Generic.IList`1<T>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.IAnchoredModal",
+      "Tizen.UI.Components.ISelectionGroup"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(DropdownListVariables variables)"
+    ],
+    "properties": [
+      "public Int32 Count { get; }",
+      "public Action<Object, EventArgs> DismissedCommand { get; set; }",
+      "public Boolean EmptySelectionAllowed { get; set; }",
+      "public Action<Object, EventArgs> HiddenCommand { get; set; }",
+      "public Boolean IsReadOnly { get; }",
+      "public T Item { get; set; }",
+      "public Action<Object, SelectionGroupItemClickedEventArgs> ItemClickedCommand { get; set; }",
+      "public IList<T> Items { get; }",
+      "public ModalPivot ModalPivot { get; set; }",
+      "public Int32 SelectedIndex { get; }",
+      "public T SelectedItem { get; }",
+      "public Action<Object, GroupSelectionChangedEventArgs> SelectionChangedCommand { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler Dismissed",
+      "public event EventHandler Hidden",
+      "public event EventHandler<SelectionGroupItemClickedEventArgs> ItemClicked",
+      "public event EventHandler<GroupSelectionChangedEventArgs> SelectionChanged"
+    ]
+  },
+  {
+    "name": "FloatingActionButtonScrollBar",
+    "fullName": "Tizen.UI.Components.Material.FloatingActionButtonScrollBar",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.ScrollBar",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ScrollBarVariables varables)",
+      ".ctor(ScrollBarVariables variables, IconButtonVariables iconVariables)"
+    ],
+    "properties": [
+      "public IconButton FloatingActionButton { get; set; }",
+      "public Action FloatingActionButtonClicked { get; set; }",
+      "public IconButton FloatingIcon { get; }",
+      "public Point FloatingOffset { get; set; }",
+      "public FloatingOrigin FloatingOrigin { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "GridView",
+    "fullName": "Tizen.UI.Components.Material.GridView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.LoopedAdapterView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public ViewTemplate GroupBodyTemplate { get; set; }",
+      "public ViewTemplate GroupHeaderTemplate { get; set; }",
+      "public IEdgeEffect HorizontalEdgeEffect { get; set; }",
+      "public Boolean IsGrouped { get; set; }",
+      "public Boolean IsHorizontal { get; set; }",
+      "public IItemAnimator ItemAnimator { get; set; }",
+      "public OverScrollMode OverScrollMode { get; set; }",
+      "public UInt32 SpanCount { get; set; }",
+      "public IEdgeEffect VerticalEdgeEffect { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "IconButton",
+    "fullName": "Tizen.UI.Components.Material.IconButton",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IconButtonVariables variables)",
+      ".ctor(String iconResourceUrl)",
+      ".ctor(String iconResourceUrl, IconButtonVariables variables)"
+    ],
+    "properties": [
+      "public CornerRadius IconCornerRadius { get; set; }",
+      "public Single IconHeight { get; set; }",
+      "public Color IconMultipliedColor { get; set; }",
+      "public String IconResourceUrl { get; set; }",
+      "public Single IconWidth { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "InputEditor",
+    "fullName": "Tizen.UI.Components.Material.InputEditor",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.Components.IDecoratableText",
+      "Tizen.UI.IFontSizeScale",
+      "Tizen.UI.IText",
+      "Tizen.UI.ITextAlignment",
+      "Tizen.UI.ITextEditable",
+      "Tizen.UI.ITextPadding"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(InputEditorVariables variables)",
+      ".ctor(InputEditorVariables variables, InputEditorImpl impl)"
+    ],
+    "properties": [
+      "public Single AdjustedFontSizeScale { get; }",
+      "public Int32 CursorPosition { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single FontSizeScale { get; set; }",
+      "public FontSlant FontSlant { get; set; }",
+      "public FontWeight FontWeight { get; set; }",
+      "public FontWidth FontWidth { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Color InputColor { get; set; }",
+      "public String InputFontFamily { get; set; }",
+      "public Single InputFontSize { get; set; }",
+      "public FontSlant InputFontSlant { get; set; }",
+      "public FontWeight InputFontWeight { get; set; }",
+      "public FontWidth InputFontWidth { get; set; }",
+      "public InputMethodContext InputMethodContext { get; }",
+      "public Boolean IsAbsoluteLineHeight { get; set; }",
+      "public Boolean IsEditable { get; set; }",
+      "public Boolean IsMarkupEnabled { get; set; }",
+      "public Single LineHeight { get; set; }",
+      "public LineBreakMode LineWLineBreakModerapMode { get; set; }",
+      "public Single MaximumFontSizeScale { get; set; }",
+      "public Int32 MaximumLength { get; set; }",
+      "public Single MinimumFontSizeScale { get; set; }",
+      "public Nullable<Outline> Outline { get; set; }",
+      "public String PlaceholderText { get; set; }",
+      "public Color PlaceholderTextColor { get; set; }",
+      "public String SelectedText { get; }",
+      "public ClosedRange<Int32> SelectedTextIndex { get; }",
+      "public Boolean SelectionEnabled { get; set; }",
+      "public Nullable<Strikethrough> Strikethrough { get; set; }",
+      "public Boolean SystemFontFamilyEnabled { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }",
+      "public Nullable<TextShadow> TextShadow { get; set; }",
+      "public Nullable<Underline> Underline { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AnchorClickedEventArgs> AnchorClicked",
+      "public event EventHandler CursorMoved",
+      "public event EventHandler<String> KeyPressed",
+      "public event EventHandler MaximumLengthReached",
+      "public event EventHandler SelectionChanged",
+      "public event EventHandler SelectionCleared",
+      "public event EventHandler SelectionStarted",
+      "public event EventHandler TextChanged"
+    ]
+  },
+  {
+    "name": "InputField",
+    "fullName": "Tizen.UI.Components.Material.InputField",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.Components.IDecoratableText",
+      "Tizen.UI.IFontSizeScale",
+      "Tizen.UI.IText",
+      "Tizen.UI.ITextAlignment",
+      "Tizen.UI.ITextEditable",
+      "Tizen.UI.ITextPadding"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(InputFieldVariables variables)",
+      ".ctor(InputFieldVariables variables, InputFieldImpl impl)"
+    ],
+    "properties": [
+      "public Single AdjustedFontSizeScale { get; }",
+      "public Boolean ClearFocusOnExecutionKey { get; set; }",
+      "public Int32 CursorPosition { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single FontSizeScale { get; set; }",
+      "public FontSlant FontSlant { get; set; }",
+      "public FontWeight FontWeight { get; set; }",
+      "public FontWidth FontWidth { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Color InputColor { get; set; }",
+      "public String InputFontFamily { get; set; }",
+      "public Single InputFontSize { get; set; }",
+      "public FontSlant InputFontSlant { get; set; }",
+      "public FontWeight InputFontWeight { get; set; }",
+      "public FontWidth InputFontWidth { get; set; }",
+      "public InputMethodContext InputMethodContext { get; }",
+      "public Boolean IsEditable { get; set; }",
+      "public Boolean IsMarkupEnabled { get; set; }",
+      "public Single MaximumFontSizeScale { get; set; }",
+      "public Int32 MaximumLength { get; set; }",
+      "public Single MinimumFontSizeScale { get; set; }",
+      "public Nullable<Outline> Outline { get; set; }",
+      "public HiddenInputMode PasswordMode { get; set; }",
+      "public String PlaceholderText { get; set; }",
+      "public Color PlaceholderTextColor { get; set; }",
+      "public String SelectedText { get; }",
+      "public ClosedRange<Int32> SelectedTextIndex { get; }",
+      "public Boolean SelectionEnabled { get; set; }",
+      "public Boolean ShowPlaceholderTextOnFocus { get; set; }",
+      "public Nullable<Strikethrough> Strikethrough { get; set; }",
+      "public Boolean SystemFontFamilyEnabled { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }",
+      "public Nullable<TextShadow> TextShadow { get; set; }",
+      "public Nullable<Underline> Underline { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AnchorClickedEventArgs> AnchorClicked",
+      "public event EventHandler CursorMoved",
+      "public event EventHandler<String> KeyPressed",
+      "public event EventHandler MaximumLengthReached",
+      "public event EventHandler SelectionChanged",
+      "public event EventHandler SelectionCleared",
+      "public event EventHandler SelectionStarted",
+      "public event EventHandler TextChanged"
+    ]
+  },
+  {
+    "name": "Label",
+    "fullName": "Tizen.UI.Components.Material.Label",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.View",
+    "interfaces": [
+      "Tizen.UI.Components.IDecoratableText",
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IFontSizeScale",
+      "Tizen.UI.IText",
+      "Tizen.UI.ITextAlignment",
+      "Tizen.UI.ITextFormatting",
+      "Tizen.UI.ITextPadding"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(String text)",
+      ".ctor(LabelVariables variables)",
+      ".ctor(String text, LabelVariables variables)",
+      ".ctor(String text, LabelVariables variables, LabelImpl impl)"
+    ],
+    "properties": [
+      "public Single AdjustedFontSize { get; }",
+      "public Single AdjustedFontSizeScale { get; }",
+      "public Color AnchorClickedColor { get; set; }",
+      "public Color AnchorColor { get; set; }",
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single FontSizeScale { get; set; }",
+      "public FontSlant FontSlant { get; set; }",
+      "public FontWeight FontWeight { get; set; }",
+      "public FontWidth FontWidth { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Boolean IsAbsoluteLineHeight { get; set; }",
+      "public Boolean IsMarkupEnabled { get; set; }",
+      "public Boolean IsMultiline { get; set; }",
+      "public Boolean IsTextCutout { get; set; }",
+      "public LineBreakMode LineBreakMode { get; set; }",
+      "public Single LineHeight { get; set; }",
+      "public Single MaximumFontSizeScale { get; set; }",
+      "public Single MinimumFontSizeScale { get; set; }",
+      "public Nullable<Outline> Outline { get; set; }",
+      "public Nullable<Strikethrough> Strikethrough { get; set; }",
+      "public Boolean SystemFontFamilyEnabled { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }",
+      "public Nullable<TextShadow> TextShadow { get; set; }",
+      "public Nullable<Underline> Underline { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<AnchorClickedEventArgs> AnchorClicked",
+      "public event EventHandler FontSizeAdjusted"
+    ]
+  },
+  {
+    "name": "LevelBar",
+    "fullName": "Tizen.UI.Components.Material.LevelBar",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.InteractiveProgress",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single minimumValue, Single maximumValue, Int32 valueStepCount)",
+      ".ctor(Single minimumValue, Single maximumValue, Int32 valueStepCount, LevelBarVariables variables)"
+    ],
+    "properties": [
+      "public Thickness Padding { get; set; }",
+      "public Single TrackThickness { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ListView",
+    "fullName": "Tizen.UI.Components.Material.ListView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.LoopedAdapterView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public ViewTemplate DividerTemplate { get; set; }",
+      "public ViewTemplate GroupBodyTemplate { get; set; }",
+      "public ViewTemplate GroupFooterTemplate { get; set; }",
+      "public ViewTemplate GroupHeaderTemplate { get; set; }",
+      "public Boolean HasDivider { get; set; }",
+      "public IEdgeEffect HorizontalEdgeEffect { get; set; }",
+      "public Boolean IsGrouped { get; set; }",
+      "public Boolean IsHorizontal { get; set; }",
+      "public Boolean IsStickyHeader { get; set; }",
+      "public IItemAnimator ItemAnimator { get; set; }",
+      "public ItemTouchHelper ItemTouchHelper { get; set; }",
+      "public OverScrollMode OverScrollMode { get; set; }",
+      "public IEdgeEffect VerticalEdgeEffect { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "LoopedAdapterView",
+    "fullName": "Tizen.UI.Components.Material.LoopedAdapterView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.AdapterView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsLooping { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "LottieImage",
+    "fullName": "Tizen.UI.Components.Material.LottieImage",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.Image",
+    "interfaces": [
+      "Tizen.UI.Components.IAnimatedImage"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(String resourceUrl)"
+    ],
+    "properties": [
+      "public Int32 CurrentFrame { get; set; }",
+      "public Single FrameSpeedFactor { get; set; }",
+      "public Boolean IsLooping { get; set; }",
+      "public AnimationState PlayState { get; }",
+      "public Boolean RedrawInScalingDown { get; set; }",
+      "public Int32 RepeatCount { get; set; }",
+      "public AnimationRepeatMode RepeatMode { get; set; }",
+      "public AnimationStopBehavior StopBehavior { get; set; }",
+      "public Int32 TotalFrame { get; }"
+    ],
+    "events": [
+      "public event EventHandler Finished"
+    ]
+  },
+  {
+    "name": "LottieImageTimeCounter",
+    "fullName": "Tizen.UI.Components.Material.LottieImageTimeCounter",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.TimeCounter",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String resourceUrl)",
+      ".ctor(Int32 totalTimeInMilliseconds, String resourceUrl)"
+    ],
+    "properties": [
+      "public LottieImage LottieImage { get; }",
+      "public Boolean UseReverseFrameIndex { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "MoreButton",
+    "fullName": "Tizen.UI.Components.Material.MoreButton",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.IconButton",
+    "interfaces": [
+      "Tizen.UI.Components.Material.IAppBarContent"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(IconButtonVariables variables)"
+    ],
+    "properties": [
+      "public IAnchoredModal ModalContent { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PageIndicator",
+    "fullName": "Tizen.UI.Components.Material.PageIndicator",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.Components.Material.IPageIndicator"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(PageIndicatorVariables variables)"
+    ],
+    "properties": [
+      "public Int32 CurrentPage { get; set; }",
+      "public View Item { get; set; }",
+      "public PageAdapter PageAdapter { get; set; }",
+      "public Int32 PageCount { get; }",
+      "public ViewTemplate PageDotTemplate { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PageScroller",
+    "fullName": "Tizen.UI.Components.Material.PageScroller",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.View>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.View>",
+      "System.Collections.Generic.IList`1<Tizen.UI.View>",
+      "System.Collections.IEnumerable",
+      "Tizen.UI.Components.Material.IPager"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<View> Children { get; }",
+      "public Int32 CurrentPage { get; }",
+      "public Boolean IsHorizontal { get; set; }",
+      "public Boolean IsScrolling { get; }",
+      "public View Item { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public PageAdapter PageAdapter { get; set; }",
+      "public Int32 PageCount { get; }",
+      "public SnapPointsAlignment SnapPointsAlignment { get; set; }",
+      "public SnapPointsType SnapPointType { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler DragFinished",
+      "public event EventHandler<DragEventArgs> Dragging",
+      "public event EventHandler DragStarted",
+      "public event EventHandler ScrollFinished",
+      "public event EventHandler Scrolling",
+      "public event EventHandler ScrollStarted"
+    ]
+  },
+  {
+    "name": "PickerBase",
+    "fullName": "Tizen.UI.Components.Material.PickerBase",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(ClosedRange<Int32> range, PickerVariables variables)"
+    ],
+    "properties": [
+      "public ReadOnlyCollection<String> DisplayedValues { get; set; }",
+      "public ClosedRange<Int32> Range { get; set; }",
+      "public Int32 Step { get; set; }",
+      "public Int32 Value { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler EditModeChanged",
+      "public event EventHandler<Boolean> InputPanelVisibilityChanged",
+      "public event EventHandler ValueChanged"
+    ]
+  },
+  {
+    "name": "PickerInputField",
+    "fullName": "Tizen.UI.Components.Material.PickerInputField",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.InputField",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(PickerBase picker)"
+    ],
+    "properties": [
+      "public PickerBase Picker { get; }",
+      "public PickerInputFilter PickerInputFilter { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PickerListBase",
+    "fullName": "Tizen.UI.Components.Material.PickerListBase",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Recycler.RecyclerView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Picker picker)"
+    ],
+    "properties": [
+      "public Boolean IsLooping { get; set; }",
+      "public PickerListAdapter PickerAdapter { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "PickerListItemView",
+    "fullName": "Tizen.UI.Components.Material.PickerListItemView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.Label",
+    "interfaces": [
+      "Tizen.UI.IBindableView"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Object BindingContext { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ProgressBar",
+    "fullName": "Tizen.UI.Components.Material.ProgressBar",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Progress",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ProgressBarVariables variables)",
+      ".ctor(Single minimumValue, Single maximumValue)",
+      ".ctor(Single minimumValue, Single maximumValue, ProgressBarVariables variables)"
+    ],
+    "properties": [
+      "public Int32 DividerStepCount { get; set; }",
+      "public Boolean IsReversed { get; set; }",
+      "public Color TrackColor { get; set; }",
+      "public Single TrackThickness { get; set; }",
+      "public Color TrailColor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ProgressCircle",
+    "fullName": "Tizen.UI.Components.Material.ProgressCircle",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Progress",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ProgressCircleVariables variables)",
+      ".ctor(Single minimumValue, Single maximumValue)",
+      ".ctor(Single minimumValue, Single maximumValue, ProgressCircleVariables variables)"
+    ],
+    "properties": [
+      "public Color TrackColor { get; set; }",
+      "public Single TrackThickness { get; set; }",
+      "public Color TrailColor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ProgressRing",
+    "fullName": "Tizen.UI.Components.Material.ProgressRing",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Primitives2D.VectorView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single Progress { get; set; }",
+      "public Single Thickness { get; set; }",
+      "public Color TrackColor { get; set; }",
+      "public Color TrailColor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ProgressTimer",
+    "fullName": "Tizen.UI.Components.Material.ProgressTimer",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.TimeCounter",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(Int32 totalTimeInMilliseconds)",
+      ".ctor(ProgressTimerVariables variables)"
+    ],
+    "properties": [
+      "public Boolean IsPaused { get; set; }",
+      "public Boolean IsReversed { get; set; }",
+      "public Color TrackColor { get; set; }",
+      "public Single TrackThickness { get; set; }",
+      "public Color TrailColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler PausedChanged"
+    ]
+  },
+  {
+    "name": "Scaffold",
+    "fullName": "Tizen.UI.Components.Material.Scaffold",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.ScaffoldBase",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public AppBar AppBar { get; set; }",
+      "public View BottomBar { get; set; }",
+      "public View Content { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Slider",
+    "fullName": "Tizen.UI.Components.Material.Slider",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.InteractiveProgress",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single minimumValue, Single maximumValue)",
+      ".ctor(Single minimumValue, Single maximumValue, SliderVariables variables)"
+    ],
+    "properties": [
+      "public Func<Slider, String> AccessibilityValueTextGenerator { get; set; }",
+      "public Single KeyStep { get; set; }",
+      "public Thickness Padding { get; set; }",
+      "public Color TrackColor { get; set; }",
+      "public Single TrackThickness { get; set; }",
+      "public Color TrailColor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SmartTip",
+    "fullName": "Tizen.UI.Components.Material.SmartTip",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.SmartTipBase",
+    "interfaces": [
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(String text)",
+      ".ctor(String text, SmartTipVariables variables)"
+    ],
+    "properties": [
+      "public Thickness ContentPadding { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single FontSizeScale { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Boolean IsMultiline { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SmartTipBackground",
+    "fullName": "Tizen.UI.Components.Material.SmartTipBackground",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Primitives2D.VectorView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single ArrowHeight { get; set; }",
+      "public SmartTipArrowPosition ArrowPosition { get; set; }",
+      "public Single ArrowWidth { get; set; }",
+      "public CornerRadius BubbleCornerRadius { get; set; }",
+      "public Color FillColor { get; set; }",
+      "public Color StrokeColor { get; set; }",
+      "public Single StrokeWidth { get; set; }",
+      "public Color UpperAreaFillColor { get; set; }",
+      "public Single UpperAreaThickness { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SmartTipBase",
+    "fullName": "Tizen.UI.Components.Material.SmartTipBase",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(SmartTipViewVariables variables)"
+    ],
+    "properties": [
+      "public Single ArrowHeight { get; set; }",
+      "public SmartTipArrowPosition ArrowPosition { get; set; }",
+      "public Single ArrowWidth { get; set; }",
+      "public Action<Object, EventArgs> DismissedCommand { get; set; }",
+      "public Action<Object, EventArgs> HiddenCommand { get; set; }",
+      "public CornerRadius ShapeCornerRadius { get; set; }",
+      "public Color ShapeFillColor { get; set; }",
+      "public IEnumerable<Shadow> ShapeShadows { get; set; }",
+      "public Color ShapeStrokeColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler Dismissed",
+      "public event EventHandler Hidden"
+    ]
+  },
+  {
+    "name": "SmartTipContainer",
+    "fullName": "Tizen.UI.Components.Material.SmartTipContainer",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "Tizen.UI.Components.INavigateBackHandler",
+      "Tizen.UI.Components.INavigationAnimation"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Thickness BoundaryPadding { get; set; }",
+      "public Single ScrimBlur { get; set; }",
+      "public Color ScrimColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler Dismissed",
+      "public event EventHandler Hidden"
+    ]
+  },
+  {
+    "name": "SmartTipMenu",
+    "fullName": "Tizen.UI.Components.Material.SmartTipMenu",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.SmartTipBase",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(SmartTipViewVariables variables)"
+    ],
+    "properties": [
+      "public View Content { get; set; }",
+      "public View TitleContent { get; set; }",
+      "public Color TitleFillColor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SmartTipView",
+    "fullName": "Tizen.UI.Components.Material.SmartTipView",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Material.SmartTipBase",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(SmartTipViewVariables variables)"
+    ],
+    "properties": [
+      "public View Content { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SnackBar",
+    "fullName": "Tizen.UI.Components.Material.SnackBar",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Layouts.Grid",
+    "interfaces": [
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(SnackBarVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, UInt32 duration)",
+      ".ctor(String text, UInt32 duration, SnackBarVariables variables)"
+    ],
+    "properties": [
+      "public String ActionButtonText { get; set; }",
+      "public Color ActionButtonTextColor { get; set; }",
+      "public UInt32 Duration { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single ItemSpacing { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler<SnackBarActionEventArgs> ActionButtonClicked",
+      "public event EventHandler Hidden",
+      "public event EventHandler Shown"
+    ]
+  },
+  {
+    "name": "SpinnerButton",
+    "fullName": "Tizen.UI.Components.Material.SpinnerButton",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.Clickable",
+    "interfaces": [
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(SpinnerButtonVariables variables)"
+    ],
+    "properties": [
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Color IconMixColor { get; set; }",
+      "public Single ItemSpacing { get; set; }",
+      "public IAnchoredModal ModalContent { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TabItem",
+    "fullName": "Tizen.UI.Components.Material.TabItem",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Components.GroupSelectable",
+    "interfaces": [
+      "Tizen.UI.Components.IFlexibleText",
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(TabItemVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, TabItemVariables variables)"
+    ],
+    "properties": [
+      "public AutoFontSize AutoFontSize { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single IconHeight { get; set; }",
+      "public Color IconMultipliedColor { get; set; }",
+      "public String IconResourceUrl { get; set; }",
+      "public Single IconWidth { get; set; }",
+      "public Single ItemSpacing { get; set; }",
+      "public Boolean SystemFontSizeScaleEnabled { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextOverflow TextOverflow { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Toast",
+    "fullName": "Tizen.UI.Components.Material.Toast",
+    "namespace": "Tizen.UI.Components.Material",
+    "package": "Tizen.UI.Components.Material",
+    "base": "Tizen.UI.Layouts.Grid",
+    "interfaces": [
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ToastVariables variables)",
+      ".ctor(String text)",
+      ".ctor(String text, UInt32 duration)",
+      ".ctor(String text, UInt32 duration, ToastVariables variables)"
+    ],
+    "properties": [
+      "public UInt32 Duration { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public Single IconHeight { get; set; }",
+      "public Color IconMultipliedColor { get; set; }",
+      "public String IconResourceUrl { get; set; }",
+      "public Single IconWidth { get; set; }",
+      "public Single ItemSpacing { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler Hidden",
+      "public event EventHandler Shown"
+    ]
+  },
+  {
+    "name": "FlexBox",
+    "fullName": "Tizen.UI.Layouts.FlexBox",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.Layouts.Layout",
+    "interfaces": [
+      "Tizen.UI.Layouts.IFlexBox",
+      "Tizen.UI.Layouts.ILayout"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public FlexAlignContent AlignContent { get; set; }",
+      "public FlexAlignItems AlignItems { get; set; }",
+      "public FlexDirection Direction { get; set; }",
+      "public FlexJustify JustifyContent { get; set; }",
+      "public FlexPosition Position { get; set; }",
+      "public FlexWrap Wrap { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Grid",
+    "fullName": "Tizen.UI.Layouts.Grid",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.Layouts.Layout",
+    "interfaces": [
+      "Tizen.UI.Layouts.IGridLayout",
+      "Tizen.UI.Layouts.ILayout"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IList<GridColumnDefinition> ColumnDefinitions { get; set; }",
+      "public Single ColumnSpacing { get; set; }",
+      "public IList<GridRowDefinition> RowDefinitions { get; set; }",
+      "public Single RowSpacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Layout",
+    "fullName": "Tizen.UI.Layouts.Layout",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "Tizen.UI.Layouts.ILayout"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsManualLayout { get; set; }",
+      "public Boolean IsOnPseudoLayout { get; set; }",
+      "public Thickness Padding { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ScrollBar",
+    "fullName": "Tizen.UI.Layouts.ScrollBar",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [
+      "System.IDisposable",
+      "Tizen.UI.IScrollBar"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Color BarColor { get; set; }",
+      "public Single BarMargin { get; set; }",
+      "public Single BarMinSize { get; set; }",
+      "public Single BarWidth { get; set; }",
+      "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }",
+      "public Point ScrollPosition { get; set; }",
+      "public View Target { get; }",
+      "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ScrollLayout",
+    "fullName": "Tizen.UI.Layouts.ScrollLayout",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.Layouts.Layout",
+    "interfaces": [
+      "Tizen.UI.IDescendantFocusObserver",
+      "Tizen.UI.IScrollable"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public View Content { get; set; }",
+      "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }",
+      "public Boolean IsScrolling { get; set; }",
+      "public IScrollBar ScrollBar { get; set; }",
+      "public ScrollDirection ScrollDirection { get; set; }",
+      "public Func<Point, Point> ScrollingDestinationHandler { get; set; }",
+      "public Point ScrollPosition { get; }",
+      "public Size ScrollSize { get; set; }",
+      "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }",
+      "public Rect ViewPort { get; }"
+    ],
+    "events": [
+      "public event EventHandler<DragEventArgs> DragFinished",
+      "public event EventHandler<DragEventArgs> Dragging",
+      "public event EventHandler<DragEventArgs> DragStarted",
+      "public event EventHandler<ScrollEventArgs> ScrollFinished",
+      "public event EventHandler<ScrollEventArgs> Scrolling",
+      "public event EventHandler<ScrollEventArgs> ScrollStarted"
+    ]
+  },
+  {
+    "name": "StackBase",
+    "fullName": "Tizen.UI.Layouts.StackBase",
+    "namespace": "Tizen.UI.Layouts",
+    "package": "Tizen.UI.Layouts",
+    "base": "Tizen.UI.Layouts.Layout",
+    "interfaces": [
+      "Tizen.UI.Layouts.ILayout",
+      "Tizen.UI.Layouts.IStackLayout"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public LayoutAlignment ItemAlignment { get; set; }",
+      "public Single Spacing { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "MarkdownView",
+    "fullName": "Tizen.UI.Markdown.MarkdownView",
+    "namespace": "Tizen.UI.Markdown",
+    "package": "Tizen.UI.Markdown",
+    "base": "Tizen.UI.Layouts.VStack",
+    "interfaces": [
+      "Tizen.UI.Markdown.IContainerBlock"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(MarkdownStyle style)"
+    ],
+    "properties": [
+      "public MarkdownStyle Style { get; }",
+      "public String Text { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "UICode",
+    "fullName": "Tizen.UI.Markdown.MarkdownUI.UICode",
+    "namespace": "Tizen.UI.Markdown.MarkdownUI",
+    "package": "Tizen.UI.Markdown",
+    "base": "Tizen.UI.Layouts.VStack",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String language, String text, Int32 indent, CodeStyle codeStyle)"
+    ],
+    "properties": [
+      "public String Code { get; set; }",
+      "public Int32 ContentHash { get; set; }",
+      "public String Language { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "UIHeading",
+    "fullName": "Tizen.UI.Markdown.MarkdownUI.UIHeading",
+    "namespace": "Tizen.UI.Markdown.MarkdownUI",
+    "package": "Tizen.UI.Markdown",
+    "base": "Tizen.UI.Markdown.MarkdownUI.UIParagraph",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String text, Int32 level, HeadingStyle headingStyle, ParagraphStyle paragraphStyle)"
+    ],
+    "properties": [
+      "public Int32 Level { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "UIListItemParagraph",
+    "fullName": "Tizen.UI.Markdown.MarkdownUI.UIListItemParagraph",
+    "namespace": "Tizen.UI.Markdown.MarkdownUI",
+    "package": "Tizen.UI.Markdown",
+    "base": "Tizen.UI.Layouts.HStack",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String text, Boolean isOrdered, Int32 numberOrDepth, ListStyle listStyle, ParagraphStyle paragraphStyle)"
+    ],
+    "properties": [
+      "public String Text { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "CustomShape",
+    "fullName": "Tizen.UI.Primitives2D.CustomShape",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Shape",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(IEnumerable<IPath> path)"
+    ],
+    "properties": [
+      "public IEnumerable<IPath> Path { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Drawable",
+    "fullName": "Tizen.UI.Primitives2D.Drawable",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Rect BoundingBox { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DrawableGroup",
+    "fullName": "Tizen.UI.Primitives2D.DrawableGroup",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Drawable",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IReadOnlyCollection<Drawable> Drawables { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Ellipse",
+    "fullName": "Tizen.UI.Primitives2D.Ellipse",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Shape",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+    ],
+    "properties": [
+      "public Single CenterX { get; set; }",
+      "public Single CenterY { get; set; }",
+      "public Single RadiusX { get; set; }",
+      "public Single RadiusY { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "GradientPaint",
+    "fullName": "Tizen.UI.Primitives2D.GradientPaint",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [
+      "Tizen.UI.Primitives2D.IPaint"
+    ],
+    "constructors": [],
+    "properties": [
+      "public FillRule FillRule { get; set; }",
+      "public GradientStop[] GradientStops { get; set; }",
+      "public SpreadType Spread { get; set; }",
+      "public StrokeCap StrokeCap { get; set; }",
+      "public Single[] StrokeDashArray { get; set; }",
+      "public StrokeJoin StrokeJoin { get; set; }",
+      "public Single StrokeWidth { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ImageDrawable",
+    "fullName": "Tizen.UI.Primitives2D.ImageDrawable",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Drawable",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String url, Single width, Single height)"
+    ],
+    "properties": [
+      "public Single Height { get; set; }",
+      "public String Url { get; set; }",
+      "public Single Width { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "LinearGradientPaint",
+    "fullName": "Tizen.UI.Primitives2D.LinearGradientPaint",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.GradientPaint",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(Single startPointX, Single startPointY, Single endPointX, Single endPointY)"
+    ],
+    "properties": [
+      "public Point EndPoint { get; set; }",
+      "public Point StartPoint { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RadialGradientPaint",
+    "fullName": "Tizen.UI.Primitives2D.RadialGradientPaint",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.GradientPaint",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()",
+      ".ctor(Single centerX, Single centerY, Single radius)"
+    ],
+    "properties": [
+      "public Point Center { get; set; }",
+      "public Single Radius { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Rectangle",
+    "fullName": "Tizen.UI.Primitives2D.Rectangle",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Shape",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single x, Single y, Single width, Single height)"
+    ],
+    "properties": [
+      "public Single Height { get; set; }",
+      "public Single Width { get; set; }",
+      "public Single X { get; set; }",
+      "public Single Y { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RoundRectangle",
+    "fullName": "Tizen.UI.Primitives2D.RoundRectangle",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.Primitives2D.Shape",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(Single x, Single y, Single width, Single height, Single radiusX, Single radiusY)"
+    ],
+    "properties": [
+      "public Single Height { get; set; }",
+      "public Single RadiusX { get; set; }",
+      "public Single RadiusY { get; set; }",
+      "public Single Width { get; set; }",
+      "public Single X { get; set; }",
+      "public Single Y { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "VectorView",
+    "fullName": "Tizen.UI.Primitives2D.VectorView",
+    "namespace": "Tizen.UI.Primitives2D",
+    "package": "Tizen.UI.Primitives2D",
+    "base": "Tizen.UI.View",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IReadOnlyCollection<Drawable> Drawables { get; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Camera",
+    "fullName": "Tizen.UI.Scene3D.Camera",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.Scene3D.SceneObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single AspectRatio { get; set; }",
+      "public Single FarPlaneDistance { get; set; }",
+      "public Single FieldOfView { get; set; }",
+      "public Single NearPlaneDistance { get; set; }",
+      "public Single OrthographicSize { get; set; }",
+      "public ProjectionDirection ProjectionDirection { get; set; }",
+      "public Boolean UseOrthographicProjection { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Light",
+    "fullName": "Tizen.UI.Scene3D.Light",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.Scene3D.SceneObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IsShadowEnabled { get; set; }",
+      "public Boolean IsShadowSoftFilteringEnabled { get; set; }",
+      "public Color MultipliedColor { get; set; }",
+      "public Single ShadowIntensity { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Material",
+    "fullName": "Tizen.UI.Scene3D.Material",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public MaterialAlphaMode AlphaMode { get; set; }",
+      "public Color BaseColorFactor { get; set; }",
+      "public String BaseColorUrl { get; set; }",
+      "public Single MetallicFactor { get; set; }",
+      "public String MetallicRoughnessUrl { get; set; }",
+      "public String Name { get; set; }",
+      "public Single NormalScale { get; set; }",
+      "public String NormalUrl { get; set; }",
+      "public Single RoughnessFactor { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ModelPrimitive",
+    "fullName": "Tizen.UI.Scene3D.ModelPrimitive",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Geometry Geometry { get; set; }",
+      "public Material Material { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Panel",
+    "fullName": "Tizen.UI.Scene3D.Panel",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.Scene3D.SceneObject",
+    "interfaces": [
+      "Tizen.UI.IParentObject"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public View Content { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "Scene3DView",
+    "fullName": "Tizen.UI.Scene3D.Scene3DView",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.ViewGroup",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public IReadOnlyList<Camera> Cameras { get; }",
+      "public Camera DefaultCamera { get; }",
+      "public Single ImageBasedLightScaleFactor { get; set; }",
+      "public IReadOnlyList<Light> Lights { get; }",
+      "public IReadOnlyList<Model3D> Models { get; }",
+      "public Boolean UseFramebuffer { get; set; }"
+    ],
+    "events": [
+      "public event EventHandler CameraTransitionFinished",
+      "public event EventHandler ResourceReady"
+    ]
+  },
+  {
+    "name": "SceneObject",
+    "fullName": "Tizen.UI.Scene3D.SceneObject",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [],
+    "properties": [
+      "public Boolean IsVisible { get; set; }",
+      "public String Name { get; set; }",
+      "public Single Opacity { get; set; }",
+      "public SceneObject Parent { get; }",
+      "public NObject ParentObject { get; }",
+      "public Point3D ParentOrigin { get; set; }",
+      "public Point3D PivotPoint { get; set; }",
+      "public Point3D Position { get; set; }",
+      "public Boolean PositionUsesPivotPoint { get; set; }",
+      "public Quaternion Rotation { get; set; }",
+      "public Size3D Scale { get; set; }",
+      "public Size3D Size { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "SceneObjectGroup`1",
+    "fullName": "Tizen.UI.Scene3D.SceneObjectGroup`1",
+    "namespace": "Tizen.UI.Scene3D",
+    "package": "Tizen.UI.Scene3D",
+    "base": "Tizen.UI.Scene3D.SceneObject",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<T>",
+      "System.Collections.Generic.IEnumerable`1<T>",
+      "System.Collections.Generic.IList`1<T>",
+      "System.Collections.IEnumerable"
+    ],
+    "constructors": [],
+    "properties": [
+      "public IList<T> Children { get; }",
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public T Item { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "CustomRenderingView",
+    "fullName": "Tizen.UI.Skia.CustomRenderingView",
+    "namespace": "Tizen.UI.Skia",
+    "package": "Tizen.UI.Skia",
+    "base": "Tizen.UI.ImageView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [],
+    "events": [
+      "public event EventHandler<SKPaintSurfaceEventArgs> PaintSurface"
+    ]
+  },
+  {
+    "name": "SKCanvasView",
+    "fullName": "Tizen.UI.Skia.SKCanvasView",
+    "namespace": "Tizen.UI.Skia",
+    "package": "Tizen.UI.Skia",
+    "base": "Tizen.UI.Skia.CustomRenderingView",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean IgnorePixelScaling { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ColorVisual",
+    "fullName": "Tizen.UI.Visuals.ColorVisual",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.Visuals.RoundedVisual",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single BlurRadius { get; set; }",
+      "public VisualCutoutPolicy CutoutPolicy { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "ImageVisual",
+    "fullName": "Tizen.UI.Visuals.ImageVisual",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.Visuals.RoundedVisual",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public String AlphaMaskUrl { get; set; }",
+      "public Boolean CropToMask { get; set; }",
+      "public Single DesiredHeight { get; set; }",
+      "public Single DesiredWidth { get; set; }",
+      "public Boolean FastTrackUploading { get; set; }",
+      "public FittingMode FittingMode { get; set; }",
+      "public Boolean ImageLoadWithViewSize { get; set; }",
+      "public ImageLoadPolicy LoadPolicy { get; set; }",
+      "public Single MaskContentScale { get; set; }",
+      "public ImageMaskingMode MaskingMode { get; set; }",
+      "public Boolean OrientationCorrection { get; set; }",
+      "public Rect PixelArea { get; set; }",
+      "public Boolean PreMultipliedAlpha { get; set; }",
+      "public ImageReleasePolicy ReleasePolicy { get; set; }",
+      "public String ResourceUrl { get; set; }",
+      "public Boolean SynchronousLoading { get; set; }",
+      "public ImageWrapMode WrapModeU { get; set; }",
+      "public ImageWrapMode WrapModeV { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "NPatchVisual",
+    "fullName": "Tizen.UI.Visuals.NPatchVisual",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.Visuals.ImageVisual",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Single AuxiliaryImageAlpha { get; set; }",
+      "public String AuxiliaryImageUrl { get; set; }",
+      "public Thickness Border { get; set; }",
+      "public Boolean BorderOnly { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "RoundedVisual",
+    "fullName": "Tizen.UI.Visuals.RoundedVisual",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.Visuals.VisualObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Color BorderlineColor { get; set; }",
+      "public Single BorderlineOffset { get; set; }",
+      "public Single BorderlineWidth { get; set; }",
+      "public CornerRadius CornerRadius { get; set; }",
+      "public CornerRadius CornerSquareness { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "TextVisual",
+    "fullName": "Tizen.UI.Visuals.TextVisual",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.Visuals.VisualObject",
+    "interfaces": [
+      "Tizen.UI.IText"
+    ],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Boolean EnableMarkup { get; set; }",
+      "public String FontFamily { get; set; }",
+      "public Single FontSize { get; set; }",
+      "public TextAlignment HorizontalAlignment { get; set; }",
+      "public Boolean MultiLine { get; set; }",
+      "public String Text { get; set; }",
+      "public Color TextColor { get; set; }",
+      "public TextAlignment VerticalAlignment { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "VisualObject",
+    "fullName": "Tizen.UI.Visuals.VisualObject",
+    "namespace": "Tizen.UI.Visuals",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor()"
+    ],
+    "properties": [
+      "public Color Color { get; set; }",
+      "public Single Height { get; set; }",
+      "public Single ModifyHeight { get; set; }",
+      "public Single ModifyWidth { get; set; }",
+      "public Single Opacity { get; set; }",
+      "public VisualAlign Origin { get; set; }",
+      "public VisualAlign PivotPoint { get; set; }",
+      "public Int32 SiblingOrder { get; set; }",
+      "public TransformFlags TransformFlags { get; set; }",
+      "public Single Width { get; set; }",
+      "public Single X { get; set; }",
+      "public Single Y { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "VisualObjectContainer",
+    "fullName": "Tizen.UI.Visuals.Internal.VisualObjectContainer",
+    "namespace": "Tizen.UI.Visuals.Internal",
+    "package": "Tizen.UI.Visuals",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [
+      "System.Collections.Generic.ICollection`1<Tizen.UI.Visuals.VisualObject>",
+      "System.Collections.Generic.IEnumerable`1<Tizen.UI.Visuals.VisualObject>",
+      "System.Collections.Generic.IList`1<Tizen.UI.Visuals.VisualObject>",
+      "System.Collections.IEnumerable"
+    ],
+    "constructors": [
+      ".ctor(View owner, ContainerRange range)"
+    ],
+    "properties": [
+      "public Int32 Count { get; }",
+      "public Boolean IsReadOnly { get; }",
+      "public VisualObject Item { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "DaliNativeWidget",
+    "fullName": "Tizen.UI.Widget.DaliNativeWidget",
+    "namespace": "Tizen.UI.Widget",
+    "package": "Tizen.UI.Widget",
+    "base": "Tizen.UI.NObject",
+    "interfaces": [],
+    "constructors": [
+      ".ctor(String[] args)"
+    ],
+    "properties": [
+      "public Action<IntPtr> AppControlHandler { get; set; }",
+      "public Action<Int32> BatteryLowHandler { get; set; }",
+      "public Action CreatedHandler { get; set; }",
+      "public DaliNativeWidget Current { get; set; }",
+      "public Action<Int32> DeviceOrientationChangedHandler { get; set; }",
+      "public Action<String> LanguageChangedHandler { get; set; }",
+      "public Action<Int32> MemoryLowHandler { get; set; }",
+      "public Action PausedHandler { get; set; }",
+      "public Action<String> RegionChangedHandler { get; set; }",
+      "public Action ResumedHandler { get; set; }",
+      "public Action TerminatedHandler { get; set; }"
+    ],
+    "events": []
+  },
+  {
+    "name": "BorderView",
+    "fullName": "Tizen.UI.WindowBorder.BorderView",
+    "namespace": "Tizen.UI.WindowBorder",
+    "package": "Tizen.UI.WindowBorder",
+    "base": "Tizen.UI.ContentView",
+    "interfaces": [
+      "Tizen.UI.WindowBorder.IWindowBorderProvider"
+    ],
+    "constructors": [
+      ".ctor()",
+      ".ctor(ViewTemplate header)",
+      ".ctor(ViewTemplate header, ViewTemplate footer)"
+    ],
+    "properties": [
+      "public Color BorderActiveColor { get; set; }",
+      "public Thickness BorderArea { get; set; }",
+      "public Color BorderColor { get; set; }",
+      "public Single DefaultBorderWidth { get; set; }",
+      "public Boolean EnableOverlayBorder { get; set; }",
+      "public ViewTemplate FooterTemplate { get; }",
+      "public ViewTemplate HeaderTemplate { get; }"
+    ],
+    "events": []
+  }
+]
