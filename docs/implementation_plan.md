@@ -38,38 +38,39 @@ flowchart TD
 
 ## 📝 단계별 상세 구현 계획
 
-### Phase 1: API 지식 베이스 구축 (Knowledge Base)
+### Phase 1: API 지식 베이스 구축 (Knowledge Base) ✅ 완료
 > **목표**: LLM이 Tizen.UI를 "아는 척"할 수 있게 만들기
 
 #### 1-1. API 요약본 정리
 - [x] 12개 패키지 DLL 다운로드 완료
 - [x] `dotnet-assembly-inspector`로 `api-index.json` + `api-summary.md` 추출 완료
-- [ ] **핵심 컨트롤 카탈로그** 생성 (LLM 프롬프트에 주입할 경량 버전)
+- [x] **핵심 컨트롤 카탈로그** 생성 (LLM 프롬프트에 주입할 경량 버전)
   - 전체 `api-summary.md`는 너무 거대 (Tizen.UI만 6600줄, Tizen.UI.Components 4200줄)
   - UI 컨트롤별 "이름 / 주요 속성 / 주요 이벤트"만 뽑은 **경량 카탈로그** 필요
   - 예: `Button → Text, TextColor, BackgroundColor, Clicked 이벤트`
 
 #### 1-2. 컨트롤 카탈로그 자동 생성 스크립트
-- `api-index.json`을 파싱해서 `View`를 상속하는 클래스만 필터링
-- 각 클래스의 public 프로퍼티와 이벤트만 추출
-- 결과를 `TizenUI_ControlCatalog.json` (또는 `.md`)로 저장
-- 이 파일이 LLM 프롬프트의 **시스템 컨텍스트**로 들어감
+- [x] `api-index.json`을 파싱해서 `View`를 상속하는 클래스만 필터링
+- [x] 각 클래스의 public 프로퍼티와 이벤트만 추출
+- [x] 결과를 `TizenUI_ControlCatalog.json` (또는 `.md`)로 저장
+- [x] 이 파일이 LLM 프롬프트의 **시스템 컨텍스트**로 들어감
 
 ---
 
-### Phase 2: 프로젝트 템플릿 준비
+### Phase 2: 프로젝트 템플릿 준비 ✅ 완료
 > **목표**: AI가 생성한 코드를 바로 빌드할 수 있는 Tizen 프로젝트 뼈대
 
 #### 2-1. Tizen .NET 프로젝트 템플릿 생성
-- `.csproj` 파일 (net8.0-tizen10.0 타겟)
-- `tizen-manifest.xml` (앱 매니페스트)
-- `Main.cs` (엔트리 포인트 - 기본 구조)
-- NuGet 패키지 참조 (12개 Tizen.UI 패키지)
-- 이 템플릿은 `Templates/` 폴더에 보관
+- [x] `.csproj` 파일 (net8.0-tizen10.0 타겟)
+- [x] `tizen-manifest.xml` (앱 매니페스트)
+- [x] `MainView.cs` (AI 코드를 삽입할 Scaffold 구조의 핵심 View)
+- [x] `App.cs` (엔트리 포인트 - MainView를 호출하는 MaterialApplication)
+- [x] NuGet 패키지 참조 (필요한 핵심 패키지로 최적화)
+- [x] 이 템플릿은 `templates/` 폴더에 보관
 
 #### 2-2. 템플릿 변수 시스템
-- `{{APP_NAME}}`, `{{MAIN_VIEW_CODE}}` 등 플레이스홀더 정의
-- LLM이 생성한 코드가 이 플레이스홀더를 채우는 구조
+- [x] `{{APP_NAME}}`, `{{MAIN_VIEW_CONTENT}}` 등 플레이스홀더 정의
+- [x] 플레이스홀더를 치환하여 프로젝트를 조립하는 `Create-TizenProject.js` 생성
 
 ---
 
