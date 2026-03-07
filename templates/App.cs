@@ -1,9 +1,10 @@
 using Tizen.Applications;
 using Tizen.UI;
+using Tizen.UI.Components.Material;
 
 namespace {{APP_NAMESPACE}};
 
-public class App : Application
+public class App : MaterialApplication
 {
     protected override void OnCreate()
     {

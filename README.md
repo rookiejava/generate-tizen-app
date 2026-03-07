@@ -34,6 +34,17 @@ Generate_TizenApp/
 └── README.md                      # 이 파일
 ```
 
+## ✅ 사전 요구 사항 (Prerequisites)
+
+이 프로젝트를 실행하고 Tizen 앱을 빌드하기 위해 다음 환경이 사전에 구비되어야 합니다.
+
+1. **.NET SDK 8.0 이상** 설치
+2. **Tizen .NET Workload** 설치
+   - 시스템에 Tizen workload가 없다면, 터미널을 **관리자 권한**으로 열고 아래 명령어를 실행하여 설치할 수 있습니다:
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File scripts\workload-install.ps1
+   ```
+
 ## 🛠️ 사용법
 
 ### 패키지 다운로드

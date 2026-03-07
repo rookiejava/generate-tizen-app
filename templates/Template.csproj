@@ -12,14 +12,6 @@
     <PackageReference Include="Tizen.UI.Components" Version="1.0.0-rc.5" />
     <PackageReference Include="Tizen.UI.Components.Material" Version="1.0.0-rc.5" />
     <PackageReference Include="Tizen.UI.Layouts" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Markdown" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Primitives2D" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Scene3D" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Skia" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Tools" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Visuals" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.Widget" Version="1.0.0-rc.5" />
-    <PackageReference Include="Tizen.UI.WindowBorder" Version="1.0.0-rc.5" />
   </ItemGroup>
 
 </Project>
