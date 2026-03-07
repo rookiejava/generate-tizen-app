@@ -1,5 +1,6 @@
 using Tizen.UI;
 using Tizen.UI.Components;
+using Tizen.UI.Components.Material;
 using Tizen.UI.Layouts;
 
 namespace {{APP_NAMESPACE}};
@@ -20,14 +21,21 @@ public class MainView : ContentView
     private View CreateContent()
     {
         // {{MAIN_VIEW_CONTENT}}
-        return new VStack
+        return new Scaffold
         {
-            new TextView
+            AppBar = new AppBar
             {
-                Text = "Hello, Tizen!",
-                FontSize = 24,
-                HorizontalAlignment = TextAlignment.Center,
+                Title = "Tizen App",
             },
+            Content = new VStack
+            {
+                new TextView
+                {
+                    Text = "Hello, Material Scaffold!",
+                    FontSize = 24,
+                    HorizontalAlignment = TextAlignment.Center,
+                },
+            }
         };
     }
 }
