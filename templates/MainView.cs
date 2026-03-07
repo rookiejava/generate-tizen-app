@@ -12,8 +12,8 @@ public class MainView : ContentView
 {
     public MainView()
     {
-        DesiredWidth = Window.Default.CurrentSize.Width;
-        DesiredHeight = Window.Default.CurrentSize.Height;
+        WidthResizePolicy = ResizePolicy.FillToParent;
+        HeightResizePolicy = ResizePolicy.FillToParent;
 
         Body = CreateContent();
     }
