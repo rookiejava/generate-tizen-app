@@ -1,0 +1,65 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.WindowBorder",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.WindowBorder.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.WindowBorder.dll",
+  "g": "2026-03-07T11:20:28.7078907+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.WindowBorder",
+      "t": [
+        {
+          "n": "WindowExtensions",
+          "f": "Tizen.UI.WindowBorder.WindowExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "ClearBorderView",
+              "s": "public static Void ClearBorderView(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "GetBorderLayer",
+              "s": "public static Layer GetBorderLayer(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "SetBorderView",
+              "s": "public static Void SetBorderView(Window window, IWindowBorderProvider provider)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.WindowBorder",
+      "t": "Tizen.UI.WindowBorder.WindowExtensions",
+      "r": "Tizen.UI.Window",
+      "n": "ClearBorderView",
+      "s": "public static Void ClearBorderView(Window window)"
+    },
+    {
+      "d": "Tizen.UI.WindowBorder",
+      "t": "Tizen.UI.WindowBorder.WindowExtensions",
+      "r": "Tizen.UI.Window",
+      "n": "GetBorderLayer",
+      "s": "public static Layer GetBorderLayer(Window window)"
+    },
+    {
+      "d": "Tizen.UI.WindowBorder",
+      "t": "Tizen.UI.WindowBorder.WindowExtensions",
+      "r": "Tizen.UI.Window",
+      "n": "SetBorderView",
+      "s": "public static Void SetBorderView(Window window, IWindowBorderProvider provider)"
+    }
+  ]
+}

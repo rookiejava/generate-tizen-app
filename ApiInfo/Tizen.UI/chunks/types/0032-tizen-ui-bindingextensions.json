@@ -1,0 +1,324 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "BindingExtensions",
+          "f": "Tizen.UI.BindingExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Bind",
+              "s": "public static TView Bind\u003CTView, TProperty\u003E(TView view, BindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindBackgroundColor",
+              "s": "public static TView BindBackgroundColor\u003CTView\u003E(TView view, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindFontSize",
+              "s": "public static TText BindFontSize\u003CTText\u003E(TText view, String path) where TText : View, IText"
+            },
+            {
+              "k": "method",
+              "n": "BindHeight",
+              "s": "public static TView BindHeight\u003CTView\u003E(TView view, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindingSession",
+              "s": "public static BindingSession\u003CTViewModel\u003E BindingSession\u003CTViewModel\u003E(View view)"
+            },
+            {
+              "k": "method",
+              "n": "BindingSession",
+              "s": "public static T BindingSession\u003CT, TViewModel\u003E(T view, BindingSession\u003CTViewModel\u003E session) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedResource",
+              "s": "public static T BindLocalizedResource\u003CT\u003E(T view, Action\u003CT, String\u003E setter, String path) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedText",
+              "s": "public static TText BindLocalizedText\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, IText"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedText",
+              "s": "public static T BindLocalizedText\u003CT\u003E(T view, Action\u003CT, String\u003E setter, String key, ResourceManager resourceManager) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BindMultipliedColor",
+              "s": "public static TImageView BindMultipliedColor\u003CTImageView\u003E(TImageView imageView, String path) where TImageView : ImageView"
+            },
+            {
+              "k": "method",
+              "n": "BindResourceUrl",
+              "s": "public static TImageView BindResourceUrl\u003CTImageView\u003E(TImageView imageView, String path) where TImageView : ImageView"
+            },
+            {
+              "k": "method",
+              "n": "BindText",
+              "s": "public static TText BindText\u003CTText\u003E(TText view, String path) where TText : View, IText"
+            },
+            {
+              "k": "method",
+              "n": "BindTextColor",
+              "s": "public static TText BindTextColor\u003CTText\u003E(TText view, String path) where TText : View, IText"
+            },
+            {
+              "k": "method",
+              "n": "BindTextTwoWay",
+              "s": "public static TText BindTextTwoWay\u003CTText\u003E(TText view, String path) where TText : View, IText, ITextEditable"
+            },
+            {
+              "k": "method",
+              "n": "BindWidth",
+              "s": "public static TView BindWidth\u003CTView\u003E(TView view, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindX",
+              "s": "public static TView BindX\u003CTView\u003E(TView view, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindY",
+              "s": "public static TView BindY\u003CTView\u003E(TView view, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SetBinding",
+              "s": "public static TView SetBinding\u003CT, TView\u003E(TView view, BindingSession\u003CT\u003E vm, Action\u003CT, TView\u003E set, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SetBinding",
+              "s": "public static View SetBinding\u003CT\u003E(View view, BindingSession\u003CT\u003E vm, Action\u003CT\u003E set, String path)"
+            },
+            {
+              "k": "method",
+              "n": "SetBinding",
+              "s": "public static View SetBinding\u003CTViewModel\u003E(View view, BindingSession\u003CTViewModel\u003E session, String targetPath, String srcPath)"
+            },
+            {
+              "k": "method",
+              "n": "SetBinding",
+              "s": "public static TView SetBinding\u003CTView, TViewModel, TProperty\u003E(TView view, BindingSession\u003CTViewModel\u003E session, BindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SetTwoWayBinding",
+              "s": "public static View SetTwoWayBinding\u003CTViewModel, TProperty\u003E(View view, BindingSession\u003CTViewModel\u003E session, TwoWayBindingProperty\u003CView, TProperty\u003E property, String path)"
+            },
+            {
+              "k": "method",
+              "n": "SetTwoWayBinding",
+              "s": "public static TView SetTwoWayBinding\u003CTView, TViewModel, TProperty\u003E(TView view, BindingSession\u003CTViewModel\u003E session, TwoWayBindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TwoWayBind",
+              "s": "public static TView TwoWayBind\u003CTView, TProperty\u003E(TView view, TwoWayBindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ViewModel",
+              "s": "public static TView ViewModel\u003CTView\u003E(TView view, Object viewModel) where TView : View"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "T",
+      "n": "BindingSession",
+      "s": "public static T BindingSession\u003CT, TViewModel\u003E(T view, BindingSession\u003CTViewModel\u003E session) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "T",
+      "n": "BindLocalizedResource",
+      "s": "public static T BindLocalizedResource\u003CT\u003E(T view, Action\u003CT, String\u003E setter, String path) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "T",
+      "n": "BindLocalizedText",
+      "s": "public static T BindLocalizedText\u003CT\u003E(T view, Action\u003CT, String\u003E setter, String key, ResourceManager resourceManager) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TImageView",
+      "n": "BindMultipliedColor",
+      "s": "public static TImageView BindMultipliedColor\u003CTImageView\u003E(TImageView imageView, String path) where TImageView : ImageView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TImageView",
+      "n": "BindResourceUrl",
+      "s": "public static TImageView BindResourceUrl\u003CTImageView\u003E(TImageView imageView, String path) where TImageView : ImageView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BindingSession",
+      "s": "public static BindingSession\u003CTViewModel\u003E BindingSession\u003CTViewModel\u003E(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetBinding",
+      "s": "public static View SetBinding\u003CT\u003E(View view, BindingSession\u003CT\u003E vm, Action\u003CT\u003E set, String path)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetBinding",
+      "s": "public static View SetBinding\u003CTViewModel\u003E(View view, BindingSession\u003CTViewModel\u003E session, String targetPath, String srcPath)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetTwoWayBinding",
+      "s": "public static View SetTwoWayBinding\u003CTViewModel, TProperty\u003E(View view, BindingSession\u003CTViewModel\u003E session, TwoWayBindingProperty\u003CView, TProperty\u003E property, String path)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TText",
+      "n": "BindFontSize",
+      "s": "public static TText BindFontSize\u003CTText\u003E(TText view, String path) where TText : View, IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TText",
+      "n": "BindLocalizedText",
+      "s": "public static TText BindLocalizedText\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TText",
+      "n": "BindText",
+      "s": "public static TText BindText\u003CTText\u003E(TText view, String path) where TText : View, IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TText",
+      "n": "BindTextColor",
+      "s": "public static TText BindTextColor\u003CTText\u003E(TText view, String path) where TText : View, IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TText",
+      "n": "BindTextTwoWay",
+      "s": "public static TText BindTextTwoWay\u003CTText\u003E(TText view, String path) where TText : View, IText, ITextEditable"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "Bind",
+      "s": "public static TView Bind\u003CTView, TProperty\u003E(TView view, BindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "BindBackgroundColor",
+      "s": "public static TView BindBackgroundColor\u003CTView\u003E(TView view, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "BindHeight",
+      "s": "public static TView BindHeight\u003CTView\u003E(TView view, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "BindWidth",
+      "s": "public static TView BindWidth\u003CTView\u003E(TView view, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "BindX",
+      "s": "public static TView BindX\u003CTView\u003E(TView view, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "BindY",
+      "s": "public static TView BindY\u003CTView\u003E(TView view, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "SetBinding",
+      "s": "public static TView SetBinding\u003CT, TView\u003E(TView view, BindingSession\u003CT\u003E vm, Action\u003CT, TView\u003E set, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "SetBinding",
+      "s": "public static TView SetBinding\u003CTView, TViewModel, TProperty\u003E(TView view, BindingSession\u003CTViewModel\u003E session, BindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "SetTwoWayBinding",
+      "s": "public static TView SetTwoWayBinding\u003CTView, TViewModel, TProperty\u003E(TView view, BindingSession\u003CTViewModel\u003E session, TwoWayBindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "TwoWayBind",
+      "s": "public static TView TwoWayBind\u003CTView, TProperty\u003E(TView view, TwoWayBindingProperty\u003CTView, TProperty\u003E property, String path) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "TView",
+      "n": "ViewModel",
+      "s": "public static TView ViewModel\u003CTView\u003E(TView view, Object viewModel) where TView : View"
+    }
+  ]
+}

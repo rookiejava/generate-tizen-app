@@ -1,0 +1,198 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ViewHolder",
+          "f": "Tizen.UI.Components.Recycler.ViewHolder",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BindingContext",
+              "s": "public Object get_BindingContext()"
+            },
+            {
+              "k": "method",
+              "n": "get_BoundsModifier",
+              "s": "public Thickness get_BoundsModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_Frame",
+              "s": "public Rect get_Frame()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDivider",
+              "s": "public Boolean get_IsDivider()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsRecycled",
+              "s": "public Boolean get_IsRecycled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSeized",
+              "s": "public Boolean get_IsSeized()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemHeight",
+              "s": "public Single get_ItemHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpanSize",
+              "s": "public UInt32 get_ItemSpanSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemView",
+              "s": "public View get_ItemView()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemViewType",
+              "s": "public Int32 get_ItemViewType()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemWidth",
+              "s": "public Single get_ItemWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Int32 get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "set_BindingContext",
+              "s": "public Void set_BindingContext(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BoundsModifier",
+              "s": "public Void set_BoundsModifier(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Frame",
+              "s": "public Void set_Frame(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsDivider",
+              "s": "public Void set_IsDivider(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsRecycled",
+              "s": "public Void set_IsRecycled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSeized",
+              "s": "public Void set_IsSeized(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpanSize",
+              "s": "public Void set_ItemSpanSize(UInt32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemView",
+              "s": "public Void set_ItemView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemViewType",
+              "s": "public Void set_ItemViewType(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "BindingContext",
+              "s": "public Object BindingContext { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BoundsModifier",
+              "s": "public Thickness BoundsModifier { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Frame",
+              "s": "public Rect Frame { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDivider",
+              "s": "public Boolean IsDivider { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsRecycled",
+              "s": "public Boolean IsRecycled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSeized",
+              "s": "public Boolean IsSeized { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemHeight",
+              "s": "public Single ItemHeight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpanSize",
+              "s": "public UInt32 ItemSpanSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemView",
+              "s": "public View ItemView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemViewType",
+              "s": "public Int32 ItemViewType { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemWidth",
+              "s": "public Single ItemWidth { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Int32 Position { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,130 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "FrameUpdateCallback",
+          "f": "Tizen.UI.FrameUpdateCallback",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "Finalize",
+              "s": "Void Finalize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public IntPtr get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProxyHandle",
+              "s": "private IntPtr get_ProxyHandle()"
+            },
+            {
+              "k": "method",
+              "n": "GetColor",
+              "s": "public Color GetColor(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetPosition",
+              "s": "public Point GetPosition(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetScale",
+              "s": "public Size GetScale(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetSize",
+              "s": "public Size GetSize(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetVector3Cache",
+              "s": "private Vector3Handle GetVector3Cache()"
+            },
+            {
+              "k": "method",
+              "n": "GetVector4Cache",
+              "s": "private Vector4Handle GetVector4Cache()"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorOnUpdate",
+              "s": "private Void OnDirectorOnUpdate(IntPtr proxy, Single elapsedSeconds)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdate",
+              "s": "protected Void OnUpdate(Single elapsedSeconds)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProxyHandle",
+              "s": "private Void set_ProxyHandle(IntPtr value)"
+            },
+            {
+              "k": "method",
+              "n": "SetColor",
+              "s": "public Boolean SetColor(UInt32 id, Color color)"
+            },
+            {
+              "k": "method",
+              "n": "SetPosition",
+              "s": "public Boolean SetPosition(UInt32 id, Point position)"
+            },
+            {
+              "k": "method",
+              "n": "SetScale",
+              "s": "public Boolean SetScale(UInt32 id, Size scale)"
+            },
+            {
+              "k": "method",
+              "n": "SetSize",
+              "s": "public Boolean SetSize(UInt32 id, Size size)"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public IntPtr Handle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ProxyHandle",
+              "s": "private IntPtr ProxyHandle { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

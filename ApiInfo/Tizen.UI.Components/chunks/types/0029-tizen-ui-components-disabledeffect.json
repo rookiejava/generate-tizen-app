@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "DisabledEffect",
+          "f": "Tizen.UI.Components.DisabledEffect",
+          "k": "class",
+          "b": "Tizen.UI.Components.UIAttachable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single disabledOpacity)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyDisabledEffect",
+              "s": "private Void ApplyDisabledEffect(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnAttached",
+              "s": "public Void OnAttached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetached",
+              "s": "public Void OnDetached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnDisabledChanged",
+              "s": "private Void OnDisabledChanged(View sender, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RestoreNormalState",
+              "s": "private Void RestoreNormalState(View view)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

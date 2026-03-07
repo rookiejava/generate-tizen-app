@@ -1,0 +1,84 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "HolderExtensions",
+          "f": "Tizen.UI.Components.Recycler.HolderExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GroupInfo",
+              "s": "public static GroupInfo GroupInfo(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Holder",
+              "s": "public static Void Holder(View view, ViewHolder holder)"
+            },
+            {
+              "k": "method",
+              "n": "Holder",
+              "s": "public static ViewHolder Holder(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HolderInfo",
+              "s": "public static HolderInfo HolderInfo(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HolderPosition",
+              "s": "public static Int32 HolderPosition(View view)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components.Recycler",
+      "t": "Tizen.UI.Components.Recycler.HolderExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GroupInfo",
+      "s": "public static GroupInfo GroupInfo(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components.Recycler",
+      "t": "Tizen.UI.Components.Recycler.HolderExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Holder",
+      "s": "public static Void Holder(View view, ViewHolder holder)"
+    },
+    {
+      "d": "Tizen.UI.Components.Recycler",
+      "t": "Tizen.UI.Components.Recycler.HolderExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Holder",
+      "s": "public static ViewHolder Holder(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components.Recycler",
+      "t": "Tizen.UI.Components.Recycler.HolderExtensions",
+      "r": "Tizen.UI.View",
+      "n": "HolderInfo",
+      "s": "public static HolderInfo HolderInfo(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components.Recycler",
+      "t": "Tizen.UI.Components.Recycler.HolderExtensions",
+      "r": "Tizen.UI.View",
+      "n": "HolderPosition",
+      "s": "public static Int32 HolderPosition(View view)"
+    }
+  ]
+}

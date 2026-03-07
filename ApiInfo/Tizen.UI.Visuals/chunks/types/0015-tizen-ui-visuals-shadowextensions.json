@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals",
+      "t": [
+        {
+          "n": "ShadowExtensions",
+          "f": "Tizen.UI.Visuals.ShadowExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+    }
+  ]
+}

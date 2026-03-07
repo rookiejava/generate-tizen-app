@@ -1,0 +1,245 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AppBarVariables",
+          "f": "Tizen.UI.Components.Material.AppBarVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.AppBarVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(AppBarVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "AppBarVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(AppBarVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonSpacing",
+              "s": "public Single get_ActionButtonSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static AppBarVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ExtraTitleStartPadding",
+              "s": "public Single get_ExtraTitleStartPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_SpaceBetweenActionButtonsTrailing",
+              "s": "public Single get_SpaceBetweenActionButtonsTrailing()"
+            },
+            {
+              "k": "method",
+              "n": "get_SpaceBetweenLeadingAndTitle",
+              "s": "public Single get_SpaceBetweenLeadingAndTitle()"
+            },
+            {
+              "k": "method",
+              "n": "get_SpaceBetweenTitleAndActionButtons",
+              "s": "public Single get_SpaceBetweenTitleAndActionButtons()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Single get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_Transparent",
+              "s": "public static AppBarVariables get_Transparent()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnifiedContentColor",
+              "s": "public Color get_UnifiedContentColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(AppBarVariables left, AppBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(AppBarVariables left, AppBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ExtraTitleStartPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ExtraTitleStartPadding(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SpaceBetweenActionButtonsTrailing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SpaceBetweenActionButtonsTrailing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SpaceBetweenLeadingAndTitle",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SpaceBetweenLeadingAndTitle(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SpaceBetweenTitleAndActionButtons",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SpaceBetweenTitleAndActionButtons(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Thickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnifiedContentColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnifiedContentColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonSpacing",
+              "s": "public Single ActionButtonSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public AppBarVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ExtraTitleStartPadding",
+              "s": "public Single ExtraTitleStartPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SpaceBetweenActionButtonsTrailing",
+              "s": "public Single SpaceBetweenActionButtonsTrailing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SpaceBetweenLeadingAndTitle",
+              "s": "public Single SpaceBetweenLeadingAndTitle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SpaceBetweenTitleAndActionButtons",
+              "s": "public Single SpaceBetweenTitleAndActionButtons { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Single Thickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Transparent",
+              "s": "public AppBarVariables Transparent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "UnifiedContentColor",
+              "s": "public Color UnifiedContentColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

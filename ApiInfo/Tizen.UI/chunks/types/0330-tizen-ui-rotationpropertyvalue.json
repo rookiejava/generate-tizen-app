@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "RotationPropertyValue",
+          "f": "Tizen.UI.RotationPropertyValue",
+          "k": "class",
+          "b": "Tizen.UI.AnimatablePropertyValue",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single rotationX, Single rotationY, Single rotationZ)"
+            },
+            {
+              "k": "method",
+              "n": "get_RotationX",
+              "s": "public Single get_RotationX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RotationY",
+              "s": "public Single get_RotationY()"
+            },
+            {
+              "k": "method",
+              "n": "get_RotationZ",
+              "s": "public Single get_RotationZ()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(View view)"
+            },
+            {
+              "k": "property",
+              "n": "RotationX",
+              "s": "public Single RotationX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RotationY",
+              "s": "public Single RotationY { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RotationZ",
+              "s": "public Single RotationZ { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

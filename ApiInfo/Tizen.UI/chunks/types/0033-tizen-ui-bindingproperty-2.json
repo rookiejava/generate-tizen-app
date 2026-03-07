@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "BindingProperty\u00602",
+          "f": "Tizen.UI.BindingProperty\u00602",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Setter",
+              "s": "public Action\u003CTView, TValue\u003E get_Setter()"
+            },
+            {
+              "k": "method",
+              "n": "set_Setter",
+              "s": "public Void set_Setter(Action\u003CTView, TValue\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "Setter",
+              "s": "public Action\u003CTView, TValue\u003E Setter { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

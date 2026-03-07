@@ -1,0 +1,183 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Material",
+          "f": "Tizen.UI.Scene3D.Material",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMode",
+              "s": "public MaterialAlphaMode get_AlphaMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaseColorFactor",
+              "s": "public Color get_BaseColorFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaseColorUrl",
+              "s": "public String get_BaseColorUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_MetallicFactor",
+              "s": "public Single get_MetallicFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_MetallicRoughnessUrl",
+              "s": "public String get_MetallicRoughnessUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_NormalScale",
+              "s": "public Single get_NormalScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_NormalUrl",
+              "s": "public String get_NormalUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_RoughnessFactor",
+              "s": "public Single get_RoughnessFactor()"
+            },
+            {
+              "k": "method",
+              "n": "GetProperty",
+              "s": "private PropertyValueHandle GetProperty(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMode",
+              "s": "public Void set_AlphaMode(MaterialAlphaMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BaseColorFactor",
+              "s": "public Void set_BaseColorFactor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BaseColorUrl",
+              "s": "public Void set_BaseColorUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MetallicFactor",
+              "s": "public Void set_MetallicFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MetallicRoughnessUrl",
+              "s": "public Void set_MetallicRoughnessUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NormalScale",
+              "s": "public Void set_NormalScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NormalUrl",
+              "s": "public Void set_NormalUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RoughnessFactor",
+              "s": "public Void set_RoughnessFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetProperty",
+              "s": "private Void SetProperty(Int32 index, PropertyValueHandle propertyValue)"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMode",
+              "s": "public MaterialAlphaMode AlphaMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BaseColorFactor",
+              "s": "public Color BaseColorFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BaseColorUrl",
+              "s": "public String BaseColorUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MetallicFactor",
+              "s": "public Single MetallicFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MetallicRoughnessUrl",
+              "s": "public String MetallicRoughnessUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NormalScale",
+              "s": "public Single NormalScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NormalUrl",
+              "s": "public String NormalUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RoughnessFactor",
+              "s": "public Single RoughnessFactor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

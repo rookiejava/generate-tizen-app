@@ -1,0 +1,386 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageView",
+          "f": "Tizen.UI.ImageView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "Tizen.UI.IImage",
+            "Tizen.UI.Internal.IResourceReadySignalHandler"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownshandle)"
+            },
+            {
+              "k": "event",
+              "n": "_resourcesLoaded",
+              "s": "private event EventHandler _resourcesLoaded"
+            },
+            {
+              "k": "event",
+              "n": "ResourcesLoaded",
+              "s": "public event EventHandler ResourcesLoaded"
+            },
+            {
+              "k": "method",
+              "n": "add__resourcesLoaded",
+              "s": "private Void add__resourcesLoaded(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourcesLoaded",
+              "s": "public Void add_ResourcesLoaded(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearNeedUpdateMap",
+              "s": "protected Void ClearNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "CreateImageVisualMap",
+              "s": "protected ImageVisualMap CreateImageVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageLoadWithViewSize",
+              "s": "public Boolean get_ImageLoadWithViewSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageMultipliedColor",
+              "s": "public Color get_ImageMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsNinePatchImage",
+              "s": "public Boolean get_IsNinePatchImage()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsResourceReady",
+              "s": "public Boolean get_IsResourceReady()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadingPlaceholderUrl",
+              "s": "public String get_LoadingPlaceholderUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadingStatus",
+              "s": "public ImageLoadingStatus get_LoadingStatus()"
+            },
+            {
+              "k": "method",
+              "n": "get_PreMultipliedAlpha",
+              "s": "public Boolean get_PreMultipliedAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "protected ImageVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "IsHandlerRegistered",
+              "s": "protected Boolean IsHandlerRegistered()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIteration",
+              "s": "private Void OnLayoutIteration(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceLoad",
+              "s": "protected Void OnResourceLoad()"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourcesLoaded",
+              "s": "private Void OnResourcesLoaded(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateRequired",
+              "s": "private Void OnUpdateRequired(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnVisualMapUpdateRequired",
+              "s": "protected Void OnVisualMapUpdateRequired(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Pause",
+              "s": "public Void Pause()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play()"
+            },
+            {
+              "k": "method",
+              "n": "Reload",
+              "s": "public Void Reload()"
+            },
+            {
+              "k": "method",
+              "n": "remove__resourcesLoaded",
+              "s": "private Void remove__resourcesLoaded(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourcesLoaded",
+              "s": "public Void remove_ResourcesLoaded(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "protected Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageLoadWithViewSize",
+              "s": "public Void set_ImageLoadWithViewSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageMultipliedColor",
+              "s": "public Void set_ImageMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsNinePatchImage",
+              "s": "public Void set_IsNinePatchImage(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LoadingPlaceholderUrl",
+              "s": "public Void set_LoadingPlaceholderUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PreMultipliedAlpha",
+              "s": "public Void set_PreMultipliedAlpha(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VisualMap",
+              "s": "private Void set_VisualMap(ImageVisualMap value)"
+            },
+            {
+              "k": "method",
+              "n": "SetImagePadding",
+              "s": "public Void SetImagePadding(Thickness thickness)"
+            },
+            {
+              "k": "method",
+              "n": "SetNeedUpdateMap",
+              "s": "protected Void SetNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IResourceReadySignalHandler.OnResourceReadySignal",
+              "s": "Void Tizen.UI.Internal.IResourceReadySignalHandler.OnResourceReadySignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Update",
+              "s": "public Void Update()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBorderProperty",
+              "s": "protected Void UpdateBorderProperty()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateCornerRadiusProperty",
+              "s": "protected Void UpdateCornerRadiusProperty(CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateImageMap",
+              "s": "protected Void UpdateImageMap()"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageLoadWithViewSize",
+              "s": "public Boolean ImageLoadWithViewSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageMultipliedColor",
+              "s": "public Color ImageMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsNinePatchImage",
+              "s": "public Boolean IsNinePatchImage { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsResourceReady",
+              "s": "public Boolean IsResourceReady { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadingPlaceholderUrl",
+              "s": "public String LoadingPlaceholderUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadingStatus",
+              "s": "public ImageLoadingStatus LoadingStatus { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PreMultipliedAlpha",
+              "s": "public Boolean PreMultipliedAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "protected ImageVisualMap VisualMap { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

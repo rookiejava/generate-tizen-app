@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Light",
+          "f": "Tizen.UI.Scene3D.Light",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShadowEnabled",
+              "s": "public Boolean get_IsShadowEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShadowSoftFilteringEnabled",
+              "s": "public Boolean get_IsShadowSoftFilteringEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShadowIntensity",
+              "s": "public Single get_ShadowIntensity()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsShadowEnabled",
+              "s": "public Void set_IsShadowEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsShadowSoftFilteringEnabled",
+              "s": "public Void set_IsShadowSoftFilteringEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShadowIntensity",
+              "s": "public Void set_ShadowIntensity(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "IsShadowEnabled",
+              "s": "public Boolean IsShadowEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsShadowSoftFilteringEnabled",
+              "s": "public Boolean IsShadowSoftFilteringEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShadowIntensity",
+              "s": "public Single ShadowIntensity { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

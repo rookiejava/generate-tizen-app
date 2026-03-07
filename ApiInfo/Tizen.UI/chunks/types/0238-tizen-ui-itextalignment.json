@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ITextAlignment",
+          "f": "Tizen.UI.ITextAlignment",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,184 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Point",
+          "f": "Tizen.UI.Point",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Size sz)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y)"
+            },
+            {
+              "k": "method",
+              "n": "Distance",
+              "s": "public Double Distance(Point other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEmpty",
+              "s": "public Boolean get_IsEmpty()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Offset",
+              "s": "public Point Offset(Single dx, Single dy)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point op_Addition(Point pt, Size sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point op_Addition(Point p1, Point p2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Point ptA, Point ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Size op_Explicit(Point pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Point ptA, Point ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point op_Subtraction(Point pt, Size sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point op_Subtraction(Point p1, Point p2)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Point Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "IsEmpty",
+              "s": "public Boolean IsEmpty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Point",
+      "n": "ToDp",
+      "s": "public static Point ToDp(Point point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Point",
+      "n": "ToPixel",
+      "s": "public static Point ToPixel(Point point)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToInt32Pair",
+      "s": "internal static Int32PairHandle ToInt32Pair(Point point)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Point value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Point value, Boolean useVector3)"
+    }
+  ]
+}

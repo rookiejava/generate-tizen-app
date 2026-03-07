@@ -1,0 +1,36 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageBackgroundExtensions",
+          "f": "Tizen.UI.ImageBackgroundExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Url",
+              "s": "public static TView Url\u003CTView\u003E(TView view, String url) where TView : ImageBackground"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageBackgroundExtensions",
+      "r": "TView",
+      "n": "Url",
+      "s": "public static TView Url\u003CTView\u003E(TView view, String url) where TView : ImageBackground"
+    }
+  ]
+}

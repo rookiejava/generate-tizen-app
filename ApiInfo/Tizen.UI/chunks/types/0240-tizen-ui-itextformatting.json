@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ITextFormatting",
+          "f": "Tizen.UI.ITextFormatting",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_IsMultiline",
+              "s": "public Boolean get_IsMultiline()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMultiline",
+              "s": "public Void set_IsMultiline(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "property",
+              "n": "IsMultiline",
+              "s": "public Boolean IsMultiline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IPropertySetter\u00601",
+          "f": "Tizen.UI.Components.IPropertySetter\u00601",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "Invoke",
+              "s": "public Void Invoke(Object target, TValue value)"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

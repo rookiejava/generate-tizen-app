@@ -1,0 +1,160 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ItemTemplateAdapter",
+          "f": "Tizen.UI.Components.Recycler.ItemTemplateAdapter",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.Adapter",
+          "i": [
+            "Tizen.UI.Components.Recycler.IDividerProvider"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddToTemplateCache",
+              "s": "protected Void AddToTemplateCache(Int32 viewType, ViewTemplate template)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustDividerPosition",
+              "s": "protected Int32 AdjustDividerPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerTemplate",
+              "s": "public ViewTemplate get_DividerTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasDivider",
+              "s": "public Boolean get_HasDivider()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemCount",
+              "s": "public Int32 get_ItemCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemsSource",
+              "s": "public IEnumerable get_ItemsSource()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemTemplate",
+              "s": "public ViewTemplate get_ItemTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "GetItem",
+              "s": "protected Object GetItem(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemOnPosition",
+              "s": "public Object GetItemOnPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemViewType",
+              "s": "public Int32 GetItemViewType(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetSourceIndexFromPosition",
+              "s": "public Int32 GetSourceIndexFromPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetViewTemplate",
+              "s": "protected ViewTemplate GetViewTemplate(Int32 viewType)"
+            },
+            {
+              "k": "method",
+              "n": "IsDividerPosition",
+              "s": "public Boolean IsDividerPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "OnBindViewHolder",
+              "s": "public Void OnBindViewHolder(ViewHolder holder, Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "OnCollectionChanged",
+              "s": "private Void OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnCreateViewHolder",
+              "s": "public ViewHolder OnCreateViewHolder(Int32 viewType)"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerTemplate",
+              "s": "public Void set_DividerTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasDivider",
+              "s": "public Void set_HasDivider(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemsSource",
+              "s": "public Void set_ItemsSource(IEnumerable value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemTemplate",
+              "s": "public Void set_ItemTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "SetItemsSource",
+              "s": "public Void SetItemsSource(IEnumerable items)"
+            },
+            {
+              "k": "property",
+              "n": "DividerTemplate",
+              "s": "public ViewTemplate DividerTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasDivider",
+              "s": "public Boolean HasDivider { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemCount",
+              "s": "public Int32 ItemCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemsSource",
+              "s": "public IEnumerable ItemsSource { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemTemplate",
+              "s": "public ViewTemplate ItemTemplate { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

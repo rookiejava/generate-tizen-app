@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "InteractiveProgressHelper",
+          "f": "Tizen.UI.Components.InteractiveProgressHelper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "HorizontalLengthToRatio",
+              "s": "public static Single HorizontalLengthToRatio(Single currentRatio, Single deltaX, Single width, Rect targetBounds)"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalPointToRatio",
+              "s": "public static Single HorizontalPointToRatio(Single x, Single width, Rect targetBounds)"
+            },
+            {
+              "k": "method",
+              "n": "VerticalLengthToRatio",
+              "s": "public static Single VerticalLengthToRatio(Single currentRatio, Single deltaY, Single height, Rect targetBounds)"
+            },
+            {
+              "k": "method",
+              "n": "VerticalPointToRatio",
+              "s": "public static Single VerticalPointToRatio(Single y, Single height, Rect targetBounds)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

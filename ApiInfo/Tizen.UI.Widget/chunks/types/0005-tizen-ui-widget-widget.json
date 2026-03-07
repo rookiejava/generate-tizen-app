@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Widget",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Widget.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Widget.dll",
+  "g": "2026-03-07T11:20:28.7045769+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Widget",
+      "t": [
+        {
+          "n": "Widget",
+          "f": "Tizen.UI.Widget.Widget",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr widgetPtr)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectDirector",
+              "s": "private Void ConnectDirector()"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectDirector",
+              "s": "private Void DisconnectDirector()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "OnCreate",
+              "s": "protected Void OnCreate(String contentInfo, Window window)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorCreated",
+              "s": "private Void OnDirectorCreated(String contentInfo, IntPtr window)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorPause",
+              "s": "private Void OnDirectorPause()"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorResize",
+              "s": "private Void OnDirectorResize(IntPtr window)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorResume",
+              "s": "private Void OnDirectorResume()"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorSignalConnected",
+              "s": "private Void OnDirectorSignalConnected(IntPtr slotObserver, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorSignalDisconnected",
+              "s": "private Void OnDirectorSignalDisconnected(IntPtr slotObserver, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorTerminate",
+              "s": "private Void OnDirectorTerminate(String contentInfo, Boolean suspend)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirectorUpdate",
+              "s": "private Void OnDirectorUpdate(String contentInfo, Boolean force)"
+            },
+            {
+              "k": "method",
+              "n": "OnPause",
+              "s": "protected Void OnPause()"
+            },
+            {
+              "k": "method",
+              "n": "OnResize",
+              "s": "protected Void OnResize(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "OnResume",
+              "s": "protected Void OnResume()"
+            },
+            {
+              "k": "method",
+              "n": "OnTerminate",
+              "s": "protected Void OnTerminate(String contentInfo, Boolean suspend)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdate",
+              "s": "protected Void OnUpdate(String contentInfo, Boolean force)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

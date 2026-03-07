@@ -1,0 +1,132 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIShadowExtensions",
+          "f": "Tizen.UI.Components.UIShadowExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CornerRadius",
+              "s": "public static IEnumerable\u003CColorVisual\u003E CornerRadius(IEnumerable\u003CColorVisual\u003E visuals, CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "CornerSquareness",
+              "s": "public static IEnumerable\u003CColorVisual\u003E CornerSquareness(IEnumerable\u003CColorVisual\u003E visuals, CornerRadius cornerSquareness)"
+            },
+            {
+              "k": "method",
+              "n": "ExtraSize",
+              "s": "public static IEnumerable\u003CColorVisual\u003E ExtraSize(IEnumerable\u003CColorVisual\u003E visuals, Single extraWidth, Single extraHeight)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows, CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows, CornerRadius cornerRadius, CornerRadius cornerSquareness)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius, CornerRadius cornerSquareness)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Shadow\u003E",
+      "n": "ToVisual",
+      "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Shadow\u003E",
+      "n": "ToVisual",
+      "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows, CornerRadius cornerRadius)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Shadow\u003E",
+      "n": "ToVisual",
+      "s": "public static IEnumerable\u003CColorVisual\u003E ToVisual(IEnumerable\u003CShadow\u003E shadows, CornerRadius cornerRadius, CornerRadius cornerSquareness)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Visuals.ColorVisual\u003E",
+      "n": "CornerRadius",
+      "s": "public static IEnumerable\u003CColorVisual\u003E CornerRadius(IEnumerable\u003CColorVisual\u003E visuals, CornerRadius cornerRadius)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Visuals.ColorVisual\u003E",
+      "n": "CornerSquareness",
+      "s": "public static IEnumerable\u003CColorVisual\u003E CornerSquareness(IEnumerable\u003CColorVisual\u003E visuals, CornerRadius cornerSquareness)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Visuals.ColorVisual\u003E",
+      "n": "ExtraSize",
+      "s": "public static IEnumerable\u003CColorVisual\u003E ExtraSize(IEnumerable\u003CColorVisual\u003E visuals, Single extraWidth, Single extraHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius, CornerRadius cornerSquareness)"
+    }
+  ]
+}

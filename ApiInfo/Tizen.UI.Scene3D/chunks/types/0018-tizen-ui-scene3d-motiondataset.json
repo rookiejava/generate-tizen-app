@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "MotionDataSet",
+          "f": "Tizen.UI.Scene3D.MotionDataSet",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.MotionData",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DataSet",
+              "s": "public IList\u003CMotionData\u003E get_DataSet()"
+            },
+            {
+              "k": "method",
+              "n": "GetMotionValues",
+              "s": "internal IEnumerable\u003CValueTuple\u003CMotionIndexHandle, MotionValueHandle\u003E\u003E GetMotionValues()"
+            },
+            {
+              "k": "property",
+              "n": "DataSet",
+              "s": "public IList\u003CMotionData\u003E DataSet { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

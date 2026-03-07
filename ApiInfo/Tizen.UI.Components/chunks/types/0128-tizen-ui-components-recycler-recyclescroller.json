@@ -1,0 +1,223 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "RecycleScroller",
+          "f": "Tizen.UI.Components.Recycler.RecycleScroller",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(RecyclerView recyclerView)"
+            },
+            {
+              "k": "event",
+              "n": "ScrollAnimationCanceled",
+              "s": "public event EventHandler ScrollAnimationCanceled"
+            },
+            {
+              "k": "event",
+              "n": "ScrollAnimationFinished",
+              "s": "public event EventHandler ScrollAnimationFinished"
+            },
+            {
+              "k": "event",
+              "n": "ScrollAnimationStarted",
+              "s": "public event EventHandler ScrollAnimationStarted"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollAnimationCanceled",
+              "s": "public Void add_ScrollAnimationCanceled(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollAnimationFinished",
+              "s": "public Void add_ScrollAnimationFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollAnimationStarted",
+              "s": "public Void add_ScrollAnimationStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddBody",
+              "s": "public Void AddBody(View child)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustChildPosition",
+              "s": "public Void AdjustChildPosition(Single dx, Single dy, Func\u003CView, Boolean\u003E condition)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustScrollPosition",
+              "s": "public Void AdjustScrollPosition(Single dx, Single dy)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentViewPort",
+              "s": "public Rect get_CurrentViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrollAnimationStarted",
+              "s": "public Boolean get_IsScrollAnimationStarted()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecycleBody",
+              "s": "public IList\u003CView\u003E get_RecycleBody()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecyclerView",
+              "s": "private RecyclerView get_RecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollX",
+              "s": "public Single get_ScrollX()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollY",
+              "s": "public Single get_ScrollY()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPort",
+              "s": "public Rect get_ViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "public Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "MoveBy",
+              "s": "public Void MoveBy(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "OnAnimationFinished",
+              "s": "private Void OnAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScroll",
+              "s": "private Void OnScroll()"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollAnimationCanceled",
+              "s": "public Void remove_ScrollAnimationCanceled(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollAnimationFinished",
+              "s": "public Void remove_ScrollAnimationFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollAnimationStarted",
+              "s": "public Void remove_ScrollAnimationStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveBody",
+              "s": "public Void RemoveBody(View child)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBy",
+              "s": "public Task ScrollBy(Single x, Single y, Int32 duration, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollStop",
+              "s": "public Void ScrollStop()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsScrollAnimationStarted",
+              "s": "public Void set_IsScrollAnimationStarted(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "CurrentViewPort",
+              "s": "public Rect CurrentViewPort { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrollAnimationStarted",
+              "s": "public Boolean IsScrollAnimationStarted { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecycleBody",
+              "s": "public IList\u003CView\u003E RecycleBody { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RecyclerView",
+              "s": "private RecyclerView RecyclerView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollX",
+              "s": "public Single ScrollX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollY",
+              "s": "public Single ScrollY { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPort",
+              "s": "public Rect ViewPort { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

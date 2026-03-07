@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TapGesture",
+          "f": "Tizen.UI.TapGesture",
+          "k": "class",
+          "b": "Tizen.UI.Gesture",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_NumberOfTaps",
+              "s": "public Int32 get_NumberOfTaps()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenPosition",
+              "s": "public Point get_ScreenPosition()"
+            },
+            {
+              "k": "property",
+              "n": "NumberOfTaps",
+              "s": "public Int32 NumberOfTaps { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point Position { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenPosition",
+              "s": "public Point ScreenPosition { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

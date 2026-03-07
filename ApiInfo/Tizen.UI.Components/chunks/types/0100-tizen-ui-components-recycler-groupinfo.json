@@ -1,0 +1,163 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "GroupInfo",
+          "f": "Tizen.UI.Components.Recycler.GroupInfo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Bottom",
+              "s": "public Single get_Bottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_End",
+              "s": "public Int32 get_End()"
+            },
+            {
+              "k": "method",
+              "n": "get_Left",
+              "s": "public Single get_Left()"
+            },
+            {
+              "k": "method",
+              "n": "get_NeedLayout",
+              "s": "public Boolean get_NeedLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Int32 get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Right",
+              "s": "public Single get_Right()"
+            },
+            {
+              "k": "method",
+              "n": "get_Start",
+              "s": "public Int32 get_Start()"
+            },
+            {
+              "k": "method",
+              "n": "get_Top",
+              "s": "public Single get_Top()"
+            },
+            {
+              "k": "method",
+              "n": "set_Bottom",
+              "s": "public Void set_Bottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Count",
+              "s": "public Void set_Count(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_End",
+              "s": "public Void set_End(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Left",
+              "s": "public Void set_Left(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NeedLayout",
+              "s": "public Void set_NeedLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Right",
+              "s": "public Void set_Right(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Start",
+              "s": "public Void set_Start(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Top",
+              "s": "public Void set_Top(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Bottom",
+              "s": "public Single Bottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "End",
+              "s": "public Int32 End { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Left",
+              "s": "public Single Left { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NeedLayout",
+              "s": "public Boolean NeedLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Int32 Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Right",
+              "s": "public Single Right { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Start",
+              "s": "public Int32 Start { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Top",
+              "s": "public Single Top { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

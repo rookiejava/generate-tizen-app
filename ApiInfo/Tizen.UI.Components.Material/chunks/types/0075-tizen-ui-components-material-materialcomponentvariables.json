@@ -1,0 +1,693 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "MaterialComponentVariables",
+          "f": "Tizen.UI.Components.Material.MaterialComponentVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.UIVariables",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateActionButton",
+              "s": "public IconButtonVariables CreateActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "CreateAlertDialogDefault",
+              "s": "public AlertDialogVariables CreateAlertDialogDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateAppBarDefault",
+              "s": "public AppBarVariables CreateAppBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateAppBarTransparent",
+              "s": "public AppBarVariables CreateAppBarTransparent()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBackButton",
+              "s": "public IconButtonVariables CreateBackButton()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBottomSheetContainerDefault",
+              "s": "public BottomSheetContainerVariables CreateBottomSheetContainerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBottomSheetDefault",
+              "s": "public BottomSheetVariables CreateBottomSheetDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateButtonDefault",
+              "s": "public ButtonVariables CreateButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateButtonFlat",
+              "s": "public ButtonVariables CreateButtonFlat()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCardDefault",
+              "s": "public CardVariables CreateCardDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCheckboxDefault",
+              "s": "public CheckboxVariables CreateCheckboxDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCheckboxGhost",
+              "s": "public CheckboxVariables CreateCheckboxGhost()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCircleButtonDefault",
+              "s": "public CircleButtonVariables CreateCircleButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDialogContainerDefault",
+              "s": "public DialogContainerVariables CreateDialogContainerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDialogDefault",
+              "s": "public DialogVariables CreateDialogDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDividerDefault",
+              "s": "public DividerVariables CreateDividerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDoubleTitleDefault",
+              "s": "public DoubleTitleVariables CreateDoubleTitleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDrawerItemDefault",
+              "s": "public DrawerItemVariables CreateDrawerItemDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDropdownItemCheck",
+              "s": "public DropdownItemVariables CreateDropdownItemCheck()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDropdownItemDefault",
+              "s": "public DropdownItemVariables CreateDropdownItemDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateDropdownListDefault",
+              "s": "public DropdownListVariables CreateDropdownListDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFloatingActionButton",
+              "s": "public IconButtonVariables CreateFloatingActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "CreateGoToTopButton",
+              "s": "public IconButtonVariables CreateGoToTopButton()"
+            },
+            {
+              "k": "method",
+              "n": "CreateIconButtonDefault",
+              "s": "public IconButtonVariables CreateIconButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateInputEditorDefault",
+              "s": "public InputEditorVariables CreateInputEditorDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateInputFieldDefault",
+              "s": "public InputFieldVariables CreateInputFieldDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateLabelDefault",
+              "s": "public LabelVariables CreateLabelDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateLevelBarDefault",
+              "s": "public LevelBarVariables CreateLevelBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateModalDrawerDefault",
+              "s": "public ModalDrawerVariables CreateModalDrawerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateMoreButton",
+              "s": "public IconButtonVariables CreateMoreButton()"
+            },
+            {
+              "k": "method",
+              "n": "CreatePageIndicator",
+              "s": "public PageIndicatorVariables CreatePageIndicator()"
+            },
+            {
+              "k": "method",
+              "n": "CreatePageIndicatorDot",
+              "s": "public PageIndicatorDotVariables CreatePageIndicatorDot()"
+            },
+            {
+              "k": "method",
+              "n": "CreatePageIndicatorHome",
+              "s": "public PageIndicatorDotVariables CreatePageIndicatorHome()"
+            },
+            {
+              "k": "method",
+              "n": "CreatePageIndicatorPlus",
+              "s": "public PageIndicatorDotVariables CreatePageIndicatorPlus()"
+            },
+            {
+              "k": "method",
+              "n": "CreatePickerDefault",
+              "s": "public PickerVariables CreatePickerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateProgressBarDefault",
+              "s": "public ProgressBarVariables CreateProgressBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateProgressCircleDefault",
+              "s": "public ProgressCircleVariables CreateProgressCircleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateProgressTimerDefault",
+              "s": "public ProgressTimerVariables CreateProgressTimerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateRadioButtonDefault",
+              "s": "public RadioButtonVariables CreateRadioButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateRadioButtonGhost",
+              "s": "public RadioButtonVariables CreateRadioButtonGhost()"
+            },
+            {
+              "k": "method",
+              "n": "CreateScrollBarDefault",
+              "s": "public ScrollBarVariables CreateScrollBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSliderDefault",
+              "s": "public SliderVariables CreateSliderDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSmartTipDarkGray",
+              "s": "public SmartTipVariables CreateSmartTipDarkGray()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSmartTipDefault",
+              "s": "public SmartTipVariables CreateSmartTipDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSnackBarDefault",
+              "s": "public SnackBarVariables CreateSnackBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSpinnerButtonDefault",
+              "s": "public SpinnerButtonVariables CreateSpinnerButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateStaticDrawerDefault",
+              "s": "public StaticDrawerVariables CreateStaticDrawerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSwitchDefault",
+              "s": "public SwitchVariables CreateSwitchDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateTabBarBottom",
+              "s": "public TabBarVariables CreateTabBarBottom()"
+            },
+            {
+              "k": "method",
+              "n": "CreateTabBarDefault",
+              "s": "public TabBarVariables CreateTabBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateTabItemDefault",
+              "s": "public TabItemVariables CreateTabItemDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateTitleDefault",
+              "s": "public TitleVariables CreateTitleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "CreateToastDefault",
+              "s": "public ToastVariables CreateToastDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButton",
+              "s": "internal static IconButtonVariables get_ActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlertDialogDefault",
+              "s": "internal static AlertDialogVariables get_AlertDialogDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_AppBarDefault",
+              "s": "internal static AppBarVariables get_AppBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackButton",
+              "s": "internal static IconButtonVariables get_BackButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomSheetContainerDefault",
+              "s": "internal static BottomSheetContainerVariables get_BottomSheetContainerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomSheetDefault",
+              "s": "internal static BottomSheetVariables get_BottomSheetDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonDefault",
+              "s": "internal static ButtonVariables get_ButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonFlat",
+              "s": "internal static ButtonVariables get_ButtonFlat()"
+            },
+            {
+              "k": "method",
+              "n": "get_CardDefault",
+              "s": "internal static CardVariables get_CardDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_CheckboxDefault",
+              "s": "internal static CheckboxVariables get_CheckboxDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_Current",
+              "s": "public static MaterialComponentVariables get_Current()"
+            },
+            {
+              "k": "method",
+              "n": "get_DialogContainerDefault",
+              "s": "internal static DialogContainerVariables get_DialogContainerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_DialogDefault",
+              "s": "internal static DialogVariables get_DialogDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerDefault",
+              "s": "internal static DividerVariables get_DividerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_DoubleTitleDefault",
+              "s": "internal static DoubleTitleVariables get_DoubleTitleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerItemDefault",
+              "s": "internal static DrawerItemVariables get_DrawerItemDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_FAB",
+              "s": "internal static IconButtonVariables get_FAB()"
+            },
+            {
+              "k": "method",
+              "n": "get_GoToTOp",
+              "s": "internal static IconButtonVariables get_GoToTOp()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconButtonDefault",
+              "s": "internal static IconButtonVariables get_IconButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputEditorDefault",
+              "s": "internal static InputEditorVariables get_InputEditorDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFieldDefault",
+              "s": "internal static InputFieldVariables get_InputFieldDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_LabelDefault",
+              "s": "internal static LabelVariables get_LabelDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_LevelBarDefault",
+              "s": "internal static LevelBarVariables get_LevelBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalDrawerDefault",
+              "s": "internal static ModalDrawerVariables get_ModalDrawerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_MoreButton",
+              "s": "internal static IconButtonVariables get_MoreButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageIndicator",
+              "s": "internal static PageIndicatorVariables get_PageIndicator()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageIndicatorDot",
+              "s": "internal static PageIndicatorDotVariables get_PageIndicatorDot()"
+            },
+            {
+              "k": "method",
+              "n": "get_PickerDefault",
+              "s": "internal static PickerVariables get_PickerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressBarDefault",
+              "s": "internal static ProgressBarVariables get_ProgressBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressCircleDefault",
+              "s": "internal static ProgressCircleVariables get_ProgressCircleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadioButtonDefault",
+              "s": "internal static RadioButtonVariables get_RadioButtonDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollBarDefault",
+              "s": "internal static ScrollBarVariables get_ScrollBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_SliderDefault",
+              "s": "internal static SliderVariables get_SliderDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_SnackBarDefault",
+              "s": "internal static SnackBarVariables get_SnackBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_StaticDrawerDefault",
+              "s": "internal static StaticDrawerVariables get_StaticDrawerDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_SwitchDefault",
+              "s": "internal static SwitchVariables get_SwitchDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_TabBarDefault",
+              "s": "internal static TabBarVariables get_TabBarDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_TabItemDefault",
+              "s": "internal static TabItemVariables get_TabItemDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleDefault",
+              "s": "internal static TitleVariables get_TitleDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_ToastDefault",
+              "s": "internal static ToastVariables get_ToastDefault()"
+            },
+            {
+              "k": "property",
+              "n": "ActionButton",
+              "s": "internal IconButtonVariables ActionButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AlertDialogDefault",
+              "s": "internal AlertDialogVariables AlertDialogDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AppBarDefault",
+              "s": "internal AppBarVariables AppBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BackButton",
+              "s": "internal IconButtonVariables BackButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomSheetContainerDefault",
+              "s": "internal BottomSheetContainerVariables BottomSheetContainerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomSheetDefault",
+              "s": "internal BottomSheetVariables BottomSheetDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonDefault",
+              "s": "internal ButtonVariables ButtonDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonFlat",
+              "s": "internal ButtonVariables ButtonFlat { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CardDefault",
+              "s": "internal CardVariables CardDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CheckboxDefault",
+              "s": "internal CheckboxVariables CheckboxDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Current",
+              "s": "public MaterialComponentVariables Current { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DialogContainerDefault",
+              "s": "internal DialogContainerVariables DialogContainerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DialogDefault",
+              "s": "internal DialogVariables DialogDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DividerDefault",
+              "s": "internal DividerVariables DividerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DoubleTitleDefault",
+              "s": "internal DoubleTitleVariables DoubleTitleDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerItemDefault",
+              "s": "internal DrawerItemVariables DrawerItemDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FAB",
+              "s": "internal IconButtonVariables FAB { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GoToTOp",
+              "s": "internal IconButtonVariables GoToTOp { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IconButtonDefault",
+              "s": "internal IconButtonVariables IconButtonDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InputEditorDefault",
+              "s": "internal InputEditorVariables InputEditorDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFieldDefault",
+              "s": "internal InputFieldVariables InputFieldDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LabelDefault",
+              "s": "internal LabelVariables LabelDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LevelBarDefault",
+              "s": "internal LevelBarVariables LevelBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModalDrawerDefault",
+              "s": "internal ModalDrawerVariables ModalDrawerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MoreButton",
+              "s": "internal IconButtonVariables MoreButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PageIndicator",
+              "s": "internal PageIndicatorVariables PageIndicator { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PageIndicatorDot",
+              "s": "internal PageIndicatorDotVariables PageIndicatorDot { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PickerDefault",
+              "s": "internal PickerVariables PickerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressBarDefault",
+              "s": "internal ProgressBarVariables ProgressBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressCircleDefault",
+              "s": "internal ProgressCircleVariables ProgressCircleDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RadioButtonDefault",
+              "s": "internal RadioButtonVariables RadioButtonDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollBarDefault",
+              "s": "internal ScrollBarVariables ScrollBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SliderDefault",
+              "s": "internal SliderVariables SliderDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SnackBarDefault",
+              "s": "internal SnackBarVariables SnackBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "StaticDrawerDefault",
+              "s": "internal StaticDrawerVariables StaticDrawerDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SwitchDefault",
+              "s": "internal SwitchVariables SwitchDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TabBarDefault",
+              "s": "internal TabBarVariables TabBarDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TabItemDefault",
+              "s": "internal TabItemVariables TabItemDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleDefault",
+              "s": "internal TitleVariables TitleDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ToastDefault",
+              "s": "internal ToastVariables ToastDefault { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

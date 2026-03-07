@@ -1,0 +1,110 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ItemTouchHelper",
+          "f": "Tizen.UI.Components.Recycler.ItemTouchHelper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.Recycler.IItemDecoration"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ItemTouchHelperCallback callback)"
+            },
+            {
+              "k": "method",
+              "n": "AttachToRecyclerView",
+              "s": "public Void AttachToRecyclerView(RecyclerView view)"
+            },
+            {
+              "k": "method",
+              "n": "DetachToRecyclerView",
+              "s": "public Void DetachToRecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "DragDelta",
+              "s": "private Void DragDelta(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "FindChildView",
+              "s": "private View FindChildView(Point pos)"
+            },
+            {
+              "k": "method",
+              "n": "FindSwapTargets",
+              "s": "private List\u003CViewHolder\u003E FindSwapTargets(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "private LayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "GetItemOffsets",
+              "s": "public Thickness GetItemOffsets(View view, Int32 position, RecyclerView recyclerView)"
+            },
+            {
+              "k": "method",
+              "n": "MoveIfNecessary",
+              "s": "private Void MoveIfNecessary(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEvent",
+              "s": "private Void OnInterceptTouchEvent(Object o, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnLongPressed",
+              "s": "private Void OnLongPressed(Object sender, LongPressGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object o, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollIfNecessary",
+              "s": "private Boolean ScrollIfNecessary()"
+            },
+            {
+              "k": "method",
+              "n": "SelectHolder",
+              "s": "private Void SelectHolder(ViewHolder selected, TouchActionState actionState)"
+            },
+            {
+              "k": "method",
+              "n": "StartDrag",
+              "s": "public Void StartDrag(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateDxDy",
+              "s": "private Void UpdateDxDy(Point pos, Int32 directionPolicy)"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "private LayoutManager LayoutManager { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

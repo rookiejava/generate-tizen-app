@@ -1,0 +1,61 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "SelectableModel",
+          "f": "Tizen.UI.Components.Recycler.SelectableModel",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.ViewModel",
+          "i": [
+            "System.ComponentModel.INotifyPropertyChanged",
+            "Tizen.UI.Components.Recycler.ISelectableModel"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelectable",
+              "s": "public Boolean get_IsSelectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelected",
+              "s": "public Boolean get_IsSelected()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelectable",
+              "s": "public Void set_IsSelectable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelected",
+              "s": "public Void set_IsSelected(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "IsSelectable",
+              "s": "public Boolean IsSelectable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSelected",
+              "s": "public Boolean IsSelected { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

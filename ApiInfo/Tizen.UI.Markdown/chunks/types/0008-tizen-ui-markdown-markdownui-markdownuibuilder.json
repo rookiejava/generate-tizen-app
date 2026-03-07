@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "MarkdownUIBuilder",
+          "f": "Tizen.UI.Markdown.MarkdownUI.MarkdownUIBuilder",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "AppendEscaped",
+              "s": "private static Void AppendEscaped(StringBuilder sb, String text, Int32 start, Int32 length)"
+            },
+            {
+              "k": "method",
+              "n": "Build",
+              "s": "public Void Build(Block block, IContainerBlock parent, StringBuilder path, Int32 childIndex)"
+            },
+            {
+              "k": "method",
+              "n": "CreateContainer",
+              "s": "private View CreateContainer(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "CreateLeaf",
+              "s": "private View CreateLeaf(Block block, String text)"
+            },
+            {
+              "k": "method",
+              "n": "get_CacheManager",
+              "s": "private MarkdownUICacheManager get_CacheManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public MarkdownStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "GetIndent",
+              "s": "private Int32 GetIndent(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "GetInlineText",
+              "s": "private String GetInlineText(ContainerInline inline)"
+            },
+            {
+              "k": "method",
+              "n": "GetListDepth",
+              "s": "private Int32 GetListDepth(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "IsUpdatable",
+              "s": "private static Boolean IsUpdatable(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveUnusedViews",
+              "s": "public Void RemoveUnusedViews()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLeaf",
+              "s": "private Void UpdateLeaf(View view, Block block, String text)"
+            },
+            {
+              "k": "property",
+              "n": "CacheManager",
+              "s": "private MarkdownUICacheManager CacheManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public MarkdownStyle Style { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

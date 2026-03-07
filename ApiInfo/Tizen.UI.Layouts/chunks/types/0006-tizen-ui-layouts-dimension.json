@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "Dimension",
+          "f": "Tizen.UI.Layouts.Dimension",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "IsExplicitSet",
+              "s": "public static Boolean IsExplicitSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "IsMaximumSet",
+              "s": "public static Boolean IsMaximumSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "IsMinimumSet",
+              "s": "public static Boolean IsMinimumSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveMinimum",
+              "s": "public static Single ResolveMinimum(Single value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

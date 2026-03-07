@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "Drawable",
+          "f": "Tizen.UI.Primitives2D.Drawable",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "ClipPath",
+              "s": "public Void ClipPath(Drawable clip)"
+            },
+            {
+              "k": "method",
+              "n": "get_BoundingBox",
+              "s": "public Rect get_BoundingBox()"
+            },
+            {
+              "k": "method",
+              "n": "Rotate",
+              "s": "public Void Rotate(Single degree)"
+            },
+            {
+              "k": "method",
+              "n": "Scale",
+              "s": "public Void Scale(Single factor)"
+            },
+            {
+              "k": "method",
+              "n": "Transform",
+              "s": "public Void Transform(Single[] matrix)"
+            },
+            {
+              "k": "method",
+              "n": "Translate",
+              "s": "public Void Translate(Single x, Single y)"
+            },
+            {
+              "k": "property",
+              "n": "BoundingBox",
+              "s": "public Rect BoundingBox { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

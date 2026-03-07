@@ -1,0 +1,235 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIState",
+          "f": "Tizen.UI.Components.UIState",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.UIState\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UInt64 bitMask)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String name)"
+            },
+            {
+              "k": "method",
+              "n": "AddedOperation",
+              "s": "private static Boolean AddedOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ChangedOperation",
+              "s": "private static Boolean ChangedOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(UIState state)"
+            },
+            {
+              "k": "method",
+              "n": "Create",
+              "s": "public static UIState Create(String name)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(UIState other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "ExcludedOperation",
+              "s": "private static Boolean ExcludedOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "get_Added",
+              "s": "public UIStateConstraint get_Added()"
+            },
+            {
+              "k": "method",
+              "n": "get_Changed",
+              "s": "public UIStateConstraint get_Changed()"
+            },
+            {
+              "k": "method",
+              "n": "get_Excluded",
+              "s": "public UIStateConstraint get_Excluded()"
+            },
+            {
+              "k": "method",
+              "n": "get_FullMask",
+              "s": "private static UInt64 get_FullMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_Included",
+              "s": "public UIStateConstraint get_Included()"
+            },
+            {
+              "k": "method",
+              "n": "get_Is",
+              "s": "public UIStateConstraint get_Is()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsCombined",
+              "s": "internal Boolean get_IsCombined()"
+            },
+            {
+              "k": "method",
+              "n": "get_Not",
+              "s": "public UIStateConstraint get_Not()"
+            },
+            {
+              "k": "method",
+              "n": "get_Removed",
+              "s": "public UIStateConstraint get_Removed()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "HasIntersectionWith",
+              "s": "public Boolean HasIntersectionWith(UIState other)"
+            },
+            {
+              "k": "method",
+              "n": "IncludedOperation",
+              "s": "private static Boolean IncludedOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "IsOperation",
+              "s": "private static Boolean IsOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "NotOperation",
+              "s": "private static Boolean NotOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static UIState op_Addition(UIState lhs, UIState rhs)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(UIState lhs, UIState rhs)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(UIState lhs, UIState rhs)"
+            },
+            {
+              "k": "method",
+              "n": "op_OnesComplement",
+              "s": "public static UIState op_OnesComplement(UIState state)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static UIState op_Subtraction(UIState lhs, UIState rhs)"
+            },
+            {
+              "k": "method",
+              "n": "Register",
+              "s": "private static UInt64 Register(String stateName)"
+            },
+            {
+              "k": "method",
+              "n": "RegisteredStates",
+              "s": "private static IEnumerable\u003CValueTuple\u003CString, UInt64\u003E\u003E RegisteredStates()"
+            },
+            {
+              "k": "method",
+              "n": "RemovedOperation",
+              "s": "private static Boolean RemovedOperation(UIState input, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Added",
+              "s": "public UIStateConstraint Added { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Changed",
+              "s": "public UIStateConstraint Changed { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Excluded",
+              "s": "public UIStateConstraint Excluded { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FullMask",
+              "s": "private UInt64 FullMask { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Included",
+              "s": "public UIStateConstraint Included { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Is",
+              "s": "public UIStateConstraint Is { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsCombined",
+              "s": "internal Boolean IsCombined { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Not",
+              "s": "public UIStateConstraint Not { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Removed",
+              "s": "public UIStateConstraint Removed { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

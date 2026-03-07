@@ -1,0 +1,360 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "LabelImpl",
+          "f": "Tizen.UI.Components.LabelImpl",
+          "k": "class",
+          "b": "Tizen.UI.Components.TextBaseImpl",
+          "i": [
+            "Tizen.UI.ITextFormatting"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_fontSizeAdjusted",
+              "s": "private event EventHandler _fontSizeAdjusted"
+            },
+            {
+              "k": "event",
+              "n": "FontSizeAdjusted",
+              "s": "public event EventHandler FontSizeAdjusted"
+            },
+            {
+              "k": "method",
+              "n": "add__fontSizeAdjusted",
+              "s": "private Void add__fontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_FontSizeAdjusted",
+              "s": "public Void add_FontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectAnchorClicked",
+              "s": "protected Void ConnectAnchorClicked(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectFontSizeAdjusted",
+              "s": "private Void ConnectFontSizeAdjusted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "protected IntPtr CreateNativeHandle()"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectAnchorClicked",
+              "s": "protected Void DisconnectAnchorClicked(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectFontSizeAdjusted",
+              "s": "private Void DisconnectFontSizeAdjusted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "get_AdjustedFontSize",
+              "s": "public Single get_AdjustedFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_AnchorClickedColor",
+              "s": "public Color get_AnchorClickedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AnchorColor",
+              "s": "public Color get_AnchorColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAbsoluteLineHeight",
+              "s": "public Boolean get_IsAbsoluteLineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMultiline",
+              "s": "public Boolean get_IsMultiline()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsTextCutout",
+              "s": "public Boolean get_IsTextCutout()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineBreakMode",
+              "s": "public LineBreakMode get_LineBreakMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Single get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "GetEllipsisPositionPropertyIndex",
+              "s": "protected Int32 GetEllipsisPositionPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEllipsisPropertyIndex",
+              "s": "protected Int32 GetEllipsisPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontFamilyPropertyIndex",
+              "s": "protected Int32 GetFontFamilyPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSizeScalePropertyIndex",
+              "s": "protected Int32 GetFontSizeScalePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontStylePropertyIndex",
+              "s": "protected Int32 GetFontStylePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetHorizontalAlignmentPropertyIndex",
+              "s": "protected Int32 GetHorizontalAlignmentPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetLineCount",
+              "s": "public Int32 GetLineCount(Single width)"
+            },
+            {
+              "k": "method",
+              "n": "GetMarkupEnabledPropertyIndex",
+              "s": "protected Int32 GetMarkupEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetOutlinePropertyIndex",
+              "s": "protected Int32 GetOutlinePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPixelSizePropertyIndex",
+              "s": "protected Int32 GetPixelSizePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetStrikethroughPropertyIndex",
+              "s": "protected Int32 GetStrikethroughPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextColorPropertyIndex",
+              "s": "protected Int32 GetTextColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextDropShadowPropertyIndex",
+              "s": "protected Int32 GetTextDropShadowPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextPropertyIndex",
+              "s": "protected Int32 GetTextPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetUnderlinePropertyIndex",
+              "s": "protected Int32 GetUnderlinePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetVerticalAlignmentPropertyIndex",
+              "s": "protected Int32 GetVerticalAlignmentPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "OnFontSizeAdjusted",
+              "s": "private Void OnFontSizeAdjusted(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnInitialized",
+              "s": "protected Void OnInitialized()"
+            },
+            {
+              "k": "method",
+              "n": "RegisterFontVariationProperty",
+              "s": "protected Int32 RegisterFontVariationProperty(String tag)"
+            },
+            {
+              "k": "method",
+              "n": "remove__fontSizeAdjusted",
+              "s": "private Void remove__fontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_FontSizeAdjusted",
+              "s": "public Void remove_FontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AnchorClickedColor",
+              "s": "public Void set_AnchorClickedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AnchorColor",
+              "s": "public Void set_AnchorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsAbsoluteLineHeight",
+              "s": "public Void set_IsAbsoluteLineHeight(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMultiline",
+              "s": "public Void set_IsMultiline(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsTextCutout",
+              "s": "public Void set_IsTextCutout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineBreakMode",
+              "s": "public Void set_LineBreakMode(LineBreakMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void set_LineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetAutoScrollEnabledProperty",
+              "s": "private Void SetAutoScrollEnabledProperty(Boolean autoScrollEnabled)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeGap",
+              "s": "public Void SetMarqueeGap(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeLoopCount",
+              "s": "public Void SetMarqueeLoopCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeLoopDelay",
+              "s": "public Void SetMarqueeLoopDelay(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeSpeed",
+              "s": "public Void SetMarqueeSpeed(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMinLineSize",
+              "s": "private Void SetMinLineSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRelativeLineHeight",
+              "s": "private Void SetRelativeLineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextOverflow",
+              "s": "protected Void SetTextOverflow(TextOverflow textOverflow)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLineHeight",
+              "s": "private Void UpdateLineHeight()"
+            },
+            {
+              "k": "property",
+              "n": "AdjustedFontSize",
+              "s": "public Single AdjustedFontSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AnchorClickedColor",
+              "s": "public Color AnchorClickedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AnchorColor",
+              "s": "public Color AnchorColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAbsoluteLineHeight",
+              "s": "public Boolean IsAbsoluteLineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMultiline",
+              "s": "public Boolean IsMultiline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsTextCutout",
+              "s": "public Boolean IsTextCutout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineBreakMode",
+              "s": "public LineBreakMode LineBreakMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Single LineHeight { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

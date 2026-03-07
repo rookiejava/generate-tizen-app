@@ -1,0 +1,418 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "Renderer",
+          "f": "Tizen.UI.Internal.Renderer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Geometry geometry, Shader shader)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendColor",
+              "s": "public Color get_BlendColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendEquationAlpha",
+              "s": "public BlendEquationType get_BlendEquationAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendEquationRgb",
+              "s": "public BlendEquationType get_BlendEquationRgb()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendFactorDestAlpha",
+              "s": "public BlendFactorType get_BlendFactorDestAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendFactorDestRgb",
+              "s": "public BlendFactorType get_BlendFactorDestRgb()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendFactorSrcAlpha",
+              "s": "public BlendFactorType get_BlendFactorSrcAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendFactorSrcRgb",
+              "s": "public BlendFactorType get_BlendFactorSrcRgb()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendMode",
+              "s": "public BlendModeType get_BlendMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlendPreMultipliedAlpha",
+              "s": "public Boolean get_BlendPreMultipliedAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_DepthFunction",
+              "s": "public DepthFunctionType get_DepthFunction()"
+            },
+            {
+              "k": "method",
+              "n": "get_DepthIndex",
+              "s": "public Int32 get_DepthIndex()"
+            },
+            {
+              "k": "method",
+              "n": "get_DepthTestMode",
+              "s": "public DepthTestModeType get_DepthTestMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_DepthWriteMode",
+              "s": "public DepthWriteModeType get_DepthWriteMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_FaceCullingMode",
+              "s": "public FaceCullingModeType get_FaceCullingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndexRangeCount",
+              "s": "public Int32 get_IndexRangeCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndexRangeFirst",
+              "s": "public Int32 get_IndexRangeFirst()"
+            },
+            {
+              "k": "method",
+              "n": "get_InternalStencilOperationOnZFail",
+              "s": "public StencilOperationType get_InternalStencilOperationOnZFail()"
+            },
+            {
+              "k": "method",
+              "n": "get_RenderMode",
+              "s": "public RenderModeType get_RenderMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_StencilFunction",
+              "s": "public StencilFunctionType get_StencilFunction()"
+            },
+            {
+              "k": "method",
+              "n": "get_StencilFunctionReference",
+              "s": "public Int32 get_StencilFunctionReference()"
+            },
+            {
+              "k": "method",
+              "n": "get_StencilMask",
+              "s": "public Int32 get_StencilMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_StencilOperationOnFail",
+              "s": "public StencilOperationType get_StencilOperationOnFail()"
+            },
+            {
+              "k": "method",
+              "n": "get_StencilOperationOnZPass",
+              "s": "public StencilOperationType get_StencilOperationOnZPass()"
+            },
+            {
+              "k": "method",
+              "n": "GetGeometry",
+              "s": "public Geometry GetGeometry()"
+            },
+            {
+              "k": "method",
+              "n": "GetShader",
+              "s": "public Shader GetShader()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextures",
+              "s": "public TextureSet GetTextures()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendColor",
+              "s": "public Void set_BlendColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendEquationAlpha",
+              "s": "public Void set_BlendEquationAlpha(BlendEquationType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendEquationRgb",
+              "s": "public Void set_BlendEquationRgb(BlendEquationType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendFactorDestAlpha",
+              "s": "public Void set_BlendFactorDestAlpha(BlendFactorType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendFactorDestRgb",
+              "s": "public Void set_BlendFactorDestRgb(BlendFactorType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendFactorSrcAlpha",
+              "s": "public Void set_BlendFactorSrcAlpha(BlendFactorType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendFactorSrcRgb",
+              "s": "public Void set_BlendFactorSrcRgb(BlendFactorType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendMode",
+              "s": "public Void set_BlendMode(BlendModeType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlendPreMultipliedAlpha",
+              "s": "public Void set_BlendPreMultipliedAlpha(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DepthFunction",
+              "s": "public Void set_DepthFunction(DepthFunctionType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DepthIndex",
+              "s": "public Void set_DepthIndex(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DepthTestMode",
+              "s": "public Void set_DepthTestMode(DepthTestModeType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DepthWriteMode",
+              "s": "public Void set_DepthWriteMode(DepthWriteModeType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FaceCullingMode",
+              "s": "public Void set_FaceCullingMode(FaceCullingModeType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IndexRangeCount",
+              "s": "public Void set_IndexRangeCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IndexRangeFirst",
+              "s": "public Void set_IndexRangeFirst(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InternalStencilOperationOnZFail",
+              "s": "public Void set_InternalStencilOperationOnZFail(StencilOperationType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RenderMode",
+              "s": "public Void set_RenderMode(RenderModeType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StencilFunction",
+              "s": "public Void set_StencilFunction(StencilFunctionType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StencilFunctionReference",
+              "s": "public Void set_StencilFunctionReference(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StencilMask",
+              "s": "public Void set_StencilMask(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StencilOperationOnFail",
+              "s": "public Void set_StencilOperationOnFail(StencilOperationType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StencilOperationOnZPass",
+              "s": "public Void set_StencilOperationOnZPass(StencilOperationType value)"
+            },
+            {
+              "k": "method",
+              "n": "SetGeometry",
+              "s": "public Void SetGeometry(Geometry geometry)"
+            },
+            {
+              "k": "method",
+              "n": "SetIndexRange",
+              "s": "public Void SetIndexRange(Int32 firstElement, Int32 elementsCount)"
+            },
+            {
+              "k": "method",
+              "n": "SetShader",
+              "s": "public Void SetShader(Shader shader)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextures",
+              "s": "public Void SetTextures(TextureSet textureSet)"
+            },
+            {
+              "k": "property",
+              "n": "BlendColor",
+              "s": "public Color BlendColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendEquationAlpha",
+              "s": "public BlendEquationType BlendEquationAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendEquationRgb",
+              "s": "public BlendEquationType BlendEquationRgb { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendFactorDestAlpha",
+              "s": "public BlendFactorType BlendFactorDestAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendFactorDestRgb",
+              "s": "public BlendFactorType BlendFactorDestRgb { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendFactorSrcAlpha",
+              "s": "public BlendFactorType BlendFactorSrcAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendFactorSrcRgb",
+              "s": "public BlendFactorType BlendFactorSrcRgb { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendMode",
+              "s": "public BlendModeType BlendMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlendPreMultipliedAlpha",
+              "s": "public Boolean BlendPreMultipliedAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DepthFunction",
+              "s": "public DepthFunctionType DepthFunction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DepthIndex",
+              "s": "public Int32 DepthIndex { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DepthTestMode",
+              "s": "public DepthTestModeType DepthTestMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DepthWriteMode",
+              "s": "public DepthWriteModeType DepthWriteMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FaceCullingMode",
+              "s": "public FaceCullingModeType FaceCullingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IndexRangeCount",
+              "s": "public Int32 IndexRangeCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IndexRangeFirst",
+              "s": "public Int32 IndexRangeFirst { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InternalStencilOperationOnZFail",
+              "s": "public StencilOperationType InternalStencilOperationOnZFail { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RenderMode",
+              "s": "public RenderModeType RenderMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StencilFunction",
+              "s": "public StencilFunctionType StencilFunction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StencilFunctionReference",
+              "s": "public Int32 StencilFunctionReference { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StencilMask",
+              "s": "public Int32 StencilMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StencilOperationOnFail",
+              "s": "public StencilOperationType StencilOperationOnFail { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StencilOperationOnZPass",
+              "s": "public StencilOperationType StencilOperationOnZPass { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

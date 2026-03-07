@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "ModelPrimitive",
+          "f": "Tizen.UI.Scene3D.ModelPrimitive",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr cPtr, Boolean cMemoryOwn)"
+            },
+            {
+              "k": "method",
+              "n": "get_Geometry",
+              "s": "public Geometry get_Geometry()"
+            },
+            {
+              "k": "method",
+              "n": "get_Material",
+              "s": "public Material get_Material()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_Geometry",
+              "s": "public Void set_Geometry(Geometry value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Material",
+              "s": "public Void set_Material(Material value)"
+            },
+            {
+              "k": "property",
+              "n": "Geometry",
+              "s": "public Geometry Geometry { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Material",
+              "s": "public Material Material { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

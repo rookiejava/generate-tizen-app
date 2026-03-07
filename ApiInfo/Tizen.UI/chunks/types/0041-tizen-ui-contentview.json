@@ -1,0 +1,85 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ContentView",
+          "f": "Tizen.UI.ContentView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "Tizen.UI.IParentObject"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "protected View get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalidatedByBody",
+              "s": "private Boolean get_IsInvalidatedByBody()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnContentMeasureInvalidated",
+              "s": "private Void OnContentMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnEnabled",
+              "s": "protected Void OnEnabled(Boolean enabled)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidatedOverride",
+              "s": "protected Void OnMeasureInvalidatedOverride()"
+            },
+            {
+              "k": "method",
+              "n": "set_Body",
+              "s": "protected Void set_Body(View value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IParentObject.Remove",
+              "s": "Void Tizen.UI.IParentObject.Remove(View view)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "protected View Body { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalidatedByBody",
+              "s": "private Boolean IsInvalidatedByBody { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

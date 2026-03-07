@@ -1,0 +1,130 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AnimatablePropertyValue",
+          "f": "Tizen.UI.AnimatablePropertyValue",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBackgroundColorValue",
+              "s": "public static AnimatablePropertyValue CreateBackgroundColorValue(Color backgroundColor)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCornerRadiusValue",
+              "s": "public static AnimatablePropertyValue CreateCornerRadiusValue(CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCustomValue",
+              "s": "public static AnimatablePropertyValue CreateCustomValue(String propertyName, PropertyValueHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCustomValue",
+              "s": "public static AnimatablePropertyValue CreateCustomValue(String propertyName, Object value)"
+            },
+            {
+              "k": "method",
+              "n": "CreateOpacityValue",
+              "s": "public static AnimatablePropertyValue CreateOpacityValue(Single opacity)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePositionValue",
+              "s": "public static AnimatablePropertyValue CreatePositionValue(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePositionValue",
+              "s": "public static AnimatablePropertyValue CreatePositionValue(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePropertyHandle",
+              "s": "protected static AnimatablePropertyHandle CreatePropertyHandle(View view, String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateRotationValue",
+              "s": "public static AnimatablePropertyValue CreateRotationValue(Single rotationX, Single rotationY, Single rotationZ)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScaleValue",
+              "s": "public static AnimatablePropertyValue CreateScaleValue(Size scale)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScaleValue",
+              "s": "public static AnimatablePropertyValue CreateScaleValue(Single scaleX, Single scaleY)"
+            },
+            {
+              "k": "method",
+              "n": "CreateSizeValue",
+              "s": "public static AnimatablePropertyValue CreateSizeValue(Size size)"
+            },
+            {
+              "k": "method",
+              "n": "CreateSizeValue",
+              "s": "public static AnimatablePropertyValue CreateSizeValue(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualPropertyHandle",
+              "s": "protected static AnimatablePropertyHandle CreateVisualPropertyHandle(View view, Int32 propertyIndex, Int32 visualIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperties",
+              "s": "public IEnumerable\u003CValueTuple\u003CAnimatablePropertyHandle, PropertyValueHandle\u003E\u003E GetTargetProperties(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(View view)"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

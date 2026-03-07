@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "StickyArea",
+          "f": "Tizen.UI.Components.Recycler.StickyArea",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(RecyclerView recyclerView)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(ViewHolder holder)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePrecedingStickyView",
+              "s": "public ViewHolder CreatePrecedingStickyView(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "Has",
+              "s": "public Boolean Has(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "public Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Sync",
+              "s": "public Void Sync()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

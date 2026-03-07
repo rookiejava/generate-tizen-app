@@ -1,0 +1,33 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ViewTemplate",
+          "f": "Tizen.UI.ViewTemplate",
+          "k": "class",
+          "b": "Tizen.UI.Template\u00601\u003CTizen.UI.View\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Type type)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Func\u003CView\u003E loadTemplate)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

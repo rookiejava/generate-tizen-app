@@ -1,0 +1,250 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LevelBarVariables",
+          "f": "Tizen.UI.Components.Material.LevelBarVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.LevelBarVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(LevelBarVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "LevelBarVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(LevelBarVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static LevelBarVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerColor",
+              "s": "public Color get_DividerColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerOffset",
+              "s": "public Single get_DividerOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_HandleAlignmentEnabled",
+              "s": "public Boolean get_HandleAlignmentEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_HandleColor",
+              "s": "public Color get_HandleColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_HandleHeight",
+              "s": "public Single get_HandleHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_HandleWidth",
+              "s": "public Single get_HandleWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackThickness",
+              "s": "public Single get_TrackThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrailColor",
+              "s": "public Color get_TrailColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(LevelBarVariables left, LevelBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(LevelBarVariables left, LevelBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DividerColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerOffset",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DividerOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HandleAlignmentEnabled",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HandleAlignmentEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HandleColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HandleColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HandleHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HandleHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HandleWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HandleWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrailColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrailColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public LevelBarVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DividerColor",
+              "s": "public Color DividerColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DividerOffset",
+              "s": "public Single DividerOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HandleAlignmentEnabled",
+              "s": "public Boolean HandleAlignmentEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HandleColor",
+              "s": "public Color HandleColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HandleHeight",
+              "s": "public Single HandleHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HandleWidth",
+              "s": "public Single HandleWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackThickness",
+              "s": "public Single TrackThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrailColor",
+              "s": "public Color TrailColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

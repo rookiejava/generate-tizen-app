@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "UnitValue",
+          "f": "Tizen.UI.UnitValue",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 pixel)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single pixel)"
+            },
+            {
+              "k": "method",
+              "n": "get_Dp",
+              "s": "public Single get_Dp()"
+            },
+            {
+              "k": "method",
+              "n": "get_Pixel",
+              "s": "public Int32 get_Pixel()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static UnitValue op_Addition(UnitValue a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static UnitValue op_Addition(Single a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static UnitValue op_Addition(UnitValue a, Single b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static UnitValue op_Division(UnitValue a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static UnitValue op_Division(Single a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static UnitValue op_Division(UnitValue a, Single b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static Single op_Implicit(UnitValue obj)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static UnitValue op_Multiply(UnitValue a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static UnitValue op_Multiply(Single a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static UnitValue op_Multiply(UnitValue a, Single b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static UnitValue op_Subtraction(UnitValue a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static UnitValue op_Subtraction(Single a, UnitValue b)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static UnitValue op_Subtraction(UnitValue a, Single b)"
+            },
+            {
+              "k": "method",
+              "n": "op_UnaryNegation",
+              "s": "public static UnitValue op_UnaryNegation(UnitValue a)"
+            },
+            {
+              "k": "method",
+              "n": "op_UnaryPlus",
+              "s": "public static UnitValue op_UnaryPlus(UnitValue a)"
+            },
+            {
+              "k": "property",
+              "n": "Dp",
+              "s": "public Single Dp { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Pixel",
+              "s": "public Int32 Pixel { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

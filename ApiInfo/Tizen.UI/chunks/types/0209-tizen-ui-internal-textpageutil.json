@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "TextPageUtil",
+          "f": "Tizen.UI.Internal.TextPageUtil",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetPages",
+              "s": "public static IList\u003CString\u003E GetPages(String text, Single fontSize, Single width, Single height, Nullable\u003CBoolean\u003E enableMarkup, Nullable\u003CSingle\u003E lineHeight, Nullable\u003CTextAlignment\u003E horizonAlignment, Nullable\u003CTextAlignment\u003E verticalAlignment, String fontFamily, Nullable\u003CThickness\u003E textPadding)"
+            },
+            {
+              "k": "method",
+              "n": "GetPages",
+              "s": "public static IList\u003CString\u003E GetPages(MultiPageData param)"
+            },
+            {
+              "k": "method",
+              "n": "HandleCloseTags",
+              "s": "private static Void HandleCloseTags(StringBuilder sb, IList\u003CTextPageUtil.TagData\u003E tags)"
+            },
+            {
+              "k": "method",
+              "n": "HandleHtmlText",
+              "s": "private static IList\u003CString\u003E HandleHtmlText(String text, IList\u003CInt32\u003E stopIndexes)"
+            },
+            {
+              "k": "method",
+              "n": "HandleOpenTags",
+              "s": "private static Void HandleOpenTags(StringBuilder sb, IList\u003CTextPageUtil.TagData\u003E tags)"
+            },
+            {
+              "k": "method",
+              "n": "HandlePlainText",
+              "s": "private static IList\u003CString\u003E HandlePlainText(String text, IList\u003CInt32\u003E stopIndexes)"
+            },
+            {
+              "k": "method",
+              "n": "PopTag",
+              "s": "private static Void PopTag(IList\u003CTextPageUtil.TagData\u003E opend, String tagName)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveTag",
+              "s": "private static Void ResolveTag(Char[] raw, Int32 total, StringBuilder sb, Int32\u0026 current, String\u0026 tag, String\u0026 attr, Boolean\u0026 isClose)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

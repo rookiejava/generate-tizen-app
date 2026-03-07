@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ViewPropertySetters",
+          "f": "Tizen.UI.Components.ViewPropertySetters",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundObjectBind",
+              "s": "public static PropertySetter\u003CView, Color\u003E BackgroundObjectBind(View view, ColorBackground background)"
+            },
+            {
+              "k": "method",
+              "n": "ShadowBind",
+              "s": "public static Action\u003CObject, Color\u003E ShadowBind(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ShadowBind",
+              "s": "public static PropertySetter\u003CView, Color\u003E ShadowBind(View view, Shadow shadow)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

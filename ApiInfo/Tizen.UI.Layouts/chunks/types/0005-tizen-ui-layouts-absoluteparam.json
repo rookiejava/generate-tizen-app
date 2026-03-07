@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "AbsoluteParam",
+          "f": "Tizen.UI.Layouts.AbsoluteParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutBounds",
+              "s": "public Rect get_LayoutBounds()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutFlags",
+              "s": "public AbsoluteLayoutFlags get_LayoutFlags()"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutBounds",
+              "s": "public Void set_LayoutBounds(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutFlags",
+              "s": "public Void set_LayoutFlags(AbsoluteLayoutFlags value)"
+            },
+            {
+              "k": "property",
+              "n": "LayoutBounds",
+              "s": "public Rect LayoutBounds { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutFlags",
+              "s": "public AbsoluteLayoutFlags LayoutFlags { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

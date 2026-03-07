@@ -1,0 +1,253 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTipBackground",
+          "f": "Tizen.UI.Components.Material.SmartTipBackground",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.VectorView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CalculateArrowHeight",
+              "s": "private Single CalculateArrowHeight(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "CalculateCornerRadius",
+              "s": "private Single CalculateCornerRadius(Single bubbleWidth, Single bubbleHeight, Single arrowWidth)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowHeight",
+              "s": "public Single get_ArrowHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowPosition",
+              "s": "public SmartTipArrowPosition get_ArrowPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowWidth",
+              "s": "public Single get_ArrowWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_BubbleCornerRadius",
+              "s": "public CornerRadius get_BubbleCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_FillColor",
+              "s": "public Color get_FillColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeColor",
+              "s": "public Color get_StrokeColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeWidth",
+              "s": "public Single get_StrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_UpperAreaFillColor",
+              "s": "public Color get_UpperAreaFillColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_UpperAreaThickness",
+              "s": "public Single get_UpperAreaThickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetArrowPosition",
+              "s": "public Point GetArrowPosition(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "InsertArrowAfter",
+              "s": "private Void InsertArrowAfter(IPath path, Single x1, Single y1, Single x2, Single y2)"
+            },
+            {
+              "k": "method",
+              "n": "InsertArrowAfter",
+              "s": "private Void InsertArrowAfter(IPath path, Single x1, Single y1, Single x2, Single y2, Single x3, Single y3)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "PropertyViewBoxGet",
+              "s": "private static Int32 PropertyViewBoxGet()"
+            },
+            {
+              "k": "method",
+              "n": "Replace",
+              "s": "private Void Replace(IPath oldOne, IPath newOne)"
+            },
+            {
+              "k": "method",
+              "n": "ReplaceWithControl1",
+              "s": "private Void ReplaceWithControl1(BezierTo oldOne, Single controlX, Single controlY)"
+            },
+            {
+              "k": "method",
+              "n": "ReplaceWithControl1Y",
+              "s": "private Void ReplaceWithControl1Y(BezierTo oldOne, Single controlY)"
+            },
+            {
+              "k": "method",
+              "n": "ReplaceWithEndRound",
+              "s": "private Void ReplaceWithEndRound(BezierTo oldOne, Single endX, Single endY, Single control2X, Single control2Y)"
+            },
+            {
+              "k": "method",
+              "n": "ReplaceWithEndY",
+              "s": "private Void ReplaceWithEndY(BezierTo oldOne, Single endPointY)"
+            },
+            {
+              "k": "method",
+              "n": "RequestLayout",
+              "s": "private Void RequestLayout(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "ResetPath",
+              "s": "private Void ResetPath(Single left, Single top, Single right, Single bottom, Single cornerRadius, Single bezierHandleLength)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowHeight",
+              "s": "public Void set_ArrowHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowPosition",
+              "s": "public Void set_ArrowPosition(SmartTipArrowPosition value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowWidth",
+              "s": "public Void set_ArrowWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BubbleCornerRadius",
+              "s": "public Void set_BubbleCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FillColor",
+              "s": "public Void set_FillColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeColor",
+              "s": "public Void set_StrokeColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeWidth",
+              "s": "public Void set_StrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UpperAreaFillColor",
+              "s": "public Void set_UpperAreaFillColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UpperAreaThickness",
+              "s": "public Void set_UpperAreaThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPath",
+              "s": "private Void SetPath(Single topOffset)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateTooltip",
+              "s": "private Void UpdateTooltip()"
+            },
+            {
+              "k": "property",
+              "n": "ArrowHeight",
+              "s": "public Single ArrowHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowPosition",
+              "s": "public SmartTipArrowPosition ArrowPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowWidth",
+              "s": "public Single ArrowWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BubbleCornerRadius",
+              "s": "public CornerRadius BubbleCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FillColor",
+              "s": "public Color FillColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeColor",
+              "s": "public Color StrokeColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeWidth",
+              "s": "public Single StrokeWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UpperAreaFillColor",
+              "s": "public Color UpperAreaFillColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UpperAreaThickness",
+              "s": "public Single UpperAreaThickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

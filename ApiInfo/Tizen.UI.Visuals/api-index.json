@@ -1,0 +1,2333 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals",
+      "t": [
+        {
+          "n": "ColorVisual",
+          "f": "Tizen.UI.Visuals.ColorVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.RoundedVisual",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "ColorVisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Single get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CutoutPolicy",
+              "s": "public VisualCutoutPolicy get_CutoutPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "ColorVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CutoutPolicy",
+              "s": "public Void set_CutoutPolicy(VisualCutoutPolicy value)"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Single BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CutoutPolicy",
+              "s": "public VisualCutoutPolicy CutoutPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "ColorVisualMap VisualMap { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ImageVisual",
+          "f": "Tizen.UI.Visuals.ImageVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.RoundedVisual",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "ImageVisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_FastTrackUploading",
+              "s": "public Boolean get_FastTrackUploading()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageLoadWithViewSize",
+              "s": "public Boolean get_ImageLoadWithViewSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadPolicy",
+              "s": "public ImageLoadPolicy get_LoadPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskContentScale",
+              "s": "public Single get_MaskContentScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskingMode",
+              "s": "public ImageMaskingMode get_MaskingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrientationCorrection",
+              "s": "public Boolean get_OrientationCorrection()"
+            },
+            {
+              "k": "method",
+              "n": "get_PixelArea",
+              "s": "public Rect get_PixelArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_PreMultipliedAlpha",
+              "s": "public Boolean get_PreMultipliedAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_ReleasePolicy",
+              "s": "public ImageReleasePolicy get_ReleasePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "ImageVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeU",
+              "s": "public ImageWrapMode get_WrapModeU()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeV",
+              "s": "public ImageWrapMode get_WrapModeV()"
+            },
+            {
+              "k": "method",
+              "n": "Reload",
+              "s": "public Void Reload()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredHeight",
+              "s": "public Void set_DesiredHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredWidth",
+              "s": "public Void set_DesiredWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FastTrackUploading",
+              "s": "public Void set_FastTrackUploading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageLoadWithViewSize",
+              "s": "public Void set_ImageLoadWithViewSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LoadPolicy",
+              "s": "public Void set_LoadPolicy(ImageLoadPolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskContentScale",
+              "s": "public Void set_MaskContentScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskingMode",
+              "s": "public Void set_MaskingMode(ImageMaskingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrientationCorrection",
+              "s": "public Void set_OrientationCorrection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PixelArea",
+              "s": "public Void set_PixelArea(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PreMultipliedAlpha",
+              "s": "public Void set_PreMultipliedAlpha(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ReleasePolicy",
+              "s": "public Void set_ReleasePolicy(ImageReleasePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeU",
+              "s": "public Void set_WrapModeU(ImageWrapMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeV",
+              "s": "public Void set_WrapModeV(ImageWrapMode value)"
+            },
+            {
+              "k": "method",
+              "n": "Update",
+              "s": "public Void Update()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateVisualMap",
+              "s": "protected Void UpdateVisualMap()"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FastTrackUploading",
+              "s": "public Boolean FastTrackUploading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageLoadWithViewSize",
+              "s": "public Boolean ImageLoadWithViewSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadPolicy",
+              "s": "public ImageLoadPolicy LoadPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskContentScale",
+              "s": "public Single MaskContentScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskingMode",
+              "s": "public ImageMaskingMode MaskingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrientationCorrection",
+              "s": "public Boolean OrientationCorrection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PixelArea",
+              "s": "public Rect PixelArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PreMultipliedAlpha",
+              "s": "public Boolean PreMultipliedAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ReleasePolicy",
+              "s": "public ImageReleasePolicy ReleasePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "ImageVisualMap VisualMap { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeU",
+              "s": "public ImageWrapMode WrapModeU { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeV",
+              "s": "public ImageWrapMode WrapModeV { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Interop",
+          "f": "Tizen.UI.Visuals.Interop",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "NPatchVisual",
+          "f": "Tizen.UI.Visuals.NPatchVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.ImageVisual",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "NPatchVisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageAlpha",
+              "s": "public Single get_AuxiliaryImageAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageUrl",
+              "s": "public String get_AuxiliaryImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderOnly",
+              "s": "public Boolean get_BorderOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "NPatchVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageAlpha",
+              "s": "public Void set_AuxiliaryImageAlpha(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageUrl",
+              "s": "public Void set_AuxiliaryImageUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderOnly",
+              "s": "public Void set_BorderOnly(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageAlpha",
+              "s": "public Single AuxiliaryImageAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageUrl",
+              "s": "public String AuxiliaryImageUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderOnly",
+              "s": "public Boolean BorderOnly { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "NPatchVisualMap VisualMap { get; }"
+            }
+          ]
+        },
+        {
+          "n": "RoundedVisual",
+          "f": "Tizen.UI.Visuals.RoundedVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.VisualObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineColor",
+              "s": "public Color get_BorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineOffset",
+              "s": "public Single get_BorderlineOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineWidth",
+              "s": "public Single get_BorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerSquareness",
+              "s": "public CornerRadius get_CornerSquareness()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "RoundedVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineColor",
+              "s": "public Void set_BorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineOffset",
+              "s": "public Void set_BorderlineOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineWidth",
+              "s": "public Void set_BorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerSquareness",
+              "s": "public Void set_CornerSquareness(CornerRadius value)"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineColor",
+              "s": "public Color BorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineOffset",
+              "s": "public Single BorderlineOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineWidth",
+              "s": "public Single BorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerSquareness",
+              "s": "public CornerRadius CornerSquareness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "RoundedVisualMap VisualMap { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ShadowExtensions",
+          "f": "Tizen.UI.Visuals.ShadowExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToVisual",
+              "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+            }
+          ]
+        },
+        {
+          "n": "TextVisual",
+          "f": "Tizen.UI.Visuals.TextVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.VisualObject",
+          "i": [
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "TextVisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_EnableMarkup",
+              "s": "public Boolean get_EnableMarkup()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultiLine",
+              "s": "public Boolean get_MultiLine()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "TextVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "set_EnableMarkup",
+              "s": "public Void set_EnableMarkup(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultiLine",
+              "s": "public Void set_MultiLine(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "EnableMarkup",
+              "s": "public Boolean EnableMarkup { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MultiLine",
+              "s": "public Boolean MultiLine { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "TextVisualMap VisualMap { get; }"
+            }
+          ]
+        },
+        {
+          "n": "TransformFlags",
+          "f": "Tizen.UI.Visuals.TransformFlags",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Visuals.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public static T Add\u003CT\u003E(T view, VisualObject visual) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public static Void Remove(View view, VisualObject visual)"
+            },
+            {
+              "k": "method",
+              "n": "Visuals",
+              "s": "public static VisualManager Visuals(View view)"
+            }
+          ]
+        },
+        {
+          "n": "VisualAlign",
+          "f": "Tizen.UI.Visuals.VisualAlign",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "VisualManager",
+          "f": "Tizen.UI.Visuals.VisualManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.Generic.IList\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View owner)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(VisualObject[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundLayer",
+              "s": "public IList\u003CVisualObject\u003E get_BackgroundLayer()"
+            },
+            {
+              "k": "method",
+              "n": "get_ContentLayer",
+              "s": "public IList\u003CVisualObject\u003E get_ContentLayer()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_DecorationLayer",
+              "s": "public IList\u003CVisualObject\u003E get_DecorationLayer()"
+            },
+            {
+              "k": "method",
+              "n": "get_ForegroundEffectLayer",
+              "s": "public IList\u003CVisualObject\u003E get_ForegroundEffectLayer()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public VisualObject get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_Owner",
+              "s": "public View get_Owner()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShadowLayer",
+              "s": "public IList\u003CVisualObject\u003E get_ShadowLayer()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CVisualObject\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "OnOwnerDisposing",
+              "s": "private Void OnOwnerDisposing(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, VisualObject value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundLayer",
+              "s": "public IList\u003CVisualObject\u003E BackgroundLayer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ContentLayer",
+              "s": "public IList\u003CVisualObject\u003E ContentLayer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DecorationLayer",
+              "s": "public IList\u003CVisualObject\u003E DecorationLayer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ForegroundEffectLayer",
+              "s": "public IList\u003CVisualObject\u003E ForegroundEffectLayer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public VisualObject Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Owner",
+              "s": "public View Owner { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ShadowLayer",
+              "s": "public IList\u003CVisualObject\u003E ShadowLayer { get; }"
+            }
+          ]
+        },
+        {
+          "n": "VisualObject",
+          "f": "Tizen.UI.Visuals.VisualObject",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "ClearNeedUpdateMap",
+              "s": "protected Void ClearNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "ClearVisual",
+              "s": "protected Void ClearVisual()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "protected VisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisualCreated",
+              "s": "protected Boolean get_IsVisualCreated()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyHeight",
+              "s": "public Single get_ModifyHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyWidth",
+              "s": "public Single get_ModifyWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Origin",
+              "s": "public VisualAlign get_Origin()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public VisualAlign get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_SiblingOrder",
+              "s": "public Int32 get_SiblingOrder()"
+            },
+            {
+              "k": "method",
+              "n": "get_TransformFlags",
+              "s": "public TransformFlags get_TransformFlags()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "protected VisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIteration",
+              "s": "private Void OnLayoutIteration(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateRequired",
+              "s": "private Void OnUpdateRequired(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyHeight",
+              "s": "public Void set_ModifyHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyWidth",
+              "s": "public Void set_ModifyWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Origin",
+              "s": "public Void set_Origin(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SiblingOrder",
+              "s": "public Void set_SiblingOrder(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TransformFlags",
+              "s": "public Void set_TransformFlags(TransformFlags value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetNeedUpdateMap",
+              "s": "protected Void SetNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateVisualMap",
+              "s": "protected Void UpdateVisualMap()"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisualCreated",
+              "s": "protected Boolean IsVisualCreated { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyHeight",
+              "s": "public Single ModifyHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyWidth",
+              "s": "public Single ModifyWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Origin",
+              "s": "public VisualAlign Origin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public VisualAlign PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SiblingOrder",
+              "s": "public Int32 SiblingOrder { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TransformFlags",
+              "s": "public TransformFlags TransformFlags { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "protected VisualMap VisualMap { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "Tizen.UI.Visuals.Internal",
+      "t": [
+        {
+          "n": "ColorVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.ColorVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.RoundedVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBlurRadius",
+              "s": "internal Void DirectUpdateBlurRadius(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateCutoutPolicy",
+              "s": "internal Void DirectUpdateCutoutPolicy(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Single get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CutoutPolicy",
+              "s": "public VisualCutoutPolicy get_CutoutPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CutoutPolicy",
+              "s": "public Void set_CutoutPolicy(VisualCutoutPolicy value)"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Single BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CutoutPolicy",
+              "s": "public VisualCutoutPolicy CutoutPolicy { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ContainerRange",
+          "f": "Tizen.UI.Visuals.Internal.ContainerRange",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "ImageVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.ImageVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.RoundedVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_FastTrackUploading",
+              "s": "public Boolean get_FastTrackUploading()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageLoadWithViewSize",
+              "s": "public Boolean get_ImageLoadWithViewSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadPolicy",
+              "s": "public ImageLoadPolicy get_LoadPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskContentScale",
+              "s": "public Single get_MaskContentScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskingMode",
+              "s": "public ImageMaskingMode get_MaskingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrientationCorrection",
+              "s": "public Boolean get_OrientationCorrection()"
+            },
+            {
+              "k": "method",
+              "n": "get_PixelArea",
+              "s": "public Rect get_PixelArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_PreMultipliedAlpha",
+              "s": "public Boolean get_PreMultipliedAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_ReleasePolicy",
+              "s": "public ImageReleasePolicy get_ReleasePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeU",
+              "s": "public ImageWrapMode get_WrapModeU()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeV",
+              "s": "public ImageWrapMode get_WrapModeV()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredHeight",
+              "s": "public Void set_DesiredHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredWidth",
+              "s": "public Void set_DesiredWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FastTrackUploading",
+              "s": "public Void set_FastTrackUploading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageLoadWithViewSize",
+              "s": "public Void set_ImageLoadWithViewSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LoadPolicy",
+              "s": "public Void set_LoadPolicy(ImageLoadPolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskContentScale",
+              "s": "public Void set_MaskContentScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskingMode",
+              "s": "public Void set_MaskingMode(ImageMaskingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrientationCorrection",
+              "s": "public Void set_OrientationCorrection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PixelArea",
+              "s": "public Void set_PixelArea(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PreMultipliedAlpha",
+              "s": "public Void set_PreMultipliedAlpha(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ReleasePolicy",
+              "s": "public Void set_ReleasePolicy(ImageReleasePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeU",
+              "s": "public Void set_WrapModeU(ImageWrapMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeV",
+              "s": "public Void set_WrapModeV(ImageWrapMode value)"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FastTrackUploading",
+              "s": "public Boolean FastTrackUploading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageLoadWithViewSize",
+              "s": "public Boolean ImageLoadWithViewSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadPolicy",
+              "s": "public ImageLoadPolicy LoadPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskContentScale",
+              "s": "public Single MaskContentScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskingMode",
+              "s": "public ImageMaskingMode MaskingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrientationCorrection",
+              "s": "public Boolean OrientationCorrection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PixelArea",
+              "s": "public Rect PixelArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PreMultipliedAlpha",
+              "s": "public Boolean PreMultipliedAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ReleasePolicy",
+              "s": "public ImageReleasePolicy ReleasePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeU",
+              "s": "public ImageWrapMode WrapModeU { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeV",
+              "s": "public ImageWrapMode WrapModeV { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "NPatchVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.NPatchVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.ImageVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageAlpha",
+              "s": "public Single get_AuxiliaryImageAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageUrl",
+              "s": "public String get_AuxiliaryImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderOnly",
+              "s": "public Boolean get_BorderOnly()"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageAlpha",
+              "s": "public Void set_AuxiliaryImageAlpha(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageUrl",
+              "s": "public Void set_AuxiliaryImageUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderOnly",
+              "s": "public Void set_BorderOnly(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageAlpha",
+              "s": "public Single AuxiliaryImageAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageUrl",
+              "s": "public String AuxiliaryImageUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderOnly",
+              "s": "public Boolean BorderOnly { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "RoundedVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.RoundedVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.VisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineColor",
+              "s": "internal Void DirectUpdateBorderlineColor(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineOffset",
+              "s": "internal Void DirectUpdateBorderlineOffset(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineWidth",
+              "s": "internal Void DirectUpdateBorderlineWidth(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateCornerRadius",
+              "s": "internal Void DirectUpdateCornerRadius(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateCornerSquareness",
+              "s": "internal Void DirectUpdateCornerSquareness(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineColor",
+              "s": "public Color get_BorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineOffset",
+              "s": "public Single get_BorderlineOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineWidth",
+              "s": "public Single get_BorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerSquareness",
+              "s": "public CornerRadius get_CornerSquareness()"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineColor",
+              "s": "public Void set_BorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineOffset",
+              "s": "public Void set_BorderlineOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineWidth",
+              "s": "public Void set_BorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerSquareness",
+              "s": "public Void set_CornerSquareness(CornerRadius value)"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineColor",
+              "s": "public Color BorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineOffset",
+              "s": "public Single BorderlineOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineWidth",
+              "s": "public Single BorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerSquareness",
+              "s": "public CornerRadius CornerSquareness { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "TextVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.TextVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.VisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMarkupEnabled",
+              "s": "public Boolean get_IsMarkupEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMultiline",
+              "s": "public Boolean get_IsMultiline()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMarkupEnabled",
+              "s": "public Void set_IsMarkupEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMultiline",
+              "s": "public Void set_IsMultiline(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMarkupEnabled",
+              "s": "public Boolean IsMarkupEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMultiline",
+              "s": "public Boolean IsMultiline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "VisualMap",
+          "f": "Tizen.UI.Visuals.Internal.VisualMap",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "UpdateRequired",
+              "s": "public event EventHandler UpdateRequired"
+            },
+            {
+              "k": "method",
+              "n": "add_UpdateRequired",
+              "s": "public Void add_UpdateRequired(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public PropertyMapHandle get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyHeight",
+              "s": "public Single get_ModifyHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyWidth",
+              "s": "public Single get_ModifyWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Origin",
+              "s": "public VisualAlign get_Origin()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public VisualAlign get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_TransformDirty",
+              "s": "protected Boolean get_TransformDirty()"
+            },
+            {
+              "k": "method",
+              "n": "get_TransformFlags",
+              "s": "public TransformFlags get_TransformFlags()"
+            },
+            {
+              "k": "method",
+              "n": "get_TransformMap",
+              "s": "private PropertyMapHandle get_TransformMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "remove_UpdateRequired",
+              "s": "public Void remove_UpdateRequired(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendTransformUpdateRequired",
+              "s": "private Void SendTransformUpdateRequired()"
+            },
+            {
+              "k": "method",
+              "n": "SendUpdateRequired",
+              "s": "protected Void SendUpdateRequired()"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handle",
+              "s": "private Void set_Handle(PropertyMapHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyHeight",
+              "s": "public Void set_ModifyHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyWidth",
+              "s": "public Void set_ModifyWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Origin",
+              "s": "public Void set_Origin(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TransformDirty",
+              "s": "protected Void set_TransformDirty(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TransformFlags",
+              "s": "public Void set_TransformFlags(TransformFlags value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TransformMap",
+              "s": "private Void set_TransformMap(PropertyMapHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetDirty",
+              "s": "public Void SetDirty()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateTransformMap",
+              "s": "public Void UpdateTransformMap()"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public PropertyMapHandle Handle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyHeight",
+              "s": "public Single ModifyHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyWidth",
+              "s": "public Single ModifyWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Origin",
+              "s": "public VisualAlign Origin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public VisualAlign PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TransformDirty",
+              "s": "protected Boolean TransformDirty { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TransformFlags",
+              "s": "public TransformFlags TransformFlags { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TransformMap",
+              "s": "private PropertyMapHandle TransformMap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "VisualObjectContainer",
+          "f": "Tizen.UI.Visuals.Internal.VisualObjectContainer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.Generic.IList\u00601\u003CTizen.UI.Visuals.VisualObject\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View owner, ContainerRange range)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(VisualObject[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public VisualObject get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CVisualObject\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "private Void OnChildAdded(VisualObject child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "private Void OnChildRemoved(VisualObject child)"
+            },
+            {
+              "k": "method",
+              "n": "OnCollectionChanged",
+              "s": "private Void OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(VisualObject item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, VisualObject value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public VisualObject Item { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "VisualTransformPropertyKey",
+          "f": "Tizen.UI.Visuals.Internal.VisualTransformPropertyKey",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ViewExtensions",
+      "r": "T",
+      "n": "Add",
+      "s": "public static T Add\u003CT\u003E(T view, VisualObject visual) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ShadowExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToVisual",
+      "s": "public static ColorVisual ToVisual(Shadow shadow, CornerRadius cornerRadius)"
+    },
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Remove",
+      "s": "public static Void Remove(View view, VisualObject visual)"
+    },
+    {
+      "d": "Tizen.UI.Visuals",
+      "t": "Tizen.UI.Visuals.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Visuals",
+      "s": "public static VisualManager Visuals(View view)"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ISelectionModelGroup\u00601",
+          "f": "Tizen.UI.Components.Recycler.ISelectionModelGroup\u00601",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CT\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+            "System.Collections.Generic.IList\u00601\u003CT\u003E",
+            "System.Collections.ICollection",
+            "System.Collections.IEnumerable",
+            "System.Collections.IList",
+            "Tizen.UI.Components.Recycler.ISelectionModelGroup"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_SelectedChildren",
+              "s": "public IReadOnlyCollection\u003CT\u003E get_SelectedChildren()"
+            },
+            {
+              "k": "property",
+              "n": "SelectedChildren",
+              "s": "public IReadOnlyCollection\u003CT\u003E SelectedChildren { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

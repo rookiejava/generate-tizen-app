@@ -1,0 +1,288 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "LottieAnimationView",
+          "f": "Tizen.UI.LottieAnimationView",
+          "k": "class",
+          "b": "Tizen.UI.ImageView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_finished",
+              "s": "private event EventHandler _finished"
+            },
+            {
+              "k": "event",
+              "n": "Finished",
+              "s": "public event EventHandler Finished"
+            },
+            {
+              "k": "method",
+              "n": "add__finished",
+              "s": "private Void add__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Finished",
+              "s": "public Void add_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearImageMapCache",
+              "s": "private Void ClearImageMapCache()"
+            },
+            {
+              "k": "method",
+              "n": "CreateImageVisualMap",
+              "s": "protected ImageVisualMap CreateImageVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentFrame",
+              "s": "public Int32 get_CurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "get_Loop",
+              "s": "public Boolean get_Loop()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlayState",
+              "s": "public AnimationState get_PlayState()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatCount",
+              "s": "public Int32 get_RepeatCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatMode",
+              "s": "public AnimationRepeatMode get_RepeatMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_StopBehavior",
+              "s": "public AnimationStopBehavior get_StopBehavior()"
+            },
+            {
+              "k": "method",
+              "n": "get_TotalFrame",
+              "s": "public Int32 get_TotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "protected LottieVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "GetContentInfo",
+              "s": "public IList\u003CValueTuple\u003CString, Int32, Int32\u003E\u003E GetContentInfo()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentFrame",
+              "s": "private Int32 GetCurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "GetImageMapForRead",
+              "s": "private PropertyMapHandle GetImageMapForRead()"
+            },
+            {
+              "k": "method",
+              "n": "GetMarkerInfo",
+              "s": "public IList\u003CValueTuple\u003CString, Int32, Int32\u003E\u003E GetMarkerInfo()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlayState",
+              "s": "private AnimationState GetPlayState()"
+            },
+            {
+              "k": "method",
+              "n": "GetTotalFrame",
+              "s": "private Int32 GetTotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "ImageMapCacheClearHandler",
+              "s": "private Void ImageMapCacheClearHandler(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "private Void OnFinished(IntPtr view, Int32 visualIndex, Int32 signalId)"
+            },
+            {
+              "k": "method",
+              "n": "Pause",
+              "s": "public Void Pause()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(Int32 startFrame, Int32 endFrame)"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(String startMarker, String endMarker)"
+            },
+            {
+              "k": "method",
+              "n": "remove__finished",
+              "s": "private Void remove__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Finished",
+              "s": "public Void remove_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "RequestClearImageMapCache",
+              "s": "private Void RequestClearImageMapCache()"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentFrame",
+              "s": "public Void set_CurrentFrame(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Loop",
+              "s": "public Void set_Loop(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatCount",
+              "s": "public Void set_RepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatMode",
+              "s": "public Void set_RepeatMode(AnimationRepeatMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StopBehavior",
+              "s": "public Void set_StopBehavior(AnimationStopBehavior value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentFrame",
+              "s": "private Void SetCurrentFrame(Int32 frame)"
+            },
+            {
+              "k": "method",
+              "n": "SetFrameRange",
+              "s": "private Void SetFrameRange(Int32 min, Int32 max)"
+            },
+            {
+              "k": "method",
+              "n": "SetFrameRange",
+              "s": "private Void SetFrameRange(String min, String max)"
+            },
+            {
+              "k": "method",
+              "n": "SetRepeatCount",
+              "s": "private Void SetRepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRepeatMode",
+              "s": "private Void SetRepeatMode(AnimationRepeatMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetStopBehavior",
+              "s": "private Void SetStopBehavior(AnimationStopBehavior behavior)"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateImageMap",
+              "s": "protected Void UpdateImageMap()"
+            },
+            {
+              "k": "property",
+              "n": "CurrentFrame",
+              "s": "public Int32 CurrentFrame { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Loop",
+              "s": "public Boolean Loop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlayState",
+              "s": "public AnimationState PlayState { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatCount",
+              "s": "public Int32 RepeatCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatMode",
+              "s": "public AnimationRepeatMode RepeatMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StopBehavior",
+              "s": "public AnimationStopBehavior StopBehavior { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TotalFrame",
+              "s": "public Int32 TotalFrame { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "protected LottieVisualMap VisualMap { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

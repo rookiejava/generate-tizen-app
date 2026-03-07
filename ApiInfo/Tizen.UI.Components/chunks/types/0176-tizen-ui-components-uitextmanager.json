@@ -1,0 +1,158 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UITextManager",
+          "f": "Tizen.UI.Components.UITextManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "SystemFontFamilyChanged",
+              "s": "public event EventHandler SystemFontFamilyChanged"
+            },
+            {
+              "k": "event",
+              "n": "SystemFontFamilyChangedInternal",
+              "s": "internal event EventHandler SystemFontFamilyChangedInternal"
+            },
+            {
+              "k": "event",
+              "n": "SystemFontScaleChanged",
+              "s": "public event EventHandler SystemFontScaleChanged"
+            },
+            {
+              "k": "event",
+              "n": "SystemFontScaleChangedInternal",
+              "s": "internal event EventHandler SystemFontScaleChangedInternal"
+            },
+            {
+              "k": "event",
+              "n": "SystemLocaleLanguageChanged",
+              "s": "public event EventHandler SystemLocaleLanguageChanged"
+            },
+            {
+              "k": "event",
+              "n": "SystemLocaleLanguageChangedInternal",
+              "s": "internal event EventHandler SystemLocaleLanguageChangedInternal"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemFontFamilyChanged",
+              "s": "public static Void add_SystemFontFamilyChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemFontFamilyChangedInternal",
+              "s": "internal static Void add_SystemFontFamilyChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemFontScaleChanged",
+              "s": "public static Void add_SystemFontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemFontScaleChangedInternal",
+              "s": "internal static Void add_SystemFontScaleChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemLocaleLanguageChanged",
+              "s": "public static Void add_SystemLocaleLanguageChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SystemLocaleLanguageChangedInternal",
+              "s": "internal static Void add_SystemLocaleLanguageChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureFontFamilyLoader",
+              "s": "private static IFontFamilyLoader EnsureFontFamilyLoader()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureFontScaleLoader",
+              "s": "private static IFontScaleLoader EnsureFontScaleLoader()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureLocaleLanguageChanged",
+              "s": "private static Void EnsureLocaleLanguageChanged()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontFamily",
+              "s": "public static String get_SystemFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontScale",
+              "s": "public static Single get_SystemFontScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemLocaleLanguage",
+              "s": "public static String get_SystemLocaleLanguage()"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemFontFamilyChanged",
+              "s": "public static Void remove_SystemFontFamilyChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemFontFamilyChangedInternal",
+              "s": "internal static Void remove_SystemFontFamilyChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemFontScaleChanged",
+              "s": "public static Void remove_SystemFontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemFontScaleChangedInternal",
+              "s": "internal static Void remove_SystemFontScaleChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemLocaleLanguageChanged",
+              "s": "public static Void remove_SystemLocaleLanguageChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SystemLocaleLanguageChangedInternal",
+              "s": "internal static Void remove_SystemLocaleLanguageChangedInternal(EventHandler value)"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontFamily",
+              "s": "public String SystemFontFamily { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontScale",
+              "s": "public Single SystemFontScale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemLocaleLanguage",
+              "s": "public String SystemLocaleLanguage { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

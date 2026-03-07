@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "ProcessorController",
+          "f": "Tizen.UI.Internal.ProcessorController",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "LayoutIteration",
+              "s": "public event EventHandler LayoutIteration"
+            },
+            {
+              "k": "event",
+              "n": "LayoutIterationOnce",
+              "s": "public event EventHandler LayoutIterationOnce"
+            },
+            {
+              "k": "method",
+              "n": "\u003CAwake\u003Eb__19_0",
+              "s": "private Void \u003CAwake\u003Eb__19_0()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CProcess\u003Eb__21_0",
+              "s": "private Void \u003CProcess\u003Eb__21_0()"
+            },
+            {
+              "k": "method",
+              "n": "add_LayoutIteration",
+              "s": "public Void add_LayoutIteration(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_LayoutIterationOnce",
+              "s": "public Void add_LayoutIterationOnce(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Awake",
+              "s": "public Void Awake()"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static ProcessorController get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsOnProcess",
+              "s": "public Boolean get_IsOnProcess()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsOnRelayout",
+              "s": "public Boolean get_IsOnRelayout()"
+            },
+            {
+              "k": "method",
+              "n": "Process",
+              "s": "private Void Process()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "remove_LayoutIteration",
+              "s": "public Void remove_LayoutIteration(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_LayoutIterationOnce",
+              "s": "public Void remove_LayoutIterationOnce(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsOnProcess",
+              "s": "private Void set_IsOnProcess(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsOnRelayout",
+              "s": "internal Void set_IsOnRelayout(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public ProcessorController Instance { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsOnProcess",
+              "s": "public Boolean IsOnProcess { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsOnRelayout",
+              "s": "public Boolean IsOnRelayout { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

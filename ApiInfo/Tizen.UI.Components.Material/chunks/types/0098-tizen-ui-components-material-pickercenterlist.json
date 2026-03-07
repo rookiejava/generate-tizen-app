@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerCenterList",
+          "f": "Tizen.UI.Components.Material.PickerCenterList",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.PickerListBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Picker picker)"
+            },
+            {
+              "k": "method",
+              "n": "ManualScrollBy",
+              "s": "public Void ManualScrollBy(Single movementY, Boolean anim)"
+            },
+            {
+              "k": "method",
+              "n": "ManualScrollToPoint",
+              "s": "public Void ManualScrollToPoint(Point velocity, Int32 moveDistance)"
+            },
+            {
+              "k": "method",
+              "n": "ManualScrollToPosition",
+              "s": "public Void ManualScrollToPosition(Int32 pos, Boolean anim)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollByTap",
+              "s": "public Void ScrollByTap(Boolean scrollByTap)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

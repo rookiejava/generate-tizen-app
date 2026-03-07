@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "AnimationFinishedEventArgs",
+          "f": "Tizen.UI.Components.Recycler.AnimationFinishedEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ViewHolder viewHolder, AnimationType animationType)"
+            },
+            {
+              "k": "method",
+              "n": "get_AnimationType",
+              "s": "public AnimationType get_AnimationType()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewHolder",
+              "s": "public ViewHolder get_ViewHolder()"
+            },
+            {
+              "k": "property",
+              "n": "AnimationType",
+              "s": "public AnimationType AnimationType { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewHolder",
+              "s": "public ViewHolder ViewHolder { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

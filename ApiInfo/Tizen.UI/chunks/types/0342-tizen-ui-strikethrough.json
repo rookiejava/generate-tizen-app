@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Strikethrough",
+          "f": "Tizen.UI.Strikethrough",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Single get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void set_Thickness(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Single Thickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

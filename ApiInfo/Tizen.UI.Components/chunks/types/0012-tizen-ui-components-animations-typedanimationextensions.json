@@ -1,0 +1,516 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "TypedAnimationExtensions",
+          "f": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Animate",
+              "s": "public static TypedAnimationTargetBridge\u003CT\u003E Animate\u003CT\u003E(Animation animation, T targetView) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColorBy",
+              "s": "public static Animation BackgroundColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColorTo",
+              "s": "public static Animation BackgroundColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowBlurRadiusBy",
+              "s": "public static Animation BoxShadowBlurRadiusBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowBlurRadiusTo",
+              "s": "public static Animation BoxShadowBlurRadiusTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowOffsetBy",
+              "s": "public static Animation BoxShadowOffsetBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single x, Single y, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowOffsetTo",
+              "s": "public static Animation BoxShadowOffsetTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single x, Single y, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowOpacityBy",
+              "s": "public static Animation BoxShadowOpacityBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BoxShadowOpacityTo",
+              "s": "public static Animation BoxShadowOpacityTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ColorBy",
+              "s": "public static Animation ColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ColorTo",
+              "s": "public static Animation ColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "CornerRadiusBy",
+              "s": "public static Animation CornerRadiusBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "CornerRadiusTo",
+              "s": "public static Animation CornerRadiusTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "CornerSquarenessBy",
+              "s": "public static Animation CornerSquarenessBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "CornerSquarenessTo",
+              "s": "public static Animation CornerSquarenessTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "HeightBy",
+              "s": "public static Animation HeightBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "HeightTo",
+              "s": "public static Animation HeightTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "OpacityBy",
+              "s": "public static Animation OpacityBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "OpacityTo",
+              "s": "public static Animation OpacityTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionBy",
+              "s": "public static Animation PositionBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Point relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionBy",
+              "s": "public static Animation PositionBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeX, Single relativeY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionTo",
+              "s": "public static Animation PositionTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Point destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionTo",
+              "s": "public static Animation PositionTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationX, Single destinationY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionXBy",
+              "s": "public static Animation PositionXBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionXTo",
+              "s": "public static Animation PositionXTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionYBy",
+              "s": "public static Animation PositionYBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "PositionYTo",
+              "s": "public static Animation PositionYTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleBy",
+              "s": "public static Animation ScaleBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleTo",
+              "s": "public static Animation ScaleTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleXBy",
+              "s": "public static Animation ScaleXBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleXTo",
+              "s": "public static Animation ScaleXTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleYBy",
+              "s": "public static Animation ScaleYBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleYTo",
+              "s": "public static Animation ScaleYTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "SizeBy",
+              "s": "public static Animation SizeBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "SizeBy",
+              "s": "public static Animation SizeBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeX, Single relativeY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "SizeTo",
+              "s": "public static Animation SizeTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "SizeTo",
+              "s": "public static Animation SizeTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationX, Single destinationY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "TextColorBy",
+              "s": "public static Animation TextColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View, IText"
+            },
+            {
+              "k": "method",
+              "n": "TextColorTo",
+              "s": "public static Animation TextColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View, IText"
+            },
+            {
+              "k": "method",
+              "n": "WidthBy",
+              "s": "public static Animation WidthBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "WidthTo",
+              "s": "public static Animation WidthTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Animation",
+      "n": "Animate",
+      "s": "public static TypedAnimationTargetBridge\u003CT\u003E Animate\u003CT\u003E(Animation animation, T targetView) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BackgroundColorBy",
+      "s": "public static Animation BackgroundColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BackgroundColorTo",
+      "s": "public static Animation BackgroundColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowBlurRadiusBy",
+      "s": "public static Animation BoxShadowBlurRadiusBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowBlurRadiusTo",
+      "s": "public static Animation BoxShadowBlurRadiusTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowOffsetBy",
+      "s": "public static Animation BoxShadowOffsetBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single x, Single y, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowOffsetTo",
+      "s": "public static Animation BoxShadowOffsetTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single x, Single y, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowOpacityBy",
+      "s": "public static Animation BoxShadowOpacityBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "BoxShadowOpacityTo",
+      "s": "public static Animation BoxShadowOpacityTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ColorBy",
+      "s": "public static Animation ColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ColorTo",
+      "s": "public static Animation ColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "CornerRadiusBy",
+      "s": "public static Animation CornerRadiusBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "CornerRadiusTo",
+      "s": "public static Animation CornerRadiusTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "CornerSquarenessBy",
+      "s": "public static Animation CornerSquarenessBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "CornerSquarenessTo",
+      "s": "public static Animation CornerSquarenessTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, CornerRadius destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "HeightBy",
+      "s": "public static Animation HeightBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "HeightTo",
+      "s": "public static Animation HeightTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "OpacityBy",
+      "s": "public static Animation OpacityBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "OpacityTo",
+      "s": "public static Animation OpacityTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionBy",
+      "s": "public static Animation PositionBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Point relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionBy",
+      "s": "public static Animation PositionBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeX, Single relativeY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionTo",
+      "s": "public static Animation PositionTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Point destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionTo",
+      "s": "public static Animation PositionTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationX, Single destinationY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionXBy",
+      "s": "public static Animation PositionXBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionXTo",
+      "s": "public static Animation PositionXTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionYBy",
+      "s": "public static Animation PositionYBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "PositionYTo",
+      "s": "public static Animation PositionYTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleBy",
+      "s": "public static Animation ScaleBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleTo",
+      "s": "public static Animation ScaleTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleXBy",
+      "s": "public static Animation ScaleXBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleXTo",
+      "s": "public static Animation ScaleXTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleYBy",
+      "s": "public static Animation ScaleYBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "ScaleYTo",
+      "s": "public static Animation ScaleYTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "SizeBy",
+      "s": "public static Animation SizeBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "SizeBy",
+      "s": "public static Animation SizeBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeX, Single relativeY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "SizeTo",
+      "s": "public static Animation SizeTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Size destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "SizeTo",
+      "s": "public static Animation SizeTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationX, Single destinationY, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "TextColorBy",
+      "s": "public static Animation TextColorBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View, IText"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "TextColorTo",
+      "s": "public static Animation TextColorTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Color destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View, IText"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "WidthBy",
+      "s": "public static Animation WidthBy\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single relativeValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.TypedAnimationExtensions",
+      "r": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601\u003CT\u003E",
+      "n": "WidthTo",
+      "s": "public static Animation WidthTo\u003CT\u003E(TypedAnimationTargetBridge\u003CT\u003E target, Single destinationValue, Int32 duration, AlphaFunction alpha, Int32 delay) where T : View"
+    }
+  ]
+}

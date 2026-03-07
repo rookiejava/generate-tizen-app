@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Skia",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Skia.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Skia.dll",
+  "g": "2026-03-07T11:20:28.6871491+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Skia",
+      "t": [
+        {
+          "n": "SKPaintSurfaceEventArgs",
+          "f": "Tizen.UI.Skia.SKPaintSurfaceEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SKSurface surface, SKImageInfo info)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SKSurface surface, SKImageInfo info, SKImageInfo rawInfo)"
+            },
+            {
+              "k": "method",
+              "n": "get_Info",
+              "s": "public SKImageInfo get_Info()"
+            },
+            {
+              "k": "method",
+              "n": "get_RawInfo",
+              "s": "public SKImageInfo get_RawInfo()"
+            },
+            {
+              "k": "method",
+              "n": "get_Surface",
+              "s": "public SKSurface get_Surface()"
+            },
+            {
+              "k": "property",
+              "n": "Info",
+              "s": "public SKImageInfo Info { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RawInfo",
+              "s": "public SKImageInfo RawInfo { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Surface",
+              "s": "public SKSurface Surface { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

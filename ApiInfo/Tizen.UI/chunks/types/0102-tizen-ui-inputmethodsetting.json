@@ -1,0 +1,76 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "InputMethodSetting",
+          "f": "Tizen.UI.InputMethodSetting",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ActionButton",
+              "s": "public Nullable\u003CActionButtonTitle\u003E get_ActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoCapital",
+              "s": "public Nullable\u003CAutoCapital\u003E get_AutoCapital()"
+            },
+            {
+              "k": "method",
+              "n": "get_PanelLayout",
+              "s": "public Nullable\u003CPanelLayout\u003E get_PanelLayout()"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButton",
+              "s": "public Void set_ActionButton(Nullable\u003CActionButtonTitle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoCapital",
+              "s": "public Void set_AutoCapital(Nullable\u003CAutoCapital\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PanelLayout",
+              "s": "public Void set_PanelLayout(Nullable\u003CPanelLayout\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "ActionButton",
+              "s": "public Nullable\u003CActionButtonTitle\u003E ActionButton { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AutoCapital",
+              "s": "public Nullable\u003CAutoCapital\u003E AutoCapital { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PanelLayout",
+              "s": "public Nullable\u003CPanelLayout\u003E PanelLayout { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.InputMethodSetting",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(InputMethodSetting setting)"
+    }
+  ]
+}

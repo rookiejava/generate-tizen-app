@@ -1,0 +1,158 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "NDalicPINVOKE",
+          "f": "Tizen.UI.NDalicPINVOKE",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationAppControlSignal",
+              "s": "public static IntPtr ApplicationAppControlSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationDeviceOrientationChangedSignal",
+              "s": "public static IntPtr ApplicationDeviceOrientationChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationInitSignal",
+              "s": "public static IntPtr ApplicationInitSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationLanguageChangedSignal",
+              "s": "public static IntPtr ApplicationLanguageChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationLowBatterySignal",
+              "s": "public static IntPtr ApplicationLowBatterySignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationLowMemorySignal",
+              "s": "public static IntPtr ApplicationLowMemorySignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationMainLoop",
+              "s": "public static Void ApplicationMainLoop(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationNewManual4",
+              "s": "public static IntPtr ApplicationNewManual4(Int32 jarg1, String jarg2, String jarg3, Int32 jarg4)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationNewWithWindowSizePosition",
+              "s": "public static IntPtr ApplicationNewWithWindowSizePosition(Int32 jarg1, String jarg2, String jarg3, Int32 jarg4, RectangleHandle jarg5)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationPauseSignal",
+              "s": "public static IntPtr ApplicationPauseSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationRegionChangedSignal",
+              "s": "public static IntPtr ApplicationRegionChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationResetSignal",
+              "s": "public static IntPtr ApplicationResetSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationResumeSignal",
+              "s": "public static IntPtr ApplicationResumeSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskAppControlSignal",
+              "s": "public static IntPtr ApplicationTaskAppControlSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskDeviceOrientationChangedSignal",
+              "s": "public static IntPtr ApplicationTaskDeviceOrientationChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskInitSignal",
+              "s": "public static IntPtr ApplicationTaskInitSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskLanguageChangedSignal",
+              "s": "public static IntPtr ApplicationTaskLanguageChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskLowBatterySignal",
+              "s": "public static IntPtr ApplicationTaskLowBatterySignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskLowMemorySignal",
+              "s": "public static IntPtr ApplicationTaskLowMemorySignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskRegionChangedSignal",
+              "s": "public static IntPtr ApplicationTaskRegionChangedSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTaskTerminateSignal",
+              "s": "public static IntPtr ApplicationTaskTerminateSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ApplicationTerminateSignal",
+              "s": "public static IntPtr ApplicationTerminateSignal(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "DeleteBaseHandle",
+              "s": "public static Void DeleteBaseHandle(IntPtr jarg1)"
+            },
+            {
+              "k": "method",
+              "n": "ThrowExceptionIfExists",
+              "s": "internal static Void ThrowExceptionIfExists()"
+            },
+            {
+              "k": "method",
+              "n": "ThrowExceptionIfExistsDebug",
+              "s": "internal static Void ThrowExceptionIfExistsDebug()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

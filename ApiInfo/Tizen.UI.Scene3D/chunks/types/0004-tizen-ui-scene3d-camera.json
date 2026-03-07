@@ -1,0 +1,153 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Camera",
+          "f": "Tizen.UI.Scene3D.Camera",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_AspectRatio",
+              "s": "public Single get_AspectRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_FarPlaneDistance",
+              "s": "public Single get_FarPlaneDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_FieldOfView",
+              "s": "public Single get_FieldOfView()"
+            },
+            {
+              "k": "method",
+              "n": "get_NearPlaneDistance",
+              "s": "public Single get_NearPlaneDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrthographicSize",
+              "s": "public Single get_OrthographicSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProjectionDirection",
+              "s": "public ProjectionDirection get_ProjectionDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseOrthographicProjection",
+              "s": "public Boolean get_UseOrthographicProjection()"
+            },
+            {
+              "k": "method",
+              "n": "set_AspectRatio",
+              "s": "public Void set_AspectRatio(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FarPlaneDistance",
+              "s": "public Void set_FarPlaneDistance(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FieldOfView",
+              "s": "public Void set_FieldOfView(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NearPlaneDistance",
+              "s": "public Void set_NearPlaneDistance(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrthographicSize",
+              "s": "public Void set_OrthographicSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProjectionDirection",
+              "s": "public Void set_ProjectionDirection(ProjectionDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseOrthographicProjection",
+              "s": "public Void set_UseOrthographicProjection(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AspectRatio",
+              "s": "public Single AspectRatio { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FarPlaneDistance",
+              "s": "public Single FarPlaneDistance { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FieldOfView",
+              "s": "public Single FieldOfView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NearPlaneDistance",
+              "s": "public Single NearPlaneDistance { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrthographicSize",
+              "s": "public Single OrthographicSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProjectionDirection",
+              "s": "public ProjectionDirection ProjectionDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UseOrthographicProjection",
+              "s": "public Boolean UseOrthographicProjection { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.CameraExtensions",
+      "r": "Tizen.UI.Scene3D.Camera",
+      "n": "ConvertFovFromHorizontalToVertical",
+      "s": "public static Single ConvertFovFromHorizontalToVertical(Camera camera, Single aspect, Single fieldOfView)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.CameraExtensions",
+      "r": "Tizen.UI.Scene3D.Camera",
+      "n": "ConvertFovFromVerticalToHorizontal",
+      "s": "public static Single ConvertFovFromVerticalToHorizontal(Camera camera, Single aspect, Single fieldOfView)"
+    }
+  ]
+}

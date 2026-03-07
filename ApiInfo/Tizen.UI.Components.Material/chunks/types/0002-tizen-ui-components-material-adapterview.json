@@ -1,0 +1,348 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AdapterView",
+          "f": "Tizen.UI.Components.Material.AdapterView",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureAdapter",
+              "s": "protected Void EnsureAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_Adapter",
+              "s": "protected ItemTemplateAdapter get_Adapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerMargin",
+              "s": "public Thickness get_InnerMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemDecorations",
+              "s": "public IList\u003CIItemDecoration\u003E get_ItemDecorations()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemsSource",
+              "s": "public IEnumerable get_ItemsSource()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemTemplate",
+              "s": "public ViewTemplate get_ItemTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected LayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_PrefetchBaseSize",
+              "s": "public Single get_PrefetchBaseSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecyclerView",
+              "s": "protected RecyclerView get_RecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollBar",
+              "s": "protected IScrollBar get_ScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_ScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "protected Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnDragFinished",
+              "s": "private Void OnDragFinished(Object sender, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragging",
+              "s": "private Void OnDragging(Object sender, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragStarted",
+              "s": "private Void OnDragStarted(Object sender, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollFinished",
+              "s": "private Void OnScrollFinished(Object sender, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrolling",
+              "s": "private Void OnScrolling(Object sender, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollStarted",
+              "s": "private Void OnScrollStarted(Object sender, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Adapter",
+              "s": "protected Void set_Adapter(ItemTemplateAdapter value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InnerMargin",
+              "s": "public Void set_InnerMargin(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemsSource",
+              "s": "public Void set_ItemsSource(IEnumerable value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemTemplate",
+              "s": "public Void set_ItemTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutManager",
+              "s": "protected Void set_LayoutManager(LayoutManager value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PrefetchBaseSize",
+              "s": "public Void set_PrefetchBaseSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollBarVisibility",
+              "s": "public Void set_ScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "SetScrollBar",
+              "s": "public Void SetScrollBar(IScrollBar scrollBar)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateItemsSource",
+              "s": "private Void UpdateItemsSource()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateItemTemplate",
+              "s": "private Void UpdateItemTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayoutManager",
+              "s": "protected Void UpdateLayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePosition",
+              "s": "protected Void UpdatePosition()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollbar",
+              "s": "private Void UpdateScrollbar()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollbarPosition",
+              "s": "protected Void UpdateScrollbarPosition()"
+            },
+            {
+              "k": "property",
+              "n": "Adapter",
+              "s": "protected ItemTemplateAdapter Adapter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerMargin",
+              "s": "public Thickness InnerMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemDecorations",
+              "s": "public IList\u003CIItemDecoration\u003E ItemDecorations { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemsSource",
+              "s": "public IEnumerable ItemsSource { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemTemplate",
+              "s": "public ViewTemplate ItemTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected LayoutManager LayoutManager { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PrefetchBaseSize",
+              "s": "public Single PrefetchBaseSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecyclerView",
+              "s": "protected RecyclerView RecyclerView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollBar",
+              "s": "protected IScrollBar ScrollBar { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollBarVisibility",
+              "s": "public ScrollBarVisibility ScrollBarVisibility { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

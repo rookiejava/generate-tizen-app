@@ -1,0 +1,95 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "BezierTo",
+          "f": "Tizen.UI.Primitives2D.BezierTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single endPointX, Single endPointY, Single controlPoint1X, Single controlPoint1Y, Single controlPoint2X, Single controlPoint2Y)"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint1X",
+              "s": "public Single get_ControlPoint1X()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint1Y",
+              "s": "public Single get_ControlPoint1Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint2X",
+              "s": "public Single get_ControlPoint2X()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint2Y",
+              "s": "public Single get_ControlPoint2Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPointX",
+              "s": "public Single get_EndPointX()"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPointY",
+              "s": "public Single get_EndPointY()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint1X",
+              "s": "public Single ControlPoint1X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint1Y",
+              "s": "public Single ControlPoint1Y { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint2X",
+              "s": "public Single ControlPoint2X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint2Y",
+              "s": "public Single ControlPoint2Y { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EndPointX",
+              "s": "public Single EndPointX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EndPointY",
+              "s": "public Single EndPointY { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

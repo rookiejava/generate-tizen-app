@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ShadowTokenPropertyChangedEventArgs",
+          "f": "Tizen.UI.ShadowTokenPropertyChangedEventArgs",
+          "k": "class",
+          "b": "Tizen.UI.ColorTokenPropertyChangedEventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Create",
+              "s": "public static ShadowTokenPropertyChangedEventArgs Create(View view, String name, Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "get_Shadow",
+              "s": "public Shadow get_Shadow()"
+            },
+            {
+              "k": "method",
+              "n": "set_Shadow",
+              "s": "public Void set_Shadow(Shadow value)"
+            },
+            {
+              "k": "property",
+              "n": "Shadow",
+              "s": "public Shadow Shadow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

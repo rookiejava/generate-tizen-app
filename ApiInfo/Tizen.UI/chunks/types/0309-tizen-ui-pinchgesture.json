@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "PinchGesture",
+          "f": "Tizen.UI.PinchGesture",
+          "k": "class",
+          "b": "Tizen.UI.Gesture",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scale",
+              "s": "public Single get_Scale()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenCenter",
+              "s": "public Point get_ScreenCenter()"
+            },
+            {
+              "k": "method",
+              "n": "get_Speed",
+              "s": "public Single get_Speed()"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Scale",
+              "s": "public Single Scale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenCenter",
+              "s": "public Point ScreenCenter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Speed",
+              "s": "public Single Speed { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

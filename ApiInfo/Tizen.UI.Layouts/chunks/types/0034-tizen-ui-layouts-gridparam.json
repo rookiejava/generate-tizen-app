@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "GridParam",
+          "f": "Tizen.UI.Layouts.GridParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Column",
+              "s": "public Int32 get_Column()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpan",
+              "s": "public Int32 get_ColumnSpan()"
+            },
+            {
+              "k": "method",
+              "n": "get_Row",
+              "s": "public Int32 get_Row()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpan",
+              "s": "public Int32 get_RowSpan()"
+            },
+            {
+              "k": "method",
+              "n": "set_Column",
+              "s": "public Void set_Column(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnSpan",
+              "s": "public Void set_ColumnSpan(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Row",
+              "s": "public Void set_Row(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowSpan",
+              "s": "public Void set_RowSpan(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Column",
+              "s": "public Int32 Column { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpan",
+              "s": "public Int32 ColumnSpan { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Row",
+              "s": "public Int32 Row { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpan",
+              "s": "public Int32 RowSpan { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

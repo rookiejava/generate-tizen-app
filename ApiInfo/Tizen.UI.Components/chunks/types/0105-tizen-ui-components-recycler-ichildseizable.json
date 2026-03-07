@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "IChildSeizable",
+          "f": "Tizen.UI.Components.Recycler.IChildSeizable",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetSeized",
+              "s": "public ViewHolder GetSeized(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetSeizedCount",
+              "s": "public Int32 GetSeizedCount()"
+            },
+            {
+              "k": "method",
+              "n": "IsSeized",
+              "s": "public Boolean IsSeized(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseChild",
+              "s": "public Void ReleaseChild(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "SeizeChild",
+              "s": "public Void SeizeChild(ViewHolder viewHolder)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

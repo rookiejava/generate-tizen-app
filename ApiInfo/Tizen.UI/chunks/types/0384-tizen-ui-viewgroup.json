@@ -1,0 +1,174 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ViewGroup",
+          "f": "Tizen.UI.ViewGroup",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IList\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.IEnumerable",
+            "Tizen.UI.IParentObject"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View item)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(View item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(View[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetDescendant",
+              "s": "public View GetDescendant(String name)"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CView\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(View item)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, View item)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "private Void OnChildrenChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(View item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, View value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IParentObject.Remove",
+              "s": "Void Tizen.UI.IParentObject.Remove(View view)"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,658 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "StyleDefaults",
+          "f": "Tizen.UI.Markdown.StyleDefaults",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeBackgroundColor",
+              "s": "public static Color get_CodeBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeCornerRadius",
+              "s": "public static Single get_CodeCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontColor",
+              "s": "public static Color get_CodeFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontFamily",
+              "s": "public static String get_CodeFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontSize",
+              "s": "public static Single get_CodeFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodePadding",
+              "s": "public static Int32 get_CodePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleBackgroundColor",
+              "s": "public static Color get_CodeTitleBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontColor",
+              "s": "public static Color get_CodeTitleFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontFamily",
+              "s": "public static String get_CodeTitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontSize",
+              "s": "public static Single get_CodeTitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonIndent",
+              "s": "public static Int32 get_CommonIndent()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonItemPadding",
+              "s": "public static Int32 get_CommonItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonPadding",
+              "s": "public static Int32 get_CommonPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontFamily",
+              "s": "public static String get_HeadingFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel1",
+              "s": "public static Single get_HeadingFontSizeLevel1()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel2",
+              "s": "public static Single get_HeadingFontSizeLevel2()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel3",
+              "s": "public static Single get_HeadingFontSizeLevel3()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel4",
+              "s": "public static Single get_HeadingFontSizeLevel4()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel5",
+              "s": "public static Single get_HeadingFontSizeLevel5()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel6",
+              "s": "public static Single get_HeadingFontSizeLevel6()"
+            },
+            {
+              "k": "method",
+              "n": "get_ListItemMarginBottom",
+              "s": "public static Int32 get_ListItemMarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_ListItemMarginTop",
+              "s": "public static Int32 get_ListItemMarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontColor",
+              "s": "public static Color get_ParagraphFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontFamily",
+              "s": "public static String get_ParagraphFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontSize",
+              "s": "public static Single get_ParagraphFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphLineHeight",
+              "s": "public static Single get_ParagraphLineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphStrikethroughThickness",
+              "s": "public static Int32 get_ParagraphStrikethroughThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarColor",
+              "s": "public static Color get_QuoteBarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarCornerRadius",
+              "s": "public static Single get_QuoteBarCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarMargin",
+              "s": "public static Int32 get_QuoteBarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarWidth",
+              "s": "public static Int32 get_QuoteBarWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteFontColor",
+              "s": "public static Color get_QuoteFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuotePadding",
+              "s": "public static Int32 get_QuotePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBackgroundColor",
+              "s": "public static Color get_TableBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBorderColor",
+              "s": "public static Color get_TableBorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBorderThickness",
+              "s": "public static Int32 get_TableBorderThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableCornerRadius",
+              "s": "public static Single get_TableCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableItemPadding",
+              "s": "public static Int32 get_TableItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TablePadding",
+              "s": "public static Int32 get_TablePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakColor",
+              "s": "public static Color get_ThematicBreakColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakMargin",
+              "s": "public static Int32 get_ThematicBreakMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakThickness",
+              "s": "public static Int32 get_ThematicBreakThickness()"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeBackgroundColor",
+              "s": "public static Void set_CodeBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeCornerRadius",
+              "s": "public static Void set_CodeCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontColor",
+              "s": "public static Void set_CodeFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontFamily",
+              "s": "public static Void set_CodeFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontSize",
+              "s": "public static Void set_CodeFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodePadding",
+              "s": "public static Void set_CodePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleBackgroundColor",
+              "s": "public static Void set_CodeTitleBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontColor",
+              "s": "public static Void set_CodeTitleFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontFamily",
+              "s": "public static Void set_CodeTitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontSize",
+              "s": "public static Void set_CodeTitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonIndent",
+              "s": "public static Void set_CommonIndent(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonItemPadding",
+              "s": "public static Void set_CommonItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonPadding",
+              "s": "public static Void set_CommonPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontFamily",
+              "s": "public static Void set_HeadingFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel1",
+              "s": "public static Void set_HeadingFontSizeLevel1(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel2",
+              "s": "public static Void set_HeadingFontSizeLevel2(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel3",
+              "s": "public static Void set_HeadingFontSizeLevel3(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel4",
+              "s": "public static Void set_HeadingFontSizeLevel4(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel5",
+              "s": "public static Void set_HeadingFontSizeLevel5(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel6",
+              "s": "public static Void set_HeadingFontSizeLevel6(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ListItemMarginBottom",
+              "s": "public static Void set_ListItemMarginBottom(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ListItemMarginTop",
+              "s": "public static Void set_ListItemMarginTop(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontColor",
+              "s": "public static Void set_ParagraphFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontFamily",
+              "s": "public static Void set_ParagraphFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontSize",
+              "s": "public static Void set_ParagraphFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphLineHeight",
+              "s": "public static Void set_ParagraphLineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphStrikethroughThickness",
+              "s": "public static Void set_ParagraphStrikethroughThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarColor",
+              "s": "public static Void set_QuoteBarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarCornerRadius",
+              "s": "public static Void set_QuoteBarCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarMargin",
+              "s": "public static Void set_QuoteBarMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarWidth",
+              "s": "public static Void set_QuoteBarWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteFontColor",
+              "s": "public static Void set_QuoteFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuotePadding",
+              "s": "public static Void set_QuotePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBackgroundColor",
+              "s": "public static Void set_TableBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBorderColor",
+              "s": "public static Void set_TableBorderColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBorderThickness",
+              "s": "public static Void set_TableBorderThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableCornerRadius",
+              "s": "public static Void set_TableCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableItemPadding",
+              "s": "public static Void set_TableItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TablePadding",
+              "s": "public static Void set_TablePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakColor",
+              "s": "public static Void set_ThematicBreakColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakMargin",
+              "s": "public static Void set_ThematicBreakMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakThickness",
+              "s": "public static Void set_ThematicBreakThickness(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "CodeBackgroundColor",
+              "s": "public Color CodeBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeCornerRadius",
+              "s": "public Single CodeCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontColor",
+              "s": "public Color CodeFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontFamily",
+              "s": "public String CodeFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontSize",
+              "s": "public Single CodeFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodePadding",
+              "s": "public Int32 CodePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleBackgroundColor",
+              "s": "public Color CodeTitleBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontColor",
+              "s": "public Color CodeTitleFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontFamily",
+              "s": "public String CodeTitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontSize",
+              "s": "public Single CodeTitleFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonIndent",
+              "s": "public Int32 CommonIndent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonItemPadding",
+              "s": "public Int32 CommonItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonPadding",
+              "s": "public Int32 CommonPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontFamily",
+              "s": "public String HeadingFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel1",
+              "s": "public Single HeadingFontSizeLevel1 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel2",
+              "s": "public Single HeadingFontSizeLevel2 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel3",
+              "s": "public Single HeadingFontSizeLevel3 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel4",
+              "s": "public Single HeadingFontSizeLevel4 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel5",
+              "s": "public Single HeadingFontSizeLevel5 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel6",
+              "s": "public Single HeadingFontSizeLevel6 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ListItemMarginBottom",
+              "s": "public Int32 ListItemMarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ListItemMarginTop",
+              "s": "public Int32 ListItemMarginTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontColor",
+              "s": "public Color ParagraphFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontFamily",
+              "s": "public String ParagraphFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontSize",
+              "s": "public Single ParagraphFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphLineHeight",
+              "s": "public Single ParagraphLineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphStrikethroughThickness",
+              "s": "public Int32 ParagraphStrikethroughThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarColor",
+              "s": "public Color QuoteBarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarCornerRadius",
+              "s": "public Single QuoteBarCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarMargin",
+              "s": "public Int32 QuoteBarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarWidth",
+              "s": "public Int32 QuoteBarWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteFontColor",
+              "s": "public Color QuoteFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuotePadding",
+              "s": "public Int32 QuotePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBackgroundColor",
+              "s": "public Color TableBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBorderColor",
+              "s": "public Color TableBorderColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBorderThickness",
+              "s": "public Int32 TableBorderThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableCornerRadius",
+              "s": "public Single TableCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableItemPadding",
+              "s": "public Int32 TableItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TablePadding",
+              "s": "public Int32 TablePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakColor",
+              "s": "public Color ThematicBreakColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakMargin",
+              "s": "public Int32 ThematicBreakMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakThickness",
+              "s": "public Int32 ThematicBreakThickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

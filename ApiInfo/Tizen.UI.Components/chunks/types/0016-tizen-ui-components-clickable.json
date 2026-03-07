@@ -1,0 +1,220 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Clickable",
+          "f": "Tizen.UI.Components.Clickable",
+          "k": "class",
+          "b": "Tizen.UI.Components.Pressable",
+          "i": [
+            "Tizen.UI.Components.IClickable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IClickableVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "Clicked",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E Clicked"
+            },
+            {
+              "k": "event",
+              "n": "LongPressed",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E LongPressed"
+            },
+            {
+              "k": "method",
+              "n": "add_Clicked",
+              "s": "public Void add_Clicked(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_LongPressed",
+              "s": "public Void add_LongPressed(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyVariables",
+              "s": "private Void ApplyVariables(IClickableVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "BlockClickedByKey",
+              "s": "private Void BlockClickedByKey(Boolean shouldBlock)"
+            },
+            {
+              "k": "method",
+              "n": "BlockClickedByTouch",
+              "s": "private Void BlockClickedByTouch(Boolean shouldBlock)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_ClickedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E get_ClickedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "get_ClickKeyType",
+              "s": "public ClickKeyType get_ClickKeyType()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsClickable",
+              "s": "public Boolean get_IsClickable()"
+            },
+            {
+              "k": "method",
+              "n": "get_LongPressedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E get_LongPressedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectTarget",
+              "s": "public View GetTouchEffectTarget()"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "private Void OnAccessibilityActionReceived(Object sender, AccessibilityActionReceivedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnClicked",
+              "s": "protected Boolean OnClicked(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnEnabled",
+              "s": "protected Void OnEnabled(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyPressed",
+              "s": "protected Boolean OnKeyPressed(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnLongPressed",
+              "s": "protected Boolean OnLongPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnLongPressGestureDetected",
+              "s": "private Void OnLongPressGestureDetected(Object sender, LongPressGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPressed",
+              "s": "protected Boolean OnPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnReleased",
+              "s": "protected Boolean OnReleased(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnTapGestureDetected",
+              "s": "private Void OnTapGestureDetected(Object sender, TapGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUnfocused",
+              "s": "protected Void OnUnfocused(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Clicked",
+              "s": "public Void remove_Clicked(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_LongPressed",
+              "s": "public Void remove_LongPressed(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ClickedCommand",
+              "s": "public Void set_ClickedCommand(Action\u003CObject, InputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ClickKeyType",
+              "s": "public Void set_ClickKeyType(ClickKeyType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsClickable",
+              "s": "public Void set_IsClickable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LongPressedCommand",
+              "s": "public Void set_LongPressedCommand(Action\u003CObject, InputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ShouldKeyPressTriggerClicked",
+              "s": "private Boolean ShouldKeyPressTriggerClicked()"
+            },
+            {
+              "k": "method",
+              "n": "ShouldKeyPressTriggerLongPressed",
+              "s": "private Boolean ShouldKeyPressTriggerLongPressed()"
+            },
+            {
+              "k": "method",
+              "n": "ShouldKeyReleaseTriggerClicked",
+              "s": "private Boolean ShouldKeyReleaseTriggerClicked()"
+            },
+            {
+              "k": "method",
+              "n": "ShouldTapTriggerClicked",
+              "s": "private Boolean ShouldTapTriggerClicked()"
+            },
+            {
+              "k": "property",
+              "n": "ClickedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E ClickedCommand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ClickKeyType",
+              "s": "public ClickKeyType ClickKeyType { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsClickable",
+              "s": "public Boolean IsClickable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LongPressedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E LongPressedCommand { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

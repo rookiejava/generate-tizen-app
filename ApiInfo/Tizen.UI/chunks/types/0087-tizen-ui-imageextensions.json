@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageExtensions",
+          "f": "Tizen.UI.ImageExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Border",
+              "s": "public static TView Border\u003CTView\u003E(TView view, Thickness value) where TView : IImage"
+            },
+            {
+              "k": "method",
+              "n": "CropToMask",
+              "s": "public static TView CropToMask\u003CTView\u003E(TView view, Boolean value) where TView : IImage"
+            },
+            {
+              "k": "method",
+              "n": "FittingMode",
+              "s": "public static TView FittingMode\u003CTView\u003E(TView view, FittingMode value) where TView : IImage"
+            },
+            {
+              "k": "method",
+              "n": "ImagePadding",
+              "s": "public static T ImagePadding\u003CT\u003E(T view, Thickness padding) where T : ImageView"
+            },
+            {
+              "k": "method",
+              "n": "ImagePadding",
+              "s": "public static T ImagePadding\u003CT\u003E(T view, Single left, Single top, Single right, Single bottom) where T : ImageView"
+            },
+            {
+              "k": "method",
+              "n": "ImagePadding",
+              "s": "public static T ImagePadding\u003CT\u003E(T view, Single uniformSize) where T : ImageView"
+            },
+            {
+              "k": "method",
+              "n": "ResourceUrl",
+              "s": "public static TView ResourceUrl\u003CTView\u003E(TView view, String resourceUrl) where TView : IImage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "T",
+      "n": "ImagePadding",
+      "s": "public static T ImagePadding\u003CT\u003E(T view, Thickness padding) where T : ImageView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "T",
+      "n": "ImagePadding",
+      "s": "public static T ImagePadding\u003CT\u003E(T view, Single left, Single top, Single right, Single bottom) where T : ImageView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "T",
+      "n": "ImagePadding",
+      "s": "public static T ImagePadding\u003CT\u003E(T view, Single uniformSize) where T : ImageView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "TView",
+      "n": "Border",
+      "s": "public static TView Border\u003CTView\u003E(TView view, Thickness value) where TView : IImage"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "TView",
+      "n": "CropToMask",
+      "s": "public static TView CropToMask\u003CTView\u003E(TView view, Boolean value) where TView : IImage"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "TView",
+      "n": "FittingMode",
+      "s": "public static TView FittingMode\u003CTView\u003E(TView view, FittingMode value) where TView : IImage"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ImageExtensions",
+      "r": "TView",
+      "n": "ResourceUrl",
+      "s": "public static TView ResourceUrl\u003CTView\u003E(TView view, String resourceUrl) where TView : IImage"
+    }
+  ]
+}

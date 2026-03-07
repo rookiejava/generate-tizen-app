@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "IItemAnimator",
+          "f": "Tizen.UI.Components.Recycler.IItemAnimator",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "AnimationFinished",
+              "s": "public event EventHandler\u003CAnimationFinishedEventArgs\u003E AnimationFinished"
+            },
+            {
+              "k": "method",
+              "n": "add_AnimationFinished",
+              "s": "public Void add_AnimationFinished(EventHandler\u003CAnimationFinishedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateAdd",
+              "s": "public Boolean AnimateAdd(ViewHolder holder)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateChange",
+              "s": "public Boolean AnimateChange(ViewHolder oldHolder, ViewHolder newHolder, Single fromX, Single fromY, Single toX, Single toY)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateMove",
+              "s": "public Boolean AnimateMove(ViewHolder holder, Single fromX, Single fromY, Single toX, Single toY)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateRemove",
+              "s": "public Boolean AnimateRemove(ViewHolder holder)"
+            },
+            {
+              "k": "method",
+              "n": "EndAnimation",
+              "s": "public Void EndAnimation(ViewHolder item)"
+            },
+            {
+              "k": "method",
+              "n": "EndAnimations",
+              "s": "public Void EndAnimations()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecyclerView",
+              "s": "public RecyclerView get_RecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "IsRunning",
+              "s": "public Boolean IsRunning(ViewHolder item)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AnimationFinished",
+              "s": "public Void remove_AnimationFinished(EventHandler\u003CAnimationFinishedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RunPendingAnimations",
+              "s": "public Void RunPendingAnimations()"
+            },
+            {
+              "k": "method",
+              "n": "set_RecyclerView",
+              "s": "public Void set_RecyclerView(RecyclerView value)"
+            },
+            {
+              "k": "property",
+              "n": "RecyclerView",
+              "s": "public RecyclerView RecyclerView { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

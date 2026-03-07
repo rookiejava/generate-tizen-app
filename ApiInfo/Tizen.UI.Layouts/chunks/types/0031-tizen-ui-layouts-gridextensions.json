@@ -1,0 +1,156 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "GridExtensions",
+          "f": "Tizen.UI.Layouts.GridExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column) where TView : View where TColumn : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column, TColumn last) where TView : View where TColumn : Enum"
+            },
+            {
+              "k": "method",
+              "n": "ColumnSpan",
+              "s": "public static TView ColumnSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row) where TView : View where TRow : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row, TRow last) where TView : View where TRow : Enum"
+            },
+            {
+              "k": "method",
+              "n": "RowSpan",
+              "s": "public static TView RowSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ToInt",
+              "s": "private static Int32 ToInt(Enum enumValue)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "System.Enum",
+      "n": "ToInt",
+      "s": "private static Int32 ToInt(Enum enumValue)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column) where TView : View where TColumn : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column, TColumn last) where TView : View where TColumn : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "ColumnSpan",
+      "s": "public static TView ColumnSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row) where TView : View where TRow : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row, TRow last) where TView : View where TRow : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "RowSpan",
+      "s": "public static TView RowSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+    }
+  ]
+}

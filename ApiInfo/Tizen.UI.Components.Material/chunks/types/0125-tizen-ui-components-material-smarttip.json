@@ -1,0 +1,195 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTip",
+          "f": "Tizen.UI.Components.Material.SmartTip",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.SmartTipBase",
+          "i": [
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, SmartTipVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(SmartTipVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_ContentPadding",
+              "s": "public Thickness get_ContentPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeScale",
+              "s": "public Single get_FontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMultiline",
+              "s": "public Boolean get_IsMultiline()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSizeScaleEnabled",
+              "s": "public Boolean get_SystemFontSizeScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "set_ContentPadding",
+              "s": "public Void set_ContentPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeScale",
+              "s": "public Void set_FontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMultiline",
+              "s": "public Void set_IsMultiline(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontSizeScaleEnabled",
+              "s": "public Void set_SystemFontSizeScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "ContentPadding",
+              "s": "public Thickness ContentPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeScale",
+              "s": "public Single FontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMultiline",
+              "s": "public Boolean IsMultiline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSizeScaleEnabled",
+              "s": "public Boolean SystemFontSizeScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

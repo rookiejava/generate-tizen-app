@@ -1,0 +1,601 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Scrollable",
+          "f": "Tizen.UI.Components.Scrollable",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.IDescendantFocusObserver",
+            "Tizen.UI.IScrollable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustDelta",
+              "s": "private Point AdjustDelta(Point movement, Nullable\u003CPoint\u003E currentPosition)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustScrollPosition",
+              "s": "private Point AdjustScrollPosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "CancelScrollAnimation",
+              "s": "private Void CancelScrollAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "ContentPositionToScrollPosition",
+              "s": "private Point ContentPositionToScrollPosition(Point content)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScrollBar",
+              "s": "protected IScrollBar CreateScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "DeltaFromScrollPosition",
+              "s": "private Point DeltaFromScrollPosition(Point scrollPosition)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureScrollBar",
+              "s": "private Void EnsureScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollHorizontally",
+              "s": "public Boolean get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollVertically",
+              "s": "public Boolean get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalEdgeEffect",
+              "s": "public IEdgeEffect get_HorizontalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_HorizontalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToEnd",
+              "s": "public Boolean get_IsScrolledToEnd()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToStart",
+              "s": "public Boolean get_IsScrolledToStart()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolling",
+              "s": "public Boolean get_IsScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverScrollMode",
+              "s": "public OverScrollMode get_OverScrollMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollableHeight",
+              "s": "public Single get_ScrollableHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollableWidth",
+              "s": "public Single get_ScrollableWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollBar",
+              "s": "public IScrollBar get_ScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollDirection",
+              "s": "public ScrollDirection get_ScrollDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollingDestinationHandler",
+              "s": "public Func\u003CPoint, Point\u003E get_ScrollingDestinationHandler()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollSize",
+              "s": "public Size get_ScrollSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalEdgeEffect",
+              "s": "public IEdgeEffect get_VerticalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_VerticalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPort",
+              "s": "public Rect get_ViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "GetDurationAndAlpha",
+              "s": "protected ValueTuple\u003CInt32, AlphaFunction\u003E GetDurationAndAlpha(Point movement)"
+            },
+            {
+              "k": "method",
+              "n": "GetScrollPosition",
+              "s": "private Point GetScrollPosition(View view, Point current)"
+            },
+            {
+              "k": "method",
+              "n": "IsScrollableOnDirection",
+              "s": "public Boolean IsScrollableOnDirection(ScrollDirection direction)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "protected Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterruptTouchingChildTouched",
+              "s": "private Void OnInterruptTouchingChildTouched(Object source, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPan",
+              "s": "private Void OnPan(Object sender, PanGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollAnimationFinished",
+              "s": "private Void OnScrollAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrolling",
+              "s": "private Void OnScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheel",
+              "s": "protected Boolean OnWheel(WheelEvent wheel)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheelEvent",
+              "s": "private Void OnWheelEvent(Object sender, WheelEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseEdgeEffect",
+              "s": "private Boolean ReleaseEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollContent",
+              "s": "protected Task ScrollContent(Point delta)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollingDestinationOverride",
+              "s": "protected Point ScrollingDestinationOverride(Point dest)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollPositionFromDelta",
+              "s": "private Point ScrollPositionFromDelta(Point delta)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(View child, Boolean animation, ScrollToPosition scrollToPosition)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Single position, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Point position, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "SendScrollFinished",
+              "s": "private Void SendScrollFinished()"
+            },
+            {
+              "k": "method",
+              "n": "SendScrolling",
+              "s": "private Void SendScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "SendScrollStarted",
+              "s": "private Void SendScrollStarted()"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalEdgeEffect",
+              "s": "public Void set_HorizontalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalScrollBarVisibility",
+              "s": "public Void set_HorizontalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsScrolling",
+              "s": "protected Void set_IsScrolling(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverScrollMode",
+              "s": "public Void set_OverScrollMode(OverScrollMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollBar",
+              "s": "public Void set_ScrollBar(IScrollBar value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollDirection",
+              "s": "public Void set_ScrollDirection(ScrollDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollingDestinationHandler",
+              "s": "public Void set_ScrollingDestinationHandler(Func\u003CPoint, Point\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollSize",
+              "s": "public Void set_ScrollSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalEdgeEffect",
+              "s": "public Void set_VerticalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalScrollBarVisibility",
+              "s": "public Void set_VerticalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "SetScroll",
+              "s": "private Void SetScroll(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "SetScrollBar",
+              "s": "private Void SetScrollBar(IScrollBar scrollbar)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IDescendantFocusObserver.OnDescendantFocused",
+              "s": "Void Tizen.UI.IDescendantFocusObserver.OnDescendantFocused(View descendant)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.ScrollBy",
+              "s": "Task Tizen.UI.IScrollable.ScrollBy(Single dx, Single dy, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.ScrollTo",
+              "s": "Task Tizen.UI.IScrollable.ScrollTo(Single x, Single y, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollingProperties",
+              "s": "private Void UpdateScrollingProperties()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPositionByUIPosition",
+              "s": "private Void UpdateScrollPositionByUIPosition()"
+            },
+            {
+              "k": "method",
+              "n": "VelocityToMovement",
+              "s": "protected Point VelocityToMovement(Point velocity)"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollHorizontally",
+              "s": "public Boolean CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollVertically",
+              "s": "public Boolean CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalEdgeEffect",
+              "s": "public IEdgeEffect HorizontalEdgeEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToEnd",
+              "s": "public Boolean IsScrolledToEnd { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToStart",
+              "s": "public Boolean IsScrolledToStart { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolling",
+              "s": "public Boolean IsScrolling { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "OverScrollMode",
+              "s": "public OverScrollMode OverScrollMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollableHeight",
+              "s": "public Single ScrollableHeight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollableWidth",
+              "s": "public Single ScrollableWidth { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollBar",
+              "s": "public IScrollBar ScrollBar { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollDirection",
+              "s": "public ScrollDirection ScrollDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollingDestinationHandler",
+              "s": "public Func\u003CPoint, Point\u003E ScrollingDestinationHandler { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollSize",
+              "s": "public Size ScrollSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalEdgeEffect",
+              "s": "public IEdgeEffect VerticalEdgeEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPort",
+              "s": "public Rect ViewPort { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.SnapControlExtensions",
+      "r": "Tizen.UI.Components.Scrollable",
+      "n": "ClearSnapData",
+      "s": "private static Void ClearSnapData(Scrollable Scrollable)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.SnapControlExtensions",
+      "r": "Tizen.UI.Components.Scrollable",
+      "n": "GetSnapData",
+      "s": "internal static SnapControlExtensions.SnapControlData GetSnapData(Scrollable Scrollable)"
+    }
+  ]
+}

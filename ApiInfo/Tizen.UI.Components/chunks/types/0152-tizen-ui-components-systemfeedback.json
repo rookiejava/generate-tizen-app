@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SystemFeedback",
+          "f": "Tizen.UI.Components.SystemFeedback",
+          "k": "class",
+          "b": "Tizen.UI.Components.UIAttachable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(InteractionType interactionType, String pattern)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CEnsureTimer\u003Eb__18_0",
+              "s": "private Boolean \u003CEnsureTimer\u003Eb__18_0()"
+            },
+            {
+              "k": "method",
+              "n": "CancelTimer",
+              "s": "private Void CancelTimer()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureFeedback",
+              "s": "private static Feedback EnsureFeedback()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureTimer",
+              "s": "private Timer EnsureTimer()"
+            },
+            {
+              "k": "method",
+              "n": "FeedbackLog",
+              "s": "private static Void FeedbackLog(String message)"
+            },
+            {
+              "k": "method",
+              "n": "InvokeSystemFeedback",
+              "s": "private Void InvokeSystemFeedback()"
+            },
+            {
+              "k": "method",
+              "n": "InvokeSystemFeedbackDelayed",
+              "s": "private Void InvokeSystemFeedbackDelayed()"
+            },
+            {
+              "k": "method",
+              "n": "InvokeSystemFeedbackNow",
+              "s": "private Void InvokeSystemFeedbackNow()"
+            },
+            {
+              "k": "method",
+              "n": "OnAttached",
+              "s": "public Void OnAttached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnClicked",
+              "s": "private Void OnClicked(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetached",
+              "s": "public Void OnDetached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocused",
+              "s": "private Void OnFocused(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUnfocused",
+              "s": "private Void OnUnfocused(Object sender, EventArgs e)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

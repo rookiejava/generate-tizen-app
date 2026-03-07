@@ -1,0 +1,28 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "IMotionData",
+          "f": "Tizen.UI.Scene3D.IMotionData",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "public MotionDataHandle CreateNativeHandle()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

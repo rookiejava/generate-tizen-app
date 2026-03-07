@@ -1,0 +1,232 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "SceneObject",
+          "f": "Tizen.UI.Scene3D.SceneObject",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Parent",
+              "s": "public SceneObject get_Parent()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentObject",
+              "s": "public NObject get_ParentObject()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentOrigin",
+              "s": "public Point3D get_ParentOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public Point3D get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point3D get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_PositionUsesPivotPoint",
+              "s": "public Boolean get_PositionUsesPivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_Rotation",
+              "s": "public Quaternion get_Rotation()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scale",
+              "s": "public Size3D get_Scale()"
+            },
+            {
+              "k": "method",
+              "n": "get_Size",
+              "s": "public Size3D get_Size()"
+            },
+            {
+              "k": "method",
+              "n": "LookAt",
+              "s": "public Void LookAt(Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParentOrigin",
+              "s": "public Void set_ParentOrigin(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PositionUsesPivotPoint",
+              "s": "public Void set_PositionUsesPivotPoint(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Rotation",
+              "s": "public Void set_Rotation(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scale",
+              "s": "public Void set_Scale(Size3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Size",
+              "s": "public Void set_Size(Size3D value)"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Parent",
+              "s": "public SceneObject Parent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentObject",
+              "s": "public NObject ParentObject { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentOrigin",
+              "s": "public Point3D ParentOrigin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public Point3D PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point3D Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PositionUsesPivotPoint",
+              "s": "public Boolean PositionUsesPivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Rotation",
+              "s": "public Quaternion Rotation { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Scale",
+              "s": "public Size3D Scale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Size",
+              "s": "public Size3D Size { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "AddRenderer",
+      "s": "public static Int32 AddRenderer(SceneObject sceneObject, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererAt",
+      "s": "public static Renderer GetRendererAt(SceneObject sceneObject, Int32 index)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererCount",
+      "s": "public static Int32 GetRendererCount(SceneObject sceneObject)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "RemoveRenderer",
+      "s": "public static Void RemoveRenderer(SceneObject sceneObject, Renderer renderer)"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageBackground",
+          "f": "Tizen.UI.ImageBackground",
+          "k": "class",
+          "b": "Tizen.UI.Background",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "BuildPropertyMap",
+              "s": "public Void BuildPropertyMap(PropertyMapHandle map)"
+            },
+            {
+              "k": "method",
+              "n": "get_PixelArea",
+              "s": "public Nullable\u003CRect\u003E get_PixelArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_ReleasePolicy",
+              "s": "public Nullable\u003CImageReleasePolicy\u003E get_ReleasePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Nullable\u003CBoolean\u003E get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "get_Url",
+              "s": "public String get_Url()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeU",
+              "s": "public ImageWrapMode get_WrapModeU()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeV",
+              "s": "public ImageWrapMode get_WrapModeV()"
+            },
+            {
+              "k": "method",
+              "n": "set_PixelArea",
+              "s": "public Void set_PixelArea(Nullable\u003CRect\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ReleasePolicy",
+              "s": "public Void set_ReleasePolicy(Nullable\u003CImageReleasePolicy\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Nullable\u003CBoolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Url",
+              "s": "public Void set_Url(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeU",
+              "s": "public Void set_WrapModeU(ImageWrapMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeV",
+              "s": "public Void set_WrapModeV(ImageWrapMode value)"
+            },
+            {
+              "k": "property",
+              "n": "PixelArea",
+              "s": "public Nullable\u003CRect\u003E PixelArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ReleasePolicy",
+              "s": "public Nullable\u003CImageReleasePolicy\u003E ReleasePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Nullable\u003CBoolean\u003E SynchronousLoading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Url",
+              "s": "public String Url { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeU",
+              "s": "public ImageWrapMode WrapModeU { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeV",
+              "s": "public ImageWrapMode WrapModeV { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,72 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D.NativeHandle",
+      "t": [
+        {
+          "n": "PropertyValueHandleExtensions",
+          "f": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Point3D point3d)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Size3D size3d)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Quaternion quaternion)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Object",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Object value)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Point3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Point3D point3d)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Quaternion",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Quaternion quaternion)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Size3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Size3D size3d)"
+    }
+  ]
+}

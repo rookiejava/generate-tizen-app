@@ -1,0 +1,250 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIStateManager",
+          "f": "Tizen.UI.Components.UIStateManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddStateChangedEventHandler",
+              "s": "public static Void AddStateChangedEventHandler\u003CTView\u003E(TView view, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AddStateChangedEventHandler",
+              "s": "internal static Void AddStateChangedEventHandler\u003CTView\u003E(TView view, UIStateConstraint constraint, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AddToPendingUIStateIfNeed",
+              "s": "private static Boolean AddToPendingUIStateIfNeed(View view, UIState viewState, Boolean isActivated, KeyDeviceClass inputDevice)"
+            },
+            {
+              "k": "method",
+              "n": "By",
+              "s": "private static UIState By(UIState viewState, KeyDeviceClass inputDevice)"
+            },
+            {
+              "k": "method",
+              "n": "ByAll",
+              "s": "private static UIState ByAll(UIState viewState)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectUIState",
+              "s": "public static Void ConnectUIState\u003CTView\u003E(TView view, UIState viewState, UIStateConnectingProperty\u003CTView\u003E connectingProperty) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ConnectUIStateInternal",
+              "s": "private static Void ConnectUIStateInternal\u003CTView, TConnecting\u003E(TView target, UIState viewState, UIStateConnectingProperty\u003CTConnecting\u003E connectingProperty) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectUIState",
+              "s": "public static Void DisconnectUIState(View view, UIState viewState)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureAttachedUIStateData",
+              "s": "private static UIStateManager.UIStateData EnsureAttachedUIStateData(View target)"
+            },
+            {
+              "k": "method",
+              "n": "get_DisabledUIStateConnectingProperty",
+              "s": "private static UIStateConnectingProperty\u003CView\u003E get_DisabledUIStateConnectingProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_FocusedUIStateConnectingProperty",
+              "s": "private static UIStateConnectingProperty\u003CView\u003E get_FocusedUIStateConnectingProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_PressedUIStateConnectingProperty",
+              "s": "private static UIStateConnectingProperty\u003CIPressable\u003E get_PressedUIStateConnectingProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedUIStateConnectingProperty",
+              "s": "private static UIStateConnectingProperty\u003CISelectable\u003E get_SelectedUIStateConnectingProperty()"
+            },
+            {
+              "k": "method",
+              "n": "GetAttachedConnectionCleaners",
+              "s": "private static Dictionary\u003CUIState, Action\u003E GetAttachedConnectionCleaners\u003CTView\u003E(TView target) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetInputDevice",
+              "s": "private static KeyDeviceClass GetInputDevice(EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "GetState",
+              "s": "public static UIState GetState(View view)"
+            },
+            {
+              "k": "method",
+              "n": "InvokeUIStateActions",
+              "s": "private static Void InvokeUIStateActions(View target, UIStateChangedEventArgs eventArgs)"
+            },
+            {
+              "k": "method",
+              "n": "ProcessPendingUIState",
+              "s": "private static Void ProcessPendingUIState()"
+            },
+            {
+              "k": "method",
+              "n": "RemoveStateChangedEventHandler",
+              "s": "public static Void RemoveStateChangedEventHandler\u003CTView\u003E(TView view, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SetupInitialUIState",
+              "s": "private static Void SetupInitialUIState(View target)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateUIState",
+              "s": "private static Void UpdateUIState(View view, UIState changedUIState, Boolean isActivated, KeyDeviceClass inputDevice)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateUIState",
+              "s": "private static Void UpdateUIState(View view, UIState newUIState)"
+            },
+            {
+              "k": "property",
+              "n": "DisabledUIStateConnectingProperty",
+              "s": "private UIStateConnectingProperty\u003CView\u003E DisabledUIStateConnectingProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FocusedUIStateConnectingProperty",
+              "s": "private UIStateConnectingProperty\u003CView\u003E FocusedUIStateConnectingProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PressedUIStateConnectingProperty",
+              "s": "private UIStateConnectingProperty\u003CIPressable\u003E PressedUIStateConnectingProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedUIStateConnectingProperty",
+              "s": "private UIStateConnectingProperty\u003CISelectable\u003E SelectedUIStateConnectingProperty { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "DisconnectUIState",
+      "s": "public static Void DisconnectUIState(View view, UIState viewState)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "EnsureAttachedUIStateData",
+      "s": "private static UIStateManager.UIStateData EnsureAttachedUIStateData(View target)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "GetState",
+      "s": "public static UIState GetState(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "InvokeUIStateActions",
+      "s": "private static Void InvokeUIStateActions(View target, UIStateChangedEventArgs eventArgs)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "SetupInitialUIState",
+      "s": "private static Void SetupInitialUIState(View target)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "UpdateUIState",
+      "s": "private static Void UpdateUIState(View view, UIState changedUIState, Boolean isActivated, KeyDeviceClass inputDevice)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "Tizen.UI.View",
+      "n": "UpdateUIState",
+      "s": "private static Void UpdateUIState(View view, UIState newUIState)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "AddStateChangedEventHandler",
+      "s": "public static Void AddStateChangedEventHandler\u003CTView\u003E(TView view, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "AddStateChangedEventHandler",
+      "s": "internal static Void AddStateChangedEventHandler\u003CTView\u003E(TView view, UIStateConstraint constraint, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "ConnectUIState",
+      "s": "public static Void ConnectUIState\u003CTView\u003E(TView view, UIState viewState, UIStateConnectingProperty\u003CTView\u003E connectingProperty) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "ConnectUIStateInternal",
+      "s": "private static Void ConnectUIStateInternal\u003CTView, TConnecting\u003E(TView target, UIState viewState, UIStateConnectingProperty\u003CTConnecting\u003E connectingProperty) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "GetAttachedConnectionCleaners",
+      "s": "private static Dictionary\u003CUIState, Action\u003E GetAttachedConnectionCleaners\u003CTView\u003E(TView target) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIStateManager",
+      "r": "TView",
+      "n": "RemoveStateChangedEventHandler",
+      "s": "public static Void RemoveStateChangedEventHandler\u003CTView\u003E(TView view, EventHandler\u003CUIStateChangedEventArgs\u003E handler) where TView : View"
+    }
+  ]
+}

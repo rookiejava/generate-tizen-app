@@ -1,0 +1,380 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "LinearLayoutManager",
+          "f": "Tizen.UI.Components.Recycler.LinearLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.LayoutManager",
+          "i": [
+            "Tizen.UI.Components.Recycler.IChildSeizable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AdjustArea",
+              "s": "private ValueTuple\u003CInt32, Int32\u003E AdjustArea(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChild",
+              "s": "protected Rect ArrangeChild(View view, Size measured)"
+            },
+            {
+              "k": "method",
+              "n": "ClearSnapShot",
+              "s": "private Void ClearSnapShot()"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollExtent",
+              "s": "public Int32 ComputeHorizontalScrollExtent(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollOffset",
+              "s": "public Int32 ComputeHorizontalScrollOffset(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollRange",
+              "s": "public Int32 ComputeHorizontalScrollRange(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeScrollExtent",
+              "s": "private Int32 ComputeScrollExtent(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeScrollOffset",
+              "s": "private Int32 ComputeScrollOffset(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeScrollRange",
+              "s": "private Int32 ComputeScrollRange(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollExtent",
+              "s": "public Int32 ComputeVerticalScrollExtent(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollOffset",
+              "s": "public Int32 ComputeVerticalScrollOffset(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollRange",
+              "s": "public Int32 ComputeVerticalScrollRange(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Int32 Fill(Int32 requested, Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "get__groupAdapter",
+              "s": "private IGroupedAdapter get__groupAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get__isGrouped",
+              "s": "private Boolean get__isGrouped()"
+            },
+            {
+              "k": "method",
+              "n": "get__isLooping",
+              "s": "private Boolean get__isLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get__itemAdapter",
+              "s": "private ItemTemplateAdapter get__itemAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get__loopedAdapter",
+              "s": "private ILoopedAdapter get__loopedAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollHorizontally",
+              "s": "public Boolean get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollVertically",
+              "s": "public Boolean get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "private Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsHorizontal",
+              "s": "public Boolean get_IsHorizontal()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAnimator",
+              "s": "public IItemAnimator get_ItemAnimator()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutViewPort",
+              "s": "public Rect get_LayoutViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "private Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "GetSeized",
+              "s": "public ViewHolder GetSeized(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetSeizedCount",
+              "s": "public Int32 GetSeizedCount()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "public Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "IsDividerPosition",
+              "s": "private Boolean IsDividerPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "IsSeized",
+              "s": "public Boolean IsSeized(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "ItemRealize",
+              "s": "private Void ItemRealize(View item)"
+            },
+            {
+              "k": "method",
+              "n": "ItemUnrealize",
+              "s": "private Void ItemUnrealize(View item)"
+            },
+            {
+              "k": "method",
+              "n": "LayoutChunk",
+              "s": "protected Single LayoutChunk(View view)"
+            },
+            {
+              "k": "method",
+              "n": "LayoutPosition",
+              "s": "public Void LayoutPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "MeasureUpdate",
+              "s": "public Size MeasureUpdate(View itemView)"
+            },
+            {
+              "k": "method",
+              "n": "Next",
+              "s": "private View Next()"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "public Void OnChildrenChanged(NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDirtyChildrenUpdate",
+              "s": "private Void OnDirtyChildrenUpdate(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnItemMeasureInvalidated",
+              "s": "private Void OnItemMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutChildren",
+              "s": "public Void OnLayoutChildren()"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutChildren",
+              "s": "private Void OnLayoutChildren(Int32 start)"
+            },
+            {
+              "k": "method",
+              "n": "RecycleCreatedView",
+              "s": "protected Void RecycleCreatedView()"
+            },
+            {
+              "k": "method",
+              "n": "RecycleOutOfSightView",
+              "s": "public Void RecycleOutOfSightView()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseChild",
+              "s": "public Void ReleaseChild(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "RequestDirtyChildrenUpdate",
+              "s": "protected Void RequestDirtyChildrenUpdate()"
+            },
+            {
+              "k": "method",
+              "n": "RunSnapChangedChildren",
+              "s": "private Void RunSnapChangedChildren()"
+            },
+            {
+              "k": "method",
+              "n": "ScrollHorizontallyBy",
+              "s": "public Int32 ScrollHorizontallyBy(Int32 dx)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollVerticallyBy",
+              "s": "public Int32 ScrollVerticallyBy(Int32 dy)"
+            },
+            {
+              "k": "method",
+              "n": "SeizeChild",
+              "s": "public Void SeizeChild(ViewHolder viewHolder)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsHorizontal",
+              "s": "public Void set_IsHorizontal(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAnimator",
+              "s": "public Void set_ItemAnimator(IItemAnimator value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutViewPort",
+              "s": "public Void set_LayoutViewPort(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "SnapChildrenBounds",
+              "s": "private Void SnapChildrenBounds()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateDirtyChlidren",
+              "s": "protected Void UpdateDirtyChlidren()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGroupBody",
+              "s": "private Void UpdateGroupBody()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGroupBodyInfo",
+              "s": "private Void UpdateGroupBodyInfo(Int32 position, Rect frame)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollSize",
+              "s": "private Void UpdateScrollSize(Single measured)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateViewportSize",
+              "s": "private Void UpdateViewportSize(Single measured)"
+            },
+            {
+              "k": "property",
+              "n": "_groupAdapter",
+              "s": "private IGroupedAdapter _groupAdapter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_isGrouped",
+              "s": "private Boolean _isGrouped { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_isLooping",
+              "s": "private Boolean _isLooping { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_itemAdapter",
+              "s": "private ItemTemplateAdapter _itemAdapter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_loopedAdapter",
+              "s": "private ILoopedAdapter _loopedAdapter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollHorizontally",
+              "s": "public Boolean CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollVertically",
+              "s": "public Boolean CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "private Single Height { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsHorizontal",
+              "s": "public Boolean IsHorizontal { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemAnimator",
+              "s": "public IItemAnimator ItemAnimator { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutViewPort",
+              "s": "public Rect LayoutViewPort { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "private Single Width { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

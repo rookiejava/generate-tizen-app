@@ -1,0 +1,163 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "CornerRadius",
+          "f": "Tizen.UI.CornerRadius",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single uniformRadius)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single topLeft, Single topRight, Single bottomLeft, Single bottomRight)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 topLeft, Single\u0026 topRight, Single\u0026 bottomLeft, Single\u0026 bottomRight)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "private Boolean Equals(CornerRadius other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomLeft",
+              "s": "public Single get_BottomLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomRight",
+              "s": "public Single get_BottomRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsNaN",
+              "s": "public Boolean get_IsNaN()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsRelative",
+              "s": "public Boolean get_IsRelative()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsZero",
+              "s": "public Boolean get_IsZero()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopLeft",
+              "s": "public Single get_TopLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopRight",
+              "s": "public Single get_TopRight()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(CornerRadius left, CornerRadius right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static CornerRadius op_Implicit(Single uniformRadius)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(CornerRadius left, CornerRadius right)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BottomLeft",
+              "s": "public Single BottomLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomRight",
+              "s": "public Single BottomRight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsNaN",
+              "s": "public Boolean IsNaN { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsRelative",
+              "s": "public Boolean IsRelative { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsZero",
+              "s": "public Boolean IsZero { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TopLeft",
+              "s": "public Single TopLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TopRight",
+              "s": "public Single TopRight { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.CornerRadius",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(CornerRadius value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.CornerRadius",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(CornerRadius value)"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ProgressTimer",
+          "f": "Tizen.UI.Components.Material.ProgressTimer",
+          "k": "class",
+          "b": "Tizen.UI.Components.TimeCounter",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 totalTimeInMilliseconds)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ProgressTimerVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "PausedChanged",
+              "s": "public event EventHandler PausedChanged"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__7_1",
+              "s": "Void \u003C.ctor\u003Eb__7_1(ProgressTimer v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__7_2",
+              "s": "Void \u003C.ctor\u003Eb__7_2(ProgressTimer v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "add_PausedChanged",
+              "s": "public Void add_PausedChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ProgressTimerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsPaused",
+              "s": "public Boolean get_IsPaused()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReversed",
+              "s": "public Boolean get_IsReversed()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackThickness",
+              "s": "public Single get_TrackThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrailColor",
+              "s": "public Color get_TrailColor()"
+            },
+            {
+              "k": "method",
+              "n": "HandleTrailColorStyle",
+              "s": "private Void HandleTrailColorStyle(Object sender, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPausedChanged",
+              "s": "protected Void OnPausedChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnTimeRatioChanged",
+              "s": "protected Void OnTimeRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "remove_PausedChanged",
+              "s": "public Void remove_PausedChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsPaused",
+              "s": "public Void set_IsPaused(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsReversed",
+              "s": "public Void set_IsReversed(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackThickness",
+              "s": "public Void set_TrackThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrailColor",
+              "s": "public Void set_TrailColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateUI",
+              "s": "private Void UpdateUI()"
+            },
+            {
+              "k": "property",
+              "n": "IsPaused",
+              "s": "public Boolean IsPaused { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReversed",
+              "s": "public Boolean IsReversed { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackThickness",
+              "s": "public Single TrackThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrailColor",
+              "s": "public Color TrailColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

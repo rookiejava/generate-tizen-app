@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Rotation3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Rotation3DPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Quaternion quaternion)"
+            },
+            {
+              "k": "method",
+              "n": "get_Quaternion",
+              "s": "public Quaternion get_Quaternion()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Quaternion",
+              "s": "public Quaternion Quaternion { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

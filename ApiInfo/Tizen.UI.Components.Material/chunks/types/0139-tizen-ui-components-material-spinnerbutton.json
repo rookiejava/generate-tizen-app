@@ -1,0 +1,201 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SpinnerButton",
+          "f": "Tizen.UI.Components.Material.SpinnerButton",
+          "k": "class",
+          "b": "Tizen.UI.Components.Clickable",
+          "i": [
+            "Tizen.UI.Components.IFlexibleText",
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SpinnerButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(SpinnerButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMixColor",
+              "s": "public Color get_IconMixColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalContent",
+              "s": "public IAnchoredModal get_ModalContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSizeScaleEnabled",
+              "s": "public Boolean get_SystemFontSizeScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "OnClicked",
+              "s": "protected Boolean OnClicked(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnContentSelectionChanged",
+              "s": "private Void OnContentSelectionChanged(Object sender, GroupSelectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMixColor",
+              "s": "public Void set_IconMixColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModalContent",
+              "s": "public Void set_ModalContent(IAnchoredModal value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontSizeScaleEnabled",
+              "s": "public Void set_SystemFontSizeScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMixColor",
+              "s": "public Color IconMixColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ModalContent",
+              "s": "public IAnchoredModal ModalContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSizeScaleEnabled",
+              "s": "public Boolean SystemFontSizeScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

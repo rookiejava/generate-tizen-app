@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "SnapControlExtensions",
+          "f": "Tizen.UI.Layouts.SnapControlExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ClearSnapData",
+              "s": "private static Void ClearSnapData(ScrollLayout scrollview)"
+            },
+            {
+              "k": "method",
+              "n": "GetSnapData",
+              "s": "private static SnapControlExtensions.SnapControlData GetSnapData(ScrollLayout scrollview)"
+            },
+            {
+              "k": "method",
+              "n": "SetSnap",
+              "s": "public static T SetSnap\u003CT\u003E(T scrollView, SnapPointsType snapType, SnapPointsAlignment align) where T : ScrollLayout"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "T",
+      "n": "SetSnap",
+      "s": "public static T SetSnap\u003CT\u003E(T scrollView, SnapPointsType snapType, SnapPointsAlignment align) where T : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "Tizen.UI.Layouts.ScrollLayout",
+      "n": "ClearSnapData",
+      "s": "private static Void ClearSnapData(ScrollLayout scrollview)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "Tizen.UI.Layouts.ScrollLayout",
+      "n": "GetSnapData",
+      "s": "private static SnapControlExtensions.SnapControlData GetSnapData(ScrollLayout scrollview)"
+    }
+  ]
+}

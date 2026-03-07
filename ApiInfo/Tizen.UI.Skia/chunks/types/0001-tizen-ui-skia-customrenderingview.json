@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Skia",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Skia.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Skia.dll",
+  "g": "2026-03-07T11:20:28.6871491+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Skia",
+      "t": [
+        {
+          "n": "CustomRenderingView",
+          "f": "Tizen.UI.Skia.CustomRenderingView",
+          "k": "class",
+          "b": "Tizen.UI.ImageView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "PaintSurface",
+              "s": "public event EventHandler\u003CSKPaintSurfaceEventArgs\u003E PaintSurface"
+            },
+            {
+              "k": "method",
+              "n": "\u003CInvalidate\u003Eb__7_0",
+              "s": "private Void \u003CInvalidate\u003Eb__7_0()"
+            },
+            {
+              "k": "method",
+              "n": "add_PaintSurface",
+              "s": "public Void add_PaintSurface(EventHandler\u003CSKPaintSurfaceEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "Invalidate",
+              "s": "public Void Invalidate()"
+            },
+            {
+              "k": "method",
+              "n": "OnDrawFrame",
+              "s": "protected Void OnDrawFrame()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResized",
+              "s": "protected Void OnResized()"
+            },
+            {
+              "k": "method",
+              "n": "remove_PaintSurface",
+              "s": "public Void remove_PaintSurface(EventHandler\u003CSKPaintSurfaceEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SendPaintSurface",
+              "s": "protected Void SendPaintSurface(SKPaintSurfaceEventArgs e)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

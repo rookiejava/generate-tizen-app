@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "PixelBuffer",
+          "f": "Tizen.UI.PixelBuffer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 width, Int32 height, PixelFormat pixelFormat)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Convert",
+              "s": "public static PixelData Convert(PixelBuffer pixelBuffer)"
+            },
+            {
+              "k": "method",
+              "n": "Export",
+              "s": "public PixelData Export()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Int32 get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_PixelFormat",
+              "s": "public PixelFormat get_PixelFormat()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Int32 get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "GetBuffer",
+              "s": "public IntPtr GetBuffer()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "Resize",
+              "s": "public Void Resize(Int32 width, Int32 height)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Int32 Height { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PixelFormat",
+              "s": "public PixelFormat PixelFormat { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Int32 Width { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,305 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SelectionGroupBox\u00601",
+          "f": "Tizen.UI.Components.SelectionGroupBox\u00601",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CT\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+            "System.Collections.Generic.IList\u00601\u003CT\u003E",
+            "System.Collections.IEnumerable",
+            "Tizen.UI.Components.ILayoutBox",
+            "Tizen.UI.Components.ISelectionGroup"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "ItemClicked",
+              "s": "public event EventHandler\u003CSelectionGroupItemClickedEventArgs\u003E ItemClicked"
+            },
+            {
+              "k": "event",
+              "n": "SelectionChanged",
+              "s": "public event EventHandler\u003CGroupSelectionChangedEventArgs\u003E SelectionChanged"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(T item)"
+            },
+            {
+              "k": "method",
+              "n": "add_ItemClicked",
+              "s": "public Void add_ItemClicked(EventHandler\u003CSelectionGroupItemClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectionChanged",
+              "s": "public Void add_SelectionChanged(EventHandler\u003CGroupSelectionChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(T item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(T[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBody",
+              "s": "protected Layout CreateBody()"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private Layout get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_EmptySelectionAllowed",
+              "s": "public Boolean get_EmptySelectionAllowed()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public T get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemClickedCommand",
+              "s": "public Action\u003CObject, SelectionGroupItemClickedEventArgs\u003E get_ItemClickedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "get_Items",
+              "s": "public ICollection\u003CT\u003E get_Items()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedIndex",
+              "s": "public Int32 get_SelectedIndex()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedItem",
+              "s": "public T get_SelectedItem()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectionChangedCommand",
+              "s": "public Action\u003CObject, GroupSelectionChangedEventArgs\u003E get_SelectionChangedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentSelectedIndex",
+              "s": "private Int32 GetCurrentSelectedIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CT\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "GetFirstSelectableItem",
+              "s": "private T GetFirstSelectableItem()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(T item)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, T item)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(Int32 index, T child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(T child)"
+            },
+            {
+              "k": "method",
+              "n": "OnItemClicked",
+              "s": "private Void OnItemClicked(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectionChanged",
+              "s": "protected Void OnSelectionChanged(Object sender, GroupSelectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(T item)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ItemClicked",
+              "s": "public Void remove_ItemClicked(EventHandler\u003CSelectionGroupItemClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectionChanged",
+              "s": "public Void remove_SelectionChanged(EventHandler\u003CGroupSelectionChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_EmptySelectionAllowed",
+              "s": "public Void set_EmptySelectionAllowed(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, T value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemClickedCommand",
+              "s": "public Void set_ItemClickedCommand(Action\u003CObject, SelectionGroupItemClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SelectionChangedCommand",
+              "s": "public Void set_SelectionChangedCommand(Action\u003CObject, GroupSelectionChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.ISelectionGroup.get_Selected",
+              "s": "IGroupSelectable Tizen.UI.Components.ISelectionGroup.get_Selected()"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private Layout Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EmptySelectionAllowed",
+              "s": "public Boolean EmptySelectionAllowed { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public T Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemClickedCommand",
+              "s": "public Action\u003CObject, SelectionGroupItemClickedEventArgs\u003E ItemClickedCommand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Items",
+              "s": "public ICollection\u003CT\u003E Items { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedIndex",
+              "s": "public Int32 SelectedIndex { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedItem",
+              "s": "public T SelectedItem { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectionChangedCommand",
+              "s": "public Action\u003CObject, GroupSelectionChangedEventArgs\u003E SelectionChangedCommand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.ISelectionGroup.Selected",
+              "s": "IGroupSelectable Tizen.UI.Components.ISelectionGroup.Selected { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

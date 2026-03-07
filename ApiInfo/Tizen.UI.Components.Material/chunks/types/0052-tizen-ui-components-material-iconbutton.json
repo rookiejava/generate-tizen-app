@@ -1,0 +1,153 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "IconButton",
+          "f": "Tizen.UI.Components.Material.IconButton",
+          "k": "class",
+          "b": "Tizen.UI.Components.Clickable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IconButtonVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String iconResourceUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String iconResourceUrl, IconButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(IconButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_IconCornerRadius",
+              "s": "public CornerRadius get_IconCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconHeight",
+              "s": "public Single get_IconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMultipliedColor",
+              "s": "public Color get_IconMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconResourceUrl",
+              "s": "public String get_IconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconWidth",
+              "s": "public Single get_IconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Layout",
+              "s": "private AbsoluteLayout get_Layout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "set_IconCornerRadius",
+              "s": "public Void set_IconCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconHeight",
+              "s": "public Void set_IconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMultipliedColor",
+              "s": "public Void set_IconMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconResourceUrl",
+              "s": "public Void set_IconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconWidth",
+              "s": "public Void set_IconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateCornerRadiusProperty",
+              "s": "protected Void UpdateCornerRadiusProperty(CornerRadius corner)"
+            },
+            {
+              "k": "property",
+              "n": "IconCornerRadius",
+              "s": "public CornerRadius IconCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconHeight",
+              "s": "public Single IconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMultipliedColor",
+              "s": "public Color IconMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconResourceUrl",
+              "s": "public String IconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconWidth",
+              "s": "public Single IconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Layout",
+              "s": "private AbsoluteLayout Layout { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

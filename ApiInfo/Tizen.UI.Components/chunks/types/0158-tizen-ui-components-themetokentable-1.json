@@ -1,0 +1,115 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ThemeTokenTable\u00601",
+          "f": "Tizen.UI.Components.ThemeTokenTable\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.ITokenTable\u00601\u003CT\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IDictionary\u003CString, T\u003E appTable, IDictionary\u003CString, T\u003E themeTable)"
+            },
+            {
+              "k": "event",
+              "n": "Updated",
+              "s": "public event EventHandler Updated"
+            },
+            {
+              "k": "method",
+              "n": "add_Updated",
+              "s": "public Void add_Updated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Bind",
+              "s": "public Void Bind(View view, String name, Action\u003CObject, T\u003E setter, IToken token)"
+            },
+            {
+              "k": "method",
+              "n": "ClearCache",
+              "s": "private Void ClearCache()"
+            },
+            {
+              "k": "method",
+              "n": "IsLastHitFromStatic",
+              "s": "private Boolean IsLastHitFromStatic()"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdate",
+              "s": "private Void OnUpdate()"
+            },
+            {
+              "k": "method",
+              "n": "remove_Updated",
+              "s": "public Void remove_Updated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCache",
+              "s": "private Void SetCache(String id, T value, Boolean cacheFromStatic)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetCache",
+              "s": "private Boolean TryGetCache(String id, T\u0026 value)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetToken",
+              "s": "public Boolean TryGetToken(View target, String propertyName, IToken\u0026 token)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetValue",
+              "s": "public Boolean TryGetValue(String id, T\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetValueFromDynamic",
+              "s": "private Boolean TryGetValueFromDynamic(String id, T\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetValueFromFallback",
+              "s": "private Boolean TryGetValueFromFallback(String id, T\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "TryGetValueFromStatic",
+              "s": "private Boolean TryGetValueFromStatic(String id, T\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "Unbind",
+              "s": "public Void Unbind(View view, String name)"
+            },
+            {
+              "k": "method",
+              "n": "Update",
+              "s": "public Void Update(IDictionary\u003CString, T\u003E table)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateView",
+              "s": "private Boolean UpdateView(View view, String name, Action\u003CObject, T\u003E setter, T value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

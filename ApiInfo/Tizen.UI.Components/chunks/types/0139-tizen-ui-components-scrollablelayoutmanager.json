@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ScrollableLayoutManager",
+          "f": "Tizen.UI.Components.ScrollableLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Scrollable view)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustForFill",
+              "s": "private Size AdjustForFill(Size size, Rect bounds, View view)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_Scrollable",
+              "s": "public Scrollable get_Scrollable()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "property",
+              "n": "Scrollable",
+              "s": "public Scrollable Scrollable { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

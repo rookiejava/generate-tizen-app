@@ -1,0 +1,25 @@
+# ===========================================
+# Generate_TizenApp .gitignore
+# ===========================================
+
+# 다운로드된 NuGet 패키지 (스크립트로 재다운로드 가능)
+Packages/
+
+# NuGet 실행 파일
+nuget.exe
+
+# .NET 빌드 산출물
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+# OS 파일
+Thumbs.db
+.DS_Store
+
+# IDE
+.vs/
+*.swp
+*~

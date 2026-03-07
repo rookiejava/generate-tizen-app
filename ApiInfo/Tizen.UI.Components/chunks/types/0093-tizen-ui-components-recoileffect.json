@@ -1,0 +1,198 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "RecoilEffect",
+          "f": "Tizen.UI.Components.RecoilEffect",
+          "k": "class",
+          "b": "Tizen.UI.Components.UIAttachable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_InheritCornerRadius",
+              "s": "public Boolean get_InheritCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_OffsetFactorX",
+              "s": "public Single get_OffsetFactorX()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverlayColor",
+              "s": "public Color get_OverlayColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverlayPadding",
+              "s": "public Thickness get_OverlayPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverlayScaleFactorX",
+              "s": "public Single get_OverlayScaleFactorX()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverlayScaleFactorY",
+              "s": "public Single get_OverlayScaleFactorY()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScaleFactorX",
+              "s": "public Single get_ScaleFactorX()"
+            },
+            {
+              "k": "method",
+              "n": "GetOverlayTarget",
+              "s": "private static View GetOverlayTarget(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetScaleTarget",
+              "s": "private static View GetScaleTarget(View view, View overlayTarget)"
+            },
+            {
+              "k": "method",
+              "n": "OnAttached",
+              "s": "public Void OnAttached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnCancel",
+              "s": "private static Boolean OnCancel(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetached",
+              "s": "public Void OnDetached(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnPress",
+              "s": "private Boolean OnPress(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnPressedChanged",
+              "s": "private Void OnPressedChanged(Object sender, InputEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelease",
+              "s": "private static Boolean OnRelease(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouched",
+              "s": "public Void OnTouched(Object sender, TouchEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InheritCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_InheritCornerRadius(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OffsetFactorX",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_OffsetFactorX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverlayColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_OverlayColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverlayPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_OverlayPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverlayScaleFactorX",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_OverlayScaleFactorX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverlayScaleFactorY",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_OverlayScaleFactorY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScaleFactorX",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ScaleFactorX(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InheritCornerRadius",
+              "s": "public Boolean InheritCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OffsetFactorX",
+              "s": "public Single OffsetFactorX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OverlayColor",
+              "s": "public Color OverlayColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OverlayPadding",
+              "s": "public Thickness OverlayPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OverlayScaleFactorX",
+              "s": "public Single OverlayScaleFactorX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OverlayScaleFactorY",
+              "s": "public Single OverlayScaleFactorY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScaleFactorX",
+              "s": "public Single ScaleFactorX { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

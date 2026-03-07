@@ -1,0 +1,221 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SwitchVariables",
+          "f": "Tizen.UI.Components.Material.SwitchVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.SwitchVariables\u003E",
+            "Tizen.UI.Components.IClickableVariables"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SwitchVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "SwitchVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(SwitchVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static SwitchVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThumbColor",
+              "s": "public Color get_ThumbColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThumbPadding",
+              "s": "public Thickness get_ThumbPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TouchEffect",
+              "s": "public UIAttachable get_TouchEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackHeight",
+              "s": "public Single get_TrackHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackSelectedColor",
+              "s": "public Color get_TrackSelectedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackWidth",
+              "s": "public Single get_TrackWidth()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(SwitchVariables left, SwitchVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(SwitchVariables left, SwitchVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThumbColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ThumbColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThumbPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ThumbPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TouchEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TouchEffect(UIAttachable value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackSelectedColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackSelectedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TrackWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public SwitchVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThumbColor",
+              "s": "public Color ThumbColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThumbPadding",
+              "s": "public Thickness ThumbPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TouchEffect",
+              "s": "public UIAttachable TouchEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackHeight",
+              "s": "public Single TrackHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackSelectedColor",
+              "s": "public Color TrackSelectedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackWidth",
+              "s": "public Single TrackWidth { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

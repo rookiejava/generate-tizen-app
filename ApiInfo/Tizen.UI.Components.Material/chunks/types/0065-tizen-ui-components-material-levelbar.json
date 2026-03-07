@@ -1,0 +1,158 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LevelBar",
+          "f": "Tizen.UI.Components.Material.LevelBar",
+          "k": "class",
+          "b": "Tizen.UI.Components.InteractiveProgress",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue, Int32 valueStepCount)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue, Int32 valueStepCount, LevelBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(LevelBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "EaseTrailRatio",
+              "s": "protected Single EaseTrailRatio(Single ratio)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureDividerCount",
+              "s": "private Void EnsureDividerCount(Int32 count)"
+            },
+            {
+              "k": "method",
+              "n": "get_Layout",
+              "s": "private Grid get_Layout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackThickness",
+              "s": "public Single get_TrackThickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetVisualRangeBounds",
+              "s": "protected Rect GetVisualRangeBounds()"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerAdded",
+              "s": "protected Void OnDividerAdded(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerRemoved",
+              "s": "protected Void OnDividerRemoved(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerUpdated",
+              "s": "protected Void OnDividerUpdated(Int32 index, Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "OnHandleAdded",
+              "s": "protected Void OnHandleAdded(View handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnPointRatioChanged",
+              "s": "protected Void OnPointRatioChanged(Boolean valueUpdated, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTrackAdded",
+              "s": "protected Void OnTrackAdded(View track)"
+            },
+            {
+              "k": "method",
+              "n": "OnTrackLengthChanged",
+              "s": "protected Void OnTrackLengthChanged(Single trackLength)"
+            },
+            {
+              "k": "method",
+              "n": "OnTrailAdded",
+              "s": "protected Void OnTrailAdded(View trail)"
+            },
+            {
+              "k": "method",
+              "n": "OnTrailUpdated",
+              "s": "protected Void OnTrailUpdated(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueStepChanged",
+              "s": "protected Void OnValueStepChanged(Single valueStep)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackThickness",
+              "s": "public Void set_TrackThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateDivider",
+              "s": "private Void UpdateDivider()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateTrail",
+              "s": "private Void UpdateTrail(Single ratio)"
+            },
+            {
+              "k": "property",
+              "n": "Layout",
+              "s": "private Grid Layout { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackThickness",
+              "s": "public Single TrackThickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,96 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "GroupSelectable",
+          "f": "Tizen.UI.Components.GroupSelectable",
+          "k": "class",
+          "b": "Tizen.UI.Components.Selectable",
+          "i": [
+            "Tizen.UI.Components.IGroupSelectable",
+            "Tizen.UI.Components.ISelectable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IClickableVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Group",
+              "s": "public SelectionGroup get_Group()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupName",
+              "s": "public String get_GroupName()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDeselectable",
+              "s": "protected Boolean get_IsDeselectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsGrouped",
+              "s": "public Boolean get_IsGrouped()"
+            },
+            {
+              "k": "method",
+              "n": "OnAddedToWindow",
+              "s": "private Void OnAddedToWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupName",
+              "s": "public Void set_GroupName(String value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.IGroupSelectable.get_Name",
+              "s": "String Tizen.UI.Components.IGroupSelectable.get_Name()"
+            },
+            {
+              "k": "property",
+              "n": "Group",
+              "s": "public SelectionGroup Group { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupName",
+              "s": "public String GroupName { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDeselectable",
+              "s": "protected Boolean IsDeselectable { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsGrouped",
+              "s": "public Boolean IsGrouped { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

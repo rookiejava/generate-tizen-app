@@ -1,0 +1,131 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "Grid",
+          "f": "Tizen.UI.Layouts.Grid",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.IGridLayout",
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view, Int32 row, Int32 col)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view, Int32 row, Int32 rowSpan, Int32 col, Int32 colSpan)"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E get_ColumnDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpacing",
+              "s": "public Single get_ColumnSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E get_RowDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpacing",
+              "s": "public Single get_RowSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnDefinitions",
+              "s": "public Void set_ColumnDefinitions(IList\u003CGridColumnDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnSpacing",
+              "s": "public Void set_ColumnSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowDefinitions",
+              "s": "public Void set_RowDefinitions(IList\u003CGridRowDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowSpacing",
+              "s": "public Void set_RowSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "property",
+              "n": "ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E ColumnDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpacing",
+              "s": "public Single ColumnSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E RowDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpacing",
+              "s": "public Single RowSpacing { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

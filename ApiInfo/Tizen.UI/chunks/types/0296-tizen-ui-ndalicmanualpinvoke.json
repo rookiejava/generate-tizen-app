@@ -1,0 +1,118 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "NDalicManualPINVOKE",
+          "f": "Tizen.UI.NDalicManualPINVOKE",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "HiddeninputPropertyModeGet",
+              "s": "public static Int32 HiddeninputPropertyModeGet()"
+            },
+            {
+              "k": "method",
+              "n": "HiddeninputPropertyShowLastCharacterDurationGet",
+              "s": "public static Int32 HiddeninputPropertyShowLastCharacterDurationGet()"
+            },
+            {
+              "k": "method",
+              "n": "HiddeninputPropertySubstituteCharacterGet",
+              "s": "public static Int32 HiddeninputPropertySubstituteCharacterGet()"
+            },
+            {
+              "k": "method",
+              "n": "HiddeninputPropertySubstituteCountGet",
+              "s": "public static Int32 HiddeninputPropertySubstituteCountGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyEnableScrollBarGet",
+              "s": "public static Int32 TextSelectionPopupPropertyEnableScrollBarGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyLabelMinimumSizeGet",
+              "s": "public static Int32 TextSelectionPopupPropertyLabelMinimumSizeGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyLabelPaddingGet",
+              "s": "public static Int32 TextSelectionPopupPropertyLabelPaddingGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyLabelTextVisualGet",
+              "s": "public static Int32 TextSelectionPopupPropertyLabelTextVisualGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyOptionDividerPaddingGet",
+              "s": "public static Int32 TextSelectionPopupPropertyOptionDividerPaddingGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyOptionDividerSizeGet",
+              "s": "public static Int32 TextSelectionPopupPropertyOptionDividerSizeGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupBackgroundBorderGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupBackgroundBorderGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupBackgroundGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupBackgroundGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupDividerColorGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupDividerColorGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupFadeInDurationGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupFadeInDurationGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupFadeOutDurationGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupFadeOutDurationGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupMaxSizeGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupMaxSizeGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupPressedColorGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupPressedColorGet()"
+            },
+            {
+              "k": "method",
+              "n": "TextSelectionPopupPropertyPopupPressedCornerRadiusGet",
+              "s": "public static Int32 TextSelectionPopupPropertyPopupPressedCornerRadiusGet()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

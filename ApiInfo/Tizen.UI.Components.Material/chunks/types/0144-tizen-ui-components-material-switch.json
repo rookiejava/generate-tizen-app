@@ -1,0 +1,123 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Switch",
+          "f": "Tizen.UI.Components.Material.Switch",
+          "k": "class",
+          "b": "Tizen.UI.Components.Selectable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SwitchVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(SwitchVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "GetEmptyAnimation",
+              "s": "private Animation GetEmptyAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "GetExpectedThumbColor",
+              "s": "private Color GetExpectedThumbColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetExpectedTrackBorderColor",
+              "s": "private Color GetExpectedTrackBorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetExpectedTrackColor",
+              "s": "private Color GetExpectedTrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectSecondaryTarget",
+              "s": "public View GetTouchEffectSecondaryTarget()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectTarget",
+              "s": "public View GetTouchEffectTarget()"
+            },
+            {
+              "k": "method",
+              "n": "MoveThumb",
+              "s": "private Void MoveThumb(Boolean animate)"
+            },
+            {
+              "k": "method",
+              "n": "MoveThumb",
+              "s": "private Void MoveThumb(Single positionX)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEvent",
+              "s": "private Void OnInterceptTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnLongPressed",
+              "s": "private Void OnLongPressed(Object sender, InputEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectedChanged",
+              "s": "protected Void OnSelectedChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchInterrupted",
+              "s": "protected Boolean OnTouchInterrupted(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchMoved",
+              "s": "protected Boolean OnTouchMoved(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchPressed",
+              "s": "protected Boolean OnTouchPressed(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchReleased",
+              "s": "protected Boolean OnTouchReleased(TouchEventArgs e)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,188 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "WebView",
+          "f": "Tizen.UI.WebView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownshandle)"
+            },
+            {
+              "k": "event",
+              "n": "_navigationCompleted",
+              "s": "private event EventHandler\u003CWebNavigationEventArgs\u003E _navigationCompleted"
+            },
+            {
+              "k": "event",
+              "n": "_navigationStarted",
+              "s": "private event EventHandler\u003CWebNavigationEventArgs\u003E _navigationStarted"
+            },
+            {
+              "k": "event",
+              "n": "NavigationCompleted",
+              "s": "public event EventHandler\u003CWebNavigationEventArgs\u003E NavigationCompleted"
+            },
+            {
+              "k": "event",
+              "n": "NavigationStarted",
+              "s": "public event EventHandler\u003CWebNavigationEventArgs\u003E NavigationStarted"
+            },
+            {
+              "k": "method",
+              "n": "add__navigationCompleted",
+              "s": "private Void add__navigationCompleted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__navigationStarted",
+              "s": "private Void add__navigationStarted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_NavigationCompleted",
+              "s": "public Void add_NavigationCompleted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_NavigationStarted",
+              "s": "public Void add_NavigationStarted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "EvaluateJavaScript",
+              "s": "public Void EvaluateJavaScript(String script)"
+            },
+            {
+              "k": "method",
+              "n": "EvaluateJavaScript",
+              "s": "private Void EvaluateJavaScript(String script, WebView.JavaScriptMessageHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "EvaluateJavaScriptAsync",
+              "s": "public Task\u003CString\u003E EvaluateJavaScriptAsync(String script)"
+            },
+            {
+              "k": "method",
+              "n": "get_CanGoBack",
+              "s": "public Boolean get_CanGoBack()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanGoForward",
+              "s": "public Boolean get_CanGoForward()"
+            },
+            {
+              "k": "method",
+              "n": "get_Source",
+              "s": "public WebViewSource get_Source()"
+            },
+            {
+              "k": "method",
+              "n": "GoBack",
+              "s": "public Void GoBack()"
+            },
+            {
+              "k": "method",
+              "n": "GoForward",
+              "s": "public Void GoForward()"
+            },
+            {
+              "k": "method",
+              "n": "LoadContents",
+              "s": "private Void LoadContents(String contents, String mimeType, String encoding, String baseUrl)"
+            },
+            {
+              "k": "method",
+              "n": "LoadHtmlString",
+              "s": "private Void LoadHtmlString(String html)"
+            },
+            {
+              "k": "method",
+              "n": "LoadUrl",
+              "s": "private Void LoadUrl(String url)"
+            },
+            {
+              "k": "method",
+              "n": "OnPageLoadFinished",
+              "s": "private Void OnPageLoadFinished(String url)"
+            },
+            {
+              "k": "method",
+              "n": "OnPageLoadStarted",
+              "s": "private Void OnPageLoadStarted(String url)"
+            },
+            {
+              "k": "method",
+              "n": "Reload",
+              "s": "public Void Reload()"
+            },
+            {
+              "k": "method",
+              "n": "remove__navigationCompleted",
+              "s": "private Void remove__navigationCompleted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__navigationStarted",
+              "s": "private Void remove__navigationStarted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_NavigationCompleted",
+              "s": "public Void remove_NavigationCompleted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_NavigationStarted",
+              "s": "public Void remove_NavigationStarted(EventHandler\u003CWebNavigationEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Source",
+              "s": "public Void set_Source(WebViewSource value)"
+            },
+            {
+              "k": "property",
+              "n": "CanGoBack",
+              "s": "public Boolean CanGoBack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanGoForward",
+              "s": "public Boolean CanGoForward { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Source",
+              "s": "public WebViewSource Source { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

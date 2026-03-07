@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Checkbox",
+          "f": "Tizen.UI.Components.Material.Checkbox",
+          "k": "class",
+          "b": "Tizen.UI.Components.Selectable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CheckboxVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(CheckboxVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectSecondaryTarget",
+              "s": "public View GetTouchEffectSecondaryTarget()"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectedChanged",
+              "s": "protected Void OnSelectedChanged(KeyDeviceClass device)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

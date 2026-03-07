@@ -1,0 +1,143 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerList",
+          "f": "Tizen.UI.Components.Material.PickerList",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.PickerListBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Picker picker)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__16_0",
+              "s": "Void \u003C.ctor\u003Eb__16_0(Object s, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CUpdateListItems\u003Eb__18_0",
+              "s": "private PickerListItemData \u003CUpdateListItems\u003Eb__18_0(PickerListItemData item)"
+            },
+            {
+              "k": "method",
+              "n": "AfterScrolling",
+              "s": "private Void AfterScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "GetCenterItemValue",
+              "s": "private Int32 GetCenterItemValue()"
+            },
+            {
+              "k": "method",
+              "n": "GetEmptyAnimation",
+              "s": "private Animation GetEmptyAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "HandleListItemAnimation",
+              "s": "private Void HandleListItemAnimation(Boolean scrollStarted, Int32 duration)"
+            },
+            {
+              "k": "method",
+              "n": "OnAnimationFinished",
+              "s": "private Void OnAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragFinished",
+              "s": "private Void OnDragFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragging",
+              "s": "private Void OnDragging(Object sender, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragStarted",
+              "s": "private Void OnDragStarted(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollCanceled",
+              "s": "private Void OnScrollCanceled(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollFinished",
+              "s": "private Void OnScrollFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTapGestureDetected",
+              "s": "private Void OnTapGestureDetected(Object sender, TapGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTick",
+              "s": "private Boolean OnTick()"
+            },
+            {
+              "k": "method",
+              "n": "PickerOnTouchEvent",
+              "s": "private Void PickerOnTouchEvent(Object s, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "PickerValueUpdate",
+              "s": "protected Void PickerValueUpdate()"
+            },
+            {
+              "k": "method",
+              "n": "ScrollToValue",
+              "s": "public Void ScrollToValue(Int32 value, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateItemFontSize",
+              "s": "public Void UpdateItemFontSize(Single fontSize)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateListItems",
+              "s": "public Void UpdateListItems(Boolean isForcedUpdate)"
+            },
+            {
+              "k": "method",
+              "n": "VelocityToMovement",
+              "s": "protected Point VelocityToMovement(Point velocity)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

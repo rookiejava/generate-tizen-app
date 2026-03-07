@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.WindowBorder",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.WindowBorder.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.WindowBorder.dll",
+  "g": "2026-03-07T11:20:28.7078907+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.WindowBorder",
+      "t": [
+        {
+          "n": "IWindowBorderProvider",
+          "f": "Tizen.UI.WindowBorder.IWindowBorderProvider",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_BorderArea",
+              "s": "public Thickness get_BorderArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderView",
+              "s": "public View get_BorderView()"
+            },
+            {
+              "k": "method",
+              "n": "SetTargetWindow",
+              "s": "public Void SetTargetWindow(Window window)"
+            },
+            {
+              "k": "property",
+              "n": "BorderArea",
+              "s": "public Thickness BorderArea { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderView",
+              "s": "public View BorderView { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

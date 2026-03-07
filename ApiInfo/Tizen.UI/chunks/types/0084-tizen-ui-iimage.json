@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "IImage",
+          "f": "Tizen.UI.IImage",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsNinePatchImage",
+              "s": "public Boolean get_IsNinePatchImage()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsNinePatchImage",
+              "s": "public Void set_IsNinePatchImage(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsNinePatchImage",
+              "s": "public Boolean IsNinePatchImage { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

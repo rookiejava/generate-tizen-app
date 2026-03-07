@@ -1,0 +1,250 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DoubleTitleVariables",
+          "f": "Tizen.UI.Components.Material.DoubleTitleVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.DoubleTitleVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DoubleTitleVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "DoubleTitleVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(DoubleTitleVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static DoubleTitleVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_SubtitleColor",
+              "s": "public Color get_SubtitleColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_SubtitleFontFamily",
+              "s": "public String get_SubtitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_SubtitleFontSize",
+              "s": "public Single get_SubtitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_SubtitleTextOverflow",
+              "s": "public TextOverflow get_SubtitleTextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleColor",
+              "s": "public Color get_TitleColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontFamily",
+              "s": "public String get_TitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontSize",
+              "s": "public Single get_TitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleTextOverflow",
+              "s": "public TextOverflow get_TitleTextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(DoubleTitleVariables left, DoubleTitleVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(DoubleTitleVariables left, DoubleTitleVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SubtitleColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SubtitleColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SubtitleFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SubtitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SubtitleFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SubtitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SubtitleTextOverflow",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SubtitleTextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleTextOverflow",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleTextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public DoubleTitleVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SubtitleColor",
+              "s": "public Color SubtitleColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SubtitleFontFamily",
+              "s": "public String SubtitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SubtitleFontSize",
+              "s": "public Single SubtitleFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SubtitleTextOverflow",
+              "s": "public TextOverflow SubtitleTextOverflow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleColor",
+              "s": "public Color TitleColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontFamily",
+              "s": "public String TitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontSize",
+              "s": "public Single TitleFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleTextOverflow",
+              "s": "public TextOverflow TitleTextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

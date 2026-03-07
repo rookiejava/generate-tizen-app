@@ -1,0 +1,145 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerVariables",
+          "f": "Tizen.UI.Components.Material.PickerVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.PickerVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(PickerVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "PickerVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(PickerVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterItemFontFamily",
+              "s": "public String get_CenterItemFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static PickerVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemFontFamily",
+              "s": "public String get_ItemFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemTextColor",
+              "s": "public Color get_ItemTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(PickerVariables left, PickerVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(PickerVariables left, PickerVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_CenterItemFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CenterItemFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemTextColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "CenterItemFontFamily",
+              "s": "public String CenterItemFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public PickerVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemFontFamily",
+              "s": "public String ItemFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemTextColor",
+              "s": "public Color ItemTextColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

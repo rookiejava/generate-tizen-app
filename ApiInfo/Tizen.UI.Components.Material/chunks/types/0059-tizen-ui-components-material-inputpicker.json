@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "InputPicker",
+          "f": "Tizen.UI.Components.Material.InputPicker",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.PickerBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ClosedRange\u003CInt32\u003E range)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ClosedRange\u003CInt32\u003E range, PickerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "protected Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "OnDisplayedValuesChanged",
+              "s": "protected Void OnDisplayedValuesChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnEditModeChanged",
+              "s": "protected Void OnEditModeChanged(Boolean editMode)"
+            },
+            {
+              "k": "method",
+              "n": "OnRangeChanged",
+              "s": "protected Void OnRangeChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnStepChanged",
+              "s": "protected Void OnStepChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChanged",
+              "s": "protected Void OnValueChanged()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

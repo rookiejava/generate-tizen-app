@@ -1,0 +1,173 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "SceneObjectGroup\u00601",
+          "f": "Tizen.UI.Scene3D.SceneObjectGroup\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CT\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+            "System.Collections.Generic.IList\u00601\u003CT\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__4_0",
+              "s": "ObservableCollection\u003CT\u003E \u003C.ctor\u003Eb__4_0()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(T item)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(T item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(T[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get__children",
+              "s": "private Lazy\u003CObservableCollection\u003CT\u003E\u003E get__children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CT\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public T get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CT\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(T item)"
+            },
+            {
+              "k": "method",
+              "n": "InitializeObservableCollection",
+              "s": "protected Void InitializeObservableCollection(ObservableCollection\u003CT\u003E collection)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, T item)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(T sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(T sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "private Void OnChildrenChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(T item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set__children",
+              "s": "private Void modreq(System.Runtime.CompilerServices.IsExternalInit) set__children(Lazy\u003CObservableCollection\u003CT\u003E\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, T value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "_children",
+              "s": "private Lazy\u003CObservableCollection\u003CT\u003E\u003E _children { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CT\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public T Item { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

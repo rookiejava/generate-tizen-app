@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "ModelNode",
+          "f": "Tizen.UI.Scene3D.ModelNode",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObjectGroup\u00601\u003CTizen.UI.Scene3D.ModelNode\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__3_0",
+              "s": "ObservableCollection\u003CModelPrimitive\u003E \u003C.ctor\u003Eb__3_0()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModelPrimitives",
+              "s": "public IList\u003CModelPrimitive\u003E get_ModelPrimitives()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetChildModelNodeAt",
+              "s": "private ModelNode GetChildModelNodeAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetModelPrimitiveAt",
+              "s": "private ModelPrimitive GetModelPrimitiveAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "InitializeObservableCollection",
+              "s": "protected Void InitializeObservableCollection(ObservableCollection\u003CModelNode\u003E collection)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildPrimitiveAdded",
+              "s": "private Void OnChildPrimitiveAdded(ModelPrimitive primitive)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildPrimitiveRemoved",
+              "s": "private Void OnChildPrimitiveRemoved(ModelPrimitive primitive)"
+            },
+            {
+              "k": "method",
+              "n": "OnModelPrimitivesChanged",
+              "s": "private Void OnModelPrimitivesChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "property",
+              "n": "ModelPrimitives",
+              "s": "public IList\u003CModelPrimitive\u003E ModelPrimitives { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

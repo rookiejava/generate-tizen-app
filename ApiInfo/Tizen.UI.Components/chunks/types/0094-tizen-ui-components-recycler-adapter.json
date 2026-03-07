@@ -1,0 +1,120 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "Adapter",
+          "f": "Tizen.UI.Components.Recycler.Adapter",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.Specialized.INotifyCollectionChanged"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "CollectionChanged",
+              "s": "public event NotifyCollectionChangedEventHandler CollectionChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_CollectionChanged",
+              "s": "public Void add_CollectionChanged(NotifyCollectionChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "BindViewHolder",
+              "s": "public Void BindViewHolder(ViewHolder holder, Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "CreateViewHolder",
+              "s": "public ViewHolder CreateViewHolder(Int32 viewType)"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemCount",
+              "s": "public Int32 get_ItemCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecyclerView",
+              "s": "public RecyclerView get_RecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "GetItemOnPosition",
+              "s": "public Object GetItemOnPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemViewType",
+              "s": "public Int32 GetItemViewType(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetViewPosition",
+              "s": "public Int32 GetViewPosition(View view)"
+            },
+            {
+              "k": "method",
+              "n": "IsSticky",
+              "s": "public Boolean IsSticky(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "OnBindViewHolder",
+              "s": "public Void OnBindViewHolder(ViewHolder holder, Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "OnCreateViewHolder",
+              "s": "public ViewHolder OnCreateViewHolder(Int32 viewType)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateRecyclerView",
+              "s": "protected Void OnUpdateRecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "remove_CollectionChanged",
+              "s": "public Void remove_CollectionChanged(NotifyCollectionChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendNotifyCollectionChanged",
+              "s": "protected Void SendNotifyCollectionChanged(NotifyCollectionChangedEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecyclerView",
+              "s": "public Void set_RecyclerView(RecyclerView value)"
+            },
+            {
+              "k": "property",
+              "n": "ItemCount",
+              "s": "public Int32 ItemCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RecyclerView",
+              "s": "public RecyclerView RecyclerView { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

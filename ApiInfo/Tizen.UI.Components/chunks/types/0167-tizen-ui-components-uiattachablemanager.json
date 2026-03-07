@@ -1,0 +1,77 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIAttachableManager",
+          "f": "Tizen.UI.Components.UIAttachableManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "Attach",
+              "s": "public static Void Attach(View view, String key, UIAttachable attachable)"
+            },
+            {
+              "k": "method",
+              "n": "ClearAttachables",
+              "s": "public static Void ClearAttachables(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Detach",
+              "s": "public static Void Detach(View view, String key)"
+            },
+            {
+              "k": "method",
+              "n": "GetAttachable",
+              "s": "public static UIAttachable GetAttachable(View view, String key)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIAttachableManager",
+      "r": "Tizen.UI.View",
+      "n": "Attach",
+      "s": "public static Void Attach(View view, String key, UIAttachable attachable)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIAttachableManager",
+      "r": "Tizen.UI.View",
+      "n": "ClearAttachables",
+      "s": "public static Void ClearAttachables(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIAttachableManager",
+      "r": "Tizen.UI.View",
+      "n": "Detach",
+      "s": "public static Void Detach(View view, String key)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIAttachableManager",
+      "r": "Tizen.UI.View",
+      "n": "GetAttachable",
+      "s": "public static UIAttachable GetAttachable(View view, String key)"
+    }
+  ]
+}

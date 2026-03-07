@@ -1,0 +1,268 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals",
+      "t": [
+        {
+          "n": "VisualObject",
+          "f": "Tizen.UI.Visuals.VisualObject",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "ClearNeedUpdateMap",
+              "s": "protected Void ClearNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "ClearVisual",
+              "s": "protected Void ClearVisual()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "protected VisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisualCreated",
+              "s": "protected Boolean get_IsVisualCreated()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyHeight",
+              "s": "public Single get_ModifyHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModifyWidth",
+              "s": "public Single get_ModifyWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Origin",
+              "s": "public VisualAlign get_Origin()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public VisualAlign get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_SiblingOrder",
+              "s": "public Int32 get_SiblingOrder()"
+            },
+            {
+              "k": "method",
+              "n": "get_TransformFlags",
+              "s": "public TransformFlags get_TransformFlags()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "protected VisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIteration",
+              "s": "private Void OnLayoutIteration(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateRequired",
+              "s": "private Void OnUpdateRequired(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyHeight",
+              "s": "public Void set_ModifyHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModifyWidth",
+              "s": "public Void set_ModifyWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Origin",
+              "s": "public Void set_Origin(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(VisualAlign value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SiblingOrder",
+              "s": "public Void set_SiblingOrder(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TransformFlags",
+              "s": "public Void set_TransformFlags(TransformFlags value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetNeedUpdateMap",
+              "s": "protected Void SetNeedUpdateMap()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateVisualMap",
+              "s": "protected Void UpdateVisualMap()"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisualCreated",
+              "s": "protected Boolean IsVisualCreated { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyHeight",
+              "s": "public Single ModifyHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ModifyWidth",
+              "s": "public Single ModifyWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Origin",
+              "s": "public VisualAlign Origin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public VisualAlign PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SiblingOrder",
+              "s": "public Int32 SiblingOrder { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TransformFlags",
+              "s": "public TransformFlags TransformFlags { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "protected VisualMap VisualMap { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

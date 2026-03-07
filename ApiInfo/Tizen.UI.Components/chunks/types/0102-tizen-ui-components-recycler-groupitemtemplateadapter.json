@@ -1,0 +1,165 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "GroupItemTemplateAdapter",
+          "f": "Tizen.UI.Components.Recycler.GroupItemTemplateAdapter",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.ItemTemplateAdapter",
+          "i": [
+            "Tizen.UI.Components.Recycler.IGroupedAdapter"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "BindBodyHolder",
+              "s": "public Void BindBodyHolder(ViewHolder holder, Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBody",
+              "s": "public ViewHolder CreateBody(Int32 type)"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupBodyTemplate",
+              "s": "public ViewTemplate get_GroupBodyTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupCount",
+              "s": "public Int32 get_GroupCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupFooterTemplate",
+              "s": "public ViewTemplate get_GroupFooterTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupHeaderTemplate",
+              "s": "public ViewTemplate get_GroupHeaderTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasGroupBody",
+              "s": "public Boolean get_HasGroupBody()"
+            },
+            {
+              "k": "method",
+              "n": "get_InvisibleDividerTemplate",
+              "s": "private ViewTemplate get_InvisibleDividerTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsStickyHeader",
+              "s": "public Boolean get_IsStickyHeader()"
+            },
+            {
+              "k": "method",
+              "n": "GetBodyType",
+              "s": "public Int32 GetBodyType(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetChildrenCount",
+              "s": "public Int32 GetChildrenCount(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetGroupAndIndex",
+              "s": "public ValueTuple\u003CInt32, Int32\u003E GetGroupAndIndex(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetGroupItem",
+              "s": "public Object GetGroupItem(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemViewType",
+              "s": "public Int32 GetItemViewType(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "IsSticky",
+              "s": "public Boolean IsSticky(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupBodyTemplate",
+              "s": "public Void set_GroupBodyTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupFooterTemplate",
+              "s": "public Void set_GroupFooterTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupHeaderTemplate",
+              "s": "public Void set_GroupHeaderTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsStickyHeader",
+              "s": "public Void set_IsStickyHeader(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetItemsSource",
+              "s": "public Void SetItemsSource(IEnumerable items)"
+            },
+            {
+              "k": "property",
+              "n": "GroupBodyTemplate",
+              "s": "public ViewTemplate GroupBodyTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupCount",
+              "s": "public Int32 GroupCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupFooterTemplate",
+              "s": "public ViewTemplate GroupFooterTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupHeaderTemplate",
+              "s": "public ViewTemplate GroupHeaderTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasGroupBody",
+              "s": "public Boolean HasGroupBody { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InvisibleDividerTemplate",
+              "s": "private ViewTemplate InvisibleDividerTemplate { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsStickyHeader",
+              "s": "public Boolean IsStickyHeader { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

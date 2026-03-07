@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IAnchoredModal",
+          "f": "Tizen.UI.Components.IAnchoredModal",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "Dismissed",
+              "s": "public event EventHandler Dismissed"
+            },
+            {
+              "k": "method",
+              "n": "add_Dismissed",
+              "s": "public Void add_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalPivot",
+              "s": "public ModalPivot get_ModalPivot()"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window, Rect anchorBounds)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dismissed",
+              "s": "public Void remove_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "property",
+              "n": "ModalPivot",
+              "s": "public ModalPivot ModalPivot { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

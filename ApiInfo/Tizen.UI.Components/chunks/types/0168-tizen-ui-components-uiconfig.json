@@ -1,0 +1,203 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIConfig",
+          "f": "Tizen.UI.Components.UIConfig",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBorderTable",
+              "s": "public IDictionary\u003CString, Single\u003E CreateBorderTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateColorTable",
+              "s": "public IDictionary\u003CString, Color\u003E CreateColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCornerTable",
+              "s": "public IDictionary\u003CString, CornerRadius\u003E CreateCornerTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateEffectColorTable",
+              "s": "public IDictionary\u003CString, Color\u003E CreateEffectColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFontFamilyLoader",
+              "s": "public IFontFamilyLoader CreateFontFamilyLoader()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFontScaleLoader",
+              "s": "public IFontScaleLoader CreateFontScaleLoader()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFontSizeTable",
+              "s": "public IDictionary\u003CString, Single\u003E CreateFontSizeTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFontTable",
+              "s": "public IDictionary\u003CString, String\u003E CreateFontTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateSpacingTable",
+              "s": "public IDictionary\u003CString, Single\u003E CreateSpacingTable()"
+            },
+            {
+              "k": "method",
+              "n": "CreateThemeLoader",
+              "s": "public IThemeLoader CreateThemeLoader()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVariables",
+              "s": "public UIVariables CreateVariables()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaselineDpi",
+              "s": "public Int32 get_BaselineDpi()"
+            },
+            {
+              "k": "method",
+              "n": "get_IgnoreDpi",
+              "s": "public Boolean get_IgnoreDpi()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsBackKey",
+              "s": "public Func\u003CString, Boolean\u003E get_IsBackKey()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDecreaseKey",
+              "s": "public Func\u003CString, Boolean\u003E get_IsDecreaseKey()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsExecutionKey",
+              "s": "public Func\u003CString, Boolean\u003E get_IsExecutionKey()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsIncreaseKey",
+              "s": "public Func\u003CString, Boolean\u003E get_IsIncreaseKey()"
+            },
+            {
+              "k": "method",
+              "n": "get_LongPressKeyCount",
+              "s": "public UInt32 get_LongPressKeyCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScalingFactor",
+              "s": "public Single get_ScalingFactor()"
+            },
+            {
+              "k": "method",
+              "n": "set_BaselineDpi",
+              "s": "protected Void set_BaselineDpi(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IgnoreDpi",
+              "s": "protected Void set_IgnoreDpi(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsBackKey",
+              "s": "protected Void set_IsBackKey(Func\u003CString, Boolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsDecreaseKey",
+              "s": "protected Void set_IsDecreaseKey(Func\u003CString, Boolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsExecutionKey",
+              "s": "protected Void set_IsExecutionKey(Func\u003CString, Boolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsIncreaseKey",
+              "s": "protected Void set_IsIncreaseKey(Func\u003CString, Boolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LongPressKeyCount",
+              "s": "protected Void set_LongPressKeyCount(UInt32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScalingFactor",
+              "s": "protected Void set_ScalingFactor(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "BaselineDpi",
+              "s": "public Int32 BaselineDpi { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IgnoreDpi",
+              "s": "public Boolean IgnoreDpi { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsBackKey",
+              "s": "public Func\u003CString, Boolean\u003E IsBackKey { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDecreaseKey",
+              "s": "public Func\u003CString, Boolean\u003E IsDecreaseKey { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsExecutionKey",
+              "s": "public Func\u003CString, Boolean\u003E IsExecutionKey { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsIncreaseKey",
+              "s": "public Func\u003CString, Boolean\u003E IsIncreaseKey { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LongPressKeyCount",
+              "s": "public UInt32 LongPressKeyCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScalingFactor",
+              "s": "public Single ScalingFactor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

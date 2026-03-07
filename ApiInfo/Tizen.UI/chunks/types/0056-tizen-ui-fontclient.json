@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "FontClient",
+          "f": "Tizen.UI.FontClient",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddCustomFontDirectory",
+              "s": "public Boolean AddCustomFontDirectory(String path)"
+            },
+            {
+              "k": "method",
+              "n": "FontPreLoad",
+              "s": "public static Void FontPreLoad(IEnumerable\u003CString\u003E fontPathList, IEnumerable\u003CString\u003E memoryFontPathList, Boolean useThread, Boolean syncCreation)"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static FontClient get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "PreCache",
+              "s": "public static Void PreCache(IEnumerable\u003CString\u003E fallbackFamilyList, IEnumerable\u003CString\u003E extraFamilyList, String localeFamily, Boolean useThread, Boolean syncCreation)"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public FontClient Instance { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

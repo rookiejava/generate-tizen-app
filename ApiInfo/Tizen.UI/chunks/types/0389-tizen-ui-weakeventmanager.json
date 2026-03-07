@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "WeakEventManager",
+          "f": "Tizen.UI.WeakEventManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddEventHandler",
+              "s": "public Void AddEventHandler\u003CTEventArgs\u003E(EventHandler\u003CTEventArgs\u003E handler, String eventName) where TEventArgs : EventArgs"
+            },
+            {
+              "k": "method",
+              "n": "AddEventHandler",
+              "s": "public Void AddEventHandler(Delegate handler, String eventName)"
+            },
+            {
+              "k": "method",
+              "n": "AddEventHandler",
+              "s": "private Void AddEventHandler(String eventName, Object handlerTarget, MethodInfo methodInfo)"
+            },
+            {
+              "k": "method",
+              "n": "HandleEvent",
+              "s": "public Void HandleEvent(Object sender, Object args, String eventName)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveEventHandler",
+              "s": "public Void RemoveEventHandler\u003CTEventArgs\u003E(EventHandler\u003CTEventArgs\u003E handler, String eventName) where TEventArgs : EventArgs"
+            },
+            {
+              "k": "method",
+              "n": "RemoveEventHandler",
+              "s": "public Void RemoveEventHandler(Delegate handler, String eventName)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveEventHandler",
+              "s": "private Void RemoveEventHandler(String eventName, Object handlerTarget, MemberInfo methodInfo)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

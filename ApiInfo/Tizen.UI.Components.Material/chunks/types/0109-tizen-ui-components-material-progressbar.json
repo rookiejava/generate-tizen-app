@@ -1,0 +1,218 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ProgressBar",
+          "f": "Tizen.UI.Components.Material.ProgressBar",
+          "k": "class",
+          "b": "Tizen.UI.Components.Progress",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ProgressBarVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue, ProgressBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "ClearIndeterminate",
+              "s": "private Void ClearIndeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ProgressBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "CreateIndeterminateBar",
+              "s": "private View CreateIndeterminateBar(Single width)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureDividerCount",
+              "s": "private Void EnsureDividerCount(Int32 count)"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerStepCount",
+              "s": "public Int32 get_DividerStepCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReversed",
+              "s": "public Boolean get_IsReversed()"
+            },
+            {
+              "k": "method",
+              "n": "get_RootLayout",
+              "s": "protected AbsoluteLayout get_RootLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackThickness",
+              "s": "public Single get_TrackThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrailColor",
+              "s": "public Color get_TrailColor()"
+            },
+            {
+              "k": "method",
+              "n": "HideDeterminate",
+              "s": "private Void HideDeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "NotifyTrailUpdated",
+              "s": "private Void NotifyTrailUpdated(Single trailWidth)"
+            },
+            {
+              "k": "method",
+              "n": "OnDeterminateStateChanged",
+              "s": "protected Void OnDeterminateStateChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerAdded",
+              "s": "protected Void OnDividerAdded(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerRemoved",
+              "s": "protected Void OnDividerRemoved(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "OnDividerUpdated",
+              "s": "protected Void OnDividerUpdated(Int32 index, Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTrailUpdated",
+              "s": "protected Void OnTrailUpdated(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueRatioChanged",
+              "s": "protected Void OnValueRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "PlayIndeterminate",
+              "s": "private Void PlayIndeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerStepCount",
+              "s": "public Void set_DividerStepCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsReversed",
+              "s": "public Void set_IsReversed(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackThickness",
+              "s": "public Void set_TrackThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrailColor",
+              "s": "public Void set_TrailColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowDeterminate",
+              "s": "private Void ShowDeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateDivider",
+              "s": "private Void UpdateDivider()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateTrail",
+              "s": "private Void UpdateTrail()"
+            },
+            {
+              "k": "property",
+              "n": "DividerStepCount",
+              "s": "public Int32 DividerStepCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReversed",
+              "s": "public Boolean IsReversed { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RootLayout",
+              "s": "protected AbsoluteLayout RootLayout { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackThickness",
+              "s": "public Single TrackThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrailColor",
+              "s": "public Color TrailColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

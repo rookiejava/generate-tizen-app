@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Template\u00601",
+          "f": "Tizen.UI.Template\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Type type)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Func\u003CT\u003E loadTemplate)"
+            },
+            {
+              "k": "method",
+              "n": "CreateContent",
+              "s": "public T CreateContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadTemplate",
+              "s": "public Func\u003CT\u003E get_LoadTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "SetupContent",
+              "s": "protected Void SetupContent(T item)"
+            },
+            {
+              "k": "property",
+              "n": "LoadTemplate",
+              "s": "public Func\u003CT\u003E LoadTemplate { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

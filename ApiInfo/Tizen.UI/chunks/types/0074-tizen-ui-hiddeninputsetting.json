@@ -1,0 +1,91 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "HiddenInputSetting",
+          "f": "Tizen.UI.HiddenInputSetting",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Nullable\u003CInt32\u003E get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_HiddenCharacter",
+              "s": "public Nullable\u003CChar\u003E get_HiddenCharacter()"
+            },
+            {
+              "k": "method",
+              "n": "get_Mode",
+              "s": "public HiddenInputMode get_Mode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShowLastCharacterDuration",
+              "s": "public Nullable\u003CInt32\u003E get_ShowLastCharacterDuration()"
+            },
+            {
+              "k": "method",
+              "n": "set_Count",
+              "s": "public Void set_Count(Nullable\u003CInt32\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HiddenCharacter",
+              "s": "public Void set_HiddenCharacter(Nullable\u003CChar\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Mode",
+              "s": "public Void set_Mode(HiddenInputMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShowLastCharacterDuration",
+              "s": "public Void set_ShowLastCharacterDuration(Nullable\u003CInt32\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Nullable\u003CInt32\u003E Count { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HiddenCharacter",
+              "s": "public Nullable\u003CChar\u003E HiddenCharacter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Mode",
+              "s": "public HiddenInputMode Mode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShowLastCharacterDuration",
+              "s": "public Nullable\u003CInt32\u003E ShowLastCharacterDuration { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.HiddenInputSetting",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(HiddenInputSetting setting)"
+    }
+  ]
+}

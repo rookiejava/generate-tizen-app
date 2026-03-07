@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "PanGesture",
+          "f": "Tizen.UI.PanGesture",
+          "k": "class",
+          "b": "Tizen.UI.Gesture",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Displacement",
+              "s": "public Point get_Displacement()"
+            },
+            {
+              "k": "method",
+              "n": "get_NumberOfTouches",
+              "s": "public Int32 get_NumberOfTouches()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenDisplacement",
+              "s": "public Point get_ScreenDisplacement()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenPosition",
+              "s": "public Point get_ScreenPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenVelocity",
+              "s": "public Point get_ScreenVelocity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Velocity",
+              "s": "public Point get_Velocity()"
+            },
+            {
+              "k": "property",
+              "n": "Displacement",
+              "s": "public Point Displacement { get; }"
+            },
+            {
+              "k": "property",
+              "n": "NumberOfTouches",
+              "s": "public Int32 NumberOfTouches { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point Position { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenDisplacement",
+              "s": "public Point ScreenDisplacement { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenPosition",
+              "s": "public Point ScreenPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenVelocity",
+              "s": "public Point ScreenVelocity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Velocity",
+              "s": "public Point Velocity { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

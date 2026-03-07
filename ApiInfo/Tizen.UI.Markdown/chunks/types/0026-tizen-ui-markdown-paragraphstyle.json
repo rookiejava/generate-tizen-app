@@ -1,0 +1,175 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "ParagraphStyle",
+          "f": "Tizen.UI.Markdown.ParagraphStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ParagraphStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ParagraphStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ParagraphStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ParagraphStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ParagraphStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Single get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrikethroughThickness",
+              "s": "public Int32 get_StrikethroughThickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ParagraphStyle left, ParagraphStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ParagraphStyle left, ParagraphStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_LineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrikethroughThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_StrikethroughThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ParagraphStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Single LineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrikethroughThickness",
+              "s": "public Int32 StrikethroughThickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

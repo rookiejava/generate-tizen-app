@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "OpacityPropertyValue",
+          "f": "Tizen.UI.OpacityPropertyValue",
+          "k": "class",
+          "b": "Tizen.UI.AnimatablePropertyValue",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single opacity)"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(View view)"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

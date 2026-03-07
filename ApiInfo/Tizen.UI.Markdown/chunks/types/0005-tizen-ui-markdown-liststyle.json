@@ -1,0 +1,130 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "ListStyle",
+          "f": "Tizen.UI.Markdown.ListStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ListStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ListStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ListStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ListStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ListStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemMarginBottom",
+              "s": "public Int32 get_ItemMarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemMarginTop",
+              "s": "public Int32 get_ItemMarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ListStyle left, ListStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ListStyle left, ListStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemMarginBottom",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemMarginBottom(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemMarginTop",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemMarginTop(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ListStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemMarginBottom",
+              "s": "public Int32 ItemMarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemMarginTop",
+              "s": "public Int32 ItemMarginTop { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

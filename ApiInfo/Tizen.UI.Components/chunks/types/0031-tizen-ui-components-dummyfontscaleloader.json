@@ -1,0 +1,70 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "DummyFontScaleLoader",
+          "f": "Tizen.UI.Components.DummyFontScaleLoader",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.IFontScaleLoader"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "FontScaleChanged",
+              "s": "public event EventHandler FontScaleChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_FontScaleChanged",
+              "s": "public Void add_FontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_FontScale",
+              "s": "public Single get_FontScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static DummyFontScaleLoader get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "remove_FontScaleChanged",
+              "s": "public Void remove_FontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontScale",
+              "s": "public Void set_FontScale(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "FontScale",
+              "s": "public Single FontScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public DummyFontScaleLoader Instance { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

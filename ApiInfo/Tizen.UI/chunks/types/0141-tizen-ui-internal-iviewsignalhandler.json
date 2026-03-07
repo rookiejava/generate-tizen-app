@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "IViewSignalHandler",
+          "f": "Tizen.UI.Internal.IViewSignalHandler",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "OnAggregatedVisibilityChangedSignal",
+              "s": "public Void OnAggregatedVisibilityChangedSignal(IntPtr data, Boolean visibility)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocusedSignal",
+              "s": "public Void OnFocusedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnHitTestSignal",
+              "s": "public Boolean OnHitTestSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnHoverEventSignal",
+              "s": "public Boolean OnHoverEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEventSignal",
+              "s": "public Boolean OnInterceptTouchEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptWheelEventSignal",
+              "s": "public Boolean OnInterceptWheelEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEventSignal",
+              "s": "public Boolean OnKeyEventSignal(IntPtr view, IntPtr keyEvt)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutDirectionChangedSignal",
+              "s": "public Void OnLayoutDirectionChangedSignal(IntPtr data, Int32 direction)"
+            },
+            {
+              "k": "method",
+              "n": "OnOffSceneSignal",
+              "s": "public Void OnOffSceneSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayoutSignal",
+              "s": "public Void OnRelayoutSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnSceneSignal",
+              "s": "public Void OnSceneSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEventSignal",
+              "s": "public Boolean OnTouchEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnUnfocusedSignal",
+              "s": "public Void OnUnfocusedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChangedSignal",
+              "s": "public Void OnVisibilityChangedSignal(IntPtr data, Boolean visibility, Int32 type)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheelEventSignal",
+              "s": "public Boolean OnWheelEventSignal(IntPtr view, IntPtr evt)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

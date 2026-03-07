@@ -1,0 +1,190 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "QuoteStyle",
+          "f": "Tizen.UI.Markdown.QuoteStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.QuoteStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(QuoteStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public QuoteStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(QuoteStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BarColor",
+              "s": "public Color get_BarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarCornerRadius",
+              "s": "public Single get_BarCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMargin",
+              "s": "public Int32 get_BarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarWidth",
+              "s": "public Int32 get_BarWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static QuoteStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(QuoteStyle left, QuoteStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(QuoteStyle left, QuoteStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMargin",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BarColor",
+              "s": "public Color BarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarCornerRadius",
+              "s": "public Single BarCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMargin",
+              "s": "public Int32 BarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarWidth",
+              "s": "public Int32 BarWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public QuoteStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

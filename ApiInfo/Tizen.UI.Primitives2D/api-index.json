@@ -1,0 +1,1666 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "ArcTo",
+          "f": "Tizen.UI.Primitives2D.ArcTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single radius, Single startAngle, Single sweep, Boolean closed)"
+            },
+            {
+              "k": "method",
+              "n": "get_Closed",
+              "s": "public Boolean get_Closed()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "get_StartAngle",
+              "s": "public Single get_StartAngle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Sweep",
+              "s": "public Single get_Sweep()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "Closed",
+              "s": "public Boolean Closed { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; }"
+            },
+            {
+              "k": "property",
+              "n": "StartAngle",
+              "s": "public Single StartAngle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Sweep",
+              "s": "public Single Sweep { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        },
+        {
+          "n": "BezierTo",
+          "f": "Tizen.UI.Primitives2D.BezierTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single endPointX, Single endPointY, Single controlPoint1X, Single controlPoint1Y, Single controlPoint2X, Single controlPoint2Y)"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint1X",
+              "s": "public Single get_ControlPoint1X()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint1Y",
+              "s": "public Single get_ControlPoint1Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint2X",
+              "s": "public Single get_ControlPoint2X()"
+            },
+            {
+              "k": "method",
+              "n": "get_ControlPoint2Y",
+              "s": "public Single get_ControlPoint2Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPointX",
+              "s": "public Single get_EndPointX()"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPointY",
+              "s": "public Single get_EndPointY()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint1X",
+              "s": "public Single ControlPoint1X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint1Y",
+              "s": "public Single ControlPoint1Y { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint2X",
+              "s": "public Single ControlPoint2X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ControlPoint2Y",
+              "s": "public Single ControlPoint2Y { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EndPointX",
+              "s": "public Single EndPointX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EndPointY",
+              "s": "public Single EndPointY { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Close",
+          "f": "Tizen.UI.Primitives2D.Close",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            }
+          ]
+        },
+        {
+          "n": "CustomShape",
+          "f": "Tizen.UI.Primitives2D.CustomShape",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IEnumerable\u003CIPath\u003E path)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Path",
+              "s": "public IEnumerable\u003CIPath\u003E get_Path()"
+            },
+            {
+              "k": "method",
+              "n": "ResetPath",
+              "s": "private Void ResetPath()"
+            },
+            {
+              "k": "method",
+              "n": "set_Path",
+              "s": "public Void set_Path(IEnumerable\u003CIPath\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPath",
+              "s": "private Void SetPath(IEnumerable\u003CIPath\u003E path)"
+            },
+            {
+              "k": "property",
+              "n": "Path",
+              "s": "public IEnumerable\u003CIPath\u003E Path { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Drawable",
+          "f": "Tizen.UI.Primitives2D.Drawable",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "ClipPath",
+              "s": "public Void ClipPath(Drawable clip)"
+            },
+            {
+              "k": "method",
+              "n": "get_BoundingBox",
+              "s": "public Rect get_BoundingBox()"
+            },
+            {
+              "k": "method",
+              "n": "Rotate",
+              "s": "public Void Rotate(Single degree)"
+            },
+            {
+              "k": "method",
+              "n": "Scale",
+              "s": "public Void Scale(Single factor)"
+            },
+            {
+              "k": "method",
+              "n": "Transform",
+              "s": "public Void Transform(Single[] matrix)"
+            },
+            {
+              "k": "method",
+              "n": "Translate",
+              "s": "public Void Translate(Single x, Single y)"
+            },
+            {
+              "k": "property",
+              "n": "BoundingBox",
+              "s": "public Rect BoundingBox { get; }"
+            }
+          ]
+        },
+        {
+          "n": "DrawableGroup",
+          "f": "Tizen.UI.Primitives2D.DrawableGroup",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Drawable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(Drawable drawable)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Drawable drawable)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Drawables",
+              "s": "public IReadOnlyCollection\u003CDrawable\u003E get_Drawables()"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(Drawable drawable)"
+            },
+            {
+              "k": "property",
+              "n": "Drawables",
+              "s": "public IReadOnlyCollection\u003CDrawable\u003E Drawables { get; }"
+            }
+          ]
+        },
+        {
+          "n": "DrawCircle",
+          "f": "Tizen.UI.Primitives2D.DrawCircle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radius)"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterX",
+              "s": "public Single get_CenterX()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterY",
+              "s": "public Single get_CenterY()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "CenterX",
+              "s": "public Single CenterX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterY",
+              "s": "public Single CenterY { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; }"
+            }
+          ]
+        },
+        {
+          "n": "DrawOval",
+          "f": "Tizen.UI.Primitives2D.DrawOval",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterX",
+              "s": "public Single get_CenterX()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterY",
+              "s": "public Single get_CenterY()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusX",
+              "s": "public Single get_RadiusX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusY",
+              "s": "public Single get_RadiusY()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "CenterX",
+              "s": "public Single CenterX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterY",
+              "s": "public Single CenterY { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusX",
+              "s": "public Single RadiusX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusY",
+              "s": "public Single RadiusY { get; }"
+            }
+          ]
+        },
+        {
+          "n": "DrawRect",
+          "f": "Tizen.UI.Primitives2D.DrawRect",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        },
+        {
+          "n": "DrawRoundRect",
+          "f": "Tizen.UI.Primitives2D.DrawRoundRect",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusX",
+              "s": "public Single get_RadiusX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusY",
+              "s": "public Single get_RadiusY()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusX",
+              "s": "public Single RadiusX { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusY",
+              "s": "public Single RadiusY { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Ellipse",
+          "f": "Tizen.UI.Primitives2D.Ellipse",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "DrawEllipse",
+              "s": "private Void DrawEllipse(Boolean reset)"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterX",
+              "s": "public Single get_CenterX()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterY",
+              "s": "public Single get_CenterY()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusX",
+              "s": "public Single get_RadiusX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusY",
+              "s": "public Single get_RadiusY()"
+            },
+            {
+              "k": "method",
+              "n": "set_CenterX",
+              "s": "public Void set_CenterX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CenterY",
+              "s": "public Void set_CenterY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusX",
+              "s": "public Void set_RadiusX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusY",
+              "s": "public Void set_RadiusY(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "CenterX",
+              "s": "public Single CenterX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterY",
+              "s": "public Single CenterY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusX",
+              "s": "public Single RadiusX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusY",
+              "s": "public Single RadiusY { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "FillRule",
+          "f": "Tizen.UI.Primitives2D.FillRule",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "GradientPaint",
+          "f": "Tizen.UI.Primitives2D.GradientPaint",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [
+            "Tizen.UI.Primitives2D.IPaint"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Void Fill(Shape shape)"
+            },
+            {
+              "k": "method",
+              "n": "get_FillRule",
+              "s": "public FillRule get_FillRule()"
+            },
+            {
+              "k": "method",
+              "n": "get_GradientStops",
+              "s": "public GradientStop[] get_GradientStops()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spread",
+              "s": "public SpreadType get_Spread()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeCap",
+              "s": "public StrokeCap get_StrokeCap()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeDashArray",
+              "s": "public Single[] get_StrokeDashArray()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeJoin",
+              "s": "public StrokeJoin get_StrokeJoin()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeWidth",
+              "s": "public Single get_StrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "set_FillRule",
+              "s": "public Void set_FillRule(FillRule value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GradientStops",
+              "s": "public Void set_GradientStops(GradientStop[] value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spread",
+              "s": "public Void set_Spread(SpreadType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeCap",
+              "s": "public Void set_StrokeCap(StrokeCap value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeDashArray",
+              "s": "public Void set_StrokeDashArray(Single[] value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeJoin",
+              "s": "public Void set_StrokeJoin(StrokeJoin value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeWidth",
+              "s": "public Void set_StrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Stroke",
+              "s": "public Void Stroke(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "FillRule",
+              "s": "public FillRule FillRule { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GradientStops",
+              "s": "public GradientStop[] GradientStops { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spread",
+              "s": "public SpreadType Spread { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeCap",
+              "s": "public StrokeCap StrokeCap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeDashArray",
+              "s": "public Single[] StrokeDashArray { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeJoin",
+              "s": "public StrokeJoin StrokeJoin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeWidth",
+              "s": "public Single StrokeWidth { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ImageDrawable",
+          "f": "Tizen.UI.Primitives2D.ImageDrawable",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Drawable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String url, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_Url",
+              "s": "public String get_Url()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "LoadImage",
+              "s": "private Void LoadImage(String url)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Url",
+              "s": "public Void set_Url(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetSize",
+              "s": "private Void SetSize(Single width, Single height)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Url",
+              "s": "public String Url { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Interop",
+          "f": "Tizen.UI.Primitives2D.Interop",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "IPaint",
+          "f": "Tizen.UI.Primitives2D.IPaint",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Void Fill(Shape shape)"
+            },
+            {
+              "k": "method",
+              "n": "get_FillRule",
+              "s": "public FillRule get_FillRule()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeCap",
+              "s": "public StrokeCap get_StrokeCap()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeDashArray",
+              "s": "public Single[] get_StrokeDashArray()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeJoin",
+              "s": "public StrokeJoin get_StrokeJoin()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeWidth",
+              "s": "public Single get_StrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "set_FillRule",
+              "s": "public Void set_FillRule(FillRule value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeCap",
+              "s": "public Void set_StrokeCap(StrokeCap value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeDashArray",
+              "s": "public Void set_StrokeDashArray(Single[] value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeJoin",
+              "s": "public Void set_StrokeJoin(StrokeJoin value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeWidth",
+              "s": "public Void set_StrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Stroke",
+              "s": "public Void Stroke(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "FillRule",
+              "s": "public FillRule FillRule { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeCap",
+              "s": "public StrokeCap StrokeCap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeDashArray",
+              "s": "public Single[] StrokeDashArray { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeJoin",
+              "s": "public StrokeJoin StrokeJoin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeWidth",
+              "s": "public Single StrokeWidth { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "IPath",
+          "f": "Tizen.UI.Primitives2D.IPath",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Execute",
+              "s": "public Void Execute(Shape shape)"
+            }
+          ]
+        },
+        {
+          "n": "LinearGradientPaint",
+          "f": "Tizen.UI.Primitives2D.LinearGradientPaint",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.GradientPaint",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single startPointX, Single startPointY, Single endPointX, Single endPointY)"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPoint",
+              "s": "public Point get_EndPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_StartPoint",
+              "s": "public Point get_StartPoint()"
+            },
+            {
+              "k": "method",
+              "n": "set_EndPoint",
+              "s": "public Void set_EndPoint(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StartPoint",
+              "s": "public Void set_StartPoint(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "SetBounds",
+              "s": "private Void SetBounds(Point startPoint, Point endPoint)"
+            },
+            {
+              "k": "property",
+              "n": "EndPoint",
+              "s": "public Point EndPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StartPoint",
+              "s": "public Point StartPoint { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "LineTo",
+          "f": "Tizen.UI.Primitives2D.LineTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MoveTo",
+          "f": "Tizen.UI.Primitives2D.MoveTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Path",
+          "f": "Tizen.UI.Primitives2D.Path",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ArcTo",
+              "s": "public static IPath ArcTo(Single x, Single y, Single radius, Single startAngle, Single sweep, Boolean closed)"
+            },
+            {
+              "k": "method",
+              "n": "BezierTo",
+              "s": "public static IPath BezierTo(Single endPointX, Single endPointY, Single controlPoint1X, Single controlPoint1Y, Single controlPoint2X, Single controlPoint2Y)"
+            },
+            {
+              "k": "method",
+              "n": "Close",
+              "s": "public static IPath Close()"
+            },
+            {
+              "k": "method",
+              "n": "DrawCircle",
+              "s": "public static IPath DrawCircle(Single centerX, Single centerY, Single radius)"
+            },
+            {
+              "k": "method",
+              "n": "DrawOval",
+              "s": "public static IPath DrawOval(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "DrawRoundRect",
+              "s": "public static IPath DrawRoundRect(Single x, Single y, Single width, Single height, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "LineTo",
+              "s": "public static IPath LineTo(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "MoveTo",
+              "s": "public static IPath MoveTo(Single x, Single y)"
+            }
+          ]
+        },
+        {
+          "n": "RadialGradientPaint",
+          "f": "Tizen.UI.Primitives2D.RadialGradientPaint",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.GradientPaint",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radius)"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "set_Center",
+              "s": "public Void set_Center(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Radius",
+              "s": "public Void set_Radius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetBounds",
+              "s": "private Void SetBounds(Point center, Single radius)"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Rectangle",
+          "f": "Tizen.UI.Primitives2D.Rectangle",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "DrawRectangle",
+              "s": "private Void DrawRectangle(Boolean reset)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "RoundRectangle",
+          "f": "Tizen.UI.Primitives2D.RoundRectangle",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "DrawRoundRectangle",
+              "s": "private Void DrawRoundRectangle(Boolean reset)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusX",
+              "s": "public Single get_RadiusX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusY",
+              "s": "public Single get_RadiusY()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusX",
+              "s": "public Void set_RadiusX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusY",
+              "s": "public Void set_RadiusY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusX",
+              "s": "public Single RadiusX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusY",
+              "s": "public Single RadiusY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Shape",
+          "f": "Tizen.UI.Primitives2D.Shape",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Drawable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Void Fill(IPaint paint)"
+            },
+            {
+              "k": "method",
+              "n": "Stroke",
+              "s": "public Void Stroke(IPaint paint)"
+            }
+          ]
+        },
+        {
+          "n": "SolidPaint",
+          "f": "Tizen.UI.Primitives2D.SolidPaint",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPaint"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Void Fill(Shape shape)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_FillRule",
+              "s": "public FillRule get_FillRule()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeCap",
+              "s": "public StrokeCap get_StrokeCap()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeDashArray",
+              "s": "public Single[] get_StrokeDashArray()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeJoin",
+              "s": "public StrokeJoin get_StrokeJoin()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeWidth",
+              "s": "public Single get_StrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FillRule",
+              "s": "public Void set_FillRule(FillRule value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeCap",
+              "s": "public Void set_StrokeCap(StrokeCap value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeDashArray",
+              "s": "public Void set_StrokeDashArray(Single[] value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeJoin",
+              "s": "public Void set_StrokeJoin(StrokeJoin value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeWidth",
+              "s": "public Void set_StrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Stroke",
+              "s": "public Void Stroke(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FillRule",
+              "s": "public FillRule FillRule { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeCap",
+              "s": "public StrokeCap StrokeCap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeDashArray",
+              "s": "public Single[] StrokeDashArray { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeJoin",
+              "s": "public StrokeJoin StrokeJoin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeWidth",
+              "s": "public Single StrokeWidth { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "SpreadType",
+          "f": "Tizen.UI.Primitives2D.SpreadType",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "StrokeCap",
+          "f": "Tizen.UI.Primitives2D.StrokeCap",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "StrokeJoin",
+          "f": "Tizen.UI.Primitives2D.StrokeJoin",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "VectorView",
+          "f": "Tizen.UI.Primitives2D.VectorView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(Drawable drawable)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Drawable drawable)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Drawables",
+              "s": "public IReadOnlyCollection\u003CDrawable\u003E get_Drawables()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(Drawable drawable)"
+            },
+            {
+              "k": "property",
+              "n": "Drawables",
+              "s": "public IReadOnlyCollection\u003CDrawable\u003E Drawables { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

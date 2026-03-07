@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ProgressRing",
+          "f": "Tizen.UI.Components.Material.ProgressRing",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.VectorView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "get_Progress",
+              "s": "public Single get_Progress()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Single get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrailColor",
+              "s": "public Color get_TrailColor()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_Progress",
+              "s": "public Void set_Progress(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void set_Thickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrailColor",
+              "s": "public Void set_TrailColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "Update",
+              "s": "private Void Update()"
+            },
+            {
+              "k": "property",
+              "n": "Progress",
+              "s": "public Single Progress { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Single Thickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrailColor",
+              "s": "public Color TrailColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

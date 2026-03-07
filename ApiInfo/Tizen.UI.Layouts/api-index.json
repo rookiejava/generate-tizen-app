@@ -1,0 +1,5155 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "AbsoluteLayout",
+          "f": "Tizen.UI.Layouts.AbsoluteLayout",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view, Rect bounds, AbsoluteLayoutFlags flags)"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            }
+          ]
+        },
+        {
+          "n": "AbsoluteLayoutExtensions",
+          "f": "Tizen.UI.Layouts.AbsoluteLayoutExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "LayoutBounds",
+              "s": "public static TView LayoutBounds\u003CTView\u003E(TView view, Single x, Single y, Single width, Single height) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "LayoutFlags",
+              "s": "public static TView LayoutFlags\u003CTView\u003E(TView view, AbsoluteLayoutFlags flag) where TView : View"
+            }
+          ]
+        },
+        {
+          "n": "AbsoluteLayoutFlags",
+          "f": "Tizen.UI.Layouts.AbsoluteLayoutFlags",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "AbsoluteLayoutManager",
+          "f": "Tizen.UI.Layouts.AbsoluteLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ILayout absoluteLayout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_AbsoluteLayout",
+              "s": "public ILayout get_AbsoluteLayout()"
+            },
+            {
+              "k": "method",
+              "n": "HasFlag",
+              "s": "private static Boolean HasFlag(AbsoluteLayoutFlags a, AbsoluteLayoutFlags b)"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveChildMeasureConstraint",
+              "s": "private static Single ResolveChildMeasureConstraint(Single boundsValue, Boolean proportional, Single constraint)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveDimension",
+              "s": "private static Single ResolveDimension(Boolean isProportional, Single fromBounds, Single available, Single measured)"
+            },
+            {
+              "k": "property",
+              "n": "AbsoluteLayout",
+              "s": "public ILayout AbsoluteLayout { get; }"
+            }
+          ]
+        },
+        {
+          "n": "AbsoluteParam",
+          "f": "Tizen.UI.Layouts.AbsoluteParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutBounds",
+              "s": "public Rect get_LayoutBounds()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutFlags",
+              "s": "public AbsoluteLayoutFlags get_LayoutFlags()"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutBounds",
+              "s": "public Void set_LayoutBounds(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutFlags",
+              "s": "public Void set_LayoutFlags(AbsoluteLayoutFlags value)"
+            },
+            {
+              "k": "property",
+              "n": "LayoutBounds",
+              "s": "public Rect LayoutBounds { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutFlags",
+              "s": "public AbsoluteLayoutFlags LayoutFlags { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Dimension",
+          "f": "Tizen.UI.Layouts.Dimension",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "IsExplicitSet",
+              "s": "public static Boolean IsExplicitSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "IsMaximumSet",
+              "s": "public static Boolean IsMaximumSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "IsMinimumSet",
+              "s": "public static Boolean IsMinimumSet(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveMinimum",
+              "s": "public static Single ResolveMinimum(Single value)"
+            }
+          ]
+        },
+        {
+          "n": "FlexAlignContent",
+          "f": "Tizen.UI.Layouts.FlexAlignContent",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexAlignItems",
+          "f": "Tizen.UI.Layouts.FlexAlignItems",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexAlignSelf",
+          "f": "Tizen.UI.Layouts.FlexAlignSelf",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexBasis",
+          "f": "Tizen.UI.Layouts.FlexBasis",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Layouts.FlexBasis\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single length, Boolean isRelative)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(FlexBasis other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAuto",
+              "s": "internal Boolean get_IsAuto()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsRelative",
+              "s": "internal Boolean get_IsRelative()"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public Single get_Length()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(FlexBasis left, FlexBasis right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static FlexBasis op_Implicit(Single length)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(FlexBasis left, FlexBasis right)"
+            },
+            {
+              "k": "property",
+              "n": "IsAuto",
+              "s": "internal Boolean IsAuto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsRelative",
+              "s": "internal Boolean IsRelative { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public Single Length { get; }"
+            }
+          ]
+        },
+        {
+          "n": "FlexBox",
+          "f": "Tizen.UI.Layouts.FlexBox",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.IFlexBox",
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddFlexItem",
+              "s": "private Void AddFlexItem(View child)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureFlexItemPropertiesUpdated",
+              "s": "private Void EnsureFlexItemPropertiesUpdated(FlexBox flex)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignContent",
+              "s": "public FlexAlignContent get_AlignContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignItems",
+              "s": "public FlexAlignItems get_AlignItems()"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public FlexDirection get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_InMeasureMode",
+              "s": "internal Boolean get_InMeasureMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_JustifyContent",
+              "s": "public FlexJustify get_JustifyContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public FlexPosition get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Root",
+              "s": "private Item get_Root()"
+            },
+            {
+              "k": "method",
+              "n": "get_Wrap",
+              "s": "public FlexWrap get_Wrap()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "NeedsMeasureHack",
+              "s": "private static Boolean NeedsMeasureHack(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PrepareMeasureHack",
+              "s": "private Void PrepareMeasureHack()"
+            },
+            {
+              "k": "method",
+              "n": "RemoveFlexItem",
+              "s": "private Void RemoveFlexItem(View child)"
+            },
+            {
+              "k": "method",
+              "n": "RestoreValues",
+              "s": "private Void RestoreValues()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignContent",
+              "s": "public Void set_AlignContent(FlexAlignContent value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignItems",
+              "s": "public Void set_AlignItems(FlexAlignItems value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Direction",
+              "s": "public Void set_Direction(FlexDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InMeasureMode",
+              "s": "internal Void set_InMeasureMode(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_JustifyContent",
+              "s": "public Void set_JustifyContent(FlexJustify value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(FlexPosition value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Wrap",
+              "s": "public Void set_Wrap(FlexWrap value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.IFlexBox.Layout",
+              "s": "Void Tizen.UI.Layouts.IFlexBox.Layout(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateFlexParam",
+              "s": "private Void UpdateFlexParam(View view)"
+            },
+            {
+              "k": "property",
+              "n": "AlignContent",
+              "s": "public FlexAlignContent AlignContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignItems",
+              "s": "public FlexAlignItems AlignItems { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public FlexDirection Direction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InMeasureMode",
+              "s": "internal Boolean InMeasureMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "JustifyContent",
+              "s": "public FlexJustify JustifyContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public FlexPosition Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Root",
+              "s": "private Item Root { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Wrap",
+              "s": "public FlexWrap Wrap { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "FlexBoxExtensions",
+          "f": "Tizen.UI.Layouts.FlexBoxExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AlignItems",
+              "s": "public static TView AlignItems\u003CTView\u003E(TView view, FlexAlignItems alignItems) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "AlignSelf",
+              "s": "public static TView AlignSelf\u003CTView\u003E(TView view, FlexAlignSelf alignSelf) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AutoAlign",
+              "s": "public static TView AutoAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AutoBasis",
+              "s": "public static TView AutoBasis\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Basis",
+              "s": "public static TView Basis\u003CTView\u003E(TView view, Single length) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterAlign",
+              "s": "public static TView CenterAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterItems",
+              "s": "public static TView CenterItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "CenterJustify",
+              "s": "public static TView CenterJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "ColumnReverse",
+              "s": "public static TView ColumnReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Direction",
+              "s": "public static TView Direction\u003CTView\u003E(TView view, FlexDirection direction) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "EndAlign",
+              "s": "public static TView EndAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndItems",
+              "s": "public static TView EndItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "EndJustify",
+              "s": "public static TView EndJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Grow",
+              "s": "public static TView Grow\u003CTView\u003E(TView view, Single grow) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "JustifyContent",
+              "s": "public static TView JustifyContent\u003CTView\u003E(TView view, FlexJustify justifyContent) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Order",
+              "s": "public static TView Order\u003CTView\u003E(TView view, Int32 order) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "RelativeBasis",
+              "s": "public static TView RelativeBasis\u003CTView\u003E(TView view, Single length) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "RowReverse",
+              "s": "public static TView RowReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Shrink",
+              "s": "public static TView Shrink\u003CTView\u003E(TView view, Single shrink) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SpaceAroundJustify",
+              "s": "public static TView SpaceAroundJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "SpaceBetweenJustify",
+              "s": "public static TView SpaceBetweenJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "SpaceEvenlyJustify",
+              "s": "public static TView SpaceEvenlyJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StartAlign",
+              "s": "public static TView StartAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartItems",
+              "s": "public static TView StartItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StartJustify",
+              "s": "public static TView StartJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StretchAlign",
+              "s": "public static TView StretchAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StretchItems",
+              "s": "public static TView StretchItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            }
+          ]
+        },
+        {
+          "n": "FlexDirection",
+          "f": "Tizen.UI.Layouts.FlexDirection",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexJustify",
+          "f": "Tizen.UI.Layouts.FlexJustify",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexLayoutManager",
+          "f": "Tizen.UI.Layouts.FlexLayoutManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Layouts.ILayoutManager"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IFlexBox flexLayout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_FlexLayout",
+              "s": "private IFlexBox get_FlexLayout()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "property",
+              "n": "FlexLayout",
+              "s": "private IFlexBox FlexLayout { get; }"
+            }
+          ]
+        },
+        {
+          "n": "FlexParam",
+          "f": "Tizen.UI.Layouts.FlexParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelf",
+              "s": "public FlexAlignSelf get_AlignSelf()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelfBackup",
+              "s": "internal FlexAlignSelf get_AlignSelfBackup()"
+            },
+            {
+              "k": "method",
+              "n": "get_Basis",
+              "s": "public FlexBasis get_Basis()"
+            },
+            {
+              "k": "method",
+              "n": "get_FlexItem",
+              "s": "internal Item get_FlexItem()"
+            },
+            {
+              "k": "method",
+              "n": "get_Grow",
+              "s": "public Single get_Grow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Order",
+              "s": "public Int32 get_Order()"
+            },
+            {
+              "k": "method",
+              "n": "get_Shrink",
+              "s": "public Single get_Shrink()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShrinkBackup",
+              "s": "internal Single get_ShrinkBackup()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelf",
+              "s": "public Void set_AlignSelf(FlexAlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelfBackup",
+              "s": "internal Void set_AlignSelfBackup(FlexAlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Basis",
+              "s": "public Void set_Basis(FlexBasis value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Grow",
+              "s": "public Void set_Grow(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Order",
+              "s": "public Void set_Order(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Shrink",
+              "s": "public Void set_Shrink(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShrinkBackup",
+              "s": "internal Void set_ShrinkBackup(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelf",
+              "s": "public FlexAlignSelf AlignSelf { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelfBackup",
+              "s": "internal FlexAlignSelf AlignSelfBackup { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Basis",
+              "s": "public FlexBasis Basis { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FlexItem",
+              "s": "internal Item FlexItem { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Grow",
+              "s": "public Single Grow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Order",
+              "s": "public Int32 Order { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Shrink",
+              "s": "public Single Shrink { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShrinkBackup",
+              "s": "internal Single ShrinkBackup { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "FlexPosition",
+          "f": "Tizen.UI.Layouts.FlexPosition",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "FlexRootParam",
+          "f": "Tizen.UI.Layouts.FlexRootParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FlexItem",
+              "s": "internal Item get_FlexItem()"
+            },
+            {
+              "k": "property",
+              "n": "FlexItem",
+              "s": "internal Item FlexItem { get; }"
+            }
+          ]
+        },
+        {
+          "n": "FlexWrap",
+          "f": "Tizen.UI.Layouts.FlexWrap",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Grid",
+          "f": "Tizen.UI.Layouts.Grid",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.IGridLayout",
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view, Int32 row, Int32 col)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view, Int32 row, Int32 rowSpan, Int32 col, Int32 colSpan)"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E get_ColumnDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpacing",
+              "s": "public Single get_ColumnSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E get_RowDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpacing",
+              "s": "public Single get_RowSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnDefinitions",
+              "s": "public Void set_ColumnDefinitions(IList\u003CGridColumnDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnSpacing",
+              "s": "public Void set_ColumnSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowDefinitions",
+              "s": "public Void set_RowDefinitions(IList\u003CGridRowDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowSpacing",
+              "s": "public Void set_RowSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "property",
+              "n": "ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E ColumnDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpacing",
+              "s": "public Single ColumnSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E RowDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpacing",
+              "s": "public Single RowSpacing { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "GridColumnDefinition",
+          "f": "Tizen.UI.Layouts.GridColumnDefinition",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public GridLength get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridColumnDefinition op_Implicit(GridLength width)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridColumnDefinition op_Implicit(Single width)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(GridLength value)"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public GridLength Width { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "GridExtensions",
+          "f": "Tizen.UI.Layouts.GridExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column) where TView : View where TColumn : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column, TColumn last) where TView : View where TColumn : Enum"
+            },
+            {
+              "k": "method",
+              "n": "ColumnSpan",
+              "s": "public static TView ColumnSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row) where TView : View where TRow : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row, TRow last) where TView : View where TRow : Enum"
+            },
+            {
+              "k": "method",
+              "n": "RowSpan",
+              "s": "public static TView RowSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ToInt",
+              "s": "private static Int32 ToInt(Enum enumValue)"
+            }
+          ]
+        },
+        {
+          "n": "GridLayoutManager",
+          "f": "Tizen.UI.Layouts.GridLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IGridLayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_Grid",
+              "s": "public IGridLayout get_Grid()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ToGridLengthType",
+              "s": "private static GridLayoutManager.GridLengthType ToGridLengthType(GridUnitType gridUnitType)"
+            },
+            {
+              "k": "property",
+              "n": "Grid",
+              "s": "public IGridLayout Grid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "GridLength",
+          "f": "Tizen.UI.Layouts.GridLength",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single value)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single value, GridUnitType type)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "private Boolean Equals(GridLength other)"
+            },
+            {
+              "k": "method",
+              "n": "get_GridUnitType",
+              "s": "public GridUnitType get_GridUnitType()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAbsolute",
+              "s": "public Boolean get_IsAbsolute()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAuto",
+              "s": "public Boolean get_IsAuto()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsStar",
+              "s": "public Boolean get_IsStar()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Single get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridLength op_Implicit(Single absoluteValue)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "GridUnitType",
+              "s": "public GridUnitType GridUnitType { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAbsolute",
+              "s": "public Boolean IsAbsolute { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAuto",
+              "s": "public Boolean IsAuto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsStar",
+              "s": "public Boolean IsStar { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Single Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "GridParam",
+          "f": "Tizen.UI.Layouts.GridParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Column",
+              "s": "public Int32 get_Column()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpan",
+              "s": "public Int32 get_ColumnSpan()"
+            },
+            {
+              "k": "method",
+              "n": "get_Row",
+              "s": "public Int32 get_Row()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpan",
+              "s": "public Int32 get_RowSpan()"
+            },
+            {
+              "k": "method",
+              "n": "set_Column",
+              "s": "public Void set_Column(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnSpan",
+              "s": "public Void set_ColumnSpan(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Row",
+              "s": "public Void set_Row(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowSpan",
+              "s": "public Void set_RowSpan(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Column",
+              "s": "public Int32 Column { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpan",
+              "s": "public Int32 ColumnSpan { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Row",
+              "s": "public Int32 Row { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpan",
+              "s": "public Int32 RowSpan { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "GridRowColumns",
+          "f": "Tizen.UI.Layouts.GridRowColumns",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "All",
+              "s": "public static Int32 All\u003CTEnum\u003E() where TEnum : Enum"
+            },
+            {
+              "k": "method",
+              "n": "get_Auto",
+              "s": "public static GridLength get_Auto()"
+            },
+            {
+              "k": "method",
+              "n": "get_Star",
+              "s": "public static GridLength get_Star()"
+            },
+            {
+              "k": "method",
+              "n": "Last",
+              "s": "public static Int32 Last\u003CTEnum\u003E() where TEnum : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Stars",
+              "s": "public static GridLength Stars(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToInt",
+              "s": "private static Int32 ToInt(Enum enumValue)"
+            },
+            {
+              "k": "property",
+              "n": "Auto",
+              "s": "public GridLength Auto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Star",
+              "s": "public GridLength Star { get; }"
+            }
+          ]
+        },
+        {
+          "n": "GridRowDefinition",
+          "f": "Tizen.UI.Layouts.GridRowDefinition",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public GridLength get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridRowDefinition op_Implicit(GridLength height)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridRowDefinition op_Implicit(Single height)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(GridLength value)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public GridLength Height { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "GridUnitType",
+          "f": "Tizen.UI.Layouts.GridUnitType",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "HStack",
+          "f": "Tizen.UI.Layouts.HStack",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.StackBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            }
+          ]
+        },
+        {
+          "n": "HStackLayoutManager",
+          "f": "Tizen.UI.Layouts.HStackLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.StackLayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IStackLayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "GetDistance",
+              "s": "private static Single GetDistance(View view, Single width)"
+            },
+            {
+              "k": "method",
+              "n": "GetLeftIncludingMargin",
+              "s": "private static Single GetLeftIncludingMargin(View view, Boolean isLTR)"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            }
+          ]
+        },
+        {
+          "n": "IFlexBox",
+          "f": "Tizen.UI.Layouts.IFlexBox",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "Layout",
+              "s": "public Void Layout(Single width, Single height)"
+            }
+          ]
+        },
+        {
+          "n": "IGridLayout",
+          "f": "Tizen.UI.Layouts.IGridLayout",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E get_ColumnDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpacing",
+              "s": "public Single get_ColumnSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E get_RowDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpacing",
+              "s": "public Single get_RowSpacing()"
+            },
+            {
+              "k": "property",
+              "n": "ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E ColumnDefinitions { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpacing",
+              "s": "public Single ColumnSpacing { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E RowDefinitions { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpacing",
+              "s": "public Single RowSpacing { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ILayout",
+          "f": "Tizen.UI.Layouts.ILayout",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutDirection",
+              "s": "public LayoutDirection get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutParam",
+              "s": "public LayoutParam get_LayoutParam()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutDirection",
+              "s": "public LayoutDirection LayoutDirection { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutParam",
+              "s": "public LayoutParam LayoutParam { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ILayoutManager",
+          "f": "Tizen.UI.Layouts.ILayoutManager",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            }
+          ]
+        },
+        {
+          "n": "IStackLayout",
+          "f": "Tizen.UI.Layouts.IStackLayout",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Layout",
+          "f": "Tizen.UI.Layouts.Layout",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__3_0",
+              "s": "Void \u003C.ctor\u003Eb__3_0(Object s, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_EffectiveParent",
+              "s": "protected View get_EffectiveParent()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsManualLayout",
+              "s": "public static Boolean get_IsManualLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsOnPseudoLayout",
+              "s": "public Boolean get_IsOnPseudoLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutRequested",
+              "s": "private Boolean get_LayoutRequested()"
+            },
+            {
+              "k": "method",
+              "n": "get_Measured",
+              "s": "protected Boolean get_Measured()"
+            },
+            {
+              "k": "method",
+              "n": "get_NeedForceLayout",
+              "s": "private Boolean get_NeedForceLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidated",
+              "s": "private Void OnChildMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "protected Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIterationOnce",
+              "s": "private Void OnLayoutIterationOnce(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidatedOverride",
+              "s": "protected Void OnMeasureInvalidatedOverride()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RequestLayout",
+              "s": "protected Void RequestLayout()"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "protected Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsManualLayout",
+              "s": "public static Void set_IsManualLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsOnPseudoLayout",
+              "s": "public Void set_IsOnPseudoLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutRequested",
+              "s": "private Void set_LayoutRequested(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Measured",
+              "s": "protected Void set_Measured(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NeedForceLayout",
+              "s": "private Void set_NeedForceLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutParam",
+              "s": "LayoutParam Tizen.UI.Layouts.ILayout.get_LayoutParam()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Void UpdateLayout()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "property",
+              "n": "EffectiveParent",
+              "s": "protected View EffectiveParent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsManualLayout",
+              "s": "public Boolean IsManualLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsOnPseudoLayout",
+              "s": "public Boolean IsOnPseudoLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutRequested",
+              "s": "private Boolean LayoutRequested { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Measured",
+              "s": "protected Boolean Measured { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NeedForceLayout",
+              "s": "private Boolean NeedForceLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Layouts.ILayout.LayoutParam",
+              "s": "LayoutParam Tizen.UI.Layouts.ILayout.LayoutParam { get; }"
+            }
+          ]
+        },
+        {
+          "n": "LayoutAlignment",
+          "f": "Tizen.UI.Layouts.LayoutAlignment",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "LayoutExtensions",
+          "f": "Tizen.UI.Layouts.LayoutExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AdjustForFill",
+              "s": "internal static Size AdjustForFill(Size size, Rect bounds, ILayout view)"
+            },
+            {
+              "k": "method",
+              "n": "AlignHorizontal",
+              "s": "private static Single AlignHorizontal(View view, Rect bounds, Thickness margin)"
+            },
+            {
+              "k": "method",
+              "n": "AlignHorizontal",
+              "s": "private static Single AlignHorizontal(Single startX, Single startMargin, Single endMargin, Single boundsWidth, Single desiredWidth, LayoutAlignment horizontalLayoutAlignment)"
+            },
+            {
+              "k": "method",
+              "n": "AlignVertical",
+              "s": "private static Single AlignVertical(View view, Rect bounds, Thickness margin)"
+            },
+            {
+              "k": "method",
+              "n": "Arrange",
+              "s": "public static Void Arrange(View view, Rect rect, Boolean ignoreRTL)"
+            },
+            {
+              "k": "method",
+              "n": "Center",
+              "s": "public static TView Center\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterHorizontal",
+              "s": "public static TView CenterHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterVertical",
+              "s": "public static TView CenterVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ComputeDesiredSize",
+              "s": "public static Size ComputeDesiredSize(View view, Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeFrame",
+              "s": "internal static Rect ComputeFrame(View view, Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "End",
+              "s": "public static TView End\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndHorizontal",
+              "s": "public static TView EndHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndVertical",
+              "s": "public static TView EndVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Expand",
+              "s": "public static TView Expand\u003CTView\u003E(TView view, Single weight) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Expand",
+              "s": "public static TView Expand\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public static TView Fill\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FillHorizontal",
+              "s": "public static TView FillHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FillVertical",
+              "s": "public static TView FillVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMaximumHeight",
+              "s": "internal static Single GetEffectiveMaximumHeight(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMaximumWidth",
+              "s": "internal static Single GetEffectiveMaximumWidth(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMinimumHeight",
+              "s": "internal static Single GetEffectiveMinimumHeight(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMinimumWidth",
+              "s": "internal static Single GetEffectiveMinimumWidth(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveParent",
+              "s": "internal static View GetEffectiveParent(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalLayoutAlignment",
+              "s": "public static TView HorizontalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ItemAlignment",
+              "s": "public static TView ItemAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : StackBase"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single horizontalSize, Single verticalSize) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single uniformSize) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Thickness margin) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MaximumHeight",
+              "s": "public static TView MaximumHeight\u003CTView\u003E(TView view, Single max) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MaximumWidth",
+              "s": "public static TView MaximumWidth\u003CTView\u003E(TView view, Single max) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MinimumHeight",
+              "s": "public static TView MinimumHeight\u003CTView\u003E(TView view, Single min) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MinimumWidth",
+              "s": "public static TView MinimumWidth\u003CTView\u003E(TView view, Single min) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Padding",
+              "s": "public static TView Padding\u003CTView\u003E(TView view, Thickness padding) where TView : Layout"
+            },
+            {
+              "k": "method",
+              "n": "Padding",
+              "s": "public static TView Padding\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : Layout"
+            },
+            {
+              "k": "method",
+              "n": "ResolveMinMax",
+              "s": "internal static Single ResolveMinMax(Single size, Single min, Single max)"
+            },
+            {
+              "k": "method",
+              "n": "Start",
+              "s": "public static TView Start\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartHorizontal",
+              "s": "public static TView StartHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartVertical",
+              "s": "public static TView StartVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Translate",
+              "s": "public static TView Translate\u003CTView\u003E(TView view, Single x, Single y) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TranslateX",
+              "s": "public static TView TranslateX\u003CTView\u003E(TView view, Single x) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TranslateY",
+              "s": "public static TView TranslateY\u003CTView\u003E(TView view, Single y) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "VerticalLayoutAlignment",
+              "s": "public static TView VerticalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+            }
+          ]
+        },
+        {
+          "n": "LayoutHelper",
+          "f": "Tizen.UI.Layouts.LayoutHelper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ViewGroup viewGroup, ILayoutManager layoutManager)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__8_0",
+              "s": "Void \u003C.ctor\u003Eb__8_0(Object s, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Measured",
+              "s": "public Boolean get_Measured()"
+            },
+            {
+              "k": "method",
+              "n": "IsOnPseudoLayout",
+              "s": "private Boolean IsOnPseudoLayout()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "public Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidated",
+              "s": "private Void OnChildMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "public Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "public Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIterationOnce",
+              "s": "private Void OnLayoutIterationOnce(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidated",
+              "s": "public Void OnMeasureInvalidated()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RequestLayout",
+              "s": "private Void RequestLayout()"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "private Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_Measured",
+              "s": "public Void set_Measured(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Void UpdateLayout()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "property",
+              "n": "Measured",
+              "s": "public Boolean Measured { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "LayoutManager",
+          "f": "Tizen.UI.Layouts.LayoutManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Layouts.ILayoutManager"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ILayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_Layout",
+              "s": "public ILayout get_Layout()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveConstraints",
+              "s": "public static Single ResolveConstraints(Single externalConstraint, Single explicitLength, Single measuredLength, Single min, Single max)"
+            },
+            {
+              "k": "property",
+              "n": "Layout",
+              "s": "public ILayout Layout { get; }"
+            }
+          ]
+        },
+        {
+          "n": "LayoutParam",
+          "f": "Tizen.UI.Layouts.LayoutParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Expand",
+              "s": "public Single get_Expand()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalLayoutAlignment",
+              "s": "public LayoutAlignment get_HorizontalLayoutAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Margin",
+              "s": "public Thickness get_Margin()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumWidth",
+              "s": "public Single get_MaximumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MeasuredSize",
+              "s": "public Size get_MeasuredSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumWidth",
+              "s": "public Single get_MinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_TranslateX",
+              "s": "public Single get_TranslateX()"
+            },
+            {
+              "k": "method",
+              "n": "get_TranslateY",
+              "s": "public Single get_TranslateY()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalLayoutAlignment",
+              "s": "public LayoutAlignment get_VerticalLayoutAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "set_Expand",
+              "s": "public Void set_Expand(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalLayoutAlignment",
+              "s": "public Void set_HorizontalLayoutAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Margin",
+              "s": "public Void set_Margin(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumWidth",
+              "s": "public Void set_MaximumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MeasuredSize",
+              "s": "public Void set_MeasuredSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumWidth",
+              "s": "public Void set_MinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TranslateX",
+              "s": "public Void set_TranslateX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TranslateY",
+              "s": "public Void set_TranslateY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalLayoutAlignment",
+              "s": "public Void set_VerticalLayoutAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "Expand",
+              "s": "public Single Expand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalLayoutAlignment",
+              "s": "public LayoutAlignment HorizontalLayoutAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Margin",
+              "s": "public Thickness Margin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumWidth",
+              "s": "public Single MaximumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MeasuredSize",
+              "s": "public Size MeasuredSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumWidth",
+              "s": "public Single MinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TranslateX",
+              "s": "public Single TranslateX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TranslateY",
+              "s": "public Single TranslateY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalLayoutAlignment",
+              "s": "public LayoutAlignment VerticalLayoutAlignment { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ScrollBar",
+          "f": "Tizen.UI.Layouts.ScrollBar",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "System.IDisposable",
+            "Tizen.UI.IScrollBar"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CInitialize\u003Eb__48_0",
+              "s": "private Boolean \u003CInitialize\u003Eb__48_0()"
+            },
+            {
+              "k": "method",
+              "n": "CreateHBar",
+              "s": "private Void CreateHBar()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVBar",
+              "s": "private Void CreateVBar()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "FadeIn",
+              "s": "private Void FadeIn()"
+            },
+            {
+              "k": "method",
+              "n": "FadeOut",
+              "s": "private Void FadeOut()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarColor",
+              "s": "public Color get_BarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMargin",
+              "s": "public Single get_BarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMinSize",
+              "s": "public Single get_BarMinSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarWidth",
+              "s": "public Single get_BarWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_HorizontalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollArea",
+              "s": "private Size get_ScrollArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_Target",
+              "s": "public View get_Target()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_VerticalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPortSize",
+              "s": "private Size get_ViewPortSize()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "private Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutDirectionChanged",
+              "s": "private Void OnLayoutDirectionChanged(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveHBar",
+              "s": "private Void RemoveHBar()"
+            },
+            {
+              "k": "method",
+              "n": "RemoveVBar",
+              "s": "private Void RemoveVBar()"
+            },
+            {
+              "k": "method",
+              "n": "set_BarColor",
+              "s": "public Void set_BarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMargin",
+              "s": "public Void set_BarMargin(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMinSize",
+              "s": "public Void set_BarMinSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarWidth",
+              "s": "public Void set_BarWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalScrollBarVisibility",
+              "s": "public Void set_HorizontalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollArea",
+              "s": "private Void set_ScrollArea(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollPosition",
+              "s": "public Void set_ScrollPosition(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalScrollBarVisibility",
+              "s": "public Void set_VerticalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ViewPortSize",
+              "s": "private Void set_ViewPortSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowBar",
+              "s": "private Void ShowBar()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollBar.OnAttachedToScrollable",
+              "s": "Void Tizen.UI.IScrollBar.OnAttachedToScrollable(IScrollable scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBarSize",
+              "s": "public Void UpdateBarSize(Size scrollArea, Size viewportSize)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBarSize",
+              "s": "private Void UpdateBarSize()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateHBarSize",
+              "s": "private Void UpdateHBarSize(Single ratio)"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePosition",
+              "s": "private Void UpdatePosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPosition",
+              "s": "public Void UpdateScrollPosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateVBarSize",
+              "s": "private Void UpdateVBarSize(Single ratio)"
+            },
+            {
+              "k": "property",
+              "n": "BarColor",
+              "s": "public Color BarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMargin",
+              "s": "public Single BarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMinSize",
+              "s": "public Single BarMinSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarWidth",
+              "s": "public Single BarWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollArea",
+              "s": "private Size ScrollArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Target",
+              "s": "public View Target { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPortSize",
+              "s": "private Size ViewPortSize { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ScrollLayout",
+          "f": "Tizen.UI.Layouts.ScrollLayout",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.IDescendantFocusObserver",
+            "Tizen.UI.IScrollable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustDelta",
+              "s": "private Point AdjustDelta(Point movement, Nullable\u003CPoint\u003E currentPosition)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustScrollPosition",
+              "s": "private Point AdjustScrollPosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "CancelScrollAnimation",
+              "s": "private Void CancelScrollAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "ContentPositionToScrollPosition",
+              "s": "private Point ContentPositionToScrollPosition(Point content)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScrollBar",
+              "s": "protected IScrollBar CreateScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "DeltaFromScrollPosition",
+              "s": "private Point DeltaFromScrollPosition(Point scrollPosition)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureScrollBar",
+              "s": "private Void EnsureScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_HorizontalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolling",
+              "s": "public Boolean get_IsScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollBar",
+              "s": "public IScrollBar get_ScrollBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollDirection",
+              "s": "public ScrollDirection get_ScrollDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollingDestinationHandler",
+              "s": "public Func\u003CPoint, Point\u003E get_ScrollingDestinationHandler()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollSize",
+              "s": "public Size get_ScrollSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_VerticalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPort",
+              "s": "public Rect get_ViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "GetDurationAndAlpha",
+              "s": "protected ValueTuple\u003CInt32, AlphaFunction\u003E GetDurationAndAlpha(Point movement)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "protected Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterruptTouchingChildTouched",
+              "s": "private Void OnInterruptTouchingChildTouched(Object source, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPan",
+              "s": "private Void OnPan(Object sender, PanGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollAnimationFinished",
+              "s": "private Void OnScrollAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrolling",
+              "s": "private Void OnScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheel",
+              "s": "protected Boolean OnWheel(WheelEvent wheel)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheelEvent",
+              "s": "private Void OnWheelEvent(Object sender, WheelEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollContent",
+              "s": "protected Task ScrollContent(Point delta)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollingDestinationOverride",
+              "s": "protected Point ScrollingDestinationOverride(Point dest)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollPositionFromDelta",
+              "s": "private Point ScrollPositionFromDelta(Point delta)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(View child, Boolean animation, ScrollToPosition scrollToPosition)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Single position, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Point position, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "SendScrollFinished",
+              "s": "private Void SendScrollFinished()"
+            },
+            {
+              "k": "method",
+              "n": "SendScrolling",
+              "s": "private Void SendScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "SendScrollStarted",
+              "s": "private Void SendScrollStarted()"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalScrollBarVisibility",
+              "s": "public Void set_HorizontalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsScrolling",
+              "s": "protected Void set_IsScrolling(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollBar",
+              "s": "public Void set_ScrollBar(IScrollBar value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollDirection",
+              "s": "public Void set_ScrollDirection(ScrollDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollingDestinationHandler",
+              "s": "public Void set_ScrollingDestinationHandler(Func\u003CPoint, Point\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollSize",
+              "s": "public Void set_ScrollSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalScrollBarVisibility",
+              "s": "public Void set_VerticalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "SetScroll",
+              "s": "private Void SetScroll(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "SetScrollBar",
+              "s": "private Void SetScrollBar(IScrollBar scrollbar)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IDescendantFocusObserver.OnDescendantFocused",
+              "s": "Void Tizen.UI.IDescendantFocusObserver.OnDescendantFocused(View descendant)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_CanScrollHorizontally",
+              "s": "Boolean Tizen.UI.IScrollable.get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_CanScrollVertically",
+              "s": "Boolean Tizen.UI.IScrollable.get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_IsScrolledToEnd",
+              "s": "Boolean Tizen.UI.IScrollable.get_IsScrolledToEnd()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_IsScrolledToStart",
+              "s": "Boolean Tizen.UI.IScrollable.get_IsScrolledToStart()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.ScrollBy",
+              "s": "Task Tizen.UI.IScrollable.ScrollBy(Single x, Single y, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.ScrollTo",
+              "s": "Task Tizen.UI.IScrollable.ScrollTo(Single x, Single y, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollingProperties",
+              "s": "private Void UpdateScrollingProperties()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPositionByUIPosition",
+              "s": "private Void UpdateScrollPositionByUIPosition()"
+            },
+            {
+              "k": "method",
+              "n": "VelocityToMovement",
+              "s": "protected Point VelocityToMovement(Point velocity)"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolling",
+              "s": "public Boolean IsScrolling { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollBar",
+              "s": "public IScrollBar ScrollBar { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollDirection",
+              "s": "public ScrollDirection ScrollDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollingDestinationHandler",
+              "s": "public Func\u003CPoint, Point\u003E ScrollingDestinationHandler { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollSize",
+              "s": "public Size ScrollSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.CanScrollHorizontally",
+              "s": "Boolean Tizen.UI.IScrollable.CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.CanScrollVertically",
+              "s": "Boolean Tizen.UI.IScrollable.CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.IsScrolledToEnd",
+              "s": "Boolean Tizen.UI.IScrollable.IsScrolledToEnd { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.IsScrolledToStart",
+              "s": "Boolean Tizen.UI.IScrollable.IsScrolledToStart { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPort",
+              "s": "public Rect ViewPort { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ScrollLayoutManager",
+          "f": "Tizen.UI.Layouts.ScrollLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ScrollLayout view)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollView",
+              "s": "public ScrollLayout get_ScrollView()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "property",
+              "n": "ScrollView",
+              "s": "public ScrollLayout ScrollView { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ScrollViewExtensions",
+          "f": "Tizen.UI.Layouts.ScrollViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public static TView HorizontalScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAlways",
+              "s": "public static TView ScrollBarAlways\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAlwaysHorizontal",
+              "s": "public static TView ScrollBarAlwaysHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAlwaysVertical",
+              "s": "public static TView ScrollBarAlwaysVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAuto",
+              "s": "public static TView ScrollBarAuto\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAutoHorizontal",
+              "s": "public static TView ScrollBarAutoHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarAutoVertical",
+              "s": "public static TView ScrollBarAutoVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarNever",
+              "s": "public static TView ScrollBarNever\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarNeverHorizontal",
+              "s": "public static TView ScrollBarNeverHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollbarNeverVertical",
+              "s": "public static TView ScrollbarNeverVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBarVisibility",
+              "s": "public static TView ScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBoth",
+              "s": "public static TView ScrollBoth\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollDirection",
+              "s": "public static TView ScrollDirection\u003CTView\u003E(TView view, ScrollDirection scrollDirection) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollHorizontal",
+              "s": "public static TView ScrollHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "ScrollVertical",
+              "s": "public static TView ScrollVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+            },
+            {
+              "k": "method",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public static TView VerticalScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+            }
+          ]
+        },
+        {
+          "n": "SnapControlExtensions",
+          "f": "Tizen.UI.Layouts.SnapControlExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ClearSnapData",
+              "s": "private static Void ClearSnapData(ScrollLayout scrollview)"
+            },
+            {
+              "k": "method",
+              "n": "GetSnapData",
+              "s": "private static SnapControlExtensions.SnapControlData GetSnapData(ScrollLayout scrollview)"
+            },
+            {
+              "k": "method",
+              "n": "SetSnap",
+              "s": "public static T SetSnap\u003CT\u003E(T scrollView, SnapPointsType snapType, SnapPointsAlignment align) where T : ScrollLayout"
+            }
+          ]
+        },
+        {
+          "n": "SnapPointsAlignment",
+          "f": "Tizen.UI.Layouts.SnapPointsAlignment",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "SnapPointsType",
+          "f": "Tizen.UI.Layouts.SnapPointsType",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "StackBase",
+          "f": "Tizen.UI.Layouts.StackBase",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.ILayout",
+            "Tizen.UI.Layouts.IStackLayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAlignment",
+              "s": "public Void set_ItemAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "StackBaseExtensions",
+          "f": "Tizen.UI.Layouts.StackBaseExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Spacing",
+              "s": "public static TView Spacing\u003CTView\u003E(TView view, Single spacing) where TView : StackBase"
+            }
+          ]
+        },
+        {
+          "n": "StackLayoutManager",
+          "f": "Tizen.UI.Layouts.StackLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IStackLayout stack)"
+            },
+            {
+              "k": "method",
+              "n": "get_Stack",
+              "s": "public IStackLayout get_Stack()"
+            },
+            {
+              "k": "method",
+              "n": "MeasureSpacing",
+              "s": "protected static Single MeasureSpacing(Single spacing, Int32 childCount)"
+            },
+            {
+              "k": "property",
+              "n": "Stack",
+              "s": "public IStackLayout Stack { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Layouts.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AbsoluteParam",
+              "s": "public static AbsoluteParam AbsoluteParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "FlexParam",
+              "s": "public static FlexParam FlexParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "FlexRootParam",
+              "s": "internal static FlexRootParam FlexRootParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetConstraints",
+              "s": "internal static Size GetConstraints(Item item)"
+            },
+            {
+              "k": "method",
+              "n": "GetFrame",
+              "s": "internal static Rect GetFrame(Item item)"
+            },
+            {
+              "k": "method",
+              "n": "GridParam",
+              "s": "public static GridParam GridParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HasFlexParam",
+              "s": "public static Boolean HasFlexParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "internal static Int32 IndexOf(Item parent, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "LayoutParam",
+              "s": "public static LayoutParam LayoutParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "internal static Void Remove(Item parent, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "ToFlexBasis",
+              "s": "internal static Basis ToFlexBasis(FlexBasis basis)"
+            }
+          ]
+        },
+        {
+          "n": "VStack",
+          "f": "Tizen.UI.Layouts.VStack",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.StackBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            }
+          ]
+        },
+        {
+          "n": "VStackLayoutManager",
+          "f": "Tizen.UI.Layouts.VStackLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.StackLayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IStackLayout stackLayout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "GetDistance",
+              "s": "private static Single GetDistance(View view, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "GetTopIncludingMargin",
+              "s": "private static Single GetTopIncludingMargin(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "Tizen.UI.Layouts.Flex",
+      "t": [
+        {
+          "n": "AlignContent",
+          "f": "Tizen.UI.Layouts.Flex.AlignContent",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "AlignItems",
+          "f": "Tizen.UI.Layouts.Flex.AlignItems",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "AlignSelf",
+          "f": "Tizen.UI.Layouts.Flex.AlignSelf",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Basis",
+          "f": "Tizen.UI.Layouts.Flex.Basis",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single length, Boolean isRelative)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAuto",
+              "s": "public Boolean get_IsAuto()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsRelative",
+              "s": "public Boolean get_IsRelative()"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public Single get_Length()"
+            },
+            {
+              "k": "property",
+              "n": "IsAuto",
+              "s": "public Boolean IsAuto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsRelative",
+              "s": "public Boolean IsRelative { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public Single Length { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Direction",
+          "f": "Tizen.UI.Layouts.Flex.Direction",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Item",
+          "f": "Tizen.UI.Layouts.Flex.Item",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Layouts.Flex.Item\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "absolute_pos",
+              "s": "private static Single absolute_pos(Single pos1, Single pos2, Single size, Single dim)"
+            },
+            {
+              "k": "method",
+              "n": "absolute_size",
+              "s": "private static Single absolute_size(Single val, Single pos1, Single pos2, Single dim)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(Item child)"
+            },
+            {
+              "k": "method",
+              "n": "child_align",
+              "s": "private static AlignItems child_align(Item child, Item parent)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignContent",
+              "s": "public AlignContent get_AlignContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignItems",
+              "s": "public AlignItems get_AlignItems()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelf",
+              "s": "public AlignSelf get_AlignSelf()"
+            },
+            {
+              "k": "method",
+              "n": "get_Basis",
+              "s": "public Basis get_Basis()"
+            },
+            {
+              "k": "method",
+              "n": "get_Bottom",
+              "s": "public Single get_Bottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "private IList\u003CItem\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public Direction get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_Frame",
+              "s": "public Single[] get_Frame()"
+            },
+            {
+              "k": "method",
+              "n": "get_Grow",
+              "s": "public Single get_Grow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public Item get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_JustifyContent",
+              "s": "public Justify get_JustifyContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Left",
+              "s": "public Single get_Left()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginBottom",
+              "s": "public Single get_MarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginLeft",
+              "s": "public Single get_MarginLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginRight",
+              "s": "public Single get_MarginRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginTop",
+              "s": "public Single get_MarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumWidth",
+              "s": "public Single get_MaximumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumWidth",
+              "s": "public Single get_MinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Order",
+              "s": "public Int32 get_Order()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingBottom",
+              "s": "public Single get_PaddingBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingLeft",
+              "s": "public Single get_PaddingLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingRight",
+              "s": "public Single get_PaddingRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingTop",
+              "s": "public Single get_PaddingTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_Parent",
+              "s": "public Item get_Parent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Position get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Right",
+              "s": "public Single get_Right()"
+            },
+            {
+              "k": "method",
+              "n": "get_Root",
+              "s": "public Item get_Root()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelfSizing",
+              "s": "public Item.SelfSizingDelegate get_SelfSizing()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShouldOrderChildren",
+              "s": "private Boolean get_ShouldOrderChildren()"
+            },
+            {
+              "k": "method",
+              "n": "get_Shrink",
+              "s": "public Single get_Shrink()"
+            },
+            {
+              "k": "method",
+              "n": "get_Top",
+              "s": "public Single get_Top()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_Wrap",
+              "s": "public Wrap get_Wrap()"
+            },
+            {
+              "k": "method",
+              "n": "InsertAt",
+              "s": "public Void InsertAt(Int32 index, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "ItemAt",
+              "s": "public Item ItemAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "Layout",
+              "s": "public Void Layout()"
+            },
+            {
+              "k": "method",
+              "n": "layout_align",
+              "s": "private static Void layout_align(Justify align, Single flex_dim, Int32 children_count, Single\u0026 pos_p, Single\u0026 spacing_p)"
+            },
+            {
+              "k": "method",
+              "n": "layout_align",
+              "s": "private static Void layout_align(AlignContent align, Single flex_dim, UInt32 children_count, Single\u0026 pos_p, Single\u0026 spacing_p)"
+            },
+            {
+              "k": "method",
+              "n": "layout_item",
+              "s": "private static Void layout_item(Item item, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "layout_items",
+              "s": "private static Void layout_items(Item item, Int32 child_begin, Int32 child_end, Int32 children_count, Item.flex_layout\u0026 layout)"
+            },
+            {
+              "k": "method",
+              "n": "MarginThickness",
+              "s": "private Single MarginThickness(Boolean vertical)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Item RemoveAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignContent",
+              "s": "public Void set_AlignContent(AlignContent value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignItems",
+              "s": "public Void set_AlignItems(AlignItems value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelf",
+              "s": "public Void set_AlignSelf(AlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Basis",
+              "s": "public Void set_Basis(Basis value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Bottom",
+              "s": "public Void set_Bottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Children",
+              "s": "private Void set_Children(IList\u003CItem\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Direction",
+              "s": "public Void set_Direction(Direction value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Grow",
+              "s": "public Void set_Grow(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_JustifyContent",
+              "s": "public Void set_JustifyContent(Justify value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Left",
+              "s": "public Void set_Left(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginBottom",
+              "s": "public Void set_MarginBottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginLeft",
+              "s": "public Void set_MarginLeft(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginRight",
+              "s": "public Void set_MarginRight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginTop",
+              "s": "public Void set_MarginTop(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumWidth",
+              "s": "public Void set_MaximumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumWidth",
+              "s": "public Void set_MinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Order",
+              "s": "public Void set_Order(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingBottom",
+              "s": "public Void set_PaddingBottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingLeft",
+              "s": "public Void set_PaddingLeft(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingRight",
+              "s": "public Void set_PaddingRight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingTop",
+              "s": "public Void set_PaddingTop(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Parent",
+              "s": "private Void set_Parent(Item value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Position value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Right",
+              "s": "public Void set_Right(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SelfSizing",
+              "s": "public Void set_SelfSizing(Item.SelfSizingDelegate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShouldOrderChildren",
+              "s": "private Void set_ShouldOrderChildren(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Shrink",
+              "s": "public Void set_Shrink(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Top",
+              "s": "public Void set_Top(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Wrap",
+              "s": "public Void set_Wrap(Wrap value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.IEnumerable\u003CTizen.UI.Layouts.Flex.Item\u003E.GetEnumerator",
+              "s": "IEnumerator\u003CItem\u003E System.Collections.Generic.IEnumerable\u003CTizen.UI.Layouts.Flex.Item\u003E.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "ValidateChild",
+              "s": "private Void ValidateChild(Item child)"
+            },
+            {
+              "k": "property",
+              "n": "AlignContent",
+              "s": "public AlignContent AlignContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignItems",
+              "s": "public AlignItems AlignItems { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelf",
+              "s": "public AlignSelf AlignSelf { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Basis",
+              "s": "public Basis Basis { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Bottom",
+              "s": "public Single Bottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "private IList\u003CItem\u003E Children { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public Direction Direction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Frame",
+              "s": "public Single[] Frame { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Grow",
+              "s": "public Single Grow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public Item Item { get; }"
+            },
+            {
+              "k": "property",
+              "n": "JustifyContent",
+              "s": "public Justify JustifyContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Left",
+              "s": "public Single Left { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginBottom",
+              "s": "public Single MarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginLeft",
+              "s": "public Single MarginLeft { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginRight",
+              "s": "public Single MarginRight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginTop",
+              "s": "public Single MarginTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumWidth",
+              "s": "public Single MaximumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumWidth",
+              "s": "public Single MinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Order",
+              "s": "public Int32 Order { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingBottom",
+              "s": "public Single PaddingBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingLeft",
+              "s": "public Single PaddingLeft { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingRight",
+              "s": "public Single PaddingRight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingTop",
+              "s": "public Single PaddingTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Parent",
+              "s": "public Item Parent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Position Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Right",
+              "s": "public Single Right { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Root",
+              "s": "public Item Root { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelfSizing",
+              "s": "public Item.SelfSizingDelegate SelfSizing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShouldOrderChildren",
+              "s": "private Boolean ShouldOrderChildren { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Shrink",
+              "s": "public Single Shrink { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Top",
+              "s": "public Single Top { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Wrap",
+              "s": "public Wrap Wrap { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Justify",
+          "f": "Tizen.UI.Layouts.Flex.Justify",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Position",
+          "f": "Tizen.UI.Layouts.Flex.Position",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Wrap",
+          "f": "Tizen.UI.Layouts.Flex.Wrap",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "System.Enum",
+      "n": "ToInt",
+      "s": "private static Int32 ToInt(Enum enumValue)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridRowColumns",
+      "r": "System.Enum",
+      "n": "ToInt",
+      "s": "private static Int32 ToInt(Enum enumValue)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "System.Single",
+      "n": "ResolveMinMax",
+      "s": "internal static Single ResolveMinMax(Single size, Single min, Single max)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "T",
+      "n": "SetSnap",
+      "s": "public static T SetSnap\u003CT\u003E(T scrollView, SnapPointsType snapType, SnapPointsAlignment align) where T : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetConstraints",
+      "s": "internal static Size GetConstraints(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetFrame",
+      "s": "internal static Rect GetFrame(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "IndexOf",
+      "s": "internal static Int32 IndexOf(Item parent, Item child)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "Remove",
+      "s": "internal static Void Remove(Item parent, Item child)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.FlexBasis",
+      "n": "ToFlexBasis",
+      "s": "internal static Basis ToFlexBasis(FlexBasis basis)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "Tizen.UI.Layouts.ScrollLayout",
+      "n": "ClearSnapData",
+      "s": "private static Void ClearSnapData(ScrollLayout scrollview)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.SnapControlExtensions",
+      "r": "Tizen.UI.Layouts.ScrollLayout",
+      "n": "GetSnapData",
+      "s": "private static SnapControlExtensions.SnapControlData GetSnapData(ScrollLayout scrollview)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "AdjustForFill",
+      "s": "internal static Size AdjustForFill(Size size, Rect bounds, ILayout view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Arrange",
+      "s": "public static Void Arrange(View view, Rect rect, Boolean ignoreRTL)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ComputeDesiredSize",
+      "s": "public static Size ComputeDesiredSize(View view, Single widthConstraint, Single heightConstraint)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ComputeFrame",
+      "s": "internal static Rect ComputeFrame(View view, Rect bounds)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMaximumHeight",
+      "s": "internal static Single GetEffectiveMaximumHeight(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMaximumWidth",
+      "s": "internal static Single GetEffectiveMaximumWidth(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMinimumHeight",
+      "s": "internal static Single GetEffectiveMinimumHeight(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMinimumWidth",
+      "s": "internal static Single GetEffectiveMinimumWidth(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveParent",
+      "s": "internal static View GetEffectiveParent(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AbsoluteParam",
+      "s": "public static AbsoluteParam AbsoluteParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "FlexParam",
+      "s": "public static FlexParam FlexParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "FlexRootParam",
+      "s": "internal static FlexRootParam FlexRootParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GridParam",
+      "s": "public static GridParam GridParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "HasFlexParam",
+      "s": "public static Boolean HasFlexParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "LayoutParam",
+      "s": "public static LayoutParam LayoutParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.AbsoluteLayoutExtensions",
+      "r": "TView",
+      "n": "LayoutBounds",
+      "s": "public static TView LayoutBounds\u003CTView\u003E(TView view, Single x, Single y, Single width, Single height) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.AbsoluteLayoutExtensions",
+      "r": "TView",
+      "n": "LayoutFlags",
+      "s": "public static TView LayoutFlags\u003CTView\u003E(TView view, AbsoluteLayoutFlags flag) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AlignItems",
+      "s": "public static TView AlignItems\u003CTView\u003E(TView view, FlexAlignItems alignItems) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AlignSelf",
+      "s": "public static TView AlignSelf\u003CTView\u003E(TView view, FlexAlignSelf alignSelf) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AutoAlign",
+      "s": "public static TView AutoAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AutoBasis",
+      "s": "public static TView AutoBasis\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Basis",
+      "s": "public static TView Basis\u003CTView\u003E(TView view, Single length) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterAlign",
+      "s": "public static TView CenterAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterItems",
+      "s": "public static TView CenterItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterJustify",
+      "s": "public static TView CenterJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "ColumnReverse",
+      "s": "public static TView ColumnReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Direction",
+      "s": "public static TView Direction\u003CTView\u003E(TView view, FlexDirection direction) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndAlign",
+      "s": "public static TView EndAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndItems",
+      "s": "public static TView EndItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndJustify",
+      "s": "public static TView EndJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Grow",
+      "s": "public static TView Grow\u003CTView\u003E(TView view, Single grow) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "JustifyContent",
+      "s": "public static TView JustifyContent\u003CTView\u003E(TView view, FlexJustify justifyContent) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Order",
+      "s": "public static TView Order\u003CTView\u003E(TView view, Int32 order) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "RelativeBasis",
+      "s": "public static TView RelativeBasis\u003CTView\u003E(TView view, Single length) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "RowReverse",
+      "s": "public static TView RowReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Shrink",
+      "s": "public static TView Shrink\u003CTView\u003E(TView view, Single shrink) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceAroundJustify",
+      "s": "public static TView SpaceAroundJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceBetweenJustify",
+      "s": "public static TView SpaceBetweenJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceEvenlyJustify",
+      "s": "public static TView SpaceEvenlyJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartAlign",
+      "s": "public static TView StartAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartItems",
+      "s": "public static TView StartItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartJustify",
+      "s": "public static TView StartJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StretchAlign",
+      "s": "public static TView StretchAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StretchItems",
+      "s": "public static TView StretchItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view, Int32 column, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column) where TView : View where TColumn : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView, TColumn\u003E(TView view, TColumn column, TColumn last) where TView : View where TColumn : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "ColumnSpan",
+      "s": "public static TView ColumnSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view, Int32 row, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row) where TView : View where TRow : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView, TRow\u003E(TView view, TRow row, TRow last) where TView : View where TRow : Enum"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridExtensions",
+      "r": "TView",
+      "n": "RowSpan",
+      "s": "public static TView RowSpan\u003CTView\u003E(TView view, Int32 span) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Center",
+      "s": "public static TView Center\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "CenterHorizontal",
+      "s": "public static TView CenterHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "CenterVertical",
+      "s": "public static TView CenterVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "End",
+      "s": "public static TView End\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "EndHorizontal",
+      "s": "public static TView EndHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "EndVertical",
+      "s": "public static TView EndVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Expand",
+      "s": "public static TView Expand\u003CTView\u003E(TView view, Single weight) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Expand",
+      "s": "public static TView Expand\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Fill",
+      "s": "public static TView Fill\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "FillHorizontal",
+      "s": "public static TView FillHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "FillVertical",
+      "s": "public static TView FillVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "HorizontalLayoutAlignment",
+      "s": "public static TView HorizontalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "ItemAlignment",
+      "s": "public static TView ItemAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : StackBase"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single horizontalSize, Single verticalSize) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single uniformSize) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Thickness margin) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MaximumHeight",
+      "s": "public static TView MaximumHeight\u003CTView\u003E(TView view, Single max) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MaximumWidth",
+      "s": "public static TView MaximumWidth\u003CTView\u003E(TView view, Single max) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MinimumHeight",
+      "s": "public static TView MinimumHeight\u003CTView\u003E(TView view, Single min) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MinimumWidth",
+      "s": "public static TView MinimumWidth\u003CTView\u003E(TView view, Single min) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Padding",
+      "s": "public static TView Padding\u003CTView\u003E(TView view, Thickness padding) where TView : Layout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Padding",
+      "s": "public static TView Padding\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : Layout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Start",
+      "s": "public static TView Start\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "StartHorizontal",
+      "s": "public static TView StartHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "StartVertical",
+      "s": "public static TView StartVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Translate",
+      "s": "public static TView Translate\u003CTView\u003E(TView view, Single x, Single y) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "TranslateX",
+      "s": "public static TView TranslateX\u003CTView\u003E(TView view, Single x) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "TranslateY",
+      "s": "public static TView TranslateY\u003CTView\u003E(TView view, Single y) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "VerticalLayoutAlignment",
+      "s": "public static TView VerticalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "HorizontalScrollBarVisibility",
+      "s": "public static TView HorizontalScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAlways",
+      "s": "public static TView ScrollBarAlways\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAlwaysHorizontal",
+      "s": "public static TView ScrollBarAlwaysHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAlwaysVertical",
+      "s": "public static TView ScrollBarAlwaysVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAuto",
+      "s": "public static TView ScrollBarAuto\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAutoHorizontal",
+      "s": "public static TView ScrollBarAutoHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarAutoVertical",
+      "s": "public static TView ScrollBarAutoVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarNever",
+      "s": "public static TView ScrollBarNever\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarNeverHorizontal",
+      "s": "public static TView ScrollBarNeverHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollbarNeverVertical",
+      "s": "public static TView ScrollbarNeverVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBarVisibility",
+      "s": "public static TView ScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollBoth",
+      "s": "public static TView ScrollBoth\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollDirection",
+      "s": "public static TView ScrollDirection\u003CTView\u003E(TView view, ScrollDirection scrollDirection) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollHorizontal",
+      "s": "public static TView ScrollHorizontal\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "ScrollVertical",
+      "s": "public static TView ScrollVertical\u003CTView\u003E(TView view) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ScrollViewExtensions",
+      "r": "TView",
+      "n": "VerticalScrollBarVisibility",
+      "s": "public static TView VerticalScrollBarVisibility\u003CTView\u003E(TView view, ScrollBarVisibility scrollBarVisibility) where TView : ScrollLayout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.StackBaseExtensions",
+      "r": "TView",
+      "n": "Spacing",
+      "s": "public static TView Spacing\u003CTView\u003E(TView view, Single spacing) where TView : StackBase"
+    }
+  ]
+}

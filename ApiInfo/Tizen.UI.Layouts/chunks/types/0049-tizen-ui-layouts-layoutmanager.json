@@ -1,0 +1,55 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "LayoutManager",
+          "f": "Tizen.UI.Layouts.LayoutManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Layouts.ILayoutManager"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ILayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_Layout",
+              "s": "public ILayout get_Layout()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ResolveConstraints",
+              "s": "public static Single ResolveConstraints(Single externalConstraint, Single explicitLength, Single measuredLength, Single min, Single max)"
+            },
+            {
+              "k": "property",
+              "n": "Layout",
+              "s": "public ILayout Layout { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

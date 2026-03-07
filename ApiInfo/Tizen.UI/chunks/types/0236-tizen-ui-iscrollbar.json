@@ -1,0 +1,80 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "IScrollBar",
+          "f": "Tizen.UI.IScrollBar",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_HorizontalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_Target",
+              "s": "public View get_Target()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_VerticalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "OnAttachedToScrollable",
+              "s": "public Void OnAttachedToScrollable(IScrollable scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalScrollBarVisibility",
+              "s": "public Void set_HorizontalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalScrollBarVisibility",
+              "s": "public Void set_VerticalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBarSize",
+              "s": "public Void UpdateBarSize(Size scrollArea, Size viewportSize)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPosition",
+              "s": "public Void UpdateScrollPosition(Point position)"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Target",
+              "s": "public View Target { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageViewBindings",
+          "f": "Tizen.UI.ImageViewBindings",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageMultipliedColorProperty",
+              "s": "public static BindingProperty\u003CImageView, Color\u003E get_ImageMultipliedColorProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrlProperty",
+              "s": "public static BindingProperty\u003CImageView, String\u003E get_ResourceUrlProperty()"
+            },
+            {
+              "k": "property",
+              "n": "ImageMultipliedColorProperty",
+              "s": "public BindingProperty\u003CImageView, Color\u003E ImageMultipliedColorProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrlProperty",
+              "s": "public BindingProperty\u003CImageView, String\u003E ResourceUrlProperty { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

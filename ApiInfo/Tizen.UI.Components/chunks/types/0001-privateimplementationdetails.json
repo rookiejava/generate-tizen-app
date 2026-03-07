@@ -1,0 +1,22 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "(global)",
+      "t": [
+        {
+          "n": "\u003CPrivateImplementationDetails\u003E",
+          "f": "\u003CPrivateImplementationDetails\u003E",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": []
+        }
+      ]
+    }
+  ],
+  "x": []
+}

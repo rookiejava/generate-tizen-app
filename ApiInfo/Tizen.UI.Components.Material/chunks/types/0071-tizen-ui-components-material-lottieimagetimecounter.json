@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LottieImageTimeCounter",
+          "f": "Tizen.UI.Components.Material.LottieImageTimeCounter",
+          "k": "class",
+          "b": "Tizen.UI.Components.TimeCounter",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 totalTimeInMilliseconds, String resourceUrl)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(String resourceUrl)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_LottieImage",
+              "s": "public LottieImage get_LottieImage()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseReverseFrameIndex",
+              "s": "public Boolean get_UseReverseFrameIndex()"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTimeRatioChanged",
+              "s": "protected Void OnTimeRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseReverseFrameIndex",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UseReverseFrameIndex(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateFrame",
+              "s": "private Void UpdateFrame()"
+            },
+            {
+              "k": "property",
+              "n": "LottieImage",
+              "s": "public LottieImage LottieImage { get; }"
+            },
+            {
+              "k": "property",
+              "n": "UseReverseFrameIndex",
+              "s": "public Boolean UseReverseFrameIndex { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

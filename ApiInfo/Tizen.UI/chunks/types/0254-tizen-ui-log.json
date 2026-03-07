@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Log",
+          "f": "Tizen.UI.Log",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "Debug",
+              "s": "public static Void Debug(String message, String file, String func, Int32 line)"
+            },
+            {
+              "k": "method",
+              "n": "Error",
+              "s": "public static Void Error(String message, String file, String func, Int32 line)"
+            },
+            {
+              "k": "method",
+              "n": "get_Tag",
+              "s": "public static String get_Tag()"
+            },
+            {
+              "k": "method",
+              "n": "Info",
+              "s": "public static Void Info(String message, String file, String func, Int32 line)"
+            },
+            {
+              "k": "method",
+              "n": "set_Tag",
+              "s": "public static Void set_Tag(String value)"
+            },
+            {
+              "k": "method",
+              "n": "Warn",
+              "s": "public static Void Warn(String message, String file, String func, Int32 line)"
+            },
+            {
+              "k": "property",
+              "n": "Tag",
+              "s": "public String Tag { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

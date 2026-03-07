@@ -1,0 +1,225 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTipViewVariables",
+          "f": "Tizen.UI.Components.Material.SmartTipViewVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.SmartTipViewVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SmartTipViewVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "SmartTipViewVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(SmartTipViewVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_DarkGray",
+              "s": "public static SmartTipViewVariables get_DarkGray()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static SmartTipViewVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_LightGray",
+              "s": "public static SmartTipViewVariables get_LightGray()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeArrowHeight",
+              "s": "public Single get_ShapeArrowHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeArrowWidth",
+              "s": "public Single get_ShapeArrowWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeCornerRadius",
+              "s": "public CornerRadius get_ShapeCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeFillColor",
+              "s": "public Color get_ShapeFillColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_ShapeShadows()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeStrokeColor",
+              "s": "public Color get_ShapeStrokeColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeStrokeWidth",
+              "s": "public Single get_ShapeStrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(SmartTipViewVariables left, SmartTipViewVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(SmartTipViewVariables left, SmartTipViewVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeArrowHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeArrowHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeArrowWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeArrowWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeFillColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeFillColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeStrokeColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeStrokeColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeStrokeWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ShapeStrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "DarkGray",
+              "s": "public SmartTipViewVariables DarkGray { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public SmartTipViewVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LightGray",
+              "s": "public SmartTipViewVariables LightGray { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeArrowHeight",
+              "s": "public Single ShapeArrowHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeArrowWidth",
+              "s": "public Single ShapeArrowWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeCornerRadius",
+              "s": "public CornerRadius ShapeCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeFillColor",
+              "s": "public Color ShapeFillColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeShadows",
+              "s": "public IEnumerable\u003CShadow\u003E ShapeShadows { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeStrokeColor",
+              "s": "public Color ShapeStrokeColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeStrokeWidth",
+              "s": "public Single ShapeStrokeWidth { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

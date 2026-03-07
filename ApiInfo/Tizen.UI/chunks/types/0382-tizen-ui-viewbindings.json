@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ViewBindings",
+          "f": "Tizen.UI.ViewBindings",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColorProperty",
+              "s": "public static BindingProperty\u003CView, Color\u003E get_BackgroundColorProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeightProperty",
+              "s": "public static BindingProperty\u003CView, Single\u003E get_HeightProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEnabledProperty",
+              "s": "public static TwoWayBindingProperty\u003CView, Boolean\u003E get_IsEnabledProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_WidthProperty",
+              "s": "public static BindingProperty\u003CView, Single\u003E get_WidthProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_XProperty",
+              "s": "public static BindingProperty\u003CView, Single\u003E get_XProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_YProperty",
+              "s": "public static BindingProperty\u003CView, Single\u003E get_YProperty()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColorProperty",
+              "s": "public BindingProperty\u003CView, Color\u003E BackgroundColorProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HeightProperty",
+              "s": "public BindingProperty\u003CView, Single\u003E HeightProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsEnabledProperty",
+              "s": "public TwoWayBindingProperty\u003CView, Boolean\u003E IsEnabledProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WidthProperty",
+              "s": "public BindingProperty\u003CView, Single\u003E WidthProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "XProperty",
+              "s": "public BindingProperty\u003CView, Single\u003E XProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "YProperty",
+              "s": "public BindingProperty\u003CView, Single\u003E YProperty { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

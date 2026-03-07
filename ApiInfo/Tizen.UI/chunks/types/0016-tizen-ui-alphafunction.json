@@ -1,0 +1,100 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AlphaFunction",
+          "f": "Tizen.UI.AlphaFunction",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Func\u003CSingle, Single\u003E userAlpha)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(BuiltinAlphaFunctions builtin)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Point point1, Point point2)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Interop.AlphaFunction.UserAlphaFunction userAlpha)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "CreateHandle",
+              "s": "private static IntPtr CreateHandle(Point point1, Point point2)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "private Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "Finalize",
+              "s": "Void Finalize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public IntPtr get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsUserAlphaFunction",
+              "s": "internal Boolean get_IsUserAlphaFunction()"
+            },
+            {
+              "k": "method",
+              "n": "GetAlphaFunction",
+              "s": "private static Interop.AlphaFunction.UserAlphaFunction GetAlphaFunction(Func\u003CSingle, Single\u003E userAlpha)"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public IntPtr Handle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsUserAlphaFunction",
+              "s": "internal Boolean IsUserAlphaFunction { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

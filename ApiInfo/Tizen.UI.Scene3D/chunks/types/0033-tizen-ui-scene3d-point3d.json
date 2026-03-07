@@ -1,0 +1,191 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Point3D",
+          "f": "Tizen.UI.Scene3D.Point3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Size3D sz)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y, Single\u0026 z)"
+            },
+            {
+              "k": "method",
+              "n": "Distance",
+              "s": "public Double Distance(Point3D other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEmpty",
+              "s": "public Boolean get_IsEmpty()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Offset",
+              "s": "public Point3D Offset(Single dx, Single dy, Single dz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt1, Point3D pt2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt, Size3D sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Point3D ptA, Point3D ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Size3D op_Explicit(Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Vector3D op_Explicit(Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Point3D ptA, Point3D ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt1, Point3D pt2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt, Size3D sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Point3D Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "IsEmpty",
+              "s": "public Boolean IsEmpty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Point3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Point3D point3d)"
+    }
+  ]
+}

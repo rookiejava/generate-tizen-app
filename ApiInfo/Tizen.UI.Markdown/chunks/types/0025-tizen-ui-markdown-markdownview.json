@@ -1,0 +1,65 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "MarkdownView",
+          "f": "Tizen.UI.Markdown.MarkdownView",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public MarkdownStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "Render",
+              "s": "public Void Render()"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public MarkdownStyle Style { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

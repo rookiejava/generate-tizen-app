@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "IGroupedItem",
+          "f": "Tizen.UI.Components.Recycler.IGroupedItem",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_IsFirstOfGroup",
+              "s": "public Boolean get_IsFirstOfGroup()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLastOfGroup",
+              "s": "public Boolean get_IsLastOfGroup()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsFirstOfGroup",
+              "s": "public Void set_IsFirstOfGroup(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLastOfGroup",
+              "s": "public Void set_IsLastOfGroup(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateByPosition",
+              "s": "public Void UpdateByPosition(Int32 position)"
+            },
+            {
+              "k": "property",
+              "n": "IsFirstOfGroup",
+              "s": "public Boolean IsFirstOfGroup { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLastOfGroup",
+              "s": "public Boolean IsLastOfGroup { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

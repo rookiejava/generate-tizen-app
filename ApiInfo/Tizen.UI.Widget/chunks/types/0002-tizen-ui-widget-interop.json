@@ -1,0 +1,22 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Widget",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Widget.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Widget.dll",
+  "g": "2026-03-07T11:20:28.7045769+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Widget",
+      "t": [
+        {
+          "n": "Interop",
+          "f": "Tizen.UI.Widget.Interop",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": []
+        }
+      ]
+    }
+  ],
+  "x": []
+}

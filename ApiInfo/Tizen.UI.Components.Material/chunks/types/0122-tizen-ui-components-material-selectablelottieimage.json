@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SelectableLottieImage",
+          "f": "Tizen.UI.Components.Material.SelectableLottieImage",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.LottieImage",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl, ClosedRange\u003CInt32\u003E selectionFrames, ClosedRange\u003CInt32\u003E deselectionFrames)"
+            },
+            {
+              "k": "method",
+              "n": "OnDeselected",
+              "s": "private Void OnDeselected(Boolean animate)"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "protected Void OnFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelected",
+              "s": "private Void OnSelected(Boolean animate)"
+            },
+            {
+              "k": "method",
+              "n": "OnThemeChanged",
+              "s": "private Void OnThemeChanged(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChanged",
+              "s": "private Void OnVisibilityChanged(Object sender, VisibilityChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Refresh",
+              "s": "public Void Refresh()"
+            },
+            {
+              "k": "method",
+              "n": "RefreshWhenThemeChanged",
+              "s": "public Void RefreshWhenThemeChanged()"
+            },
+            {
+              "k": "method",
+              "n": "SetNeedRefreshWhenFinished",
+              "s": "private Void SetNeedRefreshWhenFinished()"
+            },
+            {
+              "k": "method",
+              "n": "SetSelection",
+              "s": "public Void SetSelection(Boolean isSelected, Boolean animate)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

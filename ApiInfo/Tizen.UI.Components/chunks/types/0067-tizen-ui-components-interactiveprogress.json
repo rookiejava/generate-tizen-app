@@ -1,0 +1,353 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "InteractiveProgress",
+          "f": "Tizen.UI.Components.InteractiveProgress",
+          "k": "class",
+          "b": "Tizen.UI.Components.Pressable",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue)"
+            },
+            {
+              "k": "event",
+              "n": "ValueChanged",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E ValueChanged"
+            },
+            {
+              "k": "event",
+              "n": "ValueChangeFinished",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E ValueChangeFinished"
+            },
+            {
+              "k": "event",
+              "n": "ValueChangeStarted",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E ValueChangeStarted"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueChanged",
+              "s": "public Void add_ValueChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueChangeFinished",
+              "s": "public Void add_ValueChangeFinished(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueChangeStarted",
+              "s": "public Void add_ValueChangeStarted(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "CalculatePointRatio",
+              "s": "private Single CalculatePointRatio(Point lastPoint, Point currentPoint)"
+            },
+            {
+              "k": "method",
+              "n": "DecreaseValue",
+              "s": "protected Boolean DecreaseValue(Single step, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "get_IgnoreTap",
+              "s": "public Boolean get_IgnoreTap()"
+            },
+            {
+              "k": "method",
+              "n": "get_IgnoreTouchDown",
+              "s": "public Boolean get_IgnoreTouchDown()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDiscrete",
+              "s": "protected Boolean get_IsDiscrete()"
+            },
+            {
+              "k": "method",
+              "n": "get_PointRatio",
+              "s": "protected Single get_PointRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_Range",
+              "s": "public ClosedRange\u003CSingle\u003E get_Range()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseRelativeTouchPoint",
+              "s": "public Boolean get_UseRelativeTouchPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Single get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "get_ValueChanging",
+              "s": "public Boolean get_ValueChanging()"
+            },
+            {
+              "k": "method",
+              "n": "get_ValueRatio",
+              "s": "protected Single get_ValueRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_ValueStepCount",
+              "s": "public Int32 get_ValueStepCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityValueText",
+              "s": "protected String GetAccessibilityValueText()"
+            },
+            {
+              "k": "method",
+              "n": "GetKeyStep",
+              "s": "protected Single GetKeyStep()"
+            },
+            {
+              "k": "method",
+              "n": "GetValueInStep",
+              "s": "public Single GetValueInStep(Int32 stepIndex)"
+            },
+            {
+              "k": "method",
+              "n": "GetVisualRangeBounds",
+              "s": "protected Rect GetVisualRangeBounds()"
+            },
+            {
+              "k": "method",
+              "n": "IncreaseValue",
+              "s": "protected Boolean IncreaseValue(Single step, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "IsDecreaseKey",
+              "s": "protected Boolean IsDecreaseKey(String keyname)"
+            },
+            {
+              "k": "method",
+              "n": "IsIncreaseKey",
+              "s": "protected Boolean IsIncreaseKey(String keyname)"
+            },
+            {
+              "k": "method",
+              "n": "LengthToRatio",
+              "s": "protected Single LengthToRatio(Single deltaX, Single deltaY)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "protected Boolean OnAccessibilityActionReceived(AccessibilityAction actionType)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceivedInternal",
+              "s": "private Void OnAccessibilityActionReceivedInternal(Object sender, AccessibilityActionReceivedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityDecrementAction",
+              "s": "protected Boolean OnAccessibilityDecrementAction()"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityIncrementAction",
+              "s": "protected Boolean OnAccessibilityIncrementAction()"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyPressed",
+              "s": "protected Boolean OnKeyPressed(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyReleased",
+              "s": "protected Boolean OnKeyReleased(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPointRatioChanged",
+              "s": "protected Void OnPointRatioChanged(Boolean valueUpdated, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnPointRatioChangeFailed",
+              "s": "protected Void OnPointRatioChangeFailed(Boolean valueChanged, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouch",
+              "s": "protected Void OnTouch(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChanged",
+              "s": "protected Void OnValueChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChangeFinished",
+              "s": "protected Void OnValueChangeFinished(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChangeStarted",
+              "s": "protected Void OnValueChangeStarted(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueRatioChanged",
+              "s": "protected Void OnValueRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueStepChanged",
+              "s": "protected Void OnValueStepChanged(Single valueStep)"
+            },
+            {
+              "k": "method",
+              "n": "PointToRatio",
+              "s": "protected Single PointToRatio(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueChanged",
+              "s": "public Void remove_ValueChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueChangeFinished",
+              "s": "public Void remove_ValueChangeFinished(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueChangeStarted",
+              "s": "public Void remove_ValueChangeStarted(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IgnoreTap",
+              "s": "public Void set_IgnoreTap(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IgnoreTouchDown",
+              "s": "public Void set_IgnoreTouchDown(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Range",
+              "s": "public Void set_Range(ClosedRange\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseRelativeTouchPoint",
+              "s": "public Void set_UseRelativeTouchPoint(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Value",
+              "s": "public Void set_Value(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ValueStepCount",
+              "s": "public Void set_ValueStepCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPointRatio",
+              "s": "private Boolean SetPointRatio(Single newPointRatio, Boolean valueChanged, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetValue",
+              "s": "private Boolean SetValue(Single newValue, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetValueAndPoint",
+              "s": "private Boolean SetValueAndPoint(Single newValue, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetValueRatio",
+              "s": "private Boolean SetValueRatio(Single newValueRatio)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateValueStep",
+              "s": "private Void UpdateValueStep()"
+            },
+            {
+              "k": "property",
+              "n": "IgnoreTap",
+              "s": "public Boolean IgnoreTap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IgnoreTouchDown",
+              "s": "public Boolean IgnoreTouchDown { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDiscrete",
+              "s": "protected Boolean IsDiscrete { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PointRatio",
+              "s": "protected Single PointRatio { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Range",
+              "s": "public ClosedRange\u003CSingle\u003E Range { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UseRelativeTouchPoint",
+              "s": "public Boolean UseRelativeTouchPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Single Value { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ValueChanging",
+              "s": "public Boolean ValueChanging { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ValueRatio",
+              "s": "protected Single ValueRatio { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ValueStepCount",
+              "s": "public Int32 ValueStepCount { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

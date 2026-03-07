@@ -1,0 +1,145 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "ThematicBreakStyle",
+          "f": "Tizen.UI.Markdown.ThematicBreakStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ThematicBreakStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ThematicBreakStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ThematicBreakStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ThematicBreakStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ThematicBreakStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Margin",
+              "s": "public Int32 get_Margin()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Int32 get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ThematicBreakStyle left, ThematicBreakStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ThematicBreakStyle left, ThematicBreakStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Margin",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Margin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Thickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ThematicBreakStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Margin",
+              "s": "public Int32 Margin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Int32 Thickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

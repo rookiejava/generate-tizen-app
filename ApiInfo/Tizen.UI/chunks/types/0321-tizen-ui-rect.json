@@ -1,0 +1,315 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Rect",
+          "f": "Tizen.UI.Rect",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Point loc, Size sz)"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Rect rect)"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Point pt)"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y, Single\u0026 width, Single\u0026 height)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Rect other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "FromLTRB",
+              "s": "public static Rect FromLTRB(Single left, Single top, Single right, Single bottom)"
+            },
+            {
+              "k": "method",
+              "n": "get_Bottom",
+              "s": "public Single get_Bottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEmpty",
+              "s": "public Boolean get_IsEmpty()"
+            },
+            {
+              "k": "method",
+              "n": "get_Left",
+              "s": "public Single get_Left()"
+            },
+            {
+              "k": "method",
+              "n": "get_Location",
+              "s": "public Point get_Location()"
+            },
+            {
+              "k": "method",
+              "n": "get_Right",
+              "s": "public Single get_Right()"
+            },
+            {
+              "k": "method",
+              "n": "get_Size",
+              "s": "public Size get_Size()"
+            },
+            {
+              "k": "method",
+              "n": "get_Top",
+              "s": "public Single get_Top()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Inflate",
+              "s": "public Rect Inflate(Size sz)"
+            },
+            {
+              "k": "method",
+              "n": "Inflate",
+              "s": "public Rect Inflate(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "Intersect",
+              "s": "public Rect Intersect(Rect r)"
+            },
+            {
+              "k": "method",
+              "n": "Intersect",
+              "s": "public static Rect Intersect(Rect r1, Rect r2)"
+            },
+            {
+              "k": "method",
+              "n": "IntersectsWith",
+              "s": "public Boolean IntersectsWith(Rect r)"
+            },
+            {
+              "k": "method",
+              "n": "Offset",
+              "s": "public Rect Offset(Single dx, Single dy)"
+            },
+            {
+              "k": "method",
+              "n": "Offset",
+              "s": "public Rect Offset(Point dr)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Rect r1, Rect r2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Rect r1, Rect r2)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Rect Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Location",
+              "s": "public Void set_Location(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Size",
+              "s": "public Void set_Size(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "method",
+              "n": "Union",
+              "s": "public Rect Union(Rect r)"
+            },
+            {
+              "k": "method",
+              "n": "Union",
+              "s": "public static Rect Union(Rect r1, Rect r2)"
+            },
+            {
+              "k": "property",
+              "n": "Bottom",
+              "s": "public Single Bottom { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsEmpty",
+              "s": "public Boolean IsEmpty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Left",
+              "s": "public Single Left { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Location",
+              "s": "public Point Location { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Right",
+              "s": "public Single Right { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Size",
+              "s": "public Size Size { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Top",
+              "s": "public Single Top { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Rect value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToNativeRectangle",
+      "s": "public static RectangleHandle ToNativeRectangle(Rect rect)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Rect value)"
+    }
+  ]
+}

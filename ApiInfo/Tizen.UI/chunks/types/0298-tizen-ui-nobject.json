@@ -1,0 +1,323 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "NObject",
+          "f": "Tizen.UI.NObject",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "AddToNativeHolder",
+              "s": "protected Void AddToNativeHolder(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "AddToObjectHolder",
+              "s": "protected T AddToObjectHolder\u003CT\u003E(T obj)"
+            },
+            {
+              "k": "method",
+              "n": "AddToObjectTable",
+              "s": "private protected Void AddToObjectTable()"
+            },
+            {
+              "k": "method",
+              "n": "ClearHolder",
+              "s": "private static Void ClearHolder(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "Finalize",
+              "s": "Void Finalize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public IntPtr get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasOwnership",
+              "s": "public Boolean get_HasOwnership()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDisposed",
+              "s": "public Boolean get_IsDisposed()"
+            },
+            {
+              "k": "method",
+              "n": "GetObjectFromNativeObject",
+              "s": "public static NObject GetObjectFromNativeObject(IntPtr nativeObj)"
+            },
+            {
+              "k": "method",
+              "n": "GetObjectFromNativeObject",
+              "s": "internal static NObject GetObjectFromNativeObject(ActorHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static IntPtr op_Implicit(NObject obj)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveFromHolder",
+              "s": "protected Void RemoveFromHolder(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveFromObjectTable",
+              "s": "private protected Void RemoveFromObjectTable()"
+            },
+            {
+              "k": "method",
+              "n": "set_HasOwnership",
+              "s": "public Void set_HasOwnership(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public IntPtr Handle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HasOwnership",
+              "s": "public Boolean HasOwnership { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDisposed",
+              "s": "public Boolean IsDisposed { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Single\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Int32\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Boolean\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, PropertyValueHandle\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, CornerRadius\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, PropertyMapHandle map)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, String\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 visualIndex, Int32 key, Color\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 visualIndex, Int32 key, Int32\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 visualIndex, Int32 key, CornerRadius\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Color\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Single\u0026 v1, Single\u0026 v2, Single\u0026 v3)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Get",
+      "s": "public static Void Get(NObject view, Int32 key, Point\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "GetCurrent",
+      "s": "public static Void GetCurrent(NObject view, Int32 key, Size\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "GetCurrent",
+      "s": "public static Void GetCurrent(NObject view, Int32 key, Point\u0026 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Register",
+      "s": "public static Int32 Register(NObject obj, String name, PropertyValueHandle value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Single value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, PropertyValueHandle value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Vector4Handle value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Vector3Handle value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Vector2Handle value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Int32 value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Boolean value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, String value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject view, Int32 key, Color value)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.DaliProperty",
+      "r": "Tizen.UI.NObject",
+      "n": "Set",
+      "s": "public static Void Set(NObject obj, String name, PropertyValueHandle value)"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIVariables",
+          "f": "Tizen.UI.Components.UIVariables",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ClickableSoundEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E get_ClickableSoundEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_ClickableTouchEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E get_ClickableTouchEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_ComponentDisabledEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E get_ComponentDisabledEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_Current",
+              "s": "public static UIVariables get_Current()"
+            },
+            {
+              "k": "method",
+              "n": "get_EffectDelayOnScroll",
+              "s": "public Int32 get_EffectDelayOnScroll()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public Func\u003CVariables\u003E get_Item(String name)"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumFontSizeScale",
+              "s": "public Single get_MaximumFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumFontSizeScale",
+              "s": "public Single get_MinimumFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecoilColor",
+              "s": "public Color get_RecoilColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecoilOffset",
+              "s": "public Single get_RecoilOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecoilScaleFactor",
+              "s": "public Single get_RecoilScaleFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecoilScaleFactorForList",
+              "s": "public Single get_RecoilScaleFactorForList()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResizePolicyEnabled",
+              "s": "public Boolean get_ResizePolicyEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScaffoldFloatingOffset",
+              "s": "public Point get_ScaffoldFloatingOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSizeScaleEnabled",
+              "s": "public Boolean get_SystemFontSizeScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemIndicatorThickness",
+              "s": "public Single get_SystemIndicatorThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemNavigationBarThickness",
+              "s": "public Single get_SystemNavigationBarThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextAnchorClickedColor",
+              "s": "public Color get_TextAnchorClickedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextAnchorColor",
+              "s": "public Color get_TextAnchorColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextCursorColor",
+              "s": "public Color get_TextCursorColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextCursorWidth",
+              "s": "public Int32 get_TextCursorWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextMarqueeGap",
+              "s": "public Single get_TextMarqueeGap()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextMarqueeLoopCount",
+              "s": "public Int32 get_TextMarqueeLoopCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextMarqueeSpeed",
+              "s": "public Int32 get_TextMarqueeSpeed()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextSelectionColor",
+              "s": "public Color get_TextSelectionColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextSelectionHandleLeftImage",
+              "s": "public String get_TextSelectionHandleLeftImage()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextSelectionHandleRightImage",
+              "s": "public String get_TextSelectionHandleRightImage()"
+            },
+            {
+              "k": "method",
+              "n": "set_ClickableSoundEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ClickableSoundEffect(Lazy\u003CUIAttachable\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ClickableTouchEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ClickableTouchEffect(Lazy\u003CUIAttachable\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ComponentDisabledEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ComponentDisabledEffect(Lazy\u003CUIAttachable\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_EffectDelayOnScroll",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_EffectDelayOnScroll(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Item(String name, Func\u003CVariables\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumFontSizeScale",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MaximumFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumFontSizeScale",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MinimumFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecoilColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_RecoilColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecoilOffset",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_RecoilOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecoilScaleFactor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_RecoilScaleFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecoilScaleFactorForList",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_RecoilScaleFactorForList(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResizePolicyEnabled",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ResizePolicyEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScaffoldFloatingOffset",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ScaffoldFloatingOffset(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontSizeScaleEnabled",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SystemFontSizeScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemIndicatorThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SystemIndicatorThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemNavigationBarThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_SystemNavigationBarThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextAnchorClickedColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextAnchorClickedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextAnchorColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextAnchorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextCursorColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextCursorWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextCursorWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextMarqueeGap",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextMarqueeGap(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextMarqueeLoopCount",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextMarqueeLoopCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextMarqueeSpeed",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextMarqueeSpeed(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextSelectionColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextSelectionColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextSelectionHandleLeftImage",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextSelectionHandleLeftImage(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextSelectionHandleRightImage",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextSelectionHandleRightImage(String value)"
+            },
+            {
+              "k": "property",
+              "n": "ClickableSoundEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E ClickableSoundEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ClickableTouchEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E ClickableTouchEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ComponentDisabledEffect",
+              "s": "public Lazy\u003CUIAttachable\u003E ComponentDisabledEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Current",
+              "s": "public UIVariables Current { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EffectDelayOnScroll",
+              "s": "public Int32 EffectDelayOnScroll { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public Func\u003CVariables\u003E Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumFontSizeScale",
+              "s": "public Single MaximumFontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumFontSizeScale",
+              "s": "public Single MinimumFontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecoilColor",
+              "s": "public Color RecoilColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecoilOffset",
+              "s": "public Single RecoilOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecoilScaleFactor",
+              "s": "public Single RecoilScaleFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecoilScaleFactorForList",
+              "s": "public Single RecoilScaleFactorForList { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResizePolicyEnabled",
+              "s": "public Boolean ResizePolicyEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScaffoldFloatingOffset",
+              "s": "public Point ScaffoldFloatingOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSizeScaleEnabled",
+              "s": "public Boolean SystemFontSizeScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemIndicatorThickness",
+              "s": "public Single SystemIndicatorThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemNavigationBarThickness",
+              "s": "public Single SystemNavigationBarThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextAnchorClickedColor",
+              "s": "public Color TextAnchorClickedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextAnchorColor",
+              "s": "public Color TextAnchorColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextCursorColor",
+              "s": "public Color TextCursorColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextCursorWidth",
+              "s": "public Int32 TextCursorWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextMarqueeGap",
+              "s": "public Single TextMarqueeGap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextMarqueeLoopCount",
+              "s": "public Int32 TextMarqueeLoopCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextMarqueeSpeed",
+              "s": "public Int32 TextMarqueeSpeed { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextSelectionColor",
+              "s": "public Color TextSelectionColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextSelectionHandleLeftImage",
+              "s": "public String TextSelectionHandleLeftImage { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextSelectionHandleRightImage",
+              "s": "public String TextSelectionHandleRightImage { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

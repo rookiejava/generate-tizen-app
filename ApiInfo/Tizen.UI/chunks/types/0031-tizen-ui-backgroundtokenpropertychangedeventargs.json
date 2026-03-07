@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "BackgroundTokenPropertyChangedEventArgs",
+          "f": "Tizen.UI.BackgroundTokenPropertyChangedEventArgs",
+          "k": "class",
+          "b": "Tizen.UI.TokenPropertyChangedEventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Create",
+              "s": "public static BackgroundTokenPropertyChangedEventArgs Create(View view, String name, Background background)"
+            },
+            {
+              "k": "method",
+              "n": "get_Background",
+              "s": "public Background get_Background()"
+            },
+            {
+              "k": "method",
+              "n": "set_Background",
+              "s": "public Void set_Background(Background value)"
+            },
+            {
+              "k": "property",
+              "n": "Background",
+              "s": "public Background Background { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

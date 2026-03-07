@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "INavigationAnimation",
+          "f": "Tizen.UI.Components.INavigationAnimation",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushModalAnimation()"
+            },
+            {
+              "k": "property",
+              "n": "PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopModalAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushModalAnimation { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

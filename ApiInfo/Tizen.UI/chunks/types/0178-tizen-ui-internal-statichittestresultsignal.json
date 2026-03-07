@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "StaticHitTestResultSignal",
+          "f": "Tizen.UI.Internal.StaticHitTestResultSignal",
+          "k": "class",
+          "b": "Tizen.UI.Internal.StaticViewSignal",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Connect",
+              "s": "public static Void Connect(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "Disconnect",
+              "s": "public static Void Disconnect(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "GetNativeCallbackPtr",
+              "s": "private static IntPtr GetNativeCallbackPtr()"
+            },
+            {
+              "k": "method",
+              "n": "OnHitTestSignal",
+              "s": "private static Boolean OnHitTestSignal(IntPtr view, IntPtr evt)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

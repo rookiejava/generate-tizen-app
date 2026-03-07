@@ -1,0 +1,158 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "AnimatedImageVisualMap",
+          "f": "Tizen.UI.Components.AnimatedImageVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Internal.ImageVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CacheSize",
+              "s": "public Int32 get_CacheSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FrameSpeedFactor",
+              "s": "public Single get_FrameSpeedFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasValidSequentialResourceUrls",
+              "s": "public Boolean get_HasValidSequentialResourceUrls()"
+            },
+            {
+              "k": "method",
+              "n": "get_PreloadingBatchSize",
+              "s": "public Int32 get_PreloadingBatchSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatCount",
+              "s": "public Int32 get_RepeatCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatMode",
+              "s": "public AnimationRepeatMode get_RepeatMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_SequentialResourceUrls",
+              "s": "public IEnumerable\u003CString\u003E get_SequentialResourceUrls()"
+            },
+            {
+              "k": "method",
+              "n": "get_StopBehavior",
+              "s": "public AnimationStopBehavior get_StopBehavior()"
+            },
+            {
+              "k": "method",
+              "n": "GetImageTypeIndex",
+              "s": "protected Int32 GetImageTypeIndex()"
+            },
+            {
+              "k": "method",
+              "n": "set_CacheSize",
+              "s": "public Void set_CacheSize(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FrameSpeedFactor",
+              "s": "public Void set_FrameSpeedFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PreloadingBatchSize",
+              "s": "public Void set_PreloadingBatchSize(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatCount",
+              "s": "public Void set_RepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatMode",
+              "s": "public Void set_RepeatMode(AnimationRepeatMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SequentialResourceUrls",
+              "s": "public Void set_SequentialResourceUrls(IEnumerable\u003CString\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StopBehavior",
+              "s": "public Void set_StopBehavior(AnimationStopBehavior value)"
+            },
+            {
+              "k": "method",
+              "n": "SetResourceUrlWithSequential",
+              "s": "private Void SetResourceUrlWithSequential()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateResourceUrl",
+              "s": "protected Void UpdateResourceUrl()"
+            },
+            {
+              "k": "property",
+              "n": "CacheSize",
+              "s": "public Int32 CacheSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FrameSpeedFactor",
+              "s": "public Single FrameSpeedFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasValidSequentialResourceUrls",
+              "s": "public Boolean HasValidSequentialResourceUrls { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PreloadingBatchSize",
+              "s": "public Int32 PreloadingBatchSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatCount",
+              "s": "public Int32 RepeatCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatMode",
+              "s": "public AnimationRepeatMode RepeatMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SequentialResourceUrls",
+              "s": "public IEnumerable\u003CString\u003E SequentialResourceUrls { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StopBehavior",
+              "s": "public AnimationStopBehavior StopBehavior { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

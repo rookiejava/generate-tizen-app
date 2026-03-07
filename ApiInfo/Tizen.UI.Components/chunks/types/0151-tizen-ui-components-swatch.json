@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Swatch",
+          "f": "Tizen.UI.Components.Swatch",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Color color, Int32 population)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 colorValue, Int32 population)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 r, Int32 g, Int32 b, Int32 population)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateTextColor",
+              "s": "private static ValueTuple\u003CColor, Color\u003E GenerateTextColor(Int32 colorValue)"
+            },
+            {
+              "k": "method",
+              "n": "get_BodyTextColor",
+              "s": "public Color get_BodyTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColorValue",
+              "s": "private Int32 get_ColorValue()"
+            },
+            {
+              "k": "method",
+              "n": "get_Population",
+              "s": "public Int32 get_Population()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleTextColor",
+              "s": "public Color get_TitleTextColor()"
+            },
+            {
+              "k": "property",
+              "n": "BodyTextColor",
+              "s": "public Color BodyTextColor { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ColorValue",
+              "s": "private Int32 ColorValue { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Population",
+              "s": "public Int32 Population { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleTextColor",
+              "s": "public Color TitleTextColor { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

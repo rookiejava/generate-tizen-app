@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IThemeLoader",
+          "f": "Tizen.UI.Components.IThemeLoader",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "ThemeChanged",
+              "s": "public event EventHandler ThemeChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_ThemeChanged",
+              "s": "public Void add_ThemeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentResourcePath",
+              "s": "public String get_CurrentResourcePath()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentThemeId",
+              "s": "public String get_CurrentThemeId()"
+            },
+            {
+              "k": "method",
+              "n": "LoadColorTable",
+              "s": "public IDictionary\u003CString, Color\u003E LoadColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "remove_ThemeChanged",
+              "s": "public Void remove_ThemeChanged(EventHandler value)"
+            },
+            {
+              "k": "property",
+              "n": "CurrentResourcePath",
+              "s": "public String CurrentResourcePath { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentThemeId",
+              "s": "public String CurrentThemeId { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "RenderPropertyNotificationSignal",
+          "f": "Tizen.UI.Internal.RenderPropertyNotificationSignal",
+          "k": "class",
+          "b": "Tizen.UI.Internal.SingleIntPtrSignal",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Connect",
+              "s": "protected Void Connect(IntPtr handle, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "Disconnect",
+              "s": "protected Void Disconnect(IntPtr handle, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

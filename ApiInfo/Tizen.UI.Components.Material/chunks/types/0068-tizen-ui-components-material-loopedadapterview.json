@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LoopedAdapterView",
+          "f": "Tizen.UI.Components.Material.LoopedAdapterView",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.AdapterView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureAdapter",
+              "s": "protected Void EnsureAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateIsLooped",
+              "s": "private Void UpdateIsLooped()"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "ILayout",
+          "f": "Tizen.UI.Layouts.ILayout",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutDirection",
+              "s": "public LayoutDirection get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutParam",
+              "s": "public LayoutParam get_LayoutParam()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutDirection",
+              "s": "public LayoutDirection LayoutDirection { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutParam",
+              "s": "public LayoutParam LayoutParam { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

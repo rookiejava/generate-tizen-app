@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIStateConnectingProperty\u00601",
+          "f": "Tizen.UI.Components.UIStateConnectingProperty\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Func\u003CTView, Boolean\u003E getter, Action\u003CTView, EventHandler\u003E addObserver, Action\u003CTView, EventHandler\u003E removeObserver)"
+            },
+            {
+              "k": "method",
+              "n": "get_AddObserver",
+              "s": "public Action\u003CTView, EventHandler\u003E get_AddObserver()"
+            },
+            {
+              "k": "method",
+              "n": "get_Getter",
+              "s": "public Func\u003CTView, Boolean\u003E get_Getter()"
+            },
+            {
+              "k": "method",
+              "n": "get_RemoveObserver",
+              "s": "public Action\u003CTView, EventHandler\u003E get_RemoveObserver()"
+            },
+            {
+              "k": "method",
+              "n": "set_AddObserver",
+              "s": "private Void set_AddObserver(Action\u003CTView, EventHandler\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Getter",
+              "s": "private Void set_Getter(Func\u003CTView, Boolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RemoveObserver",
+              "s": "private Void set_RemoveObserver(Action\u003CTView, EventHandler\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "AddObserver",
+              "s": "public Action\u003CTView, EventHandler\u003E AddObserver { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Getter",
+              "s": "public Func\u003CTView, Boolean\u003E Getter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RemoveObserver",
+              "s": "public Action\u003CTView, EventHandler\u003E RemoveObserver { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

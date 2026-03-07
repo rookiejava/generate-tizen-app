@@ -1,0 +1,475 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AlertDialogVariables",
+          "f": "Tizen.UI.Components.Material.AlertDialogVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.AlertDialogVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(AlertDialogVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "AlertDialogVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(AlertDialogVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonBackgroundColor",
+              "s": "public Color get_ActionButtonBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonCornerRadius",
+              "s": "public CornerRadius get_ActionButtonCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonFontFamily",
+              "s": "public String get_ActionButtonFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonFontSize",
+              "s": "public Single get_ActionButtonFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonMinimumHeight",
+              "s": "public Single get_ActionButtonMinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonMinimumWidth",
+              "s": "public Single get_ActionButtonMinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonPadding",
+              "s": "public Thickness get_ActionButtonPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonSpacing",
+              "s": "public Single get_ActionButtonSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonTextColor",
+              "s": "public Color get_ActionButtonTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BodyPadding",
+              "s": "public Thickness get_BodyPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static AlertDialogVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultWidth",
+              "s": "public Single get_DefaultWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FooterPadding",
+              "s": "public Thickness get_FooterPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeaderPadding",
+              "s": "public Thickness get_HeaderPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_MessageFontFamily",
+              "s": "public String get_MessageFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_MessageFontSize",
+              "s": "public Single get_MessageFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_MessageTextColor",
+              "s": "public Color get_MessageTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontFamily",
+              "s": "public String get_TitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontSize",
+              "s": "public Single get_TitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleTextColor",
+              "s": "public Color get_TitleTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(AlertDialogVariables left, AlertDialogVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(AlertDialogVariables left, AlertDialogVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonBackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonMinimumHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonMinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonMinimumWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonMinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonTextColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ActionButtonTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BodyPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BodyPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FooterPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FooterPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeaderPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HeaderPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MessageFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MessageFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MessageFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MessageFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MessageTextColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MessageTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleTextColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonBackgroundColor",
+              "s": "public Color ActionButtonBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonCornerRadius",
+              "s": "public CornerRadius ActionButtonCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonFontFamily",
+              "s": "public String ActionButtonFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonFontSize",
+              "s": "public Single ActionButtonFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonMinimumHeight",
+              "s": "public Single ActionButtonMinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonMinimumWidth",
+              "s": "public Single ActionButtonMinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonPadding",
+              "s": "public Thickness ActionButtonPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonSpacing",
+              "s": "public Single ActionButtonSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonTextColor",
+              "s": "public Color ActionButtonTextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BodyPadding",
+              "s": "public Thickness BodyPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public AlertDialogVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultWidth",
+              "s": "public Single DefaultWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FooterPadding",
+              "s": "public Thickness FooterPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeaderPadding",
+              "s": "public Thickness HeaderPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MessageFontFamily",
+              "s": "public String MessageFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MessageFontSize",
+              "s": "public Single MessageFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MessageTextColor",
+              "s": "public Color MessageTextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontFamily",
+              "s": "public String TitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontSize",
+              "s": "public Single TitleFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleTextColor",
+              "s": "public Color TitleTextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "VisibilityChangedEventArgs",
+          "f": "Tizen.UI.VisibilityChangedEventArgs",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ChangedByParent",
+              "s": "public Boolean get_ChangedByParent()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAggregatedChange",
+              "s": "public Boolean get_IsAggregatedChange()"
+            },
+            {
+              "k": "method",
+              "n": "get_Visibility",
+              "s": "public Boolean get_Visibility()"
+            },
+            {
+              "k": "method",
+              "n": "set_ChangedByParent",
+              "s": "public Void set_ChangedByParent(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsAggregatedChange",
+              "s": "public Void set_IsAggregatedChange(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Visibility",
+              "s": "public Void set_Visibility(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "ChangedByParent",
+              "s": "public Boolean ChangedByParent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAggregatedChange",
+              "s": "public Boolean IsAggregatedChange { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Visibility",
+              "s": "public Boolean Visibility { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

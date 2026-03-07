@@ -1,0 +1,2151 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "View",
+          "f": "Tizen.UI.View",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [
+            "Tizen.UI.Internal.IViewSignalHandler"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_attachedToWindow",
+              "s": "private event EventHandler _attachedToWindow"
+            },
+            {
+              "k": "event",
+              "n": "_detachedFromWindow",
+              "s": "private event EventHandler _detachedFromWindow"
+            },
+            {
+              "k": "event",
+              "n": "_focused",
+              "s": "private event EventHandler _focused"
+            },
+            {
+              "k": "event",
+              "n": "_hoverEvent",
+              "s": "private event EventHandler\u003CHoverEventArgs\u003E _hoverEvent"
+            },
+            {
+              "k": "event",
+              "n": "_interceptTouchEvent",
+              "s": "private event EventHandler\u003CTouchEventArgs\u003E _interceptTouchEvent"
+            },
+            {
+              "k": "event",
+              "n": "_interceptWheelEvent",
+              "s": "private event EventHandler\u003CWheelEventArgs\u003E _interceptWheelEvent"
+            },
+            {
+              "k": "event",
+              "n": "_keyEvent",
+              "s": "private event EventHandler\u003CKeyEventArgs\u003E _keyEvent"
+            },
+            {
+              "k": "event",
+              "n": "_layoutDirectionChanged",
+              "s": "private event EventHandler _layoutDirectionChanged"
+            },
+            {
+              "k": "event",
+              "n": "_relayout",
+              "s": "private event EventHandler _relayout"
+            },
+            {
+              "k": "event",
+              "n": "_touchEvent",
+              "s": "private event EventHandler\u003CTouchEventArgs\u003E _touchEvent"
+            },
+            {
+              "k": "event",
+              "n": "_unfocused",
+              "s": "private event EventHandler _unfocused"
+            },
+            {
+              "k": "event",
+              "n": "_visibilityChanged",
+              "s": "private event EventHandler\u003CVisibilityChangedEventArgs\u003E _visibilityChanged"
+            },
+            {
+              "k": "event",
+              "n": "_wheelEvent",
+              "s": "private event EventHandler\u003CWheelEventArgs\u003E _wheelEvent"
+            },
+            {
+              "k": "event",
+              "n": "AccessibilityActionReceived",
+              "s": "public event EventHandler\u003CAccessibilityActionReceivedEventArgs\u003E AccessibilityActionReceived"
+            },
+            {
+              "k": "event",
+              "n": "AccessibilityDescriptionRequested",
+              "s": "public event EventHandler\u003CAccessibilityDescriptionRequestedEventArgs\u003E AccessibilityDescriptionRequested"
+            },
+            {
+              "k": "event",
+              "n": "AccessibilityHighlightChanged",
+              "s": "public event EventHandler\u003CAccessibilityHighlightChangedEventArgs\u003E AccessibilityHighlightChanged"
+            },
+            {
+              "k": "event",
+              "n": "AccessibilityNameRequested",
+              "s": "public event EventHandler\u003CAccessibilityNameRequestedEventArgs\u003E AccessibilityNameRequested"
+            },
+            {
+              "k": "event",
+              "n": "AttachedToWindow",
+              "s": "public event EventHandler AttachedToWindow"
+            },
+            {
+              "k": "event",
+              "n": "DetachedFromWindow",
+              "s": "public event EventHandler DetachedFromWindow"
+            },
+            {
+              "k": "event",
+              "n": "Disposing",
+              "s": "public event EventHandler Disposing"
+            },
+            {
+              "k": "event",
+              "n": "EnabledChanged",
+              "s": "public event EventHandler EnabledChanged"
+            },
+            {
+              "k": "event",
+              "n": "Focused",
+              "s": "public event EventHandler Focused"
+            },
+            {
+              "k": "event",
+              "n": "HoverEvent",
+              "s": "public event EventHandler\u003CHoverEventArgs\u003E HoverEvent"
+            },
+            {
+              "k": "event",
+              "n": "InterceptTouchEvent",
+              "s": "public event EventHandler\u003CTouchEventArgs\u003E InterceptTouchEvent"
+            },
+            {
+              "k": "event",
+              "n": "InterceptWheelEvent",
+              "s": "public event EventHandler\u003CWheelEventArgs\u003E InterceptWheelEvent"
+            },
+            {
+              "k": "event",
+              "n": "KeyEvent",
+              "s": "public event EventHandler\u003CKeyEventArgs\u003E KeyEvent"
+            },
+            {
+              "k": "event",
+              "n": "LayoutDirectionChanged",
+              "s": "public event EventHandler LayoutDirectionChanged"
+            },
+            {
+              "k": "event",
+              "n": "MeasureInvalidated",
+              "s": "public event EventHandler MeasureInvalidated"
+            },
+            {
+              "k": "event",
+              "n": "Relayout",
+              "s": "public event EventHandler Relayout"
+            },
+            {
+              "k": "event",
+              "n": "TokenPropertyChanged",
+              "s": "public event EventHandler\u003CTokenPropertyChangedEventArgs\u003E TokenPropertyChanged"
+            },
+            {
+              "k": "event",
+              "n": "TouchEvent",
+              "s": "public event EventHandler\u003CTouchEventArgs\u003E TouchEvent"
+            },
+            {
+              "k": "event",
+              "n": "Unfocused",
+              "s": "public event EventHandler Unfocused"
+            },
+            {
+              "k": "event",
+              "n": "VisibilityChanged",
+              "s": "public event EventHandler\u003CVisibilityChangedEventArgs\u003E VisibilityChanged"
+            },
+            {
+              "k": "event",
+              "n": "WheelEvent",
+              "s": "public event EventHandler\u003CWheelEventArgs\u003E WheelEvent"
+            },
+            {
+              "k": "method",
+              "n": "\u003COnVisibilityChanged\u003Eg__AggregatedParentVisibility|361_0",
+              "s": "internal static Boolean \u003COnVisibilityChanged\u003Eg__AggregatedParentVisibility|361_0(View view)"
+            },
+            {
+              "k": "method",
+              "n": "add__attachedToWindow",
+              "s": "private Void add__attachedToWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__detachedFromWindow",
+              "s": "private Void add__detachedFromWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__focused",
+              "s": "private Void add__focused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__hoverEvent",
+              "s": "private Void add__hoverEvent(EventHandler\u003CHoverEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__interceptTouchEvent",
+              "s": "private Void add__interceptTouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__interceptWheelEvent",
+              "s": "private Void add__interceptWheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__keyEvent",
+              "s": "private Void add__keyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__layoutDirectionChanged",
+              "s": "private Void add__layoutDirectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__relayout",
+              "s": "private Void add__relayout(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__touchEvent",
+              "s": "private Void add__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__unfocused",
+              "s": "private Void add__unfocused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__visibilityChanged",
+              "s": "private Void add__visibilityChanged(EventHandler\u003CVisibilityChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add__wheelEvent",
+              "s": "private Void add__wheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_AccessibilityActionReceived",
+              "s": "public Void add_AccessibilityActionReceived(EventHandler\u003CAccessibilityActionReceivedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_AccessibilityDescriptionRequested",
+              "s": "public Void add_AccessibilityDescriptionRequested(EventHandler\u003CAccessibilityDescriptionRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_AccessibilityHighlightChanged",
+              "s": "public Void add_AccessibilityHighlightChanged(EventHandler\u003CAccessibilityHighlightChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_AccessibilityNameRequested",
+              "s": "public Void add_AccessibilityNameRequested(EventHandler\u003CAccessibilityNameRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_AttachedToWindow",
+              "s": "public Void add_AttachedToWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DetachedFromWindow",
+              "s": "public Void add_DetachedFromWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Disposing",
+              "s": "public Void add_Disposing(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_EnabledChanged",
+              "s": "public Void add_EnabledChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Focused",
+              "s": "public Void add_Focused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_HoverEvent",
+              "s": "public Void add_HoverEvent(EventHandler\u003CHoverEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_InterceptTouchEvent",
+              "s": "public Void add_InterceptTouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_InterceptWheelEvent",
+              "s": "public Void add_InterceptWheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_KeyEvent",
+              "s": "public Void add_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_LayoutDirectionChanged",
+              "s": "public Void add_LayoutDirectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_MeasureInvalidated",
+              "s": "public Void add_MeasureInvalidated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Relayout",
+              "s": "public Void add_Relayout(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TokenPropertyChanged",
+              "s": "public static Void add_TokenPropertyChanged(EventHandler\u003CTokenPropertyChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TouchEvent",
+              "s": "public Void add_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Unfocused",
+              "s": "public Void add_Unfocused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_VisibilityChanged",
+              "s": "public Void add_VisibilityChanged(EventHandler\u003CVisibilityChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_WheelEvent",
+              "s": "public Void add_WheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddGestureDetector",
+              "s": "internal Void AddGestureDetector(GestureDetector detector)"
+            },
+            {
+              "k": "method",
+              "n": "AddRenderNotification",
+              "s": "public Void AddRenderNotification(RenderNotificationKey key, Action action)"
+            },
+            {
+              "k": "method",
+              "n": "ClearAttached",
+              "s": "public Void ClearAttached\u003CT\u003E()"
+            },
+            {
+              "k": "method",
+              "n": "ClearBackground",
+              "s": "public Void ClearBackground()"
+            },
+            {
+              "k": "method",
+              "n": "ClearInnerShadow",
+              "s": "public Void ClearInnerShadow()"
+            },
+            {
+              "k": "method",
+              "n": "ClearShadow",
+              "s": "public Void ClearShadow()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "DoAction",
+              "s": "protected Void DoAction(Int32 visualIdx, Int32 actionId)"
+            },
+            {
+              "k": "method",
+              "n": "DoAction",
+              "s": "protected Void DoAction(Int32 visualIdx, Int32 actionId, PropertyValueHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureAccessibilityData",
+              "s": "private AccessibilityData EnsureAccessibilityData()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureBackgroundVisual",
+              "s": "private Void EnsureBackgroundVisual()"
+            },
+            {
+              "k": "method",
+              "n": "FindViewById",
+              "s": "public static View FindViewById(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityDescription",
+              "s": "public String get_AccessibilityDescription()"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityHidden",
+              "s": "public Boolean get_AccessibilityHidden()"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityHighlightable",
+              "s": "public Boolean get_AccessibilityHighlightable()"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityName",
+              "s": "public String get_AccessibilityName()"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityRole",
+              "s": "public AccessibilityRole get_AccessibilityRole()"
+            },
+            {
+              "k": "method",
+              "n": "get_AccessibilityValue",
+              "s": "public String get_AccessibilityValue()"
+            },
+            {
+              "k": "method",
+              "n": "get_AllowOnlyOwnTouch",
+              "s": "private Boolean get_AllowOnlyOwnTouch()"
+            },
+            {
+              "k": "method",
+              "n": "get_AutomationId",
+              "s": "public String get_AutomationId()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineColor",
+              "s": "public Color get_BorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineOffset",
+              "s": "public Single get_BorderlineOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineWidth",
+              "s": "public Single get_BorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Bounds",
+              "s": "public Rect get_Bounds()"
+            },
+            {
+              "k": "method",
+              "n": "get_CaptureTouchEnabled",
+              "s": "private Boolean get_CaptureTouchEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_ClippingMode",
+              "s": "public ClippingMode get_ClippingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentOpacity",
+              "s": "public Single get_CurrentOpacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentPosition",
+              "s": "public Point get_CurrentPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentScale",
+              "s": "public Size get_CurrentScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentScreenPosition",
+              "s": "public Point get_CurrentScreenPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentSize",
+              "s": "public Size get_CurrentSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_DisallowInterceptTouchEvent",
+              "s": "public Boolean get_DisallowInterceptTouchEvent()"
+            },
+            {
+              "k": "method",
+              "n": "get_DownFocusableView",
+              "s": "public View get_DownFocusableView()"
+            },
+            {
+              "k": "method",
+              "n": "get_Focusable",
+              "s": "public Boolean get_Focusable()"
+            },
+            {
+              "k": "method",
+              "n": "get_FocusableChildren",
+              "s": "public Boolean get_FocusableChildren()"
+            },
+            {
+              "k": "method",
+              "n": "get_FocusableInTouch",
+              "s": "public Boolean get_FocusableInTouch()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasTokenHandler",
+              "s": "protected static Boolean get_HasTokenHandler()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeightResizePolicy",
+              "s": "public ResizePolicy get_HeightResizePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_ID",
+              "s": "public UInt32 get_ID()"
+            },
+            {
+              "k": "method",
+              "n": "get_InheritLayoutDirection",
+              "s": "public Boolean get_InheritLayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEnabled",
+              "s": "public Boolean get_IsEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsOnWindow",
+              "s": "public Boolean get_IsOnWindow()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(String name)"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutDirection",
+              "s": "public LayoutDirection get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_LeaveRequired",
+              "s": "private Boolean get_LeaveRequired()"
+            },
+            {
+              "k": "method",
+              "n": "get_LeftFocusableView",
+              "s": "public View get_LeftFocusableView()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_NaturalSize",
+              "s": "public Size get_NaturalSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_OffScreenRendering",
+              "s": "public OffScreenRendering get_OffScreenRendering()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Parent",
+              "s": "public View get_Parent()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentObject",
+              "s": "public NObject get_ParentObject()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentOrigin",
+              "s": "public Point get_ParentOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentOriginX",
+              "s": "public Single get_ParentOriginX()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentOriginY",
+              "s": "public Single get_ParentOriginY()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public Point get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPointX",
+              "s": "public Single get_PivotPointX()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPointY",
+              "s": "public Single get_PivotPointY()"
+            },
+            {
+              "k": "method",
+              "n": "get_PositionUsesPivotPoint",
+              "s": "public Boolean get_PositionUsesPivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_RightFocusableView",
+              "s": "public View get_RightFocusableView()"
+            },
+            {
+              "k": "method",
+              "n": "get_Rotation",
+              "s": "public Single get_Rotation()"
+            },
+            {
+              "k": "method",
+              "n": "get_RotationX",
+              "s": "public Single get_RotationX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RotationY",
+              "s": "public Single get_RotationY()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScaleX",
+              "s": "public Single get_ScaleX()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScaleY",
+              "s": "public Single get_ScaleY()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenPosition",
+              "s": "public Point get_ScreenPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_Sensitive",
+              "s": "public Boolean get_Sensitive()"
+            },
+            {
+              "k": "method",
+              "n": "get_TouchEdgeInsets",
+              "s": "public Thickness get_TouchEdgeInsets()"
+            },
+            {
+              "k": "method",
+              "n": "get_UpFocusableView",
+              "s": "public View get_UpFocusableView()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_WidthResizePolicy",
+              "s": "public ResizePolicy get_WidthResizePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_WorldScale",
+              "s": "public Size get_WorldScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "GetAttached",
+              "s": "public T GetAttached\u003CT\u003E()"
+            },
+            {
+              "k": "method",
+              "n": "GetDescendant",
+              "s": "public View GetDescendant(String name)"
+            },
+            {
+              "k": "method",
+              "n": "GetDescendant",
+              "s": "public View GetDescendant(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetLayer",
+              "s": "public Layer GetLayer()"
+            },
+            {
+              "k": "method",
+              "n": "HasBackgroundVisual",
+              "s": "protected Boolean HasBackgroundVisual()"
+            },
+            {
+              "k": "method",
+              "n": "HasFocus",
+              "s": "public Boolean HasFocus()"
+            },
+            {
+              "k": "method",
+              "n": "Lower",
+              "s": "public Void Lower()"
+            },
+            {
+              "k": "method",
+              "n": "LowerBelow",
+              "s": "public Void LowerBelow(View target)"
+            },
+            {
+              "k": "method",
+              "n": "LowerToBottom",
+              "s": "public Void LowerToBottom()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnAggregatedVisibilityChanged",
+              "s": "private Void OnAggregatedVisibilityChanged(IntPtr data, Boolean visibility)"
+            },
+            {
+              "k": "method",
+              "n": "OnAttached",
+              "s": "private Void OnAttached(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetached",
+              "s": "private Void OnDetached(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnEnabled",
+              "s": "protected Void OnEnabled(Boolean enabled)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocused",
+              "s": "private Void OnFocused(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnHitTest",
+              "s": "protected Boolean OnHitTest(TouchEvent touch)"
+            },
+            {
+              "k": "method",
+              "n": "OnHitTest",
+              "s": "private Boolean OnHitTest(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnHoverEvent",
+              "s": "private Boolean OnHoverEvent(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEvent",
+              "s": "private Boolean OnInterceptTouchEvent(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptWheelEvent",
+              "s": "private Boolean OnInterceptWheelEvent(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Boolean OnKeyEvent(IntPtr view, IntPtr keyEvt)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutDirectionChanged",
+              "s": "private Void OnLayoutDirectionChanged(IntPtr data, Int32 direction)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidatedOverride",
+              "s": "protected Void OnMeasureInvalidatedOverride()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Boolean OnTouchEvent(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "OnUnfocused",
+              "s": "private Void OnUnfocused(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChanged",
+              "s": "private Void OnVisibilityChanged(IntPtr data, Boolean visibility, Int32 type)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheelEvent",
+              "s": "private Boolean OnWheelEvent(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "PropagateDisallowInterceptTouchEvent",
+              "s": "private static Void PropagateDisallowInterceptTouchEvent(View parent, Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "Raise",
+              "s": "public Void Raise()"
+            },
+            {
+              "k": "method",
+              "n": "RaiseAbove",
+              "s": "public Void RaiseAbove(View target)"
+            },
+            {
+              "k": "method",
+              "n": "RaiseToTop",
+              "s": "public Void RaiseToTop()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "remove__attachedToWindow",
+              "s": "private Void remove__attachedToWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__detachedFromWindow",
+              "s": "private Void remove__detachedFromWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__focused",
+              "s": "private Void remove__focused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__hoverEvent",
+              "s": "private Void remove__hoverEvent(EventHandler\u003CHoverEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__interceptTouchEvent",
+              "s": "private Void remove__interceptTouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__interceptWheelEvent",
+              "s": "private Void remove__interceptWheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__keyEvent",
+              "s": "private Void remove__keyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__layoutDirectionChanged",
+              "s": "private Void remove__layoutDirectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__relayout",
+              "s": "private Void remove__relayout(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__touchEvent",
+              "s": "private Void remove__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__unfocused",
+              "s": "private Void remove__unfocused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__visibilityChanged",
+              "s": "private Void remove__visibilityChanged(EventHandler\u003CVisibilityChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__wheelEvent",
+              "s": "private Void remove__wheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AccessibilityActionReceived",
+              "s": "public Void remove_AccessibilityActionReceived(EventHandler\u003CAccessibilityActionReceivedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AccessibilityDescriptionRequested",
+              "s": "public Void remove_AccessibilityDescriptionRequested(EventHandler\u003CAccessibilityDescriptionRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AccessibilityHighlightChanged",
+              "s": "public Void remove_AccessibilityHighlightChanged(EventHandler\u003CAccessibilityHighlightChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AccessibilityNameRequested",
+              "s": "public Void remove_AccessibilityNameRequested(EventHandler\u003CAccessibilityNameRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_AttachedToWindow",
+              "s": "public Void remove_AttachedToWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DetachedFromWindow",
+              "s": "public Void remove_DetachedFromWindow(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Disposing",
+              "s": "public Void remove_Disposing(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_EnabledChanged",
+              "s": "public Void remove_EnabledChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Focused",
+              "s": "public Void remove_Focused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_HoverEvent",
+              "s": "public Void remove_HoverEvent(EventHandler\u003CHoverEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_InterceptTouchEvent",
+              "s": "public Void remove_InterceptTouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_InterceptWheelEvent",
+              "s": "public Void remove_InterceptWheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_KeyEvent",
+              "s": "public Void remove_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_LayoutDirectionChanged",
+              "s": "public Void remove_LayoutDirectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_MeasureInvalidated",
+              "s": "public Void remove_MeasureInvalidated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Relayout",
+              "s": "public Void remove_Relayout(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TokenPropertyChanged",
+              "s": "public static Void remove_TokenPropertyChanged(EventHandler\u003CTokenPropertyChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TouchEvent",
+              "s": "public Void remove_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Unfocused",
+              "s": "public Void remove_Unfocused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_VisibilityChanged",
+              "s": "public Void remove_VisibilityChanged(EventHandler\u003CVisibilityChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_WheelEvent",
+              "s": "public Void remove_WheelEvent(EventHandler\u003CWheelEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveGestureDetector",
+              "s": "internal Void RemoveGestureDetector(GestureDetector detector)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveRenderNotification",
+              "s": "public Void RemoveRenderNotification(RenderNotificationKey key, Action action)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveRenderNotification",
+              "s": "public Void RemoveRenderNotification(RenderNotificationKey key)"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidated",
+              "s": "public Void SendMeasureInvalidated()"
+            },
+            {
+              "k": "method",
+              "n": "SendTokenPropertyChanged",
+              "s": "protected static Void SendTokenPropertyChanged(TokenPropertyChangedEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityDescription",
+              "s": "public Void set_AccessibilityDescription(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityHidden",
+              "s": "public Void set_AccessibilityHidden(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityHighlightable",
+              "s": "public Void set_AccessibilityHighlightable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityName",
+              "s": "public Void set_AccessibilityName(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityRole",
+              "s": "public Void set_AccessibilityRole(AccessibilityRole value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AccessibilityValue",
+              "s": "public Void set_AccessibilityValue(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AllowOnlyOwnTouch",
+              "s": "private Void set_AllowOnlyOwnTouch(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutomationId",
+              "s": "public Void set_AutomationId(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineColor",
+              "s": "public Void set_BorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineOffset",
+              "s": "public Void set_BorderlineOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineWidth",
+              "s": "public Void set_BorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CaptureTouchEnabled",
+              "s": "private Void set_CaptureTouchEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ClippingMode",
+              "s": "public Void set_ClippingMode(ClippingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredHeight",
+              "s": "public Void set_DesiredHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredWidth",
+              "s": "public Void set_DesiredWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DisallowInterceptTouchEvent",
+              "s": "public Void set_DisallowInterceptTouchEvent(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DownFocusableView",
+              "s": "public Void set_DownFocusableView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Focusable",
+              "s": "public Void set_Focusable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FocusableChildren",
+              "s": "public Void set_FocusableChildren(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FocusableInTouch",
+              "s": "public Void set_FocusableInTouch(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeightResizePolicy",
+              "s": "public Void set_HeightResizePolicy(ResizePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InheritLayoutDirection",
+              "s": "public Void set_InheritLayoutDirection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsEnabled",
+              "s": "public Void set_IsEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutDirection",
+              "s": "public Void set_LayoutDirection(LayoutDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LeaveRequired",
+              "s": "private Void set_LeaveRequired(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LeftFocusableView",
+              "s": "public Void set_LeftFocusableView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OffScreenRendering",
+              "s": "public Void set_OffScreenRendering(OffScreenRendering value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParentOrigin",
+              "s": "public Void set_ParentOrigin(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParentOriginX",
+              "s": "public Void set_ParentOriginX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParentOriginY",
+              "s": "public Void set_ParentOriginY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPointX",
+              "s": "public Void set_PivotPointX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPointY",
+              "s": "public Void set_PivotPointY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PositionUsesPivotPoint",
+              "s": "public Void set_PositionUsesPivotPoint(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RightFocusableView",
+              "s": "public Void set_RightFocusableView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Rotation",
+              "s": "public Void set_Rotation(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RotationX",
+              "s": "public Void set_RotationX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RotationY",
+              "s": "public Void set_RotationY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScaleX",
+              "s": "public Void set_ScaleX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScaleY",
+              "s": "public Void set_ScaleY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Sensitive",
+              "s": "public Void set_Sensitive(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TouchEdgeInsets",
+              "s": "public Void set_TouchEdgeInsets(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UpFocusableView",
+              "s": "public Void set_UpFocusableView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WidthResizePolicy",
+              "s": "public Void set_WidthResizePolicy(ResizePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityRelation",
+              "s": "public Void SetAccessibilityRelation(AccessibilityRelation relation, View view)"
+            },
+            {
+              "k": "method",
+              "n": "SetAttached",
+              "s": "public Void SetAttached\u003CT\u003E(T value)"
+            },
+            {
+              "k": "method",
+              "n": "SetBackground",
+              "s": "public Void SetBackground(Background background)"
+            },
+            {
+              "k": "method",
+              "n": "SetInnerShadow",
+              "s": "public Void SetInnerShadow(InnerShadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "SetOffscreenRendering",
+              "s": "protected Void SetOffscreenRendering(OffScreenRendering mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetRenderEffect",
+              "s": "public Void SetRenderEffect(RenderEffect effect)"
+            },
+            {
+              "k": "method",
+              "n": "SetResizePolicyFactor",
+              "s": "public Void SetResizePolicyFactor(Size factor)"
+            },
+            {
+              "k": "method",
+              "n": "SetShadow",
+              "s": "public Void SetShadow(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnAggregatedVisibilityChangedSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnAggregatedVisibilityChangedSignal(IntPtr data, Boolean visibility)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnFocusedSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnFocusedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnHitTestSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnHitTestSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnHoverEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnHoverEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnInterceptTouchEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnInterceptTouchEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnInterceptWheelEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnInterceptWheelEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnKeyEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnKeyEventSignal(IntPtr view, IntPtr keyEvt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnLayoutDirectionChangedSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnLayoutDirectionChangedSignal(IntPtr data, Int32 direction)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnOffSceneSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnOffSceneSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnRelayoutSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnRelayoutSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnSceneSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnSceneSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnTouchEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnTouchEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnUnfocusedSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnUnfocusedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnVisibilityChangedSignal",
+              "s": "Void Tizen.UI.Internal.IViewSignalHandler.OnVisibilityChangedSignal(IntPtr data, Boolean visibility, Int32 type)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IViewSignalHandler.OnWheelEventSignal",
+              "s": "Boolean Tizen.UI.Internal.IViewSignalHandler.OnWheelEventSignal(IntPtr view, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBackgroundExtra",
+              "s": "private static Void UpdateBackgroundExtra(PropertyMapHandle map, Color borderlineColor, Single borderlineWidth, Single borderlineOffset, CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBackgroundProperty",
+              "s": "protected Void UpdateBackgroundProperty(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBorderProperty",
+              "s": "protected Void UpdateBorderProperty()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateCornerRadiusProperty",
+              "s": "protected Void UpdateCornerRadiusProperty(CornerRadius cornerRadius)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateRotation",
+              "s": "private Void UpdateRotation()"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityDescription",
+              "s": "public String AccessibilityDescription { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityHidden",
+              "s": "public Boolean AccessibilityHidden { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityHighlightable",
+              "s": "public Boolean AccessibilityHighlightable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityName",
+              "s": "public String AccessibilityName { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityRole",
+              "s": "public AccessibilityRole AccessibilityRole { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AccessibilityValue",
+              "s": "public String AccessibilityValue { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AllowOnlyOwnTouch",
+              "s": "private Boolean AllowOnlyOwnTouch { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AutomationId",
+              "s": "public String AutomationId { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineColor",
+              "s": "public Color BorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineOffset",
+              "s": "public Single BorderlineOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineWidth",
+              "s": "public Single BorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Bounds",
+              "s": "public Rect Bounds { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CaptureTouchEnabled",
+              "s": "private Boolean CaptureTouchEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ClippingMode",
+              "s": "public ClippingMode ClippingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentOpacity",
+              "s": "public Single CurrentOpacity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentPosition",
+              "s": "public Point CurrentPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentScale",
+              "s": "public Size CurrentScale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentScreenPosition",
+              "s": "public Point CurrentScreenPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentSize",
+              "s": "public Size CurrentSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DisallowInterceptTouchEvent",
+              "s": "public Boolean DisallowInterceptTouchEvent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DownFocusableView",
+              "s": "public View DownFocusableView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Focusable",
+              "s": "public Boolean Focusable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FocusableChildren",
+              "s": "public Boolean FocusableChildren { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FocusableInTouch",
+              "s": "public Boolean FocusableInTouch { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasTokenHandler",
+              "s": "protected Boolean HasTokenHandler { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeightResizePolicy",
+              "s": "public ResizePolicy HeightResizePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ID",
+              "s": "public UInt32 ID { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InheritLayoutDirection",
+              "s": "public Boolean InheritLayoutDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsEnabled",
+              "s": "public Boolean IsEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsOnWindow",
+              "s": "public Boolean IsOnWindow { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutDirection",
+              "s": "public LayoutDirection LayoutDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LeaveRequired",
+              "s": "private Boolean LeaveRequired { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LeftFocusableView",
+              "s": "public View LeftFocusableView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NaturalSize",
+              "s": "public Size NaturalSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "OffScreenRendering",
+              "s": "public OffScreenRendering OffScreenRendering { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Parent",
+              "s": "public View Parent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentObject",
+              "s": "public NObject ParentObject { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentOrigin",
+              "s": "public Point ParentOrigin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentOriginX",
+              "s": "public Single ParentOriginX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentOriginY",
+              "s": "public Single ParentOriginY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public Point PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPointX",
+              "s": "public Single PivotPointX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPointY",
+              "s": "public Single PivotPointY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PositionUsesPivotPoint",
+              "s": "public Boolean PositionUsesPivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RightFocusableView",
+              "s": "public View RightFocusableView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Rotation",
+              "s": "public Single Rotation { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RotationX",
+              "s": "public Single RotationX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RotationY",
+              "s": "public Single RotationY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScaleX",
+              "s": "public Single ScaleX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScaleY",
+              "s": "public Single ScaleY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenPosition",
+              "s": "public Point ScreenPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Sensitive",
+              "s": "public Boolean Sensitive { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TouchEdgeInsets",
+              "s": "public Thickness TouchEdgeInsets { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UpFocusableView",
+              "s": "public View UpFocusableView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WidthResizePolicy",
+              "s": "public ResizePolicy WidthResizePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WorldScale",
+              "s": "public Size WorldScale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityIsModal",
+      "s": "public static Boolean GetAccessibilityIsModal(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityIsScrollable",
+      "s": "public static Boolean GetAccessibilityIsScrollable(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityStates",
+      "s": "public static AccessibilityStates GetAccessibilityStates(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityValue",
+      "s": "public static String GetAccessibilityValue(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityAttributes",
+      "s": "public static Void SetAccessibilityAttributes(View view, IDictionary\u003CString, String\u003E attributes)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityIsModal",
+      "s": "public static Void SetAccessibilityIsModal(View view, Boolean modal)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityIsScrollable",
+      "s": "public static Void SetAccessibilityIsScrollable(View view, Boolean scrollable)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityStates",
+      "s": "public static Void SetAccessibilityStates(View view, AccessibilityStates states)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityValue",
+      "s": "public static Void SetAccessibilityValue(View view, String value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UpdateAccessibilityStates",
+      "s": "public static Void UpdateAccessibilityStates(View view, AccessibilityState state, Boolean beAdded)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AnimateTo",
+      "s": "public static Task AnimateTo(View view, AnimatablePropertyValue value, Int32 duration)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "MoveTo",
+      "s": "public static Task MoveTo(View view, Single x, Single y, Int32 duration)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "RotateTo",
+      "s": "public static Task RotateTo(View view, Single rotate, Int32 duration)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BindingSession",
+      "s": "public static BindingSession\u003CTViewModel\u003E BindingSession\u003CTViewModel\u003E(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetBinding",
+      "s": "public static View SetBinding\u003CT\u003E(View view, BindingSession\u003CT\u003E vm, Action\u003CT\u003E set, String path)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetBinding",
+      "s": "public static View SetBinding\u003CTViewModel\u003E(View view, BindingSession\u003CTViewModel\u003E session, String targetPath, String srcPath)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.BindingExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetTwoWayBinding",
+      "s": "public static View SetTwoWayBinding\u003CTViewModel, TProperty\u003E(View view, BindingSession\u003CTViewModel\u003E session, TwoWayBindingProperty\u003CView, TProperty\u003E property, String path)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "IsDescendantOf",
+      "s": "public static Boolean IsDescendantOf(View view, View parent)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "NaturalUnitSize",
+      "s": "public static Size NaturalUnitSize(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Position",
+      "s": "public static Point Position(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Position",
+      "s": "public static Void Position(View view, Point point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Scale",
+      "s": "public static Size Scale(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ScreenScaledBounds",
+      "s": "public static Rect ScreenScaledBounds(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Size",
+      "s": "public static Size Size(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Size",
+      "s": "public static Void Size(View view, Size size)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitPosition",
+      "s": "public static Point UnitPosition(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitSize",
+      "s": "public static Size UnitSize(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitX",
+      "s": "public static Single UnitX(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitY",
+      "s": "public static Single UnitY(View view)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AddRenderer",
+      "s": "public static Int32 AddRenderer(View view, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetPadding",
+      "s": "public static Thickness GetPadding(View view)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetRendererAt",
+      "s": "public static Renderer GetRendererAt(View view, Int32 index)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetRendererCount",
+      "s": "public static Int32 GetRendererCount(View view)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "RemoveRenderer",
+      "s": "public static Void RemoveRenderer(View view, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPadding",
+      "s": "public static Void SetPadding(View view, Thickness padding)"
+    }
+  ]
+}

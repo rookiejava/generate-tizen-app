@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "GestureDetector",
+          "f": "Tizen.UI.GestureDetector",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Attach",
+              "s": "public Void Attach(View view)"
+            },
+            {
+              "k": "method",
+              "n": "CancelOtherGestureDetectors",
+              "s": "public Void CancelOtherGestureDetectors()"
+            },
+            {
+              "k": "method",
+              "n": "Detach",
+              "s": "public Void Detach(View view)"
+            },
+            {
+              "k": "method",
+              "n": "DetachAll",
+              "s": "public Void DetachAll()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "HandleEvent",
+              "s": "public Boolean HandleEvent(View target, TouchEvent touch)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

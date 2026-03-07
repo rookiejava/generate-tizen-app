@@ -1,0 +1,695 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts.Flex",
+      "t": [
+        {
+          "n": "Item",
+          "f": "Tizen.UI.Layouts.Flex.Item",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.Layouts.Flex.Item\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "absolute_pos",
+              "s": "private static Single absolute_pos(Single pos1, Single pos2, Single size, Single dim)"
+            },
+            {
+              "k": "method",
+              "n": "absolute_size",
+              "s": "private static Single absolute_size(Single val, Single pos1, Single pos2, Single dim)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(Item child)"
+            },
+            {
+              "k": "method",
+              "n": "child_align",
+              "s": "private static AlignItems child_align(Item child, Item parent)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignContent",
+              "s": "public AlignContent get_AlignContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignItems",
+              "s": "public AlignItems get_AlignItems()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelf",
+              "s": "public AlignSelf get_AlignSelf()"
+            },
+            {
+              "k": "method",
+              "n": "get_Basis",
+              "s": "public Basis get_Basis()"
+            },
+            {
+              "k": "method",
+              "n": "get_Bottom",
+              "s": "public Single get_Bottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "private IList\u003CItem\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public Direction get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_Frame",
+              "s": "public Single[] get_Frame()"
+            },
+            {
+              "k": "method",
+              "n": "get_Grow",
+              "s": "public Single get_Grow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public Item get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_JustifyContent",
+              "s": "public Justify get_JustifyContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Left",
+              "s": "public Single get_Left()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginBottom",
+              "s": "public Single get_MarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginLeft",
+              "s": "public Single get_MarginLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginRight",
+              "s": "public Single get_MarginRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MarginTop",
+              "s": "public Single get_MarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumWidth",
+              "s": "public Single get_MaximumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumWidth",
+              "s": "public Single get_MinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Order",
+              "s": "public Int32 get_Order()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingBottom",
+              "s": "public Single get_PaddingBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingLeft",
+              "s": "public Single get_PaddingLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingRight",
+              "s": "public Single get_PaddingRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_PaddingTop",
+              "s": "public Single get_PaddingTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_Parent",
+              "s": "public Item get_Parent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Position get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Right",
+              "s": "public Single get_Right()"
+            },
+            {
+              "k": "method",
+              "n": "get_Root",
+              "s": "public Item get_Root()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelfSizing",
+              "s": "public Item.SelfSizingDelegate get_SelfSizing()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShouldOrderChildren",
+              "s": "private Boolean get_ShouldOrderChildren()"
+            },
+            {
+              "k": "method",
+              "n": "get_Shrink",
+              "s": "public Single get_Shrink()"
+            },
+            {
+              "k": "method",
+              "n": "get_Top",
+              "s": "public Single get_Top()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_Wrap",
+              "s": "public Wrap get_Wrap()"
+            },
+            {
+              "k": "method",
+              "n": "InsertAt",
+              "s": "public Void InsertAt(Int32 index, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "ItemAt",
+              "s": "public Item ItemAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "Layout",
+              "s": "public Void Layout()"
+            },
+            {
+              "k": "method",
+              "n": "layout_align",
+              "s": "private static Void layout_align(Justify align, Single flex_dim, Int32 children_count, Single\u0026 pos_p, Single\u0026 spacing_p)"
+            },
+            {
+              "k": "method",
+              "n": "layout_align",
+              "s": "private static Void layout_align(AlignContent align, Single flex_dim, UInt32 children_count, Single\u0026 pos_p, Single\u0026 spacing_p)"
+            },
+            {
+              "k": "method",
+              "n": "layout_item",
+              "s": "private static Void layout_item(Item item, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "layout_items",
+              "s": "private static Void layout_items(Item item, Int32 child_begin, Int32 child_end, Int32 children_count, Item.flex_layout\u0026 layout)"
+            },
+            {
+              "k": "method",
+              "n": "MarginThickness",
+              "s": "private Single MarginThickness(Boolean vertical)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Item RemoveAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignContent",
+              "s": "public Void set_AlignContent(AlignContent value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignItems",
+              "s": "public Void set_AlignItems(AlignItems value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelf",
+              "s": "public Void set_AlignSelf(AlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Basis",
+              "s": "public Void set_Basis(Basis value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Bottom",
+              "s": "public Void set_Bottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Children",
+              "s": "private Void set_Children(IList\u003CItem\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Direction",
+              "s": "public Void set_Direction(Direction value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Grow",
+              "s": "public Void set_Grow(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_JustifyContent",
+              "s": "public Void set_JustifyContent(Justify value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Left",
+              "s": "public Void set_Left(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginBottom",
+              "s": "public Void set_MarginBottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginLeft",
+              "s": "public Void set_MarginLeft(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginRight",
+              "s": "public Void set_MarginRight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MarginTop",
+              "s": "public Void set_MarginTop(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumWidth",
+              "s": "public Void set_MaximumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumWidth",
+              "s": "public Void set_MinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Order",
+              "s": "public Void set_Order(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingBottom",
+              "s": "public Void set_PaddingBottom(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingLeft",
+              "s": "public Void set_PaddingLeft(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingRight",
+              "s": "public Void set_PaddingRight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PaddingTop",
+              "s": "public Void set_PaddingTop(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Parent",
+              "s": "private Void set_Parent(Item value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Position value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Right",
+              "s": "public Void set_Right(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SelfSizing",
+              "s": "public Void set_SelfSizing(Item.SelfSizingDelegate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShouldOrderChildren",
+              "s": "private Void set_ShouldOrderChildren(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Shrink",
+              "s": "public Void set_Shrink(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Top",
+              "s": "public Void set_Top(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Wrap",
+              "s": "public Void set_Wrap(Wrap value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.IEnumerable\u003CTizen.UI.Layouts.Flex.Item\u003E.GetEnumerator",
+              "s": "IEnumerator\u003CItem\u003E System.Collections.Generic.IEnumerable\u003CTizen.UI.Layouts.Flex.Item\u003E.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "ValidateChild",
+              "s": "private Void ValidateChild(Item child)"
+            },
+            {
+              "k": "property",
+              "n": "AlignContent",
+              "s": "public AlignContent AlignContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignItems",
+              "s": "public AlignItems AlignItems { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelf",
+              "s": "public AlignSelf AlignSelf { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Basis",
+              "s": "public Basis Basis { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Bottom",
+              "s": "public Single Bottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "private IList\u003CItem\u003E Children { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public Direction Direction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Frame",
+              "s": "public Single[] Frame { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Grow",
+              "s": "public Single Grow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public Item Item { get; }"
+            },
+            {
+              "k": "property",
+              "n": "JustifyContent",
+              "s": "public Justify JustifyContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Left",
+              "s": "public Single Left { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginBottom",
+              "s": "public Single MarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginLeft",
+              "s": "public Single MarginLeft { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginRight",
+              "s": "public Single MarginRight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MarginTop",
+              "s": "public Single MarginTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumWidth",
+              "s": "public Single MaximumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumWidth",
+              "s": "public Single MinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Order",
+              "s": "public Int32 Order { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingBottom",
+              "s": "public Single PaddingBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingLeft",
+              "s": "public Single PaddingLeft { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingRight",
+              "s": "public Single PaddingRight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PaddingTop",
+              "s": "public Single PaddingTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Parent",
+              "s": "public Item Parent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Position Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Right",
+              "s": "public Single Right { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Root",
+              "s": "public Item Root { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelfSizing",
+              "s": "public Item.SelfSizingDelegate SelfSizing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShouldOrderChildren",
+              "s": "private Boolean ShouldOrderChildren { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Shrink",
+              "s": "public Single Shrink { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Top",
+              "s": "public Single Top { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Wrap",
+              "s": "public Wrap Wrap { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetConstraints",
+      "s": "internal static Size GetConstraints(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetFrame",
+      "s": "internal static Rect GetFrame(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "IndexOf",
+      "s": "internal static Int32 IndexOf(Item parent, Item child)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "Remove",
+      "s": "internal static Void Remove(Item parent, Item child)"
+    }
+  ]
+}

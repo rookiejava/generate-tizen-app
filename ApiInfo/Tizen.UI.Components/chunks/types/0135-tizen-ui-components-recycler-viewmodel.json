@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ViewModel",
+          "f": "Tizen.UI.Components.Recycler.ViewModel",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.ComponentModel.INotifyPropertyChanged"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "PropertyChanged",
+              "s": "public event PropertyChangedEventHandler PropertyChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_PropertyChanged",
+              "s": "public Void add_PropertyChanged(PropertyChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Get",
+              "s": "protected T Get\u003CT\u003E(String name)"
+            },
+            {
+              "k": "method",
+              "n": "OnPropertyChanged",
+              "s": "protected Void OnPropertyChanged(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "remove_PropertyChanged",
+              "s": "public Void remove_PropertyChanged(PropertyChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Set",
+              "s": "protected Void Set\u003CT\u003E(T value, String name)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,70 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "DummyFontFamilyLoader",
+          "f": "Tizen.UI.Components.DummyFontFamilyLoader",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.IFontFamilyLoader"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "FontFamilyChanged",
+              "s": "public event EventHandler FontFamilyChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_FontFamilyChanged",
+              "s": "public Void add_FontFamilyChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static DummyFontFamilyLoader get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "remove_FontFamilyChanged",
+              "s": "public Void remove_FontFamilyChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public DummyFontFamilyLoader Instance { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

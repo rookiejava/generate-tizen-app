@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "GradientBackground",
+          "f": "Tizen.UI.GradientBackground",
+          "k": "class",
+          "b": "Tizen.UI.Background",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "BuildPropertyMap",
+              "s": "public Void BuildPropertyMap(PropertyMapHandle map)"
+            },
+            {
+              "k": "method",
+              "n": "get_GradientStops",
+              "s": "public IList\u003CGradientStop\u003E get_GradientStops()"
+            },
+            {
+              "k": "method",
+              "n": "get_GradientVisualSpreadMethod",
+              "s": "public Nullable\u003CGradientVisualSpreadMethod\u003E get_GradientVisualSpreadMethod()"
+            },
+            {
+              "k": "method",
+              "n": "set_GradientVisualSpreadMethod",
+              "s": "public Void set_GradientVisualSpreadMethod(Nullable\u003CGradientVisualSpreadMethod\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "GradientStops",
+              "s": "public IList\u003CGradientStop\u003E GradientStops { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GradientVisualSpreadMethod",
+              "s": "public Nullable\u003CGradientVisualSpreadMethod\u003E GradientVisualSpreadMethod { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

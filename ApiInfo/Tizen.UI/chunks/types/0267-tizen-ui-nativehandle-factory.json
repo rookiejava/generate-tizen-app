@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "Factory",
+          "f": "Tizen.UI.NativeHandle.Factory",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CreateVector2",
+              "s": "public static ObjectPool\u003CVector2Handle\u003E CreateVector2(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "CreateVector3",
+              "s": "public static ObjectPool\u003CVector3Handle\u003E CreateVector3(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "CreateVector4",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E CreateVector4(Single x, Single y, Single z, Single w)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

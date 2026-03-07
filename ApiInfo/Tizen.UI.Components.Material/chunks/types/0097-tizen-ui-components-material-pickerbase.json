@@ -1,0 +1,233 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerBase",
+          "f": "Tizen.UI.Components.Material.PickerBase",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ClosedRange\u003CInt32\u003E range, PickerVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "EditModeChanged",
+              "s": "public event EventHandler EditModeChanged"
+            },
+            {
+              "k": "event",
+              "n": "InputPanelVisibilityChanged",
+              "s": "public event EventHandler\u003CBoolean\u003E InputPanelVisibilityChanged"
+            },
+            {
+              "k": "event",
+              "n": "ValueChanged",
+              "s": "public event EventHandler ValueChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_EditModeChanged",
+              "s": "public Void add_EditModeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_InputPanelVisibilityChanged",
+              "s": "public Void add_InputPanelVisibilityChanged(EventHandler\u003CBoolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueChanged",
+              "s": "public Void add_ValueChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "protected Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "FindNearestValue",
+              "s": "private Int32 FindNearestValue(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "protected AbsoluteLayout get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_DisplayedValues",
+              "s": "public ReadOnlyCollection\u003CString\u003E get_DisplayedValues()"
+            },
+            {
+              "k": "method",
+              "n": "get_EditMode",
+              "s": "internal Boolean get_EditMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_PickerInputField",
+              "s": "internal PickerInputField get_PickerInputField()"
+            },
+            {
+              "k": "method",
+              "n": "get_PickerVariables",
+              "s": "internal PickerVariables get_PickerVariables()"
+            },
+            {
+              "k": "method",
+              "n": "get_Range",
+              "s": "public ClosedRange\u003CInt32\u003E get_Range()"
+            },
+            {
+              "k": "method",
+              "n": "get_Step",
+              "s": "public Int32 get_Step()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Int32 get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "OnDisplayedValuesChanged",
+              "s": "protected Void OnDisplayedValuesChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnEditModeChanged",
+              "s": "protected Void OnEditModeChanged(Boolean editMode)"
+            },
+            {
+              "k": "method",
+              "n": "OnRangeChanged",
+              "s": "protected Void OnRangeChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnStatusChanged",
+              "s": "private Void OnStatusChanged(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnStepChanged",
+              "s": "protected Void OnStepChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChanged",
+              "s": "protected Void OnValueChanged()"
+            },
+            {
+              "k": "method",
+              "n": "PickerValueChanged",
+              "s": "internal Void PickerValueChanged(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ReCalculateValue",
+              "s": "private Void ReCalculateValue(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_EditModeChanged",
+              "s": "public Void remove_EditModeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_InputPanelVisibilityChanged",
+              "s": "public Void remove_InputPanelVisibilityChanged(EventHandler\u003CBoolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueChanged",
+              "s": "public Void remove_ValueChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendValueChanged",
+              "s": "protected Void SendValueChanged()"
+            },
+            {
+              "k": "method",
+              "n": "set_DisplayedValues",
+              "s": "public Void set_DisplayedValues(ReadOnlyCollection\u003CString\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_EditMode",
+              "s": "internal Void set_EditMode(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Range",
+              "s": "public Void set_Range(ClosedRange\u003CInt32\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Step",
+              "s": "public Void set_Step(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Value",
+              "s": "public Void set_Value(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "protected AbsoluteLayout Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DisplayedValues",
+              "s": "public ReadOnlyCollection\u003CString\u003E DisplayedValues { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EditMode",
+              "s": "internal Boolean EditMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PickerInputField",
+              "s": "internal PickerInputField PickerInputField { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PickerVariables",
+              "s": "internal PickerVariables PickerVariables { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Range",
+              "s": "public ClosedRange\u003CInt32\u003E Range { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Step",
+              "s": "public Int32 Step { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Int32 Value { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

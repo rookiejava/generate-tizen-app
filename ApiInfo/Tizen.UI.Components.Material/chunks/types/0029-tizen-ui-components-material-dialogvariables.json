@@ -1,0 +1,250 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DialogVariables",
+          "f": "Tizen.UI.Components.Material.DialogVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.DialogVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DialogVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "DialogVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(DialogVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BodyPadding",
+              "s": "public Thickness get_BodyPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static DialogVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultWidth",
+              "s": "public Single get_DefaultWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FooterPadding",
+              "s": "public Thickness get_FooterPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeaderPadding",
+              "s": "public Thickness get_HeaderPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(DialogVariables left, DialogVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(DialogVariables left, DialogVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BodyPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BodyPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FooterPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FooterPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeaderPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HeaderPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BodyPadding",
+              "s": "public Thickness BodyPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public DialogVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultWidth",
+              "s": "public Single DefaultWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FooterPadding",
+              "s": "public Thickness FooterPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeaderPadding",
+              "s": "public Thickness HeaderPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

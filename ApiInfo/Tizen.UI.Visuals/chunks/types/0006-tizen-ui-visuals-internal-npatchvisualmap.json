@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals.Internal",
+      "t": [
+        {
+          "n": "NPatchVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.NPatchVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.ImageVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageAlpha",
+              "s": "public Single get_AuxiliaryImageAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_AuxiliaryImageUrl",
+              "s": "public String get_AuxiliaryImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderOnly",
+              "s": "public Boolean get_BorderOnly()"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageAlpha",
+              "s": "public Void set_AuxiliaryImageAlpha(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AuxiliaryImageUrl",
+              "s": "public Void set_AuxiliaryImageUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderOnly",
+              "s": "public Void set_BorderOnly(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageAlpha",
+              "s": "public Single AuxiliaryImageAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AuxiliaryImageUrl",
+              "s": "public String AuxiliaryImageUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderOnly",
+              "s": "public Boolean BorderOnly { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

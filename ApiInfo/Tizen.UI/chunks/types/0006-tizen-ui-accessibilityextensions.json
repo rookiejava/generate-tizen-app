@@ -1,0 +1,216 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AccessibilityExtensions",
+          "f": "Tizen.UI.AccessibilityExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AccessibilityDescription",
+              "s": "public static TView AccessibilityDescription\u003CTView\u003E(TView view, String description) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AccessibilityHidden",
+              "s": "public static TView AccessibilityHidden\u003CTView\u003E(TView view, Boolean isHidden) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AccessibilityHighlightable",
+              "s": "public static TView AccessibilityHighlightable\u003CTView\u003E(TView view, Boolean isHighlightable) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AccessibilityName",
+              "s": "public static TView AccessibilityName\u003CTView\u003E(TView view, String name) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AccessibilityRole",
+              "s": "public static TView AccessibilityRole\u003CTView\u003E(TView view, AccessibilityRole role) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AutomationId",
+              "s": "public static TView AutomationId\u003CTView\u003E(TView view, String id) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityIsModal",
+              "s": "public static Boolean GetAccessibilityIsModal(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityIsScrollable",
+              "s": "public static Boolean GetAccessibilityIsScrollable(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityStates",
+              "s": "public static AccessibilityStates GetAccessibilityStates(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityValue",
+              "s": "public static String GetAccessibilityValue(View view)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityAttributes",
+              "s": "public static Void SetAccessibilityAttributes(View view, IDictionary\u003CString, String\u003E attributes)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityIsModal",
+              "s": "public static Void SetAccessibilityIsModal(View view, Boolean modal)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityIsScrollable",
+              "s": "public static Void SetAccessibilityIsScrollable(View view, Boolean scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityStates",
+              "s": "public static Void SetAccessibilityStates(View view, AccessibilityStates states)"
+            },
+            {
+              "k": "method",
+              "n": "SetAccessibilityValue",
+              "s": "public static Void SetAccessibilityValue(View view, String value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateAccessibilityStates",
+              "s": "public static Void UpdateAccessibilityStates(View view, AccessibilityState state, Boolean beAdded)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityIsModal",
+      "s": "public static Boolean GetAccessibilityIsModal(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityIsScrollable",
+      "s": "public static Boolean GetAccessibilityIsScrollable(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityStates",
+      "s": "public static AccessibilityStates GetAccessibilityStates(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetAccessibilityValue",
+      "s": "public static String GetAccessibilityValue(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityAttributes",
+      "s": "public static Void SetAccessibilityAttributes(View view, IDictionary\u003CString, String\u003E attributes)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityIsModal",
+      "s": "public static Void SetAccessibilityIsModal(View view, Boolean modal)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityIsScrollable",
+      "s": "public static Void SetAccessibilityIsScrollable(View view, Boolean scrollable)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityStates",
+      "s": "public static Void SetAccessibilityStates(View view, AccessibilityStates states)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetAccessibilityValue",
+      "s": "public static Void SetAccessibilityValue(View view, String value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UpdateAccessibilityStates",
+      "s": "public static Void UpdateAccessibilityStates(View view, AccessibilityState state, Boolean beAdded)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AccessibilityDescription",
+      "s": "public static TView AccessibilityDescription\u003CTView\u003E(TView view, String description) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AccessibilityHidden",
+      "s": "public static TView AccessibilityHidden\u003CTView\u003E(TView view, Boolean isHidden) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AccessibilityHighlightable",
+      "s": "public static TView AccessibilityHighlightable\u003CTView\u003E(TView view, Boolean isHighlightable) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AccessibilityName",
+      "s": "public static TView AccessibilityName\u003CTView\u003E(TView view, String name) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AccessibilityRole",
+      "s": "public static TView AccessibilityRole\u003CTView\u003E(TView view, AccessibilityRole role) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AccessibilityExtensions",
+      "r": "TView",
+      "n": "AutomationId",
+      "s": "public static TView AutomationId\u003CTView\u003E(TView view, String id) where TView : View"
+    }
+  ]
+}

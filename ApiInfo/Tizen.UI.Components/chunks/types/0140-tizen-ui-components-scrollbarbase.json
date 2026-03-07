@@ -1,0 +1,331 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ScrollBarBase",
+          "f": "Tizen.UI.Components.ScrollBarBase",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "System.IDisposable",
+            "Tizen.UI.IScrollBar"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CInitialize\u003Eb__61_0",
+              "s": "private Boolean \u003CInitialize\u003Eb__61_0()"
+            },
+            {
+              "k": "method",
+              "n": "CreateHBar",
+              "s": "private Void CreateHBar()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVBar",
+              "s": "private Void CreateVBar()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "FadeIn",
+              "s": "protected Void FadeIn()"
+            },
+            {
+              "k": "method",
+              "n": "FadeOut",
+              "s": "protected Void FadeOut()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarColor",
+              "s": "public Color get_BarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarCornerRadius",
+              "s": "public CornerRadius get_BarCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMargin",
+              "s": "public Thickness get_BarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMinSize",
+              "s": "public Single get_BarMinSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarShadow",
+              "s": "public Shadow get_BarShadow()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarThickness",
+              "s": "public Single get_BarThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_FadeInAnimation",
+              "s": "protected Animation get_FadeInAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_FadeOutAnimation",
+              "s": "protected Animation get_FadeOutAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_HorizontalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollArea",
+              "s": "private Size get_ScrollArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_Target",
+              "s": "public View get_Target()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility get_VerticalScrollBarVisibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPortSize",
+              "s": "private Size get_ViewPortSize()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "protected Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnAttachedToScrollable",
+              "s": "protected Void OnAttachedToScrollable(IScrollable scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutDirectionChanged",
+              "s": "private Void OnLayoutDirectionChanged(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateScrollPosition",
+              "s": "protected Void OnUpdateScrollPosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveHBar",
+              "s": "private Void RemoveHBar()"
+            },
+            {
+              "k": "method",
+              "n": "RemoveVBar",
+              "s": "private Void RemoveVBar()"
+            },
+            {
+              "k": "method",
+              "n": "set_BarColor",
+              "s": "public Void set_BarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarCornerRadius",
+              "s": "public Void set_BarCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMargin",
+              "s": "public Void set_BarMargin(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMinSize",
+              "s": "public Void set_BarMinSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarShadow",
+              "s": "public Void set_BarShadow(Shadow value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarThickness",
+              "s": "public Void set_BarThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalScrollBarVisibility",
+              "s": "public Void set_HorizontalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollArea",
+              "s": "private Void set_ScrollArea(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollPosition",
+              "s": "public Void set_ScrollPosition(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalScrollBarVisibility",
+              "s": "public Void set_VerticalScrollBarVisibility(ScrollBarVisibility value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ViewPortSize",
+              "s": "private Void set_ViewPortSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowBar",
+              "s": "protected Void ShowBar()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollBar.OnAttachedToScrollable",
+              "s": "Void Tizen.UI.IScrollBar.OnAttachedToScrollable(IScrollable scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBarSize",
+              "s": "public Void UpdateBarSize(Size scrollArea, Size viewportSize)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBarSize",
+              "s": "private Void UpdateBarSize()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateHBarSize",
+              "s": "private Void UpdateHBarSize(Single ratio)"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePosition",
+              "s": "private Void UpdatePosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPosition",
+              "s": "public Void UpdateScrollPosition(Point position)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateVBarSize",
+              "s": "private Void UpdateVBarSize(Single ratio)"
+            },
+            {
+              "k": "property",
+              "n": "BarColor",
+              "s": "public Color BarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarCornerRadius",
+              "s": "public CornerRadius BarCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMargin",
+              "s": "public Thickness BarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMinSize",
+              "s": "public Single BarMinSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarShadow",
+              "s": "public Shadow BarShadow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarThickness",
+              "s": "public Single BarThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FadeInAnimation",
+              "s": "protected Animation FadeInAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FadeOutAnimation",
+              "s": "protected Animation FadeOutAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalScrollBarVisibility",
+              "s": "public ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollArea",
+              "s": "private Size ScrollArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Target",
+              "s": "public View Target { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalScrollBarVisibility",
+              "s": "public ScrollBarVisibility VerticalScrollBarVisibility { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPortSize",
+              "s": "private Size ViewPortSize { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

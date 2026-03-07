@@ -1,0 +1,95 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "ArcTo",
+          "f": "Tizen.UI.Primitives2D.ArcTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single radius, Single startAngle, Single sweep, Boolean closed)"
+            },
+            {
+              "k": "method",
+              "n": "get_Closed",
+              "s": "public Boolean get_Closed()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "get_StartAngle",
+              "s": "public Single get_StartAngle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Sweep",
+              "s": "public Single get_Sweep()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "Closed",
+              "s": "public Boolean Closed { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; }"
+            },
+            {
+              "k": "property",
+              "n": "StartAngle",
+              "s": "public Single StartAngle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Sweep",
+              "s": "public Single Sweep { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

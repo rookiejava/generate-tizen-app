@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AccessibilityActionReceivedEventArgs",
+          "f": "Tizen.UI.AccessibilityActionReceivedEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionType",
+              "s": "public AccessibilityAction get_ActionType()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handled",
+              "s": "public Boolean get_Handled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Target",
+              "s": "public View get_Target()"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionType",
+              "s": "public Void set_ActionType(AccessibilityAction value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handled",
+              "s": "public Void set_Handled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Target",
+              "s": "public Void set_Target(View value)"
+            },
+            {
+              "k": "property",
+              "n": "ActionType",
+              "s": "public AccessibilityAction ActionType { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Handled",
+              "s": "public Boolean Handled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Target",
+              "s": "public View Target { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

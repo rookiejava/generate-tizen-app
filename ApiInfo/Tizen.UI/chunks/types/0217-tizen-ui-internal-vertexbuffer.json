@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "VertexBuffer",
+          "f": "Tizen.UI.Internal.VertexBuffer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IDictionary\u003CString, DaliPropertyType\u003E format)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(PropertyMapHandle format)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "CreateFormat",
+              "s": "private static PropertyMapHandle CreateFormat(IDictionary\u003CString, DaliPropertyType\u003E format)"
+            },
+            {
+              "k": "method",
+              "n": "GetSize",
+              "s": "public UInt32 GetSize()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "SetData",
+              "s": "public Void SetData(IntPtr data, Int32 size)"
+            },
+            {
+              "k": "method",
+              "n": "SetData",
+              "s": "public Void SetData\u003CT\u003E(T[] vertices) where T : struct, new()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

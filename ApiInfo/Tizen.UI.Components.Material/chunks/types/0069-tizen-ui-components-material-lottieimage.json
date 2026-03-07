@@ -1,0 +1,515 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LottieImage",
+          "f": "Tizen.UI.Components.Material.LottieImage",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Image",
+          "i": [
+            "Tizen.UI.Components.IAnimatedImage"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl)"
+            },
+            {
+              "k": "event",
+              "n": "_finished",
+              "s": "private event EventHandler _finished"
+            },
+            {
+              "k": "event",
+              "n": "Finished",
+              "s": "public event EventHandler Finished"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__28_0",
+              "s": "Void \u003C.ctor\u003Eb__28_0(Object _, EventArgs _)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__28_1",
+              "s": "Void \u003C.ctor\u003Eb__28_1(Object _, EventArgs _)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClearDynamicProperties\u003Eb__66_0",
+              "s": "private Boolean \u003CClearDynamicProperties\u003Eb__66_0(KeyValuePair\u003CInt32, WeakReference\u003CLottieImage\u003E\u003E kv)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClearDynamicPropertiesInOtherThread\u003Eb__89_0",
+              "s": "private Boolean \u003CClearDynamicPropertiesInOtherThread\u003Eb__89_0(KeyValuePair\u003CInt32, WeakReference\u003CLottieImage\u003E\u003E kv)"
+            },
+            {
+              "k": "method",
+              "n": "add__finished",
+              "s": "private Void add__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Finished",
+              "s": "public Void add_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearDynamicProperties",
+              "s": "public Void ClearDynamicProperties()"
+            },
+            {
+              "k": "method",
+              "n": "ClearDynamicPropertiesInOtherThread",
+              "s": "private Void ClearDynamicPropertiesInOtherThread()"
+            },
+            {
+              "k": "method",
+              "n": "ClearUnholdRequest",
+              "s": "private Void ClearUnholdRequest()"
+            },
+            {
+              "k": "method",
+              "n": "ConnectFinished",
+              "s": "private Void ConnectFinished(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "CreateImageVisualMap",
+              "s": "protected ImageVisualMap CreateImageVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectFinished",
+              "s": "private Void DisconnectFinished(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentFrame",
+              "s": "public Int32 get_CurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "get_FrameSpeedFactor",
+              "s": "public Single get_FrameSpeedFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlayState",
+              "s": "public AnimationState get_PlayState()"
+            },
+            {
+              "k": "method",
+              "n": "get_RedrawInScalingDown",
+              "s": "public Boolean get_RedrawInScalingDown()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatCount",
+              "s": "public Int32 get_RepeatCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatMode",
+              "s": "public AnimationRepeatMode get_RepeatMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_StopBehavior",
+              "s": "public AnimationStopBehavior get_StopBehavior()"
+            },
+            {
+              "k": "method",
+              "n": "get_TotalFrame",
+              "s": "public Int32 get_TotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "GetContentInfo",
+              "s": "public IList\u003CValueTuple\u003CString, Int32, Int32\u003E\u003E GetContentInfo()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentFrame",
+              "s": "private Int32 GetCurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "GetMarkerInfo",
+              "s": "public IList\u003CValueTuple\u003CString, Int32, Int32\u003E\u003E GetMarkerInfo()"
+            },
+            {
+              "k": "method",
+              "n": "GetMarkerInfoInternal",
+              "s": "private List\u003CValueTuple\u003CString, Int32, Int32\u003E\u003E GetMarkerInfoInternal()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlayState",
+              "s": "private AnimationState GetPlayState()"
+            },
+            {
+              "k": "method",
+              "n": "GetTotalFrame",
+              "s": "private Int32 GetTotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "HandleDynamicCallback",
+              "s": "private Void HandleDynamicCallback(Int32 id, UInt32 frameNumber, Single\u0026 ret1, Single\u0026 ret2, Single\u0026 ret3)"
+            },
+            {
+              "k": "method",
+              "n": "HandleDynamicRootCallback",
+              "s": "private static Void HandleDynamicRootCallback(Int32 id, Int32 returnType, UInt32 frameNumber, Single\u0026 ret1, Single\u0026 ret2, Single\u0026 ret3)"
+            },
+            {
+              "k": "method",
+              "n": "HoldIfNeeds",
+              "s": "private Void HoldIfNeeds()"
+            },
+            {
+              "k": "method",
+              "n": "IsHolded",
+              "s": "private Boolean IsHolded()"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "protected Void OnFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "private Void OnFinished(IntPtr view, Int32 visualIndex, Int32 signalId)"
+            },
+            {
+              "k": "method",
+              "n": "OnRequestUnhold",
+              "s": "private Void OnRequestUnhold(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceLoad",
+              "s": "protected Void OnResourceLoad()"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChanged",
+              "s": "private Void OnVisibilityChanged(Object sender, VisibilityChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Pause",
+              "s": "public Void Pause()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(Int32 startFrame, Int32 maxFrame)"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(Int32 startFrame)"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(String startMarker, String endMarker)"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(String marker)"
+            },
+            {
+              "k": "method",
+              "n": "PlayInternal",
+              "s": "private Void PlayInternal()"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicBackgroundColor",
+              "s": "public Void RegisterDynamicBackgroundColor(String path, Func\u003CInt32, Color\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicFillOpacity",
+              "s": "public Void RegisterDynamicFillOpacity(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicProperty",
+              "s": "private Void RegisterDynamicProperty(DynamicType type, String keyPath, LottieImage.DynamicCallbackDelegate callback)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicPropertyColor",
+              "s": "private Void RegisterDynamicPropertyColor(DynamicType rgbType, DynamicType alphaType, String path, Func\u003CInt32, Color\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicPropertyFloat",
+              "s": "private Void RegisterDynamicPropertyFloat(DynamicType type, String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicPropertyVector2",
+              "s": "private Void RegisterDynamicPropertyVector2(DynamicType type, String path, Func\u003CInt32, Point\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicStrokeColor",
+              "s": "public Void RegisterDynamicStrokeColor(String path, Func\u003CInt32, Color\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicStrokeOpacity",
+              "s": "public Void RegisterDynamicStrokeOpacity(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicStrokeWidth",
+              "s": "public Void RegisterDynamicStrokeWidth(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTransformAnchor",
+              "s": "public Void RegisterDynamicTransformAnchor(String path, Func\u003CInt32, Point\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTransformOpacity",
+              "s": "public Void RegisterDynamicTransformOpacity(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTransformPosition",
+              "s": "public Void RegisterDynamicTransformPosition(String path, Func\u003CInt32, Point\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTransformRotation",
+              "s": "public Void RegisterDynamicTransformRotation(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTransformScale",
+              "s": "public Void RegisterDynamicTransformScale(String path, Func\u003CInt32, Point\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTrimEnd",
+              "s": "public Void RegisterDynamicTrimEnd(String path, Func\u003CInt32, Point\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterDynamicTrimStart",
+              "s": "public Void RegisterDynamicTrimStart(String path, Func\u003CInt32, Single\u003E valueProvider)"
+            },
+            {
+              "k": "method",
+              "n": "remove__finished",
+              "s": "private Void remove__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Finished",
+              "s": "public Void remove_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "RequestUnhold",
+              "s": "private Void RequestUnhold()"
+            },
+            {
+              "k": "method",
+              "n": "RequestUpdateManually",
+              "s": "internal Void RequestUpdateManually()"
+            },
+            {
+              "k": "method",
+              "n": "ResetFrameRange",
+              "s": "private Void ResetFrameRange()"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentFrame",
+              "s": "public Void set_CurrentFrame(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FrameSpeedFactor",
+              "s": "public Void set_FrameSpeedFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RedrawInScalingDown",
+              "s": "public Void set_RedrawInScalingDown(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatCount",
+              "s": "public Void set_RepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatMode",
+              "s": "public Void set_RepeatMode(AnimationRepeatMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StopBehavior",
+              "s": "public Void set_StopBehavior(AnimationStopBehavior value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentFrame",
+              "s": "private Void SetCurrentFrame(Int32 frameNumber)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentFrame",
+              "s": "private Void SetCurrentFrame(String marker)"
+            },
+            {
+              "k": "method",
+              "n": "SetFrameRange",
+              "s": "private Void SetFrameRange(Int32 startFrame, Int32 endFrame)"
+            },
+            {
+              "k": "method",
+              "n": "SetFrameRange",
+              "s": "private Void SetFrameRange(String marker1, String marker2)"
+            },
+            {
+              "k": "method",
+              "n": "SetFrameSpeedFactor",
+              "s": "private Void SetFrameSpeedFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRedrawInScalingDown",
+              "s": "private Void SetRedrawInScalingDown(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRepeatCount",
+              "s": "private Void SetRepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRepeatMode",
+              "s": "private Void SetRepeatMode(AnimationRepeatMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetStopBehavior",
+              "s": "private Void SetStopBehavior(AnimationStopBehavior behavior)"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "method",
+              "n": "Unhold",
+              "s": "private Void Unhold()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateImageMap",
+              "s": "protected Void UpdateImageMap()"
+            },
+            {
+              "k": "property",
+              "n": "CurrentFrame",
+              "s": "public Int32 CurrentFrame { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FrameSpeedFactor",
+              "s": "public Single FrameSpeedFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlayState",
+              "s": "public AnimationState PlayState { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RedrawInScalingDown",
+              "s": "public Boolean RedrawInScalingDown { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatCount",
+              "s": "public Int32 RepeatCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatMode",
+              "s": "public AnimationRepeatMode RepeatMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StopBehavior",
+              "s": "public AnimationStopBehavior StopBehavior { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TotalFrame",
+              "s": "public Int32 TotalFrame { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

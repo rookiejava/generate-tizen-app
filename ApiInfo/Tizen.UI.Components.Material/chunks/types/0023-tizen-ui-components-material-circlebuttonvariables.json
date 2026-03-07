@@ -1,0 +1,311 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "CircleButtonVariables",
+          "f": "Tizen.UI.Components.Material.CircleButtonVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.CircleButtonVariables\u003E",
+            "Tizen.UI.Components.IClickableVariables"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CircleButtonVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "CircleButtonVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(CircleButtonVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static CircleButtonVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultWidth",
+              "s": "public Single get_DefaultWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconCornerRadius",
+              "s": "public CornerRadius get_IconCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconHeight",
+              "s": "public Single get_IconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMultipliedColor",
+              "s": "public Color get_IconMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconResourceUrl",
+              "s": "public String get_IconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconWidth",
+              "s": "public Single get_IconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressIconHeight",
+              "s": "public Single get_ProgressIconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressIconResourceUrl",
+              "s": "public String get_ProgressIconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressIconWidth",
+              "s": "public Single get_ProgressIconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_TouchEffect",
+              "s": "public UIAttachable get_TouchEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(CircleButtonVariables left, CircleButtonVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(CircleButtonVariables left, CircleButtonVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMultipliedColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconResourceUrl",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProgressIconHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ProgressIconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProgressIconResourceUrl",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ProgressIconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProgressIconWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ProgressIconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TouchEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TouchEffect(UIAttachable value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public CircleButtonVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultWidth",
+              "s": "public Single DefaultWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IconCornerRadius",
+              "s": "public CornerRadius IconCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconHeight",
+              "s": "public Single IconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMultipliedColor",
+              "s": "public Color IconMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconResourceUrl",
+              "s": "public String IconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconWidth",
+              "s": "public Single IconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressIconHeight",
+              "s": "public Single ProgressIconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressIconResourceUrl",
+              "s": "public String ProgressIconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressIconWidth",
+              "s": "public Single ProgressIconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TouchEffect",
+              "s": "public UIAttachable TouchEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

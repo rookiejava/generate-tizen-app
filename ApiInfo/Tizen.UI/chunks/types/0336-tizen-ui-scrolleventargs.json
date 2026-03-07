@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ScrollEventArgs",
+          "f": "Tizen.UI.ScrollEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Point scrollPosition, Point displacement)"
+            },
+            {
+              "k": "method",
+              "n": "get_Displacement",
+              "s": "public Point get_Displacement()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "set_Displacement",
+              "s": "public Void set_Displacement(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrollPosition",
+              "s": "public Void set_ScrollPosition(Point value)"
+            },
+            {
+              "k": "property",
+              "n": "Displacement",
+              "s": "public Point Displacement { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

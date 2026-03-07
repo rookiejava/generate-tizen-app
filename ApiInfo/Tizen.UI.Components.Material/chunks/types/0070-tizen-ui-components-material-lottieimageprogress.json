@@ -1,0 +1,103 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "LottieImageProgress",
+          "f": "Tizen.UI.Components.Material.LottieImageProgress",
+          "k": "class",
+          "b": "Tizen.UI.Components.Progress",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_LottieImage",
+              "s": "protected LottieImage get_LottieImage()"
+            },
+            {
+              "k": "method",
+              "n": "GetDeterminateImageUrl",
+              "s": "protected String GetDeterminateImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "GetIndeterminateImageUrl",
+              "s": "protected String GetIndeterminateImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "OnAddedToWindow",
+              "s": "private Void OnAddedToWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnApplicationResumed",
+              "s": "private Void OnApplicationResumed(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDeterminateStateChanged",
+              "s": "protected Void OnDeterminateStateChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnImageAdded",
+              "s": "protected Void OnImageAdded(LottieImage image)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueRatioChanged",
+              "s": "protected Void OnValueRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToDeterminate",
+              "s": "private Void SwitchToDeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToIndeterminate",
+              "s": "private Void SwitchToIndeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateFrame",
+              "s": "private Void UpdateFrame()"
+            },
+            {
+              "k": "property",
+              "n": "LottieImage",
+              "s": "protected LottieImage LottieImage { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

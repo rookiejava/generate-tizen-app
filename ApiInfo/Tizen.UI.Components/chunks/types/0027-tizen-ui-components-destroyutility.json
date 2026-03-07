@@ -1,0 +1,46 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "DestroyUtility",
+          "f": "Tizen.UI.Components.DestroyUtility",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Destroy",
+              "s": "public static Void Destroy\u003CT\u003E(T\u0026 disposable) where T : class, IDisposable"
+            },
+            {
+              "k": "method",
+              "n": "Destroy",
+              "s": "public static Void Destroy\u003CT\u003E(IEnumerable\u003CT\u003E enumerable) where T : class, IDisposable"
+            },
+            {
+              "k": "method",
+              "n": "Destroy",
+              "s": "public static Void Destroy\u003CT\u003E(IEnumerable\u003CT\u003E\u0026 enumerable) where T : class, IDisposable"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.DestroyUtility",
+      "r": "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+      "n": "Destroy",
+      "s": "public static Void Destroy\u003CT\u003E(IEnumerable\u003CT\u003E enumerable) where T : class, IDisposable"
+    }
+  ]
+}

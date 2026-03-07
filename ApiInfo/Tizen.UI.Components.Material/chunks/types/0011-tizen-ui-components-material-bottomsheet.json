@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "BottomSheet",
+          "f": "Tizen.UI.Components.Material.BottomSheet",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(BottomSheetVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(BottomSheetVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Anchors",
+              "s": "public IReadOnlyList\u003CSingle\u003E get_Anchors()"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private Grid get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultAnchorIndex",
+              "s": "public Int32 get_DefaultAnchorIndex()"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateCornerRadiusProperty",
+              "s": "protected Void UpdateCornerRadiusProperty(CornerRadius cornerRadius)"
+            },
+            {
+              "k": "property",
+              "n": "Anchors",
+              "s": "public IReadOnlyList\u003CSingle\u003E Anchors { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private Grid Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultAnchorIndex",
+              "s": "public Int32 DefaultAnchorIndex { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,45 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerListItemView",
+          "f": "Tizen.UI.Components.Material.PickerListItemView",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Label",
+          "i": [
+            "Tizen.UI.IBindableView"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BindingContext",
+              "s": "public Object get_BindingContext()"
+            },
+            {
+              "k": "method",
+              "n": "set_BindingContext",
+              "s": "public Void set_BindingContext(Object value)"
+            },
+            {
+              "k": "property",
+              "n": "BindingContext",
+              "s": "public Object BindingContext { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,298 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals.Internal",
+      "t": [
+        {
+          "n": "ImageVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.ImageVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.RoundedVisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredHeight",
+              "s": "public Single get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DesiredWidth",
+              "s": "public Single get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_FastTrackUploading",
+              "s": "public Boolean get_FastTrackUploading()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageLoadWithViewSize",
+              "s": "public Boolean get_ImageLoadWithViewSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadPolicy",
+              "s": "public ImageLoadPolicy get_LoadPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskContentScale",
+              "s": "public Single get_MaskContentScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaskingMode",
+              "s": "public ImageMaskingMode get_MaskingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrientationCorrection",
+              "s": "public Boolean get_OrientationCorrection()"
+            },
+            {
+              "k": "method",
+              "n": "get_PixelArea",
+              "s": "public Rect get_PixelArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_PreMultipliedAlpha",
+              "s": "public Boolean get_PreMultipliedAlpha()"
+            },
+            {
+              "k": "method",
+              "n": "get_ReleasePolicy",
+              "s": "public ImageReleasePolicy get_ReleasePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeU",
+              "s": "public ImageWrapMode get_WrapModeU()"
+            },
+            {
+              "k": "method",
+              "n": "get_WrapModeV",
+              "s": "public ImageWrapMode get_WrapModeV()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredHeight",
+              "s": "public Void set_DesiredHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DesiredWidth",
+              "s": "public Void set_DesiredWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FastTrackUploading",
+              "s": "public Void set_FastTrackUploading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageLoadWithViewSize",
+              "s": "public Void set_ImageLoadWithViewSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LoadPolicy",
+              "s": "public Void set_LoadPolicy(ImageLoadPolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskContentScale",
+              "s": "public Void set_MaskContentScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaskingMode",
+              "s": "public Void set_MaskingMode(ImageMaskingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrientationCorrection",
+              "s": "public Void set_OrientationCorrection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PixelArea",
+              "s": "public Void set_PixelArea(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PreMultipliedAlpha",
+              "s": "public Void set_PreMultipliedAlpha(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ReleasePolicy",
+              "s": "public Void set_ReleasePolicy(ImageReleasePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeU",
+              "s": "public Void set_WrapModeU(ImageWrapMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WrapModeV",
+              "s": "public Void set_WrapModeV(ImageWrapMode value)"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredHeight",
+              "s": "public Single DesiredHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DesiredWidth",
+              "s": "public Single DesiredWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FastTrackUploading",
+              "s": "public Boolean FastTrackUploading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageLoadWithViewSize",
+              "s": "public Boolean ImageLoadWithViewSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadPolicy",
+              "s": "public ImageLoadPolicy LoadPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskContentScale",
+              "s": "public Single MaskContentScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaskingMode",
+              "s": "public ImageMaskingMode MaskingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrientationCorrection",
+              "s": "public Boolean OrientationCorrection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PixelArea",
+              "s": "public Rect PixelArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PreMultipliedAlpha",
+              "s": "public Boolean PreMultipliedAlpha { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ReleasePolicy",
+              "s": "public ImageReleasePolicy ReleasePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeU",
+              "s": "public ImageWrapMode WrapModeU { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WrapModeV",
+              "s": "public ImageWrapMode WrapModeV { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

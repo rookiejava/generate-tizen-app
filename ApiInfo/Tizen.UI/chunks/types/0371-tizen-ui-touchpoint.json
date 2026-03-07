@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TouchPoint",
+          "f": "Tizen.UI.TouchPoint",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 deviceId, TouchState state, Single screenX, Single screenY)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_DeviceId",
+              "s": "public Int32 get_DeviceId()"
+            },
+            {
+              "k": "method",
+              "n": "get_HitView",
+              "s": "public View get_HitView()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenPosition",
+              "s": "public Point get_ScreenPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public TouchState get_State()"
+            },
+            {
+              "k": "method",
+              "n": "set_DeviceId",
+              "s": "public Void set_DeviceId(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HitView",
+              "s": "public Void set_HitView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScreenPosition",
+              "s": "public Void set_ScreenPosition(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_State",
+              "s": "public Void set_State(TouchState value)"
+            },
+            {
+              "k": "property",
+              "n": "DeviceId",
+              "s": "public Int32 DeviceId { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HitView",
+              "s": "public View HitView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenPosition",
+              "s": "public Point ScreenPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public TouchState State { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

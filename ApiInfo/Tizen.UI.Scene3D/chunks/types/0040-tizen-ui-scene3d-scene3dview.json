@@ -1,0 +1,213 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Scene3DView",
+          "f": "Tizen.UI.Scene3D.Scene3DView",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_resourceReady",
+              "s": "private event EventHandler _resourceReady"
+            },
+            {
+              "k": "event",
+              "n": "CameraTransitionFinished",
+              "s": "public event EventHandler CameraTransitionFinished"
+            },
+            {
+              "k": "event",
+              "n": "ResourceReady",
+              "s": "public event EventHandler ResourceReady"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "add__resourceReady",
+              "s": "private Void add__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_CameraTransitionFinished",
+              "s": "public Void add_CameraTransitionFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourceReady",
+              "s": "public Void add_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateCameraTransition",
+              "s": "public Void AnimateCameraTransition(Camera camera, Int32 duration, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateCameraTransitionInternal",
+              "s": "private Void AnimateCameraTransitionInternal(Camera sourceCamera, Camera destinationCamera, Int32 duration, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Cameras",
+              "s": "public IReadOnlyList\u003CCamera\u003E get_Cameras()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultCamera",
+              "s": "public Camera get_DefaultCamera()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageBasedLightScaleFactor",
+              "s": "public Single get_ImageBasedLightScaleFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Lights",
+              "s": "public IReadOnlyList\u003CLight\u003E get_Lights()"
+            },
+            {
+              "k": "method",
+              "n": "get_Models",
+              "s": "public IReadOnlyList\u003CModel3D\u003E get_Models()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseFramebuffer",
+              "s": "public Boolean get_UseFramebuffer()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentCamera",
+              "s": "public Camera GetCurrentCamera()"
+            },
+            {
+              "k": "method",
+              "n": "IsChildModel",
+              "s": "private Boolean IsChildModel(Model3D model3D)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "remove__resourceReady",
+              "s": "private Void remove__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_CameraTransitionFinished",
+              "s": "public Void remove_CameraTransitionFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourceReady",
+              "s": "public Void remove_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageBasedLightScaleFactor",
+              "s": "public Void set_ImageBasedLightScaleFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseFramebuffer",
+              "s": "public Void set_UseFramebuffer(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentCamera",
+              "s": "public Void SetCurrentCamera(Camera camera)"
+            },
+            {
+              "k": "method",
+              "n": "SetImageBasedLightingSource",
+              "s": "public Void SetImageBasedLightingSource(String diffuseUrl, String specularUrl, Single scaleFactor)"
+            },
+            {
+              "k": "method",
+              "n": "SetKeyEventRouteTarget",
+              "s": "public Void SetKeyEventRouteTarget(Model3D model)"
+            },
+            {
+              "k": "property",
+              "n": "Cameras",
+              "s": "public IReadOnlyList\u003CCamera\u003E Cameras { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultCamera",
+              "s": "public Camera DefaultCamera { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageBasedLightScaleFactor",
+              "s": "public Single ImageBasedLightScaleFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Lights",
+              "s": "public IReadOnlyList\u003CLight\u003E Lights { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Models",
+              "s": "public IReadOnlyList\u003CModel3D\u003E Models { get; }"
+            },
+            {
+              "k": "property",
+              "n": "UseFramebuffer",
+              "s": "public Boolean UseFramebuffer { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

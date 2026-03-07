@@ -1,0 +1,28 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "UIThematicBreak",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIThematicBreak",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ThematicBreakStyle thematicBreakStyle)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

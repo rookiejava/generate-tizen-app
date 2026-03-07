@@ -1,0 +1,183 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "KeyEvent",
+          "f": "Tizen.UI.KeyEvent",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean hasOwnership)"
+            },
+            {
+              "k": "method",
+              "n": "get_DeviceClass",
+              "s": "public KeyDeviceClass get_DeviceClass()"
+            },
+            {
+              "k": "method",
+              "n": "get_DeviceName",
+              "s": "public String get_DeviceName()"
+            },
+            {
+              "k": "method",
+              "n": "get_DeviceSubClass",
+              "s": "public KeyDeviceSubClass get_DeviceSubClass()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAltModifier",
+              "s": "public Boolean get_IsAltModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsCtrlModifier",
+              "s": "public Boolean get_IsCtrlModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShiftModifier",
+              "s": "public Boolean get_IsShiftModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_KeyCode",
+              "s": "public Int32 get_KeyCode()"
+            },
+            {
+              "k": "method",
+              "n": "get_KeyModifier",
+              "s": "public Int32 get_KeyModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_KeyPressedName",
+              "s": "public String get_KeyPressedName()"
+            },
+            {
+              "k": "method",
+              "n": "get_LogicalKey",
+              "s": "public String get_LogicalKey()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public KeyState get_State()"
+            },
+            {
+              "k": "method",
+              "n": "get_Time",
+              "s": "public UInt32 get_Time()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_KeyCode",
+              "s": "public Void set_KeyCode(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_KeyModifier",
+              "s": "public Void set_KeyModifier(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_KeyPressedName",
+              "s": "public Void set_KeyPressedName(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_State",
+              "s": "public Void set_State(KeyState value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Time",
+              "s": "public Void set_Time(UInt32 value)"
+            },
+            {
+              "k": "property",
+              "n": "DeviceClass",
+              "s": "public KeyDeviceClass DeviceClass { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DeviceName",
+              "s": "public String DeviceName { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DeviceSubClass",
+              "s": "public KeyDeviceSubClass DeviceSubClass { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAltModifier",
+              "s": "public Boolean IsAltModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsCtrlModifier",
+              "s": "public Boolean IsCtrlModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsShiftModifier",
+              "s": "public Boolean IsShiftModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "KeyCode",
+              "s": "public Int32 KeyCode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "KeyModifier",
+              "s": "public Int32 KeyModifier { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "KeyPressedName",
+              "s": "public String KeyPressedName { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LogicalKey",
+              "s": "public String LogicalKey { get; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public KeyState State { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Time",
+              "s": "public UInt32 Time { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

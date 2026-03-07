@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ViewTokenInfo",
+          "f": "Tizen.UI.Components.ViewTokenInfo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Ensure",
+              "s": "public static ViewTokenInfo Ensure(View view)"
+            },
+            {
+              "k": "method",
+              "n": "InvokeWithGuard",
+              "s": "public Void InvokeWithGuard\u003CT\u003E(Action\u003CObject, T\u003E setter, View view, T value)"
+            },
+            {
+              "k": "method",
+              "n": "IsTokenApplied",
+              "s": "public Boolean IsTokenApplied(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "OnViewPropertySet",
+              "s": "private Void OnViewPropertySet(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "SetTokenApplied",
+              "s": "public Void SetTokenApplied(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "UnsetTokenApplied",
+              "s": "public Void UnsetTokenApplied(String propertyName)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "Rectangle",
+          "f": "Tizen.UI.Primitives2D.Rectangle",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "DrawRectangle",
+              "s": "private Void DrawRectangle(Boolean reset)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

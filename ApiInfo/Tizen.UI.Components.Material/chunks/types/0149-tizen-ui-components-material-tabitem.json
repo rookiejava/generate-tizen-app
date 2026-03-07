@@ -1,0 +1,256 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "TabItem",
+          "f": "Tizen.UI.Components.Material.TabItem",
+          "k": "class",
+          "b": "Tizen.UI.Components.GroupSelectable",
+          "i": [
+            "Tizen.UI.Components.IFlexibleText",
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TabItemVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, TabItemVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(TabItemVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private Grid get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconHeight",
+              "s": "public Single get_IconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMultipliedColor",
+              "s": "public Color get_IconMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconResourceUrl",
+              "s": "public String get_IconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconWidth",
+              "s": "public Single get_IconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSizeScaleEnabled",
+              "s": "public Boolean get_SystemFontSizeScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectSecondaryTarget",
+              "s": "public View GetTouchEffectSecondaryTarget()"
+            },
+            {
+              "k": "method",
+              "n": "HandleFontFamilyStyle",
+              "s": "private Void HandleFontFamilyStyle(Object sender, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "HandleIconMultipliedColorStyle",
+              "s": "private Void HandleIconMultipliedColorStyle(Object sender, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconHeight",
+              "s": "public Void set_IconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMultipliedColor",
+              "s": "public Void set_IconMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconResourceUrl",
+              "s": "public Void set_IconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconWidth",
+              "s": "public Void set_IconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontSizeScaleEnabled",
+              "s": "public Void set_SystemFontSizeScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private Grid Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconHeight",
+              "s": "public Single IconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMultipliedColor",
+              "s": "public Color IconMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconResourceUrl",
+              "s": "public String IconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconWidth",
+              "s": "public Single IconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSizeScaleEnabled",
+              "s": "public Boolean SystemFontSizeScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

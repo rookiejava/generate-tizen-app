@@ -1,0 +1,263 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Animation",
+          "f": "Tizen.UI.Animation",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_finished",
+              "s": "private event EventHandler _finished"
+            },
+            {
+              "k": "event",
+              "n": "_progressReached",
+              "s": "private event EventHandler _progressReached"
+            },
+            {
+              "k": "event",
+              "n": "Finished",
+              "s": "public event EventHandler Finished"
+            },
+            {
+              "k": "event",
+              "n": "ProgressReached",
+              "s": "public event EventHandler ProgressReached"
+            },
+            {
+              "k": "method",
+              "n": "\u003COnFinished\u003Eb__44_0",
+              "s": "private Void \u003COnFinished\u003Eb__44_0()"
+            },
+            {
+              "k": "method",
+              "n": "add__finished",
+              "s": "private Void add__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__progressReached",
+              "s": "private Void add__progressReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Finished",
+              "s": "public Void add_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ProgressReached",
+              "s": "public Void add_ProgressReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AddToPlayingObject",
+              "s": "private static Void AddToPlayingObject(Animation animation)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateBy",
+              "s": "public Void AnimateBy(View target, AnimatablePropertyValue props, Int32 delayMs, Int32 durationMs, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateTo",
+              "s": "public Void AnimateTo(View target, AnimatablePropertyValue props, Int32 delayMs, Int32 durationMs, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentProgress",
+              "s": "public Single get_CurrentProgress()"
+            },
+            {
+              "k": "method",
+              "n": "get_Duration",
+              "s": "public Int32 get_Duration()"
+            },
+            {
+              "k": "method",
+              "n": "get_EndAction",
+              "s": "public AnimationEndAction get_EndAction()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLoop",
+              "s": "public Boolean get_IsLoop()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProgressReachedTarget",
+              "s": "public Single get_ProgressReachedTarget()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public AnimationState get_State()"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "private Void OnFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnFinished",
+              "s": "private Void OnFinished(IntPtr ptr)"
+            },
+            {
+              "k": "method",
+              "n": "OnProgress",
+              "s": "private Void OnProgress(IntPtr ptr)"
+            },
+            {
+              "k": "method",
+              "n": "Pause",
+              "s": "public Void Pause()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play()"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(Int32 delayTime)"
+            },
+            {
+              "k": "method",
+              "n": "Play",
+              "s": "public Void Play(Single progress)"
+            },
+            {
+              "k": "method",
+              "n": "PlayAsync",
+              "s": "public Task PlayAsync()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "remove__finished",
+              "s": "private Void remove__finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__progressReached",
+              "s": "private Void remove__progressReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Finished",
+              "s": "public Void remove_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ProgressReached",
+              "s": "public Void remove_ProgressReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveFromPlayingObject",
+              "s": "private static Void RemoveFromPlayingObject(Animation animation)"
+            },
+            {
+              "k": "method",
+              "n": "set_Duration",
+              "s": "public Void set_Duration(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_EndAction",
+              "s": "public Void set_EndAction(AnimationEndAction value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLoop",
+              "s": "public Void set_IsLoop(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProgressReachedTarget",
+              "s": "public Void set_ProgressReachedTarget(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "property",
+              "n": "CurrentProgress",
+              "s": "public Single CurrentProgress { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Duration",
+              "s": "public Int32 Duration { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EndAction",
+              "s": "public AnimationEndAction EndAction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLoop",
+              "s": "public Boolean IsLoop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProgressReachedTarget",
+              "s": "public Single ProgressReachedTarget { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public AnimationState State { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

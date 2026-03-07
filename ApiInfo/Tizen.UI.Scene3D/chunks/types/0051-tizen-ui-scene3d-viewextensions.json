@@ -1,0 +1,180 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Scene3D.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetRotation3D",
+              "s": "public static Quaternion GetRotation3D(NObject obj)"
+            },
+            {
+              "k": "method",
+              "n": "GetWorldRotation3D",
+              "s": "public static Quaternion GetWorldRotation3D(NObject obj)"
+            },
+            {
+              "k": "method",
+              "n": "LookAt",
+              "s": "public static Void LookAt(View view, Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+            },
+            {
+              "k": "method",
+              "n": "SetParentOrigin3D",
+              "s": "public static Void SetParentOrigin3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPivotPoint3D",
+              "s": "public static Void SetPivotPoint3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPosition3D",
+              "s": "public static Void SetPosition3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPosition3D",
+              "s": "public static Void SetPosition3D(View view, Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "SetPositionZ",
+              "s": "public static Void SetPositionZ(View view, Single positionZ)"
+            },
+            {
+              "k": "method",
+              "n": "SetRotation3D",
+              "s": "public static Void SetRotation3D(View view, Quaternion quaternion)"
+            },
+            {
+              "k": "method",
+              "n": "SetScale3D",
+              "s": "public static Void SetScale3D(View view, Size3D scale)"
+            },
+            {
+              "k": "method",
+              "n": "SetScale3D",
+              "s": "public static Void SetScale3D(View view, Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "SetScaleZ",
+              "s": "public static Void SetScaleZ(View view, Single scaleZ)"
+            },
+            {
+              "k": "method",
+              "n": "SetSize3D",
+              "s": "public static Void SetSize3D(View view, Size3D size)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.NObject",
+      "n": "GetRotation3D",
+      "s": "public static Quaternion GetRotation3D(NObject obj)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.NObject",
+      "n": "GetWorldRotation3D",
+      "s": "public static Quaternion GetWorldRotation3D(NObject obj)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "LookAt",
+      "s": "public static Void LookAt(View view, Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetParentOrigin3D",
+      "s": "public static Void SetParentOrigin3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPivotPoint3D",
+      "s": "public static Void SetPivotPoint3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPosition3D",
+      "s": "public static Void SetPosition3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPosition3D",
+      "s": "public static Void SetPosition3D(View view, Single x, Single y, Single z)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPositionZ",
+      "s": "public static Void SetPositionZ(View view, Single positionZ)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetRotation3D",
+      "s": "public static Void SetRotation3D(View view, Quaternion quaternion)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScale3D",
+      "s": "public static Void SetScale3D(View view, Size3D scale)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScale3D",
+      "s": "public static Void SetScale3D(View view, Single x, Single y, Single z)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScaleZ",
+      "s": "public static Void SetScaleZ(View view, Single scaleZ)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetSize3D",
+      "s": "public static Void SetSize3D(View view, Size3D size)"
+    }
+  ]
+}

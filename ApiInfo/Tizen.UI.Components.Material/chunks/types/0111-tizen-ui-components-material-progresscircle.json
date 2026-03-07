@@ -1,0 +1,138 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ProgressCircle",
+          "f": "Tizen.UI.Components.Material.ProgressCircle",
+          "k": "class",
+          "b": "Tizen.UI.Components.Progress",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ProgressCircleVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue, ProgressCircleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ProgressCircleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackColor",
+              "s": "public Color get_TrackColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrackThickness",
+              "s": "public Single get_TrackThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TrailColor",
+              "s": "public Color get_TrailColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetIndeterminateImageUrl",
+              "s": "protected String GetIndeterminateImageUrl()"
+            },
+            {
+              "k": "method",
+              "n": "OnAddedToWindow",
+              "s": "private Void OnAddedToWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnApplicationResumed",
+              "s": "private Void OnApplicationResumed(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDeterminateStateChanged",
+              "s": "protected Void OnDeterminateStateChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnValueRatioChanged",
+              "s": "protected Void OnValueRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackColor",
+              "s": "public Void set_TrackColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrackThickness",
+              "s": "public Void set_TrackThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TrailColor",
+              "s": "public Void set_TrailColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToDeterminate",
+              "s": "private Void SwitchToDeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToIndeterminate",
+              "s": "private Void SwitchToIndeterminate()"
+            },
+            {
+              "k": "property",
+              "n": "TrackColor",
+              "s": "public Color TrackColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrackThickness",
+              "s": "public Single TrackThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TrailColor",
+              "s": "public Color TrailColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

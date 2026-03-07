@@ -1,0 +1,140 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PageIndicator",
+          "f": "Tizen.UI.Components.Material.PageIndicator",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.Material.IPageIndicator"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(PageIndicatorVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "AddPage",
+              "s": "public Void AddPage(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentPage",
+              "s": "public Int32 get_CurrentPage()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_PageAdapter",
+              "s": "public PageAdapter get_PageAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageCount",
+              "s": "public Int32 get_PageCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageDotTemplate",
+              "s": "public ViewTemplate get_PageDotTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "RemovePage",
+              "s": "public Void RemovePage(Int32 pageIndex)"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentPage",
+              "s": "public Void set_CurrentPage(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PageAdapter",
+              "s": "public Void set_PageAdapter(PageAdapter value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PageDotTemplate",
+              "s": "public Void set_PageDotTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePage",
+              "s": "protected Void UpdatePage(Int32 currentPage)"
+            },
+            {
+              "k": "property",
+              "n": "CurrentPage",
+              "s": "public Int32 CurrentPage { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PageAdapter",
+              "s": "public PageAdapter PageAdapter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PageCount",
+              "s": "public Int32 PageCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PageDotTemplate",
+              "s": "public ViewTemplate PageDotTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

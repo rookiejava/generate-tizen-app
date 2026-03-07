@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ImageLoader",
+          "f": "Tizen.UI.ImageLoader",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetOriginalImageSize",
+              "s": "public static Size GetOriginalImageSize(String filename, Boolean orientationCorretion)"
+            },
+            {
+              "k": "method",
+              "n": "LoadImage",
+              "s": "public static PixelBuffer LoadImage(Stream stream)"
+            },
+            {
+              "k": "method",
+              "n": "LoadImageFromFile",
+              "s": "public static PixelBuffer LoadImageFromFile(String url)"
+            },
+            {
+              "k": "method",
+              "n": "LoadImageFromFile",
+              "s": "public static PixelBuffer LoadImageFromFile(String url, Size size, ImageLoaderFittingMode fittingMode, ImageLoaderSamplingMode samplingMode, Boolean orientationCorrection)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

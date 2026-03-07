@@ -1,0 +1,156 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Layouts.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AbsoluteParam",
+              "s": "public static AbsoluteParam AbsoluteParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "FlexParam",
+              "s": "public static FlexParam FlexParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "FlexRootParam",
+              "s": "internal static FlexRootParam FlexRootParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetConstraints",
+              "s": "internal static Size GetConstraints(Item item)"
+            },
+            {
+              "k": "method",
+              "n": "GetFrame",
+              "s": "internal static Rect GetFrame(Item item)"
+            },
+            {
+              "k": "method",
+              "n": "GridParam",
+              "s": "public static GridParam GridParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HasFlexParam",
+              "s": "public static Boolean HasFlexParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "internal static Int32 IndexOf(Item parent, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "LayoutParam",
+              "s": "public static LayoutParam LayoutParam(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "internal static Void Remove(Item parent, Item child)"
+            },
+            {
+              "k": "method",
+              "n": "ToFlexBasis",
+              "s": "internal static Basis ToFlexBasis(FlexBasis basis)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetConstraints",
+      "s": "internal static Size GetConstraints(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "GetFrame",
+      "s": "internal static Rect GetFrame(Item item)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "IndexOf",
+      "s": "internal static Int32 IndexOf(Item parent, Item child)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.Flex.Item",
+      "n": "Remove",
+      "s": "internal static Void Remove(Item parent, Item child)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.Layouts.FlexBasis",
+      "n": "ToFlexBasis",
+      "s": "internal static Basis ToFlexBasis(FlexBasis basis)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AbsoluteParam",
+      "s": "public static AbsoluteParam AbsoluteParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "FlexParam",
+      "s": "public static FlexParam FlexParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "FlexRootParam",
+      "s": "internal static FlexRootParam FlexRootParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GridParam",
+      "s": "public static GridParam GridParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "HasFlexParam",
+      "s": "public static Boolean HasFlexParam(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "LayoutParam",
+      "s": "public static LayoutParam LayoutParam(View view)"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "FocusManager",
+          "f": "Tizen.UI.FocusManager",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_focusChanged",
+              "s": "private event EventHandler\u003CFocusChangedEventArgs\u003E _focusChanged"
+            },
+            {
+              "k": "event",
+              "n": "FocusChanged",
+              "s": "public event EventHandler\u003CFocusChangedEventArgs\u003E FocusChanged"
+            },
+            {
+              "k": "method",
+              "n": "add__focusChanged",
+              "s": "private Void add__focusChanged(EventHandler\u003CFocusChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_FocusChanged",
+              "s": "public Void add_FocusChanged(EventHandler\u003CFocusChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearFocus",
+              "s": "public Void ClearFocus()"
+            },
+            {
+              "k": "method",
+              "n": "EnableDefaultFocusAlgorithm",
+              "s": "public Void EnableDefaultFocusAlgorithm(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "EnableFocusIndicator",
+              "s": "public Void EnableFocusIndicator(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static FocusManager get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "GetFocused",
+              "s": "public View GetFocused()"
+            },
+            {
+              "k": "method",
+              "n": "GetNearestFocusableView",
+              "s": "public View GetNearestFocusableView(View rootView, View currentView, FocusDirection direction)"
+            },
+            {
+              "k": "method",
+              "n": "GetNearestFocusableViewOverride",
+              "s": "public View GetNearestFocusableViewOverride(View rootView, View currentView, FocusDirection direction)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocusChanged",
+              "s": "private Void OnFocusChanged(IntPtr prev, IntPtr next)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocusChanged",
+              "s": "private Void OnFocusChanged(Object sender, FocusChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "remove__focusChanged",
+              "s": "private Void remove__focusChanged(EventHandler\u003CFocusChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_FocusChanged",
+              "s": "public Void remove_FocusChanged(EventHandler\u003CFocusChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCustomFocusAlgorithm",
+              "s": "public Void SetCustomFocusAlgorithm(IFocusAlgorithm focusAlgorithm)"
+            },
+            {
+              "k": "method",
+              "n": "SetFocus",
+              "s": "public Boolean SetFocus(View view)"
+            },
+            {
+              "k": "method",
+              "n": "SetFocusIndicator",
+              "s": "public Void SetFocusIndicator(View indicator)"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public FocusManager Instance { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

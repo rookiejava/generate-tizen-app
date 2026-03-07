@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals",
+      "t": [
+        {
+          "n": "ColorVisual",
+          "f": "Tizen.UI.Visuals.ColorVisual",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.RoundedVisual",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateVisualMap",
+              "s": "ColorVisualMap CreateVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Single get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CutoutPolicy",
+              "s": "public VisualCutoutPolicy get_CutoutPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "ColorVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CutoutPolicy",
+              "s": "public Void set_CutoutPolicy(VisualCutoutPolicy value)"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Single BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CutoutPolicy",
+              "s": "public VisualCutoutPolicy CutoutPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "ColorVisualMap VisualMap { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

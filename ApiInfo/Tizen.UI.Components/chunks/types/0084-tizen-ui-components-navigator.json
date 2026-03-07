@@ -1,0 +1,303 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Navigator",
+          "f": "Tizen.UI.Components.Navigator",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.INavigateBackHandler",
+            "Tizen.UI.Components.INavigation",
+            "Tizen.UI.Components.INavigationAnimation",
+            "Tizen.UI.Components.INavigationTransition"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddModalView",
+              "s": "private Void AddModalView(View view)"
+            },
+            {
+              "k": "method",
+              "n": "AddToBody",
+              "s": "private Void AddToBody(View child)"
+            },
+            {
+              "k": "method",
+              "n": "AddView",
+              "s": "private Void AddView(View view)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPopAnimation",
+              "s": "private static INavigationAnimationController DefaultPopAnimation(View poppedView, View newTop)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPopModalAnimation",
+              "s": "private static INavigationAnimationController DefaultPopModalAnimation(View poppedView, View newTop)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPushAnimation",
+              "s": "private static INavigationAnimationController DefaultPushAnimation(View pushedView, View curTop)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPushModalAnimation",
+              "s": "private static INavigationAnimationController DefaultPushModalAnimation(View pushedView, View curTop)"
+            },
+            {
+              "k": "method",
+              "n": "DetachedFromWindowHandler",
+              "s": "private Void DetachedFromWindowHandler(Object sender, EventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "DidAppear",
+              "s": "public Void DidAppear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "DidDisappear",
+              "s": "public Void DidDisappear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "DisposeChildren",
+              "s": "private Void DisposeChildren(List\u003CView\u003E stack)"
+            },
+            {
+              "k": "method",
+              "n": "DummyTouchEventHandler",
+              "s": "private Void DummyTouchEventHandler(Object sender, TouchEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "EmitAccessibilityStateOnModal",
+              "s": "private Void EmitAccessibilityStateOnModal(View modalContainer, Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private Layout get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentView",
+              "s": "public View get_CurrentView()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalStack",
+              "s": "public IReadOnlyList\u003CView\u003E get_ModalStack()"
+            },
+            {
+              "k": "method",
+              "n": "get_NavigationStack",
+              "s": "public IReadOnlyList\u003CView\u003E get_NavigationStack()"
+            },
+            {
+              "k": "method",
+              "n": "get_PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "GetTopView",
+              "s": "private View GetTopView(List\u003CView\u003E stack)"
+            },
+            {
+              "k": "method",
+              "n": "InsertBefore",
+              "s": "public Void InsertBefore(View view, View before)"
+            },
+            {
+              "k": "method",
+              "n": "IsTopView",
+              "s": "private Boolean IsTopView(List\u003CView\u003E stack, View view)"
+            },
+            {
+              "k": "method",
+              "n": "IsViewModalRole",
+              "s": "private static Boolean IsViewModalRole(View view)"
+            },
+            {
+              "k": "method",
+              "n": "LoadNavigationProperties",
+              "s": "private Void LoadNavigationProperties(View view)"
+            },
+            {
+              "k": "method",
+              "n": "NavigateBack",
+              "s": "public Boolean NavigateBack()"
+            },
+            {
+              "k": "method",
+              "n": "PopAsync",
+              "s": "public Task\u003CView\u003E PopAsync()"
+            },
+            {
+              "k": "method",
+              "n": "PopAsync",
+              "s": "public Task\u003CView\u003E PopAsync(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PopModalAsync",
+              "s": "public Task\u003CView\u003E PopModalAsync()"
+            },
+            {
+              "k": "method",
+              "n": "PopModalAsync",
+              "s": "public Task\u003CView\u003E PopModalAsync(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PushAsync",
+              "s": "public Task PushAsync(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PushAsync",
+              "s": "public Task PushAsync(View view, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PushModalAsync",
+              "s": "public Task PushModalAsync(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PushModalAsync",
+              "s": "public Task PushModalAsync(View view, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(View view)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveInternal",
+              "s": "private Void RemoveInternal(View view)"
+            },
+            {
+              "k": "method",
+              "n": "SaveNavigationProperties",
+              "s": "private Void SaveNavigationProperties(View view)"
+            },
+            {
+              "k": "method",
+              "n": "ThrowIfContains",
+              "s": "private Void ThrowIfContains(View view)"
+            },
+            {
+              "k": "method",
+              "n": "ThrowIfNotContains",
+              "s": "private Void ThrowIfNotContains(List\u003CView\u003E stack, View view)"
+            },
+            {
+              "k": "method",
+              "n": "ThrowIfNotContains",
+              "s": "private Void ThrowIfNotContains(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigateBackHandler.HandleNavigateBack",
+              "s": "Boolean Tizen.UI.Components.INavigateBackHandler.HandleNavigateBack()"
+            },
+            {
+              "k": "method",
+              "n": "WillAppear",
+              "s": "public Void WillAppear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "WillDisappear",
+              "s": "public Void WillDisappear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private Layout Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentView",
+              "s": "public View CurrentView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModalStack",
+              "s": "public IReadOnlyList\u003CView\u003E ModalStack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "NavigationStack",
+              "s": "public IReadOnlyList\u003CView\u003E NavigationStack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopModalAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushModalAnimation { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

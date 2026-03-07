@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SystemLocaleLanguageChangedManager",
+          "f": "Tizen.UI.Components.SystemLocaleLanguageChangedManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "event",
+              "n": "Finished",
+              "s": "public event EventHandler\u003CLocaleLanguageChangedEventArgs\u003E Finished"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public static Void Add(EventHandler\u003CLocaleLanguageChangedEventArgs\u003E handler)"
+            },
+            {
+              "k": "method",
+              "n": "add_Finished",
+              "s": "public static Void add_Finished(EventHandler\u003CLocaleLanguageChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_LocaleLanguage",
+              "s": "public static String get_LocaleLanguage()"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public static Void Remove(EventHandler\u003CLocaleLanguageChangedEventArgs\u003E handler)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Finished",
+              "s": "public static Void remove_Finished(EventHandler\u003CLocaleLanguageChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SystemLocaleLanguageChanged",
+              "s": "private static Void SystemLocaleLanguageChanged(Object sender, LocaleLanguageChangedEventArgs args)"
+            },
+            {
+              "k": "property",
+              "n": "LocaleLanguage",
+              "s": "public String LocaleLanguage { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

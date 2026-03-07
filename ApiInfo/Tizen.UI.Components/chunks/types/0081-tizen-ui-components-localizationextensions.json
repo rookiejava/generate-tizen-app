@@ -1,0 +1,84 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "LocalizationExtensions",
+          "f": "Tizen.UI.Components.LocalizationExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "BindLocalizedAccessibilityDescription",
+              "s": "public static TView BindLocalizedAccessibilityDescription\u003CTView\u003E(TView view, String key, ResourceManager resourceManager) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedAccessibilityName",
+              "s": "public static TView BindLocalizedAccessibilityName\u003CTView\u003E(TView view, String key, ResourceManager resourceManager) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedPlaceholderText",
+              "s": "public static TText BindLocalizedPlaceholderText\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, ITextEditable"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedSubtitle",
+              "s": "public static TText BindLocalizedSubtitle\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, IDoubleTitle"
+            },
+            {
+              "k": "method",
+              "n": "BindLocalizedTitle",
+              "s": "public static TText BindLocalizedTitle\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, ITitle"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.LocalizationExtensions",
+      "r": "TText",
+      "n": "BindLocalizedPlaceholderText",
+      "s": "public static TText BindLocalizedPlaceholderText\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, ITextEditable"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.LocalizationExtensions",
+      "r": "TText",
+      "n": "BindLocalizedSubtitle",
+      "s": "public static TText BindLocalizedSubtitle\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, IDoubleTitle"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.LocalizationExtensions",
+      "r": "TText",
+      "n": "BindLocalizedTitle",
+      "s": "public static TText BindLocalizedTitle\u003CTText\u003E(TText view, String key, ResourceManager resourceManager) where TText : class, ITitle"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.LocalizationExtensions",
+      "r": "TView",
+      "n": "BindLocalizedAccessibilityDescription",
+      "s": "public static TView BindLocalizedAccessibilityDescription\u003CTView\u003E(TView view, String key, ResourceManager resourceManager) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.LocalizationExtensions",
+      "r": "TView",
+      "n": "BindLocalizedAccessibilityName",
+      "s": "public static TView BindLocalizedAccessibilityName\u003CTView\u003E(TView view, String key, ResourceManager resourceManager) where TView : View"
+    }
+  ]
+}

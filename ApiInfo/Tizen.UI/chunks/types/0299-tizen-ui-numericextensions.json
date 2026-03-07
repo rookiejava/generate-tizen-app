@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "NumericExtensions",
+          "f": "Tizen.UI.NumericExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Clamp",
+              "s": "public static Single Clamp(Single self, Single min, Single max)"
+            },
+            {
+              "k": "method",
+              "n": "Clamp",
+              "s": "public static Int32 Clamp(Int32 self, Int32 min, Int32 max)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.NumericExtensions",
+      "r": "System.Int32",
+      "n": "Clamp",
+      "s": "public static Int32 Clamp(Int32 self, Int32 min, Int32 max)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.NumericExtensions",
+      "r": "System.Single",
+      "n": "Clamp",
+      "s": "public static Single Clamp(Single self, Single min, Single max)"
+    }
+  ]
+}

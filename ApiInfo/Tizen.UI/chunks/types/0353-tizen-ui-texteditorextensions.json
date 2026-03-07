@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TextEditorExtensions",
+          "f": "Tizen.UI.TextEditorExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "IsAbsoluteLineHeight",
+              "s": "public static TView IsAbsoluteLineHeight\u003CTView\u003E(TView view, Boolean isAbsoluteLineHeight) where TView : TextEditor"
+            },
+            {
+              "k": "method",
+              "n": "LineHeight",
+              "s": "public static TView LineHeight\u003CTView\u003E(TView view, Single height) where TView : TextEditor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextEditorExtensions",
+      "r": "TView",
+      "n": "IsAbsoluteLineHeight",
+      "s": "public static TView IsAbsoluteLineHeight\u003CTView\u003E(TView view, Boolean isAbsoluteLineHeight) where TView : TextEditor"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextEditorExtensions",
+      "r": "TView",
+      "n": "LineHeight",
+      "s": "public static TView LineHeight\u003CTView\u003E(TView view, Single height) where TView : TextEditor"
+    }
+  ]
+}

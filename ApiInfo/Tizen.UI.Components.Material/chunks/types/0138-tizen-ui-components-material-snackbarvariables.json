@@ -1,0 +1,430 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SnackBarVariables",
+          "f": "Tizen.UI.Components.Material.SnackBarVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.SnackBarVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SnackBarVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "SnackBarVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(SnackBarVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomOffset",
+              "s": "public Single get_BottomOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonBackgroundColor",
+              "s": "public Color get_ButtonBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonFontColor",
+              "s": "public Color get_ButtonFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonFontSize",
+              "s": "public Single get_ButtonFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonHeight",
+              "s": "public Single get_ButtonHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ButtonPadding",
+              "s": "public Thickness get_ButtonPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static SnackBarVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ExpandHeight",
+              "s": "public Single get_ExpandHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ExpandItemSpacing",
+              "s": "public Single get_ExpandItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_ExpandPadding",
+              "s": "public Thickness get_ExpandPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_InitialHeight",
+              "s": "public Single get_InitialHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_InitialWidth",
+              "s": "public Single get_InitialWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumWidth",
+              "s": "public Single get_MaximumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumWidth",
+              "s": "public Single get_MinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextFontSize",
+              "s": "public Single get_TextFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(SnackBarVariables left, SnackBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(SnackBarVariables left, SnackBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BottomOffset",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BottomOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ButtonBackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ButtonBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ButtonFontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ButtonFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ButtonFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ButtonFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ButtonHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ButtonHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ButtonPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ButtonPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ExpandHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ExpandHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ExpandItemSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ExpandItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ExpandPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ExpandPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InitialHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_InitialHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InitialWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_InitialWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MaximumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TextFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomOffset",
+              "s": "public Single BottomOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonBackgroundColor",
+              "s": "public Color ButtonBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonFontColor",
+              "s": "public Color ButtonFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonFontSize",
+              "s": "public Single ButtonFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonHeight",
+              "s": "public Single ButtonHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ButtonPadding",
+              "s": "public Thickness ButtonPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public SnackBarVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ExpandHeight",
+              "s": "public Single ExpandHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ExpandItemSpacing",
+              "s": "public Single ExpandItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ExpandPadding",
+              "s": "public Thickness ExpandPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InitialHeight",
+              "s": "public Single InitialHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InitialWidth",
+              "s": "public Single InitialWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumWidth",
+              "s": "public Single MaximumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumWidth",
+              "s": "public Single MinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextFontSize",
+              "s": "public Single TextFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "CustomShape",
+          "f": "Tizen.UI.Primitives2D.CustomShape",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IEnumerable\u003CIPath\u003E path)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Path",
+              "s": "public IEnumerable\u003CIPath\u003E get_Path()"
+            },
+            {
+              "k": "method",
+              "n": "ResetPath",
+              "s": "private Void ResetPath()"
+            },
+            {
+              "k": "method",
+              "n": "set_Path",
+              "s": "public Void set_Path(IEnumerable\u003CIPath\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPath",
+              "s": "private Void SetPath(IEnumerable\u003CIPath\u003E path)"
+            },
+            {
+              "k": "property",
+              "n": "Path",
+              "s": "public IEnumerable\u003CIPath\u003E Path { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

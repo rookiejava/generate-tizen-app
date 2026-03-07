@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IPressable",
+          "f": "Tizen.UI.Components.IPressable",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "PressedChanged",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E PressedChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_PressedChanged",
+              "s": "public Void add_PressedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsPressed",
+              "s": "public Boolean get_IsPressed()"
+            },
+            {
+              "k": "method",
+              "n": "remove_PressedChanged",
+              "s": "public Void remove_PressedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "IsPressed",
+              "s": "public Boolean IsPressed { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

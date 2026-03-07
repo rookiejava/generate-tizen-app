@@ -1,0 +1,33 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ExceptionHelper",
+          "f": "Tizen.UI.ExceptionHelper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ThrowIfNullOrEmpty",
+              "s": "public static Void ThrowIfNullOrEmpty(String argument, String paramName)"
+            },
+            {
+              "k": "method",
+              "n": "ThrowIfNullOrWhiteSpace",
+              "s": "public static Void ThrowIfNullOrWhiteSpace(String argument, String paramName)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

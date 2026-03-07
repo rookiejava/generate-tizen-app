@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "Sampler",
+          "f": "Tizen.UI.Internal.Sampler",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "SetFilterMode",
+              "s": "public Void SetFilterMode(FilterMode minFilter, FilterMode magFilter)"
+            },
+            {
+              "k": "method",
+              "n": "SetWrapMode",
+              "s": "public Void SetWrapMode(ImageWrapMode uWrap, ImageWrapMode vWrap)"
+            },
+            {
+              "k": "method",
+              "n": "SetWrapMode",
+              "s": "public Void SetWrapMode(ImageWrapMode rWrap, ImageWrapMode sWrap, ImageWrapMode tWrap)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

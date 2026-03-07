@@ -1,0 +1,33 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "MaterialThemeLoader",
+          "f": "Tizen.UI.Components.Material.MaterialThemeLoader",
+          "k": "class",
+          "b": "Tizen.UI.Components.TizenThemeLoader",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "LoadColorTable",
+              "s": "public IDictionary\u003CString, Color\u003E LoadColorTable()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

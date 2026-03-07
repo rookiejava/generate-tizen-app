@@ -1,0 +1,215 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Layer",
+          "f": "Tizen.UI.Layer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [
+            "Tizen.UI.IParentObject"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr layer)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View item)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeightResizePolicy",
+              "s": "public ResizePolicy get_HeightResizePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_InheritLayoutDirection",
+              "s": "public Boolean get_InheritLayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutDirection",
+              "s": "public LayoutDirection get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_WidthResizePolicy",
+              "s": "public ResizePolicy get_WidthResizePolicy()"
+            },
+            {
+              "k": "method",
+              "n": "GetResizePolicy",
+              "s": "private ResizePolicy GetResizePolicy(Int32 dimension)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "private Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "private Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "private Void OnChildrenChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(View item)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeightResizePolicy",
+              "s": "public Void set_HeightResizePolicy(ResizePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InheritLayoutDirection",
+              "s": "public Void set_InheritLayoutDirection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutDirection",
+              "s": "public Void set_LayoutDirection(LayoutDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WidthResizePolicy",
+              "s": "public Void set_WidthResizePolicy(ResizePolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "SetResizePolicy",
+              "s": "private Void SetResizePolicy(Int32 dimension, ResizePolicy policy)"
+            },
+            {
+              "k": "method",
+              "n": "SetSize",
+              "s": "public Void SetSize(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IParentObject.Remove",
+              "s": "Void Tizen.UI.IParentObject.Remove(View view)"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HeightResizePolicy",
+              "s": "public ResizePolicy HeightResizePolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InheritLayoutDirection",
+              "s": "public Boolean InheritLayoutDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutDirection",
+              "s": "public LayoutDirection LayoutDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WidthResizePolicy",
+              "s": "public ResizePolicy WidthResizePolicy { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

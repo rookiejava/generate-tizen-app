@@ -1,0 +1,385 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "BottomSheetVariables",
+          "f": "Tizen.UI.Components.Material.BottomSheetVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.BottomSheetVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(BottomSheetVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "BottomSheetVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(BottomSheetVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Anchors",
+              "s": "public IEnumerable\u003CSingle\u003E get_Anchors()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundBlur",
+              "s": "public Single get_BackgroundBlur()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineColor",
+              "s": "public Color get_BorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineOffset",
+              "s": "public Single get_BorderlineOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineWidth",
+              "s": "public Single get_BorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static BottomSheetVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultAnchorIndex",
+              "s": "public Int32 get_DefaultAnchorIndex()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultWidth",
+              "s": "public Single get_DefaultWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_DragHandleColor",
+              "s": "public Color get_DragHandleColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DragHandleCornerRadius",
+              "s": "public CornerRadius get_DragHandleCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_DragHandleHeight",
+              "s": "public Single get_DragHandleHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DragHandleWidth",
+              "s": "public Single get_DragHandleWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeaderHeight",
+              "s": "public Single get_HeaderHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(BottomSheetVariables left, BottomSheetVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(BottomSheetVariables left, BottomSheetVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Anchors",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Anchors(IEnumerable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundBlur",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundBlur(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineOffset",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BorderlineOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultAnchorIndex",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultAnchorIndex(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DragHandleColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DragHandleColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DragHandleCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DragHandleCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DragHandleHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DragHandleHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DragHandleWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DragHandleWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeaderHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_HeaderHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Anchors",
+              "s": "public IEnumerable\u003CSingle\u003E Anchors { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundBlur",
+              "s": "public Single BackgroundBlur { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineColor",
+              "s": "public Color BorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineOffset",
+              "s": "public Single BorderlineOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineWidth",
+              "s": "public Single BorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public BottomSheetVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultAnchorIndex",
+              "s": "public Int32 DefaultAnchorIndex { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultWidth",
+              "s": "public Single DefaultWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DragHandleColor",
+              "s": "public Color DragHandleColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DragHandleCornerRadius",
+              "s": "public CornerRadius DragHandleCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DragHandleHeight",
+              "s": "public Single DragHandleHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DragHandleWidth",
+              "s": "public Single DragHandleWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HeaderHeight",
+              "s": "public Single HeaderHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

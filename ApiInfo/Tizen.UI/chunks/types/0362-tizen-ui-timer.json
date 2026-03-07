@@ -1,0 +1,118 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Timer",
+          "f": "Tizen.UI.Timer",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UInt32 millisec)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Interval",
+              "s": "public UInt32 get_Interval()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsRunning",
+              "s": "public Boolean get_IsRunning()"
+            },
+            {
+              "k": "method",
+              "n": "get_TickHandler",
+              "s": "public Func\u003CBoolean\u003E get_TickHandler()"
+            },
+            {
+              "k": "method",
+              "n": "OnTick",
+              "s": "private Boolean OnTick()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "Repeat",
+              "s": "public static Timer Repeat(UInt32 interval, Func\u003CBoolean\u003E handler)"
+            },
+            {
+              "k": "method",
+              "n": "Reset",
+              "s": "public Void Reset()"
+            },
+            {
+              "k": "method",
+              "n": "set_Interval",
+              "s": "public Void set_Interval(UInt32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TickHandler",
+              "s": "public Void set_TickHandler(Func\u003CBoolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "Start",
+              "s": "public Void Start()"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "method",
+              "n": "Timeout",
+              "s": "public static Timer Timeout(UInt32 timeout, Action action)"
+            },
+            {
+              "k": "property",
+              "n": "Interval",
+              "s": "public UInt32 Interval { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsRunning",
+              "s": "public Boolean IsRunning { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TickHandler",
+              "s": "public Func\u003CBoolean\u003E TickHandler { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

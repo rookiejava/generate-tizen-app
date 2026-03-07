@@ -1,0 +1,377 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "NativeHandleExtensions",
+          "f": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CheckException",
+              "s": "public static T CheckException\u003CT\u003E(T v)"
+            },
+            {
+              "k": "method",
+              "n": "CheckException",
+              "s": "public static Void CheckException()"
+            },
+            {
+              "k": "method",
+              "n": "DegreeToRadian",
+              "s": "public static RadianHandle DegreeToRadian(Single degree)"
+            },
+            {
+              "k": "method",
+              "n": "PascalToCamel",
+              "s": "internal static String PascalToCamel(String value)"
+            },
+            {
+              "k": "method",
+              "n": "RadianToDegree",
+              "s": "public static Single RadianToDegree(Single radians)"
+            },
+            {
+              "k": "method",
+              "n": "SetValue",
+              "s": "internal static Void SetValue(Vector4Handle vector, Single x, Single y, Single z, Single w)"
+            },
+            {
+              "k": "method",
+              "n": "SetValue",
+              "s": "internal static Void SetValue(Vector2Handle vector, Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "SetValue",
+              "s": "internal static Void SetValue(Vector3Handle vector, Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "ToColor",
+              "s": "public static Color ToColor(Vector4Handle vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToColor",
+              "s": "public static Color ToColor(ObjectPool\u003CVector4Handle\u003E vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToCornerRadius",
+              "s": "public static CornerRadius ToCornerRadius(ObjectPool\u003CVector4Handle\u003E vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToCornerRadius",
+              "s": "public static CornerRadius ToCornerRadius(Vector4Handle vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToInt32Pair",
+              "s": "internal static Int32PairHandle ToInt32Pair(Point point)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static Vector4Handle ToNative(Color color, Vector4Handle vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "public static DegreeHandle ToNative(Single degree)"
+            },
+            {
+              "k": "method",
+              "n": "ToNativeRectangle",
+              "s": "public static RectangleHandle ToNativeRectangle(Thickness rect)"
+            },
+            {
+              "k": "method",
+              "n": "ToNativeRectangle",
+              "s": "public static RectangleHandle ToNativeRectangle(Rect rect)"
+            },
+            {
+              "k": "method",
+              "n": "ToPoint",
+              "s": "public static Point ToPoint(Vector2Handle value)"
+            },
+            {
+              "k": "method",
+              "n": "ToPoint",
+              "s": "public static Point ToPoint(Vector3Handle value)"
+            },
+            {
+              "k": "method",
+              "n": "ToPoint",
+              "s": "internal static Point ToPoint(Int32PairHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToPropertyIndex",
+              "s": "internal static Int32 ToPropertyIndex(RenderNotificationKey key)"
+            },
+            {
+              "k": "method",
+              "n": "ToRect",
+              "s": "public static Rect ToRect(Vector4Handle vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToSize",
+              "s": "public static Size ToSize(Vector3Handle vector)"
+            },
+            {
+              "k": "method",
+              "n": "ToSize",
+              "s": "internal static Size ToSize(UInt16PairHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToVector",
+              "s": "internal static ObjectPool\u003CVector3Handle\u003E ToVector(RotationAxis axis)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "System.Single",
+      "n": "DegreeToRadian",
+      "s": "public static RadianHandle DegreeToRadian(Single degree)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "System.Single",
+      "n": "RadianToDegree",
+      "s": "public static Single RadianToDegree(Single radians)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "System.Single",
+      "n": "ToNative",
+      "s": "public static DegreeHandle ToNative(Single degree)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "System.String",
+      "n": "PascalToCamel",
+      "s": "internal static String PascalToCamel(String value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "T",
+      "n": "CheckException",
+      "s": "public static T CheckException\u003CT\u003E(T v)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Color color)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToNative",
+      "s": "public static Vector4Handle ToNative(Color color, Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.CornerRadius",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(CornerRadius value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Internal.ObjectPool\u00601\u003CTizen.UI.NativeHandle.Vector4Handle\u003E",
+      "n": "ToColor",
+      "s": "public static Color ToColor(ObjectPool\u003CVector4Handle\u003E vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Internal.ObjectPool\u00601\u003CTizen.UI.NativeHandle.Vector4Handle\u003E",
+      "n": "ToCornerRadius",
+      "s": "public static CornerRadius ToCornerRadius(ObjectPool\u003CVector4Handle\u003E vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Internal.RotationAxis",
+      "n": "ToVector",
+      "s": "internal static ObjectPool\u003CVector3Handle\u003E ToVector(RotationAxis axis)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Int32PairHandle",
+      "n": "ToPoint",
+      "s": "internal static Point ToPoint(Int32PairHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.UInt16PairHandle",
+      "n": "ToSize",
+      "s": "internal static Size ToSize(UInt16PairHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector2Handle",
+      "n": "SetValue",
+      "s": "internal static Void SetValue(Vector2Handle vector, Single x, Single y)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector2Handle",
+      "n": "ToPoint",
+      "s": "public static Point ToPoint(Vector2Handle value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector3Handle",
+      "n": "SetValue",
+      "s": "internal static Void SetValue(Vector3Handle vector, Single x, Single y, Single z)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector3Handle",
+      "n": "ToPoint",
+      "s": "public static Point ToPoint(Vector3Handle value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector3Handle",
+      "n": "ToSize",
+      "s": "public static Size ToSize(Vector3Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "SetValue",
+      "s": "internal static Void SetValue(Vector4Handle vector, Single x, Single y, Single z, Single w)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToColor",
+      "s": "public static Color ToColor(Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToCornerRadius",
+      "s": "public static CornerRadius ToCornerRadius(Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToRect",
+      "s": "public static Rect ToRect(Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToInt32Pair",
+      "s": "internal static Int32PairHandle ToInt32Pair(Point point)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Point value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Rect value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToNativeRectangle",
+      "s": "public static RectangleHandle ToNativeRectangle(Rect rect)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.RenderNotificationKey",
+      "n": "ToPropertyIndex",
+      "s": "internal static Int32 ToPropertyIndex(RenderNotificationKey key)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Size value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Thickness",
+      "n": "ToNativeRectangle",
+      "s": "public static RectangleHandle ToNativeRectangle(Thickness rect)"
+    }
+  ]
+}

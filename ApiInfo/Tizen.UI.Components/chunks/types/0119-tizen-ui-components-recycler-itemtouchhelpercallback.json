@@ -1,0 +1,113 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ItemTouchHelperCallback",
+          "f": "Tizen.UI.Components.Recycler.ItemTouchHelperCallback",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CanDropOver",
+              "s": "public Boolean CanDropOver(RecyclerView recyclerView, ViewHolder current, ViewHolder target)"
+            },
+            {
+              "k": "method",
+              "n": "ChooseDropTarget",
+              "s": "public ViewHolder ChooseDropTarget(ViewHolder selected, List\u003CViewHolder\u003E dropTargets, Point currentPosition)"
+            },
+            {
+              "k": "method",
+              "n": "get_BoundingBoxMargin",
+              "s": "public Single get_BoundingBoxMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLongpressDragEnabled",
+              "s": "public Boolean get_IsLongpressDragEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "GetMovementPolicy",
+              "s": "public Int32 GetMovementPolicy(RecyclerView recyclerView, ViewHolder viewholder)"
+            },
+            {
+              "k": "method",
+              "n": "GetSMoveThreshold",
+              "s": "public Single GetSMoveThreshold(ViewHolder viewholder)"
+            },
+            {
+              "k": "method",
+              "n": "HasDragPolicy",
+              "s": "public Boolean HasDragPolicy(RecyclerView recyclerView, ViewHolder viewholder)"
+            },
+            {
+              "k": "method",
+              "n": "InterpolateOutOfBoundsScroll",
+              "s": "public Single InterpolateOutOfBoundsScroll(RecyclerView recyclerView, Single viewSize, Single viewSizeOutOfBounds, Single totalSize, Int64 msSinceStartScroll)"
+            },
+            {
+              "k": "method",
+              "n": "MakePolicy",
+              "s": "public static Int32 MakePolicy(TouchActionState actionState, TouchDirection directions)"
+            },
+            {
+              "k": "method",
+              "n": "OnMove",
+              "s": "public Boolean OnMove(RecyclerView recyclerView, ViewHolder viewholder, ViewHolder target)"
+            },
+            {
+              "k": "method",
+              "n": "OnMoved",
+              "s": "public Void OnMoved(RecyclerView recyclerView, ViewHolder viewholder, Int32 fromPos, ViewHolder target, Int32 toPos, Point currentPosition)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectedChanged",
+              "s": "public Void OnSelectedChanged(ViewHolder viewholder, TouchActionState actionState)"
+            },
+            {
+              "k": "method",
+              "n": "set_BoundingBoxMargin",
+              "s": "protected Void set_BoundingBoxMargin(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLongpressDragEnabled",
+              "s": "protected Void set_IsLongpressDragEnabled(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "BoundingBoxMargin",
+              "s": "public Single BoundingBoxMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLongpressDragEnabled",
+              "s": "public Boolean IsLongpressDragEnabled { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

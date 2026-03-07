@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SelectableHStack",
+          "f": "Tizen.UI.Components.SelectableHStack",
+          "k": "class",
+          "b": "Tizen.UI.Components.SelectableBox",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerList",
+              "s": "protected IList\u003CView\u003E get_InnerList()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAlignment",
+              "s": "public Void set_ItemAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void set_Spacing(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "InnerList",
+              "s": "protected IList\u003CView\u003E InnerList { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

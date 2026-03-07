@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ClosedRange\u00601",
+          "f": "Tizen.UI.Components.ClosedRange\u00601",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(T startValue, T endValue)"
+            },
+            {
+              "k": "method",
+              "n": "Clamp",
+              "s": "public T Clamp(T value)"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(T value)"
+            },
+            {
+              "k": "method",
+              "n": "get_EndValue",
+              "s": "public T get_EndValue()"
+            },
+            {
+              "k": "method",
+              "n": "get_StartValue",
+              "s": "public T get_StartValue()"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "EndValue",
+              "s": "public T EndValue { get; }"
+            },
+            {
+              "k": "property",
+              "n": "StartValue",
+              "s": "public T StartValue { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

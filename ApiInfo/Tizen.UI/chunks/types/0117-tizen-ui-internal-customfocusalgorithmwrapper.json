@@ -1,0 +1,75 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "CustomFocusAlgorithmWrapper",
+          "f": "Tizen.UI.Internal.CustomFocusAlgorithmWrapper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IFocusAlgorithm focusAlgorithm)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "private Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_FocusAlgorithm",
+              "s": "public IFocusAlgorithm get_FocusAlgorithm()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "private CustomFocusWrapperHandle get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static CustomFocusWrapperHandle op_Implicit(CustomFocusAlgorithmWrapper obj)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handle",
+              "s": "private Void set_Handle(CustomFocusWrapperHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "WrapperGetNextFocusableView",
+              "s": "private IntPtr WrapperGetNextFocusableView(IntPtr current, IntPtr proposed, Int32 direction, String deviceName)"
+            },
+            {
+              "k": "property",
+              "n": "FocusAlgorithm",
+              "s": "public IFocusAlgorithm FocusAlgorithm { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "private CustomFocusWrapperHandle Handle { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

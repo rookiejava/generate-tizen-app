@@ -1,0 +1,154 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SelectableBox",
+          "f": "Tizen.UI.Components.SelectableBox",
+          "k": "class",
+          "b": "Tizen.UI.Components.Selectable",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IList\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.IEnumerable",
+            "Tizen.UI.Components.ILayoutBox"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(View item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(View[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerList",
+              "s": "protected IList\u003CView\u003E get_InnerList()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CView\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(View item)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, View item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Add",
+              "s": "Void System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Add(View item)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Remove",
+              "s": "Boolean System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Remove(View item)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerList",
+              "s": "protected IList\u003CView\u003E InnerList { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

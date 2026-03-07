@@ -1,0 +1,299 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "DisplayMetrics",
+          "f": "Tizen.UI.DisplayMetrics",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "event",
+              "n": "ScaleUpdated",
+              "s": "public event EventHandler ScaleUpdated"
+            },
+            {
+              "k": "method",
+              "n": "add_ScaleUpdated",
+              "s": "public static Void add_ScaleUpdated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "FromScaled",
+              "s": "public static Int32 FromScaled(Single scaled)"
+            },
+            {
+              "k": "method",
+              "n": "FromScaled",
+              "s": "public static Int32 FromScaled(Int32 scaled)"
+            },
+            {
+              "k": "method",
+              "n": "get_DPI",
+              "s": "public static Int32 get_DPI()"
+            },
+            {
+              "k": "method",
+              "n": "get_PPU",
+              "s": "public static Int32 get_PPU()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scale",
+              "s": "public static Single get_Scale()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenHeight",
+              "s": "public static Int32 get_ScreenHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenWidth",
+              "s": "public static Int32 get_ScreenWidth()"
+            },
+            {
+              "k": "method",
+              "n": "PointToPixel",
+              "s": "public static Int32 PointToPixel(Single point)"
+            },
+            {
+              "k": "method",
+              "n": "PointToPixel",
+              "s": "public static Int32 PointToPixel(Int32 point)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScaleUpdated",
+              "s": "public static Void remove_ScaleUpdated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ScaleFactorUpdated",
+              "s": "private static Void ScaleFactorUpdated()"
+            },
+            {
+              "k": "method",
+              "n": "set_PPU",
+              "s": "public static Void set_PPU(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scale",
+              "s": "public static Void set_Scale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetDensityBasedScaleFactor",
+              "s": "public static Void SetDensityBasedScaleFactor(Single userScale, Int32 baseDPI)"
+            },
+            {
+              "k": "method",
+              "n": "SetScaleFactors",
+              "s": "public static Void SetScaleFactors(Int32 ppu, Single scale)"
+            },
+            {
+              "k": "method",
+              "n": "ToDp",
+              "s": "public static Int32 ToDp(Single pixel)"
+            },
+            {
+              "k": "method",
+              "n": "ToDp",
+              "s": "public static Int32 ToDp(Int32 pixel)"
+            },
+            {
+              "k": "method",
+              "n": "ToDp",
+              "s": "public static Size ToDp(Size size)"
+            },
+            {
+              "k": "method",
+              "n": "ToDp",
+              "s": "public static Point ToDp(Point point)"
+            },
+            {
+              "k": "method",
+              "n": "ToPixel",
+              "s": "public static Int32 ToPixel(Single fromUnit)"
+            },
+            {
+              "k": "method",
+              "n": "ToPixel",
+              "s": "public static Int32 ToPixel(Int32 fromUnit)"
+            },
+            {
+              "k": "method",
+              "n": "ToPixel",
+              "s": "public static Size ToPixel(Size size)"
+            },
+            {
+              "k": "method",
+              "n": "ToPixel",
+              "s": "public static Point ToPixel(Point point)"
+            },
+            {
+              "k": "method",
+              "n": "ToPoint",
+              "s": "public static Single ToPoint(Single pixel)"
+            },
+            {
+              "k": "method",
+              "n": "ToScaled",
+              "s": "public static Int32 ToScaled(Single pixel)"
+            },
+            {
+              "k": "method",
+              "n": "ToScaled",
+              "s": "public static Int32 ToScaled(Int32 pixel)"
+            },
+            {
+              "k": "property",
+              "n": "DPI",
+              "s": "public Int32 DPI { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PPU",
+              "s": "public Int32 PPU { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Scale",
+              "s": "public Single Scale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenHeight",
+              "s": "public Int32 ScreenHeight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenWidth",
+              "s": "public Int32 ScreenWidth { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Int32",
+      "n": "FromScaled",
+      "s": "public static Int32 FromScaled(Int32 scaled)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Int32",
+      "n": "PointToPixel",
+      "s": "public static Int32 PointToPixel(Int32 point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Int32",
+      "n": "ToDp",
+      "s": "public static Int32 ToDp(Int32 pixel)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Int32",
+      "n": "ToPixel",
+      "s": "public static Int32 ToPixel(Int32 fromUnit)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Int32",
+      "n": "ToScaled",
+      "s": "public static Int32 ToScaled(Int32 pixel)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "FromScaled",
+      "s": "public static Int32 FromScaled(Single scaled)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "PointToPixel",
+      "s": "public static Int32 PointToPixel(Single point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "ToDp",
+      "s": "public static Int32 ToDp(Single pixel)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "ToPixel",
+      "s": "public static Int32 ToPixel(Single fromUnit)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "ToPoint",
+      "s": "public static Single ToPoint(Single pixel)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "System.Single",
+      "n": "ToScaled",
+      "s": "public static Int32 ToScaled(Single pixel)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Point",
+      "n": "ToDp",
+      "s": "public static Point ToDp(Point point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Point",
+      "n": "ToPixel",
+      "s": "public static Point ToPixel(Point point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Size",
+      "n": "ToDp",
+      "s": "public static Size ToDp(Size size)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Size",
+      "n": "ToPixel",
+      "s": "public static Size ToPixel(Size size)"
+    }
+  ]
+}

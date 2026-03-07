@@ -1,0 +1,80 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "LoopedItemAdapter",
+          "f": "Tizen.UI.Components.Recycler.LoopedItemAdapter",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.ItemTemplateAdapter",
+          "i": [
+            "Tizen.UI.Components.Recycler.ILoopedAdapter"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaseItemCount",
+              "s": "public Int32 get_BaseItemCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemCount",
+              "s": "public Int32 get_ItemCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemsSource",
+              "s": "public IList get_ItemsSource()"
+            },
+            {
+              "k": "method",
+              "n": "GetItem",
+              "s": "protected Object GetItem(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "BaseItemCount",
+              "s": "public Int32 BaseItemCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemCount",
+              "s": "public Int32 ItemCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemsSource",
+              "s": "public IList ItemsSource { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

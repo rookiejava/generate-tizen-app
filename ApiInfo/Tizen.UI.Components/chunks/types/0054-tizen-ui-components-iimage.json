@@ -1,0 +1,143 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IImage",
+          "f": "Tizen.UI.Components.IImage",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "ResourceReady",
+              "s": "public event EventHandler ResourceReady"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourceReady",
+              "s": "public Void add_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public ImageLoaderFittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_LoadingStatus",
+              "s": "public ImageLoadingStatus get_LoadingStatus()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "Reload",
+              "s": "public Void Reload()"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourceReady",
+              "s": "public Void remove_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(ImageLoaderFittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public ImageLoaderFittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LoadingStatus",
+              "s": "public ImageLoadingStatus LoadingStatus { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

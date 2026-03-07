@@ -1,0 +1,206 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Vector3D",
+          "f": "Tizen.UI.Scene3D.Vector3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Point3D v)"
+            },
+            {
+              "k": "method",
+              "n": "AngleBetween",
+              "s": "public static Single AngleBetween(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Cross",
+              "s": "public static Vector3D Cross(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Cross",
+              "s": "internal static Void Cross(Vector3D\u0026 v1, Vector3D\u0026 v2, Vector3D\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "Dot",
+              "s": "public static Single Dot(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Dot",
+              "s": "internal static Single Dot(Vector3D\u0026 v1, Vector3D\u0026 v2)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public Single get_Length()"
+            },
+            {
+              "k": "method",
+              "n": "get_LengthSquared",
+              "s": "public Single get_LengthSquared()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Normalize",
+              "s": "public Void Normalize()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Vector3D op_Addition(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Vector3D op_Addition(Vector3D v1, Point3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static Vector3D op_Division(Vector3D v, Single scalar)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Vector3D vA, Vector3D vB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Point3D op_Explicit(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Vector3D vA, Vector3D vB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Vector3D op_Multiply(Single scalar, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Vector3D op_Subtraction(Vector3D v, Vector3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Vector3D op_Subtraction(Vector3D v, Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_UnaryNegation",
+              "s": "public static Vector3D op_UnaryNegation(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Vector3D Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public Single Length { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LengthSquared",
+              "s": "public Single LengthSquared { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Vector3DExtensions",
+      "r": "Tizen.UI.Scene3D.Vector3D",
+      "n": "ToNative",
+      "s": "internal static ObjectPool\u003CVector3Handle\u003E ToNative(Vector3D v)"
+    }
+  ]
+}

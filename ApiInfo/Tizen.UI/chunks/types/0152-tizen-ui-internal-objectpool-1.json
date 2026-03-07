@@ -1,0 +1,70 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "ObjectPool\u00601",
+          "f": "Tizen.UI.Internal.ObjectPool\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(T value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public static Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public T get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "New",
+              "s": "public static ObjectPool\u003CT\u003E New()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static T op_Implicit(ObjectPool\u003CT\u003E obj)"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public T Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ISelectable",
+          "f": "Tizen.UI.Components.ISelectable",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "SelectedChanged",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E SelectedChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectedChanged",
+              "s": "public Void add_SelectedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelectable",
+              "s": "public Boolean get_IsSelectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelected",
+              "s": "public Boolean get_IsSelected()"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectedChanged",
+              "s": "public Void remove_SelectedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelected",
+              "s": "public Void set_IsSelected(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "Toggle",
+              "s": "public Void Toggle(KeyDeviceClass device)"
+            },
+            {
+              "k": "property",
+              "n": "IsSelectable",
+              "s": "public Boolean IsSelectable { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSelected",
+              "s": "public Boolean IsSelected { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

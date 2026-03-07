@@ -1,0 +1,72 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "SceneObjectExtensions",
+          "f": "Tizen.UI.Scene3D.SceneObjectExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AddRenderer",
+              "s": "public static Int32 AddRenderer(SceneObject sceneObject, Renderer renderer)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererAt",
+              "s": "public static Renderer GetRendererAt(SceneObject sceneObject, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererCount",
+              "s": "public static Int32 GetRendererCount(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveRenderer",
+              "s": "public static Void RemoveRenderer(SceneObject sceneObject, Renderer renderer)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "AddRenderer",
+      "s": "public static Int32 AddRenderer(SceneObject sceneObject, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererAt",
+      "s": "public static Renderer GetRendererAt(SceneObject sceneObject, Int32 index)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererCount",
+      "s": "public static Int32 GetRendererCount(SceneObject sceneObject)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "RemoveRenderer",
+      "s": "public static Void RemoveRenderer(SceneObject sceneObject, Renderer renderer)"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "EnumExtensions",
+          "f": "Tizen.UI.EnumExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetValueByDescription",
+              "s": "public static T GetValueByDescription\u003CT\u003E(String description) where T : struct, new()"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalNameToEnum",
+              "s": "public static TextAlignment HorizontalNameToEnum(String name)"
+            },
+            {
+              "k": "method",
+              "n": "VerticalNameToEnum",
+              "s": "public static TextAlignment VerticalNameToEnum(String name)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.EnumExtensions",
+      "r": "System.String",
+      "n": "GetValueByDescription",
+      "s": "public static T GetValueByDescription\u003CT\u003E(String description) where T : struct, new()"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.EnumExtensions",
+      "r": "System.String",
+      "n": "HorizontalNameToEnum",
+      "s": "public static TextAlignment HorizontalNameToEnum(String name)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.EnumExtensions",
+      "r": "System.String",
+      "n": "VerticalNameToEnum",
+      "s": "public static TextAlignment VerticalNameToEnum(String name)"
+    }
+  ]
+}

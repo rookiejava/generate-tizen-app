@@ -1,0 +1,240 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "Layout",
+          "f": "Tizen.UI.Layouts.Layout",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__3_0",
+              "s": "Void \u003C.ctor\u003Eb__3_0(Object s, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_EffectiveParent",
+              "s": "protected View get_EffectiveParent()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsManualLayout",
+              "s": "public static Boolean get_IsManualLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsOnPseudoLayout",
+              "s": "public Boolean get_IsOnPseudoLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutRequested",
+              "s": "private Boolean get_LayoutRequested()"
+            },
+            {
+              "k": "method",
+              "n": "get_Measured",
+              "s": "protected Boolean get_Measured()"
+            },
+            {
+              "k": "method",
+              "n": "get_NeedForceLayout",
+              "s": "private Boolean get_NeedForceLayout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidated",
+              "s": "private Void OnChildMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "protected Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIterationOnce",
+              "s": "private Void OnLayoutIterationOnce(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidatedOverride",
+              "s": "protected Void OnMeasureInvalidatedOverride()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RequestLayout",
+              "s": "protected Void RequestLayout()"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "protected Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsManualLayout",
+              "s": "public static Void set_IsManualLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsOnPseudoLayout",
+              "s": "public Void set_IsOnPseudoLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutRequested",
+              "s": "private Void set_LayoutRequested(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Measured",
+              "s": "protected Void set_Measured(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NeedForceLayout",
+              "s": "private Void set_NeedForceLayout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutParam",
+              "s": "LayoutParam Tizen.UI.Layouts.ILayout.get_LayoutParam()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Void UpdateLayout()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "property",
+              "n": "EffectiveParent",
+              "s": "protected View EffectiveParent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsManualLayout",
+              "s": "public Boolean IsManualLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsOnPseudoLayout",
+              "s": "public Boolean IsOnPseudoLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutRequested",
+              "s": "private Boolean LayoutRequested { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Measured",
+              "s": "protected Boolean Measured { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NeedForceLayout",
+              "s": "private Boolean NeedForceLayout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Layouts.ILayout.LayoutParam",
+              "s": "LayoutParam Tizen.UI.Layouts.ILayout.LayoutParam { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

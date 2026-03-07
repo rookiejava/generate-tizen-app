@@ -1,0 +1,285 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "ImageVisualMap",
+          "f": "Tizen.UI.Internal.ImageVisualMap",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "UpdateRequired",
+              "s": "public event EventHandler UpdateRequired"
+            },
+            {
+              "k": "method",
+              "n": "add_UpdateRequired",
+              "s": "public Void add_UpdateRequired(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMaskUrl",
+              "s": "public String get_AlphaMaskUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Border",
+              "s": "public Thickness get_Border()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderOnly",
+              "s": "public Boolean get_BorderOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_CropToMask",
+              "s": "public Boolean get_CropToMask()"
+            },
+            {
+              "k": "method",
+              "n": "get_FittingMode",
+              "s": "public FittingMode get_FittingMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public PropertyMapHandle get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageLoadWithViewSize",
+              "s": "public Boolean get_ImageLoadWithViewSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsNinePatchImage",
+              "s": "public Boolean get_IsNinePatchImage()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrientationCorrection",
+              "s": "public Boolean get_OrientationCorrection()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceUrl",
+              "s": "public String get_ResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousLoading",
+              "s": "public Boolean get_SynchronousLoading()"
+            },
+            {
+              "k": "method",
+              "n": "GetImageTypeIndex",
+              "s": "protected Int32 GetImageTypeIndex()"
+            },
+            {
+              "k": "method",
+              "n": "remove_UpdateRequired",
+              "s": "public Void remove_UpdateRequired(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendUpdateRequired",
+              "s": "protected Void SendUpdateRequired()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMaskUrl",
+              "s": "public Void set_AlphaMaskUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Border",
+              "s": "public Void set_Border(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderOnly",
+              "s": "public Void set_BorderOnly(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CropToMask",
+              "s": "public Void set_CropToMask(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FittingMode",
+              "s": "public Void set_FittingMode(FittingMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handle",
+              "s": "private Void set_Handle(PropertyMapHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageLoadWithViewSize",
+              "s": "public Void set_ImageLoadWithViewSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsNinePatchImage",
+              "s": "public Void set_IsNinePatchImage(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrientationCorrection",
+              "s": "public Void set_OrientationCorrection(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceUrl",
+              "s": "public Void set_ResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SynchronousLoading",
+              "s": "public Void set_SynchronousLoading(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetDirty",
+              "s": "public Void SetDirty()"
+            },
+            {
+              "k": "method",
+              "n": "SetFastTrackUploading",
+              "s": "public Void SetFastTrackUploading(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "SetMaskingMode",
+              "s": "public Void SetMaskingMode(ImageMaskingMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetPixelArea",
+              "s": "public Void SetPixelArea(Rect area)"
+            },
+            {
+              "k": "method",
+              "n": "SetReleasePolicy",
+              "s": "public Void SetReleasePolicy(ImageReleasePolicy releasePolicy)"
+            },
+            {
+              "k": "method",
+              "n": "SetWrapModeU",
+              "s": "public Void SetWrapModeU(ImageWrapMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetWrapModeV",
+              "s": "public Void SetWrapModeV(ImageWrapMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateResourceUrl",
+              "s": "protected Void UpdateResourceUrl()"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMaskUrl",
+              "s": "public String AlphaMaskUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Border",
+              "s": "public Thickness Border { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderOnly",
+              "s": "public Boolean BorderOnly { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CropToMask",
+              "s": "public Boolean CropToMask { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FittingMode",
+              "s": "public FittingMode FittingMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public PropertyMapHandle Handle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageLoadWithViewSize",
+              "s": "public Boolean ImageLoadWithViewSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsNinePatchImage",
+              "s": "public Boolean IsNinePatchImage { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrientationCorrection",
+              "s": "public Boolean OrientationCorrection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceUrl",
+              "s": "public String ResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousLoading",
+              "s": "public Boolean SynchronousLoading { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

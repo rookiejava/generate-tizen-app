@@ -1,0 +1,113 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "GridLength",
+          "f": "Tizen.UI.Layouts.GridLength",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single value)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single value, GridUnitType type)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "private Boolean Equals(GridLength other)"
+            },
+            {
+              "k": "method",
+              "n": "get_GridUnitType",
+              "s": "public GridUnitType get_GridUnitType()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAbsolute",
+              "s": "public Boolean get_IsAbsolute()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAuto",
+              "s": "public Boolean get_IsAuto()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsStar",
+              "s": "public Boolean get_IsStar()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Single get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static GridLength op_Implicit(Single absoluteValue)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "GridUnitType",
+              "s": "public GridUnitType GridUnitType { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAbsolute",
+              "s": "public Boolean IsAbsolute { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAuto",
+              "s": "public Boolean IsAuto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsStar",
+              "s": "public Boolean IsStar { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Single Value { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ISelectionGroup",
+          "f": "Tizen.UI.Components.ISelectionGroup",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "SelectionChanged",
+              "s": "public event EventHandler\u003CGroupSelectionChangedEventArgs\u003E SelectionChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectionChanged",
+              "s": "public Void add_SelectionChanged(EventHandler\u003CGroupSelectionChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_Selected",
+              "s": "public IGroupSelectable get_Selected()"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectionChanged",
+              "s": "public Void remove_SelectionChanged(EventHandler\u003CGroupSelectionChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "Selected",
+              "s": "public IGroupSelectable Selected { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

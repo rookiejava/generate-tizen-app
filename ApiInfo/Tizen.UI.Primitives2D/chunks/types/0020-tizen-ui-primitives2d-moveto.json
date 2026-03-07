@@ -1,0 +1,55 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "MoveTo",
+          "f": "Tizen.UI.Primitives2D.MoveTo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Primitives2D.IPath"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Primitives2D.IPath.Execute",
+              "s": "Void Tizen.UI.Primitives2D.IPath.Execute(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

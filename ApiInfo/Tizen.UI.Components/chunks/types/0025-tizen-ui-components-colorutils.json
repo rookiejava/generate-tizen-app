@@ -1,0 +1,81 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ColorUtils",
+          "f": "Tizen.UI.Components.ColorUtils",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CalculateContrast",
+              "s": "public static Double CalculateContrast(Int32 foreground, Int32 background)"
+            },
+            {
+              "k": "method",
+              "n": "CalculateLuminance",
+              "s": "public static Double CalculateLuminance(Int32 color)"
+            },
+            {
+              "k": "method",
+              "n": "CalculateMinimumAlpha",
+              "s": "public static Int32 CalculateMinimumAlpha(Int32 foreground, Int32 background, Single minContrastRatio)"
+            },
+            {
+              "k": "method",
+              "n": "ColorToXyz",
+              "s": "private static Void ColorToXyz(Int32 color, Double[] outXyz)"
+            },
+            {
+              "k": "method",
+              "n": "CompositeAlpha",
+              "s": "private static Int32 CompositeAlpha(Int32 foregroundAlpha, Int32 backgroundAlpha)"
+            },
+            {
+              "k": "method",
+              "n": "CompositeColors",
+              "s": "public static Int32 CompositeColors(Int32 foreground, Int32 background)"
+            },
+            {
+              "k": "method",
+              "n": "CompositeComponent",
+              "s": "private static Int32 CompositeComponent(Int32 fgC, Int32 fgA, Int32 bgC, Int32 bgA, Int32 alpha)"
+            },
+            {
+              "k": "method",
+              "n": "RgbToXyz",
+              "s": "private static Void RgbToXyz(Int32 red, Int32 green, Int32 blue, Double[] outXyz)"
+            },
+            {
+              "k": "method",
+              "n": "SetAlphaComponent",
+              "s": "public static Int32 SetAlphaComponent(Int32 color, Int32 alpha)"
+            },
+            {
+              "k": "method",
+              "n": "ToColor",
+              "s": "public static Color ToColor(Int32 colorValue)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ColorUtils",
+      "r": "System.Int32",
+      "n": "ToColor",
+      "s": "public static Color ToColor(Int32 colorValue)"
+    }
+  ]
+}

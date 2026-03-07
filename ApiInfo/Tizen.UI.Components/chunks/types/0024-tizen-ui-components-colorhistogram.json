@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ColorHistogram",
+          "f": "Tizen.UI.Components.ColorHistogram",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32[] pixels)"
+            },
+            {
+              "k": "method",
+              "n": "CountFrequencies",
+              "s": "private Void CountFrequencies(Int32[] pixels)"
+            },
+            {
+              "k": "method",
+              "n": "DistinctCount",
+              "s": "private static Int32 DistinctCount(Int32[] pixels)"
+            },
+            {
+              "k": "method",
+              "n": "GetColorCounts",
+              "s": "public Int32[] GetColorCounts()"
+            },
+            {
+              "k": "method",
+              "n": "GetColors",
+              "s": "public Int32[] GetColors()"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberOfColors",
+              "s": "public Int32 GetNumberOfColors()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

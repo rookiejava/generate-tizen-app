@@ -1,0 +1,91 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Outline",
+          "f": "Tizen.UI.Outline",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Nullable\u003CSingle\u003E get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Nullable\u003CColor\u003E get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Offset",
+              "s": "public Nullable\u003CPoint\u003E get_Offset()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Nullable\u003CSingle\u003E get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Nullable\u003CColor\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Offset",
+              "s": "public Void set_Offset(Nullable\u003CPoint\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Nullable\u003CSingle\u003E BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Nullable\u003CColor\u003E Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Offset",
+              "s": "public Nullable\u003CPoint\u003E Offset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Nullable\u003CSingle\u003E Width { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Outline",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Outline outline)"
+    }
+  ]
+}

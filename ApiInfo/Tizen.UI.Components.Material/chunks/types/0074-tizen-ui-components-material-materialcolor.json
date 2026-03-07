@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "MaterialColor",
+          "f": "Tizen.UI.Components.Material.MaterialColor",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateFallback",
+              "s": "private static Dictionary\u003CString, Color\u003E CreateFallback()"
+            },
+            {
+              "k": "method",
+              "n": "Get",
+              "s": "public static Color Get(String tokenName)"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultDarkColorTable",
+              "s": "public static Dictionary\u003CString, Color\u003E get_DefaultDarkColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultLightColorTable",
+              "s": "public static Dictionary\u003CString, Color\u003E get_DefaultLightColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "Update",
+              "s": "public static Void Update(IDictionary\u003CString, Color\u003E table)"
+            },
+            {
+              "k": "property",
+              "n": "DefaultDarkColorTable",
+              "s": "public Dictionary\u003CString, Color\u003E DefaultDarkColorTable { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultLightColorTable",
+              "s": "public Dictionary\u003CString, Color\u003E DefaultLightColorTable { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

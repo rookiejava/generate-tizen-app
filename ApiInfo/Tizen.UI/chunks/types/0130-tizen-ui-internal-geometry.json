@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "Geometry",
+          "f": "Tizen.UI.Internal.Geometry",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "AddVertexBuffer",
+              "s": "public UInt32 AddVertexBuffer(VertexBuffer vertexBuffer)"
+            },
+            {
+              "k": "method",
+              "n": "get_GeometryType",
+              "s": "public GeometryType get_GeometryType()"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberOfVertexBuffers",
+              "s": "public UInt32 GetNumberOfVertexBuffers()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveVertexBuffer",
+              "s": "public Void RemoveVertexBuffer(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_GeometryType",
+              "s": "public Void set_GeometryType(GeometryType value)"
+            },
+            {
+              "k": "method",
+              "n": "SetIndexBuffer",
+              "s": "public Void SetIndexBuffer(UInt16[] indices, UInt32 count)"
+            },
+            {
+              "k": "property",
+              "n": "GeometryType",
+              "s": "public GeometryType GeometryType { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

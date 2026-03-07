@@ -1,0 +1,193 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "LayoutParam",
+          "f": "Tizen.UI.Layouts.LayoutParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Expand",
+              "s": "public Single get_Expand()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalLayoutAlignment",
+              "s": "public LayoutAlignment get_HorizontalLayoutAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Margin",
+              "s": "public Thickness get_Margin()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumHeight",
+              "s": "public Single get_MaximumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumWidth",
+              "s": "public Single get_MaximumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MeasuredSize",
+              "s": "public Size get_MeasuredSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumHeight",
+              "s": "public Single get_MinimumHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumWidth",
+              "s": "public Single get_MinimumWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_TranslateX",
+              "s": "public Single get_TranslateX()"
+            },
+            {
+              "k": "method",
+              "n": "get_TranslateY",
+              "s": "public Single get_TranslateY()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalLayoutAlignment",
+              "s": "public LayoutAlignment get_VerticalLayoutAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "set_Expand",
+              "s": "public Void set_Expand(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalLayoutAlignment",
+              "s": "public Void set_HorizontalLayoutAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Margin",
+              "s": "public Void set_Margin(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumHeight",
+              "s": "public Void set_MaximumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumWidth",
+              "s": "public Void set_MaximumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MeasuredSize",
+              "s": "public Void set_MeasuredSize(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumHeight",
+              "s": "public Void set_MinimumHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumWidth",
+              "s": "public Void set_MinimumWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TranslateX",
+              "s": "public Void set_TranslateX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TranslateY",
+              "s": "public Void set_TranslateY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalLayoutAlignment",
+              "s": "public Void set_VerticalLayoutAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "Expand",
+              "s": "public Single Expand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalLayoutAlignment",
+              "s": "public LayoutAlignment HorizontalLayoutAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Margin",
+              "s": "public Thickness Margin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumHeight",
+              "s": "public Single MaximumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumWidth",
+              "s": "public Single MaximumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MeasuredSize",
+              "s": "public Size MeasuredSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumHeight",
+              "s": "public Single MinimumHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumWidth",
+              "s": "public Single MinimumWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TranslateX",
+              "s": "public Single TranslateX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TranslateY",
+              "s": "public Single TranslateY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalLayoutAlignment",
+              "s": "public LayoutAlignment VerticalLayoutAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

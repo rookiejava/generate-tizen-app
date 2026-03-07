@@ -1,0 +1,84 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "PropertyValueHandle",
+          "f": "Tizen.UI.NativeHandle.PropertyValueHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToColor",
+      "s": "public static Color ToColor(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToCornerRadius",
+      "s": "public static CornerRadius ToCornerRadius(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToFloat",
+      "s": "public static Single ToFloat(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToInt",
+      "s": "public static Int32 ToInt(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToStr",
+      "s": "public static String ToStr(PropertyValueHandle handle)"
+    }
+  ]
+}

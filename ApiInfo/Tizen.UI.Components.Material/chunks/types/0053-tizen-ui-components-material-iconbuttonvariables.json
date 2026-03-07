@@ -1,0 +1,361 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "IconButtonVariables",
+          "f": "Tizen.UI.Components.Material.IconButtonVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.IconButtonVariables\u003E",
+            "Tizen.UI.Components.IClickableVariables"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IconButtonVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "IconButtonVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(IconButtonVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButton",
+              "s": "public static IconButtonVariables get_ActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackButton",
+              "s": "public static IconButtonVariables get_BackButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundBlur",
+              "s": "public Single get_BackgroundBlur()"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static IconButtonVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultWidth",
+              "s": "public Single get_DefaultWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FAB",
+              "s": "public static IconButtonVariables get_FAB()"
+            },
+            {
+              "k": "method",
+              "n": "get_GoToTop",
+              "s": "public static IconButtonVariables get_GoToTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconCornerRadius",
+              "s": "public CornerRadius get_IconCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconHeight",
+              "s": "public Single get_IconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMultipliedColor",
+              "s": "public Color get_IconMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconResourceUrl",
+              "s": "public String get_IconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconWidth",
+              "s": "public Single get_IconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_MoreButton",
+              "s": "public static IconButtonVariables get_MoreButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TouchEdgeInsets",
+              "s": "public Thickness get_TouchEdgeInsets()"
+            },
+            {
+              "k": "method",
+              "n": "get_TouchEffect",
+              "s": "public UIAttachable get_TouchEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_UnderShadows()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(IconButtonVariables left, IconButtonVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(IconButtonVariables left, IconButtonVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundBlur",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundBlur(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMultipliedColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconResourceUrl",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TouchEdgeInsets",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TouchEdgeInsets(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TouchEffect",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TouchEffect(UIAttachable value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UnderShadows",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_UnderShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "ActionButton",
+              "s": "public IconButtonVariables ActionButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BackButton",
+              "s": "public IconButtonVariables BackButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundBlur",
+              "s": "public Single BackgroundBlur { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public IconButtonVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultWidth",
+              "s": "public Single DefaultWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FAB",
+              "s": "public IconButtonVariables FAB { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GoToTop",
+              "s": "public IconButtonVariables GoToTop { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IconCornerRadius",
+              "s": "public CornerRadius IconCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconHeight",
+              "s": "public Single IconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMultipliedColor",
+              "s": "public Color IconMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconResourceUrl",
+              "s": "public String IconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconWidth",
+              "s": "public Single IconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MoreButton",
+              "s": "public IconButtonVariables MoreButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TouchEdgeInsets",
+              "s": "public Thickness TouchEdgeInsets { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TouchEffect",
+              "s": "public UIAttachable TouchEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnderShadows",
+              "s": "public IEnumerable\u003CShadow\u003E UnderShadows { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

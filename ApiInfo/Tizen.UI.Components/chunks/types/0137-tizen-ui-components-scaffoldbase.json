@@ -1,0 +1,193 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ScaffoldBase",
+          "f": "Tizen.UI.Components.ScaffoldBase",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "protected View get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingActionButton",
+              "s": "public View get_FloatingActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingOffset",
+              "s": "public Point get_FloatingOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingOrigin",
+              "s": "public FloatingOrigin get_FloatingOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasIndicatorArea",
+              "s": "public Boolean get_HasIndicatorArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasNavigationBarArea",
+              "s": "public Boolean get_HasNavigationBarArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndicatorAreaColor",
+              "s": "public Color get_IndicatorAreaColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndicatorAreaColorProvider",
+              "s": "public IColorProvider get_IndicatorAreaColorProvider()"
+            },
+            {
+              "k": "method",
+              "n": "GetFloatingOffsetY",
+              "s": "protected Single GetFloatingOffsetY()"
+            },
+            {
+              "k": "method",
+              "n": "OnDominantColorChanged",
+              "s": "private Void OnDominantColorChanged(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnIndicatorAreaChanged",
+              "s": "protected Void OnIndicatorAreaChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnNavigationBarAreaChanged",
+              "s": "protected Void OnNavigationBarAreaChanged()"
+            },
+            {
+              "k": "method",
+              "n": "set_Body",
+              "s": "protected Void set_Body(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingActionButton",
+              "s": "public Void set_FloatingActionButton(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingOffset",
+              "s": "public Void set_FloatingOffset(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingOrigin",
+              "s": "public Void set_FloatingOrigin(FloatingOrigin value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasIndicatorArea",
+              "s": "public Void set_HasIndicatorArea(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasNavigationBarArea",
+              "s": "public Void set_HasNavigationBarArea(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IndicatorAreaColor",
+              "s": "public Void set_IndicatorAreaColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IndicatorAreaColorProvider",
+              "s": "public Void set_IndicatorAreaColorProvider(IColorProvider value)"
+            },
+            {
+              "k": "method",
+              "n": "SetExtraFloatingOffsetY",
+              "s": "public Void SetExtraFloatingOffsetY(Single extra)"
+            },
+            {
+              "k": "method",
+              "n": "SetFloatingActionButtonOrigin",
+              "s": "private Void SetFloatingActionButtonOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "SetFloatingOffset",
+              "s": "protected Void SetFloatingOffset()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateIndicatorAreaColor",
+              "s": "private Void UpdateIndicatorAreaColor()"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "protected View Body { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingActionButton",
+              "s": "public View FloatingActionButton { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingOffset",
+              "s": "public Point FloatingOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingOrigin",
+              "s": "public FloatingOrigin FloatingOrigin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasIndicatorArea",
+              "s": "public Boolean HasIndicatorArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasNavigationBarArea",
+              "s": "public Boolean HasNavigationBarArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IndicatorAreaColor",
+              "s": "public Color IndicatorAreaColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IndicatorAreaColorProvider",
+              "s": "public IColorProvider IndicatorAreaColorProvider { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

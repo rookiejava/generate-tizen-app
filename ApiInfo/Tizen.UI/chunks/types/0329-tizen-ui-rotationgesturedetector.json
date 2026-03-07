@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "RotationGestureDetector",
+          "f": "Tizen.UI.RotationGestureDetector",
+          "k": "class",
+          "b": "Tizen.UI.GestureDetector",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_detected",
+              "s": "private event EventHandler\u003CRotationGestureDetectedEventArgs\u003E _detected"
+            },
+            {
+              "k": "event",
+              "n": "Detected",
+              "s": "public event EventHandler\u003CRotationGestureDetectedEventArgs\u003E Detected"
+            },
+            {
+              "k": "method",
+              "n": "add__detected",
+              "s": "private Void add__detected(EventHandler\u003CRotationGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Detected",
+              "s": "public Void add_Detected(EventHandler\u003CRotationGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetected",
+              "s": "private Void OnDetected(IntPtr view, IntPtr gesture)"
+            },
+            {
+              "k": "method",
+              "n": "remove__detected",
+              "s": "private Void remove__detected(EventHandler\u003CRotationGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Detected",
+              "s": "public Void remove_Detected(EventHandler\u003CRotationGestureDetectedEventArgs\u003E value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,246 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DropdownContainer",
+          "f": "Tizen.UI.Components.Material.DropdownContainer",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "Tizen.UI.Components.INavigateBackHandler",
+            "Tizen.UI.Components.INavigationAnimation"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "Dismissed",
+              "s": "public event EventHandler Dismissed"
+            },
+            {
+              "k": "event",
+              "n": "Hidden",
+              "s": "public event EventHandler Hidden"
+            },
+            {
+              "k": "method",
+              "n": "add_Dismissed",
+              "s": "public Void add_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Hidden",
+              "s": "public Void add_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearAnimation",
+              "s": "private Void ClearAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "Dismiss",
+              "s": "public Void Dismiss(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "DismissInternal",
+              "s": "private Void DismissInternal(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "EmptyAnimation",
+              "s": "private static INavigationAnimationController EmptyAnimation(View current, View previous)"
+            },
+            {
+              "k": "method",
+              "n": "get_BoundaryPadding",
+              "s": "public Thickness get_BoundaryPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrimBlur",
+              "s": "public Single get_ScrimBlur()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrimColor",
+              "s": "public Color get_ScrimColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetNaturalContentBounds",
+              "s": "private static Rect GetNaturalContentBounds(Size measuredSize, Rect anchorBounds, ModalPivot modalPivot)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "private Void OnAccessibilityActionReceived(Object sender, AccessibilityActionReceivedEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "OnApplicationPaused",
+              "s": "private Void OnApplicationPaused(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDismissAnimationFinished",
+              "s": "private Void OnDismissAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDismissed",
+              "s": "private Void OnDismissed()"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouch",
+              "s": "private Void OnInterceptTouch(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPostAnimationFinished",
+              "s": "private Void OnPostAnimationFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPosted",
+              "s": "private Void OnPosted()"
+            },
+            {
+              "k": "method",
+              "n": "OnScrimTouched",
+              "s": "private Void OnScrimTouched(Object sender, TouchEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(View content, Window window, Rect anchorBounds, Rect restrictBounds, ModalPivot modalPivot, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PostInternal",
+              "s": "private Void PostInternal(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dismissed",
+              "s": "public Void remove_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Hidden",
+              "s": "public Void remove_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BoundaryPadding",
+              "s": "public Void set_BoundaryPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrimBlur",
+              "s": "public Void set_ScrimBlur(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ScrimColor",
+              "s": "public Void set_ScrimColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetContent",
+              "s": "private Void SetContent(View content)"
+            },
+            {
+              "k": "method",
+              "n": "SetContentBounds",
+              "s": "private Void SetContentBounds(Size measuredSize, Rect parentBounds, Rect anchorBounds, ModalPivot modalPivot)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigateBackHandler.HandleNavigateBack",
+              "s": "Boolean Tizen.UI.Components.INavigateBackHandler.HandleNavigateBack()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigationAnimation.get_PopAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.get_PopAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigationAnimation.get_PopModalAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.get_PopModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigationAnimation.get_PushAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.get_PushAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.INavigationAnimation.get_PushModalAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.get_PushModalAnimation()"
+            },
+            {
+              "k": "property",
+              "n": "BoundaryPadding",
+              "s": "public Thickness BoundaryPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrimBlur",
+              "s": "public Single ScrimBlur { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrimColor",
+              "s": "public Color ScrimColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.INavigationAnimation.PopAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.PopAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.INavigationAnimation.PopModalAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.PopModalAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.INavigationAnimation.PushAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.PushAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.INavigationAnimation.PushModalAnimation",
+              "s": "Func\u003CView, View, INavigationAnimationController\u003E Tizen.UI.Components.INavigationAnimation.PushModalAnimation { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

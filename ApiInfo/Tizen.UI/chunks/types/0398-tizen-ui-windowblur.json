@@ -1,0 +1,110 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "WindowBlur",
+          "f": "Tizen.UI.WindowBlur",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.WindowBlur\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowBlurType blurType, Int32 blurRadius, Int32 cornerRadius)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowBlurType blurType, Int32 blurRadius)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(WindowBlur other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundCornerRadius",
+              "s": "public Int32 get_BackgroundCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Int32 get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_BlurType",
+              "s": "public WindowBlurType get_BlurType()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(WindowBlur operand1, WindowBlur operand2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(WindowBlur operand1, WindowBlur operand2)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundCornerRadius",
+              "s": "public Void set_BackgroundCornerRadius(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurType",
+              "s": "public Void set_BlurType(WindowBlurType value)"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundCornerRadius",
+              "s": "public Int32 BackgroundCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Int32 BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BlurType",
+              "s": "public WindowBlurType BlurType { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

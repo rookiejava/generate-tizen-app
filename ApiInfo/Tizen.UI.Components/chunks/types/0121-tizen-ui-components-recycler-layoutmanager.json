@@ -1,0 +1,148 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "LayoutManager",
+          "f": "Tizen.UI.Components.Recycler.LayoutManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollExtent",
+              "s": "public Int32 ComputeHorizontalScrollExtent(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollOffset",
+              "s": "public Int32 ComputeHorizontalScrollOffset(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeHorizontalScrollRange",
+              "s": "public Int32 ComputeHorizontalScrollRange(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollExtent",
+              "s": "public Int32 ComputeVerticalScrollExtent(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollOffset",
+              "s": "public Int32 ComputeVerticalScrollOffset(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeVerticalScrollRange",
+              "s": "public Int32 ComputeVerticalScrollRange(Int32 first, Int32 last)"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollHorizontally",
+              "s": "public Boolean get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollVertically",
+              "s": "public Boolean get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutViewPort",
+              "s": "public Rect get_LayoutViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecyclerView",
+              "s": "public RecyclerView get_RecyclerView()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "public Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "LayoutPosition",
+              "s": "public Void LayoutPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "MeasureUpdate",
+              "s": "public Size MeasureUpdate(View itemView)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "public Void OnChildrenChanged(NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutChildren",
+              "s": "public Void OnLayoutChildren()"
+            },
+            {
+              "k": "method",
+              "n": "RecycleOutOfSightView",
+              "s": "public Void RecycleOutOfSightView()"
+            },
+            {
+              "k": "method",
+              "n": "ScrollHorizontallyBy",
+              "s": "public Int32 ScrollHorizontallyBy(Int32 dx)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollVerticallyBy",
+              "s": "public Int32 ScrollVerticallyBy(Int32 dy)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutViewPort",
+              "s": "public Void set_LayoutViewPort(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecyclerView",
+              "s": "public Void set_RecyclerView(RecyclerView value)"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollHorizontally",
+              "s": "public Boolean CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollVertically",
+              "s": "public Boolean CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutViewPort",
+              "s": "public Rect LayoutViewPort { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecyclerView",
+              "s": "public RecyclerView RecyclerView { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,211 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Model3D",
+          "f": "Tizen.UI.Scene3D.Model3D",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObjectGroup\u00601\u003CTizen.UI.Scene3D.SceneObject\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String modelUrl, String resourceDirectoryUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_resourceReady",
+              "s": "private event EventHandler _resourceReady"
+            },
+            {
+              "k": "event",
+              "n": "_touchEvent",
+              "s": "private event EventHandler\u003CTouchEventArgs\u003E _touchEvent"
+            },
+            {
+              "k": "event",
+              "n": "KeyEvent",
+              "s": "public event EventHandler\u003CKeyEventArgs\u003E KeyEvent"
+            },
+            {
+              "k": "event",
+              "n": "ResourceReady",
+              "s": "public event EventHandler ResourceReady"
+            },
+            {
+              "k": "event",
+              "n": "TouchEvent",
+              "s": "public event EventHandler\u003CTouchEventArgs\u003E TouchEvent"
+            },
+            {
+              "k": "method",
+              "n": "add__resourceReady",
+              "s": "private Void add__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__touchEvent",
+              "s": "private Void add__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_KeyEvent",
+              "s": "public Void add_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourceReady",
+              "s": "public Void add_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TouchEvent",
+              "s": "public Void add_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyCamera",
+              "s": "public Boolean ApplyCamera(Int32 index, Camera camera)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsResourceReady",
+              "s": "public Boolean get_IsResourceReady()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_RootNode",
+              "s": "public ModelNode get_RootNode()"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimation",
+              "s": "public Animation3D GetAnimation(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimation",
+              "s": "public Animation3D GetAnimation(String name)"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimationCount",
+              "s": "public Int32 GetAnimationCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetCameraCount",
+              "s": "public Int32 GetCameraCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetRootNode",
+              "s": "private ModelNode GetRootNode()"
+            },
+            {
+              "k": "method",
+              "n": "LoadBvhAnimation",
+              "s": "public Animation3D LoadBvhAnimation(String bvhFilename, Vector3D scale, Boolean translateRootFromModelNode)"
+            },
+            {
+              "k": "method",
+              "n": "LoadMotionDataAnimation",
+              "s": "public Animation3D LoadMotionDataAnimation(IMotionData motionData)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Boolean OnTouchEvent(IntPtr sceneObject, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "remove__resourceReady",
+              "s": "private Void remove__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__touchEvent",
+              "s": "private Void remove__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_KeyEvent",
+              "s": "public Void remove_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourceReady",
+              "s": "public Void remove_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TouchEvent",
+              "s": "public Void remove_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SendKeyEvent",
+              "s": "internal Void SendKeyEvent(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "property",
+              "n": "IsResourceReady",
+              "s": "public Boolean IsResourceReady { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RootNode",
+              "s": "public ModelNode RootNode { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Model3DExtensions",
+      "r": "Tizen.UI.Scene3D.Model3D",
+      "n": "GetCalculateCurrentScreenRect",
+      "s": "public static Rect GetCalculateCurrentScreenRect(Model3D model)"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Selectable",
+          "f": "Tizen.UI.Components.Selectable",
+          "k": "class",
+          "b": "Tizen.UI.Components.Clickable",
+          "i": [
+            "Tizen.UI.Components.ISelectable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IClickableVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "SelectedChanged",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E SelectedChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectedChanged",
+              "s": "public Void add_SelectedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDeselectable",
+              "s": "protected Boolean get_IsDeselectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelectable",
+              "s": "public Boolean get_IsSelectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelected",
+              "s": "public Boolean get_IsSelected()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedChangedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E get_SelectedChangedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "IsCheckableRole",
+              "s": "private Boolean IsCheckableRole()"
+            },
+            {
+              "k": "method",
+              "n": "OnClicked",
+              "s": "protected Boolean OnClicked(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectedChanged",
+              "s": "protected Void OnSelectedChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectedChanged",
+              "s": "public Void remove_SelectedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelectable",
+              "s": "public Void set_IsSelectable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelected",
+              "s": "public Void set_IsSelected(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SelectedChangedCommand",
+              "s": "public Void set_SelectedChangedCommand(Action\u003CObject, InputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SetSelection",
+              "s": "private Void SetSelection(Boolean selection, KeyDeviceClass keyDeviceClass)"
+            },
+            {
+              "k": "method",
+              "n": "Toggle",
+              "s": "public Void Toggle(KeyDeviceClass device)"
+            },
+            {
+              "k": "property",
+              "n": "IsDeselectable",
+              "s": "protected Boolean IsDeselectable { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSelectable",
+              "s": "public Boolean IsSelectable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSelected",
+              "s": "public Boolean IsSelected { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedChangedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E SelectedChangedCommand { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

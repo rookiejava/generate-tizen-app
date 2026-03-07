@@ -1,0 +1,120 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "Signal\u00601",
+          "f": "Tizen.UI.Internal.Signal\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean hasOwnership)"
+            },
+            {
+              "k": "method",
+              "n": "Connect",
+              "s": "public Void Connect(T callback)"
+            },
+            {
+              "k": "method",
+              "n": "Connect",
+              "s": "protected Void Connect(IntPtr handle, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "Disconnect",
+              "s": "public Void Disconnect()"
+            },
+            {
+              "k": "method",
+              "n": "Disconnect",
+              "s": "protected Void Disconnect(IntPtr handle, IntPtr callback)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "Finalize",
+              "s": "Void Finalize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public IntPtr get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasOwnership",
+              "s": "public Boolean get_HasOwnership()"
+            },
+            {
+              "k": "method",
+              "n": "get_UserCallback",
+              "s": "protected T get_UserCallback()"
+            },
+            {
+              "k": "method",
+              "n": "GetWrapperCallback",
+              "s": "protected T GetWrapperCallback()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handle",
+              "s": "protected Void set_Handle(IntPtr value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasOwnership",
+              "s": "protected Void set_HasOwnership(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public IntPtr Handle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasOwnership",
+              "s": "public Boolean HasOwnership { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UserCallback",
+              "s": "protected T UserCallback { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

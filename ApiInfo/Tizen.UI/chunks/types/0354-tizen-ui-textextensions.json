@@ -1,0 +1,276 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TextExtensions",
+          "f": "Tizen.UI.TextExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "FontFamily",
+              "s": "public static TView FontFamily\u003CTView\u003E(TView view, String fontFamily) where TView : IText"
+            },
+            {
+              "k": "method",
+              "n": "FontSize",
+              "s": "public static TView FontSize\u003CTView\u003E(TView view, Single fontSize) where TView : IText"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalAlignment",
+              "s": "public static TView HorizontalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "MultiLine",
+              "s": "public static TView MultiLine\u003CTView\u003E(TView view, Boolean multiLine) where TView : ITextFormatting"
+            },
+            {
+              "k": "method",
+              "n": "Text",
+              "s": "public static TView Text\u003CTView\u003E(TView view, String text) where TView : IText"
+            },
+            {
+              "k": "method",
+              "n": "TextCenter",
+              "s": "public static TView TextCenter\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextCenterHorizontal",
+              "s": "public static TView TextCenterHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextCenterVertical",
+              "s": "public static TView TextCenterVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextColor",
+              "s": "public static TView TextColor\u003CTView\u003E(TView view, Color textColor) where TView : IText"
+            },
+            {
+              "k": "method",
+              "n": "TextColorFromHex",
+              "s": "public static TView TextColorFromHex\u003CTView\u003E(TView view, String textColor) where TView : IText"
+            },
+            {
+              "k": "method",
+              "n": "TextEnd",
+              "s": "public static TView TextEnd\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextEndHorizontal",
+              "s": "public static TView TextEndHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextEndVertical",
+              "s": "public static TView TextEndVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextOverflow",
+              "s": "public static TView TextOverflow\u003CTView\u003E(TView view, TextOverflow textOverflow) where TView : ITextFormatting"
+            },
+            {
+              "k": "method",
+              "n": "TextPadding",
+              "s": "public static T TextPadding\u003CT\u003E(T view, Thickness padding) where T : ITextPadding"
+            },
+            {
+              "k": "method",
+              "n": "TextPadding",
+              "s": "public static T TextPadding\u003CT\u003E(T view, Single left, Single top, Single right, Single bottom) where T : ITextPadding"
+            },
+            {
+              "k": "method",
+              "n": "TextPadding",
+              "s": "public static T TextPadding\u003CT\u003E(T view, Single uniformSize) where T : ITextPadding"
+            },
+            {
+              "k": "method",
+              "n": "TextStart",
+              "s": "public static TView TextStart\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextStartHorizontal",
+              "s": "public static TView TextStartHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "TextStartVertical",
+              "s": "public static TView TextStartVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+            },
+            {
+              "k": "method",
+              "n": "VerticalAlignment",
+              "s": "public static TView VerticalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : ITextAlignment"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "T",
+      "n": "TextPadding",
+      "s": "public static T TextPadding\u003CT\u003E(T view, Thickness padding) where T : ITextPadding"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "T",
+      "n": "TextPadding",
+      "s": "public static T TextPadding\u003CT\u003E(T view, Single left, Single top, Single right, Single bottom) where T : ITextPadding"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "T",
+      "n": "TextPadding",
+      "s": "public static T TextPadding\u003CT\u003E(T view, Single uniformSize) where T : ITextPadding"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "FontFamily",
+      "s": "public static TView FontFamily\u003CTView\u003E(TView view, String fontFamily) where TView : IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "FontSize",
+      "s": "public static TView FontSize\u003CTView\u003E(TView view, Single fontSize) where TView : IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "HorizontalAlignment",
+      "s": "public static TView HorizontalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "MultiLine",
+      "s": "public static TView MultiLine\u003CTView\u003E(TView view, Boolean multiLine) where TView : ITextFormatting"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "Text",
+      "s": "public static TView Text\u003CTView\u003E(TView view, String text) where TView : IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextCenter",
+      "s": "public static TView TextCenter\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextCenterHorizontal",
+      "s": "public static TView TextCenterHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextCenterVertical",
+      "s": "public static TView TextCenterVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextColor",
+      "s": "public static TView TextColor\u003CTView\u003E(TView view, Color textColor) where TView : IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextColorFromHex",
+      "s": "public static TView TextColorFromHex\u003CTView\u003E(TView view, String textColor) where TView : IText"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextEnd",
+      "s": "public static TView TextEnd\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextEndHorizontal",
+      "s": "public static TView TextEndHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextEndVertical",
+      "s": "public static TView TextEndVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextOverflow",
+      "s": "public static TView TextOverflow\u003CTView\u003E(TView view, TextOverflow textOverflow) where TView : ITextFormatting"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextStart",
+      "s": "public static TView TextStart\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextStartHorizontal",
+      "s": "public static TView TextStartHorizontal\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "TextStartVertical",
+      "s": "public static TView TextStartVertical\u003CTView\u003E(TView view) where TView : ITextAlignment"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextExtensions",
+      "r": "TView",
+      "n": "VerticalAlignment",
+      "s": "public static TView VerticalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : ITextAlignment"
+    }
+  ]
+}

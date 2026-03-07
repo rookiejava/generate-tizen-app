@@ -1,0 +1,50 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "UIList",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIList",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "GetBulletMargin",
+              "s": "public static Single GetBulletMargin(Int32 bulletSize, ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetBulletSize",
+              "s": "public static Int32 GetBulletSize(ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberPadding",
+              "s": "public static Single GetNumberPadding(ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberSize",
+              "s": "public static Int32 GetNumberSize(ParagraphStyle paragraph)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

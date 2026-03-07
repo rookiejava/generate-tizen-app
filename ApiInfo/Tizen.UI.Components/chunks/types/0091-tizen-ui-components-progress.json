@@ -1,0 +1,163 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Progress",
+          "f": "Tizen.UI.Components.Progress",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single minimumValue, Single maximumValue)"
+            },
+            {
+              "k": "event",
+              "n": "ValueChanged",
+              "s": "public event EventHandler ValueChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueChanged",
+              "s": "public Void add_ValueChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDeterminate",
+              "s": "public Boolean get_IsDeterminate()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDiscrete",
+              "s": "protected Boolean get_IsDiscrete()"
+            },
+            {
+              "k": "method",
+              "n": "get_Range",
+              "s": "public ClosedRange\u003CSingle\u003E get_Range()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Single get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "get_ValueRatio",
+              "s": "protected Single get_ValueRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_ValueStepCount",
+              "s": "public Int32 get_ValueStepCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetAccessibilityValueText",
+              "s": "protected String GetAccessibilityValueText()"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityHighlightChanged",
+              "s": "private Void OnAccessibilityHighlightChanged(Object sender, AccessibilityHighlightChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDeterminateStateChanged",
+              "s": "protected Void OnDeterminateStateChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnValueChanged",
+              "s": "protected Void OnValueChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnValueRatioChanged",
+              "s": "protected Void OnValueRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueChanged",
+              "s": "public Void remove_ValueChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsDeterminate",
+              "s": "public Void set_IsDeterminate(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Range",
+              "s": "public Void set_Range(ClosedRange\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Value",
+              "s": "public Void set_Value(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ValueStepCount",
+              "s": "public Void set_ValueStepCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetValue",
+              "s": "private Boolean SetValue(Single newValue, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetValueRatio",
+              "s": "private Boolean SetValueRatio(Single newValueRatio, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateValueStep",
+              "s": "private Void UpdateValueStep()"
+            },
+            {
+              "k": "property",
+              "n": "IsDeterminate",
+              "s": "public Boolean IsDeterminate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDiscrete",
+              "s": "protected Boolean IsDiscrete { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Range",
+              "s": "public ClosedRange\u003CSingle\u003E Range { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Single Value { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ValueRatio",
+              "s": "protected Single ValueRatio { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ValueStepCount",
+              "s": "public Int32 ValueStepCount { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

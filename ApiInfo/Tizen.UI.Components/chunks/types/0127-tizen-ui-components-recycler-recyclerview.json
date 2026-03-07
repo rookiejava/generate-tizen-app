@@ -1,0 +1,641 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "RecyclerView",
+          "f": "Tizen.UI.Components.Recycler.RecyclerView",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [
+            "Tizen.UI.IDescendantFocusObserver",
+            "Tizen.UI.IScrollable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollCanceled",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollCanceled"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "\u003Cget_ItemDecorations\u003Eb__103_0",
+              "s": "private Void \u003Cget_ItemDecorations\u003Eb__103_0(Object _, NotifyCollectionChangedEventArgs _)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollCanceled",
+              "s": "public Void add_ScrollCanceled(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddItemTouchListener",
+              "s": "internal Void AddItemTouchListener(ItemTouchListener listener)"
+            },
+            {
+              "k": "method",
+              "n": "ClearRecycledViewPool",
+              "s": "public Void ClearRecycledViewPool()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "FirstCompletelyVisibleItemPosition",
+              "s": "public Int32 FirstCompletelyVisibleItemPosition()"
+            },
+            {
+              "k": "method",
+              "n": "FirstRealizedPosition",
+              "s": "public Int32 FirstRealizedPosition()"
+            },
+            {
+              "k": "method",
+              "n": "FirstVisibleItemPosition",
+              "s": "public Int32 FirstVisibleItemPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get__groupAdapter",
+              "s": "private IGroupedAdapter get__groupAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get__isGrouped",
+              "s": "private Boolean get__isGrouped()"
+            },
+            {
+              "k": "method",
+              "n": "get__loopAdapter",
+              "s": "private ILoopedAdapter get__loopAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_Adapter",
+              "s": "public Adapter get_Adapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasSticky",
+              "s": "public Boolean get_HasSticky()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalEdgeEffect",
+              "s": "public IEdgeEffect get_HorizontalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerScroller",
+              "s": "public RecycleScroller get_InnerScroller()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerStickArea",
+              "s": "public StickyArea get_InnerStickArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToEnd",
+              "s": "public Boolean get_IsScrolledToEnd()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToStart",
+              "s": "public Boolean get_IsScrolledToStart()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolling",
+              "s": "public Boolean get_IsScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemDecorations",
+              "s": "public IList\u003CIItemDecoration\u003E get_ItemDecorations()"
+            },
+            {
+              "k": "method",
+              "n": "get_LastViewPort",
+              "s": "public Rect get_LastViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "public LayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverScrollMode",
+              "s": "public OverScrollMode get_OverScrollMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_PrefetchBaseSize",
+              "s": "public Single get_PrefetchBaseSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_RecycledPoolSize",
+              "s": "public Int32 get_RecycledPoolSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollDirection",
+              "s": "public ScrollDirection get_ScrollDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollPosition",
+              "s": "public Point get_ScrollPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_StickyCandidateVisible",
+              "s": "public Boolean get_StickyCandidateVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalEdgeEffect",
+              "s": "public IEdgeEffect get_VerticalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPort",
+              "s": "public Rect get_ViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "GetBodyForGroup",
+              "s": "public ViewHolder GetBodyForGroup(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetDurationAndAlpha",
+              "s": "protected ValueTuple\u003CInt32, AlphaFunction\u003E GetDurationAndAlpha(Point movement)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemBounds",
+              "s": "private Rect GetItemBounds(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemViewFromFocusedView",
+              "s": "private View GetItemViewFromFocusedView(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetItemViewType",
+              "s": "public Int32 GetItemViewType(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetRealized",
+              "s": "public View GetRealized(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "GetViewHolderForPosition",
+              "s": "public ViewHolder GetViewHolderForPosition(Int32 position)"
+            },
+            {
+              "k": "method",
+              "n": "LastCompletelyVisibleItemPosition",
+              "s": "public Int32 LastCompletelyVisibleItemPosition()"
+            },
+            {
+              "k": "method",
+              "n": "LastRealizedPosition",
+              "s": "public Int32 LastRealizedPosition()"
+            },
+            {
+              "k": "method",
+              "n": "LastVisibleItemPosition",
+              "s": "public Int32 LastVisibleItemPosition()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnCollectionChanged",
+              "s": "private Void OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEvent",
+              "s": "protected Void OnInterceptTouchEvent(Object s, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPan",
+              "s": "private Void OnPan(Object sender, PanGestureDetectedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScroll",
+              "s": "private Void OnScroll(Object sender, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollCanceled",
+              "s": "private Void OnScrollCanceled(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollFinished",
+              "s": "private Void OnScrollFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollStarted",
+              "s": "private Void OnScrollStarted(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "protected Void OnTouchEvent(Object s, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheel",
+              "s": "protected Boolean OnWheel(WheelEvent wheel)"
+            },
+            {
+              "k": "method",
+              "n": "OnWheelEvent",
+              "s": "private Void OnWheelEvent(Object sender, WheelEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RecycleViewHolder",
+              "s": "public Void RecycleViewHolder(ViewHolder viewholder)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollCanceled",
+              "s": "public Void remove_ScrollCanceled(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveItemTouchListener",
+              "s": "internal Void RemoveItemTouchListener(ItemTouchListener listener)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBy",
+              "s": "public Task ScrollBy(Single x, Single y, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBy",
+              "s": "private ValueTuple\u003CSingle, Single\u003E ScrollBy(Single dx, Single dy)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Int32 position, ScrollToPosition scrollToPosition, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "set_Adapter",
+              "s": "public Void set_Adapter(Adapter value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasSticky",
+              "s": "public Void set_HasSticky(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalEdgeEffect",
+              "s": "public Void set_HorizontalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsScrolling",
+              "s": "protected Void set_IsScrolling(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LastViewPort",
+              "s": "public Void set_LastViewPort(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LayoutManager",
+              "s": "public Void set_LayoutManager(LayoutManager value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverScrollMode",
+              "s": "public Void set_OverScrollMode(OverScrollMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PrefetchBaseSize",
+              "s": "public Void set_PrefetchBaseSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RecycledPoolSize",
+              "s": "public Void set_RecycledPoolSize(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StickyCandidateVisible",
+              "s": "public Void set_StickyCandidateVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalEdgeEffect",
+              "s": "public Void set_VerticalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "SmoothScrollBy",
+              "s": "private Task SmoothScrollBy(Single dx, Single dy)"
+            },
+            {
+              "k": "method",
+              "n": "StopScroll",
+              "s": "private Void StopScroll()"
+            },
+            {
+              "k": "method",
+              "n": "StopScrollAndRecycle",
+              "s": "private Void StopScrollAndRecycle()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IDescendantFocusObserver.OnDescendantFocused",
+              "s": "Void Tizen.UI.IDescendantFocusObserver.OnDescendantFocused(View descendant)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_CanScrollHorizontally",
+              "s": "Boolean Tizen.UI.IScrollable.get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.get_CanScrollVertically",
+              "s": "Boolean Tizen.UI.IScrollable.get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IScrollable.ScrollTo",
+              "s": "Task Tizen.UI.IScrollable.ScrollTo(Single x, Single y, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "VelocityToMovement",
+              "s": "protected Point VelocityToMovement(Point velocity)"
+            },
+            {
+              "k": "property",
+              "n": "_groupAdapter",
+              "s": "private IGroupedAdapter _groupAdapter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_isGrouped",
+              "s": "private Boolean _isGrouped { get; }"
+            },
+            {
+              "k": "property",
+              "n": "_loopAdapter",
+              "s": "private ILoopedAdapter _loopAdapter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Adapter",
+              "s": "public Adapter Adapter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasSticky",
+              "s": "public Boolean HasSticky { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalEdgeEffect",
+              "s": "public IEdgeEffect HorizontalEdgeEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerScroller",
+              "s": "public RecycleScroller InnerScroller { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerStickArea",
+              "s": "public StickyArea InnerStickArea { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToEnd",
+              "s": "public Boolean IsScrolledToEnd { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToStart",
+              "s": "public Boolean IsScrolledToStart { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolling",
+              "s": "public Boolean IsScrolling { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemDecorations",
+              "s": "public IList\u003CIItemDecoration\u003E ItemDecorations { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LastViewPort",
+              "s": "public Rect LastViewPort { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "public LayoutManager LayoutManager { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OverScrollMode",
+              "s": "public OverScrollMode OverScrollMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PrefetchBaseSize",
+              "s": "public Single PrefetchBaseSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RecycledPoolSize",
+              "s": "public Int32 RecycledPoolSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollDirection",
+              "s": "public ScrollDirection ScrollDirection { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollPosition",
+              "s": "public Point ScrollPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "StickyCandidateVisible",
+              "s": "public Boolean StickyCandidateVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.CanScrollHorizontally",
+              "s": "Boolean Tizen.UI.IScrollable.CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IScrollable.CanScrollVertically",
+              "s": "Boolean Tizen.UI.IScrollable.CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalEdgeEffect",
+              "s": "public IEdgeEffect VerticalEdgeEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPort",
+              "s": "public Rect ViewPort { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

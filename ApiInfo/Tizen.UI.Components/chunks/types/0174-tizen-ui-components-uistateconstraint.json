@@ -1,0 +1,75 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIStateConstraint",
+          "f": "Tizen.UI.Components.UIStateConstraint",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.UIStateConstraint\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UIState state, Func\u003CUIState, UIStateChangedEventArgs, Boolean\u003E constraint)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(UIStateConstraint other)"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Match",
+              "s": "public Boolean Match(UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(UIStateConstraint operand1, UIStateConstraint operand2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Implicit",
+              "s": "public static UIStateConstraint op_Implicit(UIState state)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(UIStateConstraint operand1, UIStateConstraint operand2)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

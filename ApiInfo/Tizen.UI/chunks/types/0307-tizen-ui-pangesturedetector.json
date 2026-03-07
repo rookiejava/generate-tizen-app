@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "PanGestureDetector",
+          "f": "Tizen.UI.PanGestureDetector",
+          "k": "class",
+          "b": "Tizen.UI.GestureDetector",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_detected",
+              "s": "private event EventHandler\u003CPanGestureDetectedEventArgs\u003E _detected"
+            },
+            {
+              "k": "event",
+              "n": "Detected",
+              "s": "public event EventHandler\u003CPanGestureDetectedEventArgs\u003E Detected"
+            },
+            {
+              "k": "method",
+              "n": "add__detected",
+              "s": "private Void add__detected(EventHandler\u003CPanGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Detected",
+              "s": "public Void add_Detected(EventHandler\u003CPanGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public PanGestureDirection get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumTouchesRequired",
+              "s": "public Int32 get_MaximumTouchesRequired()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumTouchesRequired",
+              "s": "public Int32 get_MinimumTouchesRequired()"
+            },
+            {
+              "k": "method",
+              "n": "OnDetected",
+              "s": "private Void OnDetected(IntPtr view, IntPtr gesture)"
+            },
+            {
+              "k": "method",
+              "n": "remove__detected",
+              "s": "private Void remove__detected(EventHandler\u003CPanGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Detected",
+              "s": "public Void remove_Detected(EventHandler\u003CPanGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Direction",
+              "s": "public Void set_Direction(PanGestureDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumTouchesRequired",
+              "s": "public Void set_MaximumTouchesRequired(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumTouchesRequired",
+              "s": "public Void set_MinimumTouchesRequired(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public PanGestureDirection Direction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumTouchesRequired",
+              "s": "public Int32 MaximumTouchesRequired { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumTouchesRequired",
+              "s": "public Int32 MinimumTouchesRequired { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

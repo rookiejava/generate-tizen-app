@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "TypedAnimationTargetBridge\u00601",
+          "f": "Tizen.UI.Components.Animations.TypedAnimationTargetBridge\u00601",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_TargetView",
+              "s": "public T get_TargetView()"
+            },
+            {
+              "k": "method",
+              "n": "get_TypedAnimation",
+              "s": "public Animation get_TypedAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "set_TargetView",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TargetView(T value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TypedAnimation",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TypedAnimation(Animation value)"
+            },
+            {
+              "k": "property",
+              "n": "TargetView",
+              "s": "public T TargetView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TypedAnimation",
+              "s": "public Animation TypedAnimation { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

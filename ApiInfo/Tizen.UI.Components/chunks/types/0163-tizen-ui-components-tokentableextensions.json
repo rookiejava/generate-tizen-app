@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "TokenTableExtensions",
+          "f": "Tizen.UI.Components.TokenTableExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Bind",
+              "s": "public static Void Bind(View view, IPropertySetter\u003CColor\u003E setter, Color colorToken)"
+            },
+            {
+              "k": "method",
+              "n": "Unbind",
+              "s": "public static Void Unbind(ITokenTable\u003CColor\u003E colorTable, View target, IPropertySetter\u003CColor\u003E setter)"
+            },
+            {
+              "k": "method",
+              "n": "Unbind",
+              "s": "public static Void Unbind(View view, IPropertySetter\u003CColor\u003E setter)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.TokenTableExtensions",
+      "r": "Tizen.UI.ITokenTable\u00601\u003CTizen.UI.Color\u003E",
+      "n": "Unbind",
+      "s": "public static Void Unbind(ITokenTable\u003CColor\u003E colorTable, View target, IPropertySetter\u003CColor\u003E setter)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.TokenTableExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Bind",
+      "s": "public static Void Bind(View view, IPropertySetter\u003CColor\u003E setter, Color colorToken)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.TokenTableExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Unbind",
+      "s": "public static Void Unbind(View view, IPropertySetter\u003CColor\u003E setter)"
+    }
+  ]
+}

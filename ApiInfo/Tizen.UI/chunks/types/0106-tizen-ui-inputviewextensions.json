@@ -1,0 +1,204 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "InputViewExtensions",
+          "f": "Tizen.UI.InputViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CursorWidth",
+              "s": "public static TView CursorWidth\u003CTView\u003E(TView view, Int32 width) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "FontFamily",
+              "s": "public static TView FontFamily\u003CTView\u003E(TView view, String fontFamily) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "FontSize",
+              "s": "public static TView FontSize\u003CTView\u003E(TView view, Single fontSize) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalAlignment",
+              "s": "public static TView HorizontalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "IsMarkupEnabled",
+              "s": "public static TView IsMarkupEnabled\u003CTView\u003E(TView view, Boolean enable) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "IsReadOnly",
+              "s": "public static TView IsReadOnly\u003CTView\u003E(TView view, Boolean isReadOnly) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "MaxLength",
+              "s": "public static TView MaxLength\u003CTView\u003E(TView view, Int32 length) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "PlaceholderText",
+              "s": "public static TView PlaceholderText\u003CTView\u003E(TView view, String text) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "PlaceholderTextColor",
+              "s": "public static TView PlaceholderTextColor\u003CTView\u003E(TView view, Color color) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "PlaceholderTextColorFromHex",
+              "s": "public static TView PlaceholderTextColorFromHex\u003CTView\u003E(TView view, String color) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "PrimaryCursorColor",
+              "s": "public static TView PrimaryCursorColor\u003CTView\u003E(TView view, Color color) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "Text",
+              "s": "public static TView Text\u003CTView\u003E(TView view, String text) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "TextColor",
+              "s": "public static TView TextColor\u003CTView\u003E(TView view, Color textColor) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "TextColorFromHex",
+              "s": "public static TView TextColorFromHex\u003CTView\u003E(TView view, String textColor) where TView : InputView"
+            },
+            {
+              "k": "method",
+              "n": "VerticalAlignment",
+              "s": "public static TView VerticalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : InputView"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "CursorWidth",
+      "s": "public static TView CursorWidth\u003CTView\u003E(TView view, Int32 width) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "FontFamily",
+      "s": "public static TView FontFamily\u003CTView\u003E(TView view, String fontFamily) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "FontSize",
+      "s": "public static TView FontSize\u003CTView\u003E(TView view, Single fontSize) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "HorizontalAlignment",
+      "s": "public static TView HorizontalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "IsMarkupEnabled",
+      "s": "public static TView IsMarkupEnabled\u003CTView\u003E(TView view, Boolean enable) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "IsReadOnly",
+      "s": "public static TView IsReadOnly\u003CTView\u003E(TView view, Boolean isReadOnly) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "MaxLength",
+      "s": "public static TView MaxLength\u003CTView\u003E(TView view, Int32 length) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "PlaceholderText",
+      "s": "public static TView PlaceholderText\u003CTView\u003E(TView view, String text) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "PlaceholderTextColor",
+      "s": "public static TView PlaceholderTextColor\u003CTView\u003E(TView view, Color color) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "PlaceholderTextColorFromHex",
+      "s": "public static TView PlaceholderTextColorFromHex\u003CTView\u003E(TView view, String color) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "PrimaryCursorColor",
+      "s": "public static TView PrimaryCursorColor\u003CTView\u003E(TView view, Color color) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "Text",
+      "s": "public static TView Text\u003CTView\u003E(TView view, String text) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "TextColor",
+      "s": "public static TView TextColor\u003CTView\u003E(TView view, Color textColor) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "TextColorFromHex",
+      "s": "public static TView TextColorFromHex\u003CTView\u003E(TView view, String textColor) where TView : InputView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.InputViewExtensions",
+      "r": "TView",
+      "n": "VerticalAlignment",
+      "s": "public static TView VerticalAlignment\u003CTView\u003E(TView view, TextAlignment alignment) where TView : InputView"
+    }
+  ]
+}

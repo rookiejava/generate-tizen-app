@@ -1,0 +1,190 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ModalDrawerVariables",
+          "f": "Tizen.UI.Components.Material.ModalDrawerVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.ModalDrawerVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ModalDrawerVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "ModalDrawerVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ModalDrawerVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ModalDrawerVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerColor",
+              "s": "public Color get_DrawerColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerCornerRadius",
+              "s": "public CornerRadius get_DrawerCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerItemSpacing",
+              "s": "public Single get_DrawerItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerPadding",
+              "s": "public Thickness get_DrawerPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_DrawerRatio",
+              "s": "public Single get_DrawerRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ModalDrawerVariables left, ModalDrawerVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ModalDrawerVariables left, ModalDrawerVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DrawerColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DrawerColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DrawerCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DrawerCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DrawerItemSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DrawerItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DrawerPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DrawerPadding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DrawerRatio",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DrawerRatio(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ModalDrawerVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerColor",
+              "s": "public Color DrawerColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerCornerRadius",
+              "s": "public CornerRadius DrawerCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerItemSpacing",
+              "s": "public Single DrawerItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerPadding",
+              "s": "public Thickness DrawerPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DrawerRatio",
+              "s": "public Single DrawerRatio { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

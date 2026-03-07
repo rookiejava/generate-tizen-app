@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "AnimatableKey",
+          "f": "Tizen.UI.Components.Animations.AnimatableKey",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View animatable, String handle)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "protected Boolean Equals(AnimatableKey other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Animatable",
+              "s": "public WeakReference\u003CView\u003E get_Animatable()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public String get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "property",
+              "n": "Animatable",
+              "s": "public WeakReference\u003CView\u003E Animatable { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public String Handle { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

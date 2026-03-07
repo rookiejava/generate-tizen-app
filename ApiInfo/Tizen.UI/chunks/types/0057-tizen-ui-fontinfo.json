@@ -1,0 +1,95 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "FontInfo",
+          "f": "Tizen.UI.FontInfo",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.FontInfo\u003E"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(FontInfo other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Family",
+              "s": "public String get_Family()"
+            },
+            {
+              "k": "method",
+              "n": "get_Path",
+              "s": "public String get_Path()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public FontStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(FontInfo lhsFontInfo, FontInfo rhsFontInfo)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(FontInfo lhsFontInfo, FontInfo rhsFontInfo)"
+            },
+            {
+              "k": "method",
+              "n": "set_Family",
+              "s": "public Void set_Family(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Path",
+              "s": "public Void set_Path(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Style",
+              "s": "public Void set_Style(FontStyle value)"
+            },
+            {
+              "k": "property",
+              "n": "Family",
+              "s": "public String Family { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Path",
+              "s": "public String Path { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public FontStyle Style { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

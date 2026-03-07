@@ -1,0 +1,103 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ColorCutQuantizer",
+          "f": "Tizen.UI.Components.ColorCutQuantizer",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ColorHistogram colorHistogram, Int32 maxColors)"
+            },
+            {
+              "k": "method",
+              "n": "FromBitmap",
+              "s": "public static ColorCutQuantizer FromBitmap(PixelBuffer pixelBuffer, Int32 maxColors)"
+            },
+            {
+              "k": "method",
+              "n": "FromBitmap",
+              "s": "public static ColorCutQuantizer FromBitmap(PixelBuffer pixelBuffer, Int32 maxColors, Int32 regionX, Int32 regionY, Int32 regionWidth, Int32 regionHeight)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateAverageColors",
+              "s": "private List\u003CSwatch\u003E GenerateAverageColors(ColorCutQuantizer.CustomHeap\u003CColorCutQuantizer.Vbox\u003E vboxes)"
+            },
+            {
+              "k": "method",
+              "n": "get_QuantizedColors",
+              "s": "public IEnumerable\u003CSwatch\u003E get_QuantizedColors()"
+            },
+            {
+              "k": "method",
+              "n": "GetBytesPerPixel",
+              "s": "private static Int32 GetBytesPerPixel(PixelFormat pixelFormat)"
+            },
+            {
+              "k": "method",
+              "n": "IsBlack",
+              "s": "private static Boolean IsBlack(Span\u003CSingle\u003E hslColor)"
+            },
+            {
+              "k": "method",
+              "n": "IsNearRedILine",
+              "s": "private static Boolean IsNearRedILine(Span\u003CSingle\u003E hslColor)"
+            },
+            {
+              "k": "method",
+              "n": "IsWhite",
+              "s": "private static Boolean IsWhite(Span\u003CSingle\u003E hslColor)"
+            },
+            {
+              "k": "method",
+              "n": "QuantizePixels",
+              "s": "private List\u003CSwatch\u003E QuantizePixels(Int32 maxColorIndex, Int32 maxColors)"
+            },
+            {
+              "k": "method",
+              "n": "RgbToHsl",
+              "s": "private static Void RgbToHsl(Int32 red, Int32 green, Int32 blue, Span\u003CSingle\u003E hsl)"
+            },
+            {
+              "k": "method",
+              "n": "ShouldIgnoreColor",
+              "s": "private Boolean ShouldIgnoreColor(Int32 color)"
+            },
+            {
+              "k": "method",
+              "n": "ShouldIgnoreColor",
+              "s": "private static Boolean ShouldIgnoreColor(Swatch color)"
+            },
+            {
+              "k": "method",
+              "n": "ShouldIgnoreColor",
+              "s": "private static Boolean ShouldIgnoreColor(Span\u003CSingle\u003E hslColor)"
+            },
+            {
+              "k": "method",
+              "n": "SplitBoxes",
+              "s": "private Void SplitBoxes(ColorCutQuantizer.CustomHeap\u003CColorCutQuantizer.Vbox\u003E queue, Int32 maxSize)"
+            },
+            {
+              "k": "property",
+              "n": "QuantizedColors",
+              "s": "public IEnumerable\u003CSwatch\u003E QuantizedColors { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

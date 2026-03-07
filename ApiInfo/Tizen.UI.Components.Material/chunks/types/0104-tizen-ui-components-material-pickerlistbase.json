@@ -1,0 +1,103 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerListBase",
+          "f": "Tizen.UI.Components.Material.PickerListBase",
+          "k": "class",
+          "b": "Tizen.UI.Components.Recycler.RecyclerView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Picker picker)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustScrollForLoop",
+              "s": "protected Void AdjustScrollForLoop()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get_Picker",
+              "s": "protected Picker get_Picker()"
+            },
+            {
+              "k": "method",
+              "n": "get_PickerAdapter",
+              "s": "public PickerListAdapter get_PickerAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "GetDurationAndAlpha",
+              "s": "protected ValueTuple\u003CInt32, AlphaFunction\u003E GetDurationAndAlpha(Point movement)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "PickerValueUpdate",
+              "s": "protected Void PickerValueUpdate()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMoveDistance",
+              "s": "protected Void SetMoveDistance(Int32 moveDistance)"
+            },
+            {
+              "k": "method",
+              "n": "SetScrollByTap",
+              "s": "protected Void SetScrollByTap(Boolean scrollByTap)"
+            },
+            {
+              "k": "method",
+              "n": "VelocityToMovement",
+              "s": "protected Point VelocityToMovement(Point velocity)"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Picker",
+              "s": "protected Picker Picker { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PickerAdapter",
+              "s": "public PickerListAdapter PickerAdapter { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

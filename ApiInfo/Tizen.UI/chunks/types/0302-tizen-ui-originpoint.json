@@ -1,0 +1,118 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "OriginPoint",
+          "f": "Tizen.UI.OriginPoint",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomCenter",
+              "s": "public static Point get_BottomCenter()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomLeft",
+              "s": "public static Point get_BottomLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomRight",
+              "s": "public static Point get_BottomRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public static Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterLeft",
+              "s": "public static Point get_CenterLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterRight",
+              "s": "public static Point get_CenterRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopCenter",
+              "s": "public static Point get_TopCenter()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopLeft",
+              "s": "public static Point get_TopLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopRight",
+              "s": "public static Point get_TopRight()"
+            },
+            {
+              "k": "property",
+              "n": "BottomCenter",
+              "s": "public Point BottomCenter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomLeft",
+              "s": "public Point BottomLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomRight",
+              "s": "public Point BottomRight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterLeft",
+              "s": "public Point CenterLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterRight",
+              "s": "public Point CenterRight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TopCenter",
+              "s": "public Point TopCenter { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TopLeft",
+              "s": "public Point TopLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TopRight",
+              "s": "public Point TopRight { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

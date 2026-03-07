@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "RadialGradientPaint",
+          "f": "Tizen.UI.Primitives2D.RadialGradientPaint",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.GradientPaint",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radius)"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "set_Center",
+              "s": "public Void set_Center(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Radius",
+              "s": "public Void set_Radius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetBounds",
+              "s": "private Void SetBounds(Point center, Single radius)"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,308 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ListView",
+          "f": "Tizen.UI.Components.Material.ListView",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.LoopedAdapterView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureAdapter",
+              "s": "protected Void EnsureAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerTemplate",
+              "s": "public ViewTemplate get_DividerTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupBodyTemplate",
+              "s": "public ViewTemplate get_GroupBodyTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupFooterTemplate",
+              "s": "public ViewTemplate get_GroupFooterTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupHeaderTemplate",
+              "s": "public ViewTemplate get_GroupHeaderTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasDivider",
+              "s": "public Boolean get_HasDivider()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalEdgeEffect",
+              "s": "public IEdgeEffect get_HorizontalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsGrouped",
+              "s": "public Boolean get_IsGrouped()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsHorizontal",
+              "s": "public Boolean get_IsHorizontal()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsStickyHeader",
+              "s": "public Boolean get_IsStickyHeader()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAnimator",
+              "s": "public IItemAnimator get_ItemAnimator()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemTouchHelper",
+              "s": "public ItemTouchHelper get_ItemTouchHelper()"
+            },
+            {
+              "k": "method",
+              "n": "get_LinearLayoutManager",
+              "s": "protected LinearLayoutManager get_LinearLayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_OverScrollMode",
+              "s": "public OverScrollMode get_OverScrollMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalEdgeEffect",
+              "s": "public IEdgeEffect get_VerticalEdgeEffect()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "protected Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Int32 position, ScrollToPosition scrollToPosition, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerTemplate",
+              "s": "public Void set_DividerTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupBodyTemplate",
+              "s": "public Void set_GroupBodyTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupFooterTemplate",
+              "s": "public Void set_GroupFooterTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_GroupHeaderTemplate",
+              "s": "public Void set_GroupHeaderTemplate(ViewTemplate value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasDivider",
+              "s": "public Void set_HasDivider(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalEdgeEffect",
+              "s": "public Void set_HorizontalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsGrouped",
+              "s": "public Void set_IsGrouped(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsHorizontal",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_IsHorizontal(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsStickyHeader",
+              "s": "public Void set_IsStickyHeader(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAnimator",
+              "s": "public Void set_ItemAnimator(IItemAnimator value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemTouchHelper",
+              "s": "public Void set_ItemTouchHelper(ItemTouchHelper value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OverScrollMode",
+              "s": "public Void set_OverScrollMode(OverScrollMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalEdgeEffect",
+              "s": "public Void set_VerticalEdgeEffect(IEdgeEffect value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateDividerTemplate",
+              "s": "private Void UpdateDividerTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGroupBodyTemplate",
+              "s": "private Void UpdateGroupBodyTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGroupFooterTemplate",
+              "s": "private Void UpdateGroupFooterTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGroupHeaderTemplate",
+              "s": "private Void UpdateGroupHeaderTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateHasDivider",
+              "s": "private Void UpdateHasDivider()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateIsGrouped",
+              "s": "private Void UpdateIsGrouped()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateIsStickyHeader",
+              "s": "private Void UpdateIsStickyHeader()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayoutManager",
+              "s": "protected Void UpdateLayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePosition",
+              "s": "protected Void UpdatePosition()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollbarPosition",
+              "s": "protected Void UpdateScrollbarPosition()"
+            },
+            {
+              "k": "property",
+              "n": "DividerTemplate",
+              "s": "public ViewTemplate DividerTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupBodyTemplate",
+              "s": "public ViewTemplate GroupBodyTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupFooterTemplate",
+              "s": "public ViewTemplate GroupFooterTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupHeaderTemplate",
+              "s": "public ViewTemplate GroupHeaderTemplate { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasDivider",
+              "s": "public Boolean HasDivider { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalEdgeEffect",
+              "s": "public IEdgeEffect HorizontalEdgeEffect { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsGrouped",
+              "s": "public Boolean IsGrouped { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsHorizontal",
+              "s": "public Boolean IsHorizontal { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsStickyHeader",
+              "s": "public Boolean IsStickyHeader { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemAnimator",
+              "s": "public IItemAnimator ItemAnimator { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemTouchHelper",
+              "s": "public ItemTouchHelper ItemTouchHelper { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LinearLayoutManager",
+              "s": "protected LinearLayoutManager LinearLayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "OverScrollMode",
+              "s": "public OverScrollMode OverScrollMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalEdgeEffect",
+              "s": "public IEdgeEffect VerticalEdgeEffect { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

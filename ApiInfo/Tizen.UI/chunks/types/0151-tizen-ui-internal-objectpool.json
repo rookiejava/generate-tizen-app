@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "ObjectPool",
+          "f": "Tizen.UI.Internal.ObjectPool",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "NewVector2",
+              "s": "public static ObjectPool\u003CVector2Handle\u003E NewVector2()"
+            },
+            {
+              "k": "method",
+              "n": "NewVector2",
+              "s": "public static ObjectPool\u003CVector2Handle\u003E NewVector2(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "NewVector3",
+              "s": "public static ObjectPool\u003CVector3Handle\u003E NewVector3()"
+            },
+            {
+              "k": "method",
+              "n": "NewVector3",
+              "s": "public static ObjectPool\u003CVector3Handle\u003E NewVector3(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "NewVector4",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E NewVector4()"
+            },
+            {
+              "k": "method",
+              "n": "NewVector4",
+              "s": "public static ObjectPool\u003CVector4Handle\u003E NewVector4(Single x, Single y, Single z, Single w)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

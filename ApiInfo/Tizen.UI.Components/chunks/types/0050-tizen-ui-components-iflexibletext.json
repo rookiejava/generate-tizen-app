@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IFlexibleText",
+          "f": "Tizen.UI.Components.IFlexibleText",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

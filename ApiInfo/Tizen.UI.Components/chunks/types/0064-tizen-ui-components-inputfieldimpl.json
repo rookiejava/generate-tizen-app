@@ -1,0 +1,408 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "InputFieldImpl",
+          "f": "Tizen.UI.Components.InputFieldImpl",
+          "k": "class",
+          "b": "Tizen.UI.Components.InputTextBaseImpl",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "ConnectAnchorClicked",
+              "s": "protected Void ConnectAnchorClicked(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectCursorMoved",
+              "s": "protected Void ConnectCursorMoved(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectInputFiltered",
+              "s": "protected Void ConnectInputFiltered(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectMaximumLengthReached",
+              "s": "protected Void ConnectMaximumLengthReached(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionChanged",
+              "s": "protected Void ConnectSelectionChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionCleared",
+              "s": "protected Void ConnectSelectionCleared(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionStarted",
+              "s": "protected Void ConnectSelectionStarted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectTextChanged",
+              "s": "protected Void ConnectTextChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectTextFieldSignal",
+              "s": "private Void ConnectTextFieldSignal(IntPtr signal, IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "protected IntPtr CreateNativeHandle()"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectAnchorClicked",
+              "s": "protected Void DisconnectAnchorClicked(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectCursorMoved",
+              "s": "protected Void DisconnectCursorMoved(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectInputFiltered",
+              "s": "protected Void DisconnectInputFiltered(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectMaximumLengthReached",
+              "s": "protected Void DisconnectMaximumLengthReached(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionChanged",
+              "s": "protected Void DisconnectSelectionChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionCleared",
+              "s": "protected Void DisconnectSelectionCleared(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionStarted",
+              "s": "protected Void DisconnectSelectionStarted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectTextChanged",
+              "s": "protected Void DisconnectTextChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectTextFieldSignal",
+              "s": "private Void DisconnectTextFieldSignal(IntPtr signal, IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DoClearSelection",
+              "s": "protected Void DoClearSelection()"
+            },
+            {
+              "k": "method",
+              "n": "DoCreateInputMethodContext",
+              "s": "protected InputMethodContext DoCreateInputMethodContext()"
+            },
+            {
+              "k": "method",
+              "n": "DoSelectText",
+              "s": "protected Void DoSelectText(Int32 startIndex, Int32 endIndex)"
+            },
+            {
+              "k": "method",
+              "n": "DoSelectWholeText",
+              "s": "protected Void DoSelectWholeText()"
+            },
+            {
+              "k": "method",
+              "n": "get_PasswordMode",
+              "s": "public HiddenInputMode get_PasswordMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShowPlaceholderOnFocus",
+              "s": "public Boolean get_ShowPlaceholderOnFocus()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkDurationPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkDurationPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkEnabledPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkIntervalPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkIntervalPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorColorPropertyIndex",
+              "s": "protected Int32 GetCursorColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorPositionPropertyIndex",
+              "s": "protected Int32 GetCursorPositionPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorWidthPropertyIndex",
+              "s": "protected Int32 GetCursorWidthPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEllipsisPositionPropertyIndex",
+              "s": "protected Int32 GetEllipsisPositionPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEllipsisPropertyIndex",
+              "s": "protected Int32 GetEllipsisPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableGrabHandlePopupPropertyIndex",
+              "s": "protected Int32 GetEnableGrabHandlePopupPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableGrabHandlePropertyIndex",
+              "s": "protected Int32 GetEnableGrabHandlePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontFamilyPropertyIndex",
+              "s": "protected Int32 GetFontFamilyPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSizeScalePropertyIndex",
+              "s": "protected Int32 GetFontSizeScalePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontStylePropertyIndex",
+              "s": "protected Int32 GetFontStylePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetHorizontalAlignmentPropertyIndex",
+              "s": "protected Int32 GetHorizontalAlignmentPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputColorPropertyIndex",
+              "s": "protected Int32 GetInputColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFilterPropertyIndex",
+              "s": "protected Int32 GetInputFilterPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFontFamilyPropertyIndex",
+              "s": "protected Int32 GetInputFontFamilyPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFontStylePropertyIndex",
+              "s": "protected Int32 GetInputFontStylePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputMethodSettingPropertyIndex",
+              "s": "protected Int32 GetInputMethodSettingPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputPointSizePropertyIndex",
+              "s": "protected Int32 GetInputPointSizePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetIsEditablePropertyIndex",
+              "s": "protected Int32 GetIsEditablePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetMarkupEnabledPropertyIndex",
+              "s": "protected Int32 GetMarkupEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetMaximumLengthPropertyIndex",
+              "s": "protected Int32 GetMaximumLengthPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetOutlinePropertyIndex",
+              "s": "protected Int32 GetOutlinePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPixelSizePropertyIndex",
+              "s": "protected Int32 GetPixelSizePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderColorPropertyIndex",
+              "s": "protected Int32 GetPlaceholderColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderFocusedPropertyIndex",
+              "s": "protected Int32 GetPlaceholderFocusedPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderPropertyIndex",
+              "s": "protected Int32 GetPlaceholderPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSecondaryCursorColorPropertyIndex",
+              "s": "protected Int32 GetSecondaryCursorColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextEndIndexPropertyIndex",
+              "s": "protected Int32 GetSelectedTextEndIndexPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextPropertyIndex",
+              "s": "protected Int32 GetSelectedTextPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextStartIndexPropertyIndex",
+              "s": "protected Int32 GetSelectedTextStartIndexPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionColorPropertyIndex",
+              "s": "protected Int32 GetSelectionColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionEnabledPropertyIndex",
+              "s": "protected Int32 GetSelectionEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandleLeftImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandleLeftImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandlePressedLeftImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandlePressedLeftImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandlePressedRightImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandlePressedRightImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandleRightImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandleRightImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetStrikethroughPropertyIndex",
+              "s": "protected Int32 GetStrikethroughPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextColorPropertyIndex",
+              "s": "protected Int32 GetTextColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextDropShadowPropertyIndex",
+              "s": "protected Int32 GetTextDropShadowPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextPropertyIndex",
+              "s": "protected Int32 GetTextPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetUnderlinePropertyIndex",
+              "s": "protected Int32 GetUnderlinePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetVerticalAlignmentPropertyIndex",
+              "s": "protected Int32 GetVerticalAlignmentPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "OnPlaceholderChanged",
+              "s": "protected Void OnPlaceholderChanged(String placeholder)"
+            },
+            {
+              "k": "method",
+              "n": "RegisterFontVariationProperty",
+              "s": "protected Int32 RegisterFontVariationProperty(String tag)"
+            },
+            {
+              "k": "method",
+              "n": "set_PasswordMode",
+              "s": "public Void set_PasswordMode(HiddenInputMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShowPlaceholderOnFocus",
+              "s": "public Void set_ShowPlaceholderOnFocus(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlaceholderFocused",
+              "s": "private Void SetPlaceholderFocused(String placeholder)"
+            },
+            {
+              "k": "property",
+              "n": "PasswordMode",
+              "s": "public HiddenInputMode PasswordMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShowPlaceholderOnFocus",
+              "s": "public Boolean ShowPlaceholderOnFocus { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

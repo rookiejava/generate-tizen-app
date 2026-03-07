@@ -1,0 +1,68 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "LinearGradientPaint",
+          "f": "Tizen.UI.Primitives2D.LinearGradientPaint",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.GradientPaint",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single startPointX, Single startPointY, Single endPointX, Single endPointY)"
+            },
+            {
+              "k": "method",
+              "n": "get_EndPoint",
+              "s": "public Point get_EndPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_StartPoint",
+              "s": "public Point get_StartPoint()"
+            },
+            {
+              "k": "method",
+              "n": "set_EndPoint",
+              "s": "public Void set_EndPoint(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StartPoint",
+              "s": "public Void set_StartPoint(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "SetBounds",
+              "s": "private Void SetBounds(Point startPoint, Point endPoint)"
+            },
+            {
+              "k": "property",
+              "n": "EndPoint",
+              "s": "public Point EndPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StartPoint",
+              "s": "public Point StartPoint { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

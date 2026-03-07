@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "GridLayoutManager",
+          "f": "Tizen.UI.Layouts.GridLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.LayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IGridLayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "get_Grid",
+              "s": "public IGridLayout get_Grid()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ToGridLengthType",
+              "s": "private static GridLayoutManager.GridLengthType ToGridLengthType(GridUnitType gridUnitType)"
+            },
+            {
+              "k": "property",
+              "n": "Grid",
+              "s": "public IGridLayout Grid { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

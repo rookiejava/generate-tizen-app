@@ -1,0 +1,112 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DoubleTitle",
+          "f": "Tizen.UI.Components.Material.DoubleTitle",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Components.IDoubleTitle",
+            "Tizen.UI.Components.ITitle",
+            "Tizen.UI.Components.Material.IAppBarContent"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String title, String subtitle)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String title, String subtitle, DoubleTitleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyUnifiedContentColor",
+              "s": "public Void ApplyUnifiedContentColor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(DoubleTitleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Subtitle",
+              "s": "public String get_Subtitle()"
+            },
+            {
+              "k": "method",
+              "n": "get_SubtitleLabel",
+              "s": "public Label get_SubtitleLabel()"
+            },
+            {
+              "k": "method",
+              "n": "get_Title",
+              "s": "public String get_Title()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleLabel",
+              "s": "public Label get_TitleLabel()"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Subtitle",
+              "s": "public Void set_Subtitle(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Title",
+              "s": "public Void set_Title(String value)"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Subtitle",
+              "s": "public String Subtitle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SubtitleLabel",
+              "s": "public Label SubtitleLabel { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Title",
+              "s": "public String Title { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleLabel",
+              "s": "public Label TitleLabel { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SelectableBindings\u00601",
+          "f": "Tizen.UI.Components.SelectableBindings\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelectedProperty",
+              "s": "public static TwoWayBindingProperty\u003CTView, Boolean\u003E get_IsSelectedProperty()"
+            },
+            {
+              "k": "property",
+              "n": "IsSelectedProperty",
+              "s": "public TwoWayBindingProperty\u003CTView, Boolean\u003E IsSelectedProperty { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

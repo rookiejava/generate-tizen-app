@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DefaultRadioButtonIcon",
+          "f": "Tizen.UI.Components.Material.DefaultRadioButtonIcon",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.SelectableLottieImage",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(RadioButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "SetInnerColor",
+              "s": "private Color SetInnerColor(Int32 frameIndex)"
+            },
+            {
+              "k": "method",
+              "n": "SetOuterColor",
+              "s": "private Color SetOuterColor(Int32 frameIndex)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

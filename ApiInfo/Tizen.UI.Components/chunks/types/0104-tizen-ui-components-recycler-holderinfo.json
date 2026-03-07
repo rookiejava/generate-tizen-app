@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "HolderInfo",
+          "f": "Tizen.UI.Components.Recycler.HolderInfo",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Holder",
+              "s": "public ViewHolder get_Holder()"
+            },
+            {
+              "k": "method",
+              "n": "set_Holder",
+              "s": "public Void set_Holder(ViewHolder value)"
+            },
+            {
+              "k": "property",
+              "n": "Holder",
+              "s": "public ViewHolder Holder { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

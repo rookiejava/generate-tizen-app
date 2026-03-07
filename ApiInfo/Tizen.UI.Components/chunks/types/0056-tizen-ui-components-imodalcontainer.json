@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IModalContainer",
+          "f": "Tizen.UI.Components.IModalContainer",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ModalContent",
+              "s": "public View get_ModalContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scrim",
+              "s": "public View get_Scrim()"
+            },
+            {
+              "k": "method",
+              "n": "set_ModalContent",
+              "s": "public Void set_ModalContent(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scrim",
+              "s": "public Void set_Scrim(View value)"
+            },
+            {
+              "k": "property",
+              "n": "ModalContent",
+              "s": "public View ModalContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Scrim",
+              "s": "public View Scrim { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

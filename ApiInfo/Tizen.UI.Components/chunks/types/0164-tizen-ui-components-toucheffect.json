@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "TouchEffect",
+          "f": "Tizen.UI.Components.TouchEffect",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static UIAttachable get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_None",
+              "s": "public static UIAttachable get_None()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public UIAttachable Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "None",
+              "s": "public UIAttachable None { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

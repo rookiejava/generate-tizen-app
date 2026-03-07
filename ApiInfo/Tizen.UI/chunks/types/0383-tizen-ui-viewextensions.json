@@ -1,0 +1,540 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Attach",
+              "s": "public static T Attach\u003CT, U\u003E(T view, U value) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "Background",
+              "s": "public static T Background\u003CT\u003E(T view, Background background) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColor",
+              "s": "public static TView BackgroundColor\u003CTView\u003E(TView view, Color color) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColorFromHex",
+              "s": "public static TView BackgroundColorFromHex\u003CTView\u003E(TView view, String color) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineColor",
+              "s": "public static TView BorderlineColor\u003CTView\u003E(TView view, Color color) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineColorFromHex",
+              "s": "public static TView BorderlineColorFromHex\u003CTView\u003E(TView view, String color) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineOffset",
+              "s": "public static TView BorderlineOffset\u003CTView\u003E(TView view, Single offset) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineWidth",
+              "s": "public static TView BorderlineWidth\u003CTView\u003E(TView view, Single width) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CornerRadius",
+              "s": "public static TView CornerRadius\u003CTView\u003E(TView view, CornerRadius cornerRadius) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "DesiredHeight",
+              "s": "public static TView DesiredHeight\u003CTView\u003E(TView view, Single height) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "DesiredSize",
+              "s": "public static TView DesiredSize\u003CTView\u003E(TView view, Single width, Single height) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "DesiredSize",
+              "s": "public static TView DesiredSize\u003CTView\u003E(TView view, Size size) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "DesiredWidth",
+              "s": "public static TView DesiredWidth\u003CTView\u003E(TView view, Single width) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Focusable",
+              "s": "public static TView Focusable\u003CTView\u003E(TView view, Boolean focusable) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FocusableChildren",
+              "s": "public static TView FocusableChildren\u003CTView\u003E(TView view, Boolean focusableChildren) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FocusableInTouch",
+              "s": "public static TView FocusableInTouch\u003CTView\u003E(TView view, Boolean focusableInTouch) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "IsDescendantOf",
+              "s": "public static Boolean IsDescendantOf(View view, View parent)"
+            },
+            {
+              "k": "method",
+              "n": "Name",
+              "s": "public static T Name\u003CT\u003E(T view, String name) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "NaturalUnitSize",
+              "s": "public static Size NaturalUnitSize(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Position",
+              "s": "public static Point Position(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Position",
+              "s": "public static Void Position(View view, Point point)"
+            },
+            {
+              "k": "method",
+              "n": "Scale",
+              "s": "public static Size Scale(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Scale",
+              "s": "public static T Scale\u003CT\u003E(T view, Size scale) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "Scale",
+              "s": "public static T Scale\u003CT\u003E(T view, Single scaleX, Single scaleY) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleX",
+              "s": "public static T ScaleX\u003CT\u003E(T view, Single scaleX) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScaleY",
+              "s": "public static T ScaleY\u003CT\u003E(T view, Single scaleY) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "ScreenScaledBounds",
+              "s": "public static Rect ScreenScaledBounds(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Self",
+              "s": "public static TView Self\u003CTView\u003E(TView view, TView\u0026 variable) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Self",
+              "s": "public static TView Self\u003CTView\u003E(TView view, Action\u003CTView\u003E action) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Shadow",
+              "s": "public static T Shadow\u003CT\u003E(T view, Shadow shadow) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "Size",
+              "s": "public static Size Size(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Size",
+              "s": "public static Void Size(View view, Size size)"
+            },
+            {
+              "k": "method",
+              "n": "UnitHeight",
+              "s": "public static T UnitHeight\u003CT\u003E(T view, Single unitHeight) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitPosition",
+              "s": "public static T UnitPosition\u003CT\u003E(T view, Point pos) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitPosition",
+              "s": "public static Point UnitPosition(View view)"
+            },
+            {
+              "k": "method",
+              "n": "UnitSize",
+              "s": "public static T UnitSize\u003CT\u003E(T view, Size unitSize) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitSize",
+              "s": "public static T UnitSize\u003CT\u003E(T view, Single width, Single height) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitSize",
+              "s": "public static Size UnitSize(View view)"
+            },
+            {
+              "k": "method",
+              "n": "UnitWidth",
+              "s": "public static T UnitWidth\u003CT\u003E(T view, Single unitWidth) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitX",
+              "s": "public static T UnitX\u003CT\u003E(T view, Single unitX) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitX",
+              "s": "public static Single UnitX(View view)"
+            },
+            {
+              "k": "method",
+              "n": "UnitY",
+              "s": "public static T UnitY\u003CT\u003E(T view, Single unitY) where T : View"
+            },
+            {
+              "k": "method",
+              "n": "UnitY",
+              "s": "public static Single UnitY(View view)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Attach",
+      "s": "public static T Attach\u003CT, U\u003E(T view, U value) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Background",
+      "s": "public static T Background\u003CT\u003E(T view, Background background) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Name",
+      "s": "public static T Name\u003CT\u003E(T view, String name) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Scale",
+      "s": "public static T Scale\u003CT\u003E(T view, Size scale) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Scale",
+      "s": "public static T Scale\u003CT\u003E(T view, Single scaleX, Single scaleY) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "ScaleX",
+      "s": "public static T ScaleX\u003CT\u003E(T view, Single scaleX) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "ScaleY",
+      "s": "public static T ScaleY\u003CT\u003E(T view, Single scaleY) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "Shadow",
+      "s": "public static T Shadow\u003CT\u003E(T view, Shadow shadow) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitHeight",
+      "s": "public static T UnitHeight\u003CT\u003E(T view, Single unitHeight) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitPosition",
+      "s": "public static T UnitPosition\u003CT\u003E(T view, Point pos) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitSize",
+      "s": "public static T UnitSize\u003CT\u003E(T view, Size unitSize) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitSize",
+      "s": "public static T UnitSize\u003CT\u003E(T view, Single width, Single height) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitWidth",
+      "s": "public static T UnitWidth\u003CT\u003E(T view, Single unitWidth) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitX",
+      "s": "public static T UnitX\u003CT\u003E(T view, Single unitX) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "T",
+      "n": "UnitY",
+      "s": "public static T UnitY\u003CT\u003E(T view, Single unitY) where T : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "IsDescendantOf",
+      "s": "public static Boolean IsDescendantOf(View view, View parent)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "NaturalUnitSize",
+      "s": "public static Size NaturalUnitSize(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Position",
+      "s": "public static Point Position(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Position",
+      "s": "public static Void Position(View view, Point point)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Scale",
+      "s": "public static Size Scale(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ScreenScaledBounds",
+      "s": "public static Rect ScreenScaledBounds(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Size",
+      "s": "public static Size Size(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Size",
+      "s": "public static Void Size(View view, Size size)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitPosition",
+      "s": "public static Point UnitPosition(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitSize",
+      "s": "public static Size UnitSize(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitX",
+      "s": "public static Single UnitX(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "UnitY",
+      "s": "public static Single UnitY(View view)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BackgroundColor",
+      "s": "public static TView BackgroundColor\u003CTView\u003E(TView view, Color color) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BackgroundColorFromHex",
+      "s": "public static TView BackgroundColorFromHex\u003CTView\u003E(TView view, String color) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BorderlineColor",
+      "s": "public static TView BorderlineColor\u003CTView\u003E(TView view, Color color) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BorderlineColorFromHex",
+      "s": "public static TView BorderlineColorFromHex\u003CTView\u003E(TView view, String color) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BorderlineOffset",
+      "s": "public static TView BorderlineOffset\u003CTView\u003E(TView view, Single offset) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "BorderlineWidth",
+      "s": "public static TView BorderlineWidth\u003CTView\u003E(TView view, Single width) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "CornerRadius",
+      "s": "public static TView CornerRadius\u003CTView\u003E(TView view, CornerRadius cornerRadius) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "DesiredHeight",
+      "s": "public static TView DesiredHeight\u003CTView\u003E(TView view, Single height) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "DesiredSize",
+      "s": "public static TView DesiredSize\u003CTView\u003E(TView view, Single width, Single height) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "DesiredSize",
+      "s": "public static TView DesiredSize\u003CTView\u003E(TView view, Size size) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "DesiredWidth",
+      "s": "public static TView DesiredWidth\u003CTView\u003E(TView view, Single width) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "Focusable",
+      "s": "public static TView Focusable\u003CTView\u003E(TView view, Boolean focusable) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "FocusableChildren",
+      "s": "public static TView FocusableChildren\u003CTView\u003E(TView view, Boolean focusableChildren) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "FocusableInTouch",
+      "s": "public static TView FocusableInTouch\u003CTView\u003E(TView view, Boolean focusableInTouch) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "Self",
+      "s": "public static TView Self\u003CTView\u003E(TView view, TView\u0026 variable) where TView : View"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.ViewExtensions",
+      "r": "TView",
+      "n": "Self",
+      "s": "public static TView Self\u003CTView\u003E(TView view, Action\u003CTView\u003E action) where TView : View"
+    }
+  ]
+}

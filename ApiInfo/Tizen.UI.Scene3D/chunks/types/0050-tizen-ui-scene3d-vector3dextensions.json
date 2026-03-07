@@ -1,0 +1,36 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Vector3DExtensions",
+          "f": "Tizen.UI.Scene3D.Vector3DExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "internal static ObjectPool\u003CVector3Handle\u003E ToNative(Vector3D v)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Vector3DExtensions",
+      "r": "Tizen.UI.Scene3D.Vector3D",
+      "n": "ToNative",
+      "s": "internal static ObjectPool\u003CVector3Handle\u003E ToNative(Vector3D v)"
+    }
+  ]
+}

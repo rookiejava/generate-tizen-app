@@ -1,0 +1,125 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "LayoutHelper",
+          "f": "Tizen.UI.Layouts.LayoutHelper",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ViewGroup viewGroup, ILayoutManager layoutManager)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__8_0",
+              "s": "Void \u003C.ctor\u003Eb__8_0(Object s, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Measured",
+              "s": "public Boolean get_Measured()"
+            },
+            {
+              "k": "method",
+              "n": "IsOnPseudoLayout",
+              "s": "private Boolean IsOnPseudoLayout()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "public Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidated",
+              "s": "private Void OnChildMeasureInvalidated(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildMeasureInvalidatedOverride",
+              "s": "public Void OnChildMeasureInvalidatedOverride(View child)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "public Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnLayoutIterationOnce",
+              "s": "private Void OnLayoutIterationOnce(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidated",
+              "s": "public Void OnMeasureInvalidated()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RequestLayout",
+              "s": "private Void RequestLayout()"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "private Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_Measured",
+              "s": "public Void set_Measured(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Void UpdateLayout()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLayout",
+              "s": "public Size UpdateLayout(Rect bounds)"
+            },
+            {
+              "k": "property",
+              "n": "Measured",
+              "s": "public Boolean Measured { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ItemTouchListener",
+          "f": "Tizen.UI.Components.Recycler.ItemTouchListener",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(EventHandler\u003CTouchEventArgs\u003E onInterceptTouch, EventHandler\u003CTouchEventArgs\u003E onTouch)"
+            },
+            {
+              "k": "method",
+              "n": "OnInterceptTouchEvent",
+              "s": "public Void OnInterceptTouchEvent(Object touched, TouchEventArgs eventArgs)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "public Void OnTouchEvent(Object touched, TouchEventArgs eventArgs)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

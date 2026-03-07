@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "WhenHandler\u00601",
+          "f": "Tizen.UI.Components.WhenHandler\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.IWhenHandler"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UIStateConstraint constraint, Action\u003CT, UIStateChangedEventArgs\u003E action)"
+            },
+            {
+              "k": "method",
+              "n": "Execute",
+              "s": "public Void Execute(Object target, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ExecuteForce",
+              "s": "public Void ExecuteForce(Object target, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "MatchAction",
+              "s": "public Boolean MatchAction(Delegate action)"
+            },
+            {
+              "k": "method",
+              "n": "OnUIStateChanged",
+              "s": "private Void OnUIStateChanged(Object sender, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Register",
+              "s": "public Void Register(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Unregister",
+              "s": "public Void Unregister(View view)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,539 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "InputView",
+          "f": "Tizen.UI.InputView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "Tizen.UI.IFontSizeScale",
+            "Tizen.UI.IText",
+            "Tizen.UI.ITextAlignment",
+            "Tizen.UI.ITextEditable",
+            "Tizen.UI.ITextPadding"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "AnchorClicked",
+              "s": "public event EventHandler\u003CAnchorClickedEventArgs\u003E AnchorClicked"
+            },
+            {
+              "k": "event",
+              "n": "MaxLengthReached",
+              "s": "public event EventHandler MaxLengthReached"
+            },
+            {
+              "k": "event",
+              "n": "TextChanged",
+              "s": "public event EventHandler TextChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_AnchorClicked",
+              "s": "public Void add_AnchorClicked(EventHandler\u003CAnchorClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_MaxLengthReached",
+              "s": "public Void add_MaxLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TextChanged",
+              "s": "public Void add_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_CursorWidth",
+              "s": "public Int32 get_CursorWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputMethodContext",
+              "s": "public InputMethodContext get_InputMethodContext()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMarkupEnabled",
+              "s": "public Boolean get_IsMarkupEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaxLength",
+              "s": "public Int32 get_MaxLength()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlaceholderText",
+              "s": "public String get_PlaceholderText()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlaceholderTextColor",
+              "s": "public Color get_PlaceholderTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_PrimaryCursorColor",
+              "s": "public Color get_PrimaryCursorColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_PrimaryCursorPosition",
+              "s": "public Int32 get_PrimaryCursorPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScaledFontSize",
+              "s": "public Single get_ScaledFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontScaleEnabled",
+              "s": "public Boolean get_SystemFontScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorWidth",
+              "s": "protected Int32 GetCursorWidth()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableMarkup",
+              "s": "protected Boolean GetEnableMarkup()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontFamily",
+              "s": "protected String GetFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSize",
+              "s": "protected Single GetFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSizeScale",
+              "s": "protected Single GetFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "GetHorizontalAlignment",
+              "s": "protected TextAlignment GetHorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputMethodContextHandle",
+              "s": "protected IntPtr GetInputMethodContextHandle()"
+            },
+            {
+              "k": "method",
+              "n": "GetMaxLength",
+              "s": "protected Int32 GetMaxLength()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderText",
+              "s": "protected String GetPlaceholderText()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderTextColor",
+              "s": "protected Color GetPlaceholderTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetPrimaryCursorColor",
+              "s": "protected Color GetPrimaryCursorColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetPrimaryCursorPosition",
+              "s": "protected Int32 GetPrimaryCursorPosition()"
+            },
+            {
+              "k": "method",
+              "n": "GetReadOnly",
+              "s": "protected Boolean GetReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "GetText",
+              "s": "protected String GetText()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextColor",
+              "s": "protected Color GetTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetVerticalAlignment",
+              "s": "protected TextAlignment GetVerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "remove_AnchorClicked",
+              "s": "public Void remove_AnchorClicked(EventHandler\u003CAnchorClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_MaxLengthReached",
+              "s": "public Void remove_MaxLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TextChanged",
+              "s": "public Void remove_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendAnchorClicked",
+              "s": "protected Void SendAnchorClicked(String href)"
+            },
+            {
+              "k": "method",
+              "n": "SendMaxLengthReached",
+              "s": "protected Void SendMaxLengthReached()"
+            },
+            {
+              "k": "method",
+              "n": "SendTextChanged",
+              "s": "protected Void SendTextChanged()"
+            },
+            {
+              "k": "method",
+              "n": "set_CursorWidth",
+              "s": "public Void set_CursorWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMarkupEnabled",
+              "s": "public Void set_IsMarkupEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsReadOnly",
+              "s": "public Void set_IsReadOnly(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaxLength",
+              "s": "public Void set_MaxLength(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PlaceholderText",
+              "s": "public Void set_PlaceholderText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PlaceholderTextColor",
+              "s": "public Void set_PlaceholderTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PrimaryCursorColor",
+              "s": "public Void set_PrimaryCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PrimaryCursorPosition",
+              "s": "public Void set_PrimaryCursorPosition(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontScaleEnabled",
+              "s": "public Void set_SystemFontScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCursorWidth",
+              "s": "protected Void SetCursorWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetEnableMarkup",
+              "s": "protected Void SetEnableMarkup(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontFamily",
+              "s": "protected Void SetFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontSize",
+              "s": "protected Void SetFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontSizeScale",
+              "s": "protected Void SetFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetHorizontalAlignment",
+              "s": "protected Void SetHorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodSetting",
+              "s": "public Void SetInputMethodSetting(InputMethodSetting inputMethod)"
+            },
+            {
+              "k": "method",
+              "n": "SetMaxLength",
+              "s": "protected Void SetMaxLength(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlaceholderText",
+              "s": "protected Void SetPlaceholderText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlaceholderTextColor",
+              "s": "protected Void SetPlaceholderTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPrimaryCursorColor",
+              "s": "protected Void SetPrimaryCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPrimaryCursorPosition",
+              "s": "protected Void SetPrimaryCursorPosition(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetReadOnly",
+              "s": "protected Void SetReadOnly(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetText",
+              "s": "protected Void SetText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextColor",
+              "s": "protected Void SetTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextPadding",
+              "s": "public Void SetTextPadding(Thickness thickness)"
+            },
+            {
+              "k": "method",
+              "n": "SetVerticalAlignment",
+              "s": "protected Void SetVerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IFontSizeScale.get_FontSizeScale",
+              "s": "Single Tizen.UI.IFontSizeScale.get_FontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.IFontSizeScale.set_FontSizeScale",
+              "s": "Void Tizen.UI.IFontSizeScale.set_FontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.ITextEditable.get_IsEditable",
+              "s": "Boolean Tizen.UI.ITextEditable.get_IsEditable()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.ITextEditable.set_IsEditable",
+              "s": "Void Tizen.UI.ITextEditable.set_IsEditable(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "CursorWidth",
+              "s": "public Int32 CursorWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputMethodContext",
+              "s": "public InputMethodContext InputMethodContext { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMarkupEnabled",
+              "s": "public Boolean IsMarkupEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaxLength",
+              "s": "public Int32 MaxLength { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlaceholderText",
+              "s": "public String PlaceholderText { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlaceholderTextColor",
+              "s": "public Color PlaceholderTextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PrimaryCursorColor",
+              "s": "public Color PrimaryCursorColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PrimaryCursorPosition",
+              "s": "public Int32 PrimaryCursorPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ScaledFontSize",
+              "s": "public Single ScaledFontSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontScaleEnabled",
+              "s": "public Boolean SystemFontScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.IFontSizeScale.FontSizeScale",
+              "s": "Single Tizen.UI.IFontSizeScale.FontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.ITextEditable.IsEditable",
+              "s": "Boolean Tizen.UI.ITextEditable.IsEditable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

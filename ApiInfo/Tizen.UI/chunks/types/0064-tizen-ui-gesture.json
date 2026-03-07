@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Gesture",
+          "f": "Tizen.UI.Gesture",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Source",
+              "s": "public GestureSource get_Source()"
+            },
+            {
+              "k": "method",
+              "n": "get_SourceData",
+              "s": "public GestureSourceData get_SourceData()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public GestureState get_State()"
+            },
+            {
+              "k": "method",
+              "n": "get_Time",
+              "s": "public UInt32 get_Time()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "property",
+              "n": "Source",
+              "s": "public GestureSource Source { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SourceData",
+              "s": "public GestureSourceData SourceData { get; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public GestureState State { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Time",
+              "s": "public UInt32 Time { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

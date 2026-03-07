@@ -1,0 +1,96 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Internal.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AddRenderer",
+              "s": "public static Int32 AddRenderer(View view, Renderer renderer)"
+            },
+            {
+              "k": "method",
+              "n": "GetPadding",
+              "s": "public static Thickness GetPadding(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererAt",
+              "s": "public static Renderer GetRendererAt(View view, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererCount",
+              "s": "public static Int32 GetRendererCount(View view)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveRenderer",
+              "s": "public static Void RemoveRenderer(View view, Renderer renderer)"
+            },
+            {
+              "k": "method",
+              "n": "SetPadding",
+              "s": "public static Void SetPadding(View view, Thickness padding)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AddRenderer",
+      "s": "public static Int32 AddRenderer(View view, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetPadding",
+      "s": "public static Thickness GetPadding(View view)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetRendererAt",
+      "s": "public static Renderer GetRendererAt(View view, Int32 index)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetRendererCount",
+      "s": "public static Int32 GetRendererCount(View view)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "RemoveRenderer",
+      "s": "public static Void RemoveRenderer(View view, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Internal",
+      "t": "Tizen.UI.Internal.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPadding",
+      "s": "public static Void SetPadding(View view, Thickness padding)"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Variables",
+          "f": "Tizen.UI.Components.Variables",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Variables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public Variables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public Object get_Item(String name)"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "GetNullable",
+              "s": "public T GetNullable\u003CT\u003E(String name, T fallback)"
+            },
+            {
+              "k": "method",
+              "n": "HasNullable",
+              "s": "public Boolean HasNullable(String name)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Variables left, Variables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Variables left, Variables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveNullable",
+              "s": "protected Boolean RemoveNullable(String name)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Item(String name, Object value)"
+            },
+            {
+              "k": "method",
+              "n": "SetNullable",
+              "s": "protected Void SetNullable(String name, Object value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "method",
+              "n": "TryGetNullable",
+              "s": "public Boolean TryGetNullable\u003CT\u003E(String name, T\u0026 value)"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public Object Item { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

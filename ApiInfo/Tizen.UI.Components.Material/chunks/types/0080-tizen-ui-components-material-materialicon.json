@@ -1,0 +1,523 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "MaterialIcon",
+          "f": "Tizen.UI.Components.Material.MaterialIcon",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Accessibility",
+              "s": "public static String get_Accessibility()"
+            },
+            {
+              "k": "method",
+              "n": "get_Add",
+              "s": "public static String get_Add()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowBack",
+              "s": "public static String get_ArrowBack()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowDown",
+              "s": "public static String get_ArrowDown()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowDropDown",
+              "s": "public static String get_ArrowDropDown()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowDropUp",
+              "s": "public static String get_ArrowDropUp()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowLeft",
+              "s": "public static String get_ArrowLeft()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowRight",
+              "s": "public static String get_ArrowRight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowUp",
+              "s": "public static String get_ArrowUp()"
+            },
+            {
+              "k": "method",
+              "n": "get_Camera",
+              "s": "public static String get_Camera()"
+            },
+            {
+              "k": "method",
+              "n": "get_Check",
+              "s": "public static String get_Check()"
+            },
+            {
+              "k": "method",
+              "n": "get_Checkbox",
+              "s": "public static String get_Checkbox()"
+            },
+            {
+              "k": "method",
+              "n": "get_CheckboxBlank",
+              "s": "public static String get_CheckboxBlank()"
+            },
+            {
+              "k": "method",
+              "n": "get_CheckCircle",
+              "s": "public static String get_CheckCircle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Close",
+              "s": "public static String get_Close()"
+            },
+            {
+              "k": "method",
+              "n": "get_Copy",
+              "s": "public static String get_Copy()"
+            },
+            {
+              "k": "method",
+              "n": "get_DeleteTrash",
+              "s": "public static String get_DeleteTrash()"
+            },
+            {
+              "k": "method",
+              "n": "get_DriveFileMove",
+              "s": "public static String get_DriveFileMove()"
+            },
+            {
+              "k": "method",
+              "n": "get_Edit",
+              "s": "public static String get_Edit()"
+            },
+            {
+              "k": "method",
+              "n": "get_Error",
+              "s": "public static String get_Error()"
+            },
+            {
+              "k": "method",
+              "n": "get_Home",
+              "s": "public static String get_Home()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndicatorHome",
+              "s": "public static String get_IndicatorHome()"
+            },
+            {
+              "k": "method",
+              "n": "get_IndicatorPlus",
+              "s": "public static String get_IndicatorPlus()"
+            },
+            {
+              "k": "method",
+              "n": "get_Info",
+              "s": "public static String get_Info()"
+            },
+            {
+              "k": "method",
+              "n": "get_InfoFilled",
+              "s": "public static String get_InfoFilled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Lock",
+              "s": "public static String get_Lock()"
+            },
+            {
+              "k": "method",
+              "n": "get_Menu",
+              "s": "public static String get_Menu()"
+            },
+            {
+              "k": "method",
+              "n": "get_Mic",
+              "s": "public static String get_Mic()"
+            },
+            {
+              "k": "method",
+              "n": "get_MoreHorizontal",
+              "s": "public static String get_MoreHorizontal()"
+            },
+            {
+              "k": "method",
+              "n": "get_MoreVertical",
+              "s": "public static String get_MoreVertical()"
+            },
+            {
+              "k": "method",
+              "n": "get_Photo",
+              "s": "public static String get_Photo()"
+            },
+            {
+              "k": "method",
+              "n": "get_PhotoFilled",
+              "s": "public static String get_PhotoFilled()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlayCircle",
+              "s": "public static String get_PlayCircle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Refresh",
+              "s": "public static String get_Refresh()"
+            },
+            {
+              "k": "method",
+              "n": "get_Remove",
+              "s": "public static String get_Remove()"
+            },
+            {
+              "k": "method",
+              "n": "get_Search",
+              "s": "public static String get_Search()"
+            },
+            {
+              "k": "method",
+              "n": "get_Settings",
+              "s": "public static String get_Settings()"
+            },
+            {
+              "k": "method",
+              "n": "get_SlideShow",
+              "s": "public static String get_SlideShow()"
+            },
+            {
+              "k": "method",
+              "n": "get_SquareDot",
+              "s": "public static String get_SquareDot()"
+            },
+            {
+              "k": "method",
+              "n": "get_SwapVertical",
+              "s": "public static String get_SwapVertical()"
+            },
+            {
+              "k": "method",
+              "n": "get_Tag",
+              "s": "public static String get_Tag()"
+            },
+            {
+              "k": "method",
+              "n": "get_Timer",
+              "s": "public static String get_Timer()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignTop",
+              "s": "public static String get_VerticalAlignTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisibilityOff",
+              "s": "public static String get_VisibilityOff()"
+            },
+            {
+              "k": "method",
+              "n": "get_VolumeMute",
+              "s": "public static String get_VolumeMute()"
+            },
+            {
+              "k": "method",
+              "n": "get_VolumeUp",
+              "s": "public static String get_VolumeUp()"
+            },
+            {
+              "k": "method",
+              "n": "get_Wifi",
+              "s": "public static String get_Wifi()"
+            },
+            {
+              "k": "method",
+              "n": "get_WifiOff",
+              "s": "public static String get_WifiOff()"
+            },
+            {
+              "k": "method",
+              "n": "get_WifiOneBar",
+              "s": "public static String get_WifiOneBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_WifiTwoBar",
+              "s": "public static String get_WifiTwoBar()"
+            },
+            {
+              "k": "property",
+              "n": "Accessibility",
+              "s": "public String Accessibility { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Add",
+              "s": "public String Add { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowBack",
+              "s": "public String ArrowBack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowDown",
+              "s": "public String ArrowDown { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowDropDown",
+              "s": "public String ArrowDropDown { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowDropUp",
+              "s": "public String ArrowDropUp { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowLeft",
+              "s": "public String ArrowLeft { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowRight",
+              "s": "public String ArrowRight { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowUp",
+              "s": "public String ArrowUp { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Camera",
+              "s": "public String Camera { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Check",
+              "s": "public String Check { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Checkbox",
+              "s": "public String Checkbox { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CheckboxBlank",
+              "s": "public String CheckboxBlank { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CheckCircle",
+              "s": "public String CheckCircle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Close",
+              "s": "public String Close { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Copy",
+              "s": "public String Copy { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DeleteTrash",
+              "s": "public String DeleteTrash { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DriveFileMove",
+              "s": "public String DriveFileMove { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Edit",
+              "s": "public String Edit { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Error",
+              "s": "public String Error { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Home",
+              "s": "public String Home { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IndicatorHome",
+              "s": "public String IndicatorHome { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IndicatorPlus",
+              "s": "public String IndicatorPlus { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Info",
+              "s": "public String Info { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InfoFilled",
+              "s": "public String InfoFilled { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Lock",
+              "s": "public String Lock { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Menu",
+              "s": "public String Menu { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Mic",
+              "s": "public String Mic { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MoreHorizontal",
+              "s": "public String MoreHorizontal { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MoreVertical",
+              "s": "public String MoreVertical { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Photo",
+              "s": "public String Photo { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PhotoFilled",
+              "s": "public String PhotoFilled { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PlayCircle",
+              "s": "public String PlayCircle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Refresh",
+              "s": "public String Refresh { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Remove",
+              "s": "public String Remove { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Search",
+              "s": "public String Search { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Settings",
+              "s": "public String Settings { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SlideShow",
+              "s": "public String SlideShow { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SquareDot",
+              "s": "public String SquareDot { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SwapVertical",
+              "s": "public String SwapVertical { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tag",
+              "s": "public String Tag { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Timer",
+              "s": "public String Timer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignTop",
+              "s": "public String VerticalAlignTop { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VisibilityOff",
+              "s": "public String VisibilityOff { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VolumeMute",
+              "s": "public String VolumeMute { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VolumeUp",
+              "s": "public String VolumeUp { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Wifi",
+              "s": "public String Wifi { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WifiOff",
+              "s": "public String WifiOff { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WifiOneBar",
+              "s": "public String WifiOneBar { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WifiTwoBar",
+              "s": "public String WifiTwoBar { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

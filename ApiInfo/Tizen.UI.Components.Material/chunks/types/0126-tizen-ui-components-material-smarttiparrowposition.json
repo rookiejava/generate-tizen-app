@@ -1,0 +1,79 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTipArrowPosition",
+          "f": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetBubbleBottomPadding",
+      "s": "public static Single GetBubbleBottomPadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetBubbleLeftPadding",
+      "s": "public static Single GetBubbleLeftPadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetBubblePadding",
+      "s": "public static Thickness GetBubblePadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetBubbleRightPadding",
+      "s": "public static Single GetBubbleRightPadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetBubbleTopPadding",
+      "s": "public static Single GetBubbleTopPadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetHorizontalBubblePadding",
+      "s": "public static Single GetHorizontalBubblePadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "GetVerticalBubblePadding",
+      "s": "public static Single GetVerticalBubblePadding(SmartTipArrowPosition position, Single arrowHeight)"
+    },
+    {
+      "d": "Tizen.UI.Components.Material",
+      "t": "Tizen.UI.Components.Material.SmartTipArrowPositionExtensions",
+      "r": "Tizen.UI.Components.Material.SmartTipArrowPosition",
+      "n": "IsSideArrow",
+      "s": "public static Boolean IsSideArrow(SmartTipArrowPosition position)"
+    }
+  ]
+}

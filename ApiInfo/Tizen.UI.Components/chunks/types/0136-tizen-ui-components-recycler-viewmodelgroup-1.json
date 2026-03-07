@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "ViewModelGroup\u00601",
+          "f": "Tizen.UI.Components.Recycler.ViewModelGroup\u00601",
+          "k": "class",
+          "b": "System.Collections.ObjectModel.ObservableCollection\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Get",
+              "s": "protected TType Get\u003CTType\u003E(String name)"
+            },
+            {
+              "k": "method",
+              "n": "OnPropertyChanged",
+              "s": "protected Void OnPropertyChanged(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "Set",
+              "s": "protected Void Set\u003CTType\u003E(TType value, String name)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

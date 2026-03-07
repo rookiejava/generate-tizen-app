@@ -1,0 +1,158 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "FloatingActionButtonScrollBar",
+          "f": "Tizen.UI.Components.Material.FloatingActionButtonScrollBar",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.ScrollBar",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ScrollBarVariables varables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ScrollBarVariables variables, IconButtonVariables iconVariables)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__16_0",
+              "s": "Void \u003C.ctor\u003Eb__16_0(Object s, InputEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "FadeIn",
+              "s": "protected Void FadeIn()"
+            },
+            {
+              "k": "method",
+              "n": "FadeOut",
+              "s": "protected Void FadeOut()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingActionButton",
+              "s": "public IconButton get_FloatingActionButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingActionButtonClicked",
+              "s": "public Action get_FloatingActionButtonClicked()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingIcon",
+              "s": "public IconButton get_FloatingIcon()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingOffset",
+              "s": "public Point get_FloatingOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_FloatingOrigin",
+              "s": "public FloatingOrigin get_FloatingOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "GetFloatingOffsetY",
+              "s": "protected Single GetFloatingOffsetY()"
+            },
+            {
+              "k": "method",
+              "n": "HideIcon",
+              "s": "public Void HideIcon()"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingActionButton",
+              "s": "protected Void set_FloatingActionButton(IconButton value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingActionButtonClicked",
+              "s": "public Void set_FloatingActionButtonClicked(Action value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingOffset",
+              "s": "public Void set_FloatingOffset(Point value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FloatingOrigin",
+              "s": "public Void set_FloatingOrigin(FloatingOrigin value)"
+            },
+            {
+              "k": "method",
+              "n": "SetExtraFloatingOffsetY",
+              "s": "public Void SetExtraFloatingOffsetY(Single extra)"
+            },
+            {
+              "k": "method",
+              "n": "SetFloatingActionButtonOrigin",
+              "s": "private Void SetFloatingActionButtonOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "SetFloatingOffset",
+              "s": "protected Void SetFloatingOffset()"
+            },
+            {
+              "k": "method",
+              "n": "ShowIcon",
+              "s": "public Void ShowIcon()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScrollPosition",
+              "s": "public Void UpdateScrollPosition(Point position)"
+            },
+            {
+              "k": "property",
+              "n": "FloatingActionButton",
+              "s": "public IconButton FloatingActionButton { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingActionButtonClicked",
+              "s": "public Action FloatingActionButtonClicked { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingIcon",
+              "s": "public IconButton FloatingIcon { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingOffset",
+              "s": "public Point FloatingOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FloatingOrigin",
+              "s": "public FloatingOrigin FloatingOrigin { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,145 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "BounceEdgeEffect",
+          "f": "Tizen.UI.Components.Material.BounceEdgeEffect",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.IEdgeEffect"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View parent)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View parent, Single maxDistance)"
+            },
+            {
+              "k": "method",
+              "n": "Finish",
+              "s": "public Void Finish()"
+            },
+            {
+              "k": "method",
+              "n": "get__maxBounceDistance",
+              "s": "private Single get__maxBounceDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_EdgeDirection",
+              "s": "public EdgeDirection get_EdgeDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaxDistance",
+              "s": "public Single get_MaxDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_SourceView",
+              "s": "public View get_SourceView()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public EdgeState get_State()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "private Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnAbsorb",
+              "s": "public Void OnAbsorb(Single velocity)"
+            },
+            {
+              "k": "method",
+              "n": "OnPull",
+              "s": "public Single OnPull(Single deltaDistance, Single displacement)"
+            },
+            {
+              "k": "method",
+              "n": "OnPullFinished",
+              "s": "private Void OnPullFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelease",
+              "s": "public Void OnRelease()"
+            },
+            {
+              "k": "method",
+              "n": "OnReleaseFinished",
+              "s": "private Void OnReleaseFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "PlayReleaseAnimation",
+              "s": "private Void PlayReleaseAnimation(Int32 animDuration)"
+            },
+            {
+              "k": "method",
+              "n": "set_EdgeDirection",
+              "s": "public Void set_EdgeDirection(EdgeDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaxDistance",
+              "s": "public Void set_MaxDistance(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SourceView",
+              "s": "public Void set_SourceView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_State",
+              "s": "protected Void set_State(EdgeState value)"
+            },
+            {
+              "k": "property",
+              "n": "_maxBounceDistance",
+              "s": "private Single _maxBounceDistance { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EdgeDirection",
+              "s": "public EdgeDirection EdgeDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaxDistance",
+              "s": "public Single MaxDistance { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SourceView",
+              "s": "public View SourceView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public EdgeState State { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

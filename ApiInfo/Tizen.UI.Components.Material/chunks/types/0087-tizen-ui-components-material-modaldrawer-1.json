@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ModalDrawer\u00601",
+          "f": "Tizen.UI.Components.Material.ModalDrawer\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Drawer\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ModalDrawerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Close",
+              "s": "public Void Close()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ModalDrawerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private HStack get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "OnOverlayTouch",
+              "s": "private Void OnOverlayTouch(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Open",
+              "s": "public Void Open()"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "method",
+              "n": "Toggle",
+              "s": "public Void Toggle(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "UpdatePanelPosition",
+              "s": "private Void UpdatePanelPosition(Single offsetX)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private HStack Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

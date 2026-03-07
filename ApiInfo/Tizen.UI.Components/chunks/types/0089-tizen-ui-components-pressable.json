@@ -1,0 +1,206 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Pressable",
+          "f": "Tizen.UI.Components.Pressable",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.IPressable",
+            "Tizen.UI.Components.ITouchEffectTarget"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "PressedChanged",
+              "s": "public event EventHandler\u003CInputEventArgs\u003E PressedChanged"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__2_0",
+              "s": "Void \u003C.ctor\u003Eb__2_0(Object _, UIStateChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "add_PressedChanged",
+              "s": "public Void add_PressedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearKeyPressedHistory",
+              "s": "private Void ClearKeyPressedHistory()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsPressed",
+              "s": "public Boolean get_IsPressed()"
+            },
+            {
+              "k": "method",
+              "n": "get_PressedChangedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E get_PressedChangedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectSecondaryTarget",
+              "s": "public View GetTouchEffectSecondaryTarget()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectTarget",
+              "s": "public View GetTouchEffectTarget()"
+            },
+            {
+              "k": "method",
+              "n": "HasExecutionKeyLongPressed",
+              "s": "protected Boolean HasExecutionKeyLongPressed()"
+            },
+            {
+              "k": "method",
+              "n": "HasExecutionKeyPressedOnce",
+              "s": "protected Boolean HasExecutionKeyPressedOnce()"
+            },
+            {
+              "k": "method",
+              "n": "IsExecutionKey",
+              "s": "protected Boolean IsExecutionKey(String keyPressedName)"
+            },
+            {
+              "k": "method",
+              "n": "IsPressedExecutionKey",
+              "s": "private Boolean IsPressedExecutionKey(String keyName)"
+            },
+            {
+              "k": "method",
+              "n": "OnFocused",
+              "s": "protected Void OnFocused(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnHover",
+              "s": "protected Void OnHover(Object sender, HoverEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnInitialize",
+              "s": "protected Void OnInitialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnKey",
+              "s": "protected Void OnKey(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyPressed",
+              "s": "protected Boolean OnKeyPressed(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyReleased",
+              "s": "protected Boolean OnKeyReleased(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPressed",
+              "s": "protected Boolean OnPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnReleased",
+              "s": "protected Boolean OnReleased(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnStateChanged",
+              "s": "protected Void OnStateChanged(UIStateChangedEventArgs eventArgs)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouch",
+              "s": "protected Void OnTouch(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchInterrupted",
+              "s": "protected Boolean OnTouchInterrupted(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchMoved",
+              "s": "protected Boolean OnTouchMoved(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchPressed",
+              "s": "protected Boolean OnTouchPressed(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchReleased",
+              "s": "protected Boolean OnTouchReleased(TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnUnfocused",
+              "s": "protected Void OnUnfocused(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "RecordPressedExecutionKey",
+              "s": "private Void RecordPressedExecutionKey(String keyName)"
+            },
+            {
+              "k": "method",
+              "n": "remove_PressedChanged",
+              "s": "public Void remove_PressedChanged(EventHandler\u003CInputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsPressed",
+              "s": "protected Void set_IsPressed(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PressedChangedCommand",
+              "s": "public Void set_PressedChangedCommand(Action\u003CObject, InputEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPressed",
+              "s": "private Boolean SetPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetReleased",
+              "s": "private Boolean SetReleased(KeyDeviceClass device)"
+            },
+            {
+              "k": "property",
+              "n": "IsPressed",
+              "s": "public Boolean IsPressed { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PressedChangedCommand",
+              "s": "public Action\u003CObject, InputEventArgs\u003E PressedChangedCommand { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,65 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "NativeImageSource",
+          "f": "Tizen.UI.Internal.NativeImageSource",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 width, Int32 height)"
+            },
+            {
+              "k": "method",
+              "n": "AccquiredBuffer",
+              "s": "public IntPtr AccquiredBuffer(Int32\u0026 width, Int32\u0026 height, Int32\u0026 stride)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "internal IntPtr get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseBuffer",
+              "s": "public Void ReleaseBuffer()"
+            },
+            {
+              "k": "method",
+              "n": "SetTbmSurface",
+              "s": "public Void SetTbmSurface(IntPtr tbmSurface)"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "internal IntPtr Handle { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

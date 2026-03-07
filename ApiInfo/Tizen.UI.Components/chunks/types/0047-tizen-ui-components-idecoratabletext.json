@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IDecoratableText",
+          "f": "Tizen.UI.Components.IDecoratableText",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Outline",
+              "s": "public Nullable\u003COutline\u003E get_Outline()"
+            },
+            {
+              "k": "method",
+              "n": "get_Strikethrough",
+              "s": "public Nullable\u003CStrikethrough\u003E get_Strikethrough()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextShadow",
+              "s": "public Nullable\u003CTextShadow\u003E get_TextShadow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Underline",
+              "s": "public Nullable\u003CUnderline\u003E get_Underline()"
+            },
+            {
+              "k": "method",
+              "n": "set_Outline",
+              "s": "public Void set_Outline(Nullable\u003COutline\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Strikethrough",
+              "s": "public Void set_Strikethrough(Nullable\u003CStrikethrough\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextShadow",
+              "s": "public Void set_TextShadow(Nullable\u003CTextShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Underline",
+              "s": "public Void set_Underline(Nullable\u003CUnderline\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "Outline",
+              "s": "public Nullable\u003COutline\u003E Outline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Strikethrough",
+              "s": "public Nullable\u003CStrikethrough\u003E Strikethrough { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextShadow",
+              "s": "public Nullable\u003CTextShadow\u003E TextShadow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Underline",
+              "s": "public Nullable\u003CUnderline\u003E Underline { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

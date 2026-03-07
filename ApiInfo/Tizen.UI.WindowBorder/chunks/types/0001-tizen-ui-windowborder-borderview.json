@@ -1,0 +1,275 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.WindowBorder",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.WindowBorder.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.WindowBorder.dll",
+  "g": "2026-03-07T11:20:28.7078907+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.WindowBorder",
+      "t": [
+        {
+          "n": "BorderView",
+          "f": "Tizen.UI.WindowBorder.BorderView",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.WindowBorder.IWindowBorderProvider"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ViewTemplate header)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ViewTemplate header, ViewTemplate footer)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_0",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_0(WindowResizeDirection direction)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_1",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_1(Boolean maximize)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_2",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_2()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_3",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_3()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_5",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_5()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCreateViewModel\u003Eb__56_7",
+              "s": "private Void \u003CCreateViewModel\u003Eb__56_7()"
+            },
+            {
+              "k": "method",
+              "n": "\u003COnTouchEvent\u003Eb__52_0",
+              "s": "private Color \u003COnTouchEvent\u003Eb__52_0(Task t)"
+            },
+            {
+              "k": "method",
+              "n": "CreateViewModel",
+              "s": "private BorderView.BorderViewModel CreateViewModel()"
+            },
+            {
+              "k": "method",
+              "n": "DetectResizeArea",
+              "s": "private WindowResizeDirection DetectResizeArea(Point point)"
+            },
+            {
+              "k": "method",
+              "n": "EnterOverlayBorder",
+              "s": "private Void EnterOverlayBorder()"
+            },
+            {
+              "k": "method",
+              "n": "ExitOverlayBorder",
+              "s": "private Void ExitOverlayBorder()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderActiveColor",
+              "s": "public Color get_BorderActiveColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderArea",
+              "s": "public Thickness get_BorderArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderColor",
+              "s": "public Color get_BorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultBorderWidth",
+              "s": "public Single get_DefaultBorderWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_EffectiveBorderColor",
+              "s": "private Color get_EffectiveBorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_EnableOverlayBorder",
+              "s": "public Boolean get_EnableOverlayBorder()"
+            },
+            {
+              "k": "method",
+              "n": "get_FooterTemplate",
+              "s": "public ViewTemplate get_FooterTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeaderTemplate",
+              "s": "public ViewTemplate get_HeaderTemplate()"
+            },
+            {
+              "k": "method",
+              "n": "get_TargetWindow",
+              "s": "protected Window get_TargetWindow()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewModel",
+              "s": "protected BorderView.BorderViewModel get_ViewModel()"
+            },
+            {
+              "k": "method",
+              "n": "HideOverlayBorder",
+              "s": "public Void HideOverlayBorder()"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "protected Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "OnTargetWindowResized",
+              "s": "protected Void OnTargetWindowResized()"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnWindowResized",
+              "s": "private Void OnWindowResized(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderActiveColor",
+              "s": "public Void set_BorderActiveColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderArea",
+              "s": "public Void set_BorderArea(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderColor",
+              "s": "public Void set_BorderColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultBorderWidth",
+              "s": "public Void set_DefaultBorderWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_EnableOverlayBorder",
+              "s": "public Void set_EnableOverlayBorder(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowOverlayBorder",
+              "s": "public Void ShowOverlayBorder()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.WindowBorder.IWindowBorderProvider.get_BorderView",
+              "s": "View Tizen.UI.WindowBorder.IWindowBorderProvider.get_BorderView()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.WindowBorder.IWindowBorderProvider.SetTargetWindow",
+              "s": "Void Tizen.UI.WindowBorder.IWindowBorderProvider.SetTargetWindow(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBorderWidth",
+              "s": "private Void UpdateBorderWidth()"
+            },
+            {
+              "k": "property",
+              "n": "BorderActiveColor",
+              "s": "public Color BorderActiveColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderArea",
+              "s": "public Thickness BorderArea { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderColor",
+              "s": "public Color BorderColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultBorderWidth",
+              "s": "public Single DefaultBorderWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EffectiveBorderColor",
+              "s": "private Color EffectiveBorderColor { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EnableOverlayBorder",
+              "s": "public Boolean EnableOverlayBorder { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FooterTemplate",
+              "s": "public ViewTemplate FooterTemplate { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HeaderTemplate",
+              "s": "public ViewTemplate HeaderTemplate { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TargetWindow",
+              "s": "protected Window TargetWindow { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.WindowBorder.IWindowBorderProvider.BorderView",
+              "s": "View Tizen.UI.WindowBorder.IWindowBorderProvider.BorderView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewModel",
+              "s": "protected BorderView.BorderViewModel ViewModel { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

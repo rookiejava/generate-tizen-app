@@ -1,0 +1,124 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "SelectionModelGroup\u00601",
+          "f": "Tizen.UI.Components.Recycler.SelectionModelGroup\u00601",
+          "k": "class",
+          "b": "System.Collections.ObjectModel.ObservableCollection\u00601\u003CT\u003E",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CT\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+            "System.Collections.Generic.IList\u00601\u003CT\u003E",
+            "System.Collections.ICollection",
+            "System.Collections.IEnumerable",
+            "System.Collections.IList",
+            "System.ComponentModel.INotifyPropertyChanged",
+            "Tizen.UI.Components.Recycler.ISelectableModel",
+            "Tizen.UI.Components.Recycler.ISelectionModelGroup",
+            "Tizen.UI.Components.Recycler.ISelectionModelGroup\u00601\u003CT\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CheckSelectedAll",
+              "s": "private Void CheckSelectedAll()"
+            },
+            {
+              "k": "method",
+              "n": "Get",
+              "s": "protected TType Get\u003CTType\u003E(String name)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelectable",
+              "s": "public Boolean get_IsSelectable()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSelected",
+              "s": "public Boolean get_IsSelected()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedChildren",
+              "s": "public IReadOnlyCollection\u003CT\u003E get_SelectedChildren()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedCount",
+              "s": "public Int32 get_SelectedCount()"
+            },
+            {
+              "k": "method",
+              "n": "OnChildPropertyChanged",
+              "s": "private Void OnChildPropertyChanged(Object sender, PropertyChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnCollectionChanged",
+              "s": "protected Void OnCollectionChanged(NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnPropertyChanged",
+              "s": "protected Void OnPropertyChanged(String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "Set",
+              "s": "protected Void Set\u003CTType\u003E(TType value, String name)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelectable",
+              "s": "public Void set_IsSelectable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSelected",
+              "s": "public Void set_IsSelected(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateSelection",
+              "s": "private Void UpdateSelection(T selected)"
+            },
+            {
+              "k": "property",
+              "n": "IsSelectable",
+              "s": "public Boolean IsSelectable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSelected",
+              "s": "public Boolean IsSelected { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedChildren",
+              "s": "public IReadOnlyCollection\u003CT\u003E SelectedChildren { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedCount",
+              "s": "public Int32 SelectedCount { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

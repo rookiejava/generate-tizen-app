@@ -1,0 +1,123 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ResourceLocalizer",
+          "f": "Tizen.UI.ResourceLocalizer",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "BindingLocalized",
+              "s": "public static Void BindingLocalized\u003CT\u003E(T target, Action\u003CT, String\u003E setter, String tag, ResourceManager resourceManager) where T : class"
+            },
+            {
+              "k": "method",
+              "n": "BindingLocalizedResource",
+              "s": "public static Void BindingLocalizedResource\u003CT\u003E(T target, Action\u003CT, String\u003E setter, String tag) where T : class"
+            },
+            {
+              "k": "method",
+              "n": "ClearBinding",
+              "s": "public static Void ClearBinding(View view)"
+            },
+            {
+              "k": "method",
+              "n": "get_EffectiveResourceManager",
+              "s": "public static ResourceManager get_EffectiveResourceManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_ResourceManager",
+              "s": "public static ResourceManager get_ResourceManager()"
+            },
+            {
+              "k": "method",
+              "n": "LoadResourceManager",
+              "s": "public static Void LoadResourceManager(String baseName, Assembly assembly)"
+            },
+            {
+              "k": "method",
+              "n": "LocalizedResource",
+              "s": "public static String LocalizedResource(String path)"
+            },
+            {
+              "k": "method",
+              "n": "LocalizedString",
+              "s": "public static String LocalizedString(String key)"
+            },
+            {
+              "k": "method",
+              "n": "LocalizedString",
+              "s": "public static String LocalizedString(String key, ResourceManager resourceManager)"
+            },
+            {
+              "k": "method",
+              "n": "OnLocaleChanged",
+              "s": "private static Void OnLocaleChanged(Object sender, LocaleChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "PopEffectiveResourceManager",
+              "s": "public static Void PopEffectiveResourceManager()"
+            },
+            {
+              "k": "method",
+              "n": "PushEffectiveResourceManager",
+              "s": "public static Void PushEffectiveResourceManager(ResourceManager manager)"
+            },
+            {
+              "k": "method",
+              "n": "set_ResourceManager",
+              "s": "public static Void set_ResourceManager(ResourceManager value)"
+            },
+            {
+              "k": "method",
+              "n": "SetDefaultCulture",
+              "s": "public static Void SetDefaultCulture(CultureInfo culture)"
+            },
+            {
+              "k": "method",
+              "n": "SetLocalizeBypass",
+              "s": "public static Void SetLocalizeBypass(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBinding",
+              "s": "private static Void UpdateBinding()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateResourceManager",
+              "s": "private static Void UpdateResourceManager()"
+            },
+            {
+              "k": "property",
+              "n": "EffectiveResourceManager",
+              "s": "public ResourceManager EffectiveResourceManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ResourceManager",
+              "s": "public ResourceManager ResourceManager { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

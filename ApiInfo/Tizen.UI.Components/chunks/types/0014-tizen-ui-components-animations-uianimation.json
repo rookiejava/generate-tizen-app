@@ -1,0 +1,85 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "UIAnimation",
+          "f": "Tizen.UI.Components.Animations.UIAnimation",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Action\u003CSingle\u003E callback, Single start, Single end, Easing easing, Action finished)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CGetCallback\u003Eb__13_0",
+              "s": "private Void \u003CGetCallback\u003Eb__13_0(Single f)"
+            },
+            {
+              "k": "method",
+              "n": "Abort",
+              "s": "public Void Abort(View owner, String name)"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(Single beginAt, Single finishAt, UIAnimation animation)"
+            },
+            {
+              "k": "method",
+              "n": "Commit",
+              "s": "public Void Commit(View owner, String name, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "GetCallback",
+              "s": "public Action\u003CSingle\u003E GetCallback()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public UIAnimation Insert(Single beginAt, Single finishAt, UIAnimation animation)"
+            },
+            {
+              "k": "method",
+              "n": "ResetChildren",
+              "s": "internal Void ResetChildren()"
+            },
+            {
+              "k": "method",
+              "n": "WithConcurrent",
+              "s": "public UIAnimation WithConcurrent(UIAnimation animation, Single beginAt, Single finishAt)"
+            },
+            {
+              "k": "method",
+              "n": "WithConcurrent",
+              "s": "public UIAnimation WithConcurrent(Action\u003CSingle\u003E callback, Single start, Single end, Easing easing, Single beginAt, Single finishAt)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

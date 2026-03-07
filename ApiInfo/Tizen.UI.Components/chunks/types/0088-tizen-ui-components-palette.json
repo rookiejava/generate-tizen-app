@@ -1,0 +1,168 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "Palette",
+          "f": "Tizen.UI.Components.Palette",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IEnumerable\u003CSwatch\u003E swatches)"
+            },
+            {
+              "k": "method",
+              "n": "CreateComparisonValue",
+              "s": "private static Single CreateComparisonValue(Single saturation, Single targetSaturation, Single luma, Single targetLuma, Int32 population, Int32 highestPopulation)"
+            },
+            {
+              "k": "method",
+              "n": "FindColor",
+              "s": "private Swatch FindColor(Single targetLuma, Single minLuma, Single maxLuma, Single targetSaturation, Single minSaturation, Single maxSaturation)"
+            },
+            {
+              "k": "method",
+              "n": "FindDominantSwatch",
+              "s": "private Swatch FindDominantSwatch()"
+            },
+            {
+              "k": "method",
+              "n": "Generate",
+              "s": "public static Palette Generate(PixelBuffer buffer)"
+            },
+            {
+              "k": "method",
+              "n": "Generate",
+              "s": "public static Palette Generate(PixelBuffer buffer, Single regionX, Single regionY, Single regionWidth, Single regionHeight)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateAsync",
+              "s": "public static Task\u003CPalette\u003E GenerateAsync(PixelBuffer buffer)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateAsync",
+              "s": "public static Task\u003CPalette\u003E GenerateAsync(PixelBuffer buffer, Single regionX, Single regionY, Single regionWidth, Single regionHeight)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateEmptySwatches",
+              "s": "private Void GenerateEmptySwatches()"
+            },
+            {
+              "k": "method",
+              "n": "get_DarkMuted",
+              "s": "public Swatch get_DarkMuted()"
+            },
+            {
+              "k": "method",
+              "n": "get_DarkVibrant",
+              "s": "public Swatch get_DarkVibrant()"
+            },
+            {
+              "k": "method",
+              "n": "get_Dominant",
+              "s": "public Swatch get_Dominant()"
+            },
+            {
+              "k": "method",
+              "n": "get_LightMuted",
+              "s": "public Swatch get_LightMuted()"
+            },
+            {
+              "k": "method",
+              "n": "get_LightVibrant",
+              "s": "public Swatch get_LightVibrant()"
+            },
+            {
+              "k": "method",
+              "n": "get_Muted",
+              "s": "public Swatch get_Muted()"
+            },
+            {
+              "k": "method",
+              "n": "get_Swatches",
+              "s": "public IEnumerable\u003CSwatch\u003E get_Swatches()"
+            },
+            {
+              "k": "method",
+              "n": "get_Vibrant",
+              "s": "public Swatch get_Vibrant()"
+            },
+            {
+              "k": "method",
+              "n": "InvertDiff",
+              "s": "private static Single InvertDiff(Single value, Single targetValue)"
+            },
+            {
+              "k": "method",
+              "n": "IsAlreadySelected",
+              "s": "private Boolean IsAlreadySelected(Swatch swatch)"
+            },
+            {
+              "k": "method",
+              "n": "ResizeBitmap",
+              "s": "private static Single ResizeBitmap(PixelBuffer buffer, Int32 size)"
+            },
+            {
+              "k": "method",
+              "n": "WeightedMean",
+              "s": "private static Single WeightedMean(Single[] values)"
+            },
+            {
+              "k": "property",
+              "n": "DarkMuted",
+              "s": "public Swatch DarkMuted { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DarkVibrant",
+              "s": "public Swatch DarkVibrant { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Dominant",
+              "s": "public Swatch Dominant { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LightMuted",
+              "s": "public Swatch LightMuted { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LightVibrant",
+              "s": "public Swatch LightVibrant { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Muted",
+              "s": "public Swatch Muted { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Swatches",
+              "s": "public IEnumerable\u003CSwatch\u003E Swatches { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Vibrant",
+              "s": "public Swatch Vibrant { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

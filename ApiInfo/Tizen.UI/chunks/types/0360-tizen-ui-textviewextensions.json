@@ -1,0 +1,96 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TextViewExtensions",
+          "f": "Tizen.UI.TextViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "EllipsisPosition",
+              "s": "public static TView EllipsisPosition\u003CTView\u003E(TView view, TextOverflow position) where TView : TextView"
+            },
+            {
+              "k": "method",
+              "n": "IsAbsoluteLineHeight",
+              "s": "public static TView IsAbsoluteLineHeight\u003CTView\u003E(TView view, Boolean isAbsoluteLineHeight) where TView : TextView"
+            },
+            {
+              "k": "method",
+              "n": "IsMarkupEnabled",
+              "s": "public static TView IsMarkupEnabled\u003CTView\u003E(TView view, Boolean enable) where TView : TextView"
+            },
+            {
+              "k": "method",
+              "n": "LineBreakMode",
+              "s": "public static TView LineBreakMode\u003CTView\u003E(TView view, LineBreakMode mode) where TView : TextView"
+            },
+            {
+              "k": "method",
+              "n": "LineHeight",
+              "s": "public static TView LineHeight\u003CTView\u003E(TView view, Single height) where TView : TextView"
+            },
+            {
+              "k": "method",
+              "n": "UnitFontSize",
+              "s": "public static TextView UnitFontSize(TextView textView, Single unitFontSize)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "Tizen.UI.TextView",
+      "n": "UnitFontSize",
+      "s": "public static TextView UnitFontSize(TextView textView, Single unitFontSize)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "TView",
+      "n": "EllipsisPosition",
+      "s": "public static TView EllipsisPosition\u003CTView\u003E(TView view, TextOverflow position) where TView : TextView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "TView",
+      "n": "IsAbsoluteLineHeight",
+      "s": "public static TView IsAbsoluteLineHeight\u003CTView\u003E(TView view, Boolean isAbsoluteLineHeight) where TView : TextView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "TView",
+      "n": "IsMarkupEnabled",
+      "s": "public static TView IsMarkupEnabled\u003CTView\u003E(TView view, Boolean enable) where TView : TextView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "TView",
+      "n": "LineBreakMode",
+      "s": "public static TView LineBreakMode\u003CTView\u003E(TView view, LineBreakMode mode) where TView : TextView"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TextViewExtensions",
+      "r": "TView",
+      "n": "LineHeight",
+      "s": "public static TView LineHeight\u003CTView\u003E(TView view, Single height) where TView : TextView"
+    }
+  ]
+}

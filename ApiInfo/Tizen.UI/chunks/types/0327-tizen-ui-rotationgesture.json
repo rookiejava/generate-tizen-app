@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "RotationGesture",
+          "f": "Tizen.UI.RotationGesture",
+          "k": "class",
+          "b": "Tizen.UI.Gesture",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Center",
+              "s": "public Point get_Center()"
+            },
+            {
+              "k": "method",
+              "n": "get_Rotation",
+              "s": "public Single get_Rotation()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenCenter",
+              "s": "public Point get_ScreenCenter()"
+            },
+            {
+              "k": "property",
+              "n": "Center",
+              "s": "public Point Center { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Rotation",
+              "s": "public Single Rotation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenCenter",
+              "s": "public Point ScreenCenter { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "INavigation",
+          "f": "Tizen.UI.Components.INavigation",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ModalStack",
+              "s": "public IReadOnlyList\u003CView\u003E get_ModalStack()"
+            },
+            {
+              "k": "method",
+              "n": "get_NavigationStack",
+              "s": "public IReadOnlyList\u003CView\u003E get_NavigationStack()"
+            },
+            {
+              "k": "method",
+              "n": "InsertBefore",
+              "s": "public Void InsertBefore(View view, View before)"
+            },
+            {
+              "k": "method",
+              "n": "NavigateBack",
+              "s": "public Boolean NavigateBack()"
+            },
+            {
+              "k": "method",
+              "n": "PopAsync",
+              "s": "public Task\u003CView\u003E PopAsync()"
+            },
+            {
+              "k": "method",
+              "n": "PopAsync",
+              "s": "public Task\u003CView\u003E PopAsync(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PopModalAsync",
+              "s": "public Task\u003CView\u003E PopModalAsync()"
+            },
+            {
+              "k": "method",
+              "n": "PopModalAsync",
+              "s": "public Task\u003CView\u003E PopModalAsync(Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PushAsync",
+              "s": "public Task PushAsync(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PushAsync",
+              "s": "public Task PushAsync(View view, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "PushModalAsync",
+              "s": "public Task PushModalAsync(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PushModalAsync",
+              "s": "public Task PushModalAsync(View view, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(View view)"
+            },
+            {
+              "k": "property",
+              "n": "ModalStack",
+              "s": "public IReadOnlyList\u003CView\u003E ModalStack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "NavigationStack",
+              "s": "public IReadOnlyList\u003CView\u003E NavigationStack { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

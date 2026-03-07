@@ -1,0 +1,153 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "Tweener",
+          "f": "Tizen.UI.Components.Animations.Tweener",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UInt32 length)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UInt32 length, UInt32 rate)"
+            },
+            {
+              "k": "event",
+              "n": "Finished",
+              "s": "public event EventHandler Finished"
+            },
+            {
+              "k": "event",
+              "n": "ValueUpdated",
+              "s": "public event EventHandler ValueUpdated"
+            },
+            {
+              "k": "method",
+              "n": "\u003CStart\u003Eb__27_0",
+              "s": "private Boolean \u003CStart\u003Eb__27_0(Int64 step)"
+            },
+            {
+              "k": "method",
+              "n": "add_Finished",
+              "s": "public Void add_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ValueUpdated",
+              "s": "public Void add_ValueUpdated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Finalize",
+              "s": "Void Finalize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handle",
+              "s": "public AnimatableKey get_Handle()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public UInt32 get_Length()"
+            },
+            {
+              "k": "method",
+              "n": "get_Rate",
+              "s": "public UInt32 get_Rate()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Single get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "Pause",
+              "s": "public Void Pause()"
+            },
+            {
+              "k": "method",
+              "n": "remove_Finished",
+              "s": "public Void remove_Finished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ValueUpdated",
+              "s": "public Void remove_ValueUpdated(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Handle",
+              "s": "public Void set_Handle(AnimatableKey value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Value",
+              "s": "private Void set_Value(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Start",
+              "s": "public Void Start()"
+            },
+            {
+              "k": "method",
+              "n": "Stop",
+              "s": "public Void Stop()"
+            },
+            {
+              "k": "property",
+              "n": "Handle",
+              "s": "public AnimatableKey Handle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public UInt32 Length { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Rate",
+              "s": "public UInt32 Rate { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Single Value { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,36 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "PropertiesExtensions",
+          "f": "Tizen.UI.PropertiesExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AddProperty",
+              "s": "public static List\u003CValueTuple\u003CAnimatablePropertyHandle, PropertyValueHandle\u003E\u003E AddProperty(List\u003CValueTuple\u003CAnimatablePropertyHandle, PropertyValueHandle\u003E\u003E properties, AnimatablePropertyHandle property, PropertyValueHandle value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.PropertiesExtensions",
+      "r": "System.Collections.Generic.List\u00601\u003CSystem.ValueTuple\u00602\u003CTizen.UI.NativeHandle.AnimatablePropertyHandle,Tizen.UI.NativeHandle.PropertyValueHandle\u003E\u003E",
+      "n": "AddProperty",
+      "s": "public static List\u003CValueTuple\u003CAnimatablePropertyHandle, PropertyValueHandle\u003E\u003E AddProperty(List\u003CValueTuple\u003CAnimatablePropertyHandle, PropertyValueHandle\u003E\u003E properties, AnimatablePropertyHandle property, PropertyValueHandle value)"
+    }
+  ]
+}

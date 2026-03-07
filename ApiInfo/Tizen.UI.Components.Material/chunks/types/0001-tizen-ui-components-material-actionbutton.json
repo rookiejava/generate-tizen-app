@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "ActionButton",
+          "f": "Tizen.UI.Components.Material.ActionButton",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.IconButton",
+          "i": [
+            "Tizen.UI.Components.Material.IAppBarContent"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IconButtonVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String iconResourceUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String iconResourceUrl, IconButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyUnifiedContentColor",
+              "s": "public Void ApplyUnifiedContentColor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "OnAttached",
+              "s": "public Void OnAttached(AppBar appBar)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetached",
+              "s": "public Void OnDetached(AppBar appBar)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

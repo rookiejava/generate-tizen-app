@@ -1,0 +1,250 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "CodeStyle",
+          "f": "Tizen.UI.Markdown.CodeStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.CodeStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CodeStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public CodeStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(CodeStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public Single get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static CodeStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleBackgroundColor",
+              "s": "public Color get_TitleBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontColor",
+              "s": "public Color get_TitleFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontFamily",
+              "s": "public String get_TitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontSize",
+              "s": "public Single get_TitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(CodeStyle left, CodeStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(CodeStyle left, CodeStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleBackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public Single CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public CodeStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleBackgroundColor",
+              "s": "public Color TitleBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontColor",
+              "s": "public Color TitleFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontFamily",
+              "s": "public String TitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontSize",
+              "s": "public Single TitleFontSize { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

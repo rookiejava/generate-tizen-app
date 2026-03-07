@@ -1,0 +1,372 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "FlexBoxExtensions",
+          "f": "Tizen.UI.Layouts.FlexBoxExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AlignItems",
+              "s": "public static TView AlignItems\u003CTView\u003E(TView view, FlexAlignItems alignItems) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "AlignSelf",
+              "s": "public static TView AlignSelf\u003CTView\u003E(TView view, FlexAlignSelf alignSelf) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AutoAlign",
+              "s": "public static TView AutoAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "AutoBasis",
+              "s": "public static TView AutoBasis\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Basis",
+              "s": "public static TView Basis\u003CTView\u003E(TView view, Single length) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterAlign",
+              "s": "public static TView CenterAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterItems",
+              "s": "public static TView CenterItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "CenterJustify",
+              "s": "public static TView CenterJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Column",
+              "s": "public static TView Column\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "ColumnReverse",
+              "s": "public static TView ColumnReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Direction",
+              "s": "public static TView Direction\u003CTView\u003E(TView view, FlexDirection direction) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "EndAlign",
+              "s": "public static TView EndAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndItems",
+              "s": "public static TView EndItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "EndJustify",
+              "s": "public static TView EndJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Grow",
+              "s": "public static TView Grow\u003CTView\u003E(TView view, Single grow) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "JustifyContent",
+              "s": "public static TView JustifyContent\u003CTView\u003E(TView view, FlexJustify justifyContent) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Order",
+              "s": "public static TView Order\u003CTView\u003E(TView view, Int32 order) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "RelativeBasis",
+              "s": "public static TView RelativeBasis\u003CTView\u003E(TView view, Single length) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Row",
+              "s": "public static TView Row\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "RowReverse",
+              "s": "public static TView RowReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "Shrink",
+              "s": "public static TView Shrink\u003CTView\u003E(TView view, Single shrink) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SpaceAroundJustify",
+              "s": "public static TView SpaceAroundJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "SpaceBetweenJustify",
+              "s": "public static TView SpaceBetweenJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "SpaceEvenlyJustify",
+              "s": "public static TView SpaceEvenlyJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StartAlign",
+              "s": "public static TView StartAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartItems",
+              "s": "public static TView StartItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StartJustify",
+              "s": "public static TView StartJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+            },
+            {
+              "k": "method",
+              "n": "StretchAlign",
+              "s": "public static TView StretchAlign\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StretchItems",
+              "s": "public static TView StretchItems\u003CTView\u003E(TView view) where TView : FlexBox"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AlignItems",
+      "s": "public static TView AlignItems\u003CTView\u003E(TView view, FlexAlignItems alignItems) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AlignSelf",
+      "s": "public static TView AlignSelf\u003CTView\u003E(TView view, FlexAlignSelf alignSelf) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AutoAlign",
+      "s": "public static TView AutoAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "AutoBasis",
+      "s": "public static TView AutoBasis\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Basis",
+      "s": "public static TView Basis\u003CTView\u003E(TView view, Single length) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterAlign",
+      "s": "public static TView CenterAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterItems",
+      "s": "public static TView CenterItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "CenterJustify",
+      "s": "public static TView CenterJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Column",
+      "s": "public static TView Column\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "ColumnReverse",
+      "s": "public static TView ColumnReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Direction",
+      "s": "public static TView Direction\u003CTView\u003E(TView view, FlexDirection direction) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndAlign",
+      "s": "public static TView EndAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndItems",
+      "s": "public static TView EndItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "EndJustify",
+      "s": "public static TView EndJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Grow",
+      "s": "public static TView Grow\u003CTView\u003E(TView view, Single grow) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "JustifyContent",
+      "s": "public static TView JustifyContent\u003CTView\u003E(TView view, FlexJustify justifyContent) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Order",
+      "s": "public static TView Order\u003CTView\u003E(TView view, Int32 order) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "RelativeBasis",
+      "s": "public static TView RelativeBasis\u003CTView\u003E(TView view, Single length) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Row",
+      "s": "public static TView Row\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "RowReverse",
+      "s": "public static TView RowReverse\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "Shrink",
+      "s": "public static TView Shrink\u003CTView\u003E(TView view, Single shrink) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceAroundJustify",
+      "s": "public static TView SpaceAroundJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceBetweenJustify",
+      "s": "public static TView SpaceBetweenJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "SpaceEvenlyJustify",
+      "s": "public static TView SpaceEvenlyJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartAlign",
+      "s": "public static TView StartAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartItems",
+      "s": "public static TView StartItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StartJustify",
+      "s": "public static TView StartJustify\u003CTView\u003E(TView view) where TView : FlexBox"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StretchAlign",
+      "s": "public static TView StretchAlign\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.FlexBoxExtensions",
+      "r": "TView",
+      "n": "StretchItems",
+      "s": "public static TView StretchItems\u003CTView\u003E(TView view) where TView : FlexBox"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "Path",
+          "f": "Tizen.UI.Primitives2D.Path",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ArcTo",
+              "s": "public static IPath ArcTo(Single x, Single y, Single radius, Single startAngle, Single sweep, Boolean closed)"
+            },
+            {
+              "k": "method",
+              "n": "BezierTo",
+              "s": "public static IPath BezierTo(Single endPointX, Single endPointY, Single controlPoint1X, Single controlPoint1Y, Single controlPoint2X, Single controlPoint2Y)"
+            },
+            {
+              "k": "method",
+              "n": "Close",
+              "s": "public static IPath Close()"
+            },
+            {
+              "k": "method",
+              "n": "DrawCircle",
+              "s": "public static IPath DrawCircle(Single centerX, Single centerY, Single radius)"
+            },
+            {
+              "k": "method",
+              "n": "DrawOval",
+              "s": "public static IPath DrawOval(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "DrawRoundRect",
+              "s": "public static IPath DrawRoundRect(Single x, Single y, Single width, Single height, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "LineTo",
+              "s": "public static IPath LineTo(Single x, Single y)"
+            },
+            {
+              "k": "method",
+              "n": "MoveTo",
+              "s": "public static IPath MoveTo(Single x, Single y)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

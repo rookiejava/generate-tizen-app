@@ -1,0 +1,173 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "TimeCounter",
+          "f": "Tizen.UI.Components.TimeCounter",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 totalTimeInMilliseconds)"
+            },
+            {
+              "k": "event",
+              "n": "RemainingTimeChanged",
+              "s": "public event EventHandler RemainingTimeChanged"
+            },
+            {
+              "k": "event",
+              "n": "WarningChanged",
+              "s": "public event EventHandler WarningChanged"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__5_1",
+              "s": "Void \u003C.ctor\u003Eb__5_1(TimeCounter v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__5_2",
+              "s": "Void \u003C.ctor\u003Eb__5_2(TimeCounter v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "add_RemainingTimeChanged",
+              "s": "public Void add_RemainingTimeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_WarningChanged",
+              "s": "public Void add_WarningChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsWarning",
+              "s": "public Boolean get_IsWarning()"
+            },
+            {
+              "k": "method",
+              "n": "get_RemainingTime",
+              "s": "public Int32 get_RemainingTime()"
+            },
+            {
+              "k": "method",
+              "n": "get_TimeRatio",
+              "s": "protected Single get_TimeRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_TotalTime",
+              "s": "public Int32 get_TotalTime()"
+            },
+            {
+              "k": "method",
+              "n": "get_WarningTime",
+              "s": "public Int32 get_WarningTime()"
+            },
+            {
+              "k": "method",
+              "n": "OnRemainingTimeChanged",
+              "s": "protected Void OnRemainingTimeChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnTimeRatioChanged",
+              "s": "protected Void OnTimeRatioChanged(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnWarningChanged",
+              "s": "protected Void OnWarningChanged()"
+            },
+            {
+              "k": "method",
+              "n": "remove_RemainingTimeChanged",
+              "s": "public Void remove_RemainingTimeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_WarningChanged",
+              "s": "public Void remove_WarningChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsWarning",
+              "s": "private Void set_IsWarning(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RemainingTime",
+              "s": "public Void set_RemainingTime(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TotalTime",
+              "s": "public Void set_TotalTime(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_WarningTime",
+              "s": "public Void set_WarningTime(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetRemainingTime",
+              "s": "private Boolean SetRemainingTime(Int32 newValue, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "SetTimeRatio",
+              "s": "private Boolean SetTimeRatio(Single newRatio, KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateWarningState",
+              "s": "private Void UpdateWarningState()"
+            },
+            {
+              "k": "property",
+              "n": "IsWarning",
+              "s": "public Boolean IsWarning { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RemainingTime",
+              "s": "public Int32 RemainingTime { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TimeRatio",
+              "s": "protected Single TimeRatio { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TotalTime",
+              "s": "public Int32 TotalTime { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "WarningTime",
+              "s": "public Int32 WarningTime { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

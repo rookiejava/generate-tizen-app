@@ -1,0 +1,98 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TapGestureDetector",
+          "f": "Tizen.UI.TapGestureDetector",
+          "k": "class",
+          "b": "Tizen.UI.GestureDetector",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 tapsRequired)"
+            },
+            {
+              "k": "event",
+              "n": "_detected",
+              "s": "private event EventHandler\u003CTapGestureDetectedEventArgs\u003E _detected"
+            },
+            {
+              "k": "event",
+              "n": "Detected",
+              "s": "public event EventHandler\u003CTapGestureDetectedEventArgs\u003E Detected"
+            },
+            {
+              "k": "method",
+              "n": "add__detected",
+              "s": "private Void add__detected(EventHandler\u003CTapGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Detected",
+              "s": "public Void add_Detected(EventHandler\u003CTapGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumTapsRequired",
+              "s": "public Int32 get_MaximumTapsRequired()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumTapsRequired",
+              "s": "public Int32 get_MinimumTapsRequired()"
+            },
+            {
+              "k": "method",
+              "n": "OnDetected",
+              "s": "private Void OnDetected(IntPtr view, IntPtr gesture)"
+            },
+            {
+              "k": "method",
+              "n": "remove__detected",
+              "s": "private Void remove__detected(EventHandler\u003CTapGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Detected",
+              "s": "public Void remove_Detected(EventHandler\u003CTapGestureDetectedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumTapsRequired",
+              "s": "public Void set_MaximumTapsRequired(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumTapsRequired",
+              "s": "public Void set_MinimumTapsRequired(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "MaximumTapsRequired",
+              "s": "public Int32 MaximumTapsRequired { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumTapsRequired",
+              "s": "public Int32 MinimumTapsRequired { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

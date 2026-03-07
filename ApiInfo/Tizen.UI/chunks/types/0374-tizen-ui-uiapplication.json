@@ -1,0 +1,183 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "UIApplication",
+          "f": "Tizen.UI.UIApplication",
+          "k": "class",
+          "b": "Tizen.Applications.CoreApplication",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowMode mode)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Rect windowBounds)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowMode mode, Rect windowBounds)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowMode mode, CoreTask coreTask)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowMode mode, Rect windowBounds, CoreTask coreTask)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ICoreBackend backend)"
+            },
+            {
+              "k": "event",
+              "n": "Paused",
+              "s": "public event EventHandler Paused"
+            },
+            {
+              "k": "event",
+              "n": "Resumed",
+              "s": "public event EventHandler Resumed"
+            },
+            {
+              "k": "method",
+              "n": "add_Paused",
+              "s": "public Void add_Paused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Resumed",
+              "s": "public Void add_Resumed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get__coreBackend",
+              "s": "private UICoreBackend get__coreBackend()"
+            },
+            {
+              "k": "method",
+              "n": "get_Current",
+              "s": "public static UIApplication get_Current()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsUIThread",
+              "s": "public Boolean get_IsUIThread()"
+            },
+            {
+              "k": "method",
+              "n": "get_Windows",
+              "s": "public static IReadOnlyList\u003CWindow\u003E get_Windows()"
+            },
+            {
+              "k": "method",
+              "n": "GetDaliNativeApp",
+              "s": "public NObject GetDaliNativeApp()"
+            },
+            {
+              "k": "method",
+              "n": "OnPause",
+              "s": "protected Void OnPause()"
+            },
+            {
+              "k": "method",
+              "n": "OnPreCreate",
+              "s": "protected Void OnPreCreate()"
+            },
+            {
+              "k": "method",
+              "n": "OnResume",
+              "s": "protected Void OnResume()"
+            },
+            {
+              "k": "method",
+              "n": "PostToUI",
+              "s": "public Void PostToUI(Action action)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Paused",
+              "s": "public Void remove_Paused(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Resumed",
+              "s": "public Void remove_Resumed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Run",
+              "s": "public Void Run(String[] args)"
+            },
+            {
+              "k": "method",
+              "n": "set_Current",
+              "s": "private static Void set_Current(UIApplication value)"
+            },
+            {
+              "k": "method",
+              "n": "UseCompatibilityTouchMode",
+              "s": "public static Void UseCompatibilityTouchMode()"
+            },
+            {
+              "k": "method",
+              "n": "UseTouchGestureIntegration",
+              "s": "public static Void UseTouchGestureIntegration()"
+            },
+            {
+              "k": "property",
+              "n": "_coreBackend",
+              "s": "private UICoreBackend _coreBackend { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Current",
+              "s": "public UIApplication Current { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsUIThread",
+              "s": "public Boolean IsUIThread { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Windows",
+              "s": "public IReadOnlyList\u003CWindow\u003E Windows { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

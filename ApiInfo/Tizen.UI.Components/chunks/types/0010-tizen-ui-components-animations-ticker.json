@@ -1,0 +1,103 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "Ticker",
+          "f": "Tizen.UI.Components.Animations.Ticker",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__7_0",
+              "s": "Void \u003C.ctor\u003Eb__7_0(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CHandleElapsed\u003Eb__18_0",
+              "s": "private Void \u003CHandleElapsed\u003Eb__18_0(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "Disable",
+              "s": "internal Void Disable()"
+            },
+            {
+              "k": "method",
+              "n": "DisableTimer",
+              "s": "protected Void DisableTimer()"
+            },
+            {
+              "k": "method",
+              "n": "Enable",
+              "s": "internal Void Enable()"
+            },
+            {
+              "k": "method",
+              "n": "EnableTimer",
+              "s": "protected Void EnableTimer()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static Ticker get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "HandleElapsed",
+              "s": "internal Void HandleElapsed(Object state)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Int32 Insert(Func\u003CInt64, Boolean\u003E timeout)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(Int32 handle)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveTimeout",
+              "s": "protected Void RemoveTimeout(Int32 handle)"
+            },
+            {
+              "k": "method",
+              "n": "SendFinish",
+              "s": "protected Void SendFinish()"
+            },
+            {
+              "k": "method",
+              "n": "SendSignals",
+              "s": "protected Void SendSignals(Int32 timestep)"
+            },
+            {
+              "k": "method",
+              "n": "SendSignals",
+              "s": "protected Void SendSignals(Int64 step)"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public Ticker Default { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

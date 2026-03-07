@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AccessibilityData",
+          "f": "Tizen.UI.AccessibilityData",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(View owner)"
+            },
+            {
+              "k": "method",
+              "n": "AddActionReceivedHandler",
+              "s": "public Void AddActionReceivedHandler(EventHandler\u003CAccessibilityActionReceivedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddDescriptionRequestedHandler",
+              "s": "public Void AddDescriptionRequestedHandler(EventHandler\u003CAccessibilityDescriptionRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddHighlightChangedHandler",
+              "s": "public Void AddHighlightChangedHandler(EventHandler\u003CAccessibilityHighlightChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "AddNameRequestedHandler",
+              "s": "public Void AddNameRequestedHandler(EventHandler\u003CAccessibilityNameRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "private Boolean OnAccessibilityActionReceived(IntPtr data)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityHighlighted",
+              "s": "private Void OnAccessibilityHighlighted(Boolean data)"
+            },
+            {
+              "k": "method",
+              "n": "OnDescriptionRequested",
+              "s": "private Void OnDescriptionRequested(IntPtr data)"
+            },
+            {
+              "k": "method",
+              "n": "OnNameRequested",
+              "s": "private Void OnNameRequested(IntPtr data)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveActionReceivedHandler",
+              "s": "public Void RemoveActionReceivedHandler(EventHandler\u003CAccessibilityActionReceivedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveDescriptionRequestedHandler",
+              "s": "public Void RemoveDescriptionRequestedHandler(EventHandler\u003CAccessibilityDescriptionRequestedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveHighlightChangedHandler",
+              "s": "public Void RemoveHighlightChangedHandler(EventHandler\u003CAccessibilityHighlightChangedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveNameRequestedHandler",
+              "s": "public Void RemoveNameRequestedHandler(EventHandler\u003CAccessibilityNameRequestedEventArgs\u003E value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

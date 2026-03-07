@@ -1,0 +1,55 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "MotionData",
+          "f": "Tizen.UI.Scene3D.MotionData",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Scene3D.IMotionData"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "public MotionDataHandle CreateNativeHandle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Duration",
+              "s": "public Int32 get_Duration()"
+            },
+            {
+              "k": "method",
+              "n": "GetMotionValues",
+              "s": "internal IEnumerable\u003CValueTuple\u003CMotionIndexHandle, MotionValueHandle\u003E\u003E GetMotionValues()"
+            },
+            {
+              "k": "method",
+              "n": "set_Duration",
+              "s": "public Void set_Duration(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Duration",
+              "s": "public Int32 Duration { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

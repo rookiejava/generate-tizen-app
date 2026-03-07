@@ -1,0 +1,91 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AutoFontSize",
+          "f": "Tizen.UI.AutoFontSize",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Enabled",
+              "s": "public Boolean get_Enabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumSize",
+              "s": "public Single get_MaximumSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumSize",
+              "s": "public Single get_MinimumSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_StepSize",
+              "s": "public Single get_StepSize()"
+            },
+            {
+              "k": "method",
+              "n": "set_Enabled",
+              "s": "public Void set_Enabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumSize",
+              "s": "public Void set_MaximumSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumSize",
+              "s": "public Void set_MinimumSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StepSize",
+              "s": "public Void set_StepSize(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "Enabled",
+              "s": "public Boolean Enabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumSize",
+              "s": "public Single MaximumSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumSize",
+              "s": "public Single MinimumSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StepSize",
+              "s": "public Single StepSize { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.AutoFontSize",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(AutoFontSize autoSize)"
+    }
+  ]
+}

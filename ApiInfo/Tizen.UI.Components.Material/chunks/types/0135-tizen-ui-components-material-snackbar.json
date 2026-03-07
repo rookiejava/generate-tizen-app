@@ -1,0 +1,340 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SnackBar",
+          "f": "Tizen.UI.Components.Material.SnackBar",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Grid",
+          "i": [
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SnackBarVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, UInt32 duration)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, UInt32 duration, SnackBarVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "ActionButtonClicked",
+              "s": "public event EventHandler\u003CSnackBarActionEventArgs\u003E ActionButtonClicked"
+            },
+            {
+              "k": "event",
+              "n": "Hidden",
+              "s": "public event EventHandler Hidden"
+            },
+            {
+              "k": "event",
+              "n": "Shown",
+              "s": "public event EventHandler Shown"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitExpandAnimation\u003Eb__65_0",
+              "s": "private Void \u003CCommitExpandAnimation\u003Eb__65_0(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitExpandAnimation\u003Eb__65_1",
+              "s": "private Void \u003CCommitExpandAnimation\u003Eb__65_1(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitPostAnimation\u003Eb__72_0",
+              "s": "private Void \u003CCommitPostAnimation\u003Eb__72_0(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitPostAnimation\u003Eb__72_1",
+              "s": "private Void \u003CCommitPostAnimation\u003Eb__72_1(Single f, Boolean b)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitPostAnimation\u003Eb__72_2",
+              "s": "private Void \u003CCommitPostAnimation\u003Eb__72_2(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitPostAnimation\u003Eb__72_3",
+              "s": "private Void \u003CCommitPostAnimation\u003Eb__72_3(Single f, Boolean b)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CCommitPostAnimation\u003Eb__72_4",
+              "s": "private Void \u003CCommitPostAnimation\u003Eb__72_4(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CDismiss\u003Eb__75_0",
+              "s": "private Void \u003CDismiss\u003Eb__75_0(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CDismiss\u003Eb__75_1",
+              "s": "private Void \u003CDismiss\u003Eb__75_1(Single f, Boolean b)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CStartDismissTimer\u003Eb__63_0",
+              "s": "private Boolean \u003CStartDismissTimer\u003Eb__63_0()"
+            },
+            {
+              "k": "method",
+              "n": "add_ActionButtonClicked",
+              "s": "public Void add_ActionButtonClicked(EventHandler\u003CSnackBarActionEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Hidden",
+              "s": "public Void add_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Shown",
+              "s": "public Void add_Shown(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "CalculatePostTargetWidth",
+              "s": "private Void CalculatePostTargetWidth()"
+            },
+            {
+              "k": "method",
+              "n": "CommitExpandAnimation",
+              "s": "private Void CommitExpandAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "CommitPostAnimation",
+              "s": "private Void CommitPostAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "CommitWithDelay",
+              "s": "private Void CommitWithDelay(UIAnimation anim, String name, UInt32 time, UInt32 delay, Action\u003CSingle, Boolean\u003E finished)"
+            },
+            {
+              "k": "method",
+              "n": "ConfigureExpandLayout",
+              "s": "private Void ConfigureExpandLayout()"
+            },
+            {
+              "k": "method",
+              "n": "ConfigurePostLayout",
+              "s": "private Void ConfigurePostLayout()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(SnackBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dismiss",
+              "s": "public Void Dismiss()"
+            },
+            {
+              "k": "method",
+              "n": "DismissFinished",
+              "s": "private Void DismissFinished()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonText",
+              "s": "public String get_ActionButtonText()"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtonTextColor",
+              "s": "public Color get_ActionButtonTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Duration",
+              "s": "public UInt32 get_Duration()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "Interpolate",
+              "s": "private Single Interpolate(Single start, Single end, Single tick)"
+            },
+            {
+              "k": "method",
+              "n": "OnButtonClicked",
+              "s": "private Void OnButtonClicked(Object s, InputEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnButtonRelayout",
+              "s": "private Void OnButtonRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "PostFinished",
+              "s": "private Void PostFinished()"
+            },
+            {
+              "k": "method",
+              "n": "remove_ActionButtonClicked",
+              "s": "public Void remove_ActionButtonClicked(EventHandler\u003CSnackBarActionEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Hidden",
+              "s": "public Void remove_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Shown",
+              "s": "public Void remove_Shown(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonText",
+              "s": "public Void set_ActionButtonText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ActionButtonTextColor",
+              "s": "public Void set_ActionButtonTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Duration",
+              "s": "public Void set_Duration(UInt32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "StartDismissTimer",
+              "s": "private Void StartDismissTimer()"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonText",
+              "s": "public String ActionButtonText { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtonTextColor",
+              "s": "public Color ActionButtonTextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Duration",
+              "s": "public UInt32 Duration { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

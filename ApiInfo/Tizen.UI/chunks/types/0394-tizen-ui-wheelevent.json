@@ -1,0 +1,123 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "WheelEvent",
+          "f": "Tizen.UI.WheelEvent",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Delta",
+              "s": "public Int32 get_Delta()"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public WheelDirection get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAltModifier",
+              "s": "public Boolean get_IsAltModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsCtrlModifier",
+              "s": "public Boolean get_IsCtrlModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShiftModifier",
+              "s": "public Boolean get_IsShiftModifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_Modifier",
+              "s": "public UInt32 get_Modifier()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Time",
+              "s": "public UInt32 get_Time()"
+            },
+            {
+              "k": "method",
+              "n": "get_WheelType",
+              "s": "public WheelType get_WheelType()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "property",
+              "n": "Delta",
+              "s": "public Int32 Delta { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public WheelDirection Direction { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAltModifier",
+              "s": "public Boolean IsAltModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsCtrlModifier",
+              "s": "public Boolean IsCtrlModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsShiftModifier",
+              "s": "public Boolean IsShiftModifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Modifier",
+              "s": "public UInt32 Modifier { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point Position { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Time",
+              "s": "public UInt32 Time { get; }"
+            },
+            {
+              "k": "property",
+              "n": "WheelType",
+              "s": "public WheelType WheelType { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

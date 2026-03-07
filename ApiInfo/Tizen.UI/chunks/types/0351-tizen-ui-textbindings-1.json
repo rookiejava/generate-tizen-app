@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TextBindings\u00601",
+          "f": "Tizen.UI.TextBindings\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeProperty",
+              "s": "public static BindingProperty\u003CT, Single\u003E get_FontSizeProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColorProperty",
+              "s": "public static BindingProperty\u003CT, Color\u003E get_TextColorProperty()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextProperty",
+              "s": "public static BindingProperty\u003CT, String\u003E get_TextProperty()"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeProperty",
+              "s": "public BindingProperty\u003CT, Single\u003E FontSizeProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColorProperty",
+              "s": "public BindingProperty\u003CT, Color\u003E TextColorProperty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TextProperty",
+              "s": "public BindingProperty\u003CT, String\u003E TextProperty { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

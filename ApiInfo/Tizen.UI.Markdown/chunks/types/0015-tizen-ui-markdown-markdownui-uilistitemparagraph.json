@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "UIListItemParagraph",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIListItemParagraph",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.HStack",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, Boolean isOrdered, Int32 numberOrDepth, ListStyle listStyle, ParagraphStyle paragraphStyle)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyBulletStyle",
+              "s": "private static Void ApplyBulletStyle(View bullet, Int32 depth, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBullet",
+              "s": "private static View CreateBullet(Int32 depth, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateNumber",
+              "s": "private static View CreateNumber(Int32 number, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

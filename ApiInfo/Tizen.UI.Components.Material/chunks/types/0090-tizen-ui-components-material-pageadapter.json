@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PageAdapter",
+          "f": "Tizen.UI.Components.Material.PageAdapter",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddPage",
+              "s": "public Void AddPage(View page, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "BindPage",
+              "s": "private Void BindPage()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsPageBound",
+              "s": "protected Boolean get_IsPageBound()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageIndicator",
+              "s": "public IPageIndicator get_PageIndicator()"
+            },
+            {
+              "k": "method",
+              "n": "get_Pager",
+              "s": "public IPager get_Pager()"
+            },
+            {
+              "k": "method",
+              "n": "OnPageChanged",
+              "s": "public Void OnPageChanged(Int32 pageIndex)"
+            },
+            {
+              "k": "method",
+              "n": "RemovePage",
+              "s": "public Void RemovePage(View page)"
+            },
+            {
+              "k": "method",
+              "n": "set_PageIndicator",
+              "s": "public Void set_PageIndicator(IPageIndicator value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Pager",
+              "s": "public Void set_Pager(IPager value)"
+            },
+            {
+              "k": "property",
+              "n": "IsPageBound",
+              "s": "protected Boolean IsPageBound { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PageIndicator",
+              "s": "public IPageIndicator PageIndicator { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Pager",
+              "s": "public IPager Pager { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

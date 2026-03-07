@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Image",
+          "f": "Tizen.UI.Components.Material.Image",
+          "k": "class",
+          "b": "Tizen.UI.ImageView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl, IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "get_SynchronousVisualCreationRequired",
+              "s": "private Boolean get_SynchronousVisualCreationRequired()"
+            },
+            {
+              "k": "method",
+              "n": "OnVisualMapUpdateRequired",
+              "s": "protected Void OnVisualMapUpdateRequired(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "SetDesiredTextureSize",
+              "s": "public Void SetDesiredTextureSize(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "SetMaskingMode",
+              "s": "public Void SetMaskingMode(ImageMaskingMode mode)"
+            },
+            {
+              "k": "method",
+              "n": "SetPixelArea",
+              "s": "public Void SetPixelArea(Rect area)"
+            },
+            {
+              "k": "property",
+              "n": "SynchronousVisualCreationRequired",
+              "s": "private Boolean SynchronousVisualCreationRequired { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

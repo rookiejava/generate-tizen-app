@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TouchEventArgs",
+          "f": "Tizen.UI.TouchEventArgs",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handled",
+              "s": "public Boolean get_Handled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Touch",
+              "s": "public TouchEvent get_Touch()"
+            },
+            {
+              "k": "method",
+              "n": "set_Handled",
+              "s": "public Void set_Handled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Touch",
+              "s": "public Void set_Touch(TouchEvent value)"
+            },
+            {
+              "k": "property",
+              "n": "Handled",
+              "s": "public Boolean Handled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Touch",
+              "s": "public TouchEvent Touch { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

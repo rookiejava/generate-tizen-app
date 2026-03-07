@@ -1,0 +1,55 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Panel",
+          "f": "Tizen.UI.Scene3D.Panel",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [
+            "Tizen.UI.IParentObject"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(View view)"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,205 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "HeadingStyle",
+          "f": "Tizen.UI.Markdown.HeadingStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.HeadingStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(HeadingStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public HeadingStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(HeadingStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static HeadingStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel1",
+              "s": "public Single get_FontSizeLevel1()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel2",
+              "s": "public Single get_FontSizeLevel2()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel3",
+              "s": "public Single get_FontSizeLevel3()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel4",
+              "s": "public Single get_FontSizeLevel4()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel5",
+              "s": "public Single get_FontSizeLevel5()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel6",
+              "s": "public Single get_FontSizeLevel6()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(HeadingStyle left, HeadingStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(HeadingStyle left, HeadingStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel1",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel1(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel2",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel2(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel3",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel3(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel4",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel4(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel5",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel5(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel6",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel6(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public HeadingStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel1",
+              "s": "public Single FontSizeLevel1 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel2",
+              "s": "public Single FontSizeLevel2 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel3",
+              "s": "public Single FontSizeLevel3 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel4",
+              "s": "public Single FontSizeLevel4 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel5",
+              "s": "public Single FontSizeLevel5 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel6",
+              "s": "public Single FontSizeLevel6 { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,270 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TextEditor",
+          "f": "Tizen.UI.TextEditor",
+          "k": "class",
+          "b": "Tizen.UI.InputView",
+          "i": [
+            "Tizen.UI.Internal.ITextEditorSignalHandler"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAbsoluteLineHeight",
+              "s": "public Boolean get_IsAbsoluteLineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Single get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorWidth",
+              "s": "protected Int32 GetCursorWidth()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableMarkup",
+              "s": "protected Boolean GetEnableMarkup()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontFamily",
+              "s": "protected String GetFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSize",
+              "s": "protected Single GetFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "GetFontSizeScale",
+              "s": "protected Single GetFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "GetHorizontalAlignment",
+              "s": "protected TextAlignment GetHorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputMethodContextHandle",
+              "s": "protected IntPtr GetInputMethodContextHandle()"
+            },
+            {
+              "k": "method",
+              "n": "GetMaxLength",
+              "s": "protected Int32 GetMaxLength()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderText",
+              "s": "protected String GetPlaceholderText()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderTextColor",
+              "s": "protected Color GetPlaceholderTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetPrimaryCursorColor",
+              "s": "protected Color GetPrimaryCursorColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetPrimaryCursorPosition",
+              "s": "protected Int32 GetPrimaryCursorPosition()"
+            },
+            {
+              "k": "method",
+              "n": "GetReadOnly",
+              "s": "protected Boolean GetReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "GetText",
+              "s": "protected String GetText()"
+            },
+            {
+              "k": "method",
+              "n": "GetTextColor",
+              "s": "protected Color GetTextColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetVerticalAlignment",
+              "s": "protected TextAlignment GetVerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "OnAnchorClicked",
+              "s": "protected Void OnAnchorClicked(IntPtr view, IntPtr href, UInt32 hrefLength)"
+            },
+            {
+              "k": "method",
+              "n": "OnMaxLengthReached",
+              "s": "protected Void OnMaxLengthReached(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTextChanged",
+              "s": "protected Void OnTextChanged(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsAbsoluteLineHeight",
+              "s": "public Void set_IsAbsoluteLineHeight(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void set_LineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCursorWidth",
+              "s": "protected Void SetCursorWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetEnableMarkup",
+              "s": "protected Void SetEnableMarkup(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontFamily",
+              "s": "protected Void SetFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontSize",
+              "s": "protected Void SetFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontSizeScale",
+              "s": "protected Void SetFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetHorizontalAlignment",
+              "s": "protected Void SetHorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodSetting",
+              "s": "public Void SetInputMethodSetting(InputMethodSetting inputMethod)"
+            },
+            {
+              "k": "method",
+              "n": "SetMaxLength",
+              "s": "protected Void SetMaxLength(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlaceholderText",
+              "s": "protected Void SetPlaceholderText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlaceholderTextColor",
+              "s": "protected Void SetPlaceholderTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPrimaryCursorColor",
+              "s": "protected Void SetPrimaryCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetPrimaryCursorPosition",
+              "s": "protected Void SetPrimaryCursorPosition(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetReadOnly",
+              "s": "protected Void SetReadOnly(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetText",
+              "s": "protected Void SetText(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextColor",
+              "s": "protected Void SetTextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetVerticalAlignment",
+              "s": "protected Void SetVerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.ITextEditorSignalHandler.OnAnchorClickedSignal",
+              "s": "Void Tizen.UI.Internal.ITextEditorSignalHandler.OnAnchorClickedSignal(IntPtr view, IntPtr href, UInt32 hrefLength)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.ITextEditorSignalHandler.OnMaxLengthReachedSignal",
+              "s": "Void Tizen.UI.Internal.ITextEditorSignalHandler.OnMaxLengthReachedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.ITextEditorSignalHandler.OnTextChangedSignal",
+              "s": "Void Tizen.UI.Internal.ITextEditorSignalHandler.OnTextChangedSignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLineHeight",
+              "s": "private Void UpdateLineHeight()"
+            },
+            {
+              "k": "property",
+              "n": "IsAbsoluteLineHeight",
+              "s": "public Boolean IsAbsoluteLineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Single LineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

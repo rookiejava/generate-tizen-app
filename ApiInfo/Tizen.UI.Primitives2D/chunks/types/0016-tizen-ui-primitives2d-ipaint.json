@@ -1,0 +1,108 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "IPaint",
+          "f": "Tizen.UI.Primitives2D.IPaint",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public Void Fill(Shape shape)"
+            },
+            {
+              "k": "method",
+              "n": "get_FillRule",
+              "s": "public FillRule get_FillRule()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeCap",
+              "s": "public StrokeCap get_StrokeCap()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeDashArray",
+              "s": "public Single[] get_StrokeDashArray()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeJoin",
+              "s": "public StrokeJoin get_StrokeJoin()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrokeWidth",
+              "s": "public Single get_StrokeWidth()"
+            },
+            {
+              "k": "method",
+              "n": "set_FillRule",
+              "s": "public Void set_FillRule(FillRule value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeCap",
+              "s": "public Void set_StrokeCap(StrokeCap value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeDashArray",
+              "s": "public Void set_StrokeDashArray(Single[] value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeJoin",
+              "s": "public Void set_StrokeJoin(StrokeJoin value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrokeWidth",
+              "s": "public Void set_StrokeWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Stroke",
+              "s": "public Void Stroke(Shape shape)"
+            },
+            {
+              "k": "property",
+              "n": "FillRule",
+              "s": "public FillRule FillRule { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeCap",
+              "s": "public StrokeCap StrokeCap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeDashArray",
+              "s": "public Single[] StrokeDashArray { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeJoin",
+              "s": "public StrokeJoin StrokeJoin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrokeWidth",
+              "s": "public Single StrokeWidth { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

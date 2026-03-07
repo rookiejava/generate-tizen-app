@@ -1,0 +1,113 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "SystemFontSizeManager",
+          "f": "Tizen.UI.SystemFontSizeManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "event",
+              "n": "FontScaleChanged",
+              "s": "public event EventHandler FontScaleChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_FontScaleChanged",
+              "s": "public static Void add_FontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Bind",
+              "s": "internal static Void Bind(IFontSizeScale element)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentFontScale",
+              "s": "public static Single get_CurrentFontScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSupportSystemFontSize",
+              "s": "public static Boolean get_IsSupportSystemFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSize",
+              "s": "public static SystemSettingsFontSize get_SystemFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "GetScale",
+              "s": "public static Single GetScale(SystemSettingsFontSize settingSize)"
+            },
+            {
+              "k": "method",
+              "n": "OnSystemFontSizeChanged",
+              "s": "private static Void OnSystemFontSizeChanged(Object sender, FontSizeChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "remove_FontScaleChanged",
+              "s": "public static Void remove_FontScaleChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentFontScale",
+              "s": "private static Void set_CurrentFontScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsSupportSystemFontSize",
+              "s": "private static Void set_IsSupportSystemFontSize(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "Unbind",
+              "s": "internal static Void Unbind(IFontSizeScale element)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateScaleTable",
+              "s": "public static Void UpdateScaleTable(IDictionary\u003CSystemSettingsFontSize, Single\u003E table)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateSubscribers",
+              "s": "private static Void UpdateSubscribers()"
+            },
+            {
+              "k": "property",
+              "n": "CurrentFontScale",
+              "s": "public Single CurrentFontScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSupportSystemFontSize",
+              "s": "public Boolean IsSupportSystemFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSize",
+              "s": "public SystemSettingsFontSize SystemFontSize { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

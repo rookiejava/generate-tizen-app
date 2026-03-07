@@ -1,0 +1,596 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Label",
+          "f": "Tizen.UI.Components.Material.Label",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "Tizen.UI.Components.IDecoratableText",
+            "Tizen.UI.Components.IFlexibleText",
+            "Tizen.UI.IFontSizeScale",
+            "Tizen.UI.IText",
+            "Tizen.UI.ITextAlignment",
+            "Tizen.UI.ITextFormatting",
+            "Tizen.UI.ITextPadding"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(LabelVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, LabelVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, LabelVariables variables, LabelImpl impl)"
+            },
+            {
+              "k": "event",
+              "n": "AnchorClicked",
+              "s": "public event EventHandler\u003CAnchorClickedEventArgs\u003E AnchorClicked"
+            },
+            {
+              "k": "event",
+              "n": "FontSizeAdjusted",
+              "s": "public event EventHandler FontSizeAdjusted"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__9_0",
+              "s": "Void \u003C.ctor\u003Eb__9_0()"
+            },
+            {
+              "k": "method",
+              "n": "add_AnchorClicked",
+              "s": "public Void add_AnchorClicked(EventHandler\u003CAnchorClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_FontSizeAdjusted",
+              "s": "public Void add_FontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_AdjustedFontSize",
+              "s": "public Single get_AdjustedFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_AdjustedFontSizeScale",
+              "s": "public Single get_AdjustedFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_AnchorClickedColor",
+              "s": "public Color get_AnchorClickedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AnchorColor",
+              "s": "public Color get_AnchorColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeScale",
+              "s": "public Single get_FontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSlant",
+              "s": "public FontSlant get_FontSlant()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontWeight",
+              "s": "public FontWeight get_FontWeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontWidth",
+              "s": "public FontWidth get_FontWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public TextAlignment get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAbsoluteLineHeight",
+              "s": "public Boolean get_IsAbsoluteLineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMarkupEnabled",
+              "s": "public Boolean get_IsMarkupEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMultiline",
+              "s": "public Boolean get_IsMultiline()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsTextCutout",
+              "s": "public Boolean get_IsTextCutout()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineBreakMode",
+              "s": "public LineBreakMode get_LineBreakMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Single get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumFontSizeScale",
+              "s": "public Single get_MaximumFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_MinimumFontSizeScale",
+              "s": "public Single get_MinimumFontSizeScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_Outline",
+              "s": "public Nullable\u003COutline\u003E get_Outline()"
+            },
+            {
+              "k": "method",
+              "n": "get_Strikethrough",
+              "s": "public Nullable\u003CStrikethrough\u003E get_Strikethrough()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontFamilyEnabled",
+              "s": "public Boolean get_SystemFontFamilyEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_SystemFontSizeScaleEnabled",
+              "s": "public Boolean get_SystemFontSizeScaleEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextShadow",
+              "s": "public Nullable\u003CTextShadow\u003E get_TextShadow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Underline",
+              "s": "public Nullable\u003CUnderline\u003E get_Underline()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public TextAlignment get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "GetLineCount",
+              "s": "public Int32 GetLineCount(Single width)"
+            },
+            {
+              "k": "method",
+              "n": "GetLineCount",
+              "s": "public Int32 GetLineCount()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "OnMeasureInvalidatedOverride",
+              "s": "protected Void OnMeasureInvalidatedOverride()"
+            },
+            {
+              "k": "method",
+              "n": "remove_AnchorClicked",
+              "s": "public Void remove_AnchorClicked(EventHandler\u003CAnchorClickedEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_FontSizeAdjusted",
+              "s": "public Void remove_FontSizeAdjusted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendMeasureInvalidatedIfNeed",
+              "s": "protected Void SendMeasureInvalidatedIfNeed()"
+            },
+            {
+              "k": "method",
+              "n": "set_AnchorClickedColor",
+              "s": "public Void set_AnchorClickedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AnchorColor",
+              "s": "public Void set_AnchorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeScale",
+              "s": "public Void set_FontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSlant",
+              "s": "public Void set_FontSlant(FontSlant value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontWeight",
+              "s": "public Void set_FontWeight(FontWeight value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontWidth",
+              "s": "public Void set_FontWidth(FontWidth value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsAbsoluteLineHeight",
+              "s": "public Void set_IsAbsoluteLineHeight(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMarkupEnabled",
+              "s": "public Void set_IsMarkupEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMultiline",
+              "s": "public Void set_IsMultiline(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsTextCutout",
+              "s": "public Void set_IsTextCutout(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineBreakMode",
+              "s": "public Void set_LineBreakMode(LineBreakMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void set_LineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumFontSizeScale",
+              "s": "public Void set_MaximumFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MinimumFontSizeScale",
+              "s": "public Void set_MinimumFontSizeScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Outline",
+              "s": "public Void set_Outline(Nullable\u003COutline\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Strikethrough",
+              "s": "public Void set_Strikethrough(Nullable\u003CStrikethrough\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontFamilyEnabled",
+              "s": "public Void set_SystemFontFamilyEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SystemFontSizeScaleEnabled",
+              "s": "public Void set_SystemFontSizeScaleEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextShadow",
+              "s": "public Void set_TextShadow(Nullable\u003CTextShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Underline",
+              "s": "public Void set_Underline(Nullable\u003CUnderline\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(TextAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "SetFontVariation",
+              "s": "public Void SetFontVariation(String tag, Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeGap",
+              "s": "public Void SetMarqueeGap(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeLoopCount",
+              "s": "public Void SetMarqueeLoopCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeLoopDelay",
+              "s": "public Void SetMarqueeLoopDelay(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetMarqueeSpeed",
+              "s": "public Void SetMarqueeSpeed(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetTextPadding",
+              "s": "public Void SetTextPadding(Thickness thickness)"
+            },
+            {
+              "k": "property",
+              "n": "AdjustedFontSize",
+              "s": "public Single AdjustedFontSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AdjustedFontSizeScale",
+              "s": "public Single AdjustedFontSizeScale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AnchorClickedColor",
+              "s": "public Color AnchorClickedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AnchorColor",
+              "s": "public Color AnchorColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeScale",
+              "s": "public Single FontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSlant",
+              "s": "public FontSlant FontSlant { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontWeight",
+              "s": "public FontWeight FontWeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontWidth",
+              "s": "public FontWidth FontWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public TextAlignment HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsAbsoluteLineHeight",
+              "s": "public Boolean IsAbsoluteLineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMarkupEnabled",
+              "s": "public Boolean IsMarkupEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMultiline",
+              "s": "public Boolean IsMultiline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsTextCutout",
+              "s": "public Boolean IsTextCutout { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineBreakMode",
+              "s": "public LineBreakMode LineBreakMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Single LineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumFontSizeScale",
+              "s": "public Single MaximumFontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MinimumFontSizeScale",
+              "s": "public Single MinimumFontSizeScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Outline",
+              "s": "public Nullable\u003COutline\u003E Outline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Strikethrough",
+              "s": "public Nullable\u003CStrikethrough\u003E Strikethrough { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontFamilyEnabled",
+              "s": "public Boolean SystemFontFamilyEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SystemFontSizeScaleEnabled",
+              "s": "public Boolean SystemFontSizeScaleEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextShadow",
+              "s": "public Nullable\u003CTextShadow\u003E TextShadow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Underline",
+              "s": "public Nullable\u003CUnderline\u003E Underline { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public TextAlignment VerticalAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

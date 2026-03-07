@@ -1,0 +1,190 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AnimatedImage",
+          "f": "Tizen.UI.Components.Material.AnimatedImage",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Image",
+          "i": [
+            "Tizen.UI.Components.IAnimatedImage"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String resourceUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IEnumerable\u003CString\u003E sequentialResourceUrls, Int32 preloadingBatchSize, Int32 cacheSize)"
+            },
+            {
+              "k": "method",
+              "n": "CreateImageVisualMap",
+              "s": "protected ImageVisualMap CreateImageVisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentFrame",
+              "s": "public Int32 get_CurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "get_FrameSpeedFactor",
+              "s": "public Single get_FrameSpeedFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsLooping",
+              "s": "public Boolean get_IsLooping()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatCount",
+              "s": "public Int32 get_RepeatCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_RepeatMode",
+              "s": "public AnimationRepeatMode get_RepeatMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_StopBehavior",
+              "s": "public AnimationStopBehavior get_StopBehavior()"
+            },
+            {
+              "k": "method",
+              "n": "get_TotalFrame",
+              "s": "public Int32 get_TotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "get_VisualMap",
+              "s": "private AnimatedImageVisualMap get_VisualMap()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentFrame",
+              "s": "private Int32 GetCurrentFrame()"
+            },
+            {
+              "k": "method",
+              "n": "GetTotalFrame",
+              "s": "private Int32 GetTotalFrame()"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChanged",
+              "s": "private Void OnVisibilityChanged(Object sender, VisibilityChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentFrame",
+              "s": "public Void set_CurrentFrame(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FrameSpeedFactor",
+              "s": "public Void set_FrameSpeedFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsLooping",
+              "s": "public Void set_IsLooping(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatCount",
+              "s": "public Void set_RepeatCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RepeatMode",
+              "s": "public Void set_RepeatMode(AnimationRepeatMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StopBehavior",
+              "s": "public Void set_StopBehavior(AnimationStopBehavior value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentFrame",
+              "s": "private Void SetCurrentFrame(Int32 frame)"
+            },
+            {
+              "k": "method",
+              "n": "SetSequentialResourceUrls",
+              "s": "public Void SetSequentialResourceUrls(IEnumerable\u003CString\u003E sequentialResourceUrls, Int32 preloadingBatchSize, Int32 cacheSize)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateImageMap",
+              "s": "protected Void UpdateImageMap()"
+            },
+            {
+              "k": "property",
+              "n": "CurrentFrame",
+              "s": "public Int32 CurrentFrame { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FrameSpeedFactor",
+              "s": "public Single FrameSpeedFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsLooping",
+              "s": "public Boolean IsLooping { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatCount",
+              "s": "public Int32 RepeatCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RepeatMode",
+              "s": "public AnimationRepeatMode RepeatMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StopBehavior",
+              "s": "public AnimationStopBehavior StopBehavior { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TotalFrame",
+              "s": "public Int32 TotalFrame { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VisualMap",
+              "s": "private AnimatedImageVisualMap VisualMap { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,813 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "InputTextBaseImpl",
+          "f": "Tizen.UI.Components.InputTextBaseImpl",
+          "k": "class",
+          "b": "Tizen.UI.Components.TextBaseImpl",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "_cursorMoved",
+              "s": "private event EventHandler _cursorMoved"
+            },
+            {
+              "k": "event",
+              "n": "_maximumLengthReached",
+              "s": "private event EventHandler _maximumLengthReached"
+            },
+            {
+              "k": "event",
+              "n": "_selectionChanged",
+              "s": "private event EventHandler _selectionChanged"
+            },
+            {
+              "k": "event",
+              "n": "_selectionCleared",
+              "s": "private event EventHandler _selectionCleared"
+            },
+            {
+              "k": "event",
+              "n": "_selectionStarted",
+              "s": "private event EventHandler _selectionStarted"
+            },
+            {
+              "k": "event",
+              "n": "_textChanged",
+              "s": "private event EventHandler _textChanged"
+            },
+            {
+              "k": "event",
+              "n": "CursorMoved",
+              "s": "public event EventHandler CursorMoved"
+            },
+            {
+              "k": "event",
+              "n": "MaximumLengthReached",
+              "s": "public event EventHandler MaximumLengthReached"
+            },
+            {
+              "k": "event",
+              "n": "SelectionChanged",
+              "s": "public event EventHandler SelectionChanged"
+            },
+            {
+              "k": "event",
+              "n": "SelectionCleared",
+              "s": "public event EventHandler SelectionCleared"
+            },
+            {
+              "k": "event",
+              "n": "SelectionStarted",
+              "s": "public event EventHandler SelectionStarted"
+            },
+            {
+              "k": "event",
+              "n": "TextChanged",
+              "s": "public event EventHandler TextChanged"
+            },
+            {
+              "k": "method",
+              "n": "add__cursorMoved",
+              "s": "private Void add__cursorMoved(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__maximumLengthReached",
+              "s": "private Void add__maximumLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__selectionChanged",
+              "s": "private Void add__selectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__selectionCleared",
+              "s": "private Void add__selectionCleared(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__selectionStarted",
+              "s": "private Void add__selectionStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__textChanged",
+              "s": "private Void add__textChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_CursorMoved",
+              "s": "public Void add_CursorMoved(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_MaximumLengthReached",
+              "s": "public Void add_MaximumLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectionChanged",
+              "s": "public Void add_SelectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectionCleared",
+              "s": "public Void add_SelectionCleared(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_SelectionStarted",
+              "s": "public Void add_SelectionStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TextChanged",
+              "s": "public Void add_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ClearSelection",
+              "s": "public Void ClearSelection()"
+            },
+            {
+              "k": "method",
+              "n": "ConnectCursorMoved",
+              "s": "protected Void ConnectCursorMoved(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectInputFiltered",
+              "s": "protected Void ConnectInputFiltered(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectMaximumLengthReached",
+              "s": "protected Void ConnectMaximumLengthReached(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionChanged",
+              "s": "protected Void ConnectSelectionChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionCleared",
+              "s": "protected Void ConnectSelectionCleared(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectSelectionStarted",
+              "s": "protected Void ConnectSelectionStarted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "ConnectTextChanged",
+              "s": "protected Void ConnectTextChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectCursorMoved",
+              "s": "protected Void DisconnectCursorMoved(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectInputFiltered",
+              "s": "protected Void DisconnectInputFiltered(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectMaximumLengthReached",
+              "s": "protected Void DisconnectMaximumLengthReached(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionChanged",
+              "s": "protected Void DisconnectSelectionChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionCleared",
+              "s": "protected Void DisconnectSelectionCleared(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectSelectionStarted",
+              "s": "protected Void DisconnectSelectionStarted(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DisconnectTextChanged",
+              "s": "protected Void DisconnectTextChanged(IntPtr handler)"
+            },
+            {
+              "k": "method",
+              "n": "DoClearSelection",
+              "s": "protected Void DoClearSelection()"
+            },
+            {
+              "k": "method",
+              "n": "DoCreateInputMethodContext",
+              "s": "protected InputMethodContext DoCreateInputMethodContext()"
+            },
+            {
+              "k": "method",
+              "n": "DoSelectText",
+              "s": "protected Void DoSelectText(Int32 startIndex, Int32 endIndex)"
+            },
+            {
+              "k": "method",
+              "n": "DoSelectWholeText",
+              "s": "protected Void DoSelectWholeText()"
+            },
+            {
+              "k": "method",
+              "n": "EnableGrabHandle",
+              "s": "public Void EnableGrabHandle(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "EnableGrabHandlePopup",
+              "s": "public Void EnableGrabHandlePopup(Boolean enable)"
+            },
+            {
+              "k": "method",
+              "n": "get_CursorPosition",
+              "s": "public Int32 get_CursorPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputColor",
+              "s": "public Color get_InputColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontFamily",
+              "s": "public String get_InputFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontSize",
+              "s": "public Single get_InputFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontSlant",
+              "s": "public FontSlant get_InputFontSlant()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontStyle",
+              "s": "private FontStyle get_InputFontStyle()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontWeight",
+              "s": "public FontWeight get_InputFontWeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputFontWidth",
+              "s": "public FontWidth get_InputFontWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputMethodContext",
+              "s": "public InputMethodContext get_InputMethodContext()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputPointSize",
+              "s": "private Single get_InputPointSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEditable",
+              "s": "public Boolean get_IsEditable()"
+            },
+            {
+              "k": "method",
+              "n": "get_MaximumLength",
+              "s": "public Int32 get_MaximumLength()"
+            },
+            {
+              "k": "method",
+              "n": "get_Placeholder",
+              "s": "public String get_Placeholder()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlaceholderColor",
+              "s": "public Color get_PlaceholderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedText",
+              "s": "public String get_SelectedText()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectedTextIndex",
+              "s": "public ClosedRange\u003CInt32\u003E get_SelectedTextIndex()"
+            },
+            {
+              "k": "method",
+              "n": "get_SelectionEnabled",
+              "s": "public Boolean get_SelectionEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkDurationPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkDurationPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkEnabledPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorBlinkIntervalPropertyIndex",
+              "s": "protected Int32 GetCursorBlinkIntervalPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorColorPropertyIndex",
+              "s": "protected Int32 GetCursorColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorPositionPropertyIndex",
+              "s": "protected Int32 GetCursorPositionPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetCursorWidthPropertyIndex",
+              "s": "protected Int32 GetCursorWidthPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetDefaultInputFontStyle",
+              "s": "private FontStyle GetDefaultInputFontStyle()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableGrabHandlePopupPropertyIndex",
+              "s": "protected Int32 GetEnableGrabHandlePopupPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnableGrabHandlePropertyIndex",
+              "s": "protected Int32 GetEnableGrabHandlePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputColorPropertyIndex",
+              "s": "protected Int32 GetInputColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFilterPropertyIndex",
+              "s": "protected Int32 GetInputFilterPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFontFamilyPropertyIndex",
+              "s": "protected Int32 GetInputFontFamilyPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputFontStylePropertyIndex",
+              "s": "protected Int32 GetInputFontStylePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputMethodSettingPropertyIndex",
+              "s": "protected Int32 GetInputMethodSettingPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetInputPointSizePropertyIndex",
+              "s": "protected Int32 GetInputPointSizePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetIsEditablePropertyIndex",
+              "s": "protected Int32 GetIsEditablePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetMaximumLengthPropertyIndex",
+              "s": "protected Int32 GetMaximumLengthPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderColorPropertyIndex",
+              "s": "protected Int32 GetPlaceholderColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetPlaceholderPropertyIndex",
+              "s": "protected Int32 GetPlaceholderPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSecondaryCursorColorPropertyIndex",
+              "s": "protected Int32 GetSecondaryCursorColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextEndIndexPropertyIndex",
+              "s": "protected Int32 GetSelectedTextEndIndexPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextPropertyIndex",
+              "s": "protected Int32 GetSelectedTextPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectedTextStartIndexPropertyIndex",
+              "s": "protected Int32 GetSelectedTextStartIndexPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionColorPropertyIndex",
+              "s": "protected Int32 GetSelectionColorPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionEnabledPropertyIndex",
+              "s": "protected Int32 GetSelectionEnabledPropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandleLeftImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandleLeftImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandlePressedLeftImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandlePressedLeftImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandlePressedRightImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandlePressedRightImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "GetSelectionHandleRightImagePropertyIndex",
+              "s": "protected Int32 GetSelectionHandleRightImagePropertyIndex()"
+            },
+            {
+              "k": "method",
+              "n": "OnCursorMoved",
+              "s": "private Void OnCursorMoved(IntPtr handle, UInt32 oldPosition)"
+            },
+            {
+              "k": "method",
+              "n": "OnInitialized",
+              "s": "protected Void OnInitialized()"
+            },
+            {
+              "k": "method",
+              "n": "OnMaximumLengthReached",
+              "s": "private Void OnMaximumLengthReached(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnPlaceholderChanged",
+              "s": "protected Void OnPlaceholderChanged(String placeholder)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectionChanged",
+              "s": "private Void OnSelectionChanged(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectionCleared",
+              "s": "private Void OnSelectionCleared(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnSelectionStarted",
+              "s": "private Void OnSelectionStarted(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "OnTextChanged",
+              "s": "private Void OnTextChanged(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "remove__cursorMoved",
+              "s": "private Void remove__cursorMoved(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__maximumLengthReached",
+              "s": "private Void remove__maximumLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__selectionChanged",
+              "s": "private Void remove__selectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__selectionCleared",
+              "s": "private Void remove__selectionCleared(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__selectionStarted",
+              "s": "private Void remove__selectionStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__textChanged",
+              "s": "private Void remove__textChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_CursorMoved",
+              "s": "public Void remove_CursorMoved(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_MaximumLengthReached",
+              "s": "public Void remove_MaximumLengthReached(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectionChanged",
+              "s": "public Void remove_SelectionChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectionCleared",
+              "s": "public Void remove_SelectionCleared(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_SelectionStarted",
+              "s": "public Void remove_SelectionStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TextChanged",
+              "s": "public Void remove_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SelectText",
+              "s": "public Void SelectText(Int32 startIndex, Int32 endIndex)"
+            },
+            {
+              "k": "method",
+              "n": "SelectWholeText",
+              "s": "public Void SelectWholeText()"
+            },
+            {
+              "k": "method",
+              "n": "set_CursorPosition",
+              "s": "public Void set_CursorPosition(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputColor",
+              "s": "public Void set_InputColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontFamily",
+              "s": "public Void set_InputFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontSize",
+              "s": "public Void set_InputFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontSlant",
+              "s": "public Void set_InputFontSlant(FontSlant value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontStyle",
+              "s": "private Void set_InputFontStyle(FontStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontWeight",
+              "s": "public Void set_InputFontWeight(FontWeight value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputFontWidth",
+              "s": "public Void set_InputFontWidth(FontWidth value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InputPointSize",
+              "s": "private Void set_InputPointSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsEditable",
+              "s": "public Void set_IsEditable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MaximumLength",
+              "s": "public Void set_MaximumLength(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Placeholder",
+              "s": "public Void set_Placeholder(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PlaceholderColor",
+              "s": "public Void set_PlaceholderColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SelectionEnabled",
+              "s": "public Void set_SelectionEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCursorBlink",
+              "s": "public Void SetCursorBlink(Single interval, Single duration)"
+            },
+            {
+              "k": "method",
+              "n": "SetCursorColor",
+              "s": "public Void SetCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCursorWidth",
+              "s": "public Void SetCursorWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputFilter",
+              "s": "internal Void SetInputFilter(String include, String exclude)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodActionButtonTitle",
+              "s": "public Void SetInputMethodActionButtonTitle(ActionButtonTitle actionButtonTitle)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodCapitalMode",
+              "s": "public Void SetInputMethodCapitalMode(AutoCapital capitalMode)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodPanelType",
+              "s": "public Void SetInputMethodPanelType(PanelLayout panelLayout)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputMethodSetting",
+              "s": "private Void SetInputMethodSetting(InputMethodSetting setting)"
+            },
+            {
+              "k": "method",
+              "n": "SetSecondaryCursorColor",
+              "s": "public Void SetSecondaryCursorColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "SetSelectionColor",
+              "s": "public Void SetSelectionColor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "SetSelectionHandleImage",
+              "s": "public Void SetSelectionHandleImage(String leftResourceUrl, String rightResourceUrl)"
+            },
+            {
+              "k": "method",
+              "n": "SetSelectionHandlePressedImage",
+              "s": "public Void SetSelectionHandlePressedImage(String leftResourceUrl, String rightResourceUrl)"
+            },
+            {
+              "k": "method",
+              "n": "UnsetCursorBlink",
+              "s": "public Void UnsetCursorBlink()"
+            },
+            {
+              "k": "property",
+              "n": "CursorPosition",
+              "s": "public Int32 CursorPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputColor",
+              "s": "public Color InputColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontFamily",
+              "s": "public String InputFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontSize",
+              "s": "public Single InputFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontSlant",
+              "s": "public FontSlant InputFontSlant { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontStyle",
+              "s": "private FontStyle InputFontStyle { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontWeight",
+              "s": "public FontWeight InputFontWeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputFontWidth",
+              "s": "public FontWidth InputFontWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InputMethodContext",
+              "s": "public InputMethodContext InputMethodContext { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InputPointSize",
+              "s": "private Single InputPointSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsEditable",
+              "s": "public Boolean IsEditable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MaximumLength",
+              "s": "public Int32 MaximumLength { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Placeholder",
+              "s": "public String Placeholder { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlaceholderColor",
+              "s": "public Color PlaceholderColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedText",
+              "s": "public String SelectedText { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectedTextIndex",
+              "s": "public ClosedRange\u003CInt32\u003E SelectedTextIndex { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SelectionEnabled",
+              "s": "public Boolean SelectionEnabled { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

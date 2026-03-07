@@ -1,0 +1,113 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ClickableGrid",
+          "f": "Tizen.UI.Components.ClickableGrid",
+          "k": "class",
+          "b": "Tizen.UI.Components.ClickableBox",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E get_ColumnDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpacing",
+              "s": "public Single get_ColumnSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerList",
+              "s": "protected IList\u003CView\u003E get_InnerList()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E get_RowDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpacing",
+              "s": "public Single get_RowSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnDefinitions",
+              "s": "public Void set_ColumnDefinitions(IList\u003CGridColumnDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ColumnSpacing",
+              "s": "public Void set_ColumnSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowDefinitions",
+              "s": "public Void set_RowDefinitions(IList\u003CGridRowDefinition\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RowSpacing",
+              "s": "public Void set_RowSpacing(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E ColumnDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpacing",
+              "s": "public Single ColumnSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerList",
+              "s": "protected IList\u003CView\u003E InnerList { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E RowDefinitions { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpacing",
+              "s": "public Single RowSpacing { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

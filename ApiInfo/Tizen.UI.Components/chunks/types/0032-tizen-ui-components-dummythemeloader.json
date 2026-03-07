@@ -1,0 +1,105 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "DummyThemeLoader",
+          "f": "Tizen.UI.Components.DummyThemeLoader",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Components.IThemeLoader"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String[] themeResourceDirectories)"
+            },
+            {
+              "k": "event",
+              "n": "ThemeChanged",
+              "s": "public event EventHandler ThemeChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_ThemeChanged",
+              "s": "public Void add_ThemeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentResourcePath",
+              "s": "public String get_CurrentResourcePath()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentThemeId",
+              "s": "public String get_CurrentThemeId()"
+            },
+            {
+              "k": "method",
+              "n": "get_Instance",
+              "s": "public static DummyThemeLoader get_Instance()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentThemeResourcePath",
+              "s": "private String GetCurrentThemeResourcePath()"
+            },
+            {
+              "k": "method",
+              "n": "LoadColorTable",
+              "s": "public IDictionary\u003CString, Color\u003E LoadColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "NextTheme",
+              "s": "public Void NextTheme()"
+            },
+            {
+              "k": "method",
+              "n": "remove_ThemeChanged",
+              "s": "public Void remove_ThemeChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "ResetTheme",
+              "s": "public Void ResetTheme()"
+            },
+            {
+              "k": "method",
+              "n": "set_CurrentResourcePath",
+              "s": "private Void set_CurrentResourcePath(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SwitchTheme",
+              "s": "public Void SwitchTheme(Int32 index)"
+            },
+            {
+              "k": "property",
+              "n": "CurrentResourcePath",
+              "s": "public String CurrentResourcePath { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentThemeId",
+              "s": "public String CurrentThemeId { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Instance",
+              "s": "public DummyThemeLoader Instance { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

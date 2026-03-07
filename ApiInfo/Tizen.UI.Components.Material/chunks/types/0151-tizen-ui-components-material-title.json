@@ -1,0 +1,66 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Title",
+          "f": "Tizen.UI.Components.Material.Title",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Label",
+          "i": [
+            "Tizen.UI.Components.ITitle",
+            "Tizen.UI.Components.Material.IAppBarContent"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String title)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String title, TitleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyUnifiedContentColor",
+              "s": "public Void ApplyUnifiedContentColor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(TitleVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.ITitle.get_Title",
+              "s": "String Tizen.UI.Components.ITitle.get_Title()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Components.ITitle.set_Title",
+              "s": "Void Tizen.UI.Components.ITitle.set_Title(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Tizen.UI.Components.ITitle.Title",
+              "s": "String Tizen.UI.Components.ITitle.Title { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

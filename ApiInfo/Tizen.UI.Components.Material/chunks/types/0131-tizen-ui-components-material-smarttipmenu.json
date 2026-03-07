@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTipMenu",
+          "f": "Tizen.UI.Components.Material.SmartTipMenu",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.SmartTipBase",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SmartTipViewVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct()"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleContent",
+              "s": "public View get_TitleContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFillColor",
+              "s": "public Color get_TitleFillColor()"
+            },
+            {
+              "k": "method",
+              "n": "OnTitleRelayout",
+              "s": "private Void OnTitleRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleContent",
+              "s": "public Void set_TitleContent(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFillColor",
+              "s": "public Void set_TitleFillColor(Color value)"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleContent",
+              "s": "public View TitleContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFillColor",
+              "s": "public Color TitleFillColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

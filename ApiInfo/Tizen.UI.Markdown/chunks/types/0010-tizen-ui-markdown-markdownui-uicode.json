@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "UICode",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UICode",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String language, String text, Int32 indent, CodeStyle codeStyle)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCode",
+              "s": "private static View CreateCode(String text, CodeStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTitle",
+              "s": "private static View CreateTitle(String text, CodeStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Code",
+              "s": "public String get_Code()"
+            },
+            {
+              "k": "method",
+              "n": "get_ContentHash",
+              "s": "public Int32 get_ContentHash()"
+            },
+            {
+              "k": "method",
+              "n": "get_Language",
+              "s": "public String get_Language()"
+            },
+            {
+              "k": "method",
+              "n": "set_Code",
+              "s": "public Void set_Code(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ContentHash",
+              "s": "public Void set_ContentHash(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Language",
+              "s": "public Void set_Language(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Code",
+              "s": "public String Code { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ContentHash",
+              "s": "public Int32 ContentHash { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Language",
+              "s": "public String Language { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

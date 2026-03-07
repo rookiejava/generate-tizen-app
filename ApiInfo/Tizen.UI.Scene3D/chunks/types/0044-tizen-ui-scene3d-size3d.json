@@ -1,0 +1,146 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Size3D",
+          "f": "Tizen.UI.Scene3D.Size3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y, Single\u0026 z)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Size3D other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsZero",
+              "s": "public Boolean get_IsZero()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Size3D op_Addition(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Point3D op_Explicit(Size3D size)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Size3D op_Multiply(Size3D s1, Single value)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Size3D op_Subtraction(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "IsZero",
+              "s": "public Boolean IsZero { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Size3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Size3D size3d)"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "MultiPageData",
+          "f": "Tizen.UI.Internal.MultiPageData",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, Single fontSize, Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_HorizontalAlignment",
+              "s": "public Nullable\u003CTextAlignment\u003E get_HorizontalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsMarkupEnabled",
+              "s": "public Nullable\u003CBoolean\u003E get_IsMarkupEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Nullable\u003CSingle\u003E get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Nullable\u003CThickness\u003E get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_VerticalAlignment",
+              "s": "public Nullable\u003CTextAlignment\u003E get_VerticalAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HorizontalAlignment",
+              "s": "public Void set_HorizontalAlignment(Nullable\u003CTextAlignment\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsMarkupEnabled",
+              "s": "public Void set_IsMarkupEnabled(Nullable\u003CBoolean\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void set_LineHeight(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Nullable\u003CThickness\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_VerticalAlignment",
+              "s": "public Void set_VerticalAlignment(Nullable\u003CTextAlignment\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ToHandle",
+              "s": "internal TextRendererParametersHandle ToHandle()"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HorizontalAlignment",
+              "s": "public Nullable\u003CTextAlignment\u003E HorizontalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsMarkupEnabled",
+              "s": "public Nullable\u003CBoolean\u003E IsMarkupEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Nullable\u003CSingle\u003E LineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Nullable\u003CThickness\u003E Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; }"
+            },
+            {
+              "k": "property",
+              "n": "VerticalAlignment",
+              "s": "public Nullable\u003CTextAlignment\u003E VerticalAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

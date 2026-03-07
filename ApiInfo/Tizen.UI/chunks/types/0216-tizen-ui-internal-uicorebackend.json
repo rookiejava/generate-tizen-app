@@ -1,0 +1,142 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "UICoreBackend",
+          "f": "Tizen.UI.Internal.UICoreBackend",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable",
+            "Tizen.Applications.CoreBackend.ICoreBackend",
+            "Tizen.Applications.CoreBackend.ICoreTaskBackend"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(WindowMode windowMode, Rect windowBounds)"
+            },
+            {
+              "k": "method",
+              "n": "AddEventHandler",
+              "s": "public Void AddEventHandler(EventType evType, Action handler)"
+            },
+            {
+              "k": "method",
+              "n": "AddEventHandler",
+              "s": "public Void AddEventHandler\u003CTEventArgs\u003E(EventType evType, Action\u003CTEventArgs\u003E handler) where TEventArgs : EventArgs"
+            },
+            {
+              "k": "method",
+              "n": "CreateForMock",
+              "s": "public static UICoreBackend CreateForMock()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Exit",
+              "s": "public Void Exit()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsUIThread",
+              "s": "public Boolean get_IsUIThread()"
+            },
+            {
+              "k": "method",
+              "n": "GetDaliNativeApp",
+              "s": "public NObject GetDaliNativeApp()"
+            },
+            {
+              "k": "method",
+              "n": "OnAppControl",
+              "s": "private Void OnAppControl(IntPtr appcontrol)"
+            },
+            {
+              "k": "method",
+              "n": "OnBatteryLow",
+              "s": "private Void OnBatteryLow(Int32 status)"
+            },
+            {
+              "k": "method",
+              "n": "OnCreated",
+              "s": "private Void OnCreated()"
+            },
+            {
+              "k": "method",
+              "n": "OnDeviceOrientationChanged",
+              "s": "private Void OnDeviceOrientationChanged(Int32 degree)"
+            },
+            {
+              "k": "method",
+              "n": "OnLanguageChanged",
+              "s": "private Void OnLanguageChanged(String language)"
+            },
+            {
+              "k": "method",
+              "n": "OnMemoryLow",
+              "s": "private Void OnMemoryLow(Int32 status)"
+            },
+            {
+              "k": "method",
+              "n": "OnPaused",
+              "s": "private Void OnPaused()"
+            },
+            {
+              "k": "method",
+              "n": "OnRegionChanged",
+              "s": "private Void OnRegionChanged(String region)"
+            },
+            {
+              "k": "method",
+              "n": "OnResumed",
+              "s": "private Void OnResumed()"
+            },
+            {
+              "k": "method",
+              "n": "OnTerminated",
+              "s": "private Void OnTerminated()"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Action action)"
+            },
+            {
+              "k": "method",
+              "n": "Run",
+              "s": "public Void Run(String[] args)"
+            },
+            {
+              "k": "method",
+              "n": "SetCoreTask",
+              "s": "public Void SetCoreTask(ICoreTask task)"
+            },
+            {
+              "k": "property",
+              "n": "IsUIThread",
+              "s": "public Boolean IsUIThread { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

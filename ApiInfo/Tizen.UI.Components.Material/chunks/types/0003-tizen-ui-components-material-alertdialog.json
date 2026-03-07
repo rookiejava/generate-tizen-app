@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AlertDialog",
+          "f": "Tizen.UI.Components.Material.AlertDialog",
+          "k": "class",
+          "b": "Tizen.UI.Components.Material.Dialog",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(AlertDialogVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(AlertDialogVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private VStack get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_Message",
+              "s": "public String get_Message()"
+            },
+            {
+              "k": "method",
+              "n": "get_Title",
+              "s": "public String get_Title()"
+            },
+            {
+              "k": "method",
+              "n": "set_Message",
+              "s": "public Void set_Message(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Title",
+              "s": "public Void set_Title(String value)"
+            },
+            {
+              "k": "method",
+              "n": "SetActionButtons",
+              "s": "public Void SetActionButtons(ValueTuple\u003CString, EventHandler\u003CInputEventArgs\u003E\u003E[] actionButtons)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private VStack Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Message",
+              "s": "public String Message { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Title",
+              "s": "public String Title { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

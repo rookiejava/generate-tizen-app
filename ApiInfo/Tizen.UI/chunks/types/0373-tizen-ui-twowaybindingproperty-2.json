@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TwoWayBindingProperty\u00602",
+          "f": "Tizen.UI.TwoWayBindingProperty\u00602",
+          "k": "class",
+          "b": "Tizen.UI.BindingProperty\u00602\u003CTView,TValue\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AddObserver",
+              "s": "public Action\u003CTView, Action\u003E get_AddObserver()"
+            },
+            {
+              "k": "method",
+              "n": "get_Getter",
+              "s": "public Func\u003CTView, TValue\u003E get_Getter()"
+            },
+            {
+              "k": "method",
+              "n": "get_RemoveObserver",
+              "s": "public Action\u003CTView, Action\u003E get_RemoveObserver()"
+            },
+            {
+              "k": "method",
+              "n": "set_AddObserver",
+              "s": "public Void set_AddObserver(Action\u003CTView, Action\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Getter",
+              "s": "public Void set_Getter(Func\u003CTView, TValue\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RemoveObserver",
+              "s": "public Void set_RemoveObserver(Action\u003CTView, Action\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "AddObserver",
+              "s": "public Action\u003CTView, Action\u003E AddObserver { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Getter",
+              "s": "public Func\u003CTView, TValue\u003E Getter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RemoveObserver",
+              "s": "public Action\u003CTView, Action\u003E RemoveObserver { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

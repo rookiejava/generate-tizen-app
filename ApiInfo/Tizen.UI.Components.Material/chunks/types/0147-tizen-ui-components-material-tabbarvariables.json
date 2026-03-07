@@ -1,0 +1,230 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "TabBarVariables",
+          "f": "Tizen.UI.Components.Material.TabBarVariables",
+          "k": "class",
+          "b": "Tizen.UI.Components.Variables",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Components.Material.TabBarVariables\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TabBarVariables original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "TabBarVariables \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Variables other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(TabBarVariables other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomBar",
+              "s": "public static TabBarVariables get_BottomBar()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomBorderlineColor",
+              "s": "public Color get_BottomBorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BottomBorderlineWidth",
+              "s": "public Single get_BottomBorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static TabBarVariables get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultHeight",
+              "s": "public Single get_DefaultHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopBorderlineColor",
+              "s": "public Color get_TopBorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TopBorderlineWidth",
+              "s": "public Single get_TopBorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(TabBarVariables left, TabBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(TabBarVariables left, TabBarVariables right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BottomBorderlineColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BottomBorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BottomBorderlineWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BottomBorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DefaultHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_DefaultHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TopBorderlineColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TopBorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TopBorderlineWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TopBorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomBar",
+              "s": "public TabBarVariables BottomBar { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomBorderlineColor",
+              "s": "public Color BottomBorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BottomBorderlineWidth",
+              "s": "public Single BottomBorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public TabBarVariables Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultHeight",
+              "s": "public Single DefaultHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TopBorderlineColor",
+              "s": "public Color TopBorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TopBorderlineWidth",
+              "s": "public Single TopBorderlineWidth { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

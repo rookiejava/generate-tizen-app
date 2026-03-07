@@ -1,0 +1,36 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "AnimatedLayout",
+          "f": "Tizen.UI.Components.AnimatedLayout",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ApplyAnimation",
+              "s": "public static T ApplyAnimation\u003CT\u003E(T layout, Int32 duration, AlphaFunction alphaFunction) where T : Layout"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.AnimatedLayout",
+      "r": "T",
+      "n": "ApplyAnimation",
+      "s": "public static T ApplyAnimation\u003CT\u003E(T layout, Int32 duration, AlphaFunction alphaFunction) where T : Layout"
+    }
+  ]
+}

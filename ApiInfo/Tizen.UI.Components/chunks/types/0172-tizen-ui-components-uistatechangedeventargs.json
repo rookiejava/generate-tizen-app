@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIStateChangedEventArgs",
+          "f": "Tizen.UI.Components.UIStateChangedEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Current",
+              "s": "public UIState get_Current()"
+            },
+            {
+              "k": "method",
+              "n": "get_Previous",
+              "s": "public UIState get_Previous()"
+            },
+            {
+              "k": "method",
+              "n": "set_Current",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Current(UIState value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Previous",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Previous(UIState value)"
+            },
+            {
+              "k": "method",
+              "n": "Test",
+              "s": "public Boolean Test(UIStateConstraint constraint)"
+            },
+            {
+              "k": "property",
+              "n": "Current",
+              "s": "public UIState Current { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Previous",
+              "s": "public UIState Previous { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

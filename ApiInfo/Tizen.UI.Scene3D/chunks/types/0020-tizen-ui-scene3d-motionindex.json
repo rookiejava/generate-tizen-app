@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "MotionIndex",
+          "f": "Tizen.UI.Scene3D.MotionIndex",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String blendShapeName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String nodeName, String blendShapeName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String nodeName, Int32 blendShapeIndex)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTransformIndex",
+              "s": "public static MotionIndex CreateTransformIndex(TransformTypes type)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTransformIndex",
+              "s": "public static MotionIndex CreateTransformIndex(String nodeName, TransformTypes type)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateNativeHandle",
+              "s": "internal MotionIndexHandle GenerateNativeHandle()"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

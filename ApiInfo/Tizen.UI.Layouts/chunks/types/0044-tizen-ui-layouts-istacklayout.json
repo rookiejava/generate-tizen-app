@@ -1,0 +1,45 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "IStackLayout",
+          "f": "Tizen.UI.Layouts.IStackLayout",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

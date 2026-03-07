@@ -1,0 +1,133 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Divider",
+          "f": "Tizen.UI.Components.Material.Divider",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DividerVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DividerDirection direction)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DividerDirection direction, DividerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(DividerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "DrawDashedLine",
+              "s": "private Void DrawDashedLine()"
+            },
+            {
+              "k": "method",
+              "n": "DrawDottedLine",
+              "s": "private Void DrawDottedLine()"
+            },
+            {
+              "k": "method",
+              "n": "DrawLine",
+              "s": "private Void DrawLine()"
+            },
+            {
+              "k": "method",
+              "n": "get_DividerColor",
+              "s": "public Color get_DividerColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public DividerStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Single get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_DividerColor",
+              "s": "public Void set_DividerColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Style",
+              "s": "public Void set_Style(DividerStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void set_Thickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetDividerColor",
+              "s": "private Void SetDividerColor(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLine",
+              "s": "private Void UpdateLine()"
+            },
+            {
+              "k": "property",
+              "n": "DividerColor",
+              "s": "public Color DividerColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public DividerStyle Style { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Single Thickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

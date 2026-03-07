@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "IPager",
+          "f": "Tizen.UI.Components.Material.IPager",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_CurrentPage",
+              "s": "public Int32 get_CurrentPage()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_PageAdapter",
+              "s": "public PageAdapter get_PageAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageCount",
+              "s": "public Int32 get_PageCount()"
+            },
+            {
+              "k": "method",
+              "n": "set_PageAdapter",
+              "s": "public Void set_PageAdapter(PageAdapter value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowPage",
+              "s": "public Task ShowPage(Int32 pageIndex, Boolean animation)"
+            },
+            {
+              "k": "property",
+              "n": "CurrentPage",
+              "s": "public Int32 CurrentPage { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PageAdapter",
+              "s": "public PageAdapter PageAdapter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PageCount",
+              "s": "public Int32 PageCount { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

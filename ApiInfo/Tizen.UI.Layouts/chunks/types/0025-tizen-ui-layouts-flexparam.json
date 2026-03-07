@@ -1,0 +1,143 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "FlexParam",
+          "f": "Tizen.UI.Layouts.FlexParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelf",
+              "s": "public FlexAlignSelf get_AlignSelf()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignSelfBackup",
+              "s": "internal FlexAlignSelf get_AlignSelfBackup()"
+            },
+            {
+              "k": "method",
+              "n": "get_Basis",
+              "s": "public FlexBasis get_Basis()"
+            },
+            {
+              "k": "method",
+              "n": "get_FlexItem",
+              "s": "internal Item get_FlexItem()"
+            },
+            {
+              "k": "method",
+              "n": "get_Grow",
+              "s": "public Single get_Grow()"
+            },
+            {
+              "k": "method",
+              "n": "get_Order",
+              "s": "public Int32 get_Order()"
+            },
+            {
+              "k": "method",
+              "n": "get_Shrink",
+              "s": "public Single get_Shrink()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShrinkBackup",
+              "s": "internal Single get_ShrinkBackup()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelf",
+              "s": "public Void set_AlignSelf(FlexAlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignSelfBackup",
+              "s": "internal Void set_AlignSelfBackup(FlexAlignSelf value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Basis",
+              "s": "public Void set_Basis(FlexBasis value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Grow",
+              "s": "public Void set_Grow(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Order",
+              "s": "public Void set_Order(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Shrink",
+              "s": "public Void set_Shrink(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShrinkBackup",
+              "s": "internal Void set_ShrinkBackup(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelf",
+              "s": "public FlexAlignSelf AlignSelf { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignSelfBackup",
+              "s": "internal FlexAlignSelf AlignSelfBackup { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Basis",
+              "s": "public FlexBasis Basis { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FlexItem",
+              "s": "internal Item FlexItem { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Grow",
+              "s": "public Single Grow { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Order",
+              "s": "public Int32 Order { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Shrink",
+              "s": "public Single Shrink { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShrinkBackup",
+              "s": "internal Single ShrinkBackup { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

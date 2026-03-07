@@ -1,0 +1,372 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Color",
+          "f": "Tizen.UI.Color",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Color\u003E",
+            "Tizen.UI.IToken"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single r, Single g, Single b, Single a)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single w, Single x, Single y, Single z, Color.Mode mode)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 r, Int32 g, Int32 b)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Int32 r, Int32 g, Int32 b, Int32 a)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String id, Single alpha)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single r, Single g, Single b)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single value)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(UInt32 value, Single alpha)"
+            },
+            {
+              "k": "method",
+              "n": "AddLuminosity",
+              "s": "public Color AddLuminosity(Single delta)"
+            },
+            {
+              "k": "method",
+              "n": "CalculateTokenAlpha",
+              "s": "internal Color CalculateTokenAlpha(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "ConvertToHsl",
+              "s": "private static Void ConvertToHsl(Single r, Single g, Single b, Color.Mode mode, Single\u0026 h, Single\u0026 s, Single\u0026 l)"
+            },
+            {
+              "k": "method",
+              "n": "ConvertToRgb",
+              "s": "private static Void ConvertToRgb(Single hue, Single saturation, Single luminosity, Color.Mode mode, Single\u0026 r, Single\u0026 g, Single\u0026 b)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "EqualsInner",
+              "s": "private static Boolean EqualsInner(Color color1, Color color2)"
+            },
+            {
+              "k": "method",
+              "n": "FromHex",
+              "s": "public static Color FromHex(String hex)"
+            },
+            {
+              "k": "method",
+              "n": "FromHsla",
+              "s": "public static Color FromHsla(Single h, Single s, Single l, Single a)"
+            },
+            {
+              "k": "method",
+              "n": "FromHsv",
+              "s": "public static Color FromHsv(Single h, Single s, Single v)"
+            },
+            {
+              "k": "method",
+              "n": "FromHsv",
+              "s": "public static Color FromHsv(Int32 h, Int32 s, Int32 v)"
+            },
+            {
+              "k": "method",
+              "n": "FromHsva",
+              "s": "public static Color FromHsva(Single h, Single s, Single v, Single a)"
+            },
+            {
+              "k": "method",
+              "n": "FromHsva",
+              "s": "public static Color FromHsva(Int32 h, Int32 s, Int32 v, Int32 a)"
+            },
+            {
+              "k": "method",
+              "n": "FromRgb",
+              "s": "public static Color FromRgb(Int32 r, Int32 g, Int32 b)"
+            },
+            {
+              "k": "method",
+              "n": "FromRgb",
+              "s": "public static Color FromRgb(Single r, Single g, Single b)"
+            },
+            {
+              "k": "method",
+              "n": "FromRgba",
+              "s": "public static Color FromRgba(Int32 r, Int32 g, Int32 b, Int32 a)"
+            },
+            {
+              "k": "method",
+              "n": "FromRgba",
+              "s": "public static Color FromRgba(Single r, Single g, Single b, Single a)"
+            },
+            {
+              "k": "method",
+              "n": "FromUint",
+              "s": "public static Color FromUint(UInt32 argb)"
+            },
+            {
+              "k": "method",
+              "n": "get_A",
+              "s": "public Single get_A()"
+            },
+            {
+              "k": "method",
+              "n": "get_B",
+              "s": "public Single get_B()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static Color get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_G",
+              "s": "public Single get_G()"
+            },
+            {
+              "k": "method",
+              "n": "get_Hue",
+              "s": "public Single get_Hue()"
+            },
+            {
+              "k": "method",
+              "n": "get_Id",
+              "s": "public String get_Id()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsDefault",
+              "s": "public Boolean get_IsDefault()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsToken",
+              "s": "public Boolean get_IsToken()"
+            },
+            {
+              "k": "method",
+              "n": "get_Luminosity",
+              "s": "public Single get_Luminosity()"
+            },
+            {
+              "k": "method",
+              "n": "get_R",
+              "s": "public Single get_R()"
+            },
+            {
+              "k": "method",
+              "n": "get_Saturation",
+              "s": "public Single get_Saturation()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "MultiplyAlpha",
+              "s": "public Color MultiplyAlpha(Single alpha)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Color color1, Color color2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Color color1, Color color2)"
+            },
+            {
+              "k": "method",
+              "n": "ToHex",
+              "s": "public String ToHex()"
+            },
+            {
+              "k": "method",
+              "n": "ToHex",
+              "s": "private static UInt32 ToHex(Char c)"
+            },
+            {
+              "k": "method",
+              "n": "ToHexD",
+              "s": "private static UInt32 ToHexD(Char c)"
+            },
+            {
+              "k": "method",
+              "n": "Token",
+              "s": "public static Color Token(String id)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "method",
+              "n": "WithAlpha",
+              "s": "public Color WithAlpha(Single alpha)"
+            },
+            {
+              "k": "method",
+              "n": "WithHue",
+              "s": "public Color WithHue(Single hue)"
+            },
+            {
+              "k": "method",
+              "n": "WithLuminosity",
+              "s": "public Color WithLuminosity(Single luminosity)"
+            },
+            {
+              "k": "method",
+              "n": "WithSaturation",
+              "s": "public Color WithSaturation(Single saturation)"
+            },
+            {
+              "k": "property",
+              "n": "A",
+              "s": "public Single A { get; }"
+            },
+            {
+              "k": "property",
+              "n": "B",
+              "s": "public Single B { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public Color Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "G",
+              "s": "public Single G { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Hue",
+              "s": "public Single Hue { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Id",
+              "s": "public String Id { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsDefault",
+              "s": "public Boolean IsDefault { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsToken",
+              "s": "public Boolean IsToken { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Luminosity",
+              "s": "public Single Luminosity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "R",
+              "s": "public Single R { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Saturation",
+              "s": "public Single Saturation { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.TokenExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToRawColor",
+      "s": "public static Color ToRawColor(Color color)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector4Handle\u003E ToNative(Color color)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToNative",
+      "s": "public static Vector4Handle ToNative(Color color, Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Color color)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Color color, Boolean useVector3)"
+    }
+  ]
+}

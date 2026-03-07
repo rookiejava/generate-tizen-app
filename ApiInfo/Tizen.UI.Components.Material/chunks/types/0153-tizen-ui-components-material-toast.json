@@ -1,0 +1,315 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Toast",
+          "f": "Tizen.UI.Components.Material.Toast",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Grid",
+          "i": [
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ToastVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, UInt32 duration)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, UInt32 duration, ToastVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "Hidden",
+              "s": "public event EventHandler Hidden"
+            },
+            {
+              "k": "event",
+              "n": "Shown",
+              "s": "public event EventHandler Shown"
+            },
+            {
+              "k": "method",
+              "n": "\u003CPlayFadeInAnimation\u003Eb__58_0",
+              "s": "private Void \u003CPlayFadeInAnimation\u003Eb__58_0(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CPlayFadeInAnimation\u003Eb__58_1",
+              "s": "private Void \u003CPlayFadeInAnimation\u003Eb__58_1(Single f, Boolean b)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CPlayFadeOutAnimation\u003Eb__59_0",
+              "s": "private Void \u003CPlayFadeOutAnimation\u003Eb__59_0(Single p)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CPlayFadeOutAnimation\u003Eb__59_1",
+              "s": "private Void \u003CPlayFadeOutAnimation\u003Eb__59_1(Single f, Boolean b)"
+            },
+            {
+              "k": "method",
+              "n": "\u003CStartDismissTimer\u003Eb__57_0",
+              "s": "private Boolean \u003CStartDismissTimer\u003Eb__57_0()"
+            },
+            {
+              "k": "method",
+              "n": "add_Hidden",
+              "s": "public Void add_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Shown",
+              "s": "public Void add_Shown(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ToastVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dismiss",
+              "s": "public Void Dismiss()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureIcon",
+              "s": "private Image EnsureIcon()"
+            },
+            {
+              "k": "method",
+              "n": "get_Duration",
+              "s": "public UInt32 get_Duration()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconHeight",
+              "s": "public Single get_IconHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconMultipliedColor",
+              "s": "public Color get_IconMultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconResourceUrl",
+              "s": "public String get_IconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_IconWidth",
+              "s": "public Single get_IconWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemSpacing",
+              "s": "public Single get_ItemSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "InitFadeOutAnimation",
+              "s": "private Void InitFadeOutAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "OnFadeInFinished",
+              "s": "private Void OnFadeInFinished(Single translateY)"
+            },
+            {
+              "k": "method",
+              "n": "OnFadeOutFinished",
+              "s": "private Void OnFadeOutFinished(Single translateY)"
+            },
+            {
+              "k": "method",
+              "n": "PlayFadeInAnimation",
+              "s": "private Void PlayFadeInAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "PlayFadeOutAnimation",
+              "s": "private Void PlayFadeOutAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Hidden",
+              "s": "public Void remove_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Shown",
+              "s": "public Void remove_Shown(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Duration",
+              "s": "public Void set_Duration(UInt32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconHeight",
+              "s": "public Void set_IconHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconMultipliedColor",
+              "s": "public Void set_IconMultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconResourceUrl",
+              "s": "public Void set_IconResourceUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IconWidth",
+              "s": "public Void set_IconWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemSpacing",
+              "s": "public Void set_ItemSpacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "StartDismissTimer",
+              "s": "private Void StartDismissTimer()"
+            },
+            {
+              "k": "property",
+              "n": "Duration",
+              "s": "public UInt32 Duration { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconHeight",
+              "s": "public Single IconHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconMultipliedColor",
+              "s": "public Color IconMultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconResourceUrl",
+              "s": "public String IconResourceUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IconWidth",
+              "s": "public Single IconWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemSpacing",
+              "s": "public Single ItemSpacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

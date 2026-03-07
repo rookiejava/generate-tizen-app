@@ -1,0 +1,65 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "IGridLayout",
+          "f": "Tizen.UI.Layouts.IGridLayout",
+          "k": "interface",
+          "b": null,
+          "i": [
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E get_ColumnDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_ColumnSpacing",
+              "s": "public Single get_ColumnSpacing()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E get_RowDefinitions()"
+            },
+            {
+              "k": "method",
+              "n": "get_RowSpacing",
+              "s": "public Single get_RowSpacing()"
+            },
+            {
+              "k": "property",
+              "n": "ColumnDefinitions",
+              "s": "public IList\u003CGridColumnDefinition\u003E ColumnDefinitions { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ColumnSpacing",
+              "s": "public Single ColumnSpacing { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowDefinitions",
+              "s": "public IList\u003CGridRowDefinition\u003E RowDefinitions { get; }"
+            },
+            {
+              "k": "property",
+              "n": "RowSpacing",
+              "s": "public Single RowSpacing { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

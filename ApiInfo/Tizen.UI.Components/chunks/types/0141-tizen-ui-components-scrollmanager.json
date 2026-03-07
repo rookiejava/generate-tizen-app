@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ScrollManager",
+          "f": "Tizen.UI.Components.ScrollManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_IsAboutToScroll",
+              "s": "public static Boolean get_IsAboutToScroll()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsAboutToScroll",
+              "s": "public static Void set_IsAboutToScroll(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "IsAboutToScroll",
+              "s": "public Boolean IsAboutToScroll { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

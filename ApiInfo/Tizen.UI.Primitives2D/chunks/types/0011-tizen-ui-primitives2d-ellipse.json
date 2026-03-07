@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Primitives2D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Primitives2D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Primitives2D.dll",
+  "g": "2026-03-07T11:20:28.6566535+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Primitives2D",
+      "t": [
+        {
+          "n": "Ellipse",
+          "f": "Tizen.UI.Primitives2D.Ellipse",
+          "k": "class",
+          "b": "Tizen.UI.Primitives2D.Shape",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single centerX, Single centerY, Single radiusX, Single radiusY)"
+            },
+            {
+              "k": "method",
+              "n": "DrawEllipse",
+              "s": "private Void DrawEllipse(Boolean reset)"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterX",
+              "s": "public Single get_CenterX()"
+            },
+            {
+              "k": "method",
+              "n": "get_CenterY",
+              "s": "public Single get_CenterY()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusX",
+              "s": "public Single get_RadiusX()"
+            },
+            {
+              "k": "method",
+              "n": "get_RadiusY",
+              "s": "public Single get_RadiusY()"
+            },
+            {
+              "k": "method",
+              "n": "set_CenterX",
+              "s": "public Void set_CenterX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CenterY",
+              "s": "public Void set_CenterY(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusX",
+              "s": "public Void set_RadiusX(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RadiusY",
+              "s": "public Void set_RadiusY(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "CenterX",
+              "s": "public Single CenterX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CenterY",
+              "s": "public Single CenterY { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusX",
+              "s": "public Single RadiusX { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RadiusY",
+              "s": "public Single RadiusY { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

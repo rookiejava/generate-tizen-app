@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "IColorProvider",
+          "f": "Tizen.UI.Components.IColorProvider",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "DominantColorChanged",
+              "s": "public event EventHandler DominantColorChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_DominantColorChanged",
+              "s": "public Void add_DominantColorChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_DominantColor",
+              "s": "public Color get_DominantColor()"
+            },
+            {
+              "k": "method",
+              "n": "remove_DominantColorChanged",
+              "s": "public Void remove_DominantColorChanged(EventHandler value)"
+            },
+            {
+              "k": "property",
+              "n": "DominantColor",
+              "s": "public Color DominantColor { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

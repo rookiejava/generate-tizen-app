@@ -1,0 +1,389 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "PropertyValueHandleExtensions",
+          "f": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "ToColor",
+              "s": "public static Color ToColor(PropertyValueHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToCornerRadius",
+              "s": "public static CornerRadius ToCornerRadius(PropertyValueHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToFloat",
+              "s": "public static Single ToFloat(PropertyValueHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToInt",
+              "s": "public static Int32 ToInt(PropertyValueHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToRectangleValue",
+              "s": "public static PropertyValueHandle ToRectangleValue(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "ToStr",
+              "s": "public static String ToStr(PropertyValueHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(PropertyMapHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(PropertyArrayHandle handle)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Background background)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(TextShadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(InputMethodSetting setting)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Underline underline)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Outline outline)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Shadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(InnerShadow shadow)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(FontStyle fontStyle)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(HiddenInputSetting setting)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(AutoFontSize autoSize)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Color color)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Color color, Boolean useVector3)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Point value, Boolean useVector3)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Rect value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Object value, Boolean useVector3)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(String value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Boolean",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Boolean value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Int32",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Int32 value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Object",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Object value, Boolean useVector3)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Single",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Single value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.String",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(String value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.AutoFontSize",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(AutoFontSize autoSize)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Background",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Background background)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Color color)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Color",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Color color, Boolean useVector3)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.CornerRadius",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(CornerRadius value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.FontStyle",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(FontStyle fontStyle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.HiddenInputSetting",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(HiddenInputSetting setting)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.InnerShadow",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(InnerShadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.InputMethodSetting",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(InputMethodSetting setting)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyArrayHandle",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(PropertyArrayHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyMapHandle",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(PropertyMapHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToColor",
+      "s": "public static Color ToColor(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToCornerRadius",
+      "s": "public static CornerRadius ToCornerRadius(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToFloat",
+      "s": "public static Single ToFloat(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToInt",
+      "s": "public static Int32 ToInt(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyValueHandle",
+      "n": "ToStr",
+      "s": "public static String ToStr(PropertyValueHandle handle)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Outline",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Outline outline)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Point value, Boolean useVector3)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Rect value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Shadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Size value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.TextShadow",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(TextShadow shadow)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Thickness",
+      "n": "ToRectangleValue",
+      "s": "public static PropertyValueHandle ToRectangleValue(Thickness value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Thickness",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Thickness value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Underline",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Underline underline)"
+    }
+  ]
+}

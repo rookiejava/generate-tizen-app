@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "SnapControlExtensions",
+          "f": "Tizen.UI.Components.SnapControlExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ClearSnapData",
+              "s": "private static Void ClearSnapData(Scrollable Scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "GetSnapData",
+              "s": "internal static SnapControlExtensions.SnapControlData GetSnapData(Scrollable Scrollable)"
+            },
+            {
+              "k": "method",
+              "n": "SetSnap",
+              "s": "public static T SetSnap\u003CT\u003E(T Scrollable, SnapPointsType snapType, SnapPointsAlignment align) where T : Scrollable"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.SnapControlExtensions",
+      "r": "T",
+      "n": "SetSnap",
+      "s": "public static T SetSnap\u003CT\u003E(T Scrollable, SnapPointsType snapType, SnapPointsAlignment align) where T : Scrollable"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.SnapControlExtensions",
+      "r": "Tizen.UI.Components.Scrollable",
+      "n": "ClearSnapData",
+      "s": "private static Void ClearSnapData(Scrollable Scrollable)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.SnapControlExtensions",
+      "r": "Tizen.UI.Components.Scrollable",
+      "n": "GetSnapData",
+      "s": "internal static SnapControlExtensions.SnapControlData GetSnapData(Scrollable Scrollable)"
+    }
+  ]
+}

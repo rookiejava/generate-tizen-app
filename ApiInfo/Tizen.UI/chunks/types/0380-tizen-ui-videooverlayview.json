@@ -1,0 +1,105 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "VideoOverlayView",
+          "f": "Tizen.UI.VideoOverlayView",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [
+            "Tizen.UI.Internal.IResourceReadySignalHandler"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_DisplayArea",
+              "s": "public Rect get_DisplayArea()"
+            },
+            {
+              "k": "method",
+              "n": "IsUpdateAvailable",
+              "s": "private Boolean IsUpdateAvailable()"
+            },
+            {
+              "k": "method",
+              "n": "OnAttachedToWindow",
+              "s": "private Void OnAttachedToWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDetachedFromWindow",
+              "s": "private Void OnDetachedFromWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnUpdateDisplayArea",
+              "s": "private Void OnUpdateDisplayArea()"
+            },
+            {
+              "k": "method",
+              "n": "OnVisibilityChanged",
+              "s": "private Void OnVisibilityChanged(Object sender, VisibilityChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnWindowResized",
+              "s": "private Void OnWindowResized(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "SetBlendMode",
+              "s": "private Void SetBlendMode()"
+            },
+            {
+              "k": "method",
+              "n": "SetOrientation",
+              "s": "private Void SetOrientation(WindowOrientation orientation)"
+            },
+            {
+              "k": "method",
+              "n": "SetPlayer",
+              "s": "public Void SetPlayer(Player player)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Internal.IResourceReadySignalHandler.OnResourceReadySignal",
+              "s": "Void Tizen.UI.Internal.IResourceReadySignalHandler.OnResourceReadySignal(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateGeometry",
+              "s": "private Void UpdateGeometry(Rect displayArea)"
+            },
+            {
+              "k": "property",
+              "n": "DisplayArea",
+              "s": "public Rect DisplayArea { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

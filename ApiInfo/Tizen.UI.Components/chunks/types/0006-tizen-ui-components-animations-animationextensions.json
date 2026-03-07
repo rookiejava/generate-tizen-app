@@ -1,0 +1,153 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Animations",
+      "t": [
+        {
+          "n": "AnimationExtensions",
+          "f": "Tizen.UI.Components.Animations.AnimationExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "AbortAnimation",
+              "s": "public static Boolean AbortAnimation(View self, String handle)"
+            },
+            {
+              "k": "method",
+              "n": "AbortAnimation",
+              "s": "internal static Void AbortAnimation(AnimatableKey key)"
+            },
+            {
+              "k": "method",
+              "n": "AbortKinetic",
+              "s": "internal static Void AbortKinetic(AnimatableKey key)"
+            },
+            {
+              "k": "method",
+              "n": "Animate",
+              "s": "public static Void Animate(View self, String name, UIAnimation animation, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "Animate",
+              "s": "public static Void Animate(View self, String name, Action\u003CSingle\u003E callback, Single start, Single end, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "Animate",
+              "s": "public static Void Animate(View self, String name, Action\u003CSingle\u003E callback, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "Animate",
+              "s": "public static Void Animate\u003CT\u003E(View self, String name, Func\u003CSingle, T\u003E transform, Action\u003CT\u003E callback, UInt32 rate, UInt32 length, Easing easing, Action\u003CT, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateInternal",
+              "s": "internal static Void AnimateInternal\u003CT\u003E(View self, String name, Func\u003CSingle, T\u003E transform, Action\u003CT\u003E callback, UInt32 rate, UInt32 length, Easing easing, Action\u003CT, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateKinetic",
+              "s": "public static Void AnimateKinetic(View self, String name, Func\u003CSingle, Single, Boolean\u003E callback, Single velocity, Single drag, Action finished)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateKineticInternal",
+              "s": "internal static Void AnimateKineticInternal(View self, String name, Func\u003CSingle, Single, Boolean\u003E callback, Single velocity, Single drag, Action finished)"
+            },
+            {
+              "k": "method",
+              "n": "AnimationIsRunning",
+              "s": "public static Boolean AnimationIsRunning(View self, String handle)"
+            },
+            {
+              "k": "method",
+              "n": "HandleTweenerFinished",
+              "s": "internal static Void HandleTweenerFinished(Object o, EventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "HandleTweenerUpdated",
+              "s": "internal static Void HandleTweenerUpdated(Object o, EventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "Interpolate",
+              "s": "public static Func\u003CSingle, Single\u003E Interpolate(Single start, Single end, Single reverseVal, Boolean reverse)"
+            },
+            {
+              "k": "method",
+              "n": "Self",
+              "s": "internal static Void Self(View self, Action action)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AbortAnimation",
+      "s": "public static Boolean AbortAnimation(View self, String handle)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Animate",
+      "s": "public static Void Animate(View self, String name, UIAnimation animation, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Animate",
+      "s": "public static Void Animate(View self, String name, Action\u003CSingle\u003E callback, Single start, Single end, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Animate",
+      "s": "public static Void Animate(View self, String name, Action\u003CSingle\u003E callback, UInt32 rate, UInt32 length, Easing easing, Action\u003CSingle, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Animate",
+      "s": "public static Void Animate\u003CT\u003E(View self, String name, Func\u003CSingle, T\u003E transform, Action\u003CT\u003E callback, UInt32 rate, UInt32 length, Easing easing, Action\u003CT, Boolean\u003E finished, Func\u003CBoolean\u003E repeat)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AnimateKinetic",
+      "s": "public static Void AnimateKinetic(View self, String name, Func\u003CSingle, Single, Boolean\u003E callback, Single velocity, Single drag, Action finished)"
+    },
+    {
+      "d": "Tizen.UI.Components.Animations",
+      "t": "Tizen.UI.Components.Animations.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AnimationIsRunning",
+      "s": "public static Boolean AnimationIsRunning(View self, String handle)"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "UISettings",
+          "f": "Tizen.UI.UISettings",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_StyleManagerHandle",
+              "s": "private static StyleManagerHandle get_StyleManagerHandle()"
+            },
+            {
+              "k": "method",
+              "n": "SetBrokenImageUrl",
+              "s": "public static Void SetBrokenImageUrl(String url)"
+            },
+            {
+              "k": "method",
+              "n": "SetBrokenImageUrl",
+              "s": "public static Void SetBrokenImageUrl(BrokenImageType type, String url)"
+            },
+            {
+              "k": "method",
+              "n": "SetDoubleTapTimeout",
+              "s": "public static Void SetDoubleTapTimeout(Int32 ms)"
+            },
+            {
+              "k": "method",
+              "n": "SetKeyRepeat",
+              "s": "public static Void SetKeyRepeat(Single rate, Single delay)"
+            },
+            {
+              "k": "method",
+              "n": "SetLongPressMinimumHoldingTime",
+              "s": "public static Void SetLongPressMinimumHoldingTime(Int32 ms)"
+            },
+            {
+              "k": "method",
+              "n": "SetPinchMinimumDistance",
+              "s": "public static Void SetPinchMinimumDistance(Single distance)"
+            },
+            {
+              "k": "method",
+              "n": "SetTapRecognizerTime",
+              "s": "public static Void SetTapRecognizerTime(Int32 ms)"
+            },
+            {
+              "k": "method",
+              "n": "UsePreCompiledShader",
+              "s": "public static Void UsePreCompiledShader()"
+            },
+            {
+              "k": "property",
+              "n": "StyleManagerHandle",
+              "s": "private StyleManagerHandle StyleManagerHandle { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "TokenManager",
+          "f": "Tizen.UI.TokenManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_ColorTable",
+              "s": "public static ITokenTable\u003CColor\u003E get_ColorTable()"
+            },
+            {
+              "k": "method",
+              "n": "SetTable",
+              "s": "public static Void SetTable\u003CT\u003E(TokenType type, ITokenTable\u003CT\u003E table)"
+            },
+            {
+              "k": "property",
+              "n": "ColorTable",
+              "s": "public ITokenTable\u003CColor\u003E ColorTable { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

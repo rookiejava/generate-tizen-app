@@ -1,0 +1,63 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "TextureSet",
+          "f": "Tizen.UI.Internal.TextureSet",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "GetSampler",
+              "s": "public Sampler GetSampler(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetTexture",
+              "s": "public Texture GetTexture(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetTextureCount",
+              "s": "public Int32 GetTextureCount()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "SetSampler",
+              "s": "public Void SetSampler(Int32 index, Sampler sampler)"
+            },
+            {
+              "k": "method",
+              "n": "SetTexture",
+              "s": "public Void SetTexture(Int32 index, Texture texture)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

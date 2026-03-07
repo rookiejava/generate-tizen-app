@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Internal",
+      "t": [
+        {
+          "n": "StaticTextEditorSignal",
+          "f": "Tizen.UI.Internal.StaticTextEditorSignal",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "GetHandler",
+              "s": "protected static ITextEditorSignalHandler GetHandler(UInt32 id)"
+            },
+            {
+              "k": "method",
+              "n": "GetId",
+              "s": "protected static UInt32 GetId(IntPtr view)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,88 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PickerInputFilterData",
+          "f": "Tizen.UI.Components.Material.PickerInputFilterData",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsTimer",
+              "s": "public Boolean get_IsTimer()"
+            },
+            {
+              "k": "method",
+              "n": "get_NextInputField",
+              "s": "public PickerInputField get_NextInputField()"
+            },
+            {
+              "k": "method",
+              "n": "get_NotifyInvalidInput",
+              "s": "public Boolean get_NotifyInvalidInput()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public Int32 get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsTimer",
+              "s": "public Void set_IsTimer(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NextInputField",
+              "s": "public Void set_NextInputField(PickerInputField value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NotifyInvalidInput",
+              "s": "public Void set_NotifyInvalidInput(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Value",
+              "s": "public Void set_Value(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "IsTimer",
+              "s": "public Boolean IsTimer { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NextInputField",
+              "s": "public PickerInputField NextInputField { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NotifyInvalidInput",
+              "s": "public Boolean NotifyInvalidInput { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public Int32 Value { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

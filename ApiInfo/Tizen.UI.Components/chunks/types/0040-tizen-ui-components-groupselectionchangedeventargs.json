@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "GroupSelectionChangedEventArgs",
+          "f": "Tizen.UI.Components.GroupSelectionChangedEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IGroupSelectable previous, IGroupSelectable current)"
+            },
+            {
+              "k": "method",
+              "n": "get_Current",
+              "s": "public IGroupSelectable get_Current()"
+            },
+            {
+              "k": "method",
+              "n": "get_Previous",
+              "s": "public IGroupSelectable get_Previous()"
+            },
+            {
+              "k": "property",
+              "n": "Current",
+              "s": "public IGroupSelectable Current { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Previous",
+              "s": "public IGroupSelectable Previous { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

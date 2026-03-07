@@ -1,0 +1,72 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "Vector4Handle",
+          "f": "Tizen.UI.NativeHandle.Vector4Handle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "SetValue",
+      "s": "internal static Void SetValue(Vector4Handle vector, Single x, Single y, Single z, Single w)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToColor",
+      "s": "public static Color ToColor(Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToCornerRadius",
+      "s": "public static CornerRadius ToCornerRadius(Vector4Handle vector)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.NativeHandle.Vector4Handle",
+      "n": "ToRect",
+      "s": "public static Rect ToRect(Vector4Handle vector)"
+    }
+  ]
+}

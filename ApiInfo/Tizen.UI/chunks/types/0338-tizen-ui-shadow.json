@@ -1,0 +1,106 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Shadow",
+          "f": "Tizen.UI.Shadow",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_BlurRadius",
+              "s": "public Single get_BlurRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_CutoutPolicy",
+              "s": "public VisualCutoutPolicy get_CutoutPolicy()"
+            },
+            {
+              "k": "method",
+              "n": "get_Extends",
+              "s": "public Size get_Extends()"
+            },
+            {
+              "k": "method",
+              "n": "get_Offset",
+              "s": "public Point get_Offset()"
+            },
+            {
+              "k": "method",
+              "n": "set_BlurRadius",
+              "s": "public Void set_BlurRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CutoutPolicy",
+              "s": "public Void set_CutoutPolicy(VisualCutoutPolicy value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Extends",
+              "s": "public Void set_Extends(Size value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Offset",
+              "s": "public Void set_Offset(Point value)"
+            },
+            {
+              "k": "property",
+              "n": "BlurRadius",
+              "s": "public Single BlurRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CutoutPolicy",
+              "s": "public VisualCutoutPolicy CutoutPolicy { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Extends",
+              "s": "public Size Extends { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Offset",
+              "s": "public Point Offset { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Shadow",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Shadow shadow)"
+    }
+  ]
+}

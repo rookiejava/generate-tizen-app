@@ -1,0 +1,429 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "PageScroller",
+          "f": "Tizen.UI.Components.Material.PageScroller",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.Generic.IList\u00601\u003CTizen.UI.View\u003E",
+            "System.Collections.IEnumerable",
+            "Tizen.UI.Components.Material.IPager"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View child)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(View item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(View[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get__Stack",
+              "s": "private PageScroller.PageStack get__Stack()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CView\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_CurrentPage",
+              "s": "public Int32 get_CurrentPage()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsHorizontal",
+              "s": "public Boolean get_IsHorizontal()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolling",
+              "s": "public Boolean get_IsScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public View get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageAdapter",
+              "s": "public PageAdapter get_PageAdapter()"
+            },
+            {
+              "k": "method",
+              "n": "get_PageCount",
+              "s": "public Int32 get_PageCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScrollContent",
+              "s": "protected Layout get_ScrollContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scroller",
+              "s": "protected Scrollable get_Scroller()"
+            },
+            {
+              "k": "method",
+              "n": "get_SnapPointsAlignment",
+              "s": "public SnapPointsAlignment get_SnapPointsAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_SnapPointType",
+              "s": "public SnapPointsType get_SnapPointType()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CView\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(View item)"
+            },
+            {
+              "k": "method",
+              "n": "Initialize",
+              "s": "protected Void Initialize()"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, View item)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragFinished",
+              "s": "private Void OnDragFinished(Object o, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragging",
+              "s": "private Void OnDragging(Object o, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnDragStarted",
+              "s": "private Void OnDragStarted(Object o, DragEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnRelayout",
+              "s": "private Void OnRelayout(Object o, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollFinished",
+              "s": "private Void OnScrollFinished(Object o, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrolling",
+              "s": "private Void OnScrolling(Object o, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnScrollStarted",
+              "s": "private Void OnScrollStarted(Object o, ScrollEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(View child)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsHorizontal",
+              "s": "public Void set_IsHorizontal(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PageAdapter",
+              "s": "public Void set_PageAdapter(PageAdapter value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SnapPointsAlignment",
+              "s": "public Void set_SnapPointsAlignment(SnapPointsAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_SnapPointType",
+              "s": "public Void set_SnapPointType(SnapPointsType value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ShowPage",
+              "s": "public Task ShowPage(Int32 pageIndex, Boolean animation)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Add",
+              "s": "Void System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Add(View item)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.get_Count",
+              "s": "Int32 System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.get_IsReadOnly",
+              "s": "Boolean System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Remove",
+              "s": "Boolean System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Remove(View item)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "_Stack",
+              "s": "private PageScroller.PageStack _Stack { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CView\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CurrentPage",
+              "s": "public Int32 CurrentPage { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsHorizontal",
+              "s": "public Boolean IsHorizontal { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolling",
+              "s": "public Boolean IsScrolling { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public View Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PageAdapter",
+              "s": "public PageAdapter PageAdapter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PageCount",
+              "s": "public Int32 PageCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScrollContent",
+              "s": "protected Layout ScrollContent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Scroller",
+              "s": "protected Scrollable Scroller { get; }"
+            },
+            {
+              "k": "property",
+              "n": "SnapPointsAlignment",
+              "s": "public SnapPointsAlignment SnapPointsAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SnapPointType",
+              "s": "public SnapPointsType SnapPointType { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Count",
+              "s": "Int32 System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.IsReadOnly",
+              "s": "Boolean System.Collections.Generic.ICollection\u003CTizen.UI.View\u003E.IsReadOnly { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

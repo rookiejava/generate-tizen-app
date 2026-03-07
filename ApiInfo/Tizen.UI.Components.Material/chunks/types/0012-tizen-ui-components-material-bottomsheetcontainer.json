@@ -1,0 +1,166 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "BottomSheetContainer",
+          "f": "Tizen.UI.Components.Material.BottomSheetContainer",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.IModalContainer",
+            "Tizen.UI.Components.INavigationAnimation"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(BottomSheetContainerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(BottomSheetContainerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPopModalAnimation",
+              "s": "private static INavigationAnimationController DefaultPopModalAnimation(View poppedView, View newTop)"
+            },
+            {
+              "k": "method",
+              "n": "DefaultPushModalAnimation",
+              "s": "private static INavigationAnimationController DefaultPushModalAnimation(View pushedView, View curTop)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private AbsoluteLayout get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalContent",
+              "s": "public View get_ModalContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PopModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E get_PushModalAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scrim",
+              "s": "public View get_Scrim()"
+            },
+            {
+              "k": "method",
+              "n": "GetHigherAnchorIndex",
+              "s": "private Int32 GetHigherAnchorIndex(IReadOnlyList\u003CSingle\u003E anchors, Single startY, Single bottomY)"
+            },
+            {
+              "k": "method",
+              "n": "GetLowerAnchorIndex",
+              "s": "private Int32 GetLowerAnchorIndex(IReadOnlyList\u003CSingle\u003E anchors, Single startY, Single bottomY)"
+            },
+            {
+              "k": "method",
+              "n": "GetNearestAnchorIndex",
+              "s": "private Int32 GetNearestAnchorIndex(IReadOnlyList\u003CSingle\u003E anchors, Single currentY, Single bottomY)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "private Void OnAccessibilityActionReceived(Object sender, AccessibilityActionReceivedEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "OnModalContentAreaTouched",
+              "s": "private Void OnModalContentAreaTouched(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ScrimPressedChanged",
+              "s": "private Void ScrimPressedChanged(Object sender, EventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModalContent",
+              "s": "public Void set_ModalContent(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scrim",
+              "s": "public Void set_Scrim(View value)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private AbsoluteLayout Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModalContent",
+              "s": "public View ModalContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PopAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PopModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PopModalAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "PushModalAnimation",
+              "s": "public Func\u003CView, View, INavigationAnimationController\u003E PushModalAnimation { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Scrim",
+              "s": "public View Scrim { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

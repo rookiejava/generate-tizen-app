@@ -1,0 +1,519 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "LayoutExtensions",
+          "f": "Tizen.UI.Layouts.LayoutExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AdjustForFill",
+              "s": "internal static Size AdjustForFill(Size size, Rect bounds, ILayout view)"
+            },
+            {
+              "k": "method",
+              "n": "AlignHorizontal",
+              "s": "private static Single AlignHorizontal(View view, Rect bounds, Thickness margin)"
+            },
+            {
+              "k": "method",
+              "n": "AlignHorizontal",
+              "s": "private static Single AlignHorizontal(Single startX, Single startMargin, Single endMargin, Single boundsWidth, Single desiredWidth, LayoutAlignment horizontalLayoutAlignment)"
+            },
+            {
+              "k": "method",
+              "n": "AlignVertical",
+              "s": "private static Single AlignVertical(View view, Rect bounds, Thickness margin)"
+            },
+            {
+              "k": "method",
+              "n": "Arrange",
+              "s": "public static Void Arrange(View view, Rect rect, Boolean ignoreRTL)"
+            },
+            {
+              "k": "method",
+              "n": "Center",
+              "s": "public static TView Center\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterHorizontal",
+              "s": "public static TView CenterHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "CenterVertical",
+              "s": "public static TView CenterVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ComputeDesiredSize",
+              "s": "public static Size ComputeDesiredSize(View view, Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "ComputeFrame",
+              "s": "internal static Rect ComputeFrame(View view, Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "End",
+              "s": "public static TView End\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndHorizontal",
+              "s": "public static TView EndHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "EndVertical",
+              "s": "public static TView EndVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Expand",
+              "s": "public static TView Expand\u003CTView\u003E(TView view, Single weight) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Expand",
+              "s": "public static TView Expand\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Fill",
+              "s": "public static TView Fill\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FillHorizontal",
+              "s": "public static TView FillHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "FillVertical",
+              "s": "public static TView FillVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMaximumHeight",
+              "s": "internal static Single GetEffectiveMaximumHeight(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMaximumWidth",
+              "s": "internal static Single GetEffectiveMaximumWidth(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMinimumHeight",
+              "s": "internal static Single GetEffectiveMinimumHeight(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveMinimumWidth",
+              "s": "internal static Single GetEffectiveMinimumWidth(View view)"
+            },
+            {
+              "k": "method",
+              "n": "GetEffectiveParent",
+              "s": "internal static View GetEffectiveParent(View view)"
+            },
+            {
+              "k": "method",
+              "n": "HorizontalLayoutAlignment",
+              "s": "public static TView HorizontalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "ItemAlignment",
+              "s": "public static TView ItemAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : StackBase"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single horizontalSize, Single verticalSize) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Single uniformSize) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Margin",
+              "s": "public static TView Margin\u003CTView\u003E(TView view, Thickness margin) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MaximumHeight",
+              "s": "public static TView MaximumHeight\u003CTView\u003E(TView view, Single max) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MaximumWidth",
+              "s": "public static TView MaximumWidth\u003CTView\u003E(TView view, Single max) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MinimumHeight",
+              "s": "public static TView MinimumHeight\u003CTView\u003E(TView view, Single min) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "MinimumWidth",
+              "s": "public static TView MinimumWidth\u003CTView\u003E(TView view, Single min) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Padding",
+              "s": "public static TView Padding\u003CTView\u003E(TView view, Thickness padding) where TView : Layout"
+            },
+            {
+              "k": "method",
+              "n": "Padding",
+              "s": "public static TView Padding\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : Layout"
+            },
+            {
+              "k": "method",
+              "n": "ResolveMinMax",
+              "s": "internal static Single ResolveMinMax(Single size, Single min, Single max)"
+            },
+            {
+              "k": "method",
+              "n": "Start",
+              "s": "public static TView Start\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartHorizontal",
+              "s": "public static TView StartHorizontal\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "StartVertical",
+              "s": "public static TView StartVertical\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "Translate",
+              "s": "public static TView Translate\u003CTView\u003E(TView view, Single x, Single y) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TranslateX",
+              "s": "public static TView TranslateX\u003CTView\u003E(TView view, Single x) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TranslateY",
+              "s": "public static TView TranslateY\u003CTView\u003E(TView view, Single y) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "VerticalLayoutAlignment",
+              "s": "public static TView VerticalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "System.Single",
+      "n": "ResolveMinMax",
+      "s": "internal static Single ResolveMinMax(Single size, Single min, Single max)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "AdjustForFill",
+      "s": "internal static Size AdjustForFill(Size size, Rect bounds, ILayout view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Arrange",
+      "s": "public static Void Arrange(View view, Rect rect, Boolean ignoreRTL)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ComputeDesiredSize",
+      "s": "public static Size ComputeDesiredSize(View view, Single widthConstraint, Single heightConstraint)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "ComputeFrame",
+      "s": "internal static Rect ComputeFrame(View view, Rect bounds)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMaximumHeight",
+      "s": "internal static Single GetEffectiveMaximumHeight(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMaximumWidth",
+      "s": "internal static Single GetEffectiveMaximumWidth(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMinimumHeight",
+      "s": "internal static Single GetEffectiveMinimumHeight(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveMinimumWidth",
+      "s": "internal static Single GetEffectiveMinimumWidth(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "Tizen.UI.View",
+      "n": "GetEffectiveParent",
+      "s": "internal static View GetEffectiveParent(View view)"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Center",
+      "s": "public static TView Center\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "CenterHorizontal",
+      "s": "public static TView CenterHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "CenterVertical",
+      "s": "public static TView CenterVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "End",
+      "s": "public static TView End\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "EndHorizontal",
+      "s": "public static TView EndHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "EndVertical",
+      "s": "public static TView EndVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Expand",
+      "s": "public static TView Expand\u003CTView\u003E(TView view, Single weight) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Expand",
+      "s": "public static TView Expand\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Fill",
+      "s": "public static TView Fill\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "FillHorizontal",
+      "s": "public static TView FillHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "FillVertical",
+      "s": "public static TView FillVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "HorizontalLayoutAlignment",
+      "s": "public static TView HorizontalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "ItemAlignment",
+      "s": "public static TView ItemAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : StackBase"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single horizontalSize, Single verticalSize) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Single uniformSize) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Margin",
+      "s": "public static TView Margin\u003CTView\u003E(TView view, Thickness margin) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MaximumHeight",
+      "s": "public static TView MaximumHeight\u003CTView\u003E(TView view, Single max) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MaximumWidth",
+      "s": "public static TView MaximumWidth\u003CTView\u003E(TView view, Single max) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MinimumHeight",
+      "s": "public static TView MinimumHeight\u003CTView\u003E(TView view, Single min) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "MinimumWidth",
+      "s": "public static TView MinimumWidth\u003CTView\u003E(TView view, Single min) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Padding",
+      "s": "public static TView Padding\u003CTView\u003E(TView view, Thickness padding) where TView : Layout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Padding",
+      "s": "public static TView Padding\u003CTView\u003E(TView view, Single left, Single top, Single right, Single bottom) where TView : Layout"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Start",
+      "s": "public static TView Start\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "StartHorizontal",
+      "s": "public static TView StartHorizontal\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "StartVertical",
+      "s": "public static TView StartVertical\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "Translate",
+      "s": "public static TView Translate\u003CTView\u003E(TView view, Single x, Single y) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "TranslateX",
+      "s": "public static TView TranslateX\u003CTView\u003E(TView view, Single x) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "TranslateY",
+      "s": "public static TView TranslateY\u003CTView\u003E(TView view, Single y) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.LayoutExtensions",
+      "r": "TView",
+      "n": "VerticalLayoutAlignment",
+      "s": "public static TView VerticalLayoutAlignment\u003CTView\u003E(TView view, LayoutAlignment alignment) where TView : View"
+    }
+  ]
+}

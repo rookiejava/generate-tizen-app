@@ -1,0 +1,220 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "MarkdownStyle",
+          "f": "Tizen.UI.Markdown.MarkdownStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.MarkdownStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public MarkdownStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(MarkdownStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Code",
+              "s": "public CodeStyle get_Code()"
+            },
+            {
+              "k": "method",
+              "n": "get_Common",
+              "s": "public CommonStyle get_Common()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static MarkdownStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Heading",
+              "s": "public HeadingStyle get_Heading()"
+            },
+            {
+              "k": "method",
+              "n": "get_List",
+              "s": "public ListStyle get_List()"
+            },
+            {
+              "k": "method",
+              "n": "get_Paragraph",
+              "s": "public ParagraphStyle get_Paragraph()"
+            },
+            {
+              "k": "method",
+              "n": "get_Quote",
+              "s": "public QuoteStyle get_Quote()"
+            },
+            {
+              "k": "method",
+              "n": "get_Table",
+              "s": "public TableStyle get_Table()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreak",
+              "s": "public ThematicBreakStyle get_ThematicBreak()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(MarkdownStyle left, MarkdownStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(MarkdownStyle left, MarkdownStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Code",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Code(CodeStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Common",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Common(CommonStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Heading",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Heading(HeadingStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_List",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_List(ListStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Paragraph",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Paragraph(ParagraphStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Quote",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Quote(QuoteStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Table",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Table(TableStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreak",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ThematicBreak(ThematicBreakStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Code",
+              "s": "public CodeStyle Code { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Common",
+              "s": "public CommonStyle Common { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public MarkdownStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Heading",
+              "s": "public HeadingStyle Heading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "List",
+              "s": "public ListStyle List { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Paragraph",
+              "s": "public ParagraphStyle Paragraph { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Quote",
+              "s": "public QuoteStyle Quote { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Table",
+              "s": "public TableStyle Table { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreak",
+              "s": "public ThematicBreakStyle ThematicBreak { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

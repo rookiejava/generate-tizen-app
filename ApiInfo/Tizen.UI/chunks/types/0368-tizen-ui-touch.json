@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Touch",
+          "f": "Tizen.UI.Touch",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_DeviceId",
+              "s": "public Int32 get_DeviceId()"
+            },
+            {
+              "k": "method",
+              "n": "get_EllipseRadius",
+              "s": "public Point get_EllipseRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_HitActor",
+              "s": "internal NObject get_HitActor()"
+            },
+            {
+              "k": "method",
+              "n": "get_HitView",
+              "s": "public View get_HitView()"
+            },
+            {
+              "k": "method",
+              "n": "get_MouseButton",
+              "s": "public MouseButton get_MouseButton()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Pressure",
+              "s": "public Single get_Pressure()"
+            },
+            {
+              "k": "method",
+              "n": "get_Radius",
+              "s": "public Single get_Radius()"
+            },
+            {
+              "k": "method",
+              "n": "get_ScreenPosition",
+              "s": "public Point get_ScreenPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_State",
+              "s": "public TouchState get_State()"
+            },
+            {
+              "k": "property",
+              "n": "DeviceId",
+              "s": "public Int32 DeviceId { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EllipseRadius",
+              "s": "public Point EllipseRadius { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HitActor",
+              "s": "internal NObject HitActor { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HitView",
+              "s": "public View HitView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MouseButton",
+              "s": "public MouseButton MouseButton { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point Position { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Pressure",
+              "s": "public Single Pressure { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Radius",
+              "s": "public Single Radius { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ScreenPosition",
+              "s": "public Point ScreenPosition { get; }"
+            },
+            {
+              "k": "property",
+              "n": "State",
+              "s": "public TouchState State { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

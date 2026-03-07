@@ -1,0 +1,128 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Visuals",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Visuals.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Visuals.dll",
+  "g": "2026-03-07T11:20:28.6951099+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Visuals.Internal",
+      "t": [
+        {
+          "n": "RoundedVisualMap",
+          "f": "Tizen.UI.Visuals.Internal.RoundedVisualMap",
+          "k": "class",
+          "b": "Tizen.UI.Visuals.Internal.VisualMap",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineColor",
+              "s": "internal Void DirectUpdateBorderlineColor(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineOffset",
+              "s": "internal Void DirectUpdateBorderlineOffset(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateBorderlineWidth",
+              "s": "internal Void DirectUpdateBorderlineWidth(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateCornerRadius",
+              "s": "internal Void DirectUpdateCornerRadius(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "DirectUpdateCornerSquareness",
+              "s": "internal Void DirectUpdateCornerSquareness(IntPtr visualObject)"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineColor",
+              "s": "public Color get_BorderlineColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineOffset",
+              "s": "public Single get_BorderlineOffset()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderlineWidth",
+              "s": "public Single get_BorderlineWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public CornerRadius get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerSquareness",
+              "s": "public CornerRadius get_CornerSquareness()"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineColor",
+              "s": "public Void set_BorderlineColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineOffset",
+              "s": "public Void set_BorderlineOffset(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderlineWidth",
+              "s": "public Void set_BorderlineWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void set_CornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerSquareness",
+              "s": "public Void set_CornerSquareness(CornerRadius value)"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineColor",
+              "s": "public Color BorderlineColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineOffset",
+              "s": "public Single BorderlineOffset { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderlineWidth",
+              "s": "public Single BorderlineWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public CornerRadius CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerSquareness",
+              "s": "public CornerRadius CornerSquareness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,58 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "HoverEventArgs",
+          "f": "Tizen.UI.HoverEventArgs",
+          "k": "class",
+          "b": "System.EventArgs",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Handled",
+              "s": "public Boolean get_Handled()"
+            },
+            {
+              "k": "method",
+              "n": "get_Hover",
+              "s": "public HoverEvent get_Hover()"
+            },
+            {
+              "k": "method",
+              "n": "set_Handled",
+              "s": "public Void set_Handled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Hover",
+              "s": "public Void set_Hover(HoverEvent value)"
+            },
+            {
+              "k": "property",
+              "n": "Handled",
+              "s": "public Boolean Handled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Hover",
+              "s": "public HoverEvent Hover { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

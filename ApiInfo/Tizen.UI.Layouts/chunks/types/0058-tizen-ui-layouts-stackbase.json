@@ -1,0 +1,81 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "StackBase",
+          "f": "Tizen.UI.Layouts.StackBase",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.ILayout",
+            "Tizen.UI.Layouts.IStackLayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "get_Spacing",
+              "s": "public Single get_Spacing()"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAlignment",
+              "s": "public Void set_ItemAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Spacing",
+              "s": "public Void set_Spacing(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Spacing",
+              "s": "public Single Spacing { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

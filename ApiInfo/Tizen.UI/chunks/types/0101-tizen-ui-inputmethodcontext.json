@@ -1,0 +1,183 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "InputMethodContext",
+          "f": "Tizen.UI.InputMethodContext",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr cPtr, Boolean cMemoryOwn)"
+            },
+            {
+              "k": "event",
+              "n": "_resizedEventHandler",
+              "s": "private event EventHandler _resizedEventHandler"
+            },
+            {
+              "k": "event",
+              "n": "_statusChangedEventHandler",
+              "s": "private event EventHandler _statusChangedEventHandler"
+            },
+            {
+              "k": "event",
+              "n": "InputPanelStateChanged",
+              "s": "public event EventHandler InputPanelStateChanged"
+            },
+            {
+              "k": "event",
+              "n": "Resized",
+              "s": "public event EventHandler Resized"
+            },
+            {
+              "k": "method",
+              "n": "Activate",
+              "s": "public Void Activate()"
+            },
+            {
+              "k": "method",
+              "n": "add__resizedEventHandler",
+              "s": "private Void add__resizedEventHandler(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__statusChangedEventHandler",
+              "s": "private Void add__statusChangedEventHandler(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_InputPanelStateChanged",
+              "s": "public Void add_InputPanelStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Resized",
+              "s": "public Void add_Resized(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AutoEnableInputPanel",
+              "s": "public Void AutoEnableInputPanel(Boolean enabled)"
+            },
+            {
+              "k": "method",
+              "n": "Deactivate",
+              "s": "public Void Deactivate()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputMethodArea",
+              "s": "public Rect get_InputMethodArea()"
+            },
+            {
+              "k": "method",
+              "n": "get_InputPanelState",
+              "s": "public InputPanelState get_InputPanelState()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextPrediction",
+              "s": "public Boolean get_TextPrediction()"
+            },
+            {
+              "k": "method",
+              "n": "HideInputPanel",
+              "s": "public Void HideInputPanel()"
+            },
+            {
+              "k": "method",
+              "n": "NotifyTextInputMultiLine",
+              "s": "public Void NotifyTextInputMultiLine(Boolean multiLine)"
+            },
+            {
+              "k": "method",
+              "n": "OnResized",
+              "s": "private Void OnResized(Int32 resized)"
+            },
+            {
+              "k": "method",
+              "n": "OnStatusChanged",
+              "s": "private Void OnStatusChanged(Boolean statusChanged)"
+            },
+            {
+              "k": "method",
+              "n": "remove__resizedEventHandler",
+              "s": "private Void remove__resizedEventHandler(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__statusChangedEventHandler",
+              "s": "private Void remove__statusChangedEventHandler(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_InputPanelStateChanged",
+              "s": "public Void remove_InputPanelStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Resized",
+              "s": "public Void remove_Resized(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextPrediction",
+              "s": "public Void set_TextPrediction(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputPanelLanguage",
+              "s": "public Void SetInputPanelLanguage(InputPanelLanguage language)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputPanelPosition",
+              "s": "public Void SetInputPanelPosition(UInt32 x, UInt32 y)"
+            },
+            {
+              "k": "method",
+              "n": "SetInputPanelUserData",
+              "s": "public Void SetInputPanelUserData(String text)"
+            },
+            {
+              "k": "method",
+              "n": "SetReturnKeyState",
+              "s": "public Void SetReturnKeyState(Boolean visible)"
+            },
+            {
+              "k": "method",
+              "n": "ShowInputPanel",
+              "s": "public Void ShowInputPanel()"
+            },
+            {
+              "k": "property",
+              "n": "InputMethodArea",
+              "s": "public Rect InputMethodArea { get; }"
+            },
+            {
+              "k": "property",
+              "n": "InputPanelState",
+              "s": "public InputPanelState InputPanelState { get; }"
+            },
+            {
+              "k": "property",
+              "n": "TextPrediction",
+              "s": "public Boolean TextPrediction { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

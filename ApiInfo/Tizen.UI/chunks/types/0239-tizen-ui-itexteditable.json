@@ -1,0 +1,78 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "ITextEditable",
+          "f": "Tizen.UI.ITextEditable",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "TextChanged",
+              "s": "public event EventHandler TextChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_TextChanged",
+              "s": "public Void add_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "get_InputMethodContext",
+              "s": "public InputMethodContext get_InputMethodContext()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEditable",
+              "s": "public Boolean get_IsEditable()"
+            },
+            {
+              "k": "method",
+              "n": "get_PlaceholderText",
+              "s": "public String get_PlaceholderText()"
+            },
+            {
+              "k": "method",
+              "n": "remove_TextChanged",
+              "s": "public Void remove_TextChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsEditable",
+              "s": "public Void set_IsEditable(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PlaceholderText",
+              "s": "public Void set_PlaceholderText(String value)"
+            },
+            {
+              "k": "property",
+              "n": "InputMethodContext",
+              "s": "public InputMethodContext InputMethodContext { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsEditable",
+              "s": "public Boolean IsEditable { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PlaceholderText",
+              "s": "public String PlaceholderText { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,288 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Recycler",
+      "t": [
+        {
+          "n": "GroupItemSource",
+          "f": "Tizen.UI.Components.Recycler.GroupItemSource",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.Collections.ICollection",
+            "System.Collections.IEnumerable",
+            "System.Collections.IList",
+            "System.Collections.Specialized.INotifyCollectionChanged"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IEnumerable source)"
+            },
+            {
+              "k": "event",
+              "n": "CollectionChanged",
+              "s": "public event NotifyCollectionChangedEventHandler CollectionChanged"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Int32 Add(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "add_CollectionChanged",
+              "s": "public Void add_CollectionChanged(NotifyCollectionChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AddGroupItem",
+              "s": "private Void AddGroupItem(Object groupItem)"
+            },
+            {
+              "k": "method",
+              "n": "AdjustIndex",
+              "s": "private Int32 AdjustIndex(Int32 index, Int32 count)"
+            },
+            {
+              "k": "method",
+              "n": "BuildGroupSource",
+              "s": "private IList\u003CIList\u003E BuildGroupSource(IEnumerable groupsSource)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(Array array, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "CreateSource",
+              "s": "private static IList CreateSource(IEnumerable source)"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupCount",
+              "s": "public Int32 get_GroupCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_GroupHeaderFooterCount",
+              "s": "private Int32 get_GroupHeaderFooterCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasGroupFooter",
+              "s": "public Boolean get_HasGroupFooter()"
+            },
+            {
+              "k": "method",
+              "n": "get_HasGroupHeader",
+              "s": "public Boolean get_HasGroupHeader()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsFixedSize",
+              "s": "public Boolean get_IsFixedSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsSynchronized",
+              "s": "public Boolean get_IsSynchronized()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public Object get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "get_SyncRoot",
+              "s": "public Object get_SyncRoot()"
+            },
+            {
+              "k": "method",
+              "n": "GetAbsoluteIndex",
+              "s": "public Int32 GetAbsoluteIndex(Int32 group, Int32 ingroup)"
+            },
+            {
+              "k": "method",
+              "n": "GetChildrenCount",
+              "s": "public Int32 GetChildrenCount(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetCount",
+              "s": "private Int32 GetCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "GetGroupAndIndex",
+              "s": "public ValueTuple\u003CInt32, Int32\u003E GetGroupAndIndex(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetGroupItem",
+              "s": "public Object GetGroupItem(Int32 group)"
+            },
+            {
+              "k": "method",
+              "n": "GetItem",
+              "s": "private Object GetItem(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "HandleGroupCollectionAdded",
+              "s": "private Void HandleGroupCollectionAdded(Int32 startIndex, Object groupItem)"
+            },
+            {
+              "k": "method",
+              "n": "HandleGroupCollectionRemoved",
+              "s": "private Void HandleGroupCollectionRemoved(Object groupItem)"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, Object value)"
+            },
+            {
+              "k": "method",
+              "n": "InsertGroupItem",
+              "s": "private Void InsertGroupItem(Int32 index, Object groupItem)"
+            },
+            {
+              "k": "method",
+              "n": "OnCollectionChanged",
+              "s": "private Void OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnGroupCollectionChanged",
+              "s": "private Void OnGroupCollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_CollectionChanged",
+              "s": "public Void remove_CollectionChanged(NotifyCollectionChangedEventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveGroupItem",
+              "s": "private Void RemoveGroupItem(Object groupItem)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasGroupFooter",
+              "s": "public Void set_HasGroupFooter(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HasGroupHeader",
+              "s": "public Void set_HasGroupHeader(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, Object value)"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupCount",
+              "s": "public Int32 GroupCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "GroupHeaderFooterCount",
+              "s": "private Int32 GroupHeaderFooterCount { get; }"
+            },
+            {
+              "k": "property",
+              "n": "HasGroupFooter",
+              "s": "public Boolean HasGroupFooter { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HasGroupHeader",
+              "s": "public Boolean HasGroupHeader { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsFixedSize",
+              "s": "public Boolean IsFixedSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsSynchronized",
+              "s": "public Boolean IsSynchronized { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public Object Item { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "SyncRoot",
+              "s": "public Object SyncRoot { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

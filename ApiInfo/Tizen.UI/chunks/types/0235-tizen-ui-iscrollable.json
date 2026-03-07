@@ -1,0 +1,183 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "IScrollable",
+          "f": "Tizen.UI.IScrollable",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "event",
+              "n": "DragFinished",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragFinished"
+            },
+            {
+              "k": "event",
+              "n": "Dragging",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E Dragging"
+            },
+            {
+              "k": "event",
+              "n": "DragStarted",
+              "s": "public event EventHandler\u003CDragEventArgs\u003E DragStarted"
+            },
+            {
+              "k": "event",
+              "n": "ScrollFinished",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollFinished"
+            },
+            {
+              "k": "event",
+              "n": "Scrolling",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E Scrolling"
+            },
+            {
+              "k": "event",
+              "n": "ScrollStarted",
+              "s": "public event EventHandler\u003CScrollEventArgs\u003E ScrollStarted"
+            },
+            {
+              "k": "method",
+              "n": "add_DragFinished",
+              "s": "public Void add_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Dragging",
+              "s": "public Void add_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_DragStarted",
+              "s": "public Void add_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollFinished",
+              "s": "public Void add_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Scrolling",
+              "s": "public Void add_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScrollStarted",
+              "s": "public Void add_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollHorizontally",
+              "s": "public Boolean get_CanScrollHorizontally()"
+            },
+            {
+              "k": "method",
+              "n": "get_CanScrollVertically",
+              "s": "public Boolean get_CanScrollVertically()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToEnd",
+              "s": "public Boolean get_IsScrolledToEnd()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolledToStart",
+              "s": "public Boolean get_IsScrolledToStart()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScrolling",
+              "s": "public Boolean get_IsScrolling()"
+            },
+            {
+              "k": "method",
+              "n": "get_ViewPort",
+              "s": "public Rect get_ViewPort()"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragFinished",
+              "s": "public Void remove_DragFinished(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dragging",
+              "s": "public Void remove_Dragging(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DragStarted",
+              "s": "public Void remove_DragStarted(EventHandler\u003CDragEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollFinished",
+              "s": "public Void remove_ScrollFinished(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Scrolling",
+              "s": "public Void remove_Scrolling(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScrollStarted",
+              "s": "public Void remove_ScrollStarted(EventHandler\u003CScrollEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollBy",
+              "s": "public Task ScrollBy(Single dx, Single dy, Boolean animated)"
+            },
+            {
+              "k": "method",
+              "n": "ScrollTo",
+              "s": "public Task ScrollTo(Single x, Single y, Boolean animation)"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollHorizontally",
+              "s": "public Boolean CanScrollHorizontally { get; }"
+            },
+            {
+              "k": "property",
+              "n": "CanScrollVertically",
+              "s": "public Boolean CanScrollVertically { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToEnd",
+              "s": "public Boolean IsScrolledToEnd { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolledToStart",
+              "s": "public Boolean IsScrolledToStart { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScrolling",
+              "s": "public Boolean IsScrolling { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ViewPort",
+              "s": "public Rect ViewPort { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

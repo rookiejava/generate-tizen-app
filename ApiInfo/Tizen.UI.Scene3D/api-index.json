@@ -1,0 +1,3317 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Animatable3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IDisposable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateCustomValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateCustomValue(String propertyName, PropertyValueHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCustomValue",
+              "s": "public static AnimatablePropertyValue CreateCustomValue(String propertyName, Object value, Boolean useVector3)"
+            },
+            {
+              "k": "method",
+              "n": "CreateFieldOfViewValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateFieldOfViewValue(Single filedOfView)"
+            },
+            {
+              "k": "method",
+              "n": "CreateOpacityValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateOpacityValue(Single opacity)"
+            },
+            {
+              "k": "method",
+              "n": "CreateOrthographicSizeValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateOrthographicSizeValue(Single orthographicSize)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePosition3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreatePosition3DValue(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "CreatePropertyHandle",
+              "s": "protected static AnimatablePropertyHandle CreatePropertyHandle(T view, String propertyName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateRotation3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateRotation3DValue(Quaternion quaternion)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScale3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateScale3DValue(Size3D scale)"
+            },
+            {
+              "k": "method",
+              "n": "CreateScale3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateScale3DValue(Single scaleX, Single scaleY, Single scaleZ)"
+            },
+            {
+              "k": "method",
+              "n": "CreateSize3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateSize3DValue(Size3D size)"
+            },
+            {
+              "k": "method",
+              "n": "CreateSize3DValue",
+              "s": "public static Animatable3DPropertyValue\u003CT\u003E CreateSize3DValue(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "public Void Dispose()"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Animation3D",
+          "f": "Tizen.UI.Scene3D.Animation3D",
+          "k": "class",
+          "b": "Tizen.UI.Animation",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateBy",
+              "s": "public Void AnimateBy\u003CT\u003E(T target, Animatable3DPropertyValue\u003CT\u003E prop, Int32 delayMs, Int32 durationMs, AlphaFunction alpha) where T : SceneObject"
+            },
+            {
+              "k": "method",
+              "n": "AnimateTo",
+              "s": "public Void AnimateTo\u003CT\u003E(T target, Animatable3DPropertyValue\u003CT\u003E prop, Int32 delayMs, Int32 durationMs, AlphaFunction alpha) where T : SceneObject"
+            }
+          ]
+        },
+        {
+          "n": "BlendShapeIndex",
+          "f": "Tizen.UI.Scene3D.BlendShapeIndex",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.MotionIndex",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String nodeName, String blendShapeName)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String nodeName, Int32 blendShapeIndex)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateNativeHandle",
+              "s": "internal MotionIndexHandle GenerateNativeHandle()"
+            }
+          ]
+        },
+        {
+          "n": "Camera",
+          "f": "Tizen.UI.Scene3D.Camera",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_AspectRatio",
+              "s": "public Single get_AspectRatio()"
+            },
+            {
+              "k": "method",
+              "n": "get_FarPlaneDistance",
+              "s": "public Single get_FarPlaneDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_FieldOfView",
+              "s": "public Single get_FieldOfView()"
+            },
+            {
+              "k": "method",
+              "n": "get_NearPlaneDistance",
+              "s": "public Single get_NearPlaneDistance()"
+            },
+            {
+              "k": "method",
+              "n": "get_OrthographicSize",
+              "s": "public Single get_OrthographicSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ProjectionDirection",
+              "s": "public ProjectionDirection get_ProjectionDirection()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseOrthographicProjection",
+              "s": "public Boolean get_UseOrthographicProjection()"
+            },
+            {
+              "k": "method",
+              "n": "set_AspectRatio",
+              "s": "public Void set_AspectRatio(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FarPlaneDistance",
+              "s": "public Void set_FarPlaneDistance(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FieldOfView",
+              "s": "public Void set_FieldOfView(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NearPlaneDistance",
+              "s": "public Void set_NearPlaneDistance(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_OrthographicSize",
+              "s": "public Void set_OrthographicSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ProjectionDirection",
+              "s": "public Void set_ProjectionDirection(ProjectionDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseOrthographicProjection",
+              "s": "public Void set_UseOrthographicProjection(Boolean value)"
+            },
+            {
+              "k": "property",
+              "n": "AspectRatio",
+              "s": "public Single AspectRatio { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FarPlaneDistance",
+              "s": "public Single FarPlaneDistance { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FieldOfView",
+              "s": "public Single FieldOfView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NearPlaneDistance",
+              "s": "public Single NearPlaneDistance { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "OrthographicSize",
+              "s": "public Single OrthographicSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ProjectionDirection",
+              "s": "public ProjectionDirection ProjectionDirection { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UseOrthographicProjection",
+              "s": "public Boolean UseOrthographicProjection { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "CameraExtensions",
+          "f": "Tizen.UI.Scene3D.CameraExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ConvertFovFromHorizontalToVertical",
+              "s": "public static Single ConvertFovFromHorizontalToVertical(Camera camera, Single aspect, Single fieldOfView)"
+            },
+            {
+              "k": "method",
+              "n": "ConvertFovFromVerticalToHorizontal",
+              "s": "public static Single ConvertFovFromVerticalToHorizontal(Camera camera, Single aspect, Single fieldOfView)"
+            }
+          ]
+        },
+        {
+          "n": "CustomPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.CustomPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String propertyName, PropertyValueHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "FieldOfViewPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.FieldOfViewPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single fieldOfView)"
+            },
+            {
+              "k": "method",
+              "n": "get_FieldOfView",
+              "s": "public Single get_FieldOfView()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "FieldOfView",
+              "s": "public Single FieldOfView { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "IMotionData",
+          "f": "Tizen.UI.Scene3D.IMotionData",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "public MotionDataHandle CreateNativeHandle()"
+            }
+          ]
+        },
+        {
+          "n": "Interop",
+          "f": "Tizen.UI.Scene3D.Interop",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Light",
+          "f": "Tizen.UI.Scene3D.Light",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShadowEnabled",
+              "s": "public Boolean get_IsShadowEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsShadowSoftFilteringEnabled",
+              "s": "public Boolean get_IsShadowSoftFilteringEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShadowIntensity",
+              "s": "public Single get_ShadowIntensity()"
+            },
+            {
+              "k": "method",
+              "n": "set_IsShadowEnabled",
+              "s": "public Void set_IsShadowEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsShadowSoftFilteringEnabled",
+              "s": "public Void set_IsShadowSoftFilteringEnabled(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShadowIntensity",
+              "s": "public Void set_ShadowIntensity(Single value)"
+            },
+            {
+              "k": "property",
+              "n": "IsShadowEnabled",
+              "s": "public Boolean IsShadowEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsShadowSoftFilteringEnabled",
+              "s": "public Boolean IsShadowSoftFilteringEnabled { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShadowIntensity",
+              "s": "public Single ShadowIntensity { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Material",
+          "f": "Tizen.UI.Scene3D.Material",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlphaMode",
+              "s": "public MaterialAlphaMode get_AlphaMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaseColorFactor",
+              "s": "public Color get_BaseColorFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BaseColorUrl",
+              "s": "public String get_BaseColorUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_MetallicFactor",
+              "s": "public Single get_MetallicFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_MetallicRoughnessUrl",
+              "s": "public String get_MetallicRoughnessUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_NormalScale",
+              "s": "public Single get_NormalScale()"
+            },
+            {
+              "k": "method",
+              "n": "get_NormalUrl",
+              "s": "public String get_NormalUrl()"
+            },
+            {
+              "k": "method",
+              "n": "get_RoughnessFactor",
+              "s": "public Single get_RoughnessFactor()"
+            },
+            {
+              "k": "method",
+              "n": "GetProperty",
+              "s": "private PropertyValueHandle GetProperty(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlphaMode",
+              "s": "public Void set_AlphaMode(MaterialAlphaMode value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BaseColorFactor",
+              "s": "public Void set_BaseColorFactor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BaseColorUrl",
+              "s": "public Void set_BaseColorUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MetallicFactor",
+              "s": "public Void set_MetallicFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_MetallicRoughnessUrl",
+              "s": "public Void set_MetallicRoughnessUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NormalScale",
+              "s": "public Void set_NormalScale(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_NormalUrl",
+              "s": "public Void set_NormalUrl(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_RoughnessFactor",
+              "s": "public Void set_RoughnessFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "SetProperty",
+              "s": "private Void SetProperty(Int32 index, PropertyValueHandle propertyValue)"
+            },
+            {
+              "k": "property",
+              "n": "AlphaMode",
+              "s": "public MaterialAlphaMode AlphaMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BaseColorFactor",
+              "s": "public Color BaseColorFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BaseColorUrl",
+              "s": "public String BaseColorUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MetallicFactor",
+              "s": "public Single MetallicFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MetallicRoughnessUrl",
+              "s": "public String MetallicRoughnessUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NormalScale",
+              "s": "public Single NormalScale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "NormalUrl",
+              "s": "public String NormalUrl { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RoughnessFactor",
+              "s": "public Single RoughnessFactor { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "MaterialAlphaMode",
+          "f": "Tizen.UI.Scene3D.MaterialAlphaMode",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Model3D",
+          "f": "Tizen.UI.Scene3D.Model3D",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObjectGroup\u00601\u003CTizen.UI.Scene3D.SceneObject\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String modelUrl, String resourceDirectoryUrl)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_resourceReady",
+              "s": "private event EventHandler _resourceReady"
+            },
+            {
+              "k": "event",
+              "n": "_touchEvent",
+              "s": "private event EventHandler\u003CTouchEventArgs\u003E _touchEvent"
+            },
+            {
+              "k": "event",
+              "n": "KeyEvent",
+              "s": "public event EventHandler\u003CKeyEventArgs\u003E KeyEvent"
+            },
+            {
+              "k": "event",
+              "n": "ResourceReady",
+              "s": "public event EventHandler ResourceReady"
+            },
+            {
+              "k": "event",
+              "n": "TouchEvent",
+              "s": "public event EventHandler\u003CTouchEventArgs\u003E TouchEvent"
+            },
+            {
+              "k": "method",
+              "n": "add__resourceReady",
+              "s": "private Void add__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add__touchEvent",
+              "s": "private Void add__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_KeyEvent",
+              "s": "public Void add_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourceReady",
+              "s": "public Void add_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_TouchEvent",
+              "s": "public Void add_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyCamera",
+              "s": "public Boolean ApplyCamera(Int32 index, Camera camera)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsResourceReady",
+              "s": "public Boolean get_IsResourceReady()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_RootNode",
+              "s": "public ModelNode get_RootNode()"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimation",
+              "s": "public Animation3D GetAnimation(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimation",
+              "s": "public Animation3D GetAnimation(String name)"
+            },
+            {
+              "k": "method",
+              "n": "GetAnimationCount",
+              "s": "public Int32 GetAnimationCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetCameraCount",
+              "s": "public Int32 GetCameraCount()"
+            },
+            {
+              "k": "method",
+              "n": "GetRootNode",
+              "s": "private ModelNode GetRootNode()"
+            },
+            {
+              "k": "method",
+              "n": "LoadBvhAnimation",
+              "s": "public Animation3D LoadBvhAnimation(String bvhFilename, Vector3D scale, Boolean translateRootFromModelNode)"
+            },
+            {
+              "k": "method",
+              "n": "LoadMotionDataAnimation",
+              "s": "public Animation3D LoadMotionDataAnimation(IMotionData motionData)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Boolean OnTouchEvent(IntPtr sceneObject, IntPtr evt)"
+            },
+            {
+              "k": "method",
+              "n": "remove__resourceReady",
+              "s": "private Void remove__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove__touchEvent",
+              "s": "private Void remove__touchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_KeyEvent",
+              "s": "public Void remove_KeyEvent(EventHandler\u003CKeyEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourceReady",
+              "s": "public Void remove_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_TouchEvent",
+              "s": "public Void remove_TouchEvent(EventHandler\u003CTouchEventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "SendKeyEvent",
+              "s": "internal Void SendKeyEvent(KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "property",
+              "n": "IsResourceReady",
+              "s": "public Boolean IsResourceReady { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "RootNode",
+              "s": "public ModelNode RootNode { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Model3DExtensions",
+          "f": "Tizen.UI.Scene3D.Model3DExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetCalculateCurrentScreenRect",
+              "s": "public static Rect GetCalculateCurrentScreenRect(Model3D model)"
+            }
+          ]
+        },
+        {
+          "n": "ModelNode",
+          "f": "Tizen.UI.Scene3D.ModelNode",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObjectGroup\u00601\u003CTizen.UI.Scene3D.ModelNode\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__3_0",
+              "s": "ObservableCollection\u003CModelPrimitive\u003E \u003C.ctor\u003Eb__3_0()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModelPrimitives",
+              "s": "public IList\u003CModelPrimitive\u003E get_ModelPrimitives()"
+            },
+            {
+              "k": "method",
+              "n": "get_MultipliedColor",
+              "s": "public Color get_MultipliedColor()"
+            },
+            {
+              "k": "method",
+              "n": "GetChildModelNodeAt",
+              "s": "private ModelNode GetChildModelNodeAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetModelPrimitiveAt",
+              "s": "private ModelPrimitive GetModelPrimitiveAt(UInt32 index)"
+            },
+            {
+              "k": "method",
+              "n": "InitializeObservableCollection",
+              "s": "protected Void InitializeObservableCollection(ObservableCollection\u003CModelNode\u003E collection)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildPrimitiveAdded",
+              "s": "private Void OnChildPrimitiveAdded(ModelPrimitive primitive)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildPrimitiveRemoved",
+              "s": "private Void OnChildPrimitiveRemoved(ModelPrimitive primitive)"
+            },
+            {
+              "k": "method",
+              "n": "OnModelPrimitivesChanged",
+              "s": "private Void OnModelPrimitivesChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_MultipliedColor",
+              "s": "public Void set_MultipliedColor(Color value)"
+            },
+            {
+              "k": "property",
+              "n": "ModelPrimitives",
+              "s": "public IList\u003CModelPrimitive\u003E ModelPrimitives { get; }"
+            },
+            {
+              "k": "property",
+              "n": "MultipliedColor",
+              "s": "public Color MultipliedColor { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ModelPrimitive",
+          "f": "Tizen.UI.Scene3D.ModelPrimitive",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr cPtr, Boolean cMemoryOwn)"
+            },
+            {
+              "k": "method",
+              "n": "get_Geometry",
+              "s": "public Geometry get_Geometry()"
+            },
+            {
+              "k": "method",
+              "n": "get_Material",
+              "s": "public Material get_Material()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Void ReleaseHandle(IntPtr handle)"
+            },
+            {
+              "k": "method",
+              "n": "set_Geometry",
+              "s": "public Void set_Geometry(Geometry value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Material",
+              "s": "public Void set_Material(Material value)"
+            },
+            {
+              "k": "property",
+              "n": "Geometry",
+              "s": "public Geometry Geometry { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Material",
+              "s": "public Material Material { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionData",
+          "f": "Tizen.UI.Scene3D.MotionData",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "Tizen.UI.Scene3D.IMotionData"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateNativeHandle",
+              "s": "public MotionDataHandle CreateNativeHandle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Duration",
+              "s": "public Int32 get_Duration()"
+            },
+            {
+              "k": "method",
+              "n": "GetMotionValues",
+              "s": "internal IEnumerable\u003CValueTuple\u003CMotionIndexHandle, MotionValueHandle\u003E\u003E GetMotionValues()"
+            },
+            {
+              "k": "method",
+              "n": "set_Duration",
+              "s": "public Void set_Duration(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Duration",
+              "s": "public Int32 Duration { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionData\u00601",
+          "f": "Tizen.UI.Scene3D.MotionData\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.MotionData",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_MotionIndex",
+              "s": "public MotionIndex get_MotionIndex()"
+            },
+            {
+              "k": "method",
+              "n": "get_MotionValue",
+              "s": "public IList\u003CValueTuple\u003CSingle, T\u003E\u003E get_MotionValue()"
+            },
+            {
+              "k": "method",
+              "n": "GetMotionValues",
+              "s": "internal IEnumerable\u003CValueTuple\u003CMotionIndexHandle, MotionValueHandle\u003E\u003E GetMotionValues()"
+            },
+            {
+              "k": "method",
+              "n": "set_MotionIndex",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_MotionIndex(MotionIndex value)"
+            },
+            {
+              "k": "property",
+              "n": "MotionIndex",
+              "s": "public MotionIndex MotionIndex { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "MotionValue",
+              "s": "public IList\u003CValueTuple\u003CSingle, T\u003E\u003E MotionValue { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionDataSet",
+          "f": "Tizen.UI.Scene3D.MotionDataSet",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.MotionData",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DataSet",
+              "s": "public IList\u003CMotionData\u003E get_DataSet()"
+            },
+            {
+              "k": "method",
+              "n": "GetMotionValues",
+              "s": "internal IEnumerable\u003CValueTuple\u003CMotionIndexHandle, MotionValueHandle\u003E\u003E GetMotionValues()"
+            },
+            {
+              "k": "property",
+              "n": "DataSet",
+              "s": "public IList\u003CMotionData\u003E DataSet { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionIndex",
+          "f": "Tizen.UI.Scene3D.MotionIndex",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String blendShapeName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String nodeName, String blendShapeName)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBlendShapeIndex",
+              "s": "public static MotionIndex CreateBlendShapeIndex(String nodeName, Int32 blendShapeIndex)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTransformIndex",
+              "s": "public static MotionIndex CreateTransformIndex(TransformTypes type)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTransformIndex",
+              "s": "public static MotionIndex CreateTransformIndex(String nodeName, TransformTypes type)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateNativeHandle",
+              "s": "internal MotionIndexHandle GenerateNativeHandle()"
+            }
+          ]
+        },
+        {
+          "n": "OpacityPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.OpacityPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single opacity)"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "OrthographicSizePropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.OrthographicSizePropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single orthographicSize)"
+            },
+            {
+              "k": "method",
+              "n": "get_OrthographicSize",
+              "s": "public Single get_OrthographicSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "OrthographicSize",
+              "s": "public Single OrthographicSize { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Panel",
+          "f": "Tizen.UI.Scene3D.Panel",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [
+            "Tizen.UI.IParentObject"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Content",
+              "s": "public View get_Content()"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(View view)"
+            },
+            {
+              "k": "method",
+              "n": "set_Content",
+              "s": "public Void set_Content(View value)"
+            },
+            {
+              "k": "property",
+              "n": "Content",
+              "s": "public View Content { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Point3D",
+          "f": "Tizen.UI.Scene3D.Point3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Size3D sz)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y, Single\u0026 z)"
+            },
+            {
+              "k": "method",
+              "n": "Distance",
+              "s": "public Double Distance(Point3D other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsEmpty",
+              "s": "public Boolean get_IsEmpty()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Offset",
+              "s": "public Point3D Offset(Single dx, Single dy, Single dz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt1, Point3D pt2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt, Size3D sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Point3D op_Addition(Point3D pt, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Point3D ptA, Point3D ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Size3D op_Explicit(Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Vector3D op_Explicit(Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Point3D ptA, Point3D ptB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt1, Point3D pt2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt, Size3D sz)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Point3D op_Subtraction(Point3D pt, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Point3D Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "IsEmpty",
+              "s": "public Boolean IsEmpty { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Position3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Position3DPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ProjectionDirection",
+          "f": "Tizen.UI.Scene3D.ProjectionDirection",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Quaternion",
+          "f": "Tizen.UI.Scene3D.Quaternion",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z, Single w)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Vector3D axis, Single angleInDegree)"
+            },
+            {
+              "k": "method",
+              "n": "Concatenate",
+              "s": "public static Quaternion Concatenate(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "Conjugate",
+              "s": "public static Quaternion Conjugate(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "CreateFromAxisAngle",
+              "s": "public static Quaternion CreateFromAxisAngle(Vector3 axis, Single angle)"
+            },
+            {
+              "k": "method",
+              "n": "CreateFromRotationMatrix",
+              "s": "public static Quaternion CreateFromRotationMatrix(Matrix4x4 matrix)"
+            },
+            {
+              "k": "method",
+              "n": "CreateFromYawPitchRoll",
+              "s": "public static Quaternion CreateFromYawPitchRoll(Single yaw, Single pitch, Single roll)"
+            },
+            {
+              "k": "method",
+              "n": "Dot",
+              "s": "public static Single Dot(Quaternion quaternion1, Quaternion quaternion2)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Quaternion other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_Angle",
+              "s": "public Single get_Angle()"
+            },
+            {
+              "k": "method",
+              "n": "get_Axis",
+              "s": "public Vector3D get_Axis()"
+            },
+            {
+              "k": "method",
+              "n": "get_Identity",
+              "s": "public static Quaternion get_Identity()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsIdentity",
+              "s": "public Boolean get_IsIdentity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public Single get_Length()"
+            },
+            {
+              "k": "method",
+              "n": "get_LengthSquared",
+              "s": "public Single get_LengthSquared()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Inverse",
+              "s": "public static Quaternion Inverse(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "Lerp",
+              "s": "public static Quaternion Lerp(Quaternion quaternion1, Quaternion quaternion2, Single amount)"
+            },
+            {
+              "k": "method",
+              "n": "Normalize",
+              "s": "public static Quaternion Normalize(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Quaternion op_Addition(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static Quaternion op_Division(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Quaternion op_Multiply(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Quaternion op_Multiply(Quaternion value1, Single value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Quaternion op_Subtraction(Quaternion value1, Quaternion value2)"
+            },
+            {
+              "k": "method",
+              "n": "op_UnaryNegation",
+              "s": "public static Quaternion op_UnaryNegation(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "Slerp",
+              "s": "public static Quaternion Slerp(Quaternion quaternion1, Quaternion quaternion2, Single amount)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Angle",
+              "s": "public Single Angle { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Axis",
+              "s": "public Vector3D Axis { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Identity",
+              "s": "public Quaternion Identity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsIdentity",
+              "s": "public Boolean IsIdentity { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public Single Length { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LengthSquared",
+              "s": "public Single LengthSquared { get; }"
+            }
+          ]
+        },
+        {
+          "n": "QuaternionExtensions",
+          "f": "Tizen.UI.Scene3D.QuaternionExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Rotate",
+              "s": "public static Vector3D Rotate(Quaternion quaternion, Vector3D vector3D)"
+            },
+            {
+              "k": "method",
+              "n": "ToRotation",
+              "s": "internal static Rotation ToRotation(Quaternion quaternion)"
+            }
+          ]
+        },
+        {
+          "n": "Rotation3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Rotation3DPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Quaternion quaternion)"
+            },
+            {
+              "k": "method",
+              "n": "get_Quaternion",
+              "s": "public Quaternion get_Quaternion()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Quaternion",
+              "s": "public Quaternion Quaternion { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Scale3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Scale3DPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "get_Scale",
+              "s": "public Size3D get_Scale()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Scale",
+              "s": "public Size3D Scale { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "Scene3DView",
+          "f": "Tizen.UI.Scene3D.Scene3DView",
+          "k": "class",
+          "b": "Tizen.UI.ViewGroup",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "event",
+              "n": "_resourceReady",
+              "s": "private event EventHandler _resourceReady"
+            },
+            {
+              "k": "event",
+              "n": "CameraTransitionFinished",
+              "s": "public event EventHandler CameraTransitionFinished"
+            },
+            {
+              "k": "event",
+              "n": "ResourceReady",
+              "s": "public event EventHandler ResourceReady"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "add__resourceReady",
+              "s": "private Void add__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_CameraTransitionFinished",
+              "s": "public Void add_CameraTransitionFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ResourceReady",
+              "s": "public Void add_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateCameraTransition",
+              "s": "public Void AnimateCameraTransition(Camera camera, Int32 duration, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "AnimateCameraTransitionInternal",
+              "s": "private Void AnimateCameraTransitionInternal(Camera sourceCamera, Camera destinationCamera, Int32 duration, AlphaFunction alpha)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get_Cameras",
+              "s": "public IReadOnlyList\u003CCamera\u003E get_Cameras()"
+            },
+            {
+              "k": "method",
+              "n": "get_DefaultCamera",
+              "s": "public Camera get_DefaultCamera()"
+            },
+            {
+              "k": "method",
+              "n": "get_ImageBasedLightScaleFactor",
+              "s": "public Single get_ImageBasedLightScaleFactor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Lights",
+              "s": "public IReadOnlyList\u003CLight\u003E get_Lights()"
+            },
+            {
+              "k": "method",
+              "n": "get_Models",
+              "s": "public IReadOnlyList\u003CModel3D\u003E get_Models()"
+            },
+            {
+              "k": "method",
+              "n": "get_UseFramebuffer",
+              "s": "public Boolean get_UseFramebuffer()"
+            },
+            {
+              "k": "method",
+              "n": "GetCurrentCamera",
+              "s": "public Camera GetCurrentCamera()"
+            },
+            {
+              "k": "method",
+              "n": "IsChildModel",
+              "s": "private Boolean IsChildModel(Model3D model3D)"
+            },
+            {
+              "k": "method",
+              "n": "OnKeyEvent",
+              "s": "private Void OnKeyEvent(Object sender, KeyEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnResourceReady",
+              "s": "private Void OnResourceReady(IntPtr view)"
+            },
+            {
+              "k": "method",
+              "n": "OnTouchEvent",
+              "s": "private Void OnTouchEvent(Object sender, TouchEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Void Remove(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "remove__resourceReady",
+              "s": "private Void remove__resourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_CameraTransitionFinished",
+              "s": "public Void remove_CameraTransitionFinished(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ResourceReady",
+              "s": "public Void remove_ResourceReady(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ImageBasedLightScaleFactor",
+              "s": "public Void set_ImageBasedLightScaleFactor(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UseFramebuffer",
+              "s": "public Void set_UseFramebuffer(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "SetCurrentCamera",
+              "s": "public Void SetCurrentCamera(Camera camera)"
+            },
+            {
+              "k": "method",
+              "n": "SetImageBasedLightingSource",
+              "s": "public Void SetImageBasedLightingSource(String diffuseUrl, String specularUrl, Single scaleFactor)"
+            },
+            {
+              "k": "method",
+              "n": "SetKeyEventRouteTarget",
+              "s": "public Void SetKeyEventRouteTarget(Model3D model)"
+            },
+            {
+              "k": "property",
+              "n": "Cameras",
+              "s": "public IReadOnlyList\u003CCamera\u003E Cameras { get; }"
+            },
+            {
+              "k": "property",
+              "n": "DefaultCamera",
+              "s": "public Camera DefaultCamera { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ImageBasedLightScaleFactor",
+              "s": "public Single ImageBasedLightScaleFactor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Lights",
+              "s": "public IReadOnlyList\u003CLight\u003E Lights { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Models",
+              "s": "public IReadOnlyList\u003CModel3D\u003E Models { get; }"
+            },
+            {
+              "k": "property",
+              "n": "UseFramebuffer",
+              "s": "public Boolean UseFramebuffer { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "SceneObject",
+          "f": "Tizen.UI.Scene3D.SceneObject",
+          "k": "class",
+          "b": "Tizen.UI.NObject",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsVisible",
+              "s": "public Boolean get_IsVisible()"
+            },
+            {
+              "k": "method",
+              "n": "get_Name",
+              "s": "public String get_Name()"
+            },
+            {
+              "k": "method",
+              "n": "get_Opacity",
+              "s": "public Single get_Opacity()"
+            },
+            {
+              "k": "method",
+              "n": "get_Parent",
+              "s": "public SceneObject get_Parent()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentObject",
+              "s": "public NObject get_ParentObject()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParentOrigin",
+              "s": "public Point3D get_ParentOrigin()"
+            },
+            {
+              "k": "method",
+              "n": "get_PivotPoint",
+              "s": "public Point3D get_PivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public Point3D get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_PositionUsesPivotPoint",
+              "s": "public Boolean get_PositionUsesPivotPoint()"
+            },
+            {
+              "k": "method",
+              "n": "get_Rotation",
+              "s": "public Quaternion get_Rotation()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scale",
+              "s": "public Size3D get_Scale()"
+            },
+            {
+              "k": "method",
+              "n": "get_Size",
+              "s": "public Size3D get_Size()"
+            },
+            {
+              "k": "method",
+              "n": "LookAt",
+              "s": "public Void LookAt(Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsVisible",
+              "s": "public Void set_IsVisible(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Name",
+              "s": "public Void set_Name(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Opacity",
+              "s": "public Void set_Opacity(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParentOrigin",
+              "s": "public Void set_ParentOrigin(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PivotPoint",
+              "s": "public Void set_PivotPoint(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(Point3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_PositionUsesPivotPoint",
+              "s": "public Void set_PositionUsesPivotPoint(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Rotation",
+              "s": "public Void set_Rotation(Quaternion value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scale",
+              "s": "public Void set_Scale(Size3D value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Size",
+              "s": "public Void set_Size(Size3D value)"
+            },
+            {
+              "k": "property",
+              "n": "IsVisible",
+              "s": "public Boolean IsVisible { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Name",
+              "s": "public String Name { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Opacity",
+              "s": "public Single Opacity { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Parent",
+              "s": "public SceneObject Parent { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentObject",
+              "s": "public NObject ParentObject { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ParentOrigin",
+              "s": "public Point3D ParentOrigin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PivotPoint",
+              "s": "public Point3D PivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public Point3D Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "PositionUsesPivotPoint",
+              "s": "public Boolean PositionUsesPivotPoint { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Rotation",
+              "s": "public Quaternion Rotation { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Scale",
+              "s": "public Size3D Scale { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Size",
+              "s": "public Size3D Size { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "SceneObjectExtensions",
+          "f": "Tizen.UI.Scene3D.SceneObjectExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AddRenderer",
+              "s": "public static Int32 AddRenderer(SceneObject sceneObject, Renderer renderer)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererAt",
+              "s": "public static Renderer GetRendererAt(SceneObject sceneObject, Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetRendererCount",
+              "s": "public static Int32 GetRendererCount(SceneObject sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveRenderer",
+              "s": "public static Void RemoveRenderer(SceneObject sceneObject, Renderer renderer)"
+            }
+          ]
+        },
+        {
+          "n": "SceneObjectGroup\u00601",
+          "f": "Tizen.UI.Scene3D.SceneObjectGroup\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.SceneObject",
+          "i": [
+            "System.Collections.Generic.ICollection\u00601\u003CT\u003E",
+            "System.Collections.Generic.IEnumerable\u00601\u003CT\u003E",
+            "System.Collections.Generic.IList\u00601\u003CT\u003E",
+            "System.Collections.IEnumerable"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IntPtr handle, Boolean ownsHandle)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__4_0",
+              "s": "ObservableCollection\u003CT\u003E \u003C.ctor\u003Eb__4_0()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(T item)"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear()"
+            },
+            {
+              "k": "method",
+              "n": "Contains",
+              "s": "public Boolean Contains(T item)"
+            },
+            {
+              "k": "method",
+              "n": "CopyTo",
+              "s": "public Void CopyTo(T[] array, Int32 arrayIndex)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "get__children",
+              "s": "private Lazy\u003CObservableCollection\u003CT\u003E\u003E get__children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Children",
+              "s": "public IList\u003CT\u003E get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "get_Count",
+              "s": "public Int32 get_Count()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsReadOnly",
+              "s": "public Boolean get_IsReadOnly()"
+            },
+            {
+              "k": "method",
+              "n": "get_Item",
+              "s": "public T get_Item(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "GetEnumerator",
+              "s": "public IEnumerator\u003CT\u003E GetEnumerator()"
+            },
+            {
+              "k": "method",
+              "n": "IndexOf",
+              "s": "public Int32 IndexOf(T item)"
+            },
+            {
+              "k": "method",
+              "n": "InitializeObservableCollection",
+              "s": "protected Void InitializeObservableCollection(ObservableCollection\u003CT\u003E collection)"
+            },
+            {
+              "k": "method",
+              "n": "Insert",
+              "s": "public Void Insert(Int32 index, T item)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(T sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(T sceneObject)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildrenChanged",
+              "s": "private Void OnChildrenChanged(Object sender, NotifyCollectionChangedEventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(T item)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveAt",
+              "s": "public Void RemoveAt(Int32 index)"
+            },
+            {
+              "k": "method",
+              "n": "set__children",
+              "s": "private Void modreq(System.Runtime.CompilerServices.IsExternalInit) set__children(Lazy\u003CObservableCollection\u003CT\u003E\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Item",
+              "s": "public Void set_Item(Int32 index, T value)"
+            },
+            {
+              "k": "method",
+              "n": "System.Collections.IEnumerable.GetEnumerator",
+              "s": "IEnumerator System.Collections.IEnumerable.GetEnumerator()"
+            },
+            {
+              "k": "property",
+              "n": "_children",
+              "s": "private Lazy\u003CObservableCollection\u003CT\u003E\u003E _children { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Children",
+              "s": "public IList\u003CT\u003E Children { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Count",
+              "s": "public Int32 Count { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsReadOnly",
+              "s": "public Boolean IsReadOnly { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Item",
+              "s": "public T Item { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Size3D",
+          "f": "Tizen.UI.Scene3D.Size3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 x, Single\u0026 y, Single\u0026 z)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Size3D other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_IsZero",
+              "s": "public Boolean get_IsZero()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Size3D op_Addition(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Point3D op_Explicit(Size3D size)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Size3D op_Multiply(Size3D s1, Single value)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Size3D op_Subtraction(Size3D s1, Size3D s2)"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "IsZero",
+              "s": "public Boolean IsZero { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Size3DPropertyValue\u00601",
+          "f": "Tizen.UI.Scene3D.Size3DPropertyValue\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.Animatable3DPropertyValue\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Size3D size)"
+            },
+            {
+              "k": "method",
+              "n": "get_Size",
+              "s": "public Size3D get_Size()"
+            },
+            {
+              "k": "method",
+              "n": "get_Value",
+              "s": "public PropertyValueHandle get_Value()"
+            },
+            {
+              "k": "method",
+              "n": "GetTargetProperty",
+              "s": "public AnimatablePropertyHandle GetTargetProperty(T view)"
+            },
+            {
+              "k": "property",
+              "n": "Size",
+              "s": "public Size3D Size { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Value",
+              "s": "public PropertyValueHandle Value { get; }"
+            }
+          ]
+        },
+        {
+          "n": "TouchExtensions",
+          "f": "Tizen.UI.Scene3D.TouchExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetHitSceneObject",
+              "s": "public static SceneObject GetHitSceneObject(Touch touch)"
+            }
+          ]
+        },
+        {
+          "n": "TransformIndex",
+          "f": "Tizen.UI.Scene3D.TransformIndex",
+          "k": "class",
+          "b": "Tizen.UI.Scene3D.MotionIndex",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String nodeName, TransformTypes type)"
+            },
+            {
+              "k": "method",
+              "n": "GenerateNativeHandle",
+              "s": "internal MotionIndexHandle GenerateNativeHandle()"
+            }
+          ]
+        },
+        {
+          "n": "TransformTypes",
+          "f": "Tizen.UI.Scene3D.TransformTypes",
+          "k": "enum",
+          "b": "System.Enum",
+          "i": [],
+          "m": []
+        },
+        {
+          "n": "Vector3D",
+          "f": "Tizen.UI.Scene3D.Vector3D",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single x, Single y, Single z)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Point3D v)"
+            },
+            {
+              "k": "method",
+              "n": "AngleBetween",
+              "s": "public static Single AngleBetween(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Cross",
+              "s": "public static Vector3D Cross(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Cross",
+              "s": "internal static Void Cross(Vector3D\u0026 v1, Vector3D\u0026 v2, Vector3D\u0026 result)"
+            },
+            {
+              "k": "method",
+              "n": "Dot",
+              "s": "public static Single Dot(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "Dot",
+              "s": "internal static Single Dot(Vector3D\u0026 v1, Vector3D\u0026 v2)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object o)"
+            },
+            {
+              "k": "method",
+              "n": "get_Length",
+              "s": "public Single get_Length()"
+            },
+            {
+              "k": "method",
+              "n": "get_LengthSquared",
+              "s": "public Single get_LengthSquared()"
+            },
+            {
+              "k": "method",
+              "n": "get_X",
+              "s": "public Single get_X()"
+            },
+            {
+              "k": "method",
+              "n": "get_Y",
+              "s": "public Single get_Y()"
+            },
+            {
+              "k": "method",
+              "n": "get_Z",
+              "s": "public Single get_Z()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "Normalize",
+              "s": "public Void Normalize()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Vector3D op_Addition(Vector3D v1, Vector3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Vector3D op_Addition(Vector3D v1, Point3D v2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Division",
+              "s": "public static Vector3D op_Division(Vector3D v, Single scalar)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Vector3D vA, Vector3D vB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Point3D op_Explicit(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Vector3D vA, Vector3D vB)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Vector3D op_Multiply(Single scalar, Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Vector3D op_Subtraction(Vector3D v, Vector3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Vector3D op_Subtraction(Vector3D v, Point3D pt)"
+            },
+            {
+              "k": "method",
+              "n": "op_UnaryNegation",
+              "s": "public static Vector3D op_UnaryNegation(Vector3D v)"
+            },
+            {
+              "k": "method",
+              "n": "Round",
+              "s": "public Vector3D Round()"
+            },
+            {
+              "k": "method",
+              "n": "set_X",
+              "s": "public Void set_X(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Y",
+              "s": "public Void set_Y(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Z",
+              "s": "public Void set_Z(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Length",
+              "s": "public Single Length { get; }"
+            },
+            {
+              "k": "property",
+              "n": "LengthSquared",
+              "s": "public Single LengthSquared { get; }"
+            },
+            {
+              "k": "property",
+              "n": "X",
+              "s": "public Single X { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Y",
+              "s": "public Single Y { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Z",
+              "s": "public Single Z { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "Vector3DExtensions",
+          "f": "Tizen.UI.Scene3D.Vector3DExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToNative",
+              "s": "internal static ObjectPool\u003CVector3Handle\u003E ToNative(Vector3D v)"
+            }
+          ]
+        },
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Scene3D.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetRotation3D",
+              "s": "public static Quaternion GetRotation3D(NObject obj)"
+            },
+            {
+              "k": "method",
+              "n": "GetWorldRotation3D",
+              "s": "public static Quaternion GetWorldRotation3D(NObject obj)"
+            },
+            {
+              "k": "method",
+              "n": "LookAt",
+              "s": "public static Void LookAt(View view, Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+            },
+            {
+              "k": "method",
+              "n": "SetParentOrigin3D",
+              "s": "public static Void SetParentOrigin3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPivotPoint3D",
+              "s": "public static Void SetPivotPoint3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPosition3D",
+              "s": "public static Void SetPosition3D(View view, Point3D point)"
+            },
+            {
+              "k": "method",
+              "n": "SetPosition3D",
+              "s": "public static Void SetPosition3D(View view, Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "SetPositionZ",
+              "s": "public static Void SetPositionZ(View view, Single positionZ)"
+            },
+            {
+              "k": "method",
+              "n": "SetRotation3D",
+              "s": "public static Void SetRotation3D(View view, Quaternion quaternion)"
+            },
+            {
+              "k": "method",
+              "n": "SetScale3D",
+              "s": "public static Void SetScale3D(View view, Size3D scale)"
+            },
+            {
+              "k": "method",
+              "n": "SetScale3D",
+              "s": "public static Void SetScale3D(View view, Single x, Single y, Single z)"
+            },
+            {
+              "k": "method",
+              "n": "SetScaleZ",
+              "s": "public static Void SetScaleZ(View view, Single scaleZ)"
+            },
+            {
+              "k": "method",
+              "n": "SetSize3D",
+              "s": "public static Void SetSize3D(View view, Size3D size)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "Tizen.UI.Scene3D.NativeHandle",
+      "t": [
+        {
+          "n": "AnimationHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.AnimationHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "CameraHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.CameraHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MaterialHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.MaterialHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ModelNodeHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.ModelNodeHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "ModelPrimitiveHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.ModelPrimitiveHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionDataHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.MotionDataHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionIndexHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.MotionIndexHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MotionValueHandle",
+          "f": "Tizen.UI.Scene3D.NativeHandle.MotionValueHandle",
+          "k": "class",
+          "b": "System.Runtime.InteropServices.SafeHandle",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsInvalid",
+              "s": "public Boolean get_IsInvalid()"
+            },
+            {
+              "k": "method",
+              "n": "ReleaseHandle",
+              "s": "protected Boolean ReleaseHandle()"
+            },
+            {
+              "k": "property",
+              "n": "IsInvalid",
+              "s": "public Boolean IsInvalid { get; }"
+            }
+          ]
+        },
+        {
+          "n": "PropertyValueHandleExtensions",
+          "f": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Object value)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Point3D point3d)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Size3D size3d)"
+            },
+            {
+              "k": "method",
+              "n": "ToValue",
+              "s": "public static PropertyValueHandle ToValue(Quaternion quaternion)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "System.Object",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Object value)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.NObject",
+      "n": "GetRotation3D",
+      "s": "public static Quaternion GetRotation3D(NObject obj)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.NObject",
+      "n": "GetWorldRotation3D",
+      "s": "public static Quaternion GetWorldRotation3D(NObject obj)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.CameraExtensions",
+      "r": "Tizen.UI.Scene3D.Camera",
+      "n": "ConvertFovFromHorizontalToVertical",
+      "s": "public static Single ConvertFovFromHorizontalToVertical(Camera camera, Single aspect, Single fieldOfView)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.CameraExtensions",
+      "r": "Tizen.UI.Scene3D.Camera",
+      "n": "ConvertFovFromVerticalToHorizontal",
+      "s": "public static Single ConvertFovFromVerticalToHorizontal(Camera camera, Single aspect, Single fieldOfView)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Model3DExtensions",
+      "r": "Tizen.UI.Scene3D.Model3D",
+      "n": "GetCalculateCurrentScreenRect",
+      "s": "public static Rect GetCalculateCurrentScreenRect(Model3D model)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Point3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Point3D point3d)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.QuaternionExtensions",
+      "r": "Tizen.UI.Scene3D.Quaternion",
+      "n": "Rotate",
+      "s": "public static Vector3D Rotate(Quaternion quaternion, Vector3D vector3D)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.QuaternionExtensions",
+      "r": "Tizen.UI.Scene3D.Quaternion",
+      "n": "ToRotation",
+      "s": "internal static Rotation ToRotation(Quaternion quaternion)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Quaternion",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Quaternion quaternion)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "AddRenderer",
+      "s": "public static Int32 AddRenderer(SceneObject sceneObject, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererAt",
+      "s": "public static Renderer GetRendererAt(SceneObject sceneObject, Int32 index)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "GetRendererCount",
+      "s": "public static Int32 GetRendererCount(SceneObject sceneObject)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.SceneObjectExtensions",
+      "r": "Tizen.UI.Scene3D.SceneObject",
+      "n": "RemoveRenderer",
+      "s": "public static Void RemoveRenderer(SceneObject sceneObject, Renderer renderer)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D.NativeHandle",
+      "t": "Tizen.UI.Scene3D.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Scene3D.Size3D",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Size3D size3d)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Vector3DExtensions",
+      "r": "Tizen.UI.Scene3D.Vector3D",
+      "n": "ToNative",
+      "s": "internal static ObjectPool\u003CVector3Handle\u003E ToNative(Vector3D v)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.TouchExtensions",
+      "r": "Tizen.UI.Touch",
+      "n": "GetHitSceneObject",
+      "s": "public static SceneObject GetHitSceneObject(Touch touch)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "LookAt",
+      "s": "public static Void LookAt(View view, Vector3D target, Vector3D up, Vector3D localForward, Vector3D localUp)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetParentOrigin3D",
+      "s": "public static Void SetParentOrigin3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPivotPoint3D",
+      "s": "public static Void SetPivotPoint3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPosition3D",
+      "s": "public static Void SetPosition3D(View view, Point3D point)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPosition3D",
+      "s": "public static Void SetPosition3D(View view, Single x, Single y, Single z)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetPositionZ",
+      "s": "public static Void SetPositionZ(View view, Single positionZ)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetRotation3D",
+      "s": "public static Void SetRotation3D(View view, Quaternion quaternion)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScale3D",
+      "s": "public static Void SetScale3D(View view, Size3D scale)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScale3D",
+      "s": "public static Void SetScale3D(View view, Single x, Single y, Single z)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetScaleZ",
+      "s": "public static Void SetScaleZ(View view, Single scaleZ)"
+    },
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "SetSize3D",
+      "s": "public static Void SetSize3D(View view, Size3D size)"
+    }
+  ]
+}

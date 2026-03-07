@@ -1,0 +1,96 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "DpExtensions",
+          "f": "Tizen.UI.DpExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Dp",
+              "s": "public static UnitValue Dp(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Dp",
+              "s": "public static UnitValue Dp(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "Pt",
+              "s": "public static UnitValue Pt(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "Px",
+              "s": "public static UnitValue Px(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "Spx",
+              "s": "public static UnitValue Spx(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "Spx",
+              "s": "public static UnitValue Spx(Single value)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Int32",
+      "n": "Dp",
+      "s": "public static UnitValue Dp(Int32 value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Int32",
+      "n": "Px",
+      "s": "public static UnitValue Px(Int32 value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Int32",
+      "n": "Spx",
+      "s": "public static UnitValue Spx(Int32 value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Single",
+      "n": "Dp",
+      "s": "public static UnitValue Dp(Single value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Single",
+      "n": "Pt",
+      "s": "public static UnitValue Pt(Single value)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DpExtensions",
+      "r": "System.Single",
+      "n": "Spx",
+      "s": "public static UnitValue Spx(Single value)"
+    }
+  ]
+}

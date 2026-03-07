@@ -1,0 +1,38 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "FlexRootParam",
+          "f": "Tizen.UI.Layouts.FlexRootParam",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FlexItem",
+              "s": "internal Item get_FlexItem()"
+            },
+            {
+              "k": "property",
+              "n": "FlexItem",
+              "s": "internal Item FlexItem { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

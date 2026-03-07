@@ -1,0 +1,43 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "INavigationTransition",
+          "f": "Tizen.UI.Components.INavigationTransition",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "DidAppear",
+              "s": "public Void DidAppear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "DidDisappear",
+              "s": "public Void DidDisappear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "WillAppear",
+              "s": "public Void WillAppear(Boolean byPopNavigation)"
+            },
+            {
+              "k": "method",
+              "n": "WillDisappear",
+              "s": "public Void WillDisappear(Boolean byPopNavigation)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

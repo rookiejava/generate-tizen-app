@@ -1,0 +1,93 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Dialog",
+          "f": "Tizen.UI.Components.Material.Dialog",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DialogVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(DialogVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private VStack get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_BodyView",
+              "s": "public View get_BodyView()"
+            },
+            {
+              "k": "method",
+              "n": "get_FooterView",
+              "s": "public View get_FooterView()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeaderView",
+              "s": "public View get_HeaderView()"
+            },
+            {
+              "k": "method",
+              "n": "set_BodyView",
+              "s": "public Void set_BodyView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FooterView",
+              "s": "public Void set_FooterView(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeaderView",
+              "s": "public Void set_HeaderView(View value)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private VStack Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "BodyView",
+              "s": "public View BodyView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FooterView",
+              "s": "public View FooterView { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeaderView",
+              "s": "public View HeaderView { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

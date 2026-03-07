@@ -1,0 +1,118 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AccessibilityManager",
+          "f": "Tizen.UI.AccessibilityManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "event",
+              "n": "AccessibilityStateChanged",
+              "s": "public event EventHandler AccessibilityStateChanged"
+            },
+            {
+              "k": "event",
+              "n": "ScreenReaderStateChanged",
+              "s": "public event EventHandler ScreenReaderStateChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_AccessibilityStateChanged",
+              "s": "public static Void add_AccessibilityStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_ScreenReaderStateChanged",
+              "s": "public static Void add_ScreenReaderStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "AnnounceAsync",
+              "s": "public static Task\u003CAnnouncementState\u003E AnnounceAsync(String sentence, Boolean discardable)"
+            },
+            {
+              "k": "method",
+              "n": "CancelAnnouncement",
+              "s": "public static Void CancelAnnouncement()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsAccessibilityEnabled",
+              "s": "public static Boolean get_IsAccessibilityEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsScreenReaderEnabled",
+              "s": "public static Boolean get_IsScreenReaderEnabled()"
+            },
+            {
+              "k": "method",
+              "n": "GetHighlighted",
+              "s": "public static View GetHighlighted()"
+            },
+            {
+              "k": "method",
+              "n": "remove_AccessibilityStateChanged",
+              "s": "public static Void remove_AccessibilityStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_ScreenReaderStateChanged",
+              "s": "public static Void remove_ScreenReaderStateChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "SendChangedNameEvent",
+              "s": "public static Void SendChangedNameEvent(View view)"
+            },
+            {
+              "k": "method",
+              "n": "SendShowingEvent",
+              "s": "public static Void SendShowingEvent(View view, Boolean isShowing)"
+            },
+            {
+              "k": "method",
+              "n": "SetHighlight",
+              "s": "public static Boolean SetHighlight(View view)"
+            },
+            {
+              "k": "method",
+              "n": "SetHighlightIndicator",
+              "s": "public static Void SetHighlightIndicator(View indicator)"
+            },
+            {
+              "k": "method",
+              "n": "SetReadingInfo",
+              "s": "public static Void SetReadingInfo(View view, AccessibilityReadingInfo readingInfo)"
+            },
+            {
+              "k": "property",
+              "n": "IsAccessibilityEnabled",
+              "s": "public Boolean IsAccessibilityEnabled { get; }"
+            },
+            {
+              "k": "property",
+              "n": "IsScreenReaderEnabled",
+              "s": "public Boolean IsScreenReaderEnabled { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

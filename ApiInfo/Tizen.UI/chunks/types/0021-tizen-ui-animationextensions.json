@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "AnimationExtensions",
+          "f": "Tizen.UI.AnimationExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AnimateTo",
+              "s": "public static Task AnimateTo(View view, AnimatablePropertyValue value, Int32 duration)"
+            },
+            {
+              "k": "method",
+              "n": "MoveTo",
+              "s": "public static Task MoveTo(View view, Single x, Single y, Int32 duration)"
+            },
+            {
+              "k": "method",
+              "n": "RotateTo",
+              "s": "public static Task RotateTo(View view, Single rotate, Int32 duration)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AnimateTo",
+      "s": "public static Task AnimateTo(View view, AnimatablePropertyValue value, Int32 duration)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "MoveTo",
+      "s": "public static Task MoveTo(View view, Single x, Single y, Int32 duration)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.AnimationExtensions",
+      "r": "Tizen.UI.View",
+      "n": "RotateTo",
+      "s": "public static Task RotateTo(View view, Single rotate, Int32 duration)"
+    }
+  ]
+}

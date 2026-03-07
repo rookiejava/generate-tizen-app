@@ -1,0 +1,60 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "UIVectorExtensions",
+          "f": "Tizen.UI.Components.UIVectorExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "HasZero",
+              "s": "public static Boolean HasZero(Point vector2)"
+            },
+            {
+              "k": "method",
+              "n": "HasZero",
+              "s": "public static Boolean HasZero(Size vector2)"
+            },
+            {
+              "k": "method",
+              "n": "HasZeroSize",
+              "s": "public static Boolean HasZeroSize(Rect rect)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIVectorExtensions",
+      "r": "Tizen.UI.Point",
+      "n": "HasZero",
+      "s": "public static Boolean HasZero(Point vector2)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIVectorExtensions",
+      "r": "Tizen.UI.Rect",
+      "n": "HasZeroSize",
+      "s": "public static Boolean HasZeroSize(Rect rect)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.UIVectorExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "HasZero",
+      "s": "public static Boolean HasZero(Size vector2)"
+    }
+  ]
+}

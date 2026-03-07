@@ -1,0 +1,2790 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown",
+      "t": [
+        {
+          "n": "CodeStyle",
+          "f": "Tizen.UI.Markdown.CodeStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.CodeStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CodeStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public CodeStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(CodeStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public Single get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static CodeStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleBackgroundColor",
+              "s": "public Color get_TitleBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontColor",
+              "s": "public Color get_TitleFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontFamily",
+              "s": "public String get_TitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleFontSize",
+              "s": "public Single get_TitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(CodeStyle left, CodeStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(CodeStyle left, CodeStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleBackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleFontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_TitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public Single CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public CodeStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleBackgroundColor",
+              "s": "public Color TitleBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontColor",
+              "s": "public Color TitleFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontFamily",
+              "s": "public String TitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleFontSize",
+              "s": "public Single TitleFontSize { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "CommonStyle",
+          "f": "Tizen.UI.Markdown.CommonStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.CommonStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CommonStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public CommonStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(CommonStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static CommonStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Indent",
+              "s": "public Int32 get_Indent()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemPadding",
+              "s": "public Int32 get_ItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(CommonStyle left, CommonStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(CommonStyle left, CommonStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Indent",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Indent(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public CommonStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Indent",
+              "s": "public Int32 Indent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemPadding",
+              "s": "public Int32 ItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "HeadingStyle",
+          "f": "Tizen.UI.Markdown.HeadingStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.HeadingStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(HeadingStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public HeadingStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(HeadingStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static HeadingStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel1",
+              "s": "public Single get_FontSizeLevel1()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel2",
+              "s": "public Single get_FontSizeLevel2()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel3",
+              "s": "public Single get_FontSizeLevel3()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel4",
+              "s": "public Single get_FontSizeLevel4()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel5",
+              "s": "public Single get_FontSizeLevel5()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSizeLevel6",
+              "s": "public Single get_FontSizeLevel6()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(HeadingStyle left, HeadingStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(HeadingStyle left, HeadingStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel1",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel1(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel2",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel2(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel3",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel3(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel4",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel4(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel5",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel5(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSizeLevel6",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSizeLevel6(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public HeadingStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel1",
+              "s": "public Single FontSizeLevel1 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel2",
+              "s": "public Single FontSizeLevel2 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel3",
+              "s": "public Single FontSizeLevel3 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel4",
+              "s": "public Single FontSizeLevel4 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel5",
+              "s": "public Single FontSizeLevel5 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSizeLevel6",
+              "s": "public Single FontSizeLevel6 { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "IContainerBlock",
+          "f": "Tizen.UI.Markdown.IContainerBlock",
+          "k": "interface",
+          "b": null,
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Remove",
+              "s": "public Boolean Remove(View view)"
+            }
+          ]
+        },
+        {
+          "n": "ListStyle",
+          "f": "Tizen.UI.Markdown.ListStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ListStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ListStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ListStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ListStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ListStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemMarginBottom",
+              "s": "public Int32 get_ItemMarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemMarginTop",
+              "s": "public Int32 get_ItemMarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ListStyle left, ListStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ListStyle left, ListStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemMarginBottom",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemMarginBottom(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemMarginTop",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemMarginTop(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ListStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemMarginBottom",
+              "s": "public Int32 ItemMarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemMarginTop",
+              "s": "public Int32 ItemMarginTop { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "MarkdownParser",
+          "f": "Tizen.UI.Markdown.MarkdownParser",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "BuildPlainText",
+              "s": "private static Void BuildPlainText(Block block, StringBuilder sb)"
+            },
+            {
+              "k": "method",
+              "n": "GetInlinePlainText",
+              "s": "private static String GetInlinePlainText(ContainerInline inline)"
+            },
+            {
+              "k": "method",
+              "n": "MarkdownToPlainText",
+              "s": "public static String MarkdownToPlainText(String markdown)"
+            },
+            {
+              "k": "method",
+              "n": "Parse",
+              "s": "public static MarkdownDocument Parse(String markdown)"
+            }
+          ]
+        },
+        {
+          "n": "MarkdownStyle",
+          "f": "Tizen.UI.Markdown.MarkdownStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.MarkdownStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public MarkdownStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(MarkdownStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Code",
+              "s": "public CodeStyle get_Code()"
+            },
+            {
+              "k": "method",
+              "n": "get_Common",
+              "s": "public CommonStyle get_Common()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static MarkdownStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Heading",
+              "s": "public HeadingStyle get_Heading()"
+            },
+            {
+              "k": "method",
+              "n": "get_List",
+              "s": "public ListStyle get_List()"
+            },
+            {
+              "k": "method",
+              "n": "get_Paragraph",
+              "s": "public ParagraphStyle get_Paragraph()"
+            },
+            {
+              "k": "method",
+              "n": "get_Quote",
+              "s": "public QuoteStyle get_Quote()"
+            },
+            {
+              "k": "method",
+              "n": "get_Table",
+              "s": "public TableStyle get_Table()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreak",
+              "s": "public ThematicBreakStyle get_ThematicBreak()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(MarkdownStyle left, MarkdownStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(MarkdownStyle left, MarkdownStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Code",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Code(CodeStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Common",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Common(CommonStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Heading",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Heading(HeadingStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_List",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_List(ListStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Paragraph",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Paragraph(ParagraphStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Quote",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Quote(QuoteStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Table",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Table(TableStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreak",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ThematicBreak(ThematicBreakStyle value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Code",
+              "s": "public CodeStyle Code { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Common",
+              "s": "public CommonStyle Common { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public MarkdownStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Heading",
+              "s": "public HeadingStyle Heading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "List",
+              "s": "public ListStyle List { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Paragraph",
+              "s": "public ParagraphStyle Paragraph { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Quote",
+              "s": "public QuoteStyle Quote { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Table",
+              "s": "public TableStyle Table { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreak",
+              "s": "public ThematicBreakStyle ThematicBreak { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "MarkdownView",
+          "f": "Tizen.UI.Markdown.MarkdownView",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public MarkdownStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "Render",
+              "s": "public Void Render()"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public MarkdownStyle Style { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ParagraphStyle",
+          "f": "Tizen.UI.Markdown.ParagraphStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ParagraphStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ParagraphStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ParagraphStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ParagraphStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ParagraphStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_LineHeight",
+              "s": "public Single get_LineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_StrikethroughThickness",
+              "s": "public Int32 get_StrikethroughThickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ParagraphStyle left, ParagraphStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ParagraphStyle left, ParagraphStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_LineHeight",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_LineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_StrikethroughThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_StrikethroughThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ParagraphStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LineHeight",
+              "s": "public Single LineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "StrikethroughThickness",
+              "s": "public Int32 StrikethroughThickness { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "QuoteStyle",
+          "f": "Tizen.UI.Markdown.QuoteStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.QuoteStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(QuoteStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public QuoteStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(QuoteStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BarColor",
+              "s": "public Color get_BarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarCornerRadius",
+              "s": "public Single get_BarCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarMargin",
+              "s": "public Int32 get_BarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_BarWidth",
+              "s": "public Int32 get_BarWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static QuoteStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontColor",
+              "s": "public Color get_FontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(QuoteStyle left, QuoteStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(QuoteStyle left, QuoteStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarCornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarMargin",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BarWidth",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BarWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_FontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BarColor",
+              "s": "public Color BarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarCornerRadius",
+              "s": "public Single BarCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarMargin",
+              "s": "public Int32 BarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BarWidth",
+              "s": "public Int32 BarWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public QuoteStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "FontColor",
+              "s": "public Color FontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "StyleDefaults",
+          "f": "Tizen.UI.Markdown.StyleDefaults",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeBackgroundColor",
+              "s": "public static Color get_CodeBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeCornerRadius",
+              "s": "public static Single get_CodeCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontColor",
+              "s": "public static Color get_CodeFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontFamily",
+              "s": "public static String get_CodeFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeFontSize",
+              "s": "public static Single get_CodeFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodePadding",
+              "s": "public static Int32 get_CodePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleBackgroundColor",
+              "s": "public static Color get_CodeTitleBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontColor",
+              "s": "public static Color get_CodeTitleFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontFamily",
+              "s": "public static String get_CodeTitleFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_CodeTitleFontSize",
+              "s": "public static Single get_CodeTitleFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonIndent",
+              "s": "public static Int32 get_CommonIndent()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonItemPadding",
+              "s": "public static Int32 get_CommonItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_CommonPadding",
+              "s": "public static Int32 get_CommonPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontFamily",
+              "s": "public static String get_HeadingFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel1",
+              "s": "public static Single get_HeadingFontSizeLevel1()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel2",
+              "s": "public static Single get_HeadingFontSizeLevel2()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel3",
+              "s": "public static Single get_HeadingFontSizeLevel3()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel4",
+              "s": "public static Single get_HeadingFontSizeLevel4()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel5",
+              "s": "public static Single get_HeadingFontSizeLevel5()"
+            },
+            {
+              "k": "method",
+              "n": "get_HeadingFontSizeLevel6",
+              "s": "public static Single get_HeadingFontSizeLevel6()"
+            },
+            {
+              "k": "method",
+              "n": "get_ListItemMarginBottom",
+              "s": "public static Int32 get_ListItemMarginBottom()"
+            },
+            {
+              "k": "method",
+              "n": "get_ListItemMarginTop",
+              "s": "public static Int32 get_ListItemMarginTop()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontColor",
+              "s": "public static Color get_ParagraphFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontFamily",
+              "s": "public static String get_ParagraphFontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphFontSize",
+              "s": "public static Single get_ParagraphFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphLineHeight",
+              "s": "public static Single get_ParagraphLineHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ParagraphStrikethroughThickness",
+              "s": "public static Int32 get_ParagraphStrikethroughThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarColor",
+              "s": "public static Color get_QuoteBarColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarCornerRadius",
+              "s": "public static Single get_QuoteBarCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarMargin",
+              "s": "public static Int32 get_QuoteBarMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteBarWidth",
+              "s": "public static Int32 get_QuoteBarWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuoteFontColor",
+              "s": "public static Color get_QuoteFontColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_QuotePadding",
+              "s": "public static Int32 get_QuotePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBackgroundColor",
+              "s": "public static Color get_TableBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBorderColor",
+              "s": "public static Color get_TableBorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableBorderThickness",
+              "s": "public static Int32 get_TableBorderThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableCornerRadius",
+              "s": "public static Single get_TableCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_TableItemPadding",
+              "s": "public static Int32 get_TableItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_TablePadding",
+              "s": "public static Int32 get_TablePadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakColor",
+              "s": "public static Color get_ThematicBreakColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakMargin",
+              "s": "public static Int32 get_ThematicBreakMargin()"
+            },
+            {
+              "k": "method",
+              "n": "get_ThematicBreakThickness",
+              "s": "public static Int32 get_ThematicBreakThickness()"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeBackgroundColor",
+              "s": "public static Void set_CodeBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeCornerRadius",
+              "s": "public static Void set_CodeCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontColor",
+              "s": "public static Void set_CodeFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontFamily",
+              "s": "public static Void set_CodeFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeFontSize",
+              "s": "public static Void set_CodeFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodePadding",
+              "s": "public static Void set_CodePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleBackgroundColor",
+              "s": "public static Void set_CodeTitleBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontColor",
+              "s": "public static Void set_CodeTitleFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontFamily",
+              "s": "public static Void set_CodeTitleFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CodeTitleFontSize",
+              "s": "public static Void set_CodeTitleFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonIndent",
+              "s": "public static Void set_CommonIndent(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonItemPadding",
+              "s": "public static Void set_CommonItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CommonPadding",
+              "s": "public static Void set_CommonPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontFamily",
+              "s": "public static Void set_HeadingFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel1",
+              "s": "public static Void set_HeadingFontSizeLevel1(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel2",
+              "s": "public static Void set_HeadingFontSizeLevel2(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel3",
+              "s": "public static Void set_HeadingFontSizeLevel3(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel4",
+              "s": "public static Void set_HeadingFontSizeLevel4(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel5",
+              "s": "public static Void set_HeadingFontSizeLevel5(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HeadingFontSizeLevel6",
+              "s": "public static Void set_HeadingFontSizeLevel6(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ListItemMarginBottom",
+              "s": "public static Void set_ListItemMarginBottom(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ListItemMarginTop",
+              "s": "public static Void set_ListItemMarginTop(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontColor",
+              "s": "public static Void set_ParagraphFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontFamily",
+              "s": "public static Void set_ParagraphFontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphFontSize",
+              "s": "public static Void set_ParagraphFontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphLineHeight",
+              "s": "public static Void set_ParagraphLineHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ParagraphStrikethroughThickness",
+              "s": "public static Void set_ParagraphStrikethroughThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarColor",
+              "s": "public static Void set_QuoteBarColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarCornerRadius",
+              "s": "public static Void set_QuoteBarCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarMargin",
+              "s": "public static Void set_QuoteBarMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteBarWidth",
+              "s": "public static Void set_QuoteBarWidth(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuoteFontColor",
+              "s": "public static Void set_QuoteFontColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_QuotePadding",
+              "s": "public static Void set_QuotePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBackgroundColor",
+              "s": "public static Void set_TableBackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBorderColor",
+              "s": "public static Void set_TableBorderColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableBorderThickness",
+              "s": "public static Void set_TableBorderThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableCornerRadius",
+              "s": "public static Void set_TableCornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TableItemPadding",
+              "s": "public static Void set_TableItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TablePadding",
+              "s": "public static Void set_TablePadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakColor",
+              "s": "public static Void set_ThematicBreakColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakMargin",
+              "s": "public static Void set_ThematicBreakMargin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ThematicBreakThickness",
+              "s": "public static Void set_ThematicBreakThickness(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "CodeBackgroundColor",
+              "s": "public Color CodeBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeCornerRadius",
+              "s": "public Single CodeCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontColor",
+              "s": "public Color CodeFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontFamily",
+              "s": "public String CodeFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeFontSize",
+              "s": "public Single CodeFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodePadding",
+              "s": "public Int32 CodePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleBackgroundColor",
+              "s": "public Color CodeTitleBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontColor",
+              "s": "public Color CodeTitleFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontFamily",
+              "s": "public String CodeTitleFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CodeTitleFontSize",
+              "s": "public Single CodeTitleFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonIndent",
+              "s": "public Int32 CommonIndent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonItemPadding",
+              "s": "public Int32 CommonItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CommonPadding",
+              "s": "public Int32 CommonPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontFamily",
+              "s": "public String HeadingFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel1",
+              "s": "public Single HeadingFontSizeLevel1 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel2",
+              "s": "public Single HeadingFontSizeLevel2 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel3",
+              "s": "public Single HeadingFontSizeLevel3 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel4",
+              "s": "public Single HeadingFontSizeLevel4 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel5",
+              "s": "public Single HeadingFontSizeLevel5 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HeadingFontSizeLevel6",
+              "s": "public Single HeadingFontSizeLevel6 { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ListItemMarginBottom",
+              "s": "public Int32 ListItemMarginBottom { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ListItemMarginTop",
+              "s": "public Int32 ListItemMarginTop { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontColor",
+              "s": "public Color ParagraphFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontFamily",
+              "s": "public String ParagraphFontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphFontSize",
+              "s": "public Single ParagraphFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphLineHeight",
+              "s": "public Single ParagraphLineHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ParagraphStrikethroughThickness",
+              "s": "public Int32 ParagraphStrikethroughThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarColor",
+              "s": "public Color QuoteBarColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarCornerRadius",
+              "s": "public Single QuoteBarCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarMargin",
+              "s": "public Int32 QuoteBarMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteBarWidth",
+              "s": "public Int32 QuoteBarWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuoteFontColor",
+              "s": "public Color QuoteFontColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "QuotePadding",
+              "s": "public Int32 QuotePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBackgroundColor",
+              "s": "public Color TableBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBorderColor",
+              "s": "public Color TableBorderColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableBorderThickness",
+              "s": "public Int32 TableBorderThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableCornerRadius",
+              "s": "public Single TableCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TableItemPadding",
+              "s": "public Int32 TableItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TablePadding",
+              "s": "public Int32 TablePadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakColor",
+              "s": "public Color ThematicBreakColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakMargin",
+              "s": "public Int32 ThematicBreakMargin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ThematicBreakThickness",
+              "s": "public Int32 ThematicBreakThickness { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "TableStyle",
+          "f": "Tizen.UI.Markdown.TableStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.TableStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TableStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public TableStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(TableStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_BackgroundColor",
+              "s": "public Color get_BackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderColor",
+              "s": "public Color get_BorderColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_BorderThickness",
+              "s": "public Int32 get_BorderThickness()"
+            },
+            {
+              "k": "method",
+              "n": "get_CornerRadius",
+              "s": "public Single get_CornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static TableStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemPadding",
+              "s": "public Int32 get_ItemPadding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Int32 get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(TableStyle left, TableStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(TableStyle left, TableStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_BackgroundColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BackgroundColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderColor",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BorderColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_BorderThickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_BorderThickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_CornerRadius",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_CornerRadius(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemPadding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_ItemPadding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Padding(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "BackgroundColor",
+              "s": "public Color BackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderColor",
+              "s": "public Color BorderColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "BorderThickness",
+              "s": "public Int32 BorderThickness { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "CornerRadius",
+              "s": "public Single CornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public TableStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemPadding",
+              "s": "public Int32 ItemPadding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Int32 Padding { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "ThematicBreakStyle",
+          "f": "Tizen.UI.Markdown.ThematicBreakStyle",
+          "k": "class",
+          "b": "System.Object",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Markdown.ThematicBreakStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ThematicBreakStyle original)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "\u003CClone\u003E$",
+              "s": "public ThematicBreakStyle \u003CClone\u003E$()"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(ThematicBreakStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Color get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_Default",
+              "s": "public static ThematicBreakStyle get_Default()"
+            },
+            {
+              "k": "method",
+              "n": "get_EqualityContract",
+              "s": "protected Type get_EqualityContract()"
+            },
+            {
+              "k": "method",
+              "n": "get_Margin",
+              "s": "public Int32 get_Margin()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Int32 get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(ThematicBreakStyle left, ThematicBreakStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(ThematicBreakStyle left, ThematicBreakStyle right)"
+            },
+            {
+              "k": "method",
+              "n": "PrintMembers",
+              "s": "protected Boolean PrintMembers(StringBuilder builder)"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Color(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Margin",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Margin(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void modreq(System.Runtime.CompilerServices.IsExternalInit) set_Thickness(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Color Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Default",
+              "s": "public ThematicBreakStyle Default { get; }"
+            },
+            {
+              "k": "property",
+              "n": "EqualityContract",
+              "s": "protected Type EqualityContract { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Margin",
+              "s": "public Int32 Margin { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Int32 Thickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "MarkdownUIBuilder",
+          "f": "Tizen.UI.Markdown.MarkdownUI.MarkdownUIBuilder",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(MarkdownStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "AppendEscaped",
+              "s": "private static Void AppendEscaped(StringBuilder sb, String text, Int32 start, Int32 length)"
+            },
+            {
+              "k": "method",
+              "n": "Build",
+              "s": "public Void Build(Block block, IContainerBlock parent, StringBuilder path, Int32 childIndex)"
+            },
+            {
+              "k": "method",
+              "n": "CreateContainer",
+              "s": "private View CreateContainer(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "CreateLeaf",
+              "s": "private View CreateLeaf(Block block, String text)"
+            },
+            {
+              "k": "method",
+              "n": "get_CacheManager",
+              "s": "private MarkdownUICacheManager get_CacheManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public MarkdownStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "GetIndent",
+              "s": "private Int32 GetIndent(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "GetInlineText",
+              "s": "private String GetInlineText(ContainerInline inline)"
+            },
+            {
+              "k": "method",
+              "n": "GetListDepth",
+              "s": "private Int32 GetListDepth(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "IsUpdatable",
+              "s": "private static Boolean IsUpdatable(Block block)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveUnusedViews",
+              "s": "public Void RemoveUnusedViews()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateLeaf",
+              "s": "private Void UpdateLeaf(View view, Block block, String text)"
+            },
+            {
+              "k": "property",
+              "n": "CacheManager",
+              "s": "private MarkdownUICacheManager CacheManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public MarkdownStyle Style { get; }"
+            }
+          ]
+        },
+        {
+          "n": "MarkdownUICacheManager",
+          "f": "Tizen.UI.Markdown.MarkdownUI.MarkdownUICacheManager",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public Void Add(String key, View value)"
+            },
+            {
+              "k": "method",
+              "n": "CreateKey",
+              "s": "public static String CreateKey(Block block, String path)"
+            },
+            {
+              "k": "method",
+              "n": "Get",
+              "s": "public View Get(String key)"
+            },
+            {
+              "k": "method",
+              "n": "MarkVisited",
+              "s": "public Void MarkVisited(String key)"
+            },
+            {
+              "k": "method",
+              "n": "RemoveUnusedViews",
+              "s": "public Void RemoveUnusedViews()"
+            }
+          ]
+        },
+        {
+          "n": "UICode",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UICode",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String language, String text, Int32 indent, CodeStyle codeStyle)"
+            },
+            {
+              "k": "method",
+              "n": "CreateCode",
+              "s": "private static View CreateCode(String text, CodeStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateTitle",
+              "s": "private static View CreateTitle(String text, CodeStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Code",
+              "s": "public String get_Code()"
+            },
+            {
+              "k": "method",
+              "n": "get_ContentHash",
+              "s": "public Int32 get_ContentHash()"
+            },
+            {
+              "k": "method",
+              "n": "get_Language",
+              "s": "public String get_Language()"
+            },
+            {
+              "k": "method",
+              "n": "set_Code",
+              "s": "public Void set_Code(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ContentHash",
+              "s": "public Void set_ContentHash(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Language",
+              "s": "public Void set_Language(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Code",
+              "s": "public String Code { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ContentHash",
+              "s": "public Int32 ContentHash { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Language",
+              "s": "public String Language { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "UIContainer",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIContainer",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CommonStyle style)"
+            }
+          ]
+        },
+        {
+          "n": "UIHeading",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIHeading",
+          "k": "class",
+          "b": "Tizen.UI.Markdown.MarkdownUI.UIParagraph",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, Int32 level, HeadingStyle headingStyle, ParagraphStyle paragraphStyle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Level",
+              "s": "public Int32 get_Level()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "private HeadingStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "set_Level",
+              "s": "public Void set_Level(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Level",
+              "s": "public Int32 Level { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "private HeadingStyle Style { get; }"
+            }
+          ]
+        },
+        {
+          "n": "UIList",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIList",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "GetBulletMargin",
+              "s": "public static Single GetBulletMargin(Int32 bulletSize, ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetBulletSize",
+              "s": "public static Int32 GetBulletSize(ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberPadding",
+              "s": "public static Single GetNumberPadding(ParagraphStyle paragraph)"
+            },
+            {
+              "k": "method",
+              "n": "GetNumberSize",
+              "s": "public static Int32 GetNumberSize(ParagraphStyle paragraph)"
+            }
+          ]
+        },
+        {
+          "n": "UIListItem",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIListItem",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(CommonStyle commonStyle)"
+            }
+          ]
+        },
+        {
+          "n": "UIListItemParagraph",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIListItemParagraph",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.HStack",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, Boolean isOrdered, Int32 numberOrDepth, ListStyle listStyle, ParagraphStyle paragraphStyle)"
+            },
+            {
+              "k": "method",
+              "n": "ApplyBulletStyle",
+              "s": "private static Void ApplyBulletStyle(View bullet, Int32 depth, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBullet",
+              "s": "private static View CreateBullet(Int32 depth, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "CreateNumber",
+              "s": "private static View CreateNumber(Int32 number, ParagraphStyle style)"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            }
+          ]
+        },
+        {
+          "n": "UIParagraph",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIParagraph",
+          "k": "class",
+          "b": "Tizen.UI.TextView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, ParagraphStyle paragraphStyle)"
+            }
+          ]
+        },
+        {
+          "n": "UIQuote",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIQuote",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.HStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Boolean isHeader, Int32 indent, QuoteStyle quoteStyle, CommonStyle commonStyle, ParagraphStyle paragraphStyle)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Markdown.IContainerBlock.Add",
+              "s": "Void Tizen.UI.Markdown.IContainerBlock.Add(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Markdown.IContainerBlock.Remove",
+              "s": "Boolean Tizen.UI.Markdown.IContainerBlock.Remove(View view)"
+            }
+          ]
+        },
+        {
+          "n": "UIQuoteBar",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIQuoteBar",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(QuoteStyle quoteStyle, Int32 barMargin)"
+            }
+          ]
+        },
+        {
+          "n": "UIQuoteParagraph",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIQuoteParagraph",
+          "k": "class",
+          "b": "Tizen.UI.Markdown.MarkdownUI.UIParagraph",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, QuoteStyle quoteStyle, ParagraphStyle paragraphStyle)"
+            }
+          ]
+        },
+        {
+          "n": "UITable",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UITable",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TableStyle tableStyle)"
+            }
+          ]
+        },
+        {
+          "n": "UITableCell",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UITableCell",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.VStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TableStyle style)"
+            }
+          ]
+        },
+        {
+          "n": "UITableHeaderRow",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UITableHeaderRow",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Grid",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TableStyle tableStyle)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Markdown.IContainerBlock.Add",
+              "s": "Void Tizen.UI.Markdown.IContainerBlock.Add(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Markdown.IContainerBlock.Remove",
+              "s": "Boolean Tizen.UI.Markdown.IContainerBlock.Remove(View view)"
+            }
+          ]
+        },
+        {
+          "n": "UITableRow",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UITableRow",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.HStack",
+          "i": [
+            "Tizen.UI.Markdown.IContainerBlock"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TableStyle tableStyle)"
+            }
+          ]
+        },
+        {
+          "n": "UIThematicBreak",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIThematicBreak",
+          "k": "class",
+          "b": "Tizen.UI.View",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ThematicBreakStyle thematicBreakStyle)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,36 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Scene3D",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Scene3D.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Scene3D.dll",
+  "g": "2026-03-07T11:20:28.6699321+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Scene3D",
+      "t": [
+        {
+          "n": "Model3DExtensions",
+          "f": "Tizen.UI.Scene3D.Model3DExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "GetCalculateCurrentScreenRect",
+              "s": "public static Rect GetCalculateCurrentScreenRect(Model3D model)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Scene3D",
+      "t": "Tizen.UI.Scene3D.Model3DExtensions",
+      "r": "Tizen.UI.Scene3D.Model3D",
+      "n": "GetCalculateCurrentScreenRect",
+      "s": "public static Rect GetCalculateCurrentScreenRect(Model3D model)"
+    }
+  ]
+}

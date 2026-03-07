@@ -1,0 +1,83 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "TabBar\u00601",
+          "f": "Tizen.UI.Components.Material.TabBar\u00601",
+          "k": "class",
+          "b": "Tizen.UI.Components.SelectionGroupBox\u00601\u003CT\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(TabBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(TabBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "CreateBody",
+              "s": "protected Layout CreateBody()"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private HStack get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_ItemAlignment",
+              "s": "public LayoutAlignment get_ItemAlignment()"
+            },
+            {
+              "k": "method",
+              "n": "HasBottomBorderline",
+              "s": "private Boolean HasBottomBorderline(TabBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "HasTopBorderline",
+              "s": "private Boolean HasTopBorderline(TabBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(Int32 index, T item)"
+            },
+            {
+              "k": "method",
+              "n": "set_ItemAlignment",
+              "s": "public Void set_ItemAlignment(LayoutAlignment value)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private HStack Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ItemAlignment",
+              "s": "public LayoutAlignment ItemAlignment { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

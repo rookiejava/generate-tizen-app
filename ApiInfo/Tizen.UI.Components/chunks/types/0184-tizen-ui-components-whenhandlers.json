@@ -1,0 +1,73 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "WhenHandlers",
+          "f": "Tizen.UI.Components.WhenHandlers",
+          "k": "class",
+          "b": "System.Collections.Generic.List\u00601\u003CSystem.ValueTuple\u00602\u003CSystem.String,Tizen.UI.Components.IWhenHandler\u003E\u003E",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "Clear",
+              "s": "public Void Clear(View view)"
+            },
+            {
+              "k": "method",
+              "n": "get_HandlingCount",
+              "s": "public static Int32 get_HandlingCount()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsProcessingWhen",
+              "s": "public static Boolean get_IsProcessingWhen()"
+            },
+            {
+              "k": "method",
+              "n": "Register",
+              "s": "public Void Register(View view, String key, IWhenHandler whenHandler, Boolean initialExecution)"
+            },
+            {
+              "k": "method",
+              "n": "set_HandlingCount",
+              "s": "public static Void set_HandlingCount(Int32 value)"
+            },
+            {
+              "k": "method",
+              "n": "UnregisterAll",
+              "s": "public Void UnregisterAll(View view, String key)"
+            },
+            {
+              "k": "method",
+              "n": "UnregisterAll",
+              "s": "public Void UnregisterAll(View view, Delegate action)"
+            },
+            {
+              "k": "property",
+              "n": "HandlingCount",
+              "s": "public Int32 HandlingCount { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsProcessingWhen",
+              "s": "public Boolean IsProcessingWhen { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

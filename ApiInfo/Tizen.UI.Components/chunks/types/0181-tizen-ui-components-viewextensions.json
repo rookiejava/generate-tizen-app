@@ -1,0 +1,324 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.dll",
+  "g": "2026-03-07T11:20:28.4733915+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components",
+      "t": [
+        {
+          "n": "ViewExtensions",
+          "f": "Tizen.UI.Components.ViewExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "AttachChild",
+              "s": "public static Void AttachChild(View parent, View child)"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColor",
+              "s": "public static View BackgroundColor(View view, Color backgroundColor)"
+            },
+            {
+              "k": "method",
+              "n": "BackgroundColor",
+              "s": "public static Color BackgroundColor(View view)"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineColor",
+              "s": "public static View BorderlineColor(View view, Color borderlineColor)"
+            },
+            {
+              "k": "method",
+              "n": "BorderlineColor",
+              "s": "public static Color BorderlineColor(View view)"
+            },
+            {
+              "k": "method",
+              "n": "Color",
+              "s": "public static View Color(View view, Color color)"
+            },
+            {
+              "k": "method",
+              "n": "Color",
+              "s": "public static Color Color(View view)"
+            },
+            {
+              "k": "method",
+              "n": "DetachChild",
+              "s": "public static Void DetachChild(View parent, View child)"
+            },
+            {
+              "k": "method",
+              "n": "DetachFromParent",
+              "s": "public static Void DetachFromParent(View view)"
+            },
+            {
+              "k": "method",
+              "n": "DisabledEffect",
+              "s": "public static TView DisabledEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetNavigation",
+              "s": "public static INavigation GetNavigation\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetRootNavigation",
+              "s": "public static INavigation GetRootNavigation\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "GetScreenBounds",
+              "s": "public static Rect GetScreenBounds\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "SoundEffect",
+              "s": "public static TView SoundEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "TouchEffect",
+              "s": "public static TView TouchEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnderShadow",
+              "s": "public static TView UnderShadow\u003CTView\u003E(TView view, VisualObject[] visuals) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnderShadow",
+              "s": "public static TView UnderShadow\u003CTView\u003E(TView view, IEnumerable\u003CVisualObject\u003E visuals) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnsetWhen",
+              "s": "public static TView UnsetWhen\u003CTView\u003E(TView view, Action\u003CTView, UIStateChangedEventArgs\u003E handler) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnsetWhen",
+              "s": "public static TView UnsetWhen\u003CTView\u003E(TView view, String key) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnsetWhen",
+              "s": "public static TView UnsetWhen\u003CTView\u003E(TView view) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "UnsetWhenIfNotProcessing",
+              "s": "public static TView UnsetWhenIfNotProcessing\u003CTView\u003E(TView view, String key) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "When",
+              "s": "public static TView When\u003CTView\u003E(TView view, UIStateConstraint constraint, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "When",
+              "s": "public static TView When\u003CTView\u003E(TView view, String key, UIStateConstraint constraint, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "When",
+              "s": "public static TView When\u003CTView\u003E(TView view, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+            },
+            {
+              "k": "method",
+              "n": "When",
+              "s": "public static TView When\u003CTView\u003E(TView view, String key, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "AttachChild",
+      "s": "public static Void AttachChild(View parent, View child)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BackgroundColor",
+      "s": "public static View BackgroundColor(View view, Color backgroundColor)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BackgroundColor",
+      "s": "public static Color BackgroundColor(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BorderlineColor",
+      "s": "public static View BorderlineColor(View view, Color borderlineColor)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "BorderlineColor",
+      "s": "public static Color BorderlineColor(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Color",
+      "s": "public static View Color(View view, Color color)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "Color",
+      "s": "public static Color Color(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "DetachChild",
+      "s": "public static Void DetachChild(View parent, View child)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "Tizen.UI.View",
+      "n": "DetachFromParent",
+      "s": "public static Void DetachFromParent(View view)"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "DisabledEffect",
+      "s": "public static TView DisabledEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "GetNavigation",
+      "s": "public static INavigation GetNavigation\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "GetRootNavigation",
+      "s": "public static INavigation GetRootNavigation\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "GetScreenBounds",
+      "s": "public static Rect GetScreenBounds\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "SoundEffect",
+      "s": "public static TView SoundEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "TouchEffect",
+      "s": "public static TView TouchEffect\u003CTView\u003E(TView view, UIAttachable effect) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnderShadow",
+      "s": "public static TView UnderShadow\u003CTView\u003E(TView view, VisualObject[] visuals) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnderShadow",
+      "s": "public static TView UnderShadow\u003CTView\u003E(TView view, IEnumerable\u003CVisualObject\u003E visuals) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnsetWhen",
+      "s": "public static TView UnsetWhen\u003CTView\u003E(TView view, Action\u003CTView, UIStateChangedEventArgs\u003E handler) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnsetWhen",
+      "s": "public static TView UnsetWhen\u003CTView\u003E(TView view, String key) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnsetWhen",
+      "s": "public static TView UnsetWhen\u003CTView\u003E(TView view) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "UnsetWhenIfNotProcessing",
+      "s": "public static TView UnsetWhenIfNotProcessing\u003CTView\u003E(TView view, String key) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "When",
+      "s": "public static TView When\u003CTView\u003E(TView view, UIStateConstraint constraint, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "When",
+      "s": "public static TView When\u003CTView\u003E(TView view, String key, UIStateConstraint constraint, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "When",
+      "s": "public static TView When\u003CTView\u003E(TView view, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+    },
+    {
+      "d": "Tizen.UI.Components",
+      "t": "Tizen.UI.Components.ViewExtensions",
+      "r": "TView",
+      "n": "When",
+      "s": "public static TView When\u003CTView\u003E(TView view, String key, Action\u003CTView, UIStateChangedEventArgs\u003E handler, Boolean initialExecution) where TView : View"
+    }
+  ]
+}

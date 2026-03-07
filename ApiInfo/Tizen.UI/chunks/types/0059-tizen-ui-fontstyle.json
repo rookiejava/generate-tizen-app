@@ -1,0 +1,103 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "FontStyle",
+          "f": "Tizen.UI.FontStyle",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.FontStyle\u003E"
+          ],
+          "m": [
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(FontStyle other)"
+            },
+            {
+              "k": "method",
+              "n": "get_Slant",
+              "s": "public FontSlant get_Slant()"
+            },
+            {
+              "k": "method",
+              "n": "get_Weight",
+              "s": "public FontWeight get_Weight()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public FontWidth get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(FontStyle lhsFontStyle, FontStyle rhsFontStyle)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(FontStyle lhsFontStyle, FontStyle rhsFontStyle)"
+            },
+            {
+              "k": "method",
+              "n": "set_Slant",
+              "s": "public Void set_Slant(FontSlant value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Weight",
+              "s": "public Void set_Weight(FontWeight value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(FontWidth value)"
+            },
+            {
+              "k": "property",
+              "n": "Slant",
+              "s": "public FontSlant Slant { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Weight",
+              "s": "public FontWeight Weight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public FontWidth Width { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.FontStyle",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(FontStyle fontStyle)"
+    }
+  ]
+}

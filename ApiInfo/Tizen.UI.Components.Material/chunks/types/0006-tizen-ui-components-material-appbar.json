@@ -1,0 +1,181 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "AppBar",
+          "f": "Tizen.UI.Components.Material.AppBar",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.IColorProvider",
+            "Tizen.UI.Components.ITitle"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(AppBarVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Boolean useUniformedContentColor, AppBarVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "DominantColorChanged",
+              "s": "public event EventHandler DominantColorChanged"
+            },
+            {
+              "k": "method",
+              "n": "add_DominantColorChanged",
+              "s": "public Void add_DominantColorChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(AppBarVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_ActionButtons",
+              "s": "public IList\u003CView\u003E get_ActionButtons()"
+            },
+            {
+              "k": "method",
+              "n": "get_AllowDomiantBackgroundColor",
+              "s": "protected Boolean get_AllowDomiantBackgroundColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_DominantColor",
+              "s": "public Color get_DominantColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_Leading",
+              "s": "public View get_Leading()"
+            },
+            {
+              "k": "method",
+              "n": "get_Title",
+              "s": "public String get_Title()"
+            },
+            {
+              "k": "method",
+              "n": "get_TitleContent",
+              "s": "public View get_TitleContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Trailing",
+              "s": "public View get_Trailing()"
+            },
+            {
+              "k": "method",
+              "n": "get_UnifiedContentColor",
+              "s": "public Color get_UnifiedContentColor()"
+            },
+            {
+              "k": "method",
+              "n": "InitializeAppBarContentIfNeeds",
+              "s": "private Void InitializeAppBarContentIfNeeds(View content)"
+            },
+            {
+              "k": "method",
+              "n": "remove_DominantColorChanged",
+              "s": "public Void remove_DominantColorChanged(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AllowDomiantBackgroundColor",
+              "s": "protected Void set_AllowDomiantBackgroundColor(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DominantColor",
+              "s": "protected Void set_DominantColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Leading",
+              "s": "public Void set_Leading(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Title",
+              "s": "public Void set_Title(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TitleContent",
+              "s": "public Void set_TitleContent(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Trailing",
+              "s": "public Void set_Trailing(View value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateBackgroundProperty",
+              "s": "protected Void UpdateBackgroundProperty(String propertyName)"
+            },
+            {
+              "k": "property",
+              "n": "ActionButtons",
+              "s": "public IList\u003CView\u003E ActionButtons { get; }"
+            },
+            {
+              "k": "property",
+              "n": "AllowDomiantBackgroundColor",
+              "s": "protected Boolean AllowDomiantBackgroundColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DominantColor",
+              "s": "public Color DominantColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Leading",
+              "s": "public View Leading { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Title",
+              "s": "public String Title { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TitleContent",
+              "s": "public View TitleContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Trailing",
+              "s": "public View Trailing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UnifiedContentColor",
+              "s": "public Color UnifiedContentColor { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

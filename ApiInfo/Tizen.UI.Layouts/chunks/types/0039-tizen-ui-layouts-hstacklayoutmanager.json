@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "HStackLayoutManager",
+          "f": "Tizen.UI.Layouts.HStackLayoutManager",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.StackLayoutManager",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(IStackLayout layout)"
+            },
+            {
+              "k": "method",
+              "n": "ArrangeChildren",
+              "s": "public Size ArrangeChildren(Rect bounds)"
+            },
+            {
+              "k": "method",
+              "n": "GetDistance",
+              "s": "private static Single GetDistance(View view, Single width)"
+            },
+            {
+              "k": "method",
+              "n": "GetLeftIncludingMargin",
+              "s": "private static Single GetLeftIncludingMargin(View view, Boolean isLTR)"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single widthConstraint, Single heightConstraint)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

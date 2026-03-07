@@ -1,0 +1,71 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "GridRowColumns",
+          "f": "Tizen.UI.Layouts.GridRowColumns",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "All",
+              "s": "public static Int32 All\u003CTEnum\u003E() where TEnum : Enum"
+            },
+            {
+              "k": "method",
+              "n": "get_Auto",
+              "s": "public static GridLength get_Auto()"
+            },
+            {
+              "k": "method",
+              "n": "get_Star",
+              "s": "public static GridLength get_Star()"
+            },
+            {
+              "k": "method",
+              "n": "Last",
+              "s": "public static Int32 Last\u003CTEnum\u003E() where TEnum : Enum"
+            },
+            {
+              "k": "method",
+              "n": "Stars",
+              "s": "public static GridLength Stars(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToInt",
+              "s": "private static Int32 ToInt(Enum enumValue)"
+            },
+            {
+              "k": "property",
+              "n": "Auto",
+              "s": "public GridLength Auto { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Star",
+              "s": "public GridLength Star { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.Layouts",
+      "t": "Tizen.UI.Layouts.GridRowColumns",
+      "r": "System.Enum",
+      "n": "ToInt",
+      "s": "private static Int32 ToInt(Enum enumValue)"
+    }
+  ]
+}

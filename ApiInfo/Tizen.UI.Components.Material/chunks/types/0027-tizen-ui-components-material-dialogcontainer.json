@@ -1,0 +1,120 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "DialogContainer",
+          "f": "Tizen.UI.Components.Material.DialogContainer",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [
+            "Tizen.UI.Components.IModalContainer"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(DialogContainerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "CleanUpSwapContent",
+              "s": "private Void CleanUpSwapContent()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(DialogContainerVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "get_Body",
+              "s": "private AbsoluteLayout get_Body()"
+            },
+            {
+              "k": "method",
+              "n": "get_ModalContent",
+              "s": "public View get_ModalContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_Scrim",
+              "s": "public View get_Scrim()"
+            },
+            {
+              "k": "method",
+              "n": "ModalContentTouched",
+              "s": "private Void ModalContentTouched(Object sender, TouchEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "OnAccessibilityActionReceived",
+              "s": "private Void OnAccessibilityActionReceived(Object sender, AccessibilityActionReceivedEventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "PlaySwapContent",
+              "s": "protected Task PlaySwapContent(View prevContent, View newContent)"
+            },
+            {
+              "k": "method",
+              "n": "RemovePrevContent",
+              "s": "private Void RemovePrevContent()"
+            },
+            {
+              "k": "method",
+              "n": "ScrimPressedChanged",
+              "s": "private Void ScrimPressedChanged(Object sender, EventArgs args)"
+            },
+            {
+              "k": "method",
+              "n": "set_ModalContent",
+              "s": "public Void set_ModalContent(View value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Scrim",
+              "s": "public Void set_Scrim(View value)"
+            },
+            {
+              "k": "method",
+              "n": "StopSwapContent",
+              "s": "protected Void StopSwapContent()"
+            },
+            {
+              "k": "method",
+              "n": "SwapModalContent",
+              "s": "public Task SwapModalContent(View newModalContent)"
+            },
+            {
+              "k": "property",
+              "n": "Body",
+              "s": "private AbsoluteLayout Body { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ModalContent",
+              "s": "public View ModalContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Scrim",
+              "s": "public View Scrim { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

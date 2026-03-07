@@ -1,0 +1,106 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Underline",
+          "f": "Tizen.UI.Underline",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "get_Color",
+              "s": "public Nullable\u003CColor\u003E get_Color()"
+            },
+            {
+              "k": "method",
+              "n": "get_DashGap",
+              "s": "public Nullable\u003CSingle\u003E get_DashGap()"
+            },
+            {
+              "k": "method",
+              "n": "get_DashWidth",
+              "s": "public Nullable\u003CSingle\u003E get_DashWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "public Nullable\u003CUnderlineStyle\u003E get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "get_Thickness",
+              "s": "public Nullable\u003CSingle\u003E get_Thickness()"
+            },
+            {
+              "k": "method",
+              "n": "set_Color",
+              "s": "public Void set_Color(Nullable\u003CColor\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DashGap",
+              "s": "public Void set_DashGap(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DashWidth",
+              "s": "public Void set_DashWidth(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Style",
+              "s": "public Void set_Style(Nullable\u003CUnderlineStyle\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Thickness",
+              "s": "public Void set_Thickness(Nullable\u003CSingle\u003E value)"
+            },
+            {
+              "k": "property",
+              "n": "Color",
+              "s": "public Nullable\u003CColor\u003E Color { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DashGap",
+              "s": "public Nullable\u003CSingle\u003E DashGap { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DashWidth",
+              "s": "public Nullable\u003CSingle\u003E DashWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "public Nullable\u003CUnderlineStyle\u003E Style { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Thickness",
+              "s": "public Nullable\u003CSingle\u003E Thickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Underline",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Underline underline)"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI",
+      "t": [
+        {
+          "n": "Size",
+          "f": "Tizen.UI.Size",
+          "k": "struct",
+          "b": "System.ValueType",
+          "i": [
+            "System.IEquatable\u00601\u003CTizen.UI.Size\u003E"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "Deconstruct",
+              "s": "public Void Deconstruct(Single\u0026 width, Single\u0026 height)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Size other)"
+            },
+            {
+              "k": "method",
+              "n": "Equals",
+              "s": "public Boolean Equals(Object obj)"
+            },
+            {
+              "k": "method",
+              "n": "get_Height",
+              "s": "public Single get_Height()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsZero",
+              "s": "public Boolean get_IsZero()"
+            },
+            {
+              "k": "method",
+              "n": "get_Width",
+              "s": "public Single get_Width()"
+            },
+            {
+              "k": "method",
+              "n": "GetHashCode",
+              "s": "public Int32 GetHashCode()"
+            },
+            {
+              "k": "method",
+              "n": "op_Addition",
+              "s": "public static Size op_Addition(Size s1, Size s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Equality",
+              "s": "public static Boolean op_Equality(Size s1, Size s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Explicit",
+              "s": "public static Point op_Explicit(Size size)"
+            },
+            {
+              "k": "method",
+              "n": "op_Inequality",
+              "s": "public static Boolean op_Inequality(Size s1, Size s2)"
+            },
+            {
+              "k": "method",
+              "n": "op_Multiply",
+              "s": "public static Size op_Multiply(Size s1, Single value)"
+            },
+            {
+              "k": "method",
+              "n": "op_Subtraction",
+              "s": "public static Size op_Subtraction(Size s1, Size s2)"
+            },
+            {
+              "k": "method",
+              "n": "set_Height",
+              "s": "public Void set_Height(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Width",
+              "s": "public Void set_Width(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "ToString",
+              "s": "public String ToString()"
+            },
+            {
+              "k": "property",
+              "n": "Height",
+              "s": "public Single Height { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsZero",
+              "s": "public Boolean IsZero { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Width",
+              "s": "public Single Width { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Size",
+      "n": "ToDp",
+      "s": "public static Size ToDp(Size size)"
+    },
+    {
+      "d": "Tizen.UI",
+      "t": "Tizen.UI.DisplayMetrics",
+      "r": "Tizen.UI.Size",
+      "n": "ToPixel",
+      "s": "public static Size ToPixel(Size size)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.NativeHandleExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "ToNative",
+      "s": "public static ObjectPool\u003CVector2Handle\u003E ToNative(Size value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyValueHandleExtensions",
+      "r": "Tizen.UI.Size",
+      "n": "ToValue",
+      "s": "public static PropertyValueHandle ToValue(Size value)"
+    }
+  ]
+}

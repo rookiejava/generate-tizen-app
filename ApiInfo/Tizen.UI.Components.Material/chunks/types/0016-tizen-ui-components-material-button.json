@@ -1,0 +1,276 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "Button",
+          "f": "Tizen.UI.Components.Material.Button",
+          "k": "class",
+          "b": "Tizen.UI.Components.Clickable",
+          "i": [
+            "Tizen.UI.Components.IFlexibleText",
+            "Tizen.UI.IText"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".cctor",
+              "s": "static .cctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(ButtonVariables variables)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text)"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, ButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__10_1",
+              "s": "Void \u003C.ctor\u003Eb__10_1(Button v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "\u003C.ctor\u003Eb__10_2",
+              "s": "Void \u003C.ctor\u003Eb__10_2(Button v, EventHandler handler)"
+            },
+            {
+              "k": "method",
+              "n": "ClearSwitchingAnimation",
+              "s": "private Void ClearSwitchingAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(ButtonVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dispose",
+              "s": "protected Void Dispose(Boolean disposing)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureCleanProgressIcon",
+              "s": "private Button.ProgressIcon EnsureCleanProgressIcon()"
+            },
+            {
+              "k": "method",
+              "n": "EnsureSwichingAnimation",
+              "s": "private Animation EnsureSwichingAnimation()"
+            },
+            {
+              "k": "method",
+              "n": "get_AutoFontSize",
+              "s": "public AutoFontSize get_AutoFontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontFamily",
+              "s": "public String get_FontFamily()"
+            },
+            {
+              "k": "method",
+              "n": "get_FontSize",
+              "s": "public Single get_FontSize()"
+            },
+            {
+              "k": "method",
+              "n": "get_IsProgressing",
+              "s": "public Boolean get_IsProgressing()"
+            },
+            {
+              "k": "method",
+              "n": "get_Layout",
+              "s": "private AbsoluteLayout get_Layout()"
+            },
+            {
+              "k": "method",
+              "n": "get_Padding",
+              "s": "public Thickness get_Padding()"
+            },
+            {
+              "k": "method",
+              "n": "get_Text",
+              "s": "public String get_Text()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextColor",
+              "s": "public Color get_TextColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_TextOverflow",
+              "s": "public TextOverflow get_TextOverflow()"
+            },
+            {
+              "k": "method",
+              "n": "GetProgressIcon",
+              "s": "private Button.ProgressIcon GetProgressIcon()"
+            },
+            {
+              "k": "method",
+              "n": "GetProgressIconResourceUrl",
+              "s": "private String GetProgressIconResourceUrl()"
+            },
+            {
+              "k": "method",
+              "n": "GetTouchEffectTarget",
+              "s": "public View GetTouchEffectTarget()"
+            },
+            {
+              "k": "method",
+              "n": "OnApplicationResumed",
+              "s": "private Void OnApplicationResumed(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnAttachedToWindow",
+              "s": "private Void OnAttachedToWindow(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnClicked",
+              "s": "protected Boolean OnClicked(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnLongPressed",
+              "s": "protected Boolean OnLongPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnPressed",
+              "s": "protected Boolean OnPressed(KeyDeviceClass device)"
+            },
+            {
+              "k": "method",
+              "n": "OnProgressingChanged",
+              "s": "private Void OnProgressingChanged()"
+            },
+            {
+              "k": "method",
+              "n": "OnSwitchToTextModeFinished",
+              "s": "private Void OnSwitchToTextModeFinished(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "set_AutoFontSize",
+              "s": "public Void set_AutoFontSize(AutoFontSize value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontFamily",
+              "s": "public Void set_FontFamily(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_FontSize",
+              "s": "public Void set_FontSize(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_IsProgressing",
+              "s": "public Void set_IsProgressing(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Padding",
+              "s": "public Void set_Padding(Thickness value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Text",
+              "s": "public Void set_Text(String value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextColor",
+              "s": "public Void set_TextColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_TextOverflow",
+              "s": "public Void set_TextOverflow(TextOverflow value)"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToProgressMode",
+              "s": "private Void SwitchToProgressMode()"
+            },
+            {
+              "k": "method",
+              "n": "SwitchToTextMode",
+              "s": "private Void SwitchToTextMode()"
+            },
+            {
+              "k": "property",
+              "n": "AutoFontSize",
+              "s": "public AutoFontSize AutoFontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontFamily",
+              "s": "public String FontFamily { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "FontSize",
+              "s": "public Single FontSize { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "IsProgressing",
+              "s": "public Boolean IsProgressing { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Layout",
+              "s": "private AbsoluteLayout Layout { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Padding",
+              "s": "public Thickness Padding { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Text",
+              "s": "public String Text { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextColor",
+              "s": "public Color TextColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "TextOverflow",
+              "s": "public TextOverflow TextOverflow { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

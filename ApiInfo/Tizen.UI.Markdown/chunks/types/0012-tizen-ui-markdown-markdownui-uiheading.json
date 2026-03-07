@@ -1,0 +1,53 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Markdown",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Markdown.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Markdown.dll",
+  "g": "2026-03-07T11:20:28.6394988+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Markdown.MarkdownUI",
+      "t": [
+        {
+          "n": "UIHeading",
+          "f": "Tizen.UI.Markdown.MarkdownUI.UIHeading",
+          "k": "class",
+          "b": "Tizen.UI.Markdown.MarkdownUI.UIParagraph",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(String text, Int32 level, HeadingStyle headingStyle, ParagraphStyle paragraphStyle)"
+            },
+            {
+              "k": "method",
+              "n": "get_Level",
+              "s": "public Int32 get_Level()"
+            },
+            {
+              "k": "method",
+              "n": "get_Style",
+              "s": "private HeadingStyle get_Style()"
+            },
+            {
+              "k": "method",
+              "n": "set_Level",
+              "s": "public Void set_Level(Int32 value)"
+            },
+            {
+              "k": "property",
+              "n": "Level",
+              "s": "public Int32 Level { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Style",
+              "s": "private HeadingStyle Style { get; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

@@ -1,0 +1,318 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Components.Material",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Components.Material.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Components.Material.dll",
+  "g": "2026-03-07T11:20:28.5422297+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Components.Material",
+      "t": [
+        {
+          "n": "SmartTipBase",
+          "f": "Tizen.UI.Components.Material.SmartTipBase",
+          "k": "class",
+          "b": "Tizen.UI.ContentView",
+          "i": [],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor(SmartTipViewVariables variables)"
+            },
+            {
+              "k": "event",
+              "n": "Dismissed",
+              "s": "public event EventHandler Dismissed"
+            },
+            {
+              "k": "event",
+              "n": "Hidden",
+              "s": "public event EventHandler Hidden"
+            },
+            {
+              "k": "method",
+              "n": "add_Dismissed",
+              "s": "public Void add_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "add_Hidden",
+              "s": "public Void add_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "Construct",
+              "s": "private Void Construct(SmartTipViewVariables variables)"
+            },
+            {
+              "k": "method",
+              "n": "Dismiss",
+              "s": "public Void Dismiss()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowHeight",
+              "s": "public Single get_ArrowHeight()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowPosition",
+              "s": "public SmartTipArrowPosition get_ArrowPosition()"
+            },
+            {
+              "k": "method",
+              "n": "get_ArrowWidth",
+              "s": "public Single get_ArrowWidth()"
+            },
+            {
+              "k": "method",
+              "n": "get_DismissedCommand",
+              "s": "public Action\u003CObject, EventArgs\u003E get_DismissedCommand()"
+            },
+            {
+              "k": "method",
+              "n": "get_HiddenCommand",
+              "s": "public Action\u003CObject, EventArgs\u003E get_HiddenCommand()"
+            },
+            {
+              "k": "method",
+              "n": "get_InnerContainer",
+              "s": "protected ViewGroup get_InnerContainer()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeCornerRadius",
+              "s": "public CornerRadius get_ShapeCornerRadius()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeFillColor",
+              "s": "public Color get_ShapeFillColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeShadows",
+              "s": "public IEnumerable\u003CShadow\u003E get_ShapeShadows()"
+            },
+            {
+              "k": "method",
+              "n": "get_ShapeStrokeColor",
+              "s": "public Color get_ShapeStrokeColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_UpperAreaFillColor",
+              "s": "protected Color get_UpperAreaFillColor()"
+            },
+            {
+              "k": "method",
+              "n": "get_UpperAreaThickness",
+              "s": "protected Single get_UpperAreaThickness()"
+            },
+            {
+              "k": "method",
+              "n": "GetArrowPosition",
+              "s": "public Point GetArrowPosition()"
+            },
+            {
+              "k": "method",
+              "n": "GetArrowPosition",
+              "s": "public Point GetArrowPosition(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "GetSmartTipContainer",
+              "s": "private SmartTipContainer GetSmartTipContainer()"
+            },
+            {
+              "k": "method",
+              "n": "OnDismissed",
+              "s": "protected Void OnDismissed()"
+            },
+            {
+              "k": "method",
+              "n": "OnHidden",
+              "s": "protected Void OnHidden()"
+            },
+            {
+              "k": "method",
+              "n": "OnSmartTipContainerDismissed",
+              "s": "private Void OnSmartTipContainerDismissed(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "OnSmartTipContainerHidden",
+              "s": "private Void OnSmartTipContainerHidden(Object sender, EventArgs e)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post()"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Point anchorPoint)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(View anchorObject)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window, View anchorObject)"
+            },
+            {
+              "k": "method",
+              "n": "Post",
+              "s": "public Void Post(Window window, Point anchorPoint)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Dismissed",
+              "s": "public Void remove_Dismissed(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "remove_Hidden",
+              "s": "public Void remove_Hidden(EventHandler value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowHeight",
+              "s": "public Void set_ArrowHeight(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowPosition",
+              "s": "public Void set_ArrowPosition(SmartTipArrowPosition value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ArrowWidth",
+              "s": "public Void set_ArrowWidth(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "set_DismissedCommand",
+              "s": "public Void set_DismissedCommand(Action\u003CObject, EventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_HiddenCommand",
+              "s": "public Void set_HiddenCommand(Action\u003CObject, EventArgs\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeCornerRadius",
+              "s": "public Void set_ShapeCornerRadius(CornerRadius value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeFillColor",
+              "s": "public Void set_ShapeFillColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeShadows",
+              "s": "public Void set_ShapeShadows(IEnumerable\u003CShadow\u003E value)"
+            },
+            {
+              "k": "method",
+              "n": "set_ShapeStrokeColor",
+              "s": "public Void set_ShapeStrokeColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UpperAreaFillColor",
+              "s": "protected Void set_UpperAreaFillColor(Color value)"
+            },
+            {
+              "k": "method",
+              "n": "set_UpperAreaThickness",
+              "s": "protected Void set_UpperAreaThickness(Single value)"
+            },
+            {
+              "k": "method",
+              "n": "UpdateContentBounds",
+              "s": "private Void UpdateContentBounds()"
+            },
+            {
+              "k": "property",
+              "n": "ArrowHeight",
+              "s": "public Single ArrowHeight { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowPosition",
+              "s": "public SmartTipArrowPosition ArrowPosition { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ArrowWidth",
+              "s": "public Single ArrowWidth { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "DismissedCommand",
+              "s": "public Action\u003CObject, EventArgs\u003E DismissedCommand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "HiddenCommand",
+              "s": "public Action\u003CObject, EventArgs\u003E HiddenCommand { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InnerContainer",
+              "s": "protected ViewGroup InnerContainer { get; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeCornerRadius",
+              "s": "public CornerRadius ShapeCornerRadius { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeFillColor",
+              "s": "public Color ShapeFillColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeShadows",
+              "s": "public IEnumerable\u003CShadow\u003E ShapeShadows { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "ShapeStrokeColor",
+              "s": "public Color ShapeStrokeColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UpperAreaFillColor",
+              "s": "protected Color UpperAreaFillColor { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "UpperAreaThickness",
+              "s": "protected Single UpperAreaThickness { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

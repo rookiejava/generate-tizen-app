@@ -1,0 +1,231 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI.Layouts",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.Layouts.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.Layouts.dll",
+  "g": "2026-03-07T11:20:28.6123489+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.Layouts",
+      "t": [
+        {
+          "n": "FlexBox",
+          "f": "Tizen.UI.Layouts.FlexBox",
+          "k": "class",
+          "b": "Tizen.UI.Layouts.Layout",
+          "i": [
+            "Tizen.UI.Layouts.IFlexBox",
+            "Tizen.UI.Layouts.ILayout"
+          ],
+          "m": [
+            {
+              "k": "constructor",
+              "n": ".ctor",
+              "s": ".ctor()"
+            },
+            {
+              "k": "method",
+              "n": "AddFlexItem",
+              "s": "private Void AddFlexItem(View child)"
+            },
+            {
+              "k": "method",
+              "n": "EnsureFlexItemPropertiesUpdated",
+              "s": "private Void EnsureFlexItemPropertiesUpdated(FlexBox flex)"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignContent",
+              "s": "public FlexAlignContent get_AlignContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_AlignItems",
+              "s": "public FlexAlignItems get_AlignItems()"
+            },
+            {
+              "k": "method",
+              "n": "get_Direction",
+              "s": "public FlexDirection get_Direction()"
+            },
+            {
+              "k": "method",
+              "n": "get_InMeasureMode",
+              "s": "internal Boolean get_InMeasureMode()"
+            },
+            {
+              "k": "method",
+              "n": "get_JustifyContent",
+              "s": "public FlexJustify get_JustifyContent()"
+            },
+            {
+              "k": "method",
+              "n": "get_LayoutManager",
+              "s": "protected ILayoutManager get_LayoutManager()"
+            },
+            {
+              "k": "method",
+              "n": "get_Position",
+              "s": "public FlexPosition get_Position()"
+            },
+            {
+              "k": "method",
+              "n": "get_Root",
+              "s": "private Item get_Root()"
+            },
+            {
+              "k": "method",
+              "n": "get_Wrap",
+              "s": "public FlexWrap get_Wrap()"
+            },
+            {
+              "k": "method",
+              "n": "Measure",
+              "s": "public Size Measure(Single availableWidth, Single availableHeight)"
+            },
+            {
+              "k": "method",
+              "n": "NeedsMeasureHack",
+              "s": "private static Boolean NeedsMeasureHack(Single widthConstraint, Single heightConstraint)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildAdded",
+              "s": "protected Void OnChildAdded(View view)"
+            },
+            {
+              "k": "method",
+              "n": "OnChildRemoved",
+              "s": "protected Void OnChildRemoved(View view)"
+            },
+            {
+              "k": "method",
+              "n": "PrepareMeasureHack",
+              "s": "private Void PrepareMeasureHack()"
+            },
+            {
+              "k": "method",
+              "n": "RemoveFlexItem",
+              "s": "private Void RemoveFlexItem(View child)"
+            },
+            {
+              "k": "method",
+              "n": "RestoreValues",
+              "s": "private Void RestoreValues()"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignContent",
+              "s": "public Void set_AlignContent(FlexAlignContent value)"
+            },
+            {
+              "k": "method",
+              "n": "set_AlignItems",
+              "s": "public Void set_AlignItems(FlexAlignItems value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Direction",
+              "s": "public Void set_Direction(FlexDirection value)"
+            },
+            {
+              "k": "method",
+              "n": "set_InMeasureMode",
+              "s": "internal Void set_InMeasureMode(Boolean value)"
+            },
+            {
+              "k": "method",
+              "n": "set_JustifyContent",
+              "s": "public Void set_JustifyContent(FlexJustify value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Position",
+              "s": "public Void set_Position(FlexPosition value)"
+            },
+            {
+              "k": "method",
+              "n": "set_Wrap",
+              "s": "public Void set_Wrap(FlexWrap value)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.IFlexBox.Layout",
+              "s": "Void Tizen.UI.Layouts.IFlexBox.Layout(Single width, Single height)"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_Children",
+              "s": "IList\u003CView\u003E Tizen.UI.Layouts.ILayout.get_Children()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredHeight",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredHeight()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_DesiredWidth",
+              "s": "Single Tizen.UI.Layouts.ILayout.get_DesiredWidth()"
+            },
+            {
+              "k": "method",
+              "n": "Tizen.UI.Layouts.ILayout.get_LayoutDirection",
+              "s": "LayoutDirection Tizen.UI.Layouts.ILayout.get_LayoutDirection()"
+            },
+            {
+              "k": "method",
+              "n": "UpdateFlexParam",
+              "s": "private Void UpdateFlexParam(View view)"
+            },
+            {
+              "k": "property",
+              "n": "AlignContent",
+              "s": "public FlexAlignContent AlignContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "AlignItems",
+              "s": "public FlexAlignItems AlignItems { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Direction",
+              "s": "public FlexDirection Direction { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "InMeasureMode",
+              "s": "internal Boolean InMeasureMode { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "JustifyContent",
+              "s": "public FlexJustify JustifyContent { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "LayoutManager",
+              "s": "protected ILayoutManager LayoutManager { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Position",
+              "s": "public FlexPosition Position { get; set; }"
+            },
+            {
+              "k": "property",
+              "n": "Root",
+              "s": "private Item Root { get; }"
+            },
+            {
+              "k": "property",
+              "n": "Wrap",
+              "s": "public FlexWrap Wrap { get; set; }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": []
+}

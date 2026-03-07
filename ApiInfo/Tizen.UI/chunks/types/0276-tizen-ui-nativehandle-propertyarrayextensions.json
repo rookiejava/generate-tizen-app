@@ -1,0 +1,48 @@
+{
+  "f": "compact-v1",
+  "a": "Tizen.UI",
+  "s": "c:\\workspace\\temp\\Generate_TizenApp\\Packages\\Tizen.UI.1.0.0-rc.5\\lib\\net8.0-tizen10.0\\Tizen.UI.dll",
+  "g": "2026-03-07T11:20:28.3122558+00:00",
+  "n": [
+    {
+      "n": "Tizen.UI.NativeHandle",
+      "t": [
+        {
+          "n": "PropertyArrayExtensions",
+          "f": "Tizen.UI.NativeHandle.PropertyArrayExtensions",
+          "k": "class",
+          "b": "System.Object",
+          "i": [],
+          "m": [
+            {
+              "k": "method",
+              "n": "Add",
+              "s": "public static Void Add(PropertyArrayHandle handle, PropertyValueHandle value)"
+            },
+            {
+              "k": "method",
+              "n": "GetAt",
+              "s": "public static PropertyValueHandle GetAt(PropertyArrayHandle handle, Int32 index)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "x": [
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyArrayExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyArrayHandle",
+      "n": "Add",
+      "s": "public static Void Add(PropertyArrayHandle handle, PropertyValueHandle value)"
+    },
+    {
+      "d": "Tizen.UI.NativeHandle",
+      "t": "Tizen.UI.NativeHandle.PropertyArrayExtensions",
+      "r": "Tizen.UI.NativeHandle.PropertyArrayHandle",
+      "n": "GetAt",
+      "s": "public static PropertyValueHandle GetAt(PropertyArrayHandle handle, Int32 index)"
+    }
+  ]
+}
