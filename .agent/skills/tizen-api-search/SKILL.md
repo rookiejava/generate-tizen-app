@@ -17,12 +17,19 @@ This skill helps you search the true Tizen UI API specifications (extracted to `
 Run the provided Node.js script located in the `generate-tizen-app` project.
 
 ```powershell
-# 예시: Button 컨트롤의 속성/이벤트를 찾고 싶을 때
+# 예시 1: Button 컨트롤의 속성/이벤트를 찾고 싶을 때 (부분 일치 검색)
 node scripts/search-tizen-api.js Button
 
-# 예시: HStack 패딩 속성을 재확인하고 싶을 때
-node scripts/search-tizen-api.js HStack
+# 예시 2: 특정 네임스페이스의 정확한 클래스를 찾고 싶을 때 (예: Material 네임스페이스)
+node scripts/search-tizen-api.js Material.Button
+
+# 예시 3: 특정 속성(Property), 이벤트, 메서드 이름이 포함된 컨트롤을 찾고 싶을 때 (-m 옵션)
+node scripts/search-tizen-api.js -m TextColor
+node scripts/search-tizen-api.js -m IsMultiline
 ```
+
+## Note on Enums
+- Enum types (e.g. `LineBreakMode`) are listed in the metadata, but their specific constant values (e.g. `Wordwrap`) are NOT included in the underlying `api-index.json`. The search script will flag Enum types directly to prevent you from fruitlessly searching for their specific values in this dataset.
 
 ## Anti-Patterns
 - ❌ Do NOT try to `cat` or `grep` `ApiInfo/TizenUI_ControlCatalog.md` manually to find missing properties. Use this script instead.
