@@ -168,13 +168,66 @@ function parseBuildErrors(output) {
     return errors;
 }
 
+// ─── API 정보 동적 조회 (Self-Healing용) ───
+function lookupTizenApiForHealing(errors) {
+    const hints = [];
+    const searchQueries = new Set();
+    const memberQueries = new Set();
+
+    for (const e of errors) {
+        if (e.code === 'CS0117') {
+            // CS0117: 'Tizen.UI.Components.TextField' does not contain a definition for 'Weight'
+            const match = e.message.match(/'(.+?)'\s+does not contain a definition for\s+'(.+?)'/);
+            if (match) {
+                const className = match[1].split('.').pop();
+                const propertyName = match[2];
+                searchQueries.add(className);
+                memberQueries.add(propertyName);
+            }
+        } else if (e.code === 'CS0246' || e.code === 'CS0103') {
+            // CS0246: The type or namespace name 'RowDefinition' could not be found
+            // CS0103: The name 'GridLength' does not exist in the current context
+            const match = e.message.match(/name '(.+?)'/);
+            if (match) {
+                // Remove generic parts if any
+                const typeName = match[1].split('<')[0];
+                searchQueries.add(typeName);
+            }
+        }
+    }
+
+    const scriptPath = path.join(ROOT, 'scripts', 'search-tizen-api.js');
+
+    // 1. 단일 클래스 검색
+    for (const q of searchQueries) {
+        try {
+            const out = execSync(`node "${scriptPath}" ${q}`, { encoding: 'utf-8' });
+            if (!out.includes("결과를 찾을 수 없습니다")) {
+                hints.push(out.trim());
+            }
+        } catch (err) { }
+    }
+
+    // 2. 멤버명으로 역검색
+    for (const mq of memberQueries) {
+        try {
+            const out = execSync(`node "${scriptPath}" -m ${mq}`, { encoding: 'utf-8' });
+            if (!out.includes("결과를 찾을 수 없습니다")) {
+                hints.push(out.trim());
+            }
+        } catch (err) { }
+    }
+
+    return hints.join('\n\n');
+}
+
 // ─── Self-Healing 프롬프트 ───
-function buildHealingPrompt(code, errors) {
+function buildHealingPrompt(code, errors, apiHints) {
     const errorText = errors.map(e =>
         `  ${e.code} at line ${e.line}: ${e.message}`
     ).join('\n');
 
-    return `The following C# code failed to compile with these errors:
+    let prompt = `The following C# code failed to compile with these errors:
 
 Build Errors:
 ${errorText}
@@ -184,9 +237,23 @@ Original Code:
 ${code}
 \`\`\`
 
-Fix ALL the build errors and return the complete, corrected MainView.cs file.
+`;
+
+    if (apiHints && apiHints.trim() !== '') {
+        prompt += `Below are some extracted API Documentation from Tizen UI that might relate to the build errors. Use this to use correct properties/classes:
+
+=== API HINTS ===
+${apiHints}
+=================
+
+`;
+    }
+
+    prompt += `Fix ALL the build errors and return the complete, corrected MainView.cs file.
 Do NOT change the overall structure or functionality, only fix the compilation errors.
 Output ONLY the complete corrected C# code, no explanations.`;
+
+    return prompt;
 }
 
 // ─── 메인 실행 ───
@@ -265,10 +332,17 @@ async function main() {
         console.log(`   📋 발견된 에러: ${errors.length}개`);
         errors.forEach(e => console.log(`      ${e.code}: ${e.message}`));
 
+        // 6-1. 로컬 API 스킬 호출로 힌트 수집
+        console.log('   🔍 Tizen API 메타데이터 검색 중...');
+        const apiHints = lookupTizenApiForHealing(errors);
+        if (apiHints) {
+            console.log(`   💡 API 힌트 발견! (문맥 프롬프트에 추가됨)`);
+        }
+
         // LLM에 수정 요청
         console.log('   🧠 LLM에 코드 수정 요청 중...');
         try {
-            const healPrompt = buildHealingPrompt(code, errors);
+            const healPrompt = buildHealingPrompt(code, errors, apiHints);
             const response = await llm.generateCode(systemPrompt, healPrompt);
             code = extractCode(response);
             console.log(`   ✅ 수정된 코드 수신 (${code.split('\n').length}줄)`);
