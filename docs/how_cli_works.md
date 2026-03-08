@@ -1,5 +1,6 @@
 # 🧠 How It Works: 독립형 CLI 도구 (Standalone Generator) 동작 원리
 
+[English](how_cli_works-en.md) | [한국어](how_cli_works.md) | [日本語](how_cli_works-ja.md) | [简体中文](how_cli_works-zh.md)
 본 문서는 `generate-tizen-app` 프로젝트에서 제공하는 **독립형 CLI 도구 (`scripts/Generate-App.js`)**가 대형 언어 모델(LLM)을 활용하여 자연어 요구사항을 실제 Tizen C#앱으로 완벽하게 컴파일되는 코드로 변환해 내는 원리를 설명합니다.
 
 *(에이전트 환경에서 상호작용하는 원리는 `how_agent_works.md`를 참고하세요.)*

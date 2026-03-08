@@ -1,5 +1,6 @@
 # 🔄 How It Works: 대화형 통합 에이전트 루프 (Interactive Agent Loop)
 
+[English](how_agent_works-en.md) | [한국어](how_agent_works.md) | [日本語](how_agent_works-ja.md) | [简体中文](how_agent_works-zh.md)
 본 문서는 `generate-tizen-app` 프로젝트에서 **AI 에이전트(Gemini, Claude 등)와 협업하며 점진적으로 Tizen 앱을 만들어가는 대화형 루프**의 동작 원리와 아키텍처를 설명합니다.
 
 단일 스크립트 실행으로 코드를 쏟아내는 CLI 모드(`how_cli_works.md`)와 달리, 에이전트 루프는 끊임없이 문맥을 유지하며 사용자의 요구사항을 유연하게 수용하고 즉각적으로 오류를 고쳐내는 "개발자 페어링(Pair Programming)" 방식입니다.
