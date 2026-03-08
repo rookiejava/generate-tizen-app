@@ -5,13 +5,10 @@
 # 다운로드된 NuGet 패키지 (스크립트로 재다운로드 가능)
 Packages/
 
-# 생성된 프로젝트 출력 (매번 새로 생성)
-output/
-
-# NuGet 실행 파일
-nuget.exe
-
-# 빌드 로그
+# 빌드 및 실행 로그 (임시 파일)
+error.log
+out.log
+out.txt
 *_log.txt
 *_err.txt
 
