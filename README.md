@@ -51,23 +51,38 @@ generate-tizen-app/
    curl -sSL https://raw.githubusercontent.com/Samsung/Tizen.NET/main/workload/scripts/workload-install.sh | sudo bash
    ```
 
-## � 앱 자동 생성 (CLI)
+## 🚀 주요 사용 방식 (Usage)
 
-자연어 명령어를 입력하면 에이전트가 Tizen .NET UI 애플리케이션 코드를 자동으로 생성하고 빌드합니다.
+이 프로젝트는 사용자의 목적과 환경에 맞춰 **두 가지 강력한 방식**으로 Tizen 앱을 생성할 수 있도록 지원합니다.
 
-```bash
-# 환경변수에 API 키 설정 (택 1)
-export GEMINI_API_KEY="your-key"       # Gemini (기본)
-export OPENAI_API_KEY="your-key"       # OpenAI
-export ANTHROPIC_API_KEY="your-key"    # Claude
+### 1. 🤖 대화형 통합 에이전트 루프 (Interactive Agent Loop)
+AI 에이전트(Gemini 등)와 대화하며 점진적으로 앱을 설계하고 완성해 나가는 방식입니다.
+- **특징**:
+  - `MCP 서버` (Tizen 어셈블리 검사, Microsoft Learn 문서 연동) 및 `로컬 스킬` 등을 에이전트가 직접 호출하며 코드를 깎아냅니다.
+  - 빌드 에러가 발생하면 에이전트 스스로 원인을 분석하고 코드를 수정하는 **자가 치유(Self-Healing)** 과정을 거칩니다.
+  - 복잡한 UI/UX 설계나 단계적인 기능 추가 등 딥워크(Deep Work)에 적합합니다.
+- **사용법**: AI 에이전트 환경(예: Cursor, VS Code AI 확장, Antigravity 등)에서 이 작업 공간을 열고 자연어로 지시를 내리면 즉시 동작합니다.
 
-# 앱 생성
-node scripts/Generate-App.js "계산기 앱 생성"
-node scripts/Generate-App.js "동영상 플레이어 초기 설정 화면" --provider openai
-node scripts/Generate-App.js "할일 목록 앱" --provider claude --name TodoApp
-```
+### 2. 💻 독립형 CLI 도구 (Standalone CLI Generator)
+에이전트 환경 없이 터미널에서 스크립트를 단 한 줄 실행하여 초기 상용구(Boilerplate) 코드를 즉시 뽑아내는 원샷(One-Shot) 방식입니다.
+- **특징**:
+  - 자동화 스크립트나 CI/CD 파이프라인에 부품처럼 끼워 넣어 사용하기 좋습니다.
+  - LLM 공급자(Gemini, OpenAI, Claude)를 상황에 맞게 자유롭게 교체할 수 있어 범용성이 뛰어납니다.
+  - 세밀한 디버깅보다는, 빠르게 초기 프로젝트 외형을 만들거나 템플릿을 생성할 때 가장 효과적입니다.
+- **사용법**:
+  ```bash
+  # 환경변수에 API 키 설정 (택 1)
+  export GEMINI_API_KEY="your-key"       # Gemini (기본)
+  export OPENAI_API_KEY="your-key"       # OpenAI
+  export ANTHROPIC_API_KEY="your-key"    # Claude
 
-## �🛠️ 기타 사용법
+  # 앱 생성
+  node scripts/Generate-App.js "계산기 앱 생성"
+  node scripts/Generate-App.js "동영상 플레이어 초기 설정 화면" --provider openai
+  node scripts/Generate-App.js "할일 목록 앱" --provider claude --name TodoApp
+  ```
+
+## 🛠️ 기타 사용법
 
 ### 패키지 다운로드
 
