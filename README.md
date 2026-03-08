@@ -94,6 +94,21 @@ graph TD
   - LLM 공급자(Gemini, OpenAI, Claude)를 상황에 맞게 자유롭게 교체할 수 있어 범용성이 뛰어납니다.
   - 세밀한 디버깅보다는, 빠르게 초기 프로젝트 외형을 만들거나 템플릿을 생성할 때 가장 효과적입니다.
 - **사용법**:
+
+  **Windows (PowerShell)**
+  ```powershell
+  # 환경변수에 API 키 설정 (택 1)
+  $env:GEMINI_API_KEY="your-key"       # Gemini (기본)
+  $env:OPENAI_API_KEY="your-key"       # OpenAI
+  $env:ANTHROPIC_API_KEY="your-key"    # Claude
+
+  # 앱 생성
+  node scripts/Generate-App.js "계산기 앱 생성"
+  node scripts/Generate-App.js "동영상 플레이어 초기 설정 화면" --provider openai
+  node scripts/Generate-App.js "할일 목록 앱" --provider claude --name TodoApp
+  ```
+
+  **Linux / macOS (Bash)**
   ```bash
   # 환경변수에 API 키 설정 (택 1)
   export GEMINI_API_KEY="your-key"       # Gemini (기본)
