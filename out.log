@@ -1,0 +1,10 @@
+🔍 API 메타데이터 로드 중...
+   전체 타입 수: 954
+🧬 View 상속 체인 추적 중...
+   View 하위 타입 수: 206
+✂️  공개 API만 추출 중...
+   실사용 가능한 컨트롤 수: 157
+✅ JSON 저장: ApiInfo\TizenUI_ControlCatalog.json
+✅ MD 저장: ApiInfo\TizenUI_ControlCatalog.md
+
+🚀 컨트롤 카탈로그 생성 완료!

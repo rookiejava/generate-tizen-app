@@ -87,15 +87,34 @@ flowchart TD
 
 ---
 
+### Phase 6: 독립 CLI 도구 (누구나 사용 가능) 🔧 진행 중
+> **목표**: 호딱이(에이전트) 없이도 누구나 CLI 한 줄로 Tizen 앱 자동 생성
+
+#### 6-1. LLM 프로바이더 추상화 (`scripts/llm-providers.js`)
+- [ ] 멀티 프로바이더 지원: **Gemini**(기본), OpenAI, Claude
+- [ ] 환경변수로 API 키 관리 (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`)
+- [ ] 공통 인터페이스: `generateCode(systemPrompt, userPrompt) → string`
+
+#### 6-2. 시스템 프롬프트 템플릿 (`prompts/system-prompt.md`)
+- [ ] Tizen.UI 전문 개발자 역할 정의
+- [ ] 컨트롤 카탈로그 자동 삽입 (`{{CONTROL_CATALOG}}`)
+- [ ] 코드 출력 규칙 (Scaffold 루트, Fluent API, MaterialApplication 등)
+
+#### 6-3. 앱 생성 CLI (`scripts/Generate-App.js`)
+- [ ] 사용법: `node scripts/Generate-App.js "계산기 앱" --provider gemini`
+- [ ] 자연어 → LLM API 호출 → C# 코드 추출 → 프로젝트 조립 → 자동 빌드
+- [ ] Self-Healing 내장 (빌드 에러 시 최대 3회 LLM 재호출)
+
+---
+
 ## 🗓️ 구현 우선순위 (추천 순서)
 
-| 순서 | Phase | 핵심 산출물 | 예상 난이도 |
-|------|-------|------------|------------|
-| 1️⃣ | Phase 1-2 | 컨트롤 카탈로그 경량 JSON | ⭐⭐ |
-| 2️⃣ | Phase 2 | 프로젝트 템플릿 | ⭐⭐ |
-| 3️⃣ | Phase 3 | 프롬프트 + LLM 연동 | ⭐⭐⭐ |
-| 4️⃣ | Phase 4 | 빌드 자동화 스크립트 | ⭐⭐ |
-| 5️⃣ | Phase 5 | Self-Healing 루프 | ⭐⭐⭐ |
+| 순서 | Phase | 핵심 산출물 | 상태 |
+|------|-------|------------|------|
+| 1️⃣ | Phase 1 | 컨트롤 카탈로그 경량 JSON | ✅ 완료 |
+| 2️⃣ | Phase 2 | 프로젝트 템플릿 | ✅ 완료 |
+| 3️⃣ | Phase 3~5 | 에이전트 워크플로우 | ✅ 완료 |
+| 4️⃣ | Phase 6 | 독립 CLI 도구 (멀티 LLM) | 🔧 진행 중 |
 
 ---
 

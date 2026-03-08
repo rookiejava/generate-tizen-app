@@ -46,7 +46,23 @@ Generate_TizenApp/
    powershell -ExecutionPolicy Bypass -File scripts\workload-install.ps1
    ```
 
-## 🛠️ 사용법
+## � 앱 자동 생성 (CLI)
+
+자연어로 설명하면 Tizen .NET UI 앱을 자동 생성합니다.
+
+```bash
+# 환경변수에 API 키 설정 (택 1)
+export GEMINI_API_KEY="your-key"       # Gemini (기본)
+export OPENAI_API_KEY="your-key"       # OpenAI
+export ANTHROPIC_API_KEY="your-key"    # Claude
+
+# 앱 생성
+node scripts/Generate-App.js "계산기 앱 만들어줘"
+node scripts/Generate-App.js "동영상 플레이어" --provider openai
+node scripts/Generate-App.js "할일 목록 앱" --provider claude --name TodoApp
+```
+
+## �🛠️ 기타 사용법
 
 ### 패키지 다운로드
 
