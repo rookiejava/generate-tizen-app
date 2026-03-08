@@ -91,19 +91,19 @@ flowchart TD
 > **목표**: 에이전트 인스턴스 없이도 사용자가 CLI 환경에서 Tizen 앱을 자동 생성할 수 있는 도구 구현
 
 #### 6-1. LLM 프로바이더 추상화 (`scripts/llm-providers.js`)
-- [ ] 멀티 프로바이더 지원: **Gemini**(기본), OpenAI, Claude
-- [ ] 환경변수로 API 키 관리 (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`)
-- [ ] 공통 인터페이스: `generateCode(systemPrompt, userPrompt) → string`
+- [x] 멀티 프로바이더 지원: **Gemini**(기본), OpenAI, Claude
+- [x] 환경변수로 API 키 관리 (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`)
+- [x] 공통 인터페이스: `generateCode(systemPrompt, userPrompt) → string`
 
 #### 6-2. 시스템 프롬프트 템플릿 (`prompts/system-prompt.md`)
-- [ ] Tizen.UI 전문 개발자 역할 정의
-- [ ] 컨트롤 카탈로그 자동 삽입 (`{{CONTROL_CATALOG}}`)
-- [ ] 코드 출력 규칙 (Scaffold 루트, Fluent API, MaterialApplication 등)
+- [x] Tizen.UI 전문 개발자 역할 정의
+- [x] 컨트롤 카탈로그 자동 삽입 (`{{CONTROL_CATALOG}}`)
+- [x] 코드 출력 규칙 (Scaffold 루트, Fluent API, MaterialApplication 등)
 
 #### 6-3. 앱 생성 CLI (`scripts/Generate-App.js`)
-- [ ] 사용법: `node scripts/Generate-App.js "계산기 앱" --provider gemini`
-- [ ] 자연어 → LLM API 호출 → C# 코드 추출 → 프로젝트 조립 → 자동 빌드
-- [ ] Self-Healing 내장 (빌드 에러 시 최대 3회 LLM 재호출)
+- [x] 사용법: `node scripts/Generate-App.js "계산기 앱" --provider gemini`
+- [x] 자연어 → LLM API 호출 → C# 코드 추출 → 프로젝트 조립 → 자동 빌드
+- [x] Self-Healing 내장 (빌드 에러 시 최대 3회 LLM 재호출)
 
 ---
 
