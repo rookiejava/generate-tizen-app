@@ -9,8 +9,7 @@ description: Tizen .NET UI 앱 자동 생성 및 빌드 루프
 ## Step 1: 요구사항 분석 및 카탈로그 조회
 1. 사용자의 자연어 요구사항을 분석합니다 (예: "계산기 앱 생성", "설정 화면 구성").
 2. 앱의 `AppName`을 PascalCase로 결정합니다 (예: `Calculator`, `SettingsApp`).
-3. 내장 지식 및 `ApiInfo/TizenUI_ControlCatalog.md`를 참고하여 어떤 `Tizen.UI` 및 `Tizen.UI.Components.Material` 컨트롤을 조합할지 설계합니다.
-4. 필요한 경우 `microsoft-learn` MCP 서버나 코드 탐색 기법을 활용하여 추가 정보를 확인합니다.
+3. 내장 지식 및 `ApiInfo/TizenUI_ControlCatalog.md`를 참고하여 어떤 `Tizen.UI` 및 `Tizen.UI.Components.Material` 컨트롤을 조합할지 설계합니다. (속성이 확실하지 않다면 추측하지 말고 즉시 `tizen-api-search` 스킬을 사용하여 검증하세요!)
 
 ## Step 2: 프로젝트 템플릿 조립
 1. `Create-TizenProject.js` 스크립트를 실행하여 프로젝트 뼈대를 생성합니다.
@@ -35,6 +34,7 @@ node scripts/Create-TizenProject.js {AppName} output/{AppName}
 ```
 2. **Self-Healing**:
    - 만약 에러(`error CS...`)가 발생했다면, 에러 메시지와 소스코드를 대조하여 `MainView.cs`를 수정합니다.
+   - ⚠️ **핵심 규칙 (API 룩업)**: 만약 속성/메서드/이벤트를 찾을 수 없다는 오류(`CS0117`, `CS1061` 등)가 발생했다면, 절대 혼자서 속성명을 추측하거나 할루시네이션(환각) 코드를 작성하지 마십시오. **반드시 프로젝트 내장 `tizen-api-search` 스킬(`node scripts/search-tizen-api.js [클래스명]`)을 터미널에서 실행**하여 정확한 JSON 메타데이터를 파악한 뒤에 코드를 수정해야 합니다.
    - 수정 후 **다시 Step 4.1을 반복 실행**합니다. (최대 10회 재도전)
    - 10회 연속 실패 시 사용자에게 원인을 보고하고 도움을 요청합니다.
 
