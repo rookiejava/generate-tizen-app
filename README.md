@@ -1,6 +1,6 @@
 # 🚀 Generate_TizenApp
 
-AI를 활용하여 자연어로 설명하면 Tizen .NET UI 앱을 자동으로 생성해주는 에이전트 개발 프로젝트
+AI를 활용하여 자연어 요구사항을 바탕으로 Tizen .NET UI 애플리케이션 코드를 자동 생성하고 빌드하는 지능형 에이전트 및 CLI 환경 지원 프로젝트입니다.
 
 ## 📂 프로젝트 구조
 
@@ -41,14 +41,18 @@ Generate_TizenApp/
 
 1. **.NET SDK 8.0 이상** 설치
 2. **Tizen .NET Workload** 설치
-   - 시스템에 Tizen workload가 없다면, 터미널을 **관리자 권한**으로 열고 아래 명령어를 실행하여 설치할 수 있습니다:
-   ```powershell
+   - 시스템에 Tizen workload가 없다면, 터미널(또는 관리자 권한 PowerShell)을 열고 아래 명령어를 실행하여 설치할 수 있습니다:
+   ```bash
+   # Windows (PowerShell)
    powershell -ExecutionPolicy Bypass -File scripts\workload-install.ps1
+   
+   # Linux / macOS (또는 일반 커맨드라인)
+   dotnet workload install tizen
    ```
 
 ## � 앱 자동 생성 (CLI)
 
-자연어로 설명하면 Tizen .NET UI 앱을 자동 생성합니다.
+자연어 명령어를 입력하면 에이전트가 Tizen .NET UI 애플리케이션 코드를 자동으로 생성하고 빌드합니다.
 
 ```bash
 # 환경변수에 API 키 설정 (택 1)
@@ -57,8 +61,8 @@ export OPENAI_API_KEY="your-key"       # OpenAI
 export ANTHROPIC_API_KEY="your-key"    # Claude
 
 # 앱 생성
-node scripts/Generate-App.js "계산기 앱 만들어줘"
-node scripts/Generate-App.js "동영상 플레이어" --provider openai
+node scripts/Generate-App.js "계산기 앱 생성"
+node scripts/Generate-App.js "동영상 플레이어 초기 설정 화면" --provider openai
 node scripts/Generate-App.js "할일 목록 앱" --provider claude --name TodoApp
 ```
 

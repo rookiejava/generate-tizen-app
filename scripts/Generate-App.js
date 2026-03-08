@@ -6,7 +6,7 @@
  * 자연어 요구사항 → LLM API → C# 코드 → 프로젝트 조립 → 빌드 → Self-Healing
  * 
  * 사용법:
- *   node scripts/Generate-App.js "계산기 앱 만들어줘" [옵션]
+ *   node scripts/Generate-App.js "계산기 앱 생성" [옵션]
  * 
  * 옵션:
  *   --provider <gemini|openai|claude>  LLM 프로바이더 (기본: gemini)
@@ -195,7 +195,7 @@ async function main() {
 
     if (!opts.prompt) {
         console.error('❌ 앱 설명을 입력해 주세요.');
-        console.error('   예: node scripts/Generate-App.js "계산기 앱 만들어줘"');
+        console.error('   예: node scripts/Generate-App.js "계산기 앱 생성"');
         process.exit(1);
     }
 
