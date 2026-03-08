@@ -63,22 +63,22 @@ AI 에이전트(Gemini 등)와 대화하며 점진적으로 앱을 설계하고 
 
 ```mermaid
 graph TD
-    User([👨‍💻 사용자]) --> |1. 자연어 명령<br/>(예: '메신저 UI 만들어줘')| Agent[🤖 AI 에이전트<br/>(Gemini/Claude)]
+    User(["👨‍💻 사용자"]) -->|"1. 자연어 명령<br/>(예: 메신저 UI 만들어줘)"| Agent["🤖 AI 에이전트<br/>(Gemini/Claude)"]
     
-    subgraph Agentic_Dev_Loop [🔄 에이전틱 개발 루프]
-        Agent --> |2. API 문서/샘플 검색| MCP_Learn[[📚 MCP 서버<br/>(Microsoft Learn)]]
-        MCP_Learn -.-> |공식 레퍼런스 반환| Agent
+    subgraph Agentic_Dev_Loop ["🔄 에이전틱 개발 루프"]
+        Agent -->|"2. API 문서/샘플 검색"| MCP_Learn[["📚 MCP 서버<br/>(Microsoft Learn)"]]
+        MCP_Learn -.->|"공식 레퍼런스 반환"| Agent
         
-        Agent --> |3. Tizen 클래스, 속성 검색| Local_Skill[[🛠️ 로컬 스킬<br/>(tizen-api-search)]]
-        Local_Skill -.-> |정확한 속성/이벤트 반환| Agent
+        Agent -->|"3. Tizen 클래스, 속성 검색"| Local_Skill[["🛠️ 로컬 스킬<br/>(tizen-api-search)"]]
+        Local_Skill -.->|"정확한 속성/이벤트 반환"| Agent
         
-        Agent --> |4. 코드 작성/수정| FileSystem[(📁 로컬 파일 시스템)]
+        Agent -->|"4. 코드 작성/수정"| FileSystem[("📁 로컬 파일 시스템")]
         
-        Agent --> |5. Tizen 앱 빌드/테스트| Terminal[▶️ 터미널<br/>(dotnet build)]
-        Terminal -.-> |6. 에러 발생 시 로그 분석<br/>(Self-Healing)| Agent
+        Agent -->|"5. Tizen 앱 빌드/테스트"| Terminal["▶️ 터미널<br/>(dotnet build)"]
+        Terminal -.->|"6. 에러 발생 시 로그 분석<br/>(Self-Healing)"| Agent
     end
     
-    FileSystem -.-> |7. 최종 결과물 제공| User
+    FileSystem -.->|"7. 최종 결과물 제공"| User
 ```
 
 - **특징**:
