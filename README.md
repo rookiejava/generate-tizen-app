@@ -39,8 +39,9 @@ generate-tizen-app/
 
 이 프로젝트를 실행하고 Tizen 앱을 빌드하기 위해 다음 환경이 사전에 구비되어야 합니다.
 
-1. **.NET SDK 8.0 이상** 설치
-2. **Tizen .NET Workload** 설치
+1. **Node.js** 설치 (v18 이상 권장)
+2. **.NET SDK 8.0 이상** 설치
+3. **Tizen .NET Workload** 설치
    - 시스템에 Tizen workload가 없다면, 터미널(또는 관리자 권한 PowerShell)을 열고 운영체제에 맞는 아래 명령어를 실행하여 설치할 수 있습니다:
    ```bash
    # Windows (PowerShell)
