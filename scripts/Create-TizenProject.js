@@ -58,10 +58,12 @@ for (const [src, dest] of Object.entries(fileMap)) {
     console.log(`   ✅ ${dest}`);
 }
 
-// shared/res 폴더 (아이콘용)
+// shared/res 폴더 및 기본 아이콘 생성
 const resDir = path.join(outputDir, 'shared', 'res');
 fs.mkdirSync(resDir, { recursive: true });
-console.log(`   ✅ shared/res/ (아이콘 폴더)`);
+const defaultIconBase64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+fs.writeFileSync(path.join(resDir, 'icon.png'), Buffer.from(defaultIconBase64, 'base64'));
+console.log(`   ✅ shared/res/icon.png (기본 1x1 투명 아이콘)`);
 
 console.log(`\n🚀 프로젝트 생성 완료!`);
 console.log(`\n📋 빌드하려면:`);
