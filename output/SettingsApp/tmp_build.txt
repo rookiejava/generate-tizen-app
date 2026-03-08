@@ -1,0 +1,19 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(77,13): error CS0117: 'Label' does not contain a definition for 'Padding' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(86,47): error CS0117: 'ResizePolicy' does not contain a definition for 'WrapToChildren' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(103,41): error CS0266: Cannot implicitly convert type 'Tizen.UI.Layouts.LayoutAlignment' to 'Tizen.UI.TextAlignment'. An explicit conversion exists (are you missing a cast?) [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(118,47): error CS0117: 'ResizePolicy' does not contain a definition for 'WrapToChildren' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(140,41): error CS0266: Cannot implicitly convert type 'Tizen.UI.Layouts.LayoutAlignment' to 'Tizen.UI.TextAlignment'. An explicit conversion exists (are you missing a cast?) [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+
+Build FAILED.
+
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(77,13): error CS0117: 'Label' does not contain a definition for 'Padding' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(86,47): error CS0117: 'ResizePolicy' does not contain a definition for 'WrapToChildren' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(103,41): error CS0266: Cannot implicitly convert type 'Tizen.UI.Layouts.LayoutAlignment' to 'Tizen.UI.TextAlignment'. An explicit conversion exists (are you missing a cast?) [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(118,47): error CS0117: 'ResizePolicy' does not contain a definition for 'WrapToChildren' [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+C:\workspace\github\generate-tizen-app\output\SettingsApp\MainView.cs(140,41): error CS0266: Cannot implicitly convert type 'Tizen.UI.Layouts.LayoutAlignment' to 'Tizen.UI.TextAlignment'. An explicit conversion exists (are you missing a cast?) [C:\workspace\github\generate-tizen-app\output\SettingsApp\SettingsApp.csproj]
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.68

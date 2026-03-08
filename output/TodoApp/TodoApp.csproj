@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-tizen10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TodoApp</RootNamespace>
+    <AssemblyName>TodoApp</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tizen.UI" Version="1.0.0-rc.5" />
+    <PackageReference Include="Tizen.UI.Components" Version="1.0.0-rc.5" />
+    <PackageReference Include="Tizen.UI.Components.Material" Version="1.0.0-rc.5" />
+    <PackageReference Include="Tizen.UI.Layouts" Version="1.0.0-rc.5" />
+  </ItemGroup>
+
+</Project>
