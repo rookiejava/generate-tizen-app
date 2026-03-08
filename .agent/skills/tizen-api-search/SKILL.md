@@ -14,7 +14,7 @@ This skill helps you search the true Tizen UI API specifications (extracted to `
 
 ## How to use
 
-Run the provided Node.js script located in the `Generate_TizenApp` project.
+Run the provided Node.js script located in the `generate-tizen-app` project.
 
 ```powershell
 # 예시: Button 컨트롤의 속성/이벤트를 찾고 싶을 때

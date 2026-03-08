@@ -1,11 +1,11 @@
-# 🚀 Generate_TizenApp
+# 🚀 generate-tizen-app
 
 AI를 활용하여 자연어 요구사항을 바탕으로 Tizen .NET UI 애플리케이션 코드를 자동 생성하고 빌드하는 지능형 에이전트 및 CLI 환경 지원 프로젝트입니다.
 
 ## 📂 프로젝트 구조
 
 ```
-Generate_TizenApp/
+generate-tizen-app/
 │
 ├── docs/                          # 📄 문서
 │   ├── implementation_plan.md     #    구현 계획서 (마스터 플랜)

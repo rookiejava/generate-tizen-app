@@ -1,6 +1,6 @@
 # 🚀 Tizen .NET UI 앱 자동 생성 에이전트 - 구현 계획서
 
-> **프로젝트 코드명**: Generate_TizenApp
+> **프로젝트 코드명**: generate-tizen-app
 > **작성**: Tizen UI Generation Agent
 > **작성일**: 2026-03-07
 > **요구사항**: "자연어로 설명하면 해당하는 .NET UI 앱을 자동으로 생성하는 에이전트 개발 루프 구축"
