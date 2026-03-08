@@ -175,8 +175,9 @@ function lookupTizenApiForHealing(errors) {
     const memberQueries = new Set();
 
     for (const e of errors) {
-        if (e.code === 'CS0117') {
+        if (e.code === 'CS0117' || e.code === 'CS1061') {
             // CS0117: 'Tizen.UI.Components.TextField' does not contain a definition for 'Weight'
+            // CS1061: 'Button' does not contain a definition for 'SetColumn' and no accessible extension method
             const match = e.message.match(/'(.+?)'\s+does not contain a definition for\s+'(.+?)'/);
             if (match) {
                 const className = match[1].split('.').pop();
