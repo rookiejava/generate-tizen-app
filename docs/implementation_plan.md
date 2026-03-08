@@ -74,69 +74,16 @@ flowchart TD
 
 ---
 
-### Phase 3: 코드 생성 엔진 (LLM 연동)
-> **목표**: 자연어 → Tizen C# 코드 변환
+### Phase 3~5: 자동 통합 에이전트 루프 (AI Workflow) ✅ 완료
+> **목표**: 자연어 → C# 코드 변환 → 프로젝트 빌드 → 에러 자가 치유(Self-Healing)의 전 과정을 **호딱이(Agent) 워크플로우 하나로 통합 수행**
 
-#### 3-1. 시스템 프롬프트 설계
-- **역할 정의**: "Tizen .NET UI 전문 개발자"
-- **입력**: 컨트롤 카탈로그(Phase 1) + 사용자 요구사항
-- **출력 형식**: 순수 C# 코드 (JSON 래핑)
-- **규칙**: 
-  - Tizen.UI 네임스페이스만 사용
-  - XAML 없음 (코드 기반 UI)
-  - View, ViewGroup 기반 계층구조
-  - Tizen.UI.Layouts의 레이아웃 시스템 활용 (HStack, VStack, Grid 등)
-
-#### 3-2. 프롬프트 템플릿 파일
-```
-You are a Tizen .NET UI expert.
-Available controls: {{CONTROL_CATALOG}}
-User request: {{USER_REQUEST}}
-Generate C# code for MainView class...
-```
-
-#### 3-3. LLM API 연동
-- Gemini API 또는 다른 LLM API 사용
-- API 키 관리 (환경변수)
-- 응답 파싱 (코드 블록 추출)
-
----
-
-### Phase 4: 빌드 및 실행 엔진
-> **목표**: 생성된 코드를 자동으로 빌드
-
-#### 4-1. 프로젝트 조립 스크립트
-- 템플릿(Phase 2) + 생성된 코드(Phase 3)를 합쳐 실제 프로젝트 생성
-- 출력 폴더: `Output/{앱이름}/`
-
-#### 4-2. 자동 빌드
-- `dotnet build` 실행
-- 빌드 로그 캡처
-- 성공/실패 판별
-
----
-
-### Phase 5: 에러 피드백 루프 (Self-Healing)
-> **목표**: 빌드 실패 시 자동 수정
-
-#### 5-1. 에러 파서
-- `dotnet build` 에러 메시지에서 핵심 정보 추출
-  - 에러 코드 (CS0001 등)
-  - 파일명, 줄 번호
-  - 에러 메시지
-
-#### 5-2. 수정 프롬프트
-```
-The following build errors occurred:
-{{BUILD_ERRORS}}
-Original code: {{ORIGINAL_CODE}}
-Fix the code...
-```
-
-#### 5-3. 재시도 루프
-- 최대 재시도 횟수: 3회
-- 매 시도마다 에러 컨텍스트 누적
-- 3회 실패 시 대표님에게 수동 개입 요청
+#### 3~5 통합: `.agent/workflows/generate-tizen-app.md` 작성 완료
+- 대표님의 결정사항("호딱이가 직접 수행")에 따라 외부 스크립트(Node.js 등)를 배제하고 AI 에이전트의 워크플로우 파일로 승화
+- 명령어 한 줄(`/generate-tizen-app` 또는 "앱 만들어줘" 프롬프트)만 치면 다음 행동 지침을 호딱이가 무인으로 자동 수행:
+  1. `ApiInfo/TizenUI_ControlCatalog.md` 내용과 내장 C# 지식 결합
+  2. `Create-TizenProject.js`로 프로젝트 뼈대 생성
+  3. `MainView.cs` 교체 생성 (`write_to_file`)
+  4. `dotnet build` 돌려서 에러 검출시 최대 3회 재도전 (Self-Healing)
 
 ---
 
