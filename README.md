@@ -41,13 +41,13 @@ Generate_TizenApp/
 
 1. **.NET SDK 8.0 이상** 설치
 2. **Tizen .NET Workload** 설치
-   - 시스템에 Tizen workload가 없다면, 터미널(또는 관리자 권한 PowerShell)을 열고 아래 명령어를 실행하여 설치할 수 있습니다:
+   - 시스템에 Tizen workload가 없다면, 터미널(또는 관리자 권한 PowerShell)을 열고 운영체제에 맞는 아래 명령어를 실행하여 설치할 수 있습니다:
    ```bash
    # Windows (PowerShell)
    powershell -ExecutionPolicy Bypass -File scripts\workload-install.ps1
    
-   # Linux / macOS (또는 일반 커맨드라인)
-   dotnet workload install tizen
+   # Linux / macOS (Bash)
+   curl -sSL https://raw.githubusercontent.com/Samsung/Tizen.NET/main/workload/scripts/workload-install.sh | sudo bash
    ```
 
 ## � 앱 자동 생성 (CLI)

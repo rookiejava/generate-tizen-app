@@ -129,21 +129,25 @@ flowchart TD
 
 ### Tizen Workload 설치 방법
 - 참고: https://github.com/Samsung/Tizen.NET/wiki/Installing-Tizen-.NET-Workload#install-tizen-net-workload-2
-- `workload-install.ps1` 스크립트 다운로드 후 실행
+
+**Windows:**
+```powershell
+Invoke-WebRequest 'https://raw.githubusercontent.com/Samsung/Tizen.NET/main/workload/scripts/workload-install.ps1' -OutFile 'workload-install.ps1';
+./workload-install.ps1 [-v <version>] [-d <directory>]
+```
+
+**Linux / macOS:**
+```bash
+curl -sSL https://raw.githubusercontent.com/Samsung/Tizen.NET/main/workload/scripts/workload-install.sh | sudo bash
+```
 
 ---
 
 ## 🔧 활용 도구 및 MCP 서버
 
-### 이미 보유
 | 도구 | 용도 | 상태 |
 |------|------|------|
 | `dotnet-assembly-inspector` (MCP) | DLL → API 메타데이터 추출 | ✅ 활용 완료 |
-| `hottak` (Skill) | 호딱이 페르소나 | ✅ 사용 중 |
-
-### 추가 등록 예정
-| 도구 | 용도 | 상태 |
-|------|------|------|
 | **Microsoft Learn MCP** | .NET/C# 공식 문서 실시간 검색 (hallucination 방지) | 📌 등록 예정 |
 
 > **Microsoft Learn MCP Server** (`https://learn.microsoft.com/api/mcp`)
