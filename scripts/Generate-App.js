@@ -13,7 +13,7 @@
  *   --name <AppName>                   앱 이름 (미지정 시 LLM이 자동 결정)
  *   --output <path>                    출력 경로 (기본: output/<AppName>)
  *   --no-build                         빌드 건너뛰기
- *   --max-retries <N>                  Self-Healing 최대 재시도 (기본: 3)
+ *   --max-retries <N>                  Self-Healing 최대 재시도 (기본: 10)
  */
 
 const fs = require('fs');
@@ -32,7 +32,7 @@ function parseArgs() {
         name: '',
         output: '',
         build: true,
-        maxRetries: 3,
+        maxRetries: 10,
     };
 
     const positional = [];
@@ -63,7 +63,7 @@ function printHelp() {
   --name <AppName>      앱 이름 (PascalCase, 미지정 시 자동 결정)
   --output <path>       출력 경로 (기본: output/<AppName>)
   --no-build            빌드 건너뛰기
-  --max-retries <N>     Self-Healing 최대 재시도 (기본: 3)
+  --max-retries <N>     Self-Healing 최대 재시도 (기본: 10)
   -h, --help            도움말
 
 환경변수:

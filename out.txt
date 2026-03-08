@@ -1,0 +1,19 @@
+
+?붴븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븮
+??  ?? Tizen .NET UI ???먮룞 ?앹꽦湲?               ???싢븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븧?먥븴
+
+?뱷 ?붽뎄?ы빆: "Test"
+?쨼 LLM ?꾨줈諛붿씠?? gemini
+
+?뵩 Step 1: LLM ?꾨줈諛붿씠??珥덇린??..
+?덇린移??딆? ?ㅻ쪟: Error: GEMINI_API_KEY ?섍꼍蹂?섍? ?ㅼ젙?섏? ?딆븯?듬땲??
+    at new GeminiProvider (C:\workspace\temp\Generate_TizenApp\scripts\llm-providers.js:17:33)
+    at createProvider (C:\workspace\temp\Generate_TizenApp\scripts\llm-providers.js:148:12)
+    at main (C:\workspace\temp\Generate_TizenApp\scripts\Generate-App.js:213:17)
+    at Object.<anonymous> (C:\workspace\temp\Generate_TizenApp\scripts\Generate-App.js:300:1)
+    at Module._compile (node:internal/modules/cjs/loader:1804:14)
+    at Object..js (node:internal/modules/cjs/loader:1936:10)
+    at Module.load (node:internal/modules/cjs/loader:1525:32)
+    at Module._load (node:internal/modules/cjs/loader:1327:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
