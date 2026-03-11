@@ -9,7 +9,7 @@
                   nodisplay="false"
                   launch_mode="single">
     <label>VideoPlayer</label>
-    <icon>shared/res/icon.png</icon>
+    <icon>icon.png</icon>
   </ui-application>
   <privileges>
     <privilege>http://tizen.org/privilege/internet</privilege>
