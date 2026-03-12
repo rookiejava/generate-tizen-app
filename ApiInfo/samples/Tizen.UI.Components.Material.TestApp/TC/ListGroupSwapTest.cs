@@ -1,0 +1,336 @@
+using System;
+using System.ComponentModel;
+using System.Collections.ObjectModel;
+using System.Runtime.CompilerServices;
+using Tizen.UI;
+using Tizen.UI.Layouts;
+using Tizen.UI.Components;
+using Tizen.UI.Components.Recycler;
+using Tizen.UI.Components.Material;
+
+namespace ComponentsTest
+{
+    internal class ListGroupSwapTest : ListView, INavigationTransition, ITestCase
+    {
+        private static ListGroupSwapSource s_source;
+        private static ItemTouchHelper s_touchHelper;
+        public ListGroupSwapTest() : base()
+        {
+            // static variables
+            s_source = GetListSource();
+            s_touchHelper = new ItemTouchHelper(new ListSwapCallback());
+
+            WidthResizePolicy = ResizePolicy.FillToParent;
+            HeightResizePolicy = ResizePolicy.FillToParent;
+            BackgroundColor = MaterialColor.Background;
+
+            IsHorizontal = false;
+            //HasDivider = true;
+            IsGrouped = true;
+            ItemsSource = s_source;
+            ItemTemplate = new ViewTemplate(typeof(ListSwapTestItem));
+            GroupHeaderTemplate = new ViewTemplate(typeof(ListSwapGroupItem));
+            ScrollBarVisibility = ScrollBarVisibility.Auto;
+            InnerMargin = new Thickness(MaterialSpacing.Lg600, 0);
+
+            // Item Animator for swap animations.
+            ItemAnimator = new DefaultItemAnimator();
+            // Item Touch Helper with implementing move actions.
+            ItemTouchHelper = s_touchHelper;
+        }
+
+        private ListGroupSwapSource GetListSource()
+        {
+            var itemsSource = new ListGroupSwapSource();
+
+            for (int i = 0; i < 5; i++)
+            {
+                var group = new ListSwapGroup
+                {
+                    Title = $"{i}th group"
+                };
+
+                for (int j = 0; j < 10; j++)
+                {
+                    group.Add(new ListSwapData
+                    {
+                        Index = j,
+                        Title = $"{i}th group {j}th item",
+                        Group = group,
+                    });
+                }
+
+                itemsSource.Add(group);
+            }
+            return itemsSource;
+        }
+
+        // User has to implement this callback.
+        private class ListSwapCallback : LinearSwapCallback
+        {
+            public ListSwapCallback() : base()
+            {
+                // turn off longpress dragging.
+                // SwapVertical icon of item will handle drag by calling StartDrag().
+                IsLongpressDragEnabled = false;
+            }
+
+            public override bool OnMove(RecyclerView recyclerView, ViewHolder viewHolder, ViewHolder target)
+            {
+                // The holder position is not match with actual data position so you have to get your real position of the data source.
+                if (viewHolder == null || target == null)
+                    return false;
+
+                if (viewHolder.BindingContext is ListSwapGroup ||
+                    target.BindingContext is ListSwapGroup)
+                    return false;
+
+                var viewholderData = viewHolder.BindingContext as ListSwapData;
+                var targetData = target.BindingContext as ListSwapData;
+
+                // If group is different, we cannot moves.
+                if (viewholderData.Group == null || viewholderData.Group != targetData.Group)
+                    return false;
+
+                var group = viewholderData.Group;
+
+                int viewHolderPosition = group.IndexOf(viewholderData);
+                int targetPosition = group.IndexOf(targetData);
+
+                int fromPosition = Math.Min(viewHolderPosition, targetPosition);
+                int toPosition = Math.Max(viewHolderPosition, targetPosition);
+
+                if (fromPosition == toPosition)
+                {
+                    // target destination is same position. fail to move.
+                    return false;
+                }
+
+                // please change the holder position before you moves.
+                // let's try this can be done on framework side...
+                // viewHolder.Position = target.Position;
+                group.Move(fromPosition, toPosition);
+
+                // mostly gap must be 1, but if it is bigger,
+                if (fromPosition - toPosition > 1)
+                {
+                    group.Move(toPosition - 1, fromPosition);
+                }
+                return true;
+            }
+
+            public override int GetMovementPolicy(RecyclerView recyclerView, ViewHolder viewholder)
+            {
+                // if group, do not moves.
+                if (viewholder.BindingContext is ListSwapGroup)
+                    return 0;
+
+                return base.GetMovementPolicy(recyclerView, viewholder);
+            }
+        }
+
+        private class ListSwapGroupItem : ContentView
+        {
+            private readonly BindingSession<ListSwapGroup> _session = new BindingSession<ListSwapGroup>();
+            private HStack _innerLayout;
+            private Label _label;
+            public ListSwapGroupItem() : base()
+            {
+                BackgroundColor = MaterialColor.Surface;
+
+                Body = _innerLayout = new HStack
+                {
+                    Padding = new Thickness(MaterialSpacing.Md400, 0),
+                    Spacing = MaterialSpacing.Md100,
+                    Children =
+                    {
+                        new Label
+                        {
+                            TextColor = Color.Black,
+                            HorizontalAlignment = TextAlignment.Start,
+                            VerticalAlignment = TextAlignment.Center,
+                        }.Self(out _label)
+                        .Margin(new Thickness(0, MaterialSpacing.Md100)),
+                    }
+                };
+
+                //Bindings
+                _label.SetBinding(_session, TextBindings<Label>.TextProperty, "Title");
+            }
+
+            public object BindingContext
+            {
+                get => _session.ViewModel;
+                set => _session.ViewModel = (ListSwapGroup)value;
+            }
+
+            public string Text
+            {
+                get => _label.Text;
+                set => _label.Text = value;
+            }
+
+            protected override void Dispose(bool disposing)
+            {
+                if (disposing)
+                {
+                    _session.Dispose();
+                }
+                base.Dispose(disposing);
+            }
+        }
+
+        private class ListSwapTestItem : Clickable, IBindableView
+        {
+            private readonly BindingSession<ListSwapData> _session = new BindingSession<ListSwapData>();
+
+            private readonly Label _label;
+            private readonly ImageView _icon;
+
+            public ListSwapTestItem() : base()
+            {
+                BackgroundColor = MaterialColor.Surface;
+
+                Body = new HStack
+                {
+                    Padding = new Thickness(MaterialSpacing.Md400, 0),
+                    Spacing = MaterialSpacing.Md100,
+                    Children =
+                    {
+                        new Label
+                        {
+                            TextColor = Color.Black,
+                            FontSize = MaterialFontSize.Md,
+                            FontFamily = MaterialFont.Normal400,
+                            HorizontalAlignment = TextAlignment.Start,
+                            VerticalAlignment = TextAlignment.Center,
+                        }.Self(out _label)
+                        .Margin(new Thickness(0, MaterialSpacing.Md100))
+                        .VerticalLayoutAlignment(LayoutAlignment.Center)
+                        .Expand(),
+
+                        new ImageView
+                        {
+                            ResourceUrl = MaterialIcon.SwapVertical,
+                            DesiredWidth = 50,
+                            DesiredHeight = 50,
+                            ImageMultipliedColor = Color.Black,
+                        }.Self(out _icon)
+                        .VerticalLayoutAlignment(LayoutAlignment.Center),
+                    }
+                }.VerticalLayoutAlignment(LayoutAlignment.Center);
+                //Bindings
+                _label.SetBinding(_session, TextBindings<Label>.TextProperty, "Title");
+
+                this.TouchEffect(RecoilEffect.List);
+
+                //Bindings
+                this.SetBinding(_session, (vm, view) => view.Text = vm.Title, "Title");
+
+                _icon.TouchEvent += (_, e) =>
+                {
+                    if (e.Touch[0].State == TouchState.Started)
+                    {
+                        // Let the start drag when icon is on touched.
+                        // Basic action of swap is longpressed,
+                        // so to enable drag by icon touch,
+                        // you may have to turn off IsLongpressDragEnabled on your callback.
+                        s_touchHelper.StartDrag(this.Holder());
+                    }
+                    // we do not consume the event for item handle touch itself.
+                    return;
+                };
+            }
+
+            public object BindingContext
+            {
+                get => _session.ViewModel;
+                set => _session.ViewModel = (ListSwapData)value;
+            }
+
+
+            public string Text
+            {
+                get => _label.Text;
+                set => _label.Text = value;
+            }
+
+            protected override void Dispose(bool disposing)
+            {
+                if (disposing)
+                {
+                    _session.Dispose();
+                }
+                base.Dispose(disposing);
+            }
+        }
+
+        private class ListSwapData : ViewModel
+        {
+            public int Index
+            {
+                get => Get<int>();
+                set => Set(value);
+            }
+
+            public string Title
+            {
+                get => Get<string>();
+                set => Set(value);
+            }
+
+            public ListSwapGroup Group { get; set; }
+        }
+
+        private class ListSwapGroup : ViewModelGroup<ListSwapData>
+        {
+            public string Title
+            {
+                get => Get<string>();
+                set => Set(value);
+            }
+        }
+
+        private class ListGroupSwapSource : ObservableCollection<ListSwapGroup>
+        {
+        }
+
+        public void WillAppear(bool byPopNavigation)
+        {
+        }
+
+        public void WillDisappear(bool byPopNavigation)
+        {
+        }
+
+        public void DidAppear(bool byPopNavigation)
+        {
+        }
+
+        public void DidDisappear(bool byPopNavigation)
+        {
+            if (byPopNavigation)
+            {
+                Deactivate();
+            }
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                // call this for dettaching the touch helper from view.
+                s_touchHelper.DetachToRecyclerView();
+            }
+            base.Dispose(disposing);
+        }
+
+        public void Activate()
+        {
+        }
+        public void Deactivate()
+        {
+            Dispose();
+        }
+    }
+}

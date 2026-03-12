@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net8.0-tizen10.0</TargetFrameworks>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Tizen.UI" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Skia" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Tools" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Layouts" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Scene3D" Version="1.0.0-rc.5" />
+	</ItemGroup>
+</Project>

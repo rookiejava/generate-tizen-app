@@ -1,0 +1,804 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Created using the official Cinema 4D glTF Exporter 1.000x284978"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 3
+    },
+    {
+      "sampler": 4,
+      "source": 2
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Washer",
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Washer_inside.1",
+      "translation": [
+        -13.324707984924316,
+        107.20569610595703,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Washer_shadow",
+      "translation": [
+        0,
+        0.009320189245045185,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Washer_body",
+      "translation": [
+        -35.241737365722656,
+        0.018352676182985306,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "Washer_frame",
+      "translation": [
+        -70.57271575927734,
+        107.20569610595703,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "Washer_window",
+      "translation": [
+        -70.57271575927734,
+        107.20569610595703,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Washer_inside.1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Washer_shadow",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 6,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Washer_body",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 10,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Washer_frame",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17
+          },
+          "indices": 14,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Washer_window",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20,
+            "TEXCOORD_0": 21
+          },
+          "indices": 18,
+          "material": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6822,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        1672
+      ]
+    },
+    {
+      "bufferView": 1,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1673,
+      "byteOffset": 0,
+      "min": [
+        -54.889286041259766,
+        -58.76078414916992,
+        -58.865264892578125
+      ],
+      "max": [
+        53.8880500793457,
+        58.89914321899414,
+        58.865264892578125
+      ]
+    },
+    {
+      "bufferView": 1,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1673,
+      "byteOffset": 12,
+      "min": [
+        -1,
+        -1,
+        -0.9995750784873962
+      ],
+      "max": [
+        0.9773722290992737,
+        0.9995750784873962,
+        0.9995750784873962
+      ]
+    },
+    {
+      "bufferView": 1,
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1673,
+      "byteOffset": 24,
+      "min": [
+        -2.3072986053761062e-14,
+        -7.993605777301127e-15
+      ],
+      "max": [
+        0.9726468324661255,
+        1
+      ]
+    },
+    {
+      "bufferView": 2,
+      "type": "SCALAR",
+      "componentType": 5126,
+      "count": 9,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        3
+      ]
+    },
+    {
+      "bufferView": 2,
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 9,
+      "byteOffset": 36,
+      "min": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        3
+      ]
+    },
+    {
+      "bufferView": 4,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "byteOffset": 0,
+      "min": [
+        -150,
+        0,
+        -150
+      ],
+      "max": [
+        150,
+        0,
+        150
+      ]
+    },
+    {
+      "bufferView": 4,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "byteOffset": 12,
+      "min": [
+        0,
+        1,
+        0
+      ],
+      "max": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "byteOffset": 24,
+      "min": [
+        0,
+        0
+      ],
+      "max": [
+        1,
+        1
+      ]
+    },
+    {
+      "bufferView": 5,
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4956,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        1250
+      ]
+    },
+    {
+      "bufferView": 6,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1251,
+      "byteOffset": 0,
+      "min": [
+        -36.90843200683594,
+        0.000762336771003902,
+        -76.06822967529297
+      ],
+      "max": [
+        103.7015609741211,
+        204.37393188476562,
+        76.06822967529297
+      ]
+    },
+    {
+      "bufferView": 6,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1251,
+      "byteOffset": 12,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "bufferView": 6,
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1251,
+      "byteOffset": 24,
+      "min": [
+        0.005994525272399187,
+        0.006926779635250568
+      ],
+      "max": [
+        0.961997389793396,
+        0.9910401105880737
+      ]
+    },
+    {
+      "bufferView": 7,
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1536,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        511
+      ]
+    },
+    {
+      "bufferView": 8,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 512,
+      "byteOffset": 0,
+      "min": [
+        -2.1117630004882812,
+        -68.77596282958984,
+        -68.77596282958984
+      ],
+      "max": [
+        6.603829860687256,
+        68.77596282958984,
+        68.77596282958984
+      ]
+    },
+    {
+      "bufferView": 8,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 512,
+      "byteOffset": 12,
+      "min": [
+        -1,
+        -0.9998660087585449,
+        -0.9998660087585449
+      ],
+      "max": [
+        6.215894213935094e-27,
+        0.9998660087585449,
+        0.9998660087585449
+      ]
+    },
+    {
+      "bufferView": 8,
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 512,
+      "byteOffset": 24,
+      "min": [
+        0.007803008891642094,
+        0.6991277933120728
+      ],
+      "max": [
+        0.30110305547714233,
+        0.9924278259277344
+      ]
+    },
+    {
+      "bufferView": 9,
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 192,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        64
+      ]
+    },
+    {
+      "bufferView": 10,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 65,
+      "byteOffset": 0,
+      "min": [
+        -2.1117630004882812,
+        -50.437408447265625,
+        -50.437408447265625
+      ],
+      "max": [
+        -2.1117630004882812,
+        50.437408447265625,
+        50.437408447265625
+      ]
+    },
+    {
+      "bufferView": 10,
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 65,
+      "byteOffset": 12,
+      "min": [
+        -1,
+        0,
+        0
+      ],
+      "max": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 65,
+      "byteOffset": 24,
+      "min": [
+        0.5722928047180176,
+        0.52094566822052
+      ],
+      "max": [
+        0.7496591806411743,
+        0.6983120441436768
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 13644,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13644,
+      "byteLength": 53536,
+      "target": 34962,
+      "byteStride": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67180,
+      "byteLength": 180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67360,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67372,
+      "byteLength": 128,
+      "target": 34962,
+      "byteStride": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67500,
+      "byteLength": 9912,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 77412,
+      "byteLength": 40032,
+      "target": 34962,
+      "byteStride": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 117444,
+      "byteLength": 3072,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120516,
+      "byteLength": 16384,
+      "target": 34962,
+      "byteStride": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 136900,
+      "byteLength": 384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 137284,
+      "byteLength": 2080,
+      "target": 34962,
+      "byteStride": 32
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "washer_data.bin",
+      "byteLength": 139364
+    }
+  ],
+  "images": [
+    {
+      "uri": "washer_img0.jpg"
+    },
+    {
+      "uri": "washer_img1.png"
+    },
+    {
+      "uri": "washer_img2.jpg"
+    },
+    {
+      "uri": "washer_img3.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "name": "Washer_inside",
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "name": "Washer_shadow",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": false
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.1,
+          1
+        ],
+        "metallicFactor": 0.4,
+        "roughnessFactor": 0.7
+      },
+      "name": "Washer_body",
+      "emissiveFactor": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "emissiveTexture": {
+        "index": 4
+      },
+      "name": "Washer_window",
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": false
+    }
+  ],
+  "animations": [
+    {
+      "samplers": [
+        {
+          "input": 4,
+          "interpolation": "LINEAR",
+          "output": 5
+        }
+      ],
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        }
+      ]
+    }
+  ]
+}

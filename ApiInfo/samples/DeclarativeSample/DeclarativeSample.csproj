@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net8.0-tizen10.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Tizen.UI" Version="1.0.0-rc.5" />
+    	<PackageReference Include="Tizen.UI.Layouts" Version="1.0.0-rc.5" />
+	</ItemGroup>
+</Project>

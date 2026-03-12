@@ -1,0 +1,64 @@
+# csproj file path
+csproj_file: DeclarativeSample.csproj
+
+# Default profile, Tizen API version
+profile: tizen
+api_version: "10.0"
+
+# Build type [Debug/ Release/ Test]
+build_type: Debug
+
+# Output path for build
+output_path: ""
+
+# Signing profile to be used for Tizen package signing
+# If value is empty: "", active signing profile will be used
+# Else If value is ".", default signing profile will be used
+signing_profile: ""
+
+# files monitored for dirty/modified status
+files:
+  - DeclarativeSample.csproj
+  - HomeView.Design.cs
+  - HomeView.cs
+  - Main.cs
+  - Util/Button.cs
+  - res/HomeView/image_0501bb48512e3551323d2486d436d24018bc789a.png
+  - res/HomeView/image_354d454ca0c96093a60f0ee48a77e66a6f769844.png
+  - res/HomeView/image_377eaa519bb20bdae1909487010ad32b64f808e3.png
+  - res/HomeView/image_3d2f6723c816fbb21fa18f2bf9573dbb86a07437.png
+  - res/HomeView/image_3e83f6b03e556aec7db575c238edf119014906a6.png
+  - res/HomeView/image_437ae45c913a51d2bcd8d3039d9d37f970c5d8ce.png
+  - res/HomeView/image_45ba345bbd40cc8cfe07eb859371f314c5ac3c1f.png
+  - res/HomeView/image_47c1f7d71098e0c6a87052ab7499b4ca7b967c9a.png
+  - res/HomeView/image_4f776b1e273220301bdc74c26a7bf64ef7fe9429.png
+  - res/HomeView/image_5d8435f15dbf7f8c83d077e48dfa18812b208c34.png
+  - res/HomeView/image_61b42c24de586936a213c4a8095c2f200f85a211.png
+  - res/HomeView/image_63df5fae2b4130161d55a8266a6702e20980071c.png
+  - res/HomeView/image_6782d2ef946031d0082350e5ab8ddff32840f2fb.png
+  - res/HomeView/image_688d6bbe4e90c8ee67604af15970ada12ed848d9.png
+  - res/HomeView/image_6a5438811e38db84b5cbf3951139d6b7fcee4f50.png
+  - res/HomeView/image_730f1fe85421951b45279847df3e2aa225331b22.png
+  - res/HomeView/image_7869bd74985903b244c81a849a10a93dcbc244a4.png
+  - res/HomeView/image_7aed9bc7eecc996e9fd1b4a80417a262eafacc1a.png
+  - res/HomeView/image_7b05959d8404880dee9416b42dcf7b5101312159.png
+  - res/HomeView/image_81686795cdfa042244bb9be31844766808577214.png
+  - res/HomeView/image_8a57e79194b0c098f3e904f2075fe8c78c8a7757.png
+  - res/HomeView/image_8c69435f6623fb63639ee11eb2ef8c12e59cd7e2.png
+  - res/HomeView/image_9794436308e9b0a94233cc27310602e12d57925d.png
+  - res/HomeView/image_a39768fe3d6c30cdab2862148ef27ad0f500b34d.png
+  - res/HomeView/image_a60912bd871a95dcd5282e1169cd83bda38893fc.png
+  - res/HomeView/image_b4151edac073a3ef18e6149b2bd778576a72208c.png
+  - res/HomeView/image_b75595be5a8d63d61ee5d416e9ea43049d73dcb8.png
+  - res/HomeView/image_bdf20c83edb9cc3b1c96b1ba2a1bd630b0fb26bc.png
+  - res/HomeView/image_bedcce857199c251bace03ea5704f6b5b3c3d30b.png
+  - res/HomeView/image_d17b52bb046b52b3be7f87254f943f45595d77f5.png
+  - res/HomeView/image_e1770480d25ca6787d718cebf4b06a9eabf44f44.png
+  - res/HomeView/image_f15e3e559bb542faf10eb7673db400ad6e96ce5e.png
+  - res/HomeView/image_fbbf8b0e6bd95d8051ccbae3534dd2c5cd72e392.png
+  - res/HomeView/image_undefined.png
+  - shared/res/DeclarativeSample.png
+  - tizen-manifest.xml
+
+# project dependencies
+deps: []

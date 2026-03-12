@@ -1,0 +1,43 @@
+# csproj file path
+csproj_file: Tizen.UI.Visuals.TestApp.csproj
+
+# Default profile, Tizen API version
+profile: tizen
+api_version: "10.0"
+
+# Build type [Debug/ Release/ Test]
+build_type: Debug
+
+# Output path for build
+output_path: ""
+
+# Signing profile to be used for Tizen package signing
+# If value is empty: "", active signing profile will be used
+# Else If value is ".", default signing profile will be used
+signing_profile: ""
+
+# files monitored for dirty/modified status
+files:
+  - ITestCase.cs
+  - Main.cs
+  - Resource/Strings.Designer.cs
+  - Resource/Strings.ko-KR.resx
+  - Resource/Strings.resx
+  - TC/AddRemoveTest.cs
+  - TC/AnimationTest1.cs
+  - TC/BlurTest.cs
+  - TC/LayerTest.cs
+  - TC/MemoryProfile_ViewCompose.cs
+  - TC/Test1.cs
+  - TC/TextLocalizeTest.cs
+  - TestList.cs
+  - Tizen.UI.Visuals.TestApp.csproj
+  - Util/Button.cs
+  - res/dotnet_bot.png
+  - res/keyboard_focus.9.png
+  - res/svgtest1.svg
+  - shared/res/VisualObjectTest.png
+  - tizen-manifest.xml
+
+# project dependencies
+deps: []

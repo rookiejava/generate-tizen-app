@@ -1,0 +1,486 @@
+﻿#if API12_OR_GREATER
+
+using OneUIGallery.Util;
+using Tizen.UI;
+using Tizen.UI.Layouts;
+
+namespace OneUIGallery.TC
+{
+    public class MaskRenderEffectTest : Grid, ITestCase
+    {
+        const int WINDOW_WIDTH = 1920;
+        const int WINDOW_HEIGHT = 1080;
+        const int IMAGE_WIDTH = 1920;
+        const int IMAGE_HEIGHT = 700;
+        const int BOTTOM_HEIGHT = 200;
+        const int TARGET_WIDTH = 200;
+        const int LABEL_POINT_SIZE = 200;
+        const int SMALL_LABEL_POINT_SIZE = 20;
+        const int BUTTON_WIDTH = 300;
+        const int BUTTON_HEIGHT = 100;
+        const float positionX = 0.0f;
+        const float positionY = 0.0f;
+        const float scaleX = 1.0f;
+        const float scaleY = 1.0f;
+        private HStack ButtonView;
+        private ViewGroup ImageView;
+        private HStack BottomView;
+        private ViewGroup TargetView;
+        private ViewGroup SourceView;
+        private int TargetImageMode = 1;
+        private int SourceImageMode = 1;
+        private MaskEffectMode maskMode = MaskEffectMode.Alpha;
+        private View TargetImage1;
+        private ImageView TargetImage2;
+        private TextView SourceImage1;
+        private ImageView SourceImage2;
+        private View SmallTargetImage1;
+        private ImageView SmallTargetImage2;
+        private TextView SmallSourceImage1;
+        private ImageView SmallSourceImage2;
+        private MaskEffect renderEffect;
+        private ColorBackground backgroundVisual;
+        private bool targetMaskOnce = false;
+        private bool sourceMaskOnce = false;
+
+        public MaskRenderEffectTest()
+        {
+            WidthResizePolicy = ResizePolicy.FillToParent;
+            HeightResizePolicy = ResizePolicy.FillToParent;
+            BackgroundColor = new Color(0.8f, 0.8f, 0.8f, 1f);
+
+            Add(new ScrollView
+            {
+                Padding = 10,
+                Content = new VStack
+                {
+                    Name = "VStack",
+                    BackgroundColor = Color.Green,
+                }
+            });
+
+            ButtonView = new HStack
+            {
+                PositionUsesPivotPoint = true,
+                PivotPoint = OriginPoint.TopLeft,
+                ParentOrigin = OriginPoint.TopLeft,
+                DesiredWidth = WINDOW_WIDTH,
+                DesiredHeight = WINDOW_HEIGHT - IMAGE_HEIGHT - BOTTOM_HEIGHT
+            };
+
+            Button MaskTarget1Button = new Button("MaskTarget1")
+            {
+                BackgroundColor = Color.Red,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(MaskTarget1Button);
+            MaskTarget1Button.Clicked = () =>
+            {
+                TargetImageMode = 1;
+                TargetView.Add(SmallTargetImage1);
+                EnableRenderEffect();
+            };
+
+            Button MaskTarget2Button = new Button("MaskTarget2")
+            {
+                BackgroundColor = Color.Red,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(MaskTarget2Button);
+            MaskTarget2Button.Clicked = () =>
+            {
+                TargetImageMode = 2;
+                TargetView.Add(SmallTargetImage2);
+                EnableRenderEffect();
+            };
+
+            Button AlphaMaskModeButton = new Button("AlphaMaskMode")
+            {
+                BackgroundColor = Color.Blue,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(AlphaMaskModeButton);
+            AlphaMaskModeButton.Clicked = () =>
+            {
+                SourceImageMode = 1;
+                ImageView.Add(SourceImage1);
+                SourceView.Add(SmallSourceImage1);
+                maskMode = MaskEffectMode.Alpha;
+                EnableRenderEffect();
+            };
+
+            Button LuminanceMaskModeButton = new Button("LuminanceMaskMode")
+            {
+                BackgroundColor = Color.Blue,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(LuminanceMaskModeButton);
+            LuminanceMaskModeButton.Clicked = () =>
+            {
+                SourceImageMode = 2;
+                ImageView.Add(SourceImage2);
+                SourceView.Add(SmallSourceImage2);
+                maskMode = MaskEffectMode.Luminance;
+                EnableRenderEffect();
+            };
+
+            Button TargetMaskOnceButton = new Button("TargetMaskOnce")
+            {
+                BackgroundColor = Color.Green,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(TargetMaskOnceButton);
+            TargetMaskOnceButton.Clicked = () =>
+            {
+                targetMaskOnce = !targetMaskOnce;
+                renderEffect.TargetMaskOnce = targetMaskOnce;
+            };
+
+            Button SourceMaskOnceButton = new Button("SourceMaskOnce")
+            {
+                BackgroundColor = Color.Green,
+                DesiredWidth = BUTTON_WIDTH,
+                DesiredHeight = BUTTON_HEIGHT
+            };
+            ButtonView.Add(SourceMaskOnceButton);
+            SourceMaskOnceButton.Clicked = () =>
+            {
+                sourceMaskOnce = !sourceMaskOnce;
+                renderEffect.SourceMaskOnce = sourceMaskOnce;
+            };
+
+            backgroundVisual = new ColorBackground
+            {
+                Color = Color.Black
+            };
+
+            ImageView = new ViewGroup
+            {
+                DesiredWidth = IMAGE_WIDTH,
+                DesiredHeight = IMAGE_HEIGHT,
+                PivotPoint = OriginPoint.TopLeft,
+                ParentOrigin = OriginPoint.TopLeft,
+            };
+            ImageView.SetBackground(backgroundVisual);
+
+            TargetImage1 = new View()
+            {
+                DesiredWidth = IMAGE_WIDTH,
+                DesiredHeight = IMAGE_HEIGHT,
+                PivotPoint = OriginPoint.TopLeft,
+                ParentOrigin = OriginPoint.TopLeft,
+                PositionUsesPivotPoint = true,
+            };
+
+            var gradient = new LinearGradientBackground();
+            gradient.GradientStops.Add(new(Color.Red, 0.0f));
+            gradient.GradientStops.Add(new(Color.Green, 0.5f));
+            gradient.GradientStops.Add(new(Color.Blue, 1.0f));
+            gradient.StartPoint = new(0, 0);
+            gradient.EndPoint = new(WINDOW_WIDTH, WINDOW_HEIGHT);
+            TargetImage1.SetBackground(gradient);
+
+            string resourcePath = Tizen.Applications.Application.Current.DirectoryInfo.Resource;
+            TargetImage2 = makeImageView(resourcePath + "/MaskEffectSample/ocean.gif");
+
+            SourceImage1 = new TextView
+            {
+                DesiredWidth = IMAGE_WIDTH,
+                DesiredHeight = IMAGE_HEIGHT,
+                Text = "Hello, World!",
+                FontSize = LABEL_POINT_SIZE,
+                HorizontalAlignment = TextAlignment.Center,
+                VerticalAlignment = TextAlignment.Center,
+            };
+
+            SourceImage2 = makeImageView(resourcePath + "/MaskEffectSample/blackwhite.gif");
+
+            ImageView.Add(TargetImage1);
+            ImageView.Add(SourceImage1);
+
+            renderEffect = RenderEffect.CreateMaskEffect(SourceImage1);
+            TargetImage1.SetRenderEffect(renderEffect);
+
+            BottomView = new HStack
+            {
+                DesiredWidth = WINDOW_WIDTH,
+                DesiredHeight = BOTTOM_HEIGHT,
+                PositionUsesPivotPoint = true,
+                PivotPoint = OriginPoint.TopLeft,
+                ParentOrigin = OriginPoint.TopLeft,
+            };
+
+            TargetView = new ViewGroup()
+            {
+                DesiredWidth = TARGET_WIDTH,
+                DesiredHeight = BOTTOM_HEIGHT,
+            };
+            SourceView = new ViewGroup()
+            {
+                DesiredWidth = TARGET_WIDTH,
+                DesiredHeight = BOTTOM_HEIGHT,
+            };
+
+            TextView targetLabel = new TextView
+            {
+                Text = "TARGET: ",
+            }.Margin(100, 50, 0, 0);
+            TextView sourceLabel = new TextView
+            {
+                Text = "SOURCE: ",
+            }.Margin(100, 50, 0, 0);
+
+            BottomView.Add(targetLabel);
+            BottomView.Add(TargetView);
+            BottomView.Add(sourceLabel);
+            BottomView.Add(SourceView);
+
+            SmallTargetImage1 = new View()
+            {
+                DesiredWidth = TARGET_WIDTH,
+                DesiredHeight = BOTTOM_HEIGHT,
+                ParentOrigin = OriginPoint.TopLeft,
+                PivotPoint = OriginPoint.TopLeft,
+                PositionUsesPivotPoint = true,
+            };
+
+            var gradient2 = new LinearGradientBackground();
+            gradient2.GradientStops.Add(new(Color.Red, 0.0f));
+            gradient2.GradientStops.Add(new(Color.Green, 0.5f));
+            gradient2.GradientStops.Add(new(Color.Blue, 1.0f));
+            gradient2.StartPoint = new(0, 0);
+            gradient2.EndPoint = new(TARGET_WIDTH, BOTTOM_HEIGHT);
+            SmallTargetImage1.SetBackground(gradient2);
+
+            SmallTargetImage2 = makeImageView(resourcePath + "/images/MaskEffectSample/ocean.gif");
+
+            SmallSourceImage1 = new TextView
+            {
+                DesiredWidth = TARGET_WIDTH,
+                DesiredHeight = BOTTOM_HEIGHT,
+                Text = "Hello, World!",
+                FontSize = SMALL_LABEL_POINT_SIZE,
+                TextColor = Color.Black,
+                HorizontalAlignment = TextAlignment.Center,
+                VerticalAlignment = TextAlignment.Center,
+            };
+
+            SmallSourceImage2 = makeImageView(resourcePath + "/images/MaskEffectSample/blackwhite.gif");
+            TargetView.Add(SmallTargetImage1);
+            SourceView.Add(SmallSourceImage1);
+
+            (this["VStack"] as Layout).Children.Add(ButtonView);
+            (this["VStack"] as Layout).Children.Add(ImageView);
+            (this["VStack"] as Layout).Children.Add(BottomView);
+
+            //RowDefinitions.Add(100);
+            //RowDefinitions.Add(GridLength.Star);
+
+            //Add(new TextView
+            //{
+            //    BackgroundColor = Color.FromHex("#D1FFBD"),
+            //    VerticalAlignment = TextAlignment.Center,
+            //    HorizontalAlignment = TextAlignment.Center,
+            //    Text = "RenderEffect Test",
+            //    FontSize = 30,
+            //});
+
+            //var target = new View
+            //{
+            //    DesiredHeight = 300,
+            //    DesiredWidth = 300,
+            //    BackgroundColor = Color.Violet,
+            //}.VerticalLayoutAlignment(LayoutAlignment.Center).HorizontalLayoutAlignment(LayoutAlignment.Center).Row(1);
+            //Add(target);
+
+            //Add(new AbsoluteLayout
+            //{
+            //    new AbsoluteLayout
+            //    {
+            //        ClippingMode = ClippingMode.ClipChildren,
+            //        BorderlineColor = Color.Black,
+            //        BorderlineOffset = -1,
+            //        BorderlineWidth = 1,
+            //        CornerRadius = 20,
+            //        DesiredHeight = 300,
+            //        DesiredWidth = 400,
+            //        Name = "Target",
+            //        Children =
+            //        {
+            //            new ImageView
+            //            {
+            //                ResourceUrl = "dotnet_bot.png",
+            //                Name = "Image",
+            //                DesiredHeight = 100,
+            //                DesiredWidth = 100,
+            //            }.LayoutBounds(0.5f, 0.5f, -1, -1).LayoutFlags(AbsoluteLayoutFlags.PositionProportional),
+            //            new TextView
+            //            {
+            //                Name = "Text",
+            //                Text = "Hello"
+            //            }
+            //        }
+            //    }.LayoutBounds(100, 100, -1, -1).LayoutFlags(AbsoluteLayoutFlags.None),
+
+            //    new ImageView
+            //    {
+            //        Name = "ImageTarget2",
+            //        ResourceUrl = "img2.png"
+            //    }.LayoutBounds(300, 300, 200, 300).LayoutFlags(AbsoluteLayoutFlags.None),
+
+            //    new HStack
+            //    {
+            //        new Button("BackdropEffect to TextView")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["Text"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+            //            }
+            //        },
+            //        new Button("BackdropEffect to Image")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["Image"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+            //            }
+            //        },
+            //        new Button("GaussianBlur to Photo")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["ImageTarget2"].SetRenderEffect(RenderEffect.CreateGaussianBlurEffect(20));
+            //            }
+            //        },
+            //        new Button("BackdropEffect to Box")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["Target"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+            //            }
+            //        },
+            //        new Button("Resize Box")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["Target"].DesiredHeight += 30;
+            //                this["Target"].DesiredWidth += 30;
+            //            }
+            //        },
+            //        new Button("Update TextView Text")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                (this["Text"] as TextView).Text += "!";
+            //            }
+            //        },
+            //        new Button("Clear")
+            //        {
+            //            Clicked = () =>
+            //            {
+            //                this["Text"].SetRenderEffect(null);
+            //                this["Image"].SetRenderEffect(null);
+            //                this["Target"].SetRenderEffect(null);
+            //                this["ImageTarget2"].SetRenderEffect(null);
+            //            }
+            //        }
+            //    }.Spacing(10)
+
+            //}.Row(1).Background(new ImageBackground
+            //{
+            //    Url = "bg.png"
+            //}));
+
+            //UIApplication.Current.PostToUI(() =>
+            //{
+            //    this["Image"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+            //    this["Text"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+            //});
+
+            //this["Target"].SetRenderEffect(RenderEffect.CreateBackdropBlurEffect(30));
+
+            //var pan = new PanGestureDetector();
+            //pan.Attach(this["Target"]);
+            //pan.Attach(this["ImageTarget2"]);
+            //pan.Detected += (s, e) => {
+            //    var bound = (e.View).AbsoluteParam().LayoutBounds;
+            //    bound.X += e.Gesture.ScreenDisplacement.X;
+            //    bound.Y += e.Gesture.ScreenDisplacement.Y;
+            //    (e.View).LayoutBounds(bound.X, bound.Y, bound.Width, bound.Height);
+            //};
+        }
+
+        public void Activate()
+        {
+            Window.Default.DefaultLayer.Add(this);
+        }
+
+        public void Deactivate()
+        {
+            Dispose();
+        }
+
+        void EnableRenderEffect()
+        {
+            TargetImage1.SetRenderEffect(null);
+            TargetImage2.SetRenderEffect(null);
+
+            if (TargetImageMode == 1)
+            {
+                ImageView.Add(TargetImage1);
+
+                if (SourceImageMode == 1)
+                {
+                    renderEffect = RenderEffect.CreateMaskEffect(SourceImage1, maskMode, new Point(positionX, positionY), new Point(scaleX, scaleY));
+                    renderEffect.TargetMaskOnce = targetMaskOnce;
+                    renderEffect.SourceMaskOnce = sourceMaskOnce;
+                    TargetImage1.SetRenderEffect(renderEffect);
+                }
+                else
+                {
+                    renderEffect = RenderEffect.CreateMaskEffect(SourceImage2, maskMode, new Point(positionX, positionY), new Point(scaleX, scaleY));
+                    renderEffect.TargetMaskOnce = targetMaskOnce;
+                    renderEffect.SourceMaskOnce = sourceMaskOnce;
+                    TargetImage1.SetRenderEffect(renderEffect);
+                }
+            }
+            else
+            {
+                ImageView.Add(TargetImage2);
+
+                if (SourceImageMode == 1)
+                {
+                    renderEffect = RenderEffect.CreateMaskEffect(SourceImage1, maskMode, new Point(positionX, positionY), new Point(scaleX, scaleY));
+                    renderEffect.TargetMaskOnce = targetMaskOnce;
+                    renderEffect.SourceMaskOnce = sourceMaskOnce;
+                    TargetImage2.SetRenderEffect(renderEffect);
+                }
+                else
+                {
+                    renderEffect = RenderEffect.CreateMaskEffect(SourceImage2, maskMode, new Point(positionX, positionY), new Point(scaleX, scaleY));
+                    renderEffect.TargetMaskOnce = targetMaskOnce;
+                    renderEffect.SourceMaskOnce = sourceMaskOnce;
+                    TargetImage2.SetRenderEffect(renderEffect);
+                }
+            }
+        }
+
+        ImageView makeImageView(string url)
+        {
+            var image = new ImageView
+            {
+                ResourceUrl = url,
+                HeightResizePolicy = ResizePolicy.FillToParent,
+                WidthResizePolicy = ResizePolicy.FillToParent,
+            };
+
+            return image;
+        }
+    }
+}
+
+#endif

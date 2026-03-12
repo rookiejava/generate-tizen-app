@@ -1,0 +1,184 @@
+{
+    "images": [
+        {
+            "uri": "./reduce_image/Eye_Iris_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eye_Iris_AoRoughnessMetallic.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eye_Iris_b09576_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Head_Female_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Head_AoRoughnessMetallic.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Mouth_Female_Caucasian_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Hair_normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/ao_met_rough_Hair_ao_Hair_metal_Hair_rough.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Hair_albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyebrow_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyebrow_aometrough.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyebrow_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyelash_Dot03_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyelash_Dot03_AMR.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Eyelash_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/SS004_Normal_512_512.PNG",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/SS004_AoRoughnessMetal_512_512.PNG",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/SS004_Mask_512_512.PNG",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/outfit38_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/ao_met_rough_outfit38_AO_outfit38_Metal_outfit38_Roughness.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/outfit38_Mask_Check_1024_1024.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Earring_Earring11_TextureSet01_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/ao_met_rough_Earring11_Ao_Earring11_Metallic_Earring11_Roughness.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Earring_Earring11_TextureSet01_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Body_Female_Caucasian_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Body_Female_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Body_Female_aoMetallicRoughness.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Head_Female_Caucasian_Albedo.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Head_Female_Normal.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        },
+        {
+            "uri": "./reduce_image/Head_aoMetallicRoughness.png",
+            "minWidth": 128,
+            "minHeight": 128,
+            "sampingMode": "BOX_THEN_LINEAR"
+        }
+    ]
+}

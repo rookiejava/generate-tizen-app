@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net8.0-tizen10.0</TargetFrameworks>
+	</PropertyGroup>
+	<ItemGroup>
+	    <PackageReference Include="Tizen.UI" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Skia" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Tools" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Layouts" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Primitives2D" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.WindowBorder" Version="1.0.0-rc.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resource\Strings.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Strings.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resource\Strings.ko-KR.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Strings.ko-KR.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Resource\Strings.ko-KR.resx">
+			<LastGenOutput>Strings.ko-KR.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resource\Strings.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Strings.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+</Project>

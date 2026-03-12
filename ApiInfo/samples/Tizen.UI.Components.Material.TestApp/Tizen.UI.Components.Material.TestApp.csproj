@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net8.0-tizen10.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DefineConstants>$(DefineConstants);$(CustomDefineConstants);USE_DUMMY_FONT_SCALE_LOADER</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="TC\StaggeredGridTest.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Tizen.UI.Components.Material" Version="1.0.0-rc.5" />
+		<PackageReference Include="Tizen.UI.Tools" Version="1.0.0-rc.5" />
+	</ItemGroup>
+</Project>
